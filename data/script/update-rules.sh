@@ -35,7 +35,7 @@ rules=(
   "https://raw.githubusercontent.com/qq5460168/-/main/white.txt" #白名单
   "https://raw.githubusercontent.com/loveqqzj/AdGuard/master/Mobile.txt" #loveqqzj
   "https://raw.githubusercontent.com/coco86p1sz/Self-use_AdguardRules/master/Self-userPhoneAdguardRules.txt" #coco86p1sz
-  "" #
+  "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Blacklist.txt" #mphin
   "" #
   "" #
  
@@ -45,7 +45,7 @@ rules=(
 
 allow=(
  "https://raw.githubusercontent.com/qq5460168/-/main/white.txt" #
-  ""
+  "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt"
   ""
   ""
 )
