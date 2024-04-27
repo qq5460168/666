@@ -26,13 +26,13 @@ cd tmp
 
 echo '下载规则'
 rules=(
-  "https://hub.gitmirror.com/https://raw.githubusercontent.com/qq5460168/-/main/black.txt" #5460
+  "https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt" #5460
   "https://ghproxy.net/https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #大萌主
   "https://ghproxy.net/https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt"  #DD
   "https://raw.gitmirror.com/Cats-Team/dns-filter/main/abp.txt" #AdRules DNS Filter
   "https://raw.hellogithub.com/hosts" #GitHub加速
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/0608.txt" #测试hosts
-  "https://raw.githubusercontent.com/qq5460168/-/main/white.txt" #白名单
+  "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt" #白名单
   "https://raw.githubusercontent.com/loveqqzj/AdGuard/master/Mobile.txt" #loveqqzj
   "https://raw.githubusercontent.com/coco86p1sz/Self-use_AdguardRules/master/Self-userPhoneAdguardRules.txt" #coco86p1sz
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Blacklist.txt" #mphin
@@ -44,7 +44,7 @@ rules=(
  )
 
 allow=(
- "https://raw.githubusercontent.com/qq5460168/-/main/white.txt" #
+ "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt" #
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt"
   ""
   ""
