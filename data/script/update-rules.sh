@@ -11,39 +11,29 @@ mkdir -p ./tmp/
 cp ./data/rules/adblock.txt ./tmp/rules01.txt
 cp ./data/rules/whitelist.txt ./tmp/allow01.txt
 
-cd tmp
-#下载yhosts规则
-curl https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts | sed '/0.0.0.0 /!d; /#/d; s/0.0.0.0 /||/; s/$/\^/' > rules001.txt
 
-#下载大圣净化规则
-curl https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts > rules002.txt
-sed -i '/视频/d;/奇艺/d;/微信/d;/localhost/d' rules002.txt
-sed -i '/127.0.0.1 /!d; s/127\.0\.0\.1 /||/; s/$/\^/' rules002.txt
-
-#下载乘风视频过滤规则
-curl https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt | awk '!/^$/{if($0 !~ /[#^|\/\*\]\[\!]/){print "||"$0"^"} else if($0 ~ /[#\$|@]/){print $0}}' | sort -u > rules003.txt
 
 
 echo '下载规则'
 rules=(
-  "https://filters.adtidy.org/android/filters/2_optimized.txt" #adg基础过滤器
-  "https://filters.adtidy.org/android/filters/11_optimized.txt" #adg移动设备过滤器
-  "https://filters.adtidy.org/android/filters/17_optimized.txt"  #adgURL过滤器
-  "https://filters.adtidy.org/android/filters/3_optimized.txt" #adg防跟踪
-  "https://filters.adtidy.org/android/filters/224_optimized.txt" #adg中文过滤器
-  "https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt" #Tv规则
-  "https://easylist-downloads.adblockplus.org/easyprivacy.txt" #EasyPrivacy隐私保护规则
-  "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载提示规则
-  "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock" #d3ward规则
-  "https://small.oisd.nl/" #oisd规则
+  "https://hub.gitmirror.com/https://raw.githubusercontent.com/qq5460168/-/main/black.txt" #5460
+  "https://ghproxy.net/https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #大萌主
+  "https://ghproxy.net/https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt"  #DD
+  "https://raw.gitmirror.com/Cats-Team/dns-filter/main/abp.txt" #AdRules DNS Filter
+  "https://raw.hellogithub.com/hosts" #GitHub加速
+  "https://raw.githubusercontent.com/qq5460168/dangchu/main/0608.txt" #测试hosts
+  "https://raw.githubusercontent.com/qq5460168/-/main/white.txt" #白名单
+  "" #
+  "" #
+  "" #
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
  )
 
 allow=(
-  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/allowlist.txt"
-  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/allowlist.txt"
-  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/allowlist.txt"
-  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/allowlist.txt"
+ "https://raw.githubusercontent.com/qq5460168/-/main/white.txt" #白名单
+  ""
+  ""
+  ""
 )
 
 for i in "${!rules[@]}" "${!allow[@]}"
