@@ -30,7 +30,7 @@ rules=(
  )
 
 allow=(
- "https://raw.githubusercontent.com/qq5460168/-/main/white.txt" #白名单
+ "https://raw.githubusercontent.com/qq5460168/-/main/white.txt" #
   ""
   ""
   ""
