@@ -33,9 +33,13 @@ rules=(
   "https://raw.hellogithub.com/hosts" #GitHub加速
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/0608.txt" #测试hosts
   "https://raw.githubusercontent.com/qq5460168/-/main/white.txt" #白名单
+  "https://raw.githubusercontent.com/loveqqzj/AdGuard/master/Mobile.txt" #loveqqzj
   "" #
   "" #
   "" #
+  "" #
+ 
+  
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
  )
 
