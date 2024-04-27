@@ -1,5 +1,5 @@
 <div align="center">
-<h1 align="center">GOODBYEADS<br>一个强力去广告的规则</h1>
+<h1 align="center"><br>一个强力去广告的规则</h1>
 <p>
   <a href="https://github.com/8680/GOODBYEADS">
     <img src="https://img.shields.io/github/last-commit/8680/GOODBYEADS?style=flat-square" alt="last update" />
