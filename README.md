@@ -58,17 +58,6 @@ DNS拦截规则数量: 6598
 <summary>点击查看</summary>
 <ul>
 
-- [AdGuard规则](https://github.com/AdguardTeam/AdguardFilters)
-- [Tv规则](https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt)
-- [yhosts规则](https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts)
-- [大圣净化规则](https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-- [EasyPrivacy隐私保护规则](https://easylist-downloads.adblockplus.org/easyprivacy.txt)
-- [乘风视频过滤规则](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt)
-- [去APP下载提示规则](https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt)
-- [d3ward规则](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock)
-- [oisd规则](https://small.oisd.nl/)
-- [秋风规则](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt)
-- [补充规则](https://github.com/8680/GOODBYEADS)
 </ul>
 </details>
 
