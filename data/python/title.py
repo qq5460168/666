@@ -19,8 +19,8 @@ for file_path in file_list:
     line_count = content.count('\n') + 1
 
     # 在文件顶部插入内容
-    new_content = f"[Adblock Plus 2.0]\n" \
-                  f"去广告规则，反馈🐧群930869948\n" \
+    new_content = f"[个人合并 2.0]\n" \
+                  f"! Title: 去广告规则，反馈🐧群930869948\n" \
                   f"! Homepage: https://github.com/qq5460168/666\n" \
                   f"! Expires: 12 Hours\n" \
                   f"! Version: {beijing_time}（北京时间）\n" \
