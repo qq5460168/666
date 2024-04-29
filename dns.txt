@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-04-29 12:17:07（北京时间）
+! Version: 2024-04-29 16:18:53（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 6597
+! Total count: 6591
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.wtzw.com^
@@ -1584,8 +1584,6 @@
 ||config.unityads.unity3d.com^
 ||configv2.unityads.unitychina.cn^
 ||confinfo.map.qq.com^
-||conn-service-cn-04.allawntech.com^
-||conn-service-cn-05.allawntech.com^
 ||connectreadoasis.com^
 ||content-autofill.googleapis.com^
 ||cookie-law-enforcement-qq.xyz^
@@ -2666,7 +2664,6 @@
 ||httpdns.bilivideo.com^
 ||httpdns.danuoyi.tbcache.com^
 ||httpdns.gslb.yy.com^
-||httpdns.huaweicloud.com^
 ||httpdns.kg.qq.com^
 ||httpdns.kwd.inkuai.com^
 ||httpdns.meituan.com^
@@ -2676,7 +2673,6 @@
 ||httpdns.platform.dbankcloud.cn^
 ||httpdns.pro^
 ||httpdns.push.heytapmobi.com^
-||httpdns.push.oppomobile.com^
 ||httpdns.tantanapp.com^
 ||httpdns.volcengineapi.com^
 ||httpdns.yunxindns.com^
@@ -3656,8 +3652,6 @@
 ||mdevstat.qqlive.qq.com^
 ||mdhxyhl.cn^
 ||mdkjefq.cn^
-||mdp-appconf-in.heytapdl.com^
-||mdp-usertrace-cn.heytapmobi.com^
 ||mdqhyxe.cn^
 ||mdqpkdne.xyz^
 ||mdt.qq.com^
