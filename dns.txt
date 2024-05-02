@@ -2,7 +2,7 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-02 16:18:10（北京时间）
+! Version: 2024-05-02 20:26:53（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 6680
 ||*-ad-sign.byteimg.com^
@@ -513,7 +513,6 @@
 ||ad.cyapi.cn^
 ||ad.dev.360.cn^
 ||ad.e.kuaishou.com^
-||ad.flurry.com^
 ||ad.gamebox.360.cn^
 ||ad.holmesmind.com^
 ||ad.infoseek.com^
@@ -603,7 +602,6 @@
 ||adlaunch.qingting.fm^
 ||adlaunch.qtfm.cn^
 ||adlink-api.huan.tv^
-||adlog.flurry.com^
 ||adlog.qingting.fm^
 ||adlog.vivo.com.cn^
 ||adm.hotjar.com^
@@ -663,7 +661,6 @@
 ||ads.chuanmeixing.com^
 ||ads.cup.com.cn^
 ||ads.exoclick.com^
-||ads.flurry.com^
 ||ads.games.laohu.com^
 ||ads.google.cn^
 ||ads.google.com^
@@ -4111,6 +4108,7 @@
 ||oiqwnfk.com^
 ||oiunga.com^
 ||oiuqwppcsdf.com^
+||oiwlnlu.com^
 ||ojbkmcsdx.xyz^
 ||ojen23sdg.cc^
 ||ok-11-cai.cc^
@@ -4290,7 +4288,6 @@
 ||pagespeed.report.qq.com^
 ||pageview.kgsz.cn^
 ||panchaxumbilic.com^
-||panglelog.gz.bcebos.com^
 ||pangolin-dsp-toutiao-b.com^
 ||pangolin-dsp-toutiao.com^
 ||pangolin-sdk-toutiao*.com^
@@ -5586,6 +5583,7 @@
 ||unypud.cn^
 ||uo12.com^
 ||uohvxrvd.xyz^
+||uoosqk.xyz^
 ||uop.umeng.com^
 ||uopsawxst.cyou^
 ||up-hl.3g.qq.com^
@@ -5809,6 +5807,7 @@
 ||vujzkkz.cn^
 ||vulrxr.xyz^
 ||vungle.com^
+||vuyibsm.icu^
 ||vv.nettierbrakier.com^
 ||vvdzucs.cn^
 ||vvfht.fun^
@@ -6335,6 +6334,7 @@
 ||yenauddk.com^
 ||yenyshy.com^
 ||yes-24-go.cc^
+||yfhtbdn.com^
 ||ygwdai.cn^
 ||ygxgk.cn^
 ||ygzqlnt.cn^
