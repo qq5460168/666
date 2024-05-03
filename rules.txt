@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-03 20:25:22（北京时间）
+! Version: 2024-05-04 00:18:20（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 11924
+! Total count: 11923
 
  ! 某些其他
  #晴雅规则
@@ -12,7 +12,7 @@
 # GitHub520 Host End
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
-# Update time: 2024-05-03T11:53:02+08:00
+# Update time: 2024-05-03T15:53:09+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [22号]
 # [360]
@@ -3366,8 +3366,9 @@
 142.250.157.188 alt5-mtalk.google.com
 142.251.10.188 alt7-mtalk.google.com
 142.251.8.188 alt6-mtalk.google.com
-151.101.193.194               github.global.ssl.fastly.net
-16.182.103.169                github-com.s3.amazonaws.com
+151.101.1.194                 github.global.ssl.fastly.net
+16.182.107.1                  github-production-user-asset-6210df.s3.amazonaws.com
+16.182.35.225                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 16.182.98.169                 github-production-release-asset-2e65be.s3.amazonaws.com
 183.136.207.132 bigota.d.miui.com
 183.136.207.132 hugeota.d.miui.com
@@ -3407,10 +3408,9 @@
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
-52.217.236.113                github-production-user-asset-6210df.s3.amazonaws.com
+52.217.194.97                 github-cloud.s3.amazonaws.com
+52.217.235.201                github-com.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-54.231.168.121                github-cloud.s3.amazonaws.com
-54.231.230.49                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.188.188 mtalk.google.com
 64.233.189.188 alt1-mtalk.google.com
@@ -11053,7 +11053,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||wdzwd.xyz^
 ||weather-analytics-events.apple.com^
 ||weather-community-drcn.weather.dbankcloud.cn^
-||weather-drcn.music.dbankcloud.cn^
 ||webcast*-open-hl.douyin.com^
 ||webcast-open.douyin.com^
 ||webcast.amemv.com^

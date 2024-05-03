@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-03 20:25:22（北京时间）
+! Version: 2024-05-04 00:18:20（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 6679
+! Total count: 6678
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.wtzw.com^
@@ -5890,7 +5890,6 @@
 ||wdzwd.xyz^
 ||weather-analytics-events.apple.com^
 ||weather-community-drcn.weather.dbankcloud.cn^
-||weather-drcn.music.dbankcloud.cn^
 ||webcast*-open-hl.douyin.com^
 ||webcast-open.douyin.com^
 ||webcast.amemv.com^
