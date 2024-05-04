@@ -34,7 +34,7 @@ rules=(
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/0608.txt" #测试hosts
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt" #白名单
   "https://raw.githubusercontent.com/loveqqzj/AdGuard/master/Mobile.txt" #loveqqzj
-  "https://raw.githubusercontent.com/coco86p1sz/Self-use_AdguardRules/master/Self-userPhoneAdguardRules.txt" #coco86p1sz
+
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Blacklist.txt" #mphin
   "" #
   "" #
