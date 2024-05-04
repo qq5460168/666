@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-04 12:18:03（北京时间）
+! Version: 2024-05-04 16:37:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 906
+! Total count: 916
 @@*.myapp.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
 @@.com/o.js$domain=2biqu.com
@@ -69,6 +69,7 @@
 @@||40017.cn^$important
 @@||7x24s.com^
 @@||96956.com.cn^$important
+@@||a0.app.xiaomi.com^$important
 @@||about.gitlab.cn^$important
 @@||ac.dun.163yun.com^
 @@||account.wps.cn^$important
@@ -129,6 +130,7 @@
 @@||api.sec.miui.com^$important
 @@||api.ts.feedback.qy.net^$important
 @@||api.tv.sohu.com^
+@@||api.twitter.com^$important
 @@||api.video.xiaomi.com^$important
 @@||api.vip.miui.com^$important
 @@||api.zhihu.com^$important
@@ -266,12 +268,14 @@
 @@||developer.apple.com$generichide
 @@||dfcfw.com^
 @@||dftoutiao.com^
+@@||dig.bdurl.net^$important
 @@||dig.lianjia.com^$important
 @@||dilidili.live^
 @@||direct.wap.zol.com.cn^
 @@||disneyplus.bn5x.net^$important
 @@||dj.1688.com^$important
 @@||dl.360safe.com^$important
+@@||dl.reg.163.com^$important
 @@||dldir1.qq.com^$important
 @@||dldir3.qq.com^$important
 @@||dm.toutiao.com^$important
@@ -381,6 +385,8 @@
 @@||gvt2.com^
 @@||gw-paopao.iqiyi.com^$important
 @@||gw.alicdn.com^$important
+@@||h-adashx.ut.taobao.com^$important
+@@||h.trace.qq.com^$important
 @@||h5.m.taobao.com^$important
 @@||h5.mse.360.cn^
 @@||haohuo.jinritemai.com^ 
@@ -575,6 +581,7 @@
 @@||orange-dc.alibaba.com^$important
 @@||orbit.jd.com^
 @@||oss-asq-static.11222.cn^$important
+@@||otheve.beacon.qq.com^$important
 @@||p*.music.126.net^$important
 @@||p16-tiktokcdn-com.akamaized.net^$important
 @@||p26-sign.toutiaoimg.com^$important
@@ -595,6 +602,7 @@
 @@||passport.youdao.com^$important
 @@||payapp.weixin.qq.com^
 @@||payapp.weixin.qq.com^$important
+@@||pbs.twimg.com^$important
 @@||pcvideoaliyun.titan.mgtv.com^$important#
 @@||pdc.micloud.xiaomi.net^$important
 @@||pepsico.com.cn^
@@ -704,6 +712,7 @@
 @@||ssl-cdn.static.browser.mi-img.com^$important
 @@||ssl.gstatic.com^$important
 @@||ssl.msdk.qq.com^
+@@||st.todesk.com^$important
 @@||stars.shuqireader.com^$important
 @@||stat.api.4399.com^
 @@||stat.funshion.com^$important
@@ -718,6 +727,7 @@
 @@||statics.itc.cn^$important
 @@||stats.gc.apple.com^
 @@||statsig.com^
+@@||statusapi.micloud.xiaomi.net^$important
 @@||store.heytapimage.com^$important
 @@||stripe.com$domain=pay.openai.com
 @@||studcat.infra.systems^$important
@@ -841,6 +851,7 @@
 @@||work.weixin.qq.com^$important
 @@||worldwide.sogou.com^$important
 @@||wqsd.jd.com
+@@||ws.ribaoapi.com^$important
 @@||ww1.lanzous.com^$important
 @@||ww12.lanzous.com^$important
 @@||wwo.wps.cn^$important
@@ -899,7 +910,6 @@
 @@||yun.duiba.com.cn^$important
 @@||yun.rili.cn^$important
 @@||yunjiasu.com^
-@@||yximgs.com^$important
 @@||z.weixin.qq.com^$important
 @@||zazhipu.com^
 @@||zconfig.alibabausercontent.com^

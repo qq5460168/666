@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-04 12:18:03（北京时间）
+! Version: 2024-05-04 16:37:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 11926
+! Total count: 11947
 
  ! 某些其他
  #晴雅规则
@@ -12,7 +12,8 @@
 # GitHub520 Host End
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
-# Update time: 2024-05-04T03:53:04+08:00
+# Todesk
+# Update time: 2024-05-04T07:52:59+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [22号]
 # [360]
@@ -31,15 +32,23 @@
 # [知乎]
 # [视频客户端过滤器]
 # [酷狗音乐]
+# twitter
 # 修复小米健康无法打开手表公交卡的问题
 # 头条搜索
 # 小米主题无法打开，小米推送失效
+# 小米云服务状态
+# 小米社区
+# 应用汇
 # 微信红包
+# 搜狗输入法
 # 淘宝
 # 淘宝相关
+# 皮皮虾无法访问问题
 # 知乎
 # 酷安去广告
+## 163登陆
 ## 信息流及评论区广告
+## 小米云服务备份
 ## 放行
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
@@ -644,7 +653,6 @@
 #微信支付
 #必应
 #快手
-#快手头像
 #懂车帝一些图片加载
 #抖音直播
 #抖音直播间购物车和购物车商品图片
@@ -693,6 +701,7 @@
 #美团dns
 #美团推送(大众点评)
 #腾讯云实时音视频
+#腾讯手游加速器
 #腾讯新闻
 #腾讯游戏
 #腾讯游戏登录相关
@@ -3368,7 +3377,6 @@
 142.251.10.188 alt7-mtalk.google.com
 142.251.8.188 alt6-mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.182.98.169                 github-production-release-asset-2e65be.s3.amazonaws.com
 183.136.207.132 bigota.d.miui.com
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
@@ -3403,15 +3411,16 @@
 216.239.32.40 translate-pa.googleapis.com
 216.239.32.40 translate.google.com
 216.239.32.40 translate.googleapis.com
-3.5.17.101                    github-cloud.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
-52.217.228.217                github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.162.73                 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.18.52                  github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.194.97                 github-cloud.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 54.231.135.161                github-com.s3.amazonaws.com
-54.231.236.241                github-production-user-asset-6210df.s3.amazonaws.com
+54.231.171.81                 github-production-user-asset-6210df.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.188.188 mtalk.google.com
 64.233.189.188 alt1-mtalk.google.com
@@ -3490,6 +3499,7 @@
 @@||40017.cn^$important
 @@||7x24s.com^
 @@||96956.com.cn^$important
+@@||a0.app.xiaomi.com^$important
 @@||about.gitlab.cn^$important
 @@||ac.dun.163yun.com^
 @@||account.wps.cn^$important
@@ -3550,6 +3560,7 @@
 @@||api.sec.miui.com^$important
 @@||api.ts.feedback.qy.net^$important
 @@||api.tv.sohu.com^
+@@||api.twitter.com^$important
 @@||api.video.xiaomi.com^$important
 @@||api.vip.miui.com^$important
 @@||api.zhihu.com^$important
@@ -3684,12 +3695,14 @@
 @@||developer.apple.com$generichide
 @@||dfcfw.com^
 @@||dftoutiao.com^
+@@||dig.bdurl.net^$important
 @@||dig.lianjia.com^$important
 @@||dilidili.live^
 @@||direct.wap.zol.com.cn^
 @@||disneyplus.bn5x.net^$important
 @@||dj.1688.com^$important
 @@||dl.360safe.com^$important
+@@||dl.reg.163.com^$important
 @@||dldir1.qq.com^$important
 @@||dldir3.qq.com^$important
 @@||dm.toutiao.com^$important
@@ -3799,6 +3812,8 @@
 @@||gvt2.com^
 @@||gw-paopao.iqiyi.com^$important
 @@||gw.alicdn.com^$important
+@@||h-adashx.ut.taobao.com^$important
+@@||h.trace.qq.com^$important
 @@||h5.m.taobao.com^$important
 @@||h5.mse.360.cn^
 @@||haohuo.jinritemai.com^ 
@@ -3992,6 +4007,7 @@
 @@||orange-dc.alibaba.com^$important
 @@||orbit.jd.com^
 @@||oss-asq-static.11222.cn^$important
+@@||otheve.beacon.qq.com^$important
 @@||p*.music.126.net^$important
 @@||p16-tiktokcdn-com.akamaized.net^$important
 @@||p26-sign.toutiaoimg.com^$important
@@ -4012,6 +4028,7 @@
 @@||passport.youdao.com^$important
 @@||payapp.weixin.qq.com^
 @@||payapp.weixin.qq.com^$important
+@@||pbs.twimg.com^$important
 @@||pcvideoaliyun.titan.mgtv.com^$important#
 @@||pdc.micloud.xiaomi.net^$important
 @@||pepsico.com.cn^
@@ -4119,6 +4136,7 @@
 @@||ssl-cdn.static.browser.mi-img.com^$important
 @@||ssl.gstatic.com^$important
 @@||ssl.msdk.qq.com^
+@@||st.todesk.com^$important
 @@||stars.shuqireader.com^$important
 @@||stat.api.4399.com^
 @@||stat.funshion.com^$important
@@ -4133,6 +4151,7 @@
 @@||statics.itc.cn^$important
 @@||stats.gc.apple.com^
 @@||statsig.com^
+@@||statusapi.micloud.xiaomi.net^$important
 @@||store.heytapimage.com^$important
 @@||stripe.com$domain=pay.openai.com
 @@||studcat.infra.systems^$important
@@ -4255,6 +4274,7 @@
 @@||work.weixin.qq.com^$important
 @@||worldwide.sogou.com^$important
 @@||wqsd.jd.com
+@@||ws.ribaoapi.com^$important
 @@||ww1.lanzous.com^$important
 @@||ww12.lanzous.com^$important
 @@||wwo.wps.cn^$important
@@ -4313,7 +4333,6 @@
 @@||yun.duiba.com.cn^$important
 @@||yun.rili.cn^$important
 @@||yunjiasu.com^
-@@||yximgs.com^$important
 @@||z.weixin.qq.com^$important
 @@||zazhipu.com^
 @@||zconfig.alibabausercontent.com^
@@ -5709,7 +5728,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||aedns.weixin.qq.com^
 ||aefdcxoi.com^
 ||aefmbeq.cn^
-||aegis.qq.com
 ||aegis.qq.com^
 ||aeletheacd.com^
 ||aeventlog.beacon.qq.com^
@@ -7641,6 +7659,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||hladalliance.com^
 ||hlalliances.com^
 ||hlbbn6ii.icu^
+||hlegsdh.icu^
 ||hlnr9q.icu^
 ||hlryzsqo.icu^
 ||hlw.longlingsc.art^$important
@@ -11481,6 +11500,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||xrkadslmgg.xyz^
 ||xryrylt.cn^
 ||xs.dmzj.com^
+||xsbiquge.la/js/detail.js
 ||xsjh001.xyz^
 ||xsxmvb.xyz^
 ||xtbzff.xyz^
@@ -11520,6 +11540,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||xygj.cc^
 ||xyizgh.cn^
 ||xz.cppe43f35.com^$important
+||xzvhyx.com^
 ||xzxhpcdz.icu^
 ||y0764.cn^
 ||y0tf2wp.online^
