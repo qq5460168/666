@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-07 00:19:29（北京时间）
+! Version: 2024-05-07 04:14:35（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 11795
+! Total count: 11804
 
  ! 某些其他
  #晴雅规则
@@ -13,7 +13,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-05-06T15:53:00+08:00
+# Update time: 2024-05-06T19:52:57+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [22号]
 # [360]
@@ -565,6 +565,7 @@
 #A站点赞
 #Block Ads
 #Blogger
+#FCM
 #ICP/IP地址/域名信息备案管理系统
 #MIUI去广告
 #MIUI浏览器去广告
@@ -713,6 +714,7 @@
 #苹果商店图片
 #葫芦侠
 #视频app
+#谷歌翻译
 #路由器
 #转转
 #迅雷下载
@@ -901,6 +903,7 @@
 108.177.125.188 alt4-mtalk.google.com
 108.177.97.100 translate.googleapis.com
 108.177.97.188 alt2-mtalk.google.com
+108.177.97.188 mtalk.google.com
 123.6.13.6 bigota.d.miui.com
 123.6.13.6 hugeota.d.miui.com
 123pan.com##.adv-container-pc
@@ -3360,10 +3363,14 @@
 140.82.114.21                 collector.github.com
 140.82.114.3                  github.com
 140.82.114.5                  api.github.com
+142.250.10.188 alt5-mtalk.google.com
+142.250.138.188 alt2-mtalk.google.com
 142.250.157.188 alt5-mtalk.google.com
 142.251.10.188 alt7-mtalk.google.com
 142.251.8.188 alt6-mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
+16.182.38.201                 github-com.s3.amazonaws.com
+16.182.74.129                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 183.136.207.132 bigota.d.miui.com
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
@@ -3394,7 +3401,9 @@
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#.bot-per-times
 18comic.vip##IMG[src^='//18comic.vip/media/albums/']
 192.0.66.2                    github.blog
+216.239.32.40 android.googleapis.com
 216.239.32.40 clients1.google.com
+216.239.32.40 notifications-pa.googleapis.com
 216.239.32.40 translate-pa.googleapis.com
 216.239.32.40 translate.google.com
 216.239.32.40 translate.googleapis.com
@@ -3404,13 +3413,13 @@
 51.ruyo.net###recent-posts-4
 52.217.232.113                github-production-release-asset-2e65be.s3.amazonaws.com
 52.217.232.249                github-cloud.s3.amazonaws.com
-52.217.87.108                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-54.231.195.49                 github-com.s3.amazonaws.com
-54.231.236.241                github-production-user-asset-6210df.s3.amazonaws.com
+54.231.171.81                 github-production-user-asset-6210df.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
+64.233.177.188 alt7-mtalk.google.com
 64.233.188.188 mtalk.google.com
 64.233.189.188 alt1-mtalk.google.com
+74.125.137.188 alt1-mtalk.google.com
 74.125.200.188 alt8-mtalk.google.com
 74.125.204.188 alt3-mtalk.google.com
 91porny.com###playerJsvLayer.jsv-layer
