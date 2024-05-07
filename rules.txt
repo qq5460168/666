@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-07 16:17:42（北京时间）
+! Version: 2024-05-07 20:26:30（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 11804
+! Total count: 11808
 
  ! 某些其他
  #晴雅规则
@@ -13,7 +13,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-05-07T07:52:59+08:00
+# Update time: 2024-05-07T11:52:59+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [22号]
 # [360]
@@ -627,6 +627,7 @@
 #大师兄
 #天下手游
 #天气
+#天猫app
 #头条pro
 #夸克
 #夸克/神马
@@ -728,6 +729,7 @@
 #阿里巴巴购物
 #阿里推送(未知用途)
 #阿里系登录接口
+#音乐适配
 #领红包封面
 #饿了么小程序
 #饿了么登录
@@ -3368,11 +3370,9 @@
 142.250.157.188 alt5-mtalk.google.com
 142.251.10.188 alt7-mtalk.google.com
 142.251.8.188 alt6-mtalk.google.com
-151.101.1.194                 github.global.ssl.fastly.net
-16.182.107.1                  github-production-user-asset-6210df.s3.amazonaws.com
+151.101.193.194               github.global.ssl.fastly.net
 16.182.35.225                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 16.182.38.201                 github-com.s3.amazonaws.com
-16.182.98.169                 github-production-release-asset-2e65be.s3.amazonaws.com
 183.136.207.132 bigota.d.miui.com
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
@@ -3409,12 +3409,14 @@
 216.239.32.40 translate-pa.googleapis.com
 216.239.32.40 translate.google.com
 216.239.32.40 translate.googleapis.com
+3.5.28.73                     github-cloud.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
-52.217.232.249                github-cloud.s3.amazonaws.com
+52.217.69.60                  github-production-release-asset-2e65be.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+54.231.236.241                github-production-user-asset-6210df.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.177.188 alt7-mtalk.google.com
 64.233.188.188 mtalk.google.com
@@ -3573,6 +3575,7 @@
 @@||appcloud.zhihu.com^$important
 @@||appcloud2.zhihu.com^$important
 @@||appdl-1-drcn.dbankcdn.com^$important
+@@||appdownload.alicdn.com^$important
 @@||appimg.dbankcdn.com^$important
 @@||appmsg.gzmtr.cn^$important
 @@||appsupport.qq.com^$important
@@ -3990,6 +3993,7 @@
 @@||nav.browser.miui.com^
 @@||netease.com^$important
 @@||nishub1.10010.com^$important
+@@||nmobi.kuwo.cn^$important
 @@||nsclick.baidu.com^$important
 @@||nstool.netease.com^$important
 @@||o.actio.systems^$important
