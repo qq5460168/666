@@ -36,7 +36,7 @@ rules=(
   "https://raw.githubusercontent.com/loveqqzj/AdGuard/master/Mobile.txt" #loveqqzj
 
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Blacklist.txt" #mphin
-  "" #
+  "https://gitee.com/xiac520/advertisement/raw/master/%E9%BB%91%E5%90%8D%E5%8D%95.txt" #T晨
   "" #
  
   
@@ -46,7 +46,7 @@ rules=(
 allow=(
  "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt" #
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt"
-  ""
+  "https://gitee.com/xiac520/advertisement/raw/master/%E7%99%BD%E5%90%8D%E5%8D%95.txt"#T晨白名单
   ""
 )
 
