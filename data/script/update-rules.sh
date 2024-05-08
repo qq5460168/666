@@ -36,7 +36,8 @@ rules=(
   "https://raw.githubusercontent.com/loveqqzj/AdGuard/master/Mobile.txt" #loveqqzj
 
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Blacklist.txt" #mphin
-  "https://gitee.com/xiac520/advertisement/raw/master/%E9%BB%91%E5%90%8D%E5%8D%95.txt" #T晨
+
+  "" #
   "" #
  
   
