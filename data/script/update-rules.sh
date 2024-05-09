@@ -47,8 +47,13 @@ rules=(
 allow=(
  "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt" #
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt"
-  "https://gitee.com/xiac520/advertisement/raw/master/%E7%99%BD%E5%90%8D%E5%8D%95.txt"#T晨白名单
-  ""
+  "https://file-git.trli.club/file-hosts/allow/Domains"#冷漠
+   "https://hub.gitmirror.com/https://raw.githubusercontent.com/user001235/112/main/white.txt" #浅笑
+  "https://ghproxy.net/https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/mylist.txt" #
+  "https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt" #8680
+  "" #
+ 
+ 
 )
 
 for i in "${!rules[@]}" "${!allow[@]}"
