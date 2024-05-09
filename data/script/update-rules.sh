@@ -27,8 +27,8 @@ cd tmp
 echo '下载规则'
 rules=(
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt" #5460
-  "https://ghproxy.net/https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #大萌主
-  "https://ghproxy.net/https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt"  #DD
+  "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #大萌主
+  "/https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt"  #DD
   "https://raw.gitmirror.com/Cats-Team/dns-filter/main/abp.txt" #AdRules DNS Filter
   "https://raw.hellogithub.com/hosts" #GitHub加速
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/0608.txt" #测试hosts
