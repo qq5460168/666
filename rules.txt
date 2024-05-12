@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-12 16:17:42（北京时间）
+! Version: 2024-05-12 20:26:43（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 11825
+! Total count: 11827
 
  ! 某些其他
  #晴雅规则
@@ -13,7 +13,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-05-12T07:53:00+08:00
+# Update time: 2024-05-12T11:53:01+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [22号]
 # [360]
@@ -689,6 +689,7 @@
 #番茄小说
 #番茄小说短信登陆
 #番茄小说网页
+#百度好看视频
 #百度搜索一个域名,误杀后会进入不了搜索结果
 #百度翻译接口
 #皮皮虾pro
@@ -3357,42 +3358,44 @@
 127.0.0.1 zt.jd.com
 13.107.42.16                  pipelines.actions.githubusercontent.com
 140.82.112.17                 github.community
+140.82.112.21                 education.github.com
 140.82.112.22                 central.github.com
-140.82.112.22                 education.github.com
 140.82.112.25                 alive.github.com
-140.82.112.26                 live.github.com
+140.82.112.5                  api.github.com
 140.82.113.10                 codeload.github.com
+140.82.113.26                 live.github.com
 140.82.114.21                 collector.github.com
 140.82.114.3                  github.com
 140.82.114.4                  gist.github.com
-140.82.114.5                  api.github.com
 142.250.10.188 alt5-mtalk.google.com
 142.250.138.188 alt2-mtalk.google.com
 142.250.157.188 alt5-mtalk.google.com
 142.251.10.188 alt7-mtalk.google.com
 142.251.8.188 alt6-mtalk.google.com
-151.101.193.194               github.global.ssl.fastly.net
-16.182.74.129                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+151.101.1.194                 github.global.ssl.fastly.net
+16.182.107.1                  github-production-user-asset-6210df.s3.amazonaws.com
+16.182.38.201                 github-com.s3.amazonaws.com
+16.182.98.169                 github-production-release-asset-2e65be.s3.amazonaws.com
 18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.me,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 183.136.207.132 bigota.d.miui.com
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
-185.199.109.153               assets-cdn.github.com
+185.199.108.133               avatars.githubusercontent.com
+185.199.108.133               avatars0.githubusercontent.com
+185.199.108.133               avatars1.githubusercontent.com
+185.199.108.133               avatars2.githubusercontent.com
+185.199.108.133               avatars3.githubusercontent.com
+185.199.108.133               avatars4.githubusercontent.com
+185.199.108.133               avatars5.githubusercontent.com
+185.199.108.133               camo.githubusercontent.com
+185.199.108.133               cloud.githubusercontent.com
+185.199.108.133               desktop.githubusercontent.com
+185.199.108.133               favicons.githubusercontent.com
+185.199.108.153               assets-cdn.github.com
 185.199.109.153               github.io
 185.199.109.153               githubstatus.com
 185.199.110.154               github.githubassets.com
-185.199.111.133               avatars.githubusercontent.com
-185.199.111.133               avatars0.githubusercontent.com
-185.199.111.133               avatars1.githubusercontent.com
-185.199.111.133               avatars2.githubusercontent.com
-185.199.111.133               avatars3.githubusercontent.com
-185.199.111.133               avatars4.githubusercontent.com
-185.199.111.133               avatars5.githubusercontent.com
-185.199.111.133               camo.githubusercontent.com
-185.199.111.133               cloud.githubusercontent.com
-185.199.111.133               desktop.githubusercontent.com
-185.199.111.133               favicons.githubusercontent.com
 185.199.111.133               github.map.fastly.net
 185.199.111.133               media.githubusercontent.com
 185.199.111.133               objects.githubusercontent.com
@@ -3414,10 +3417,8 @@
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
-52.217.232.113                github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.235.201                github-com.s3.amazonaws.com
-52.217.236.113                github-production-user-asset-6210df.s3.amazonaws.com
-52.217.72.188                 github-cloud.s3.amazonaws.com
+52.217.18.52                  github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.232.249                github-cloud.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 5dm.app##[src*="sinaimg.cn"]
 64.233.177.188 alt7-mtalk.google.com
@@ -3818,6 +3819,7 @@
 @@||h5.mse.360.cn^
 @@||haohuo.jinritemai.com^ 
 @@||haohuo.snssdk.com^
+@@||haokan.baidu.com^$important
 @@||hermes.hupu.com^$important
 @@||hls3-cf.xvideos-cdn.com^$important
 @@||hls9-cf.xvideos-cdn.com^$important
@@ -4425,6 +4427,7 @@ csdn.net##div:nth-child(10) > div.csdn-side-toolbar > div.csdn-common-logo-adver
 cupfox.app##IMG[class^='jsx-'][width='100%'],.swiper-wrapper img[class^='jsx-'][class*='a']:only-child,.cupfox-content.right,.cupfox-content.left
 dama.lu##.tool-box
 ddzzxs.com###inglestore.inglestore
+dge-answer-list
 dgtle.com##.footer-abox
 dingbu.*.*.*/*.add$third-party
 dingbu.*.*.com/dingbu.$third-party
@@ -7473,7 +7476,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||hao45.click^
 ||haohuisheng555.cn^
 ||haohuo.snssdk.com^
-||haokan.baidu.com^
 ||haokuaixiu.site^
 ||haoweb.top^
 ||haoy1.top^
