@@ -34,11 +34,12 @@ rules=(
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/0608.txt" #测试hosts
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt" #白名单
   "https://raw.githubusercontent.com/loveqqzj/AdGuard/master/Mobile.txt" #loveqqzj
-
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Blacklist.txt" #mphin
-
+  "https://gitee.com/zjqz/ad-guard-home-dns/raw/master/black-list" #周木木
   "" #
-  "" #
+      "" #
+      "" #
+    
  
   
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
@@ -51,6 +52,9 @@ allow=(
    "https://hub.gitmirror.com/https://raw.githubusercontent.com/user001235/112/main/white.txt" #浅笑
   "https://ghproxy.net/https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/mylist.txt" #
   "https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt" #8680
+  "https://gitee.com/zjqz/ad-guard-home-dns/raw/master/white-list" #周木木
+  "" #
+  "" #
   "" #
  
  
