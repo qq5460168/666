@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-16 20:27:57（北京时间）
+! Version: 2024-05-17 00:17:39（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 6211
+! Total count: 6212
 @@*$redirect-rule,domain=d3ward.github.io
 @@*.myapp.com
 @@-social-bar.$domain=mobi.yahoo.com
@@ -3903,6 +3903,7 @@
 @@||imgur.com/min/px.js$~third-party
 @@||imobiliare.ro/js/gtm.js$script,~third-party
 @@||imop.com^
+@@||impula.com/wp-content/uploads/*/reklam-$image,~third-party
 @@||imrworldwide.com/crossdomain.xml$domain=sbs.com.au
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=europafm.com
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=sky.it
