@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-22 20:28:10（北京时间）
+! Version: 2024-05-23 00:20:00（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 6789
+! Total count: 6793
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.adbkwai.com^
@@ -3914,6 +3914,8 @@
 ||mouseflow.com^
 ||moviets.tc.qq.com^
 ||moxiaoqihuoguo.com^
+||mp.weixin.qq.com/mp/advertisement^
+||mp.weixin.qq.com/mp/getappmsgad^
 ||mqqad.cs0309.html5.qq.com^
 ||mqqad.html5.qq.com^
 ||mqqadr.reader.qq.com^
@@ -5908,6 +5910,8 @@
 ||vreephay.com^
 ||vrlvnz.xyz^
 ||vrr.name^
+||vs1.szcu.u3.ucweb.com^
+||vs2.bjct.u3.ucweb.com^
 ||vsgallery.com^
 ||vshi.tc.qq.com^
 ||vstat.v.blog.sohu.com^
