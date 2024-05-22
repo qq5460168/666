@@ -36,7 +36,7 @@ rules=(
   "https://raw.githubusercontent.com/loveqqzj/AdGuard/master/Mobile.txt" #loveqqzj
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Blacklist.txt" #mphin
   "https://gitee.com/zjqz/ad-guard-home-dns/raw/master/black-list" #周木木
-  "" #
+  "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/black.txt" #liwenjie119
       "" #
       "" #
     
@@ -53,7 +53,7 @@ allow=(
   "https://ghproxy.net/https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/mylist.txt" #
   "https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt" #8680
   "https://gitee.com/zjqz/ad-guard-home-dns/raw/master/white-list" #周木木
-  "" #
+  "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt" #liwenjie119
   "" #
   "" #
  
