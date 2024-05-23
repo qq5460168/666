@@ -2,14 +2,15 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-23 20:27:22（北京时间）
+! Version: 2024-05-24 00:25:50（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16363
+! Total count: 16329
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$subdocument,third-party,stealth=referrer,domain=sport.starsites.fun
+@@$subdocument,xmlhttprequest,stealth=referrer,domain=pichive.online
 @@$websocket,domain=xvideos.com
 @@$xmlhttprequest,stealth=referrer,domain=cuervotv.me
 @@&ad_type=$domain=ultimate-guitar.com
@@ -81,7 +82,7 @@
 @@.ru.com/*/tracks-$xmlhttprequest,stealth
 @@.ru/mylivetv/stream-*.php$stealth=referrer
 @@.ru/premiumtv/*.php*$subdocument,xmlhttprequest,stealth=referrer
-@@.shop/*.js$script,xmlhttprequest,domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*|masterenjoyao.*|differenceprimitive85p.*|blewdiffera3j2.*|strangernervousql.*|leadmorning4ivn.*|somehowrockyng.*|currentcolorq2dv.*|determinemousecshe.*|publicspeed5c.*
+@@.shop/*.$script,xmlhttprequest,domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*|masterenjoyao.*|differenceprimitive85p.*|blewdiffera3j2.*|strangernervousql.*|leadmorning4ivn.*|somehowrockyng.*|currentcolorq2dv.*|determinemousecshe.*|publicspeed5c.*
 @@.ts^$stealth
 @@.vaughnsoft.net/abvs.php?a=
 @@.vmall.com/oauth
@@ -277,6 +278,7 @@
 @@/hls/*.ts$stealth=referrer,domain=techclips.net|abolishstand.net|planetfastidious.net|thegentleclass.com
 @@/home/ads/*$domain=esunbank.com.tw
 @@/iframe*.php$subdocument,stealth,domain=dizipal700.com|dizipal701.com|dizipal702.com|dizipal703.com|dizipal704.com|dizipal705.com|dizipal706.com|dizipal707.com|dizipal709.com|dizipal710.com|dizipal711.com|dizipal712.com|dizipal713.com|dizipal714.com|dizipal715.com|dizipal716.com|dizipal717.com|dizipal718.com|dizipal719.com|dizipal720.com|dizipal721.com|dizipal722.com|dizipal723.com|dizipal724.com|dizipal725.com|dizipal726.com|dizipal727.com|dizipal728.com|dizipal730.com|dizipal731.com|dizipal732.com|dizipal733.com|dizipal734.com|dizipal735.com|dizipal736.com|dizipal737.com|dizipal738.com|dizipal739.com|dizipal740.com|dizipal741.com|dizipal743.com|dizipal745.com|dizipal755.com|dizipal801.com|dizipal802.com|dizipal803.com|dizipal804.com|dizipal805.com|dizipal806.com|dizipal807.com|dizipal808.com|dizipal809.com|dizipal810.com|dizipal811.com|dizipal812.com|dizipal813.com|dizipal814.com|dizipal815.com|dizipal816.com|dizipal817.com|dizipal818.com|dizipal819.com|dizipal820.com|dizipal821.com|dizipal822.com|dizipal823.com|dizipal824.com|dizipal825.com|dizipal826.com|dizipal827.com|dizipal828.com|dizipal829.com|dizipal830.com|dizipal831.com|dizipal832.com|dizipal833.com|dizipal834.com|dizipal835.com|dizipal836.com|dizipal837.com|dizipal838.com|dizipal839.com|dizipal840.com|dizipal841.com|dizipal842.com|dizipal843.com
+@@/iframe.php$stealth=referrer,domain=dizilla.*
 @@/image/*$xmlhttprequest,stealth,domain=turkanime.co
 @@/image/ad/*$domain=gashpoint.com
 @@/image/share_$domain=pan.baidu.com
@@ -1590,7 +1592,6 @@
 @@||320volt.com^$generichide
 @@||33btc.site^$generichide
 @@||360.cn^
-@@||360.cn^$important
 @@||360buyimg.com/ad/$domain=jd.com
 @@||360buyimg.com/ads/$domain=jd.com
 @@||360buyimg.com^$important
@@ -1929,7 +1930,6 @@
 @@||ad.doubleclick.net/favicon.ico$domain=freewarefiles.com
 @@||ad.doubleclick.net/favicon.ico$domain=tracker.gg
 @@||ad.doubleclick.net/searchads/link/click?
-@@||ad.doubleclick.net^$important
 @@||ad.ettoday.net/msg_liveshow.php^$domain=ettoday.net
 @@||ad.kazakinfo.com^
 @@||ad.linksynergy.com^$image,domain=extrarebates.com
@@ -2938,7 +2938,6 @@
 @@||apnetv.tv^$generichide
 @@||app-advertise.zhihuishu.com^
 @@||app-measurement.com^$important
-@@||app-monitor.ele.me^$important
 @@||app-sjf.marketo.com^$domain=live.altium.com
 @@||app.aboutyou.com/sign_in_with_apple$stealth
 @@||app.adjust.io/*&utm_source=desktop_kleiderkreisel.de
@@ -3011,7 +3010,6 @@
 @@||apv-launcher.minute.ly/api/$script
 @@||aqlier.com^$generichide
 @@||aqy103.com/js/aqy/main.js
-@@||ar.hao123.com^$important
 @@||arab4media.com^$generichide
 @@||arabic-for-nerds.com/wp-content/plugins/complianz-gdpr-premium/cookiebanner/js/complianz.min.js$domain=arabic-for-nerds.com
 @@||arabiclink.info/go/*.key$stealth=referrer
@@ -4506,10 +4504,7 @@
 @@||clients.l.google.com
 @@||clients.plex.tv/api/v2/ads/$~third-party
 @@||clients1.google.com
-@@||clients2.google.com^$important
 @@||clients4.google.com/chrome-sync/$stealth
-@@||clients4.google.com^$important
-@@||clients6.google.com^$important
 @@||climatempo.com.br/climatempo/climatempo/js/vendor/detectadblock/
 @@||climbing.com^$stealth=dpi
 @@||clipartkey.com/adopen/adstyle.css
@@ -4582,10 +4577,7 @@
 @@||cm-pack.pl^$generichide
 @@||cm-widget.nakanohito.jp/cm/$script,stylesheet
 @@||cm.bilibili.com^
-@@||cm.bilibili.com^$important
-@@||cm.dmp.sina.cn^$important
 @@||cm.g.doubleclick.net/pixel?$image,domain=sheee.co.il
-@@||cm.jd.com^$important
 @@||cmbc.com.cn^*ads/
 @@||cmbchina.com/ads/
 @@||cmbchina.com/ccard/gqcard/js/pop.js
@@ -4684,7 +4676,6 @@
 @@||collect.igodigital.com/collect.js$domain=wilsonparking.com.au
 @@||collector-*.px-client.net/res/uc$domain=walmart.com
 @@||collector.appconsent.io/hello$domain=lachainemeteo.com|lefigaro.fr
-@@||collector.githubapp.com^$important
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
 @@||collector.wawlabs.com/mediamarkt.js$domain=mediamarkt.com.tr
 @@||collector.wawlabs.com/mmsearch.js$domain=mediamarkt.com.tr
@@ -5013,7 +5004,6 @@
 @@||d1z2jf7jlzjs58.cloudfront.net/p.js$domain=nfl.com
 @@||d1z2jf7jlzjs58.cloudfront.net^
 @@||d2.alternativeto.net/dist/*/piwik_*.png
-@@||d2.yiche.com^$important
 @@||d27so4lebom4m9.cloudfront.net/assets/advertisement/ads-ad7a5d608196d8a3a02d451c604c2ad5.js
 @@||d2dq2ahtl5zl1z.cloudfront.net/analytics.js/*/analytics.min.js$domain=architizer.com
 @@||d2kv6n94eruxg9.cloudfront.net/Prebid_$domain=portmiamiwebcam.com
@@ -5456,7 +5446,6 @@
 @@||download.mokeedev.com/ad*.php$generichide
 @@||download.mokeedev.com/js/show_ads_impl.js$domain=download.mokeedev.com
 @@||download.mokeedev.com^$genericblock,generichide
-@@||download.parallels.com^$important
 @@||download.pixelexperience.org^$generichide
 @@||download.ros.org/*.xsd$document
 @@||download.se.360.cn^
@@ -5598,7 +5587,6 @@
 @@||e-gen.or.kr^$stealth=dpi
 @@||e-podroznik.pl/public/$stealth
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
-@@||e.baidu.com^$important
 @@||e.cn.miaozhen.com/r/k=*=http
 @@||e.cquotient.com/recs/*?callback=$domain=karstadt.de
 @@||e.cquotient.com/recs/*?callback=$domain=sloggi.com
@@ -5645,7 +5633,6 @@
 @@||echoes.gr^$elemhide
 @@||echoes.gr^$generichide
 @@||ecitic.com/source/*/pop
-@@||eclick.baidu.com^$important
 @@||ecma.bdimg.com/holmes/*.svg
 @@||ecmb.bdimg.com^ 
 @@||ecmb.bdimg.com^$important
@@ -6507,7 +6494,6 @@
 @@||gdr-online.com/adv/ads.js
 @@||gdr-online.com^$generichide
 @@||gdrivez.xyz^$generichide
-@@||gdt.qq.com^$important
 @@||gdtimg.com^$important
 @@||geekbang.org/resource/image/ad/14/addb521e20de1a302206f4286eac3914.png
 @@||geekering.com^$generichide
@@ -6699,7 +6685,6 @@
 @@||go.gov.il^$stealth=dpi
 @@||go.kr^$stealth=dpi
 @@||go.onelink.me/*?pid=
-@@||go.oracle.com^$important
 @@||go.tnshort.net^$stealth
 @@||go.xlirdr.com/api/models/vast$xmlhttprequest
 @@||go2stream.net/stream/live/track/view/Tracking.php$domain=go2stream.net
@@ -7821,7 +7806,6 @@
 @@||hanjuwang.net^$script,~third-party
 @@||hankyung.com^$stealth=dpi
 @@||hao.7654.com^
-@@||hao123.com^$important
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||haohuo.jinritemai.com^ 
 @@||haohuo.snssdk.com^
@@ -7875,7 +7859,6 @@
 @@||hdporncomics.com^$generichide
 @@||hdrez.com^$generichide
 @@||hdsky.net/ad/down.png
-@@||hdslb.com
 @@||hdslb.com/bfs/archive/*@$domain=bilibili.com,image
 @@||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js
 @@||hdslb.com/u_user/$~object,domain=bilibili.com
@@ -8005,7 +7988,6 @@
 @@||hltv.org/vendor/font-awesome
 @@||hm.baidu.com/h.js?$domain=weaku.com
 @@||hm.baidu.com/hm.js$domain=rjno1.com
-@@||hm.baidu.com^$important
 @@||hm732.com/adverts/ad-400.js
 @@||hmrz.wo.cn^$important
 @@||hmvod.com.hk/website/static/skin/images/share/
@@ -8142,7 +8124,6 @@
 @@||i3.sinaimg.cn/video/deco/2013/0325/js/
 @@||i8086.de^$generichide
 @@||ia.hit.interia.pl/*/date?$domain=interia.pl|pomponik.pl
-@@||iadsdk.apple.com^$important
 @@||iamcdn.net/players/*ads*.js$domain=hydrax.net|playhydrax.com
 @@||iamcdn.net/players/ads.js$script,domain=watchcartoonsonline.biz
 @@||iamcdn.net/players/ads.watch.js$domain=disneyplayvn.net
@@ -8197,6 +8178,7 @@
 @@||id.mail.wo.cn^$important
 @@||id.sky.de^$domain=wowtv.de,stealth=referrer
 @@||id.skyeng.ru^$stealth
+@@||id.spectrum.net^$stealth=referrer
 @@||id.tmtm.ru/login/
 @@||id.vk.com/auth$jsinject
 @@||id.wsj.com$stealth
@@ -8545,6 +8527,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=videotarget.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vidyome.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=viki.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=viu.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vivo.sx
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vix.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vizita.si
@@ -8820,7 +8803,6 @@
 @@||ip.rtbasia.com^
 @@||ip.taobao.com^
 @@||ip.taobao.com^$important
-@@||ip.ws.126.net^$important
 @@||ip6.ssl.msdk.qq.com^$important
 @@||ipalibrary.me^$generichide
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
@@ -9299,7 +9281,6 @@
 @@||langsungviral.com^$generichide
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
-@@||lanzous.com^$important
 @@||laomaotao.net^
 @@||laotiesao.vip^$generichide
 @@||lapatilla.com^$generichide
@@ -9651,7 +9632,6 @@
 @@||m.dcinside.com/movie/$stealth,app=com.dcinside.app.android|com.dcinside.app
 @@||m.dcinside.com^$stealth=dpi
 @@||m.haberler.com/static/advertisement/ads_ima.js$domain=m.haberler.com
-@@||m.hao123.com^$important
 @@||m.intl.taobao.com^$important
 @@||m.jiaoyimao.com^$important
 @@||m.jingxi.com^
@@ -9904,7 +9884,6 @@
 @@||mcs.snssdk.com^
 @@||mdn.open.wo.cn^$important
 @@||mdpr.jp^$generichide
-@@||mdt.qq.com^$important
 @@||mealcold.com^$generichide
 @@||mealty.ru/js/ga_events.js$~third-party
 @@||mec.ca/media/javascript/resxclsx.js
@@ -10132,7 +10111,6 @@
 @@||minecraftbuildinginc.com/wp-content/themes/*/js/advertisement.js
 @@||minemods.com.br^$generichide
 @@||minhaoperadora.com.br^$generichide
-@@||mini.hao123.com^$important
 @@||minigame.aeriagames.jp/*/ae-tpgs-$~third-party
 @@||minigame.aeriagames.jp/css/videoad.css
 @@||minigame.zijieapi.com^$important
@@ -10342,7 +10320,6 @@
 @@||mstm.motorsport.com/mstm.js
 @@||mstory.me^$generichide
 @@||msubload.com/sub/$xmlhttprequest
-@@||mtalk.google.com^$important
 @@||mtlblog.com^$generichide
 @@||mtled-novels.com^$generichide
 @@||mtouch.facebook.com/ads/api/preview/$domain=business.facebook.com
@@ -10926,7 +10903,6 @@
 @@||optout.networkadvertising.org^$document
 @@||optout.rlcdn.com^
 @@||opuree.com/scr/detector/adsbygoogle.js
-@@||oracle-mail.com^$important
 @@||orange-dc.alibaba.com^$important
 @@||orange.fr/medias/toolkit/js/Wtbase.js
 @@||orange.fr/medias/toolkit/js/Wtinit.js
@@ -10949,14 +10925,12 @@
 @@||otakustream.tv/player.php^
 @@||otakuworldsite.blogspot.com^$generichide
 @@||oth.eve.mdt.qq.com^ 
-@@||oth.eve.mdt.qq.com^$important
 @@||other-languages.com^$generichide
 @@||otheve.beacon.qq.com^
 @@||otheve.beacon.qq.com^$important
 @@||otimundo.com^$generichide
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||ott.yandex.ru^$stealth
-@@||ouo.io^$important
 @@||ouofly.com^$generichide
 @@||outbrainimg.com^$third-party,domain=computerbild.de|fitbook.de|metal-hammer.de|rollingstone.de|stylebook.de
 @@||outkick.com/wp-content/plugins/advanced-ads-pro/assets/js/
@@ -11554,6 +11528,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=updato.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=uploadbox.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=upshrink.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=utkarshonlinetest.com|newsbawa.com|techbezzie.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vector-eps.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=veev.to
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=viajarsinmotivo.site
@@ -11971,7 +11946,6 @@
 @@||pg-wuming.com^$generichide
 @@||pg3dhacks.com^$generichide
 @@||pga.com^$generichide
-@@||pgdt.gtimg.cn^$important
 @@||pghk.blogspot.com^$generichide
 @@||pgpartner.com^
 @@||pharmaguideline.com^$generichide
@@ -11997,6 +11971,7 @@
 @@||pic.imgdb.cn
 @@||pic.mairuan.com^$important
 @@||piccool.com/2home/phpAdsNew/
+@@||pichive.online^$subdocument,xmlhttprequest,stealth=referrer
 @@||picmix.com/js/fuckadblock.js
 @@||picrelated.com^$generichide
 @@||picros.com^$generichide
@@ -12899,7 +12874,6 @@
 @@||s.click.taobao.com^$important
 @@||s.click.taobao.com^$popup
 @@||s.click.tmall.com^$important
-@@||s.deepl.com^$important
 @@||s.duapps.com^
 @@||s.go-mpulse.net/boomerang/$domain=royalmail.com
 @@||s.graphiq.com/ad?_
@@ -13101,7 +13075,6 @@
 @@||sdc.pingan.com^$~image
 @@||sdk.51.la^
 @@||sdk.alibaba.com.ailbaba.me^$important
-@@||sdk.e.qq.com^$important
 @@||sdk.mrf.io/statics/marfeel-sdk.js$domain=mundodeportivo.com
 @@||sdk.open.talk.gepush.com^
 @@||sdk.open.talk.gepush.com^$important
@@ -13144,7 +13117,6 @@
 @@||secure.quantserve.com/|$xmlhttprequest,domain=facciabuco.com
 @@||secure.selfwealth.com.au^$stealth
 @@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
-@@||securemvt.apple.com.cn^$important
 @@||securenetsystems.net/*/scripts/ads/prebid.js
 @@||securenetsystems.net/cirruscontent/js/prebid.js
 @@||securenetsystems.net/v5/scripts/
@@ -13843,6 +13815,7 @@
 @@||sport.be/javascripts/tracking/metriweb/spring.js
 @@||sportbikerider.us^$generichide
 @@||sportnews.to/*?ref=$stealth=referrer,domain=sportshub.to
+@@||sportnews.to^$generichide
 @@||sports24.icu^$generichide
 @@||sportsbay.org/stream^$third-party
 @@||sportsgrid.com/decor/javascript/magnify_stats.js
@@ -14071,6 +14044,7 @@
 @@||static.doubleclick.net/instream/ad_status.js$domain=pewgame.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=shineads.in
 @@||static.doubleclick.net/instream/ad_status.js$domain=sonixgvn.net
+@@||static.doubleclick.net/instream/ad_status.js$domain=topsporter.net|sportnews.to
 @@||static.doubleclick.net/instream/ad_status.js$domain=tweakcentral.net
 @@||static.doubleclick.net/instream/ad_status.js$domain=youtube.com
 @@||static.doubleclick.net/instream/ad_status.js$script,domain=ignboards.com
@@ -14337,7 +14311,6 @@
 @@||synchrobox.adswizz.com/register2.php$script,domain=tunein.com
 @@||syndication.exosrv.com/splash.php$domain=vqtube.com|taxi69.com
 @@||synology-forum.de^$generichide
-@@||synology.com^$important
 @@||syri.net/uploads/syri.net/images/*/300x150_*.jpg
 @@||syriancivilwarmap.com^$generichide
 @@||sys.4chan.org/*/post$xmlhttprequest,domain=4chan.org
@@ -14367,7 +14340,6 @@
 @@||t.cn^$important
 @@||t.co^$important
 @@||t.cpdsrv.de/cpt.js$domain=noz.de
-@@||t.eloqua.com^$important
 @@||t.huv.kr/thumb_crop_resize.php$stealth
 @@||t.me^$important
 @@||t.propbn.com/redirect/?spot_id=$domain=proporn.com
@@ -15150,7 +15122,6 @@
 @@||uaprom.net/image/blank.gif?$image
 @@||uc-titans-cn-01.heytapimage.com^$important
 @@||uc-titans-cn.heytapimage.com^$important
-@@||uc.cn^$important
 @@||uceprotect.net^$stealth
 @@||ucoz.net/cgi/uutils.fcg?$script,third-party
 @@||ucweb.com^
@@ -15812,7 +15783,6 @@
 @@||wfirma.pl/*/add/*?_=$other
 @@||wfpscripts.webspectator.com/bootstrap/$script,domain=gpfans.com
 @@||wgo.mmstat.com^
-@@||wgo.mmstat.com^$important
 @@||wgun.net^$elemhide
 @@||whatsapp.com^$generichide
 @@||whatsapp.com^$generichide,badfilter
@@ -15968,7 +15938,6 @@
 @@||www.123pan.com^$important
 @@||www.2345.com^
 @@||www.alidns.com^$important
-@@||www.bilibili.com^$important
 @@||www.blogger.com^$important
 @@||www.bqgyy.com^
 @@||www.chemdraw.com.cn^$important
@@ -15980,7 +15949,6 @@
 @@||www.gamersky.com/gsinc/$subdocument
 @@||www.gdata.pl^$elemhide
 @@||www.google-analytics.com^$domain=myqqjd.com
-@@||www.google-analytics.com^$important
 @@||www.google.*/adsense/$~third-party,domain=google.cn
 @@||www.google.*/search?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||www.google.*/search?$generichide
@@ -15991,10 +15959,8 @@
 @@||www.googletagmanager.com/gtm.js$script,domain=book.impress.co.jp
 @@||www.googletagmanager.com^$domain=myqqjd.com
 @@||www.googletagmanager.com^$domain=onlineshop.smt.docomo.ne.jp
-@@||www.googletagmanager.com^$important
 @@||www.gstatic.com
 @@||www.gstatic.com^$important
-@@||www.hao123.com^$important
 @@||www.jiaoyimao.com^$important
 @@||www.kanjiantu.com^$important
 @@||www.kdocs.cn^$important
