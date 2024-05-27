@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-27 12:18:31（北京时间）
+! Version: 2024-05-27 16:19:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 6792
+! Total count: 6798
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.adbkwai.com^
@@ -305,6 +305,7 @@
 ||6v6.work^
 ||6yfcuuw.com^
 ||7067.top^
+||70r8fo5.com^
 ||71360.com^
 ||737s.pw^
 ||7566dh1.com^
@@ -326,8 +327,11 @@
 ||7ccsch4.com^
 ||7cl.app^
 ||7dh26aja.com^
+||7dqjgdk.com^
+||7j4tpio.com^
 ||7jkzmbd.cn^
 ||7kjiiu.cn^
+||7li0ohd.com^
 ||7qo2met.com^
 ||7r227ut.cn^
 ||7sj9n87sls.adobe.io^
@@ -1413,6 +1417,7 @@
 ||bytedanceapi.com^
 ||byvlph.xyz^
 ||bzhn9y.icu^
+||bzqqftz.icu^
 ||bzxvtj.xyz^
 ||c-adash.m.taobao.com^
 ||c-gtc.getui.net^
@@ -3445,7 +3450,6 @@
 ||lf*-cdn-tos.bytegoofy.com^
 ||lf*-orange.byteorge.com^
 ||lf-wkrs.wkbrowser.com^
-||lf1-cdn-tos.bytegoofy.com^
 ||lf26-sf-be-pack-sign.pglstatp-toutiao.com^
 ||lf3-ad-union-sdk.pglstatp-toutiao.com^
 ||lf3-cdn-tos.bytescm.com^
@@ -4927,6 +4931,7 @@
 ||sacre.cn^
 ||sacredperpetratorbasketball.com^
 ||sadbh-kye.com^
+||sahqoo.com^
 ||saitef.cn^
 ||salutationcheerlessdemote.com^
 ||samsung-com.112.2o7.net^
@@ -5499,6 +5504,7 @@
 ||tqdctl.xyz^
 ||tqdpqq.com^
 ||tqmcj.cn^
+||tquspo.com^
 ||tqytqdrq.icu^
 ||trace.qq.com^
 ||tracelog-debug.aiclk.com^
