@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-27 20:28:09（北京时间）
+! Version: 2024-05-28 00:17:50（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16378
+! Total count: 16381
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -7235,6 +7235,7 @@
 @@||googletagmanager.com/gtag/js?id=$domain=kawasaki.com
 @@||googletagmanager.com/gtag/js?id=$domain=laudamotion.com
 @@||googletagmanager.com/gtag/js?id=$domain=linkneverdie.net
+@@||googletagmanager.com/gtag/js?id=$domain=m-1.fm
 @@||googletagmanager.com/gtag/js?id=$domain=rotana.net
 @@||googletagmanager.com/gtag/js?id=$domain=senda.pl
 @@||googletagmanager.com/gtag/js?id=$domain=thenewsfetcher.com
@@ -7697,7 +7698,6 @@
 @@||gousfbulls.com/common/templates/dfp/dfp-component-template.html
 @@||gov.cn/scripts/Comm/AdRotator.js
 @@||government-and-constitution.org/images/presidential-seal-300-250.gif$image,~third-party
-@@||gplinks.in/track/
 @@||gplinks.in/track/data.php$domain=govsfid.com
 @@||gplinks.in/track/js/$domain=govsfid.com
 @@||gpt-worldwide.com/js/gpt.js$~third-party
@@ -10016,6 +10016,7 @@
 @@||memoriadatv.com^$generichide
 @@||memoryhackers.org^$generichide
 @@||memoryhackers.org^$stealth
+@@||mens1069.com^$generichide
 @@||mensenlinq.nl/site/advertentie/$domain=mensenlinq.nl
 @@||menshealth.com/*/pubads$script,~third-party
 @@||menshealth.com/*/pubads.ist
@@ -11056,7 +11057,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=10play.com.au
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1cloudfile.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1shortlink.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|bilinovel.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=360haven.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=3rabsports.com|gold-24.net|te-it.com|mobi2c.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=8wayrun.com
@@ -11358,14 +11358,15 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=magdyman.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=magesy.blog|magesy.pro
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=malaysianwireless.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=maos4alaw.online|net4you.xyz|day4news.com|businessnews-nigeria.com|fx4ever.com|msic.site
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=maos4alaw.online|net4you.xyz|day4news.com|businessnews-nigeria.com|fx4ever.com|msic.site|sealat.com|offeergames.online
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mathdf.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=md5hashing.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mealcold.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mediastinger.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=megane.com.pl
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mens1069.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|bilinovel.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=metrolagu.cam
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mhdsportstv.com|mhdtvmax.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mhdsportstv.com|mhdtvmax.com|mhdmaxtv.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mhtviewer.booogle.net|kmlviewer.nsspot.net|epubreader.1bestlink.net|imagetotext.iblogbox.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=misirtune.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mitele.es
@@ -11660,6 +11661,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=isi7.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=jaunpurmusic.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=labrador.mayaremix.in
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=leakshaven.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=lenouvelliste.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=linetv.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=mangas-raw.com
@@ -12744,6 +12746,7 @@
 @@||res.imtt.qq.com^$important
 @@||res.qhupdate.com^
 @@||res.wx.qq.com/mmbizwap/$script
+@@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
 @@||resetoff.pl/static/js/application/views/advertise/Advertise_view.js
