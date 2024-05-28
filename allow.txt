@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-28 20:27:51（北京时间）
+! Version: 2024-05-29 00:17:53（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16383
+! Total count: 16387
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -3079,7 +3079,7 @@
 @@||assets.adobedtm.com/*-source.min.js$domain=samsung.com
 @@||assets.adobedtm.com/*/satelliteLib-*.js$domain=docs.nvidia.com
 @@||assets.adobedtm.com/*launch-*.min.js$domain=samsung.com
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=tatamotors.com
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|tatamotors.com
 @@||assets.adobedtm.com^$domain=wired.com
 @@||assets.anyclip.com^$domain=content.dictionary.com
 @@||assets.beinsports.com/*/scripts/ads.js$~third-party
@@ -3575,7 +3575,7 @@
 @@||bootcdn.net^
 @@||bootcdn.net^$important
 @@||bootcss.com^$script,domain=kan-tv.com
-@@||bordeaux.futurecdn.net/bordeaux.js$script,domain=tomsguide.com
+@@||bordeaux.futurecdn.net/bordeaux.js$script,domain=gamesradar.com|tomsguide.com
 @@||borneobulletin.com.bn/wp-content/banners/bblogo.jpg$~third-party
 @@||borsen.dk/themes/borsen.dk/js/dfp.js
 @@||bose.tt.omtrdc.net/*/bose/mbox/json?$domain=bose.fr
@@ -4477,6 +4477,7 @@
 @@||claimsatoshi.xyz^$generichide
 @@||claimtrx.com^$generichide
 @@||claplivehdplay.ru/*.php?id=k$subdocument,stealth=referrer
+@@||claplivehdplay.ru/*.ts$stealth
 @@||clarins.com.cn^
 @@||clarity.ms/tag/$domain=moeci.com
 @@||classic-retro-games.com^$generichide
@@ -6322,6 +6323,7 @@
 @@||fundingchoicesmessages.google.com^$stealth,domain=adshnk.com|adshrink.it
 @@||fundingchoicesmessages.google.com^$stealth,domain=stooq.pl|stooq.com
 @@||fundingchoicesmessages.google.com^$stealth,script,domain=player.addradio.de
+@@||fundingchoicesmessages.google.com^$stealth=referrer
 @@||funimation.com^$generichide
 @@||funnymadworld.blogspot.com^$generichide
 @@||funshion.com/*/media/$stealth
@@ -9535,7 +9537,6 @@
 @@||livestreamtvbox.com^$generichide
 @@||livetvboxfree.com^$generichide
 @@||livew.l.qq.com/livemsg?pf=H5&ad$domain=m.v.qq.com
-@@||livew.l.qq.com/livemsg?ty=web&ad_type=$domain=v.qq.com
 @@||livezombymil.com/*/tghr.js$domain=manga1000.com|manga1001.com
 @@||ljutkeunvpn.blogspot.com^$generichide
 @@||lk.gpnbonus.ru^$stealth=dpi
@@ -10868,6 +10869,7 @@
 @@||online.unionpay.com/ads/$script
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||onlinefixuploads.ru^$stealth
+@@||onlinehdhls.ru/*/playlist.m3u8$stealth
 @@||onlinehealthsociety.com^$generichide
 @@||onlinemahjong.games/api/ima3.js
 @@||onlinemovie.one^$generichide
@@ -15582,6 +15584,7 @@
 @@||vivocha.com^*/vivocha.js?$script,domain=kartell.com
 @@||vivotvhd.com^$generichide
 @@||vivud.com/js/pop.js
+@@||viwlivehdplay.ru/mono.php?id=$stealth
 @@||vixcloud.co/embed/$stealth=referrer
 @@||vizio.com/resources/js/vizio-module-tracking-google-analytics.js
 @@||vjs.zencdn.net/*/video-js.css
@@ -15841,6 +15844,7 @@
 @@||who-called.co.uk^$generichide
 @@||whoson.com/include.js$domain=oneplus.net|hotelchocolat.com
 @@||whowantstuffs.blogspot.com^$generichide
+@@||wideiptv.top/*/embed.html?token=*&remote=no_check_ip$stealth
 @@||widget.fitanalytics.com/widget.js$domain=pullandbear.com
 @@||widget.fitanalytics.com/widget.js$script,domain=pullandbear.com
 @@||widget.gleamjs.io^
