@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-05-30 09:05:47（北京时间）
+! Version: 2024-05-30 12:20:19（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12129
+! Total count: 12134
 
  ! 某些其他
  #晴雅规则
@@ -13,7 +13,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-05-30T00:53:36+08:00
+# Update time: 2024-05-30T03:53:02+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [22号]
 # [360]
@@ -3387,15 +3387,15 @@
 142.251.10.188 alt7-mtalk.google.com
 142.251.8.188 alt6-mtalk.google.com
 151.101.1.194                 github.global.ssl.fastly.net
-16.182.35.225                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.me,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 183.136.207.132 bigota.d.miui.com
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
+185.199.108.133               favicons.githubusercontent.com
 185.199.109.153               assets-cdn.github.com
 185.199.109.153               github.io
-185.199.109.153               githubstatus.com
+185.199.110.153               githubstatus.com
 185.199.110.154               github.githubassets.com
 185.199.111.133               avatars.githubusercontent.com
 185.199.111.133               avatars0.githubusercontent.com
@@ -3407,7 +3407,6 @@
 185.199.111.133               camo.githubusercontent.com
 185.199.111.133               cloud.githubusercontent.com
 185.199.111.133               desktop.githubusercontent.com
-185.199.111.133               favicons.githubusercontent.com
 185.199.111.133               github.map.fastly.net
 185.199.111.133               media.githubusercontent.com
 185.199.111.133               objects.githubusercontent.com
@@ -3425,15 +3424,16 @@
 216.239.32.40 translate-pa.googleapis.com
 216.239.32.40 translate.google.com
 216.239.32.40 translate.googleapis.com
+3.5.17.120                    github-com.s3.amazonaws.com
+3.5.22.29                     github-production-release-asset-2e65be.s3.amazonaws.com
 3.5.28.202                    github-cloud.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
 52.216.218.121                github-production-user-asset-6210df.s3.amazonaws.com
-52.217.162.73                 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.18.52                  github-production-repository-file-5c1aeb.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-54.231.200.193                github-com.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.177.188 alt7-mtalk.google.com
 64.233.188.188 mtalk.google.com
@@ -4433,7 +4433,6 @@ cibaipuki.com##SECTION[id^='download_']
 cibaipuki.com##[href*=":"]
 ckizma.com###post-card-64841,#post-card-50163,.post-card-ads,.popup-container
 cn.torrentkitty.app###note
-com/js/lp365.js
 com:8891/c.php?s=*$third-party
 consumerapp*.image.myqcloud.com^
 cpu.baidu.com##A[href*='cpro.baidu.com']
@@ -4701,7 +4700,6 @@ soutubot.moe##.bg-gray-800.overflow-hidden
 sspai.com###btn-call-app
 sspai.com##.is-shown.open-in-app-button
 sspai.com##.recommend-card
-static/pull/qwe1021.js
 stbemucode.com##DIV.header-ads
 stbemucode.com##IFRAME[frameborder='0'][marginheight='0']
 sukebei.nyaa.si##.servers-cost-money1
@@ -5146,6 +5144,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||6osurvos.fn.bytedance.net^
 ||6quspne.com^
 ||6tofsu.com^
+||6uzxtlv.cn^
 ||6v4.work^
 ||6v6.work^
 ||6yfcuuw.com^
@@ -6777,11 +6776,13 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||db5.vortex.data.microsoft.com.akadns.net^
 ||dbhfre.xyz^
 ||dbkdwe1.com^
+||dbmp4.com/js/foot.js
 ||dbnsd2viud.xyz^
 ||dbnwlp.xyz^
 ||dbxok6uo.icu^
 ||dc.services.visualstudio.com^
 ||dc.sigmob.cn^
+||dceuhnpc57.shop^
 ||dciep.xyz^
 ||dcsxv.com^
 ||dcvbnzss.xyz^
@@ -9265,6 +9266,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||oauth-login-drcn.platform.dbankcloud.com^
 ||obertsiamw.fun^
 ||obgbok.com^
+||obl74.xyz^
 ||oc.umeng.co^
 ||oc.umeng.com^
 ||oca.microsoft.com^
@@ -9590,6 +9592,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||pizzaseo.com^$important
 ||pj3f7.xyz^
 ||pjogndc8ixoidna.360doc.cn^
+||pjoo8.com^
 ||pjsbuhl.icu^
 ||pjy55d.com^
 ||pki.net.cn/public/1/plugins
@@ -10520,6 +10523,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||t91215.xyz^$important
 ||t91772.xyz^$important
 ||ta.qq.com^
+||ta20k.xyz^
 ||tahltanboutell.com^
 ||tailscale.io^
 ||tainec.fun^
@@ -10838,6 +10842,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||u1022.com^
 ||u22aeey.xyz^
 ||u346zd.top^
+||u7em6.xyz^
 ||u7s546.com^
 ||u7x.cn^
 ||uapi-ads.vivo.com.cn^
