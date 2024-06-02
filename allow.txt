@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-06-02 20:25:56（北京时间）
+! Version: 2024-06-03 00:17:27（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16394
+! Total count: 16397
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -7794,6 +7794,7 @@
 @@||h5.4j.com/js/ima3.js
 @@||h5.m.taobao.com^$important
 @@||h5.mse.360.cn^
+@@||h5.vivo.com.cn^
 @@||haafedk2.com^$generichide
 @@||haaretz.co.il/htz/js/advertisement.js
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
@@ -8078,6 +8079,7 @@
 @@||htlbid.com^*/htlbid.js$domain=hodinkee.com
 @@||html5.5games.cc^$stealth,third-party
 @@||html5.gamedistribution.com/*/$stealth
+@@||httpdns.alicdn.com^
 @@||htz-*upload.spac.me/pics_upload/$stealth=referrer
 @@||hu.adocean.pl/files/js/ado.js$domain=retroradio.hu
 @@||hubcloud.link^$generichide
@@ -10390,6 +10392,7 @@
 @@||muzlan.top/ads/banner.png
 @@||muzlan.top^$generichide
 @@||muzu.tv/flash/*tracking
+@@||mvconf.f.360.cn^
 @@||mwpaste.com^$generichide
 @@||mx-sh.net/advertisements.js
 @@||mx-sh.net^$generichide
@@ -10899,6 +10902,7 @@
 @@||ooyala.com/3rdparty/comscore_*.swf$domain=bloomberg.com|businessweek.com|greentechmedia.com
 @@||ooyala.com/crossdomain.xml
 @@||open.ename.net^ 
+@@||open.kuaishouzt.com^
 @@||open.mp.huangye.miui.com^
 @@||open.spotify.com^$generichide
 @@||openai.com^$generichide
@@ -11117,7 +11121,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bankvacency.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=basicweb.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=battlecats-db.com|cpu-world.com|game.anymanager.io|games.wkb.jp|html5.gamedistribution.com|knowfacts.info|lacoste.com|megagames.com|megaleech.us|newson.us|real-sports.jp|slideplayer.com|sudokugame.org|tampermonkey.net|teemo.gg|thefreedictionary.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=battlecats-db.com|cpu-world.com|game.anymanager.io|games.wkb.jp|html5.gamedistribution.com|knowfacts.info|lacoste.com|megagames.com|megaleech.us|newson.us|real-sports.jp|slideplayer.com|tampermonkey.net|teemo.gg|thefreedictionary.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=beatsnoop.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bestopbook.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bestreamsports.org
@@ -11780,7 +11783,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/r*show_ads_impl.js$domain=alotof.software
 @@||pagead2.googlesyndication.com/pagead/js/r20180124/r20170110/osd.js$domain=cpu-world.com
 @@||pagead2.googlesyndication.com/pagead/js/r20180214/r20170110/show_ads_impl.js$domain=sms-receive.net
-@@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=battlecats-db.com|game.anymanager.io|games.wkb.jp
 @@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=battlecats-db.com|game.anymanager.io|games.wkb.jp|sudokugame.org
 @@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=panel.waifly.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=ff14angler.com
@@ -11804,7 +11806,6 @@
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_with_ama_fy2019.js$domain=cdkm.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_with_ama_fy2019.js$domain=q84sale.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_with_ama_fy2019.js?client=ca-pub-$domain=downloads.descendant.me
-@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/slotcar_library_$script,domain=game.anymanager.io
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/slotcar_library_$script,domain=game.anymanager.io|sudokugame.org
 @@||pagead2.googlesyndication.com/pagead/managed/js/gpt/*/pubads_impl.js$domain=wunderground.com
 @@||pagead2.googlesyndication.com/pagead/osd.js$domain=download.mokeedev.com
@@ -12011,6 +12012,7 @@
 @@||pic*.cdncl.net^$stealth,domain=cowlevel.net
 @@||pic*.iqiyipic.com^$important
 @@||pic*.zhimg.com^$important
+@@||pic.2345.cc^
 @@||pic.iask.com.cn^$important
 @@||pic.imgdb.cn
 @@||pic.mairuan.com^$important
@@ -16356,6 +16358,7 @@
 @@||zeroupload.com^$generichide
 @@||zertalious.xyz^$generichide
 @@||zhaiyd5.com^$script,domain=louzhong8.com|miwens.com
+@@||zhan.vivo.com.cn^
 @@||zhan.vivo.com.cn^$important
 @@||zhihu-web-analytics.zhihu.com/api/v2/za/payload-verification
 @@||zhodinonews.by$stealth
