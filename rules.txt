@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-06-06 16:18:50（北京时间）
+! Version: 2024-06-06 20:28:41（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12136
+! Total count: 12129
 
  ! 某些其他
  #晴雅规则
@@ -13,7 +13,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-06-06T07:53:16+08:00
+# Update time: 2024-06-06T11:53:38+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [22号]
 # [360]
@@ -264,7 +264,6 @@
 ##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
 ##SPAN[style^="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color:"]
 ##Soul
-##UL.myui-extra.clearfix
 ##UL[style='margin: 0px; padding: 0px; font-size: 0px; display: flex;']
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
 ##[ad_dot_url]
@@ -418,7 +417,6 @@
 ##body > [id][style*='width:100%'][style*='min-height:120px']
 ##body > a[id*='hudie_']
 ##body > div#bottommob.bottommob
-##body > h1 > strong > title > a
 ##body#nr_body a[href*="/?utm_source="]
 ##body#nr_body div.fixed ~ *
 ##body#nr_body font > [id]
@@ -492,7 +490,6 @@
 ##div.stui-player.col-pd DIV[style='text-align:center']
 ##div.swiper-slide > A[rel='nofollow noopenner']
 ##div.synopsisArea > a[id*='hudie_']
-##div.video-box > div.hf > a
 ##div[class*='bookid_ads']
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
 ##div[id$='ad1'][class^='text'],div[id$='ad2'][class^='text'],div[id$='ad3'][class^='text'],div[id$='ad4'][class^='text'],div[id$='ad5'][class^='text'],div[id$='ad6'][class^='text']
@@ -511,7 +508,6 @@
 ##span > A[href='###']
 ##ul > li > A[href$='_list.html']
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
-##ul.content-list > li.content-tb
 ##ul.thread_detail_ads
 ##vivo系列
 ##七猫免费小说
@@ -649,7 +645,6 @@
 #夸克网盘
 #夸克首页
 #字节系 AD API SDK 屏蔽
-#小米下载加速
 #小米主题商店
 #小米商店
 #小米应用商店图片
@@ -925,8 +920,6 @@
 108.177.97.100 translate.googleapis.com
 108.177.97.188 alt2-mtalk.google.com
 108.177.97.188 mtalk.google.com
-123.6.13.6 bigota.d.miui.com
-123.6.13.6 hugeota.d.miui.com
 123pan.com##.adv-container-pc
 123pan.com##.banner_all_wrap
 123pan.com##.slick-slider, .slick-initialized
@@ -3366,7 +3359,6 @@
 127.0.0.1 zlink.toutiao.com
 127.0.0.1 zt.gifshow.com
 127.0.0.1 zt.jd.com
-13.107.213.51                 vscode.dev
 13.107.42.16                  pipelines.actions.githubusercontent.com
 140.82.112.10                 codeload.github.com
 140.82.112.22                 central.github.com
@@ -3383,7 +3375,7 @@
 142.250.157.188 alt5-mtalk.google.com
 142.251.10.188 alt7-mtalk.google.com
 142.251.8.188 alt6-mtalk.google.com
-151.101.1.194                 github.global.ssl.fastly.net
+151.101.193.194               github.global.ssl.fastly.net
 16.182.35.225                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 16.182.71.209                 github-production-user-asset-6210df.s3.amazonaws.com
 18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.me,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
@@ -3392,9 +3384,9 @@
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
 185.199.109.153               assets-cdn.github.com
-185.199.109.153               github.io
 185.199.109.153               githubstatus.com
-185.199.110.154               github.githubassets.com
+185.199.109.154               github.githubassets.com
+185.199.110.153               github.io
 185.199.111.133               avatars.githubusercontent.com
 185.199.111.133               avatars0.githubusercontent.com
 185.199.111.133               avatars1.githubusercontent.com
@@ -3429,7 +3421,7 @@
 51.ruyo.net###recent-posts-4
 52.216.213.33                 github-cloud.s3.amazonaws.com
 52.216.28.196                 github-com.s3.amazonaws.com
-52.217.232.113                github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.162.73                 github-production-release-asset-2e65be.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 5dm.app##[src*="sinaimg.cn"]
 64.233.177.188 alt7-mtalk.google.com
@@ -4569,7 +4561,6 @@ l*.bytescm.com^
 limbopro.xyz###a_d_sider
 limbopro.xyz###disqus_thread
 limbopro.xyz##.grecaptcha-badge
-ltssjy.qq.com^
 luoqiuzw.com##DIV[id^="a-loading-"]
 m.baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
 m.douban.com##div.center [style*='padding: 4px;']
@@ -4676,6 +4667,7 @@ so.com###so-activity-entry
 so.com##.c-title-tag
 so.com##.e_result
 so.com##.inner_left
+so.com##.res-mediav
 so.com##.res-mediav-right
 so.com##.tg-wrap
 so.toutiao.com##.relative.pointer-events-none
@@ -12138,5 +12130,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||zzxlhwyp.com^
 ||zzycj.com^
 其他人分享的酷安广告域名
+﻿! Title: 去广告规则，反馈🐧群请点击主页
 ﻿! Title: 广告白名单规则，反馈🐧群
 ＃去除丰巢新版取件码页面广告
