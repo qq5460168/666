@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-06-09 09:12:30（北京时间）
+! Version: 2024-06-09 12:17:43（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16419
+! Total count: 16420
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -395,7 +395,7 @@
 @@/track_click?$~script,~xmlhttprequest,~other,~image
 @@/tracking.php?id$domain=a1.express
 @@/tracking.php?id$domain=esisk.de
-@@/tracks-v1a1/*$xmlhttprequest,stealth=referrer,domain=ienjoyhd.site|poscishd.online|claplivehdplay.ru
+@@/tracks-v1a1/*$xmlhttprequest,stealth=referrer,domain=olalivehdplay.ru|topembed.pw|ienjoyhd.site|poscishd.online|claplivehdplay.ru
 @@/unadblock/adjs_$domain=hepan.com
 @@/uploads/*.m3u8$stealth,domain=agemys.net
 @@/uploads/ads/*$domain=newauto46.ru
@@ -12675,6 +12675,7 @@
 @@||rdelivery.qq.com^
 @@||rdrtr.com/*url=
 @@||react-spring.dev^$elemhide,extension,content
+@@||reactandshare.com^$domain=maanmittauslaitos.fi
 @@||reactgo.com^$generichide
 @@||reactiongaming.us/community/js/siropu/am/ads.min.js
 @@||read-text.com^$generichide
