@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-06-10 20:29:30（北京时间）
+! Version: 2024-06-11 00:19:22（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16421
+! Total count: 16426
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -340,6 +340,7 @@
 @@/player/stats.php$domain=watchporn.to|viralpornhub.com|watchmdh.to
 @@/player_ads.html$domain=watchporn.to|viralpornhub.com|camwhoresbay.porn|watchmdh.to|ebalovo.porn|ebalovo.adult|camwhores.*|camlovers.tv|camhub.tv|pornissimo.org|porntn.com|pornobit.me|femdomtb.com|pornoham.me|tubsexer.com|homegrownfreaks.net|pornfd.com|pornsexer.com|sexcams-24.com|watchmdh.to
 @@/playlist.m3u8$stealth
+@@/playlist.m3u8?$xmlhttprequest,domain=thestreameast.to
 @@/playlist/*caxi.m3u8$xmlhttprequest,stealth=referrer,domain=methstreamer.com|crackstreamer.net|thestreameast.ai|1stream.soccer|streameast.app|1stream.eu|buffstreams.app|meth-streams.ai
 @@/playstream/*/embed*.php$xmlhttprequest,stealth=referrer,domain=playstream.site
 @@/playstream/*/event.php$xmlhttprequest,stealth=referrer,domain=playstream.site
@@ -1819,6 +1820,7 @@
 @@||accounts.intuit.com/fe_logger?$~third-party
 @@||accounts.login.idm.telekom.com^$stealth
 @@||accounts.nintendo.com^$stealth
+@@||accounts.zomato.com/zoauth/$stealth=referrer
 @@||accscdn.cp12.ott.cibntv.net^
 @@||accscdn.m.taobao.com^$important
 @@||accuweather.com/bundles/prebid.$script
@@ -3817,6 +3819,7 @@
 @@||catchsms.com^$generichide
 @@||cazzette.com^$generichide
 @@||cbjs.baidu.com/js/m.js$domain=fxpan.com|iyingdi.com|pic.tiexue.net
+@@||cbn.globoradio.globo.com/estaticos/js/google-analytics.js$domain=cbn.globoradio.globo.com
 @@||cbox.ws/box/$stealth
 @@||cbox.ws/box/?boxid=$domain=exystence.net
 @@||cbs.com^$generichide
@@ -11272,7 +11275,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=forums-fastunlock.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fox.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebinchecker.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|poppamr.com|adnit.xyz|miuiku.com|tatangga.com|flash-firmware.blogspot.com|ghostsnet.com|rezkozpatch.xyz|rumahit.id|sekilastekno.com|romfirmware.com|orirom.com|gsmfirmware.net|akwam.*|health-and.me|fc-lc.com|fc.lc|note1s.com|paste1s.com|playstore.pw|yoshare.net|pes-patches.com|1shorten.com|publicananker.com|ipacrack.com|codevn.net|traffic1s.com|adnews.me|eg-akw.com|ak4eg.*|xn--mgba7fjn.*|akw.to|mawsueaa.com|ak4ar.*|anhdep24.com|nguyenvanbao.com|akw-cdn1.link|akw.mov|ak.sv|akw.cam|shahid4u.charity|indokontraktor.com|shahee4u.cam|batch-kun.com|shi4u.cam|shed4u.cam|shhid4u.cam
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|poppamr.com|adnit.xyz|miuiku.com|tatangga.com|flash-firmware.blogspot.com|ghostsnet.com|rezkozpatch.xyz|rumahit.id|sekilastekno.com|romfirmware.com|orirom.com|gsmfirmware.net|akwam.*|health-and.me|fc-lc.com|fc.lc|note1s.com|paste1s.com|playstore.pw|yoshare.net|pes-patches.com|1shorten.com|publicananker.com|ipacrack.com|codevn.net|traffic1s.com|adnews.me|eg-akw.com|ak4eg.*|xn--mgba7fjn.*|akw.to|mawsueaa.com|ak4ar.*|anhdep24.com|nguyenvanbao.com|akw-cdn1.link|akw.mov|ak.sv|akw.cam|shahid4u.charity|indokontraktor.com|shahee4u.cam|batch-kun.com|shi4u.cam|shed4u.cam|shhid4u.cam|shed4u1.cam
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freecoursesonline.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freeiptvgen.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freemagazines.top
@@ -11437,6 +11440,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=onehack.us|competentedigitale.ro
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=onejailbreak.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=oneslidephotography.com|apasih.my.id|financekami.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ovabee.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=oxygenu.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=paidappstore.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=paidinsurance.in
@@ -11626,7 +11630,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=za.gl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zdopravy.cz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zefoy.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zerion.cc
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zeriun.cc
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zobacz.ws
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=allcryptoz.net|crewbase.net|crewus.net|shinchu.net|thumb8.net|thumb9.net|uniqueten.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=anydebrid.com
@@ -13847,6 +13851,7 @@
 @@||sourl.cn^$important
 @@||sovrn.com/|$xmlhttprequest,domain=aoutoqw.xyz
 @@||sovrn.com^$domain=3dpchip.com
+@@||sovrn.com^$domain=mens1069.com
 @@||sovrn.com^$domain=technewsrooms.com
 @@||sozcu.com.tr^$generichide
 @@||sozcukbul.com^$generichide
