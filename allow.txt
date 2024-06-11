@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-06-11 09:07:28（北京时间）
+! Version: 2024-06-11 12:19:17（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16426
+! Total count: 16427
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -61,6 +61,7 @@
 @@.jpg$stealth,domain=manga1001.com
 @@.jpg?$image,domain=el7l.tv
 @@.m3u8$stealth,domain=luluvdo.com
+@@.m3u8$xmlhttprequest,domain=thestreameast.to
 @@.mp4$domain=crunchyroll.com,stealth
 @@.myvi.ru^$stealth
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
@@ -340,7 +341,6 @@
 @@/player/stats.php$domain=watchporn.to|viralpornhub.com|watchmdh.to
 @@/player_ads.html$domain=watchporn.to|viralpornhub.com|camwhoresbay.porn|watchmdh.to|ebalovo.porn|ebalovo.adult|camwhores.*|camlovers.tv|camhub.tv|pornissimo.org|porntn.com|pornobit.me|femdomtb.com|pornoham.me|tubsexer.com|homegrownfreaks.net|pornfd.com|pornsexer.com|sexcams-24.com|watchmdh.to
 @@/playlist.m3u8$stealth
-@@/playlist.m3u8?$xmlhttprequest,domain=thestreameast.to
 @@/playlist/*caxi.m3u8$xmlhttprequest,stealth=referrer,domain=methstreamer.com|crackstreamer.net|thestreameast.ai|1stream.soccer|streameast.app|1stream.eu|buffstreams.app|meth-streams.ai
 @@/playstream/*/embed*.php$xmlhttprequest,stealth=referrer,domain=playstream.site
 @@/playstream/*/event.php$xmlhttprequest,stealth=referrer,domain=playstream.site
@@ -2255,6 +2255,7 @@
 @@||adtech.de/dt/common/DAC.js$domain=swehockey.se
 @@||adtech.de/dt/common/DAC.js$domain=worldsnooker.com
 @@||adtng.com/get/$subdocument,domain=hanime.tv
+@@||adtraction.com^$image,domain=ebjudande.se
 @@||adulttvlive.net/advertisement.js
 @@||adv.*.ch^$xmlhttprequest,other,script,domain=tio.ch
 @@||adv.asahi.com^$popup
@@ -5002,6 +5003,7 @@
 @@||cyfostreams.com/advertisement.js
 @@||cz.mrezadosa.com^$domain=centrum.cz
 @@||cz.mrezadosa.com^$domain=idos.idnes.cz
+@@||cz.mrezadosa.com^$xmlhttprequest,image,domain=playzone.cz
 @@||d-h.st^$generichide
 @@||d.bmcx.com^$important
 @@||d.ibtimes.co.uk/imasdk/ads.js^
@@ -5753,7 +5755,6 @@
 @@||email.it/js/prebid-ads.js
 @@||emailapi.zdbb.net/subscriptions/$domain=extremetech.com
 @@||emailapi.zdbb.net/subscriptions/$domain=pcmag.com
-@@||emailnator.com^$generichide
 @@||emailregex.com^$generichide
 @@||emathhelp.net^$csp
 @@||embed-channel.stream^$generichide
