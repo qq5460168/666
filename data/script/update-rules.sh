@@ -51,10 +51,10 @@ allow=(
   "https://file-git.trli.club/file-hosts/allow/Domains"#冷漠
    "https://hub.gitmirror.com/https://raw.githubusercontent.com/user001235/112/main/white.txt" #浅笑
   "https://ghproxy.net/https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/mylist.txt" #
-  "https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt" #8680
+  #"https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt" #8680
   "https://gitee.com/zjqz/ad-guard-home-dns/raw/master/white-list" #周木木
   "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt" #liwenjie119
-  "" #
+  "https://github.com/qq5460168/dangchu/blob/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt" #T白名单
   "" #
  
  
