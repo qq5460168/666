@@ -231,11 +231,6 @@ m.jd.com###appdlCon > div.modal
 ||gecko-hl.snssdk.com^
 ||gecko-lq.snssdk.com^
 ||haohuo.snssdk.com^
-||i.snssdk.com^
-||ib.snssdk.com^
-||ib.snssdk.com.edgekey.net^
-||ic.snssdk.com^
-||is.snssdk.com^
 ||isub.snssdk.com^
 ||isub.snssdk.com.bytedns.net^
 ||it.snssdk.com.edgekey.net^
@@ -875,7 +870,6 @@ hanyu.baidu.com###main > div.app-qrcode:first-child
 ||cpu-openapi.baidu.com^
 ||cpu.baidu.com^
 ||dxp.baidu.com^
-||haokan.baidu.com^
 ||mobads-logs.baidu.com^
 ||mobads-pre-config.cdn.bcebos.com^
 ||mobads.baidu.com^
@@ -963,7 +957,6 @@ hanyu.baidu.com###main > div.app-qrcode:first-child
 ||v9-be-pack.pglstatp-toutiao.com^
 ||pig.pupuapi.com^
 ||log-api.pangolin-sdk-toutiao.com^
-# [番茄小说]
 # [视频客户端过滤器]
 ||yk-ssp.ad.youku.com^
 ||vali-g1.cp31.ott.cibntv.net^
@@ -1129,9 +1122,6 @@ ltssjy.qq.com^
 ||ssp-monitor.adstarcharm.com^
 ||saad.ms.zhangyue.net^
 ! Title: 晴雅DNS过滤器
-! Description: qingya dns
-! Version: 1.0.0.43
-! Expires: 3 hours (update frequency)
 ||gorgon.youdao.com^
 ||youku-jmacs.m.taobao.com^
 ||pub.idqqimg.com^
@@ -1153,9 +1143,7 @@ ltssjy.qq.com^
 ||hugelog.fcbox.com^
 ||lhp.map.qq.com^
 # [小说]
-||*.beizi.biz^
 ||v.adx.hubcloud.com.cn^
-||*.hpplay.cn^
 ||iad.*.163.com^
 ||*.hubcloud.com.cn^
 ||api.htp.hubcloud.com.cn^
@@ -1268,7 +1256,6 @@ ltssjy.qq.com^
 ||p3-novel.byteimg.com^
 ||tnc11-bjlgy.zijieapi.com^
 ||tnc3-bjlgy.zijieapi.com^
-||*.weilayun.com^
 ##实验性
 ||imadcg.dadi1688.cn^
 ||ksyunad.com^
@@ -1290,15 +1277,10 @@ ltssjy.qq.com^
 ||applk.cn^
 ||volceapplog.com^
 ||easytomessage.com^
-##手机一键登陆
-||zzx9.cn^
-||cmpassport.com^
-||nisportal.10010.com^
 ##隐私收集
 ||tanx.com^
 ||mmstat.com^
 ||pms.mb.qq.com^
-###厂商PUSH
 ##高通
 ||izatcloud.net^
 ||xtracloud.net^
@@ -1319,9 +1301,6 @@ ltssjy.qq.com^
 ##GMS
 ||www.googleapis.com^
 ||plus.google.com^
-##魅族
-||api-push.in.meizu.com^
-##谷歌
 ##大众点评
 ||medusa.51ping.com^
 ||medusa.dianping.com^
@@ -1344,7 +1323,6 @@ ltssjy.qq.com^
 ||push-route.nubia.com^
 ##小米
 ||10.38.162.35^
-||xmlpull.org^
 ||xmpush.xiaomi.com^
 ||resolver.msg.xiaomi.net^
 ||resolver.msg.global.xiaomi.net^
@@ -1376,78 +1354,9 @@ ltssjy.qq.com^
 ##豆瓣
 ||push.douban.com^
 ##通用规则
-||sm.cn^
-||ohayoo.cn^
-||jitpack.io^
-||xelements.cn^
-||rtbasia.com^
-||iadsdk.qtlcdn.com^
-||iadsdk.apple.com^
-||bigda.com^
-||mob.com^
-||tec73.com^
-||pangle.cn^
-||csjplatform.com^
-||byted.org^
-||bytelb.net^
-||bytedns1.com^
-||byte008.com^
-||queniuyk.com^
-||bytescm.com^
-||bytedance.net^
-||bytedance.com^
-||bytetos.com^
-||bytesfield.com^
-||byteimg.com^
-||bytesmanager.com^
-||byteorge.com^
-||bytefcdnrd.com^
-||bytedns.com^
-||ugsdk.cn^
-||bytemaimg.com^
-||bytednsdoc.com^
-||bytegoofy.com^
-||bytegecko.com^
-||juliangyinqing.com^
-||volcsirius.com^
-||ibytedapm.com^
-||ibytedtos.com^
-||bytecdntp.com^
-||fyeds*.com^
-||feelgood.cn^
-||gcrmtos.com^
-||goofy-cdn.com^
-||hypstarcdn.com^
-||bytedanceapi.com^
-||bytexservice.com^
-||yangyi08.com^
-||ipstatp.com^
-||sgpstatp.com^
-||akamaized.net^
-||dy.zzcdnx.com^
-||tt.x.bsgslb.cn^
-||qc.bsccdn.net^
-||livehwc3.cn^
-||ksyungslb.com^
-||ksyungslb2.com^
-||ourdvsss.com^
-||picovr.com^
-||yhgfb-cn-static.com^
-||novelfmstatic.com^
-||apps.bytesfield.com^
-||apps.bytesfield-b.com^
-||oceanengine.com^
-||usergrowth.com.cn^
-||volccdn.com^
-||volcsiriusbd.com^
-||cgi.qplus.com^
-||schemas.android.com^
 ||api.megvii.com^
 ||ads.huawei.com^
 ||ads.huawei.com.au^
-||apmplus.volces.com^
-||byteoversea.com^
-||pglstatp-toutiao.com^
 ||pangolin-sdk-toutiao-b.com^
 ||pangolin-sdk-toutiao.com^
 ||pangolin-sdk-toutiao1.com^
@@ -1509,9 +1418,6 @@ ltssjy.qq.com^
 ||adash.m.taobao.com^
 ||c-adash.m.taobao.com^
 ||commdata.v.qq.com^
-||adprod.cn^
-||admobile.top^
-||feedcoopapi.com^
 ||reward-api.csjplatform.com^
 ||huatuocode.huatuo.qq.com^
 ||etrade.baidu.com^
@@ -1519,7 +1425,6 @@ ltssjy.qq.com^
 ||trade.baidu-int.com^
 ||imagex-settings.volcimagex.net^
 ||imagex-settings-*.volcimagex.net^
-||html5.qq.com^
 ||baichuan-sdk.taobao.com^
 ||bcsdk.alicdn.com^
 ||nbsdk-baichuan.alicdn.com^
@@ -1594,7 +1499,6 @@ ltssjy.qq.com^
 ||yolinkmob.com^
 ||sealine.youku.com^
 ||adn.insight.ucweb.com^
-||qhupdate.com^
 ||sf*-ttcdn-tos.pstatp.com^
 ||hm.baidu.com^
 ||tob-tracker.yximgs.com^
@@ -1607,15 +1511,6 @@ ltssjy.qq.com^
 ||log.avlyun.com^
 ||sdkconf.avlyun.com^
 ||dsp-test-x.jd.com^
-||janapi.jd.com^
-||netmarvel.net^
-||rongjuwh.cn^
-||jiuzhou.com^
-||jzjxwh.cn^
-||dzkjm.cn^
-||dzfread.cn^
-||iwangzhe.com^
-||*adapt.qpic.cn^
 ||analytics.126.net^
 ||ads.api.my7v.com^
 ||advertisement-img*.aliyuncs.com.gds.alibabadns.com^
@@ -1656,8 +1551,6 @@ ltssjy.qq.com^
 ||xiangtaiyun.com^
 ||vungle.com^
 ||xinguad.com^
-||xy.com^
-||rabbitpre.com^
 ||pixiu-ssp.alibaba.com^
 ||jzt.jd.com^
 ||in-neo.cn^
@@ -1775,10 +1668,6 @@ ltssjy.qq.com^
 ||8le8le.com^
 ##腾讯乘车码小程序广告
 ||ccmsupport-sz.tenpay.com^
-##360全家桶（一刀切）
-||360.cn^
-##小米路由屏蔽
-||api.miwifi.com^
 ##vivo手机系列
 ||zhan-test.vivo.com.cn^
 ||topicstatic.vivo.com.cn^
