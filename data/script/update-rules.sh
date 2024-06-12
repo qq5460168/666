@@ -37,7 +37,7 @@ rules=(
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Blacklist.txt" #mphin
   "https://gitee.com/zjqz/ad-guard-home-dns/raw/master/black-list" #周木木
   "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/black.txt" #liwenjie119
-      #"https://github.com/qq5460168/dangchu/blob/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt" #T白
+      #"https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt" #T白
       "" #
     
  
