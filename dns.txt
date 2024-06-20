@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-06-20 20:11:56（北京时间）
+! Version: 2024-06-20 22:05:42（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 6860
+! Total count: 6863
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.adbkwai.com^
@@ -526,6 +526,7 @@
 ||ad.caiyunapp.com^
 ||ad.cmvideo.cn^
 ||ad.cyapi.cn^
+||ad.daum.net^
 ||ad.dev.360.cn^
 ||ad.e.kuaishou.com^
 ||ad.gamebox.360.cn^
@@ -975,6 +976,7 @@
 ||analytics.126.net^
 ||analytics.163.com^
 ||analytics.95516.com^
+||analytics.ad.daum.net^
 ||analytics.google.com^
 ||analytics.libertymutual.com.edgekey.net^
 ||analytics.map.qq.com^
@@ -1940,6 +1942,7 @@
 ||dismantlepenantiterrorist.com^
 ||disp-qryapi.3g.qq.com^
 ||disp.titan.mgtv.com^
+||display.ad.daum.net^
 ||ditorialproce.biz^
 ||dj09j5u.cn^
 ||djbgfit.com^
@@ -3417,6 +3420,7 @@
 ||kyplpw.com^
 ||kyq3hky.icu^
 ||kyq3xch.icu^
+||kyson.ad.daum.net^
 ||kytesconge.com^
 ||kyxw9itc.xyz^
 ||kyxw9itv.club^
@@ -4466,7 +4470,6 @@
 ||pglstatp-snssdk-toutiao.com^
 ||pglstatp-snssdk.com^
 ||pglstatp-toutiao.com^
-||pglstatp-toutiao.com^ ​‌​‍‍‍‍‌‍‌​​​‌‍||p3-sign.douyinpic.com^
 ||pgy.xiaohongshu.com^
 ||ph0f2h2csf.adobe.io^
 ||phef2h2csf.adobe.io^
