@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-06-27 00:07:54（北京时间）
+! Version: 2024-06-27 02:08:16（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12385
+! Total count: 12384
 
  ! 某些其他
  #晴雅规则
@@ -4786,7 +4786,6 @@ pornhub.com##.premiumAdvertWrapper
 pornhub.com##.premiumPromoBannerWrapper
 pornhub.com##.topAdContainter
 qilishusong.cn##[style*='display: block'],[style*='position: absolute; width: 100%;'],[style*='height:120px;']
-qpoiwnelc.com^
 qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 qq.com##A[dt-eid^='em_item_ad']
 qq.com##[id^='App_WAP_share_page']
