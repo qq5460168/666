@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-06-27 12:09:27（北京时间）
+! Version: 2024-06-27 14:10:05（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12384
+! Total count: 12389
 
  ! 某些其他
  #晴雅规则
@@ -4263,6 +4263,7 @@
 @@||smsks1.cmpassport.com^$important
 @@||snssdk.com^
 @@||snssdk.com^$important
+@@||sobot.com^
 @@||sofire.baidu.com^
 @@||sofire.baidu.com^$important
 @@||soft.360.cn^$important
@@ -4300,7 +4301,7 @@
 @@||statsig.com^
 @@||statusapi.micloud.xiaomi.net^$important
 @@||store.heytapimage.com^$important
-@@||stripe.com$domain=pay.openai.com
+@@||stripe.com^$domain=pay.openai.com
 @@||studcat.infra.systems^$important
 @@||subscription.iqiyi.com^
 @@||sug.browser.miui.com^
@@ -4413,6 +4414,7 @@
 @@||waimai-guide.ele.me^$important
 @@||wallpaper.cdn.pandora.xiaomi.com^$important
 @@||wan.baidu.com^
+@@||wan.douyu.com^
 @@||wap.cmpassport.com^$important
 @@||wappass.baidu.com^
 @@||wb.amap.com^$important
@@ -5430,6 +5432,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||a1.xn--w9qw2i396a4i5a.xn--fiqs8s^$important
 ||a13.xn--vhqt2hvuhr1h113abiq.xn--fiqs8s^$important
 ||a168888.top^
+||a1bw2cup.top^
 ||a48505.cn^
 ||a4sz.xyz^
 ||a6-remad.qm989.com^
@@ -7290,6 +7293,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ed.g2q3e.cn^$important
 ||ed.gumoda.top^
 ||edong.link^
+||edoshbw.top^
 ||edssnet.changchunets.com^
 ||eduizioq.com^
 ||eedudwr.cn^
@@ -7570,6 +7574,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||fvxlhn.xyz^
 ||fw.qq.com^
 ||fwepd.xyz^
+||fwlrv.cn^
 ||fwmbjrl.cn^
 ||fwzvlp.xyz^
 ||fxbcpr.xyz^
