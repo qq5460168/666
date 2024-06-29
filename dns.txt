@@ -2,9 +2,9 @@
 ! Title: 去广告规则，反馈🐧群930869948
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-06-30 00:07:50（北京时间）
+! Version: 2024-06-30 02:07:39（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 6895
+! Total count: 6911
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.adbkwai.com^
@@ -618,6 +618,7 @@
 ||aditibelen.com^
 ||adiu.amap.com^
 ||adjust.cn^
+||adjust.com^
 ||adkisdh3897.xyz^
 ||adkwai.com^
 ||adlaunch.qingting.fm^
@@ -836,6 +837,8 @@
 ||advertisercommunity.com^
 ||advertiserscommunity.com^
 ||advertising-api-eu.amazon.com^
+||advertising-api-fe.amazon.com^
+||advertising-api.amazon.com^
 ||advertising.apple.com^
 ||advertising.twitter.com^
 ||advertising.yahoo.com^
@@ -1349,6 +1352,7 @@
 ||bhjuy10.com^
 ||bhpprfk.cn^
 ||bhulgot.com^
+||bianxian.com^
 ||bieqpf.cn^
 ||biexsite.net^
 ||bifyeldv.top^
@@ -1466,6 +1470,7 @@
 ||c-nfa.jd.com^
 ||c.*.qq.com^
 ||c.ads.rgyun.com^
+||c.bidtoolads.com^
 ||c.evidon.com^
 ||c.fa.jd.com^
 ||c.gdt.qq.com^
@@ -1698,6 +1703,12 @@
 ||configsvr.msf.3g.qq.com^
 ||configv2.unityads.unitychina.cn^
 ||confinfo.map.qq.com^
+||conn-service-cn-03.allawntech.com^
+||conn-service-cn-04.allawntech.com^
+||conn-service-cn-05.allawntech.com^
+||conn-service-in-03.allawnos.com^
+||conn-service-in-04.allawnos.com^
+||conn-service-in-05.allawnos.com^
 ||connectreadoasis.com^
 ||consumerapp*.image.myqcloud.com^
 ||content-autofill.googleapis.com^
@@ -2657,6 +2668,7 @@
 ||haise10.top^
 ||haiwanli.com^
 ||handerfix.com^
+||hanlanad.com^
 ||hanwdsii.com^
 ||hao45.click^
 ||haohuisheng555.cn^
@@ -3566,6 +3578,7 @@
 ||linuozhiyao.xyz^
 ||linyongming.top^
 ||lishuaibin.cn^
+||litchiads.com^
 ||littlecdn.com^
 ||liugaohao.com^
 ||liuyimin5.cn^
@@ -5057,6 +5070,7 @@
 ||sdk.cferw.com^
 ||sdk.e.qq.com^
 ||sdk.hzsanjiaomao.com^
+||sdk.markmedia.com.cn^
 ||sdk.mobads.adwangmai.com^
 ||sdk.open.talk.gepush.com^
 ||sdk.push.mob.com^
@@ -5641,6 +5655,7 @@
 ||tseda6.icu^
 ||tslbahi.top^
 ||tslianm.com^
+||tsvrv.com^
 ||tsyndicate.com^
 ||ttc.gdt.qq.com^
 ||ttienli.top^
@@ -6338,6 +6353,7 @@
 ||wxddid.cn^
 ||wxdqgmr.cn^
 ||wxebdv2te.vip^
+||wximg.wxs.qq.com^
 ||wxl0gfw.icu^
 ||wxs.qq.com^
 ||wxsnsad.tc.qq.com^
