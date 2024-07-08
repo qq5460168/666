@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-07-08 16:09:38（北京时间）
+! Version: 2024-07-08 18:07:57（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 10016
+! Total count: 10022
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.adbkwai.com^
@@ -665,6 +665,7 @@
 ||ad.ximalaya.com^
 ||ad.xmmnsl.com^
 ||ad.xunkids.com^
+||ad.youku.com^
 ||ad.zhuanzhuan.com^
 ||ad.zijieapi.com^
 ||ad1.heronet.nl^
@@ -851,6 +852,7 @@
 ||ads.google.cn^
 ||ads.google.com^
 ||ads.heytapmobi.com^
+||ads.heytapmobile.com^
 ||ads.huan.tv^
 ||ads.huantest.com^
 ||ads.huawei.com^
@@ -1131,6 +1133,8 @@
 ||aliveproxies.com^
 ||aliyun.cdn.chengzilte.top^
 ||aliyunapi.org^
+||allawnos.com^
+||allawntech.com^
 ||allcp.xyz^
 ||alleesph.online^
 ||allunblocked.com^
@@ -1651,6 +1655,7 @@
 ||bhulgot.com^
 ||bi-tree.ru^
 ||bianxian.com^
+||bidtoolads.com^
 ||bieqpf.cn^
 ||biexsite.net^
 ||bifyeldv.top^
@@ -5472,6 +5477,7 @@
 ||market-id-auto.com^
 ||market.m.qq.com^
 ||market.wsskj520.cn^
+||markmedia.com^
 ||mars.jd.com^
 ||masdk.3g.qq.com^
 ||masdkv6.3g.qq.com^
