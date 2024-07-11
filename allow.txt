@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-07-11 22:05:40（北京时间）
+! Version: 2024-07-12 00:07:46（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2241
+! Total count: 2256
 @@*.flyme.cn
 @@*.myapp.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -1009,6 +1009,7 @@
 @@||7x24s.com^
 @@||96956.com.cn^$important
 @@||a0.app.xiaomi.com
+@@||a0.app.xiaomi.com^ 
 @@||a0.app.xiaomi.com^$important
 @@||a2put.chinaz.com^
 @@||about.gitlab.cn^$important
@@ -1063,6 +1064,7 @@
 @@||api-shoulei-ssl.xunlei.com^
 @@||api-unionid.meituan.com^$important
 @@||api.account.xiaomi.com^$important
+@@||api.ad.xiaomi.com^ 
 @@||api.comm.miui.com^$important
 @@||api.coolapk.com^
 @@||api.developer.xiaomi.com^$important
@@ -1155,6 +1157,7 @@
 @@||broadcastlv.chat.bilibili.com^
 @@||broccoli.uc.cn^$important
 @@||browser.360.cn^$important
+@@||browser.events.data.microsoft.com^ 
 @@||browser.events.data.msn.com^$important
 @@||bs-origin.pull.yximgs.com^
 @@||btrace.qq.com^$important
@@ -1379,11 +1382,13 @@
 @@||flash.sec.miui.com^$important
 @@||flowus.cn^
 @@||flydigi.com^
+@@||flyme.cn^ 
 @@||flyme.cn^$important
 @@||fonts.gstatic.com^$important
 @@||foundation.youdao.com^
 @@||fourier.taobao.com^
 @@||fp-it.fengkongcloud.com^
+@@||fp.msedge.net^ 
 @@||fp.tongdun.net^
 @@||fraudmetrix.cn^
 @@||free.sinaimg.cn^$important
@@ -1490,6 +1495,7 @@
 @@||img.cmvideo.cn^$important
 @@||img.funshion.com^
 @@||img.mp.itc.cn^$important
+@@||img.shouji.sogou.com^ 
 @@||img.zuoyebang.cc^$important
 @@||imgcache.qq.com^$important
 @@||imop.com^
@@ -1498,6 +1504,7 @@
 @@||inews.gtimg.com^$important
 @@||ingest.sentry.io^$important
 @@||ini.update.360safe.com^
+@@||input.shouji.sogou.com^ 
 @@||input.shouji.sogou.com^$important
 @@||instagram.com^$important
 @@||interest.mix.sina.com.cn^$important
@@ -1521,6 +1528,7 @@
 @@||isure.stream.qqmusic.qq.com^$important
 @@||iteye.com^$important
 @@||itop.qq.com^
+@@||jd.com^important
 @@||jia.360.cn^
 @@||jiathis.com^
 @@||jifen.2345.com^
@@ -1645,6 +1653,7 @@
 @@||mdt.qq.com^$important
 @@||mediation.adnxs.com^$important
 @@||meiqia.com^
+@@||meizu.com^ 
 @@||member.aligames.com^$important
 @@||member.shouji.360.cn^
 @@||member.shouji.360.cn^ 
@@ -1844,6 +1853,7 @@
 @@||push1.91cloud.net^$important
 @@||puui.qpic.cn^
 @@||puui.qpic.cn^$important
+@@||pv.sohu.com^
 @@||pv.sohu.com^$important
 @@||pvip.funshion.com^
 @@||px.effirst.com^
@@ -1877,6 +1887,7 @@
 @@||res.mi.baidu.com^
 @@||res.qhupdate.com^
 @@||resolver.msg.xiaomi.net^
+@@||resolver.msg.xiaomi.net^ 
 @@||resolver.msg.xiaomi.net^$important
 @@||router.ctc.lan^$important
 @@||rs.xmeye.net^$important
@@ -1927,6 +1938,7 @@
 @@||shop.alimama.com^
 @@||shouji.360.cn^
 @@||shouji.sogou.com^
+@@||shouji.sogou.com^ 
 @@||simg.sinajs.cn^$important
 @@||sina.cn^$important
 @@||sjh.baidu.com^
@@ -2006,6 +2018,7 @@
 @@||t7.baidu.com^$important
 @@||tagtic.cn^
 @@||tangram.e.qq.com^$important
+@@||taobao.com^ 
 @@||tbm-auth.alicdn.com^$important
 @@||tbs.imtt.qq.com^$important
 @@||tcbox.baidu.com^
@@ -2057,6 +2070,7 @@
 @@||uczzd.cn^$important
 @@||udpolimenew.baidu.com^
 @@||uee.me^$important
+@@||uem.migu.cn^ 
 @@||uland.taobao.com^$important
 @@||ulive-interact.uc.cn^
 @@||ulive-sc.uc.cn^
@@ -2087,6 +2101,7 @@
 @@||v.gdt.qq.com^ 
 @@||v.gdt.qq.com^$important
 @@||v.miguvideo.com^
+@@||v.miguvideo.com^ 
 @@||v.uc.cn^
 @@||v16m-default.akamaized.net^
 @@||v2.get.sogou.com^$important
