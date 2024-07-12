@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-07-12 20:13:11（北京时间）
+! Version: 2024-07-12 22:06:30（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 10011
+! Total count: 10025
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.adbkwai.com^
@@ -524,6 +524,7 @@
 ||aa889977aa.com^
 ||aabeautiful.cn^
 ||aac.kegood.com^
+||aadservice.sigmob.cn^
 ||aaenv48847h.com^
 ||aaid.umeng.com^
 ||aaoffice.cn^
@@ -2400,6 +2401,7 @@
 ||dcvbnzss.xyz^
 ||dcvefz.xyz^
 ||dcxdtp.com^
+||dd-static.jd.com^
 ||dd112233dd.com^
 ||dd667788dd.com^
 ||dd778899dd.com^
@@ -4329,6 +4331,7 @@
 ||hubiazhi.com^
 ||hudiecaifu.com^
 ||hugelog.fcbox.com^
+||huichuan-mc.sm.cn^
 ||huichuan.sm.cn^
 ||huicpu.com^
 ||huifangwen.com^
@@ -5251,6 +5254,7 @@
 ||lofter.httpdns.c.163.com^
 ||log*-misc-lq.amemv.com^
 ||log*-normal-lq.toutiaoapi.com^
+||log-alibaba-taobao-douyin.cdn.bcebos.com^
 ||log-api-mn.huxiu.com^
 ||log-api.huxiu.com^
 ||log-api.pangolin-sdk-toutiao-*.com^
@@ -5784,6 +5788,7 @@
 ||mzya5718.xyz^
 ||mzybirdnest.com^
 ||n.dnsmirror.org^
+||n.sigmob.cn^
 ||n.ssp.qq.com^
 ||n0.eu^
 ||n1q.cn^
@@ -6271,6 +6276,7 @@
 ||p.store.qq.com^
 ||p.vivo.com.cn^
 ||p0y.cn^
+||p1-ad.adukwai.com^
 ||p1-be-endcard.pglstatp-toutiao.com^
 ||p1-be-pack-sign.pglstatp-toutiao.com^
 ||p1-feedback.byteimg.com^
@@ -6284,6 +6290,7 @@
 ||p11q.cn^
 ||p13n-mr.adobe.io^
 ||p13n.adobe.io^
+||p2-ad.adukwai.com^
 ||p2-be-pack-sign.pglstatp-toutiao.com^
 ||p2-lm.adkwai.com^
 ||p2-lm.adukwai.com^
@@ -6295,6 +6302,7 @@
 ||p2kfynrr.icu^
 ||p3-ad-sign.byteimg.com/web.business.image^
 ||p3-ad-sign.byteimg.com^
+||p3-ad.adukwai.com^
 ||p3-be-pack-sign.pglstatp-toutiao.com^
 ||p3-lm.adkwai.com^
 ||p3-novel.byteimg.com^
@@ -6307,11 +6315,14 @@
 ||p3.bdxiguaimg.com^
 ||p3.l.qq.com^
 ||p3.toutiaoimg.com^
+||p4-ad.adukwai.com^
 ||p4-be-pack-sign.pglstatp-toutiao.com^
 ||p4-live.a.yximgs.com^
+||p5-ad.adukwai.com^
 ||p5-be-pack-sign.pglstatp-toutiao.com^
 ||p52q.cn^
 ||p6-ad-sign.byteimg.com^
+||p6-ad.adukwai.com^
 ||p6-ad.byteimg.com^
 ||p6-be-pack-sign.pglstatp-toutiao.com^
 ||p6-developer-sign.bytemaimg.com^
@@ -7320,6 +7331,7 @@
 ||sdk.open.talk.gepush.com^
 ||sdk.push.mob.com^
 ||sdk.sipujia.cn^
+||sdk.taobao.com.ailbaba.me^
 ||sdk.verification.jiguang.cn^
 ||sdkapp.mobile.sina.cn^
 ||sdkapp.uve.weibo.com^
@@ -8192,6 +8204,7 @@
 ||tracking.miui.com^
 ||tracking.rus.miui.com^
 ||trackingio.com^
+||tracktp.sigmob.cn^
 ||trade.taobao.com^
 ||tradeadspace.info^
 ||tradplus.cn^
@@ -8285,6 +8298,7 @@
 ||twzadf.xyz^
 ||tx-ad.a.yximgs.com^
 ||tx-kmpaudio.pull.yximgs.com^
+||tx.a.kspkg.com^
 ||tx.teradns.org^
 ||txbhhh.xyz^
 ||txcv68f.com^
