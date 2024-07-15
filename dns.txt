@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-07-15 10:32:24（北京时间）
+! Version: 2024-07-15 12:10:16（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 10031
+! Total count: 10079
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.adbkwai.com^
@@ -346,6 +346,7 @@
 ||55zzz.cn^
 ||56fba.cn^
 ||56yk.com^
+||57824.com^
 ||59gt.cn^
 ||5afc8f3239.com^
 ||5eucpusr8lbadd6e66vmuv1sok57bf04dcdpidko5hpg5od8erhfuuoo.saxysec.com^
@@ -751,6 +752,7 @@
 ||adguard.kss.ovh^
 ||adguard.leadseason.eu^
 ||adguard.lege.despagne.net^
+||adguard.londonwebnerd.cloud^
 ||adguard.marto.si^
 ||adguard.meddy94.de^
 ||adguard.oms-ctr.ru^
@@ -1225,6 +1227,7 @@
 ||anonymous-proxy.com.de^
 ||anonymousblog.info^
 ||anonymouse.org^
+||anonymousengine.com^
 ||anonymousvpn.info^
 ||anonymousvpn.org^
 ||anonymox.net^
@@ -1880,6 +1883,7 @@
 ||canser7.top^
 ||canser8.top^
 ||canser9.top^
+||cantblockthis.org^
 ||cantfindme.org^
 ||canvas.gdt.qq.com^
 ||cao-gao.xyz^
@@ -2059,6 +2063,7 @@
 ||clldirectasianew.club^
 ||cloaker.ca^
 ||cloaker.us^
+||cloakvpn.com^
 ||clog.miguvideo.com^
 ||cloud-log.yy.com^
 ||cloud.198.games^
@@ -2103,6 +2108,7 @@
 ||cnzz.net^
 ||cocloud.site^
 ||cocoombr.com^
+||cocoproxy.com^
 ||coe01.dnscry.pt^
 ||coinsite.info^
 ||collect.kugou.com^
@@ -2145,6 +2151,7 @@
 ||contentabc.com^
 ||cookie-law-enforcement-qq.xyz^
 ||cool-proxy.net^
+||coolbits.org^
 ||cooperation.html5.qq.com^
 ||core-vpn.norton.com^
 ||corecloak.com^
@@ -2207,6 +2214,7 @@
 ||croxyproxy.rocks^
 ||crs.baidu.com^
 ||crs.cr.adobe.com^
+||crushus.com^
 ||crusty.motorcycles^
 ||crypticvpn.com^
 ||crypto.sx^
@@ -2324,6 +2332,7 @@
 ||daawv.cn^
 ||daawx.cn^
 ||dabmix.com^
+||dac0miaxap05t.cloudfront.net^
 ||daccp.cn^
 ||dacedsfa.cn^
 ||dada.dadawm.cc^
@@ -2456,6 +2465,7 @@
 ||dfsvhv88.com^
 ||dfxwdc.com^
 ||dg186.cn^
+||dg98q1fqxxogp.cloudfront.net^
 ||dgaxxjq.cn^
 ||dgayibf.icu^
 ||dgfgflod.com^
@@ -2760,7 +2770,6 @@
 ||dns.mihanentalpo.me^
 ||dns.mikeliu.org^
 ||dns.mikrotikrumahan.my.id^
-||dns.milkpie.one^
 ||dns.mo0on15.com^
 ||dns.molinero.dev^
 ||dns.moog.sh^
@@ -2885,6 +2894,7 @@
 ||dns.warma.me^
 ||dns.warpnine.de^
 ||dns.watch^
+||dns.wechat.com^
 ||dns.weibo.cn^
 ||dns.weixin.qq.com*^
 ||dns.weixin.qq.com.cn^
@@ -3338,9 +3348,11 @@
 ||emby.rasp.tv^
 ||emilyz.top^
 ||ems.youku.com^
+||emuby.com^
 ||encrypt.me^
 ||endpoint.zhuishushenqi.com^
 ||enennsa.gushiwen.cn^
+||englandproxy.co.uk^
 ||enhad.xyz^
 ||enl2.96845.com^
 ||entry.baidu.com^
@@ -3447,6 +3459,7 @@
 ||f.8fenxiang.com^
 ||f1tfmxzg.icu^
 ||f23jjd8.xyz^
+||f4fp.com^
 ||f53a.com^
 ||f77j6t2b.com^
 ||f77xv3.top^
@@ -3484,6 +3497,7 @@
 ||fasttime.info^
 ||fastusaproxy.com^
 ||fastvpn.im^
+||fastvpn.me^
 ||favoriteshoes.us^
 ||faxffjo.com^
 ||fbproxies.info^
@@ -3601,6 +3615,7 @@
 ||fourier.taobao.com^
 ||fourlaile.com^
 ||fpn.firefox.com^
+||fproxy.net^
 ||fptdxkm.com^
 ||fqpxzr.xyz^
 ||fqxkj.cn^
@@ -3823,6 +3838,7 @@
 ||gfbdb1.com^
 ||gfrzzzx.cn^
 ||gfvip09at.com^
+||gfwvpn.com^
 ||ggdfrl.com^
 ||ggdrfh5.com^
 ||ggdumze.cn^
@@ -3923,6 +3939,7 @@
 ||graef.in^
 ||grandcomms.cn^
 ||granules.us^
+||gratisproxy.nl^
 ||gratisvpn.com^
 ||gravity.omniscien.cl^
 ||gravity.sciencevictory.org^
@@ -4057,6 +4074,7 @@
 ||haoyundm.com^
 ||haoyundmtaotao.com^
 ||happy-vpn.com^
+||happydata.info^
 ||hapying.com^
 ||hasdser.com^
 ||hasgde.site^
@@ -4169,6 +4187,7 @@
 ||hideproxy.me^
 ||hidessh.com^
 ||hidester.com^
+||hidesurf.us^
 ||hidetheinternet.com^
 ||hidethisip.net^
 ||hideway.eu^
@@ -4611,6 +4630,7 @@
 ||isityet.net^
 ||islbaho.top^
 ||ispcapi.mcafee.com^
+||ispunblock.com^
 ||ispvpn.com^
 ||isub.snssdk.com.bytedns.net^
 ||isub.snssdk.com^
@@ -4954,6 +4974,7 @@
 ||kl.yditweb.cn^
 ||kl91ccp.com^
 ||klbvqqqj.com^
+||klcknerrip.com^
 ||kljslku.com^
 ||klufjdo.com^
 ||kmbopoie.com^
@@ -5064,6 +5085,7 @@
 ||laipeitu.com^
 ||lakefish.xyz^
 ||lakjdskls.zhdchb.com^
+||lalal.info^
 ||lalaping.com^
 ||laljjn.xyz^
 ||lamkghx.icu^
@@ -5321,6 +5343,7 @@
 ||loggate.moxigame.cn^
 ||logger.qingting.fm^
 ||loggw.alipay.com.cn^
+||login.readinghelper.online^
 ||login.thegalleryofart.info^
 ||logos.kiwibrowser.com^
 ||logrcv.aiclk.com^
@@ -5452,6 +5475,7 @@
 ||mail.kguapp.com^
 ||mailer.amlegion.org^
 ||mailkyb.co^
+||mailproxy.info^
 ||mainframe.dewed.de^
 ||mainssh.com^
 ||maiqi.xyz^
@@ -5781,6 +5805,7 @@
 ||myspaceunlock.com^
 ||mytunneling.com^
 ||myun.tenpay.com^
+||myvpn.com^
 ||mywb3.com^
 ||mywebproxy.in^
 ||mywebproxy.net^
@@ -5839,6 +5864,7 @@
 ||ndujy.xyz^
 ||ne1.ca^
 ||nearme.com.cn^
+||needunblock.com^
 ||nefbjp.xyz^
 ||nefrpt.top^
 ||neg2zos.icu^
@@ -5969,6 +5995,7 @@
 ||novatech.fun^
 ||novel.pangolin-sdk-toutiao.com^
 ||novelsns.html5.qq.com^
+||nowcache.com^
 ||npftmqv.cn^
 ||nphqw.cn^
 ||nqdufv.xyz^
@@ -6639,6 +6666,7 @@
 ||proxify.tv^
 ||proxify.us^
 ||proxify.ws^
+||proxii.net^
 ||proximize.me^
 ||proxite.de^
 ||proxite.eu^
@@ -6653,6 +6681,7 @@
 ||proxtube.com^
 ||proxy-123.com^
 ||proxy-2014.com^
+||proxy-2015.info^
 ||proxy-anywhere.com^
 ||proxy-bypass.com^
 ||proxy-deal.net^
@@ -6677,6 +6706,7 @@
 ||proxy.nu^
 ||proxy.ordentlichbreit.de^
 ||proxy.org^
+||proxy.red^
 ||proxy.rocks^
 ||proxy.schel.li^
 ||proxy.searchfiles.de^
@@ -6685,6 +6715,7 @@
 ||proxy.toolur.com^
 ||proxy.vpner.com^
 ||proxy.wynd.network^
+||proxy.yt^
 ||proxy2014.net^
 ||proxy2you.com^
 ||proxy4down.com^
@@ -6693,6 +6724,7 @@
 ||proxy7.club^
 ||proxyanonymizer.net^
 ||proxyarab.com^
+||proxybits.com^
 ||proxyboost.net^
 ||proxybox.ru^
 ||proxybros.com^
@@ -6717,6 +6749,7 @@
 ||proxygogo.info^
 ||proxyhash.net^
 ||proxyhub.in^
+||proxyisp.com^
 ||proxyist.com^
 ||proxyium.com^
 ||proxylistpro.com^
@@ -6955,6 +6988,7 @@
 ||qucncfo.cn^
 ||qudajie.com^
 ||query.hdns.io^
+||quick-proxy.com^
 ||quickprox.com^
 ||quicksilvervpn.com^
 ||quickvpn.lipisoft.com^
@@ -7397,6 +7431,7 @@
 ||securitykiss.com^
 ||securitymobile.club^
 ||secvpnproxy.co.cc^
+||sedirepseh.com^
 ||seed.st^
 ||seed4.me^
 ||seedboxes.cc^
@@ -7548,6 +7583,7 @@
 ||siteunblocked.space^
 ||siteunblocked.website^
 ||siteunblocked.xyz^
+||sitework.info^
 ||siwei.pub^
 ||sixiuwl.cn^
 ||siz3wxt8p.shop^
@@ -7632,6 +7668,7 @@
 ||speedify.com^
 ||speedshare.app^
 ||speedssh.com^
+||speedyth.com^
 ||spicevpn.com^
 ||spidervpn.org^
 ||splashimgbssdl.yun.kugou.com^
@@ -7824,6 +7861,7 @@
 ||surfsharkbiz.com^
 ||surfsharkdeals.com^
 ||surfsharkstatus.com^
+||surfshell.io^
 ||surfsjark.com^
 ||surfsneaker.com^
 ||surfsuark.com^
@@ -8137,9 +8175,11 @@
 ||top10vpn.com^
 ||topnewsfeeds.net^
 ||toppal.tech^
+||topsecure.info^
 ||topsun.pw^
 ||toptip.cc^
 ||topvpn.cc^
+||topvpn.cn^
 ||topvpnguides.com^
 ||tor-ca.prcdn.net^
 ||tor-gateways.de^
@@ -8376,6 +8416,7 @@
 ||uiteligularly.fun^
 ||ujgf120.com^
 ||ujnkn.com^
+||uk-proxy.co.uk^
 ||uk.teradns.org^
 ||uk529u0.cn^
 ||ukjwyv.icu^
@@ -8781,6 +8822,7 @@
 ||venienceilo.fun^
 ||vercel-is-cool.vercel.app^
 ||verify.snssdk.com^
+||veripn.com^
 ||vexilorath.com^
 ||vfiles.gtimg.cn^
 ||vfjsa6do.icu^
@@ -8871,6 +8913,7 @@
 ||vpn-api.proton.me^
 ||vpn-byen.dk^
 ||vpn-fastest.com^
+||vpn-for-test.ru^
 ||vpn-free.com^
 ||vpn-free.download^
 ||vpn-proxies.co.cc^
@@ -9129,6 +9172,7 @@
 ||weboproxy.com^
 ||webpro.xyz^
 ||webproxy.co.at^
+||webproxy.com.de^
 ||webproxy.com^
 ||webproxy.ich-war-hier.de^
 ||webproxy.online^
@@ -9682,6 +9726,7 @@
 ||yklfg.cn^
 ||ykotyeo.cn^
 ||yktd.m.cn.miaozhen.com^
+||ylink.info^
 ||ylznwl.cn^
 ||ymgjc.com^
 ||ymhyw6.lol^
@@ -9712,6 +9757,7 @@
 ||yourvpn.info^
 ||youth.prosports.cl^
 ||youtube-unblocker.com^
+||youtubebyclick.com^
 ||youtubee.top^
 ||youtubeunblocked.live^
 ||youxi.kugou.com^
@@ -9829,6 +9875,7 @@
 ||zcczrvsaqw.xyz^
 ||zcczrvsaw.xyz^
 ||zcgqsd.icu^
+||zcoup.com^
 ||zcvyzsyd.icu^
 ||zcy821.com^
 ||zczcvx.com^
@@ -9950,6 +9997,7 @@
 ||ziccattws.com^
 ||zifyeldq.top^
 ||zihuiguochao.top^
+||zippyproxy.com^
 ||ziravd.xyz^
 ||zisnuthz.com^
 ||zixuncooperation.html5.qq.com^

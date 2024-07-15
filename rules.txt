@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-07-15 10:32:24（北京时间）
+! Version: 2024-07-15 12:10:16（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17084
+! Total count: 17132
 
  ! 某些其他
  #晴雅规则
@@ -13,7 +13,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-07-15T01:53:12+08:00
+# Update time: 2024-07-15T03:53:11+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [22号]
 # [360]
@@ -5054,7 +5054,9 @@
 142.251.10.188 alt7-mtalk.google.com
 142.251.8.188 alt6-mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
+16.182.105.161                github-production-release-asset-2e65be.s3.amazonaws.com
 16.182.36.9                   github-cloud.s3.amazonaws.com
+16.182.65.33                  github-com.s3.amazonaws.com
 172.64.145.151 cdn.cloudflare.steamstatic.com
 18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.me,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 182.239.104.89 bigota.d.miui.com
@@ -5066,11 +5068,18 @@
 184.28.14.49 www.steamcommunity.com
 184.28.159.136 steam-chat.com
 185.199.108.133               avatars.githubusercontent.com
+185.199.108.133               avatars0.githubusercontent.com
+185.199.108.133               avatars2.githubusercontent.com
 185.199.108.133               avatars3.githubusercontent.com
-185.199.108.133               avatars5.githubusercontent.com
-185.199.108.133               github.map.fastly.net
+185.199.108.133               camo.githubusercontent.com
+185.199.108.133               cloud.githubusercontent.com
+185.199.108.133               desktop.githubusercontent.com
+185.199.108.133               favicons.githubusercontent.com
 185.199.108.133               media.githubusercontent.com
+185.199.108.133               objects.githubusercontent.com
+185.199.108.133               user-images.githubusercontent.com
 185.199.109.153               assets-cdn.github.com
+185.199.109.153               github.io
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars1.githubusercontent.com
@@ -5086,23 +5095,16 @@
 185.199.110.133 raw.github.com
 185.199.110.133 raw.githubusercontent.com
 185.199.110.133 user-images.githubusercontent.com
-185.199.110.153               github.io
 185.199.110.153               githubstatus.com
 185.199.110.153 githubstatus.com
 185.199.110.154               github.githubassets.com
 185.199.110.154 github.githubassets.com
-185.199.111.133               avatars0.githubusercontent.com
 185.199.111.133               avatars1.githubusercontent.com
-185.199.111.133               avatars2.githubusercontent.com
 185.199.111.133               avatars4.githubusercontent.com
-185.199.111.133               camo.githubusercontent.com
-185.199.111.133               cloud.githubusercontent.com
-185.199.111.133               desktop.githubusercontent.com
-185.199.111.133               favicons.githubusercontent.com
-185.199.111.133               objects.githubusercontent.com
+185.199.111.133               avatars5.githubusercontent.com
+185.199.111.133               github.map.fastly.net
 185.199.111.133               private-user-images.githubusercontent.com
 185.199.111.133               raw.githubusercontent.com
-185.199.111.133               user-images.githubusercontent.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -5131,11 +5133,9 @@
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
-52.216.169.99                 github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.217.106.52                 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.10.252                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.217.81.116                 github-production-user-asset-6210df.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-54.231.139.17                 github-com.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.177.188 alt7-mtalk.google.com
 64.233.188.188 mtalk.google.com
@@ -6890,6 +6890,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||55zzz.cn^
 ||56fba.cn^
 ||56yk.com^
+||57824.com^
 ||58jingxuan.top/115
 ||58jingxuan.top/dhbioperhbvoprwm
 ||59gt.cn^
@@ -7320,6 +7321,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||adguard.kss.ovh^
 ||adguard.leadseason.eu^
 ||adguard.lege.despagne.net^
+||adguard.londonwebnerd.cloud^
 ||adguard.marto.si^
 ||adguard.meddy94.de^
 ||adguard.oms-ctr.ru^
@@ -7813,6 +7815,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||anonymous-proxy.com.de^
 ||anonymousblog.info^
 ||anonymouse.org^
+||anonymousengine.com^
 ||anonymousvpn.info^
 ||anonymousvpn.org^
 ||anonymox.net^
@@ -8525,6 +8528,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||canser7.top^
 ||canser8.top^
 ||canser9.top^
+||cantblockthis.org^
 ||cantfindme.org^
 ||canvas.gdt.qq.com^
 ||cao-gao.xyz^
@@ -8712,6 +8716,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||clldirectasianew.club^
 ||cloaker.ca^
 ||cloaker.us^
+||cloakvpn.com^
 ||clog.miguvideo.com^
 ||cloud-log.yy.com^
 ||cloud.198.games^
@@ -8758,6 +8763,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||cocloud.site^
 ||cocomanga.com/js/atmp.html
 ||cocoombr.com^
+||cocoproxy.com^
 ||coe01.dnscry.pt^
 ||coinsite.info^
 ||collect.kugou.com^
@@ -8810,6 +8816,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||coolapk.com/v6/main/init?$replace=/\{"data":\[\{"entityType":"card"\,"entityTemplate":"textCard"\,"title":"\\u70ed\\u95e8\\u641c\\u7d22".*?\}\,\{"entityType":"card"\,"entityTemplate":"configCard"/\{"data":[\{"entityType":"card"\,"entityTemplate":"configCard"/
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
 ||coolapk.com/v6/search?type=hotSearch$replace=/\{"data":\[.*\]/{"data":[]/
+||coolbits.org^
 ||cooperation.html5.qq.com^
 ||core-vpn.norton.com^
 ||corecloak.com^
@@ -8874,6 +8881,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||croxyproxy.rocks^
 ||crs.baidu.com^
 ||crs.cr.adobe.com^
+||crushus.com^
 ||crusty.motorcycles^
 ||crypticvpn.com^
 ||crypto.sx^
@@ -8997,6 +9005,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||daawv.cn^
 ||daawx.cn^
 ||dabmix.com^
+||dac0miaxap05t.cloudfront.net^
 ||daccp.cn^
 ||dacedsfa.cn^
 ||dada.dadawm.cc^
@@ -9132,6 +9141,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dfsvhv88.com^
 ||dfxwdc.com^
 ||dg186.cn^
+||dg98q1fqxxogp.cloudfront.net^
 ||dgaxxjq.cn^
 ||dgayibf.icu^
 ||dgfgflod.com^
@@ -9447,7 +9457,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns.mihanentalpo.me^
 ||dns.mikeliu.org^
 ||dns.mikrotikrumahan.my.id^
-||dns.milkpie.one^
 ||dns.mo0on15.com^
 ||dns.molinero.dev^
 ||dns.moog.sh^
@@ -9572,6 +9581,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns.warma.me^
 ||dns.warpnine.de^
 ||dns.watch^
+||dns.wechat.com^
 ||dns.weibo.cn^
 ||dns.weixin.qq.com*^
 ||dns.weixin.qq.com.cn^
@@ -10039,9 +10049,11 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||emby.rasp.tv^
 ||emilyz.top^
 ||ems.youku.com^
+||emuby.com^
 ||encrypt.me^
 ||endpoint.zhuishushenqi.com^
 ||enennsa.gushiwen.cn^
+||englandproxy.co.uk^
 ||enhad.xyz^
 ||enl2.96845.com^
 ||entry.baidu.com^
@@ -10153,6 +10165,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||f.gxrwc.xyz^$important
 ||f1tfmxzg.icu^
 ||f23jjd8.xyz^
+||f4fp.com^
 ||f53a.com^
 ||f77j6t2b.com^
 ||f77xv3.top^
@@ -10190,6 +10203,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||fasttime.info^
 ||fastusaproxy.com^
 ||fastvpn.im^
+||fastvpn.me^
 ||favoriteshoes.us^
 ||faxffjo.com^
 ||fbproxies.info^
@@ -10312,6 +10326,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||fpbbdx2.bmcx.com^$important
 ||fpn.firefox.com^
 ||fpoq818.com^$important
+||fproxy.net^
 ||fptdxkm.com^
 ||fqpxzr.xyz^
 ||fqxkj.cn^
@@ -10537,6 +10552,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||gfbdb1.com^
 ||gfrzzzx.cn^
 ||gfvip09at.com^
+||gfwvpn.com^
 ||ggdfrl.com^
 ||ggdrfh5.com^
 ||ggdumze.cn^
@@ -10641,6 +10657,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||graef.in^
 ||grandcomms.cn^
 ||granules.us^
+||gratisproxy.nl^
 ||gratisvpn.com^
 ||gravity.omniscien.cl^
 ||gravity.sciencevictory.org^
@@ -10780,6 +10797,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||haoyundm.com^
 ||haoyundmtaotao.com^
 ||happy-vpn.com^
+||happydata.info^
 ||hapying.com^
 ||hasdser.com^
 ||hasgde.site^
@@ -10894,6 +10912,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||hideproxy.me^
 ||hidessh.com^
 ||hidester.com^
+||hidesurf.us^
 ||hidetheinternet.com^
 ||hidethisip.net^
 ||hideway.eu^
@@ -11357,6 +11376,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||isityet.net^
 ||islbaho.top^
 ||ispcapi.mcafee.com^
+||ispunblock.com^
 ||ispvpn.com^
 ||isub.snssdk.com.bytedns.net^
 ||isub.snssdk.com^
@@ -11713,6 +11733,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||kl.yditweb.cn^
 ||kl91ccp.com^
 ||klbvqqqj.com^
+||klcknerrip.com^
 ||kljslku.com^
 ||klufjdo.com^
 ||kmbopoie.com^
@@ -11831,6 +11852,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||laipeitu.com^
 ||lakefish.xyz^
 ||lakjdskls.zhdchb.com^
+||lalal.info^
 ||lalaping.com^
 ||laljjn.xyz^
 ||lamkghx.icu^
@@ -12111,6 +12133,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||loggate.moxigame.cn^
 ||logger.qingting.fm^
 ||loggw.alipay.com.cn^
+||login.readinghelper.online^
 ||login.thegalleryofart.info^
 ||logos.kiwibrowser.com^
 ||logrcv.aiclk.com^
@@ -12249,6 +12272,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||mail.kguapp.com^
 ||mailer.amlegion.org^
 ||mailkyb.co^
+||mailproxy.info^
 ||mainframe.dewed.de^
 ||mainssh.com^
 ||maiqi.xyz^
@@ -12603,6 +12627,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||myspaceunlock.com^
 ||mytunneling.com^
 ||myun.tenpay.com^
+||myvpn.com^
 ||mywb3.com^
 ||mywebproxy.in^
 ||mywebproxy.net^
@@ -12663,6 +12688,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ndujy.xyz^
 ||ne1.ca^
 ||nearme.com.cn^
+||needunblock.com^
 ||nefbjp.xyz^
 ||nefrpt.top^
 ||neg2zos.icu^
@@ -12797,6 +12823,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||novelsns.html5.qq.com^
 ||novret.com/?clickid=
 ||now.3g.cn^$important
+||nowcache.com^
 ||npftmqv.cn^
 ||nphqw.cn^
 ||nqdufv.xyz^
@@ -13491,6 +13518,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||proxify.tv^
 ||proxify.us^
 ||proxify.ws^
+||proxii.net^
 ||proximize.me^
 ||proxite.de^
 ||proxite.eu^
@@ -13505,6 +13533,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||proxtube.com^
 ||proxy-123.com^
 ||proxy-2014.com^
+||proxy-2015.info^
 ||proxy-anywhere.com^
 ||proxy-bypass.com^
 ||proxy-deal.net^
@@ -13529,6 +13558,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||proxy.nu^
 ||proxy.ordentlichbreit.de^
 ||proxy.org^
+||proxy.red^
 ||proxy.rocks^
 ||proxy.schel.li^
 ||proxy.searchfiles.de^
@@ -13537,6 +13567,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||proxy.toolur.com^
 ||proxy.vpner.com^
 ||proxy.wynd.network^
+||proxy.yt^
 ||proxy2014.net^
 ||proxy2you.com^
 ||proxy4down.com^
@@ -13545,6 +13576,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||proxy7.club^
 ||proxyanonymizer.net^
 ||proxyarab.com^
+||proxybits.com^
 ||proxyboost.net^
 ||proxybox.ru^
 ||proxybros.com^
@@ -13569,6 +13601,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||proxygogo.info^
 ||proxyhash.net^
 ||proxyhub.in^
+||proxyisp.com^
 ||proxyist.com^
 ||proxyium.com^
 ||proxylistpro.com^
@@ -13827,6 +13860,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||qucncfo.cn^
 ||qudajie.com^
 ||query.hdns.io^
+||quick-proxy.com^
 ||quickprox.com^
 ||quicksilvervpn.com^
 ||quickvpn.lipisoft.com^
@@ -14279,6 +14313,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||securitykiss.com^
 ||securitymobile.club^
 ||secvpnproxy.co.cc^
+||sedirepseh.com^
 ||seed.st^
 ||seed4.me^
 ||seedboxes.cc^
@@ -14442,6 +14477,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||siteunblocked.space^
 ||siteunblocked.website^
 ||siteunblocked.xyz^
+||sitework.info^
 ||siwei.pub^
 ||sixiuwl.cn^
 ||siz3wxt8p.shop^
@@ -14531,6 +14567,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||speedify.com^
 ||speedshare.app^
 ||speedssh.com^
+||speedyth.com^
 ||spicevpn.com^
 ||spidervpn.org^
 ||splashimgbssdl.yun.kugou.com^
@@ -14731,6 +14768,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||surfsharkbiz.com^
 ||surfsharkdeals.com^
 ||surfsharkstatus.com^
+||surfshell.io^
 ||surfsjark.com^
 ||surfsneaker.com^
 ||surfsuark.com^
@@ -15058,9 +15096,11 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||top10vpn.com^
 ||topnewsfeeds.net^
 ||toppal.tech^
+||topsecure.info^
 ||topsun.pw^
 ||toptip.cc^
 ||topvpn.cc^
+||topvpn.cn^
 ||topvpnguides.com^
 ||tor-ca.prcdn.net^
 ||tor-gateways.de^
@@ -15320,6 +15360,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||uiteligularly.fun^
 ||ujgf120.com^
 ||ujnkn.com^
+||uk-proxy.co.uk^
 ||uk.teradns.org^
 ||uk529u0.cn^
 ||ukjwyv.icu^
@@ -15733,6 +15774,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||venienceilo.fun^
 ||vercel-is-cool.vercel.app^
 ||verify.snssdk.com^
+||veripn.com^
 ||verysadfun.com/assets/publish/jquery.*.js
 ||vexilorath.com^
 ||vfiles.gtimg.cn^
@@ -15825,6 +15867,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||vpn-api.proton.me^
 ||vpn-byen.dk^
 ||vpn-fastest.com^
+||vpn-for-test.ru^
 ||vpn-free.com^
 ||vpn-free.download^
 ||vpn-proxies.co.cc^
@@ -16090,6 +16133,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||weboproxy.com^
 ||webpro.xyz^
 ||webproxy.co.at^
+||webproxy.com.de^
 ||webproxy.com^
 ||webproxy.ich-war-hier.de^
 ||webproxy.online^
@@ -16710,6 +16754,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ykmh.com/js/aajquery.img01.js
 ||ykotyeo.cn^
 ||yktd.m.cn.miaozhen.com^
+||ylink.info^
 ||ylznwl.cn^
 ||ymgjc.com^
 ||ymhyw6.lol^
@@ -16742,6 +16787,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||youth.prosports.cl^
 ||youtube-unblocker.com^
 ||youtube.com/get_midroll_
+||youtubebyclick.com^
 ||youtubee.top^
 ||youtubeunblocked.live^
 ||youxi.kugou.com^
@@ -16862,6 +16908,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||zcczrvsaqw.xyz^
 ||zcczrvsaw.xyz^
 ||zcgqsd.icu^
+||zcoup.com^
 ||zcvyzsyd.icu^
 ||zcy821.com^
 ||zczcvx.com^
@@ -16994,6 +17041,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ziccattws.com^
 ||zifyeldq.top^
 ||zihuiguochao.top^
+||zippyproxy.com^
 ||ziravd.xyz^
 ||zisnuthz.com^
 ||zixuncooperation.html5.qq.com^
