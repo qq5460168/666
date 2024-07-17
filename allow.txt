@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-07-17 14:09:55（北京时间）
+! Version: 2024-07-17 16:09:22（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2257
+! Total count: 2269
 @@*.flyme.cn
 @@*.myapp.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -1071,6 +1071,7 @@
 @@||api.device.xiaomi.net^$important
 @@||api.flash.cn^$important
 @@||api.huangye.miui.com^
+@@||api.installer.xiaomi.com^
 @@||api.io.mi.com^$important
 @@||api.iplay.163.com^
 @@||api.jr.mi.com^$important
@@ -1126,6 +1127,7 @@
 @@||at.umeng.com^$important
 @@||audid-api.taobao.com^$important
 @@||auditude.com^
+@@||auth.be.sec.miui.com^
 @@||auth.wosms.cn^$important
 @@||auth.zijieapi.com^
 @@||avatar.coolapk.com^
@@ -1404,6 +1406,7 @@
 @@||games.mobileapi.hupu.com^$important
 @@||gateway.kugou.com^$important
 @@||gcable.com.cn^$important
+@@||gdfp.gifshow.com^
 @@||gdfp.gifshow.com^$important
 @@||gdmf.apple.com^
 @@||gdown.baidu.com^$important
@@ -1462,6 +1465,7 @@
 @@||hotel.17u.cn^$important
 @@||hsforms.net^
 @@||httpdns.alicdn.com^
+@@||httpdns.c.cdnhwc2.com^
 @@||hudong.alicdn.com^$important
 @@||huichuan-mc.sm.cn^
 @@||huichuan.sm.cn^
@@ -1529,7 +1533,7 @@
 @@||isure.stream.qqmusic.qq.com^$important
 @@||iteye.com^$important
 @@||itop.qq.com^
-@@||jd.com^important
+@@||jd.com^
 @@||jia.360.cn^
 @@||jiathis.com^
 @@||jifen.2345.com^
@@ -1549,6 +1553,7 @@
 @@||knowsex.net^
 @@||ks.pull.yximgs.com^
 @@||ksapisrv.com^
+@@||kuaishou.httpdns.pro^
 @@||kwimgs.com^$important
 @@||kyaru-concat.now.sh^$important
 @@||l.qq.com^
@@ -1716,6 +1721,7 @@
 @@||ncomment.kuwo.cn^
 @@||necaptcha.nosdn.127.net^
 @@||netease.com^$important
+@@||netmon.stat.360safe.com^
 @@||nishub1.10010.com^$important
 @@||nj.t.bcsp2p.baidu.com^ 
 @@||nmobi.kuwo.cn^$important
@@ -1929,6 +1935,7 @@
 @@||sec-cdn.static.xiaomi.net^$important
 @@||sec.resource.xiaomi.net^$important
 @@||securemvt.apple.com.cn^$important
+@@||security.browser.miui.com^
 @@||self.events.data.microsoft.com^$important
 @@||sf0.market.xiaomi.com^$important
 @@||sf3-pitaya-tos.pstatp.com^$important
@@ -2061,8 +2068,10 @@
 @@||tv.2345.com^$important
 @@||tvapp.hpplay.cn^
 @@||tvepg.pandora.xiaomi.com^$important
+@@||tx-kmpaudio.pull.yximgs.com^
 @@||tx163.com^$important
 @@||tybook.taoyuewenhua.net^
+@@||tz.sec.xiaomi.com^
 @@||u1.img.mobile.sina.cn^$important
 @@||uc-titans-cn-01.heytapimage.com^$important
 @@||uc-titans-cn.heytapimage.com^$important
@@ -2071,6 +2080,7 @@
 @@||uczzd.cn^$important
 @@||udpolimenew.baidu.com^
 @@||uee.me^$important
+@@||uem.migu.cn^
 @@||uem.migu.cn^ 
 @@||uland.taobao.com^$important
 @@||ulive-interact.uc.cn^
@@ -2112,6 +2122,7 @@
 @@||v9-x.toutiaovod.com^$important
 @@||vali-g1.cp31.ott.cibntv.net^
 @@||vas.snssdk.com^
+@@||vconf.f.360.cn^
 @@||vcs-quality.zijieapi.com^
 @@||vcs.zijieapi.com^
 @@||vd1.market.xiaomi.com^$important
@@ -2133,6 +2144,7 @@
 @@||vps.uc.cn^
 @@||vv.video.qq.com^$important
 @@||w.pandora.xiaomi.com^$important
+@@||w2-live.gskwai.com^
 @@||w2.kskwai.com^ 
 @@||w8.com.cn^
 @@||waimai-guide.ele.me^$important
