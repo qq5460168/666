@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-07-18 10:27:17（北京时间）
+! Version: 2024-07-18 12:08:23（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 10084
+! Total count: 10088
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.adbkwai.com^
@@ -3575,6 +3575,7 @@
 ||firebaselogging.googleapis.com^
 ||firebaseremoteconfig.googleapis.com^
 ||firevent.jd.com^
+||firstcontact.site^
 ||fish882.xyz^
 ||fishproxy.com^
 ||fitnessdepotprices.com^
@@ -4428,6 +4429,7 @@
 ||ib.snssdk.com.edgekey.net^
 ||ib.snssdk.com^
 ||ibksturm.synology.me^
+||iblocker.info^
 ||ibozys.cn^
 ||ibqkjbw.com^
 ||ibreeno.com^
@@ -4655,6 +4657,7 @@
 ||iuwkmpol.net^
 ||ivacy.com^
 ||ivnkn.xyz^
+||ivpn.info^
 ||ivpn.net^
 ||ivqtrjt.cn^
 ||ivzfpwm.cn^
@@ -4666,6 +4669,7 @@
 ||ixelrsd.cn^
 ||ixisivomer.com^
 ||ixjtpbj.cn^
+||ixl.plus^
 ||ixnrmco.com^
 ||iyes.youku.com^
 ||iyfbodn.com^
