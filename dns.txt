@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-07-19 10:27:40（北京时间）
+! Version: 2024-07-19 12:09:46（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 10088
+! Total count: 10090
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.adbkwai.com^
@@ -5798,6 +5798,7 @@
 ||mycelium.site^
 ||myehm.xyz^
 ||myexpendd.xyz^
+||myhidden.info^
 ||myip-proxy.info^
 ||myip.io^
 ||myiphide.com^
@@ -7348,6 +7349,7 @@
 ||schoolnewsletter.us^
 ||schoolproxy.co^
 ||schooxy.com^
+||sciencesimplified.pro^
 ||sciillr.cn^
 ||scjpqut.cn^
 ||scrvw3.com^
