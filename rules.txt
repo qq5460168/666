@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-07-20 10:30:58（北京时间）
+! Version: 2024-07-20 12:16:29（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17217
+! Total count: 17223
 
  ! 某些其他
  #晴雅规则
@@ -13,7 +13,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-07-20T01:52:35+08:00
+# Update time: 2024-07-20T03:52:56+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [22号]
 # [360]
@@ -5171,7 +5171,6 @@
 127.0.0.1 zt.jd.com
 127.0.0.1 zymo.mps.weibo.com
 127.0.0.1 zz.bdstatic.com
-13.107.246.41                 vscode.dev
 13.107.42.16                  pipelines.actions.githubusercontent.com
 140.82.112.18                 github.community
 140.82.112.18 github.community
@@ -5204,12 +5203,10 @@
 184.28.14.49 www.steamcommunity.com
 184.28.159.136 steam-chat.com
 185.199.108.133               avatars0.githubusercontent.com
-185.199.108.133               avatars2.githubusercontent.com
-185.199.108.133               avatars3.githubusercontent.com
-185.199.108.133               cloud.githubusercontent.com
-185.199.108.133               desktop.githubusercontent.com
-185.199.109.153               assets-cdn.github.com
-185.199.109.153               github.io
+185.199.108.133               avatars1.githubusercontent.com
+185.199.108.133               favicons.githubusercontent.com
+185.199.108.133               media.githubusercontent.com
+185.199.108.133               objects.githubusercontent.com
 185.199.109.153               githubstatus.com
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
@@ -5226,18 +5223,20 @@
 185.199.110.133 raw.github.com
 185.199.110.133 raw.githubusercontent.com
 185.199.110.133 user-images.githubusercontent.com
+185.199.110.153               assets-cdn.github.com
+185.199.110.153               github.io
 185.199.110.153 githubstatus.com
 185.199.110.154               github.githubassets.com
 185.199.110.154 github.githubassets.com
 185.199.111.133               avatars.githubusercontent.com
-185.199.111.133               avatars1.githubusercontent.com
+185.199.111.133               avatars2.githubusercontent.com
+185.199.111.133               avatars3.githubusercontent.com
 185.199.111.133               avatars4.githubusercontent.com
 185.199.111.133               avatars5.githubusercontent.com
 185.199.111.133               camo.githubusercontent.com
-185.199.111.133               favicons.githubusercontent.com
+185.199.111.133               cloud.githubusercontent.com
+185.199.111.133               desktop.githubusercontent.com
 185.199.111.133               github.map.fastly.net
-185.199.111.133               media.githubusercontent.com
-185.199.111.133               objects.githubusercontent.com
 185.199.111.133               private-user-images.githubusercontent.com
 185.199.111.133               raw.githubusercontent.com
 185.199.111.133               user-images.githubusercontent.com
@@ -5265,15 +5264,15 @@
 23.203.135.130 steambroadcast.akamaized.net
 23.37.17.175 store.steampowered.com
 23.48.201.18 store.akamai.steamstatic.com
-3.5.23.224                    github-production-user-asset-6210df.s3.amazonaws.com
+3.5.25.200                    github-production-user-asset-6210df.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
-52.217.106.52                 github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.114.105                github-cloud.s3.amazonaws.com
-52.217.198.153                github-com.s3.amazonaws.com
+52.216.216.129                github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.133.137                github-cloud.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+54.231.198.25                 github-com.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.188.188 mtalk.google.com
 64.233.189.188 alt1-mtalk.google.com
@@ -13388,6 +13387,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||pdx01.dnscry.pt^
 ||pdxdxl.xyz^
 ||pdxubxc.cn^
+||peekproxy.com^
 ||pejrq.xyz^
 ||pengauto.cn^
 ||peoplesproxy.com^
@@ -13421,6 +13421,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||phoniex.toutiao.com^
 ||phoorned.com^
 ||photography.backriverphotography.com^
+||photonsecure.com^
 ||phpbido.com^
 ||phproxysite.com^
 ||phputils.wc-os.com^
@@ -13478,6 +13479,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||plainproxies.com^
 ||planet-vids.online^
 ||play.kakao.com^
+||play5r.com^
 ||playable.oceanengine.com^
 ||playproxy.com^
 ||playstats.v.duowan.com^
@@ -13733,6 +13735,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||proxysite.site^
 ||proxysite.top^
 ||proxysite.us^
+||proxysite.video^
 ||proxysneak.com^
 ||proxysurfing.org^
 ||proxytime.net^
@@ -13960,6 +13963,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||query.hdns.io^
 ||quick-proxy.com^
 ||quickprox.com^
+||quickproxy.co.uk^
 ||quicksilvervpn.com^
 ||quickvpn.lipisoft.com^
 ||quintex.com^
@@ -14540,6 +14544,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||simi2345.com^
 ||similm.xyz^
 ||simiyue2.com^
+||simpleproxy.us^
 ||simplevpn.info^
 ||simplewebanalysis.com^
 ||sin01.dnscry.pt^
@@ -14697,6 +14702,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ssl.linyiccic.com^
 ||sslbahb.top^
 ||sslprivateproxy.com^
+||sslpro.eu^
 ||sslpro.org^
 ||sslproxies.net^
 ||sslproxies.org^
