@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-07-24 10:28:09（北京时间）
+! Version: 2024-07-24 12:08:16（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 10105
+! Total count: 10104
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.adbkwai.com^
@@ -2779,7 +2779,6 @@
 ||dns.mikrotikrumahan.my.id^
 ||dns.mo0on15.com^
 ||dns.molinero.dev^
-||dns.moog.sh^
 ||dns.moonssif.com^
 ||dns.moulticast.net^
 ||dns.mrkaran.dev^
