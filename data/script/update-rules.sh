@@ -29,7 +29,7 @@ rules=(
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt" #5460
   "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #大萌主
   "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt"  #DD
-  "https://raw.gitmirror.com/Cats-Team/dns-filter/main/abp.txt" #AdRules DNS Filter
+  #"https://raw.gitmirror.com/Cats-Team/dns-filter/main/abp.txt" #AdRules DNS Filter
   "https://raw.hellogithub.com/hosts" #GitHub加速
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/adhosts.txt" #测试hosts
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt" #白名单
@@ -40,7 +40,7 @@ rules=(
       #"https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt" #T白
       "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt" #HaGeZi's Encrypted
     
-"https://raw.githubusercontent.com/tyy840913/NOT-AD/master/dns.txt" #tyy840913
+#"https://raw.githubusercontent.com/tyy840913/NOT-AD/master/dns.txt" #tyy840913
 "" #
 "" #
 "" #
