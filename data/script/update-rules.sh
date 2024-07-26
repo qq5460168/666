@@ -40,6 +40,10 @@ rules=(
       #"https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt" #T白
       "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt" #HaGeZi's Encrypted
     
+"https://raw.githubusercontent.com/tyy840913/NOT-AD/master/dns.txt" #tyy840913
+"" #
+"" #
+"" #
  
   
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
