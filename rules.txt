@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-07-27 16:08:10（北京时间）
+! Version: 2024-07-27 18:07:23（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17176
+! Total count: 17175
 
  ! 某些其他
  #晴雅规则
@@ -4259,7 +4259,6 @@
 127.0.0.1 showwxml.qq.com
 127.0.0.1 shuzilm-android.guazi.com
 127.0.0.1 sidebar-apps-cn.allawntech.com
-127.0.0.1 sidebar-apps-cn.allawntech.com1.cn
 127.0.0.1 signup.taboola.com
 127.0.0.1 simaba.taobao.com
 127.0.0.1 sin1-ib.adnxs.com
