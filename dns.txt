@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-07-30 10:28:33（北京时间）
+! Version: 2024-07-30 12:08:41（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 10043
+! Total count: 10025
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.adbkwai.com^
@@ -1309,7 +1309,6 @@
 ||api.bugsnag.com^
 ||api.bytelixir.com^
 ||api.chcatv.hismarttv.com^
-||api.cloud.rigaprecast.com^
 ||api.cloudflareclient.com^
 ||api.cxzudwk.com^
 ||api.eu.hismarttv.com^
@@ -1382,7 +1381,6 @@
 ||app-log.dewu.com^
 ||app-measurement.com^
 ||app.bugsnag.com^
-||app.cloud.rigaprecast.com^
 ||app.fairparkdallas.com^
 ||app.fashalot.com^
 ||app.getsentry.com^
@@ -1691,7 +1689,6 @@
 ||blocker.thethorsens.org^
 ||blockerads.multimediaconcept.fr^
 ||blockless.com^
-||blog.cloud.rigaprecast.com^
 ||blog.kimiblock.top^
 ||bloquer.fr^
 ||blsenpg.cn^
@@ -2426,7 +2423,6 @@
 ||dehaer.site^
 ||dehua.mengtubo.com^
 ||dektcvna.icu^
-||demo.cloud.rigaprecast.com^
 ||deproxyserver.com^
 ||derew6xbsc.xyz^
 ||dertyhsf.xyz^
@@ -2744,7 +2740,6 @@
 ||dns.kosan.moe^
 ||dns.kugoapps.com^
 ||dns.kukal.cz^
-||dns.kusoneko.moe^
 ||dns.l337.site^
 ||dns.lars-lehmann.net^
 ||dns.lashes-brow.ru^
@@ -2755,7 +2750,6 @@
 ||dns.lobbygod.com^
 ||dns.loveimgmoe.com^
 ||dns.lvolland.fr^
-||dns.mandre.dev^
 ||dns.maolaohei.xyz^
 ||dns.mathewakhil.online^
 ||dns.maybe.icu^
@@ -2960,13 +2954,11 @@
 ||do.dnscrypt.uk^
 ||do.shimul.me^
 ||doccd.xyz^
-||docs.cloud.rigaprecast.com^
 ||dodhvug.cn^
 ||dog.dns.qwer.pw^
 ||doh-01.spectrum.com^
 ||doh-02.spectrum.com^
 ||doh-2.seby.io^
-||doh-ca.naftalie.net^
 ||doh-ch.blahdns.com^
 ||doh-de.blahdns.com^
 ||doh-fi.blahdns.com^
@@ -3018,7 +3010,6 @@
 ||doh.funil.de^
 ||doh.funtopia.tv^
 ||doh.futa.gg^
-||doh.gcp.pathofgrace.com^
 ||doh.hottis.de^
 ||doh.ibr.cs.tu-bs.de^
 ||doh.infotek.net.id^
@@ -3598,7 +3589,6 @@
 ||forestseasons.com.cn^
 ||forflygonom.com^
 ||fortniters.info^
-||forum.cloud.rigaprecast.com^
 ||forwardproxie.com^
 ||forzubatr.com^
 ||fourier.taobao.com^
@@ -5544,7 +5534,6 @@
 ||megaproxylist.net^
 ||megumin.is.my.waifu.cz^
 ||mehide.asia^
-||mehide.org^
 ||meihaoxiangwang.com^
 ||meihu56.cn^
 ||meishesdk.com^
@@ -5562,7 +5551,6 @@
 ||metauniverse88.com^
 ||metaversemolecule.com^
 ||metaword.cn^
-||meteor.newsofmaricopa.com^
 ||metheny.cn^
 ||metok.sys.miui.com^
 ||metrics-ad-drcn.dt.hihonorcloud.com^
@@ -5690,7 +5678,6 @@
 ||motsjnv.cn^
 ||motuopj.cn^
 ||mouseflow.com^
-||movieproxy.com^
 ||moviets.tc.qq.com^
 ||moxiaoqihuoguo.com^
 ||mp.weixin.qq.com/mp/advertisement^
@@ -6020,7 +6007,6 @@
 ||ntozchv.icu^
 ||nuannuanqi.top^
 ||nudpqt.com^
-||nue2.moderateinfra.net^
 ||nuheoub.cn^
 ||nunxhv.com^
 ||nutaku.net^
@@ -7004,7 +6990,6 @@
 ||qzs.gdtimg.com^
 ||qzs.qq.com^
 ||r.cnews.qq.com^
-||r.j0.icom.org.np^
 ||r.qq-hls.xyz^
 ||r1bnc.com^
 ||r36ku.site^
@@ -7228,7 +7213,6 @@
 ||s.btime.com^
 ||s.gdt.qq.com^
 ||s.isdspeed.qq.com^
-||s.j0.icom.org.np^
 ||s.pcapps.qq.com^
 ||s.pcmgr.qq.com^
 ||s.qd.qingting.fm^
@@ -7806,7 +7790,6 @@
 ||supervpn.im^
 ||supervpn.net^
 ||supervpn.top^
-||support.cloud.rigaprecast.com^
 ||surf-for-free.com^
 ||surf100.com^
 ||surface361.com^
@@ -7886,7 +7869,6 @@
 ||t.gdt.qq.com^
 ||t.jmads.net^
 ||t.l.qq.com^
-||t.lifestylethailand.com^
 ||t.sj.qq.com^
 ||t.track.ad.xiaomi.com^
 ||t002.ottcn.com^
@@ -8523,8 +8505,10 @@
 ||unblockfreeproxy.com^
 ||unblockit.app^
 ||unblockit.club^
+||unblockit.foo^
 ||unblockit.link^
 ||unblockit.ltd^
+||unblockit.meme^
 ||unblockit.one^
 ||unblockit.onl^
 ||unblockit.pages.dev^
@@ -9240,7 +9224,6 @@
 ||workhost.eu^
 ||workingvpn.com^
 ||workproxy.net^
-||workshop.precisewarehousing.com^
 ||workstudyplay.com^
 ||worlderva.com^
 ||worldgravityapp.com^
@@ -9434,7 +9417,6 @@
 ||wyxcb3.top^
 ||wzctuv.xyz^
 ||x.adnet.qq.com^
-||x.j0.icom.org.np^
 ||x.jd.com^
 ||x.l.qq.com^
 ||x3zy2.icu^
