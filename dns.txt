@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-07-31 10:09:38（北京时间）
+! Version: 2024-07-31 12:07:30（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 10025
+! Total count: 10021
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.adbkwai.com^
@@ -2683,7 +2683,6 @@
 ||dns.gamban.com^
 ||dns.gi.co.id^
 ||dns.ginovs.nl^
-||dns.glorydns.com^
 ||dns.gnb09.id^
 ||dns.goldplate.org^
 ||dns.google.com^
@@ -3287,7 +3286,6 @@
 ||edong.link^
 ||edoshbw.top^
 ||edpuzzle-lol.vercel.app^
-||edpuzzle.videospeed.cl^
 ||edssnet.changchunets.com^
 ||eduizioq.com^
 ||eedudwr.cn^
@@ -8328,7 +8326,6 @@
 ||uapi-ads.vivo.com.cn^
 ||uapi.ads.heytapmobi.com^
 ||uas2.com^
-||ubint.net^
 ||ublocker.info^
 ||ubmcmm.baidustatic.com^
 ||ubxqerc.cn^
@@ -9035,7 +9032,6 @@
 ||w.cnews.qq.com^
 ||w.inews.qq.com^
 ||w.l.qq.com^
-||w.q.sagesinst.org^
 ||w1.askwai.com^
 ||w1.bskwai.com^
 ||w1.cskwai.com^
