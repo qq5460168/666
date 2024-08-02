@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-08-02 20:12:01（北京时间）
+! Version: 2024-08-02 22:06:29（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17154
+! Total count: 17153
 
  ! 某些其他
  #晴雅规则
@@ -617,6 +617,7 @@
 #交管12123
 #京东
 #京东图床
+#今日诗词
 #代理游戏
 #优酷app
 #优酷图片加载
@@ -3001,10 +3002,6 @@
 127.0.0.1 install2.kugou.com
 127.0.0.1 inte.sogou.com
 127.0.0.1 interest.mix.sina.com.cn
-127.0.0.1 interface.music.163.com
-127.0.0.1 interface.music.163.com.163jiasu.com
-127.0.0.1 interface3.music.163.com
-127.0.0.1 interface3.music.163.com.163jiasu.com
 127.0.0.1 internal-amis-res.cdn.bcebos.com
 127.0.0.1 intl.mtp.umeng.com
 127.0.0.1 intl.wapa.taobao.com
@@ -6026,7 +6023,9 @@
 @@||v*-dc-ad.ixigua.com^$important
 @@||v.gdt.qq.com^$important
 @@||v.uc.cn^
+@@||v1.jinrishici.com^$important
 @@||v2.get.sogou.com^$important
+@@||v2.jinrishici.com^$important
 @@||v3-ppx.ixigua.com^$important
 @@||v6-nimg.ws.126.net^
 @@||v9-x.toutiaovod.com^$important
