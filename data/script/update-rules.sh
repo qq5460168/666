@@ -31,7 +31,7 @@ rules=(
   "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt"  #DD
   "https://raw.gitmirror.com/Cats-Team/dns-filter/main/abp.txt" #AdRules DNS Filter
 
-#"https://raw.hellogithub.com/hosts" #GitHub加速
+"https://raw.hellogithub.com/hosts" #GitHub加速
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/adhosts.txt" #测试hosts
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt" #白名单
   "https://raw.githubusercontent.com/loveqqzj/AdGuard/master/Mobile.txt" #loveqqzj
