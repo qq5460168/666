@@ -2,9 +2,10 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-08-05 00:06:48（北京时间）
+! Version: 2024-08-05 02:07:48（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 10022
+! Total count: 10001
+||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.adbkwai.com^
@@ -52,7 +53,6 @@
 ||*ad_logo_str*^
 ||*ad_logo_time*^
 ||*ad_unit_id*^
-||*adkwai.com^
 ||*ads-track*^
 ||*ads_svp_video*^
 ||*adsdk_roll*^
@@ -63,10 +63,8 @@
 ||*bd_sp_logo*^
 ||*bqt_logo_tag*^
 ||*channel=*&amp;amp;disable_rcmd=1*^
-||*channel=*&disable_rcmd=1*^
 ||*commercial_api*^
 ||*commercial_api/real_time*^
-||*djvod.ndcimgs.com^
 ||*dy-pic*.iqiyipic.com^
 ||*feed_ad*^
 ||*get-ads*^
@@ -76,7 +74,6 @@
 ||*load_new_ad=*^
 ||*mobads*^
 ||*mobads://*^
-||*shared-*.js^
 ||*snscosdownload*^
 ||*umeng.com^
 ||*vmind.qqvideo.tc.qq.com^
@@ -458,6 +455,7 @@
 ||8proxy.com^
 ||8suis.top^
 ||8v9m.com^
+||90fcw.cn^
 ||9129666tp.com^
 ||91chaodijia.com^
 ||91p20.space^
@@ -910,6 +908,7 @@
 ||adsdk.9imobi.com^
 ||adsdk.state.duoku.com^
 ||adsdk.vivo.com.cn^
+||adsdk.whjzjx.cn^
 ||adsdkapi.dxys.pro^
 ||adse.ximalaya.com^
 ||adsense.7723.com^
@@ -1129,7 +1128,6 @@
 ||alidns.cb1999.top^
 ||alidns.com^
 ||alidns2.cb1999.top^
-||alimov6.a.yximgs.com^
 ||aliveproxies.com^
 ||aliyun.cdn.chengzilte.top^
 ||aliyunapi.org^
@@ -1331,7 +1329,6 @@
 ||api.juliangcili.com^
 ||api.kingdata.ksyun.com^
 ||api.kwaizt.com^
-||api.letvcloud.com^
 ||api.liumingye.cn^
 ||api.megvii.com^
 ||api.miui.security.xiaomi.com^
@@ -1352,6 +1349,7 @@
 ||api.verify.mob.com^
 ||api.vip.ptqy.gitv.tv^
 ||api.wqycq.com^
+||api.xahc971.com^
 ||api.xiangkanwang.com^
 ||api.xn--zw0autp42d.cn^
 ||api.xyhx.cc^
@@ -1368,7 +1366,6 @@
 ||api5-normal-lf.fqnovel.com^
 ||api5-normal-lq.fqnovel.com^
 ||api5-normal-quic-lf.ixigua.com^
-||api5-normal-sinfonlinea.fqnovel.com^
 ||apijsv6.ksapisrv.com^
 ||apilog.mytvnet.vn^
 ||apimobile.meituan.com^
@@ -1377,7 +1374,6 @@
 ||apk.qqvv88.com^
 ||apks.webxiaobai.top^
 ||apm-log-upload-os.hoyoverse.com^
-||apmlog.snssdk.com^
 ||apmplus.volces.com^
 ||apollo.map.qq.com^
 ||app-log.dewu.com^
@@ -1714,7 +1710,6 @@
 ||bny9.cn^
 ||boats8.top^
 ||bodvpn.com^
-||boe-reward-api.bytedance.net^
 ||boewgph.icu^
 ||bofnhn.com^
 ||bohanhengtian.cn^
@@ -1771,7 +1766,6 @@
 ||bslbahv.top^
 ||bsrv.qq.com^
 ||bswsmlp.cn^
-||bsync3-normal-lq.zijieapi.com^
 ||btescs.fun^
 ||btgoo.cc^
 ||btguard.com^
@@ -1925,7 +1919,6 @@
 ||cdn-cbd-advert-prod.shuxinyc.com^
 ||cdn-new-ad.wtzw.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
-||cdn-tos-cn.bytedance.net^
 ||cdn.0ms.dev^
 ||cdn.51img3.com^
 ||cdn.7nsc.cn^
@@ -2149,6 +2142,7 @@
 ||core-vpn.norton.com^
 ||corecloak.com^
 ||corssdk.map.qq.com^
+||cos.ho7k.com^
 ||count.candou.com^
 ||count.enet.com.cn^
 ||count.nuanyuehanxing.com^
@@ -3671,6 +3665,7 @@
 ||freychang.fun^
 ||friendshipmale.com^
 ||frog.dns.qwer.pw^
+||frontend-perf-service.e.kuaishou.com^
 ||frontier-toutiao.snssdk.com^
 ||frontier100-toutiao-hl.fqnovel.com^
 ||fronttoad.com^
@@ -3967,7 +3962,6 @@
 ||guzsjdl.cn^
 ||gvbhae0.com^
 ||gvirabi.com^
-||gw.alicdn.com^
 ||gw1jvhs.com^
 ||gw8gfjbsO5.adobe.io^
 ||gwertyuadf.com^
@@ -4407,7 +4401,6 @@
 ||ibwqfpo.xyz^
 ||ic.adobe.io^
 ||ic.snssdk.com^
-||ichannel.snssdk.com^
 ||iciclle.com^
 ||icitek.com^
 ||icpsuawn1zy5amys.com^
@@ -4471,12 +4464,12 @@
 ||image-ad.sm.cn^
 ||image.cnamedomain.com^
 ||image.csslcloud.net^
+||image.uczzd.cn^
 ||image.yafytg.cn^
 ||imageplus.baidu.com^
 ||images.kxuexue.com^
 ||images.pinduoduo.com^
 ||imapi2.snssdk.com^
-||imapi5-oth-lq.zijieapi.com^
 ||imc.l.qq.com^
 ||ime-store-cdn.gtimg.com^
 ||img-c.heytapimage.com^
@@ -4807,7 +4800,6 @@
 ||js6.efyt6.com^
 ||jsapi.html5.qq.com^
 ||jsapi.qq.com^
-||jsbridge-boe.bytedance.net^
 ||jsczde.cn^
 ||jsdocker.com^
 ||jsebmcv.cn^
@@ -5117,18 +5109,16 @@
 ||let-vpn.com^
 ||leyad.cn^
 ||lezbrja.cn^
-||lf*-ad-union-sdk.pglstatp-toutiao.com^
-||lf*-cdn-tos.bytegoofy.com^
 ||lf*-orange.byteorge.com^
 ||lf*-sf-be-pack-sign.pglstatp-toutiao.com^
 ||lf-wkrs.wkbrowser.com^
 ||lf26-sf-be-pack-sign.pglstatp-toutiao.com^
 ||lf3-ad-union-sdk.pglstatp-toutiao.com^
-||lf3-cdn-tos.bytescm.com^
+||lf3-analytics.bytescm.com^
 ||lf3-developer.bytemastatic.com^
 ||lf3-orange.byteorge.com^
-||lf3-reading.fqnovelpic.com^
 ||lf3-sf-be-pack-sign.pglstatp-toutiao.com^
+||lf3-short.bytetos.com^
 ||lf3-static.bytednsdoc.com^
 ||lf3-webcastcdn-tos-sign.douyinstatic.com^
 ||lf6-ad-union-sdk.pglstatp-toutiao.com^
@@ -5382,7 +5372,6 @@
 ||lurk.info^
 ||lux1.nixnet.xyz^
 ||lv1.nixnet.xyz^
-||lv3-novelapp.fqnovelvod.com^
 ||lvcha99.cc^
 ||lvjtiaa.xyz^
 ||lvrvdn.xyz^
@@ -5522,6 +5511,9 @@
 ||mdt.qq.com^
 ||mdwhxw.com^
 ||meaqcj.cn^
+||media-gdgz-fy-person.gd5oss.ctyunxs.cn^
+||media-ynkm-fy-home.yn7oss.ctyunxs.cn^
+||media-ynkm-fy-person.yn7oss.ctyunxs.cn^
 ||mediahint.com^
 ||mediavpn.com^
 ||meethanshi.com^
@@ -5710,7 +5702,6 @@
 ||mssdk.volces.com^
 ||mssdk.zijieapi.com^
 ||mssdk3-normal-lf.zijieapi.com^
-||mssdk3-normal-lq.zijieapi.com^
 ||msync-im1-vip6-std.easemob.com^
 ||mt4v4.com^
 ||mta.qq.com^
@@ -5732,7 +5723,6 @@
 ||mullvad.net^
 ||multi-az-ad.kuaishou.cn^
 ||multi-az-ad.kuaishou.com^
-||mum.alibabachengdun.com^
 ||mus-nettech.youku.com^
 ||mus.cisco.com^
 ||music.httpdns.c.163.com^
@@ -6280,6 +6270,7 @@
 ||p1-play.kgslb.com^
 ||p1.adkwai.com^
 ||p10528-ad-server.ejoy.com^
+||p11-sign.douyinpic.com^
 ||p11q.cn^
 ||p13n-mr.adobe.io^
 ||p13n.adobe.io^
@@ -6318,13 +6309,10 @@
 ||p6-ad.adukwai.com^
 ||p6-ad.byteimg.com^
 ||p6-be-pack-sign.pglstatp-toutiao.com^
-||p6-developer-sign.bytemaimg.com^
-||p6-webcast-sign.douyinpic.com^
 ||p7uxzbht8h.adobe.io^
 ||p9-ad-sign.byteimg.com^
 ||p9-be-pack-sign.pglstatp-toutiao.com^
 ||p9-developer-sign.bytemaimg.com^
-||p9-novel-sign.byteimg.com^
 ||p9-novelfm-sign.novelfmpic.com^
 ||p9-pack.byteimg.com^
 ||p99nxpivfscyverz.me^
@@ -6437,7 +6425,6 @@
 ||phef2h2csf.adobe.io^
 ||phfqumvi.xyz^
 ||phl01.dnscry.pt^
-||phoniex.toutiao.com^
 ||phoorned.com^
 ||photonsecure.com^
 ||photos.adobe.io^
@@ -6474,7 +6461,6 @@
 ||piratebayproxy.co^
 ||pirubcfy.xyz^
 ||pirxzl.xyz^
-||pitaya.bytedance.com^
 ||pixel.facebook.com^
 ||pixelprivacy.com^
 ||pixolium.com^
@@ -6494,7 +6480,6 @@
 ||planet-vids.online^
 ||play.kakao.com^
 ||play5r.com^
-||playable.oceanengine.com^
 ||playproxy.com^
 ||playstats.v.duowan.com^
 ||plbs9k.icu^
@@ -6528,7 +6513,6 @@
 ||polaris3-normal-hl.zijieapi.com^
 ||polaris3-normal-lf.zijieapi.com^
 ||polaris3-normal-lq.zijieapi.com^
-||polaris5-normal-lq.zijieapi.com^
 ||polfaqgvsd.net^
 ||policy.jd.com^
 ||policy.video.ptqy.gitv.tv^
@@ -6784,7 +6768,6 @@
 ||pull.ximalaya.com^
 ||punono.duckdns.org^
 ||pupilproxy.com^
-||pups.bdimg.com^
 ||puqer.cn^
 ||puredns.org^
 ||purevpn-tools.com^
@@ -7073,6 +7056,7 @@
 ||res1.hubcloud.com.cn^
 ||res2.hubcloud.com.cn^
 ||res3.hubcloud.com.cn^
+||resolve.umeng.com^
 ||resolver-eu.haringstad.com^
 ||resolver.msg.global.xiaomi.net^
 ||resolver.msg.xiaomi.net^
@@ -7095,7 +7079,6 @@
 ||rethinkdns.com^
 ||review.gdtimg.com^
 ||revko.info^
-||reward-api.csjplatform.com^
 ||rf.cnlongshou.com^
 ||rfastvpn.co.cc^
 ||rfnenr.xyz^
@@ -7167,13 +7150,11 @@
 ||rsvqlz.cn^
 ||rszkhn.xyz^
 ||rt.applovin.com^
-||rtapplog.snssdk.com^
 ||rtb.voiceads.cn^
 ||rtborp.xyz^
 ||rte.fuoo1.top^
 ||rtjmln.xyz^
 ||rtlog*-applog-lq.fqnovel.com^
-||rtlog.snssdk.com^
 ||rtmark.net^
 ||rtmonitor.kugou.com^
 ||rtsdfw44.com^
@@ -7396,7 +7377,6 @@
 ||seed.st^
 ||seed4.me^
 ||seedboxes.cc^
-||seeds-open.xycdn.com^
 ||seeproxy.me^
 ||selfadserver.com^
 ||selornews.com^
@@ -7440,6 +7420,7 @@
 ||sf6-cdn-tos.bdxiguastatic.com^
 ||sf6-cdn-tos.toutiaostatic.com^
 ||sf6-fe-pack.pglstatp-toutiao.com^
+||sf6-fe-tos.pglstatp-toutiao.com^
 ||sf6-ttcdn-tos.pstatp.com^
 ||sfbixfd.cn^
 ||sfg11rr.com^
@@ -8085,13 +8066,11 @@
 ||tmfsdktcpv4.m.qq.com^
 ||tmochyf.cn^
 ||tmwbszn.icu^
-||tnc*-bjlgy.zijieapi.com^
 ||tnc*.zijieapi.com^
 ||tnc11-bjlgy.zijieapi.com^
 ||tnc3-aliec1.toutiaoapi.com^
 ||tnc3-aliec2.bytedance.com^
 ||tnc3-aliec2.toutiaoapi.com^
-||tnc3-aliec2.zijieapi.com^
 ||tnc3-aliec2.zijieapi^
 ||tnc3-alisc1.bytedance.com^
 ||tnc3-alisc1.zijieapi.com.queniuyk.com^
@@ -8332,6 +8311,7 @@
 ||uc.qq.uuaoz.com^
 ||ucc-config-dev.alibaba.net^
 ||ucc-log-dev.alibaba.net^
+||ucc.umeng.com^
 ||uchat6.com^
 ||uckgqa.xyz^
 ||ud783c02.com^
@@ -8641,7 +8621,6 @@
 ||uscatherineaa.com^
 ||user1.game.qq.com^
 ||userload.co^
-||useronline-*.image.myqcloud.com^
 ||userproxy.com^
 ||usertrack.alibaba-inc.com^
 ||usfw2eu.icu^
@@ -8714,8 +8693,9 @@
 ||v3-be-pack.pglstatp-toutiao.com^
 ||v3-fe-pack.pglstatp-toutiao.com^
 ||v3-novelapp.fqnovelvod.com^
-||v4.oskwai.com^
+||v4-lm.adukwai.com^
 ||v4dwkcv.com^
+||v5-be-pack.pglstatp-toutiao.com^
 ||v6-adashx.ut.amap.com^
 ||v6-adashx.ut.cainiao.com^
 ||v6-adashx.ut.ele.me^
@@ -9104,7 +9084,6 @@
 ||wdzwd.xyz^
 ||weather-analytics-events.apple.com^
 ||weather-community-drcn.weather.dbankcloud.cn^
-||webcast*-open-hl.douyin.com^
 ||webcast*-open-lq.douyin.com^
 ||webcast-open.douyin.com^
 ||webcast.amemv.com^
@@ -9334,7 +9313,6 @@
 ||www.moneyziyouwm.com^
 ||www.mqhzdl.com^
 ||www.ostlon.com^
-||www.pangle.cn^
 ||www.pangolin-dsp-toutiao.com^
 ||www.pcuois.com^
 ||www.pksanb.com^
@@ -9475,6 +9453,7 @@
 ||ximit8023.maijijo.com^
 ||xinbo-lora.cn^
 ||xinerdact.com^
+||xingya-ad-track.shytkjgs.com^
 ||xingyou25.xyz^
 ||xinlimaoyi2.xinlimaoyi.cn^
 ||xinym1.xyz^
