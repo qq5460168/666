@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-08-06 10:29:19（北京时间）
+! Version: 2024-08-06 12:11:00（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 10002
+! Total count: 9997
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -3021,7 +3021,6 @@
 ||doh.micronets.in^
 ||doh.mmmalia.com^
 ||doh.morizt.id^
-||doh.neowutran.ovh^
 ||doh.nic.lv^
 ||doh.niyawe.de^
 ||doh.northeu.pi-dns.com^
@@ -5790,7 +5789,6 @@
 ||naiep.xyz^
 ||najnus.com^
 ||naned.xyz^
-||nanopi.cybergroove.net^
 ||nanoproxy.com^
 ||napps-1.com^
 ||napps-2.com^
@@ -7612,7 +7610,6 @@
 ||spicevpn.com^
 ||spidervpn.org^
 ||splashimgbssdl.yun.kugou.com^
-||sporium.org^
 ||sportsdream.top^
 ||spplamt.xyz^
 ||spys.one^
@@ -7840,7 +7837,6 @@
 ||szipkp.com^
 ||szlong.weixin.qq.com^
 ||t*-m.dewu.net^
-||t-application.website^
 ||t-dsp.pinduoduo.com^
 ||t-dz.com^
 ||t-qmad.qimao.com^
@@ -8554,7 +8550,6 @@
 ||unlocator.com^
 ||unpkg.com^
 ||unpleasantconcrete.com^
-||unrestrict.me^
 ||unrestrictedsurf.com^
 ||unrestrictor.com^
 ||untraceable.us^
