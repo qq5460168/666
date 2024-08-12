@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-08-12 10:33:13（北京时间）
+! Version: 2024-08-12 12:09:00（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17572
+! Total count: 17566
 
  ! 某些其他
  #晴雅规则
@@ -13,7 +13,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-08-12T01:53:02+08:00
+# Update time: 2024-08-12T03:53:02+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [360]
 # [qq.com]
@@ -5352,6 +5352,8 @@
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
+16.182.34.113                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+16.182.35.153                 github-production-release-asset-2e65be.s3.amazonaws.com
 173.194.202.188     alt4-mtalk.google.com
 18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.me,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 180.163.150.33      dl.l.google.com
@@ -5362,11 +5364,14 @@
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
-185.199.108.133               avatars.githubusercontent.com
+185.199.108.133               avatars0.githubusercontent.com
+185.199.108.133               avatars1.githubusercontent.com
 185.199.108.133               avatars2.githubusercontent.com
 185.199.108.133               github.map.fastly.net
+185.199.108.133               objects.githubusercontent.com
+185.199.108.133               private-user-images.githubusercontent.com
 185.199.109.153               github.io
-185.199.109.154               github.githubassets.com
+185.199.109.153               githubstatus.com
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars1.githubusercontent.com
@@ -5377,9 +5382,8 @@
 185.199.110.133 desktop.githubusercontent.com
 185.199.110.133 media.githubusercontent.com
 185.199.110.153               assets-cdn.github.com
-185.199.110.153               githubstatus.com
-185.199.111.133               avatars0.githubusercontent.com
-185.199.111.133               avatars1.githubusercontent.com
+185.199.110.154               github.githubassets.com
+185.199.111.133               avatars.githubusercontent.com
 185.199.111.133               avatars3.githubusercontent.com
 185.199.111.133               avatars4.githubusercontent.com
 185.199.111.133               avatars5.githubusercontent.com
@@ -5388,8 +5392,6 @@
 185.199.111.133               desktop.githubusercontent.com
 185.199.111.133               favicons.githubusercontent.com
 185.199.111.133               media.githubusercontent.com
-185.199.111.133               objects.githubusercontent.com
-185.199.111.133               private-user-images.githubusercontent.com
 185.199.111.133               raw.githubusercontent.com
 185.199.111.133               user-images.githubusercontent.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
@@ -5413,15 +5415,13 @@
 23.53.11.237 store.akamai.steamstatic.com
 23.53.11.246 cdn.akamai.steamstatic.com
 23.53.11.248 community.akamai.steamstatic.com
-3.5.16.110                    github-cloud.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
-52.217.114.233                github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.217.133.201                github-production-release-asset-2e65be.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 54.231.138.209                github-production-user-asset-6210df.s3.amazonaws.com
+54.231.193.9                  github-cloud.s3.amazonaws.com
 54.231.228.209                github-com.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
@@ -6486,7 +6486,6 @@ huya.com##.end-ab-banner
 huya.com##.main-ab-close-mode
 huya.com##.small-handle-tip
 huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
-i.com^
 icon-icons.com##.bsa-placeholder.fondo-blanco
 iconfinder.com###banner_upgrade_prompt
 ifeng.com##[class^='index_bottom_box']
@@ -6809,6 +6808,7 @@ zhihu.com##.Kok-mobile.Kok.Lottie
 zhihu.com##.MobileAppHeader-downloadLink
 zhihu.com##div[data-za-detail-view-path-is_ad]
 zol.com.cn##A.dingtong.xianshiyouhui
+|qiabayyds.com^
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -8850,7 +8850,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||calc-web.me^
 ||callies-online.site^
 ||camep.xyz^
-||canadaproxy.info^
 ||canadianshield.cira.ca^
 ||canser1.top^
 ||canser5.top^
@@ -9017,7 +9016,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||cifyeldf.top^
 ||ciislunar.com^
 ||ciproxy.de^
-||circumvent.it^
 ||ciscossh.com^
 ||citizenvpn.com^
 ||city.youpukeji.cn^
@@ -9508,7 +9506,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dibaiweiai.com^
 ||dicancele.fun^
 ||dididy.xyz^
-||die-pkw-maut.de^
 ||dieka888.com^
 ||diffpkg.browser.qq.com^
 ||dig-ec.bdurl.net^
@@ -11408,7 +11405,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||httpdns.volcengineapi.com^
 ||httpdns.yunxindns.com^
 ||httpdns1.cc.cdnhwc5.com^
-||httpdserver.info^
 ||httpring.qq.com^
 ||httpsdns.baidu.com^
 ||httpsjs.com^
@@ -14029,7 +14025,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||proxysite.site^
 ||proxysite.top^
 ||proxysite.us^
-||proxysite.video^
 ||proxysneak.com^
 ||proxysurfing.org^
 ||proxytime.net^
@@ -15400,7 +15395,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||thezbpe5*.xyz^
 ||thinkmd.cn^
 ||thirdwx.qlogo.cn^
-||thiscopyofartclassisnotgenuine.rare1k.space^
 ||thoohizoogli.xyz^
 ||threeproxy.net^
 ||thundervpnwin.com^
