@@ -2,7 +2,7 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-08-15 02:08:55（北京时间）
+! Version: 2024-08-15 04:07:32（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 17581
 
@@ -13,7 +13,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-08-14T17:53:01+08:00
+# Update time: 2024-08-14T19:53:01+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [360]
 # [qq.com]
@@ -5375,10 +5375,9 @@
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
-185.199.108.133               avatars2.githubusercontent.com
-185.199.109.153               assets-cdn.github.com
-185.199.109.153               github.io
-185.199.109.154               github.githubassets.com
+185.199.108.133               avatars.githubusercontent.com
+185.199.108.133               desktop.githubusercontent.com
+185.199.109.153               githubstatus.com
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars1.githubusercontent.com
@@ -5388,16 +5387,17 @@
 185.199.110.133 avatars5.githubusercontent.com
 185.199.110.133 desktop.githubusercontent.com
 185.199.110.133 media.githubusercontent.com
-185.199.110.153               githubstatus.com
-185.199.111.133               avatars.githubusercontent.com
+185.199.110.153               assets-cdn.github.com
+185.199.110.153               github.io
+185.199.110.154               github.githubassets.com
 185.199.111.133               avatars0.githubusercontent.com
 185.199.111.133               avatars1.githubusercontent.com
+185.199.111.133               avatars2.githubusercontent.com
 185.199.111.133               avatars3.githubusercontent.com
 185.199.111.133               avatars4.githubusercontent.com
 185.199.111.133               avatars5.githubusercontent.com
 185.199.111.133               camo.githubusercontent.com
 185.199.111.133               cloud.githubusercontent.com
-185.199.111.133               desktop.githubusercontent.com
 185.199.111.133               favicons.githubusercontent.com
 185.199.111.133               github.map.fastly.net
 185.199.111.133               media.githubusercontent.com
@@ -5426,8 +5426,8 @@
 23.53.11.237 store.akamai.steamstatic.com
 23.53.11.246 cdn.akamai.steamstatic.com
 23.53.11.248 community.akamai.steamstatic.com
-3.5.24.174                    github-production-user-asset-6210df.s3.amazonaws.com
-3.5.30.114                    github-cloud.s3.amazonaws.com
+3.5.16.110                    github-cloud.s3.amazonaws.com
+3.5.7.105                     github-production-user-asset-6210df.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 51.ruyo.net###calendar-3
