@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-08-17 10:27:24（北京时间）
+! Version: 2024-08-17 12:08:27（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17579
+! Total count: 17901
 
  ! 某些其他
  #晴雅规则
@@ -13,7 +13,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-08-17T01:52:55+08:00
+# Update time: 2024-08-17T03:52:37+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [360]
 # [qq.com]
@@ -5342,6 +5342,7 @@
 127.0.0.1 zt.jd.com
 127.0.0.1 zymo.mps.weibo.com
 127.0.0.1 zz.bdstatic.com
+13.107.246.41                 vscode.dev
 13.107.42.16                  pipelines.actions.githubusercontent.com
 140.82.112.10                 codeload.github.com
 140.82.112.22 cloud.githubusercontent.com
@@ -5362,7 +5363,6 @@
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.182.34.113                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 173.194.202.188     alt4-mtalk.google.com
 18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.me,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 180.163.150.33      dl.l.google.com
@@ -5373,7 +5373,14 @@
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
-185.199.108.133               avatars.githubusercontent.com
+185.199.108.133               avatars4.githubusercontent.com
+185.199.108.133               avatars5.githubusercontent.com
+185.199.108.133               media.githubusercontent.com
+185.199.108.133               objects.githubusercontent.com
+185.199.108.133               private-user-images.githubusercontent.com
+185.199.108.133               raw.githubusercontent.com
+185.199.109.153               githubstatus.com
+185.199.109.154               github.githubassets.com
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars1.githubusercontent.com
@@ -5385,23 +5392,16 @@
 185.199.110.133 media.githubusercontent.com
 185.199.110.153               assets-cdn.github.com
 185.199.110.153               github.io
-185.199.110.153               githubstatus.com
-185.199.110.154               github.githubassets.com
+185.199.111.133               avatars.githubusercontent.com
 185.199.111.133               avatars0.githubusercontent.com
 185.199.111.133               avatars1.githubusercontent.com
 185.199.111.133               avatars2.githubusercontent.com
 185.199.111.133               avatars3.githubusercontent.com
-185.199.111.133               avatars4.githubusercontent.com
-185.199.111.133               avatars5.githubusercontent.com
 185.199.111.133               camo.githubusercontent.com
 185.199.111.133               cloud.githubusercontent.com
 185.199.111.133               desktop.githubusercontent.com
 185.199.111.133               favicons.githubusercontent.com
 185.199.111.133               github.map.fastly.net
-185.199.111.133               media.githubusercontent.com
-185.199.111.133               objects.githubusercontent.com
-185.199.111.133               private-user-images.githubusercontent.com
-185.199.111.133               raw.githubusercontent.com
 185.199.111.133               user-images.githubusercontent.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
@@ -5424,15 +5424,16 @@
 23.53.11.237 store.akamai.steamstatic.com
 23.53.11.246 cdn.akamai.steamstatic.com
 23.53.11.248 community.akamai.steamstatic.com
+3.5.28.43                     github-production-release-asset-2e65be.s3.amazonaws.com
+3.5.7.105                     github-production-user-asset-6210df.s3.amazonaws.com
 3.5.8.173                     github-com.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
-52.216.53.249                 github-production-user-asset-6210df.s3.amazonaws.com
-52.217.132.49                 github-cloud.s3.amazonaws.com
-52.217.133.201                github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.140.9                  github-cloud.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+54.231.140.153                github-production-repository-file-5c1aeb.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 66.203.124.31 mega.co.nz
@@ -6902,6 +6903,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*zhangyue.net^
 ||000123456789.online^
 ||000123456789.site^
+||003153.xyz^
 ||00xvppy.cn^
 ||01bz
 ||01v62.xyz^
@@ -6974,6 +6976,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||123-24.eport.gr^
 ||123-proxy.net^
 ||123-proxy.org^
+||123000123.xyz^
 ||1233azpupg05.com^$important
 ||123ani.me^
 ||123app.info^
@@ -7047,6 +7050,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||1w73a5d.cn^
 ||1weorpu.com^
 ||1wkg.cn^
+||2.dns.noridev.moe^
 ||2.dnscrypt-cert.blahdns.com^
 ||2.dnscrypt-cert.browser.yandex.net^
 ||2.dnscrypt-cert.captnemo.in^
@@ -7118,6 +7122,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||3338637.com^
 ||3338652.com^
 ||35072.net^$important
+||351242444.xyz^
 ||3562wsgkbcm.xyz^
 ||35vc.com^
 ||36.102.218.149:4482/image.uczzd.cn^
@@ -7131,6 +7136,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||38kmute.xyz^
 ||39mydp.xyz^
 ||3ad5iot.com^
+||3dcosas.xyz^
 ||3dns.eu^
 ||3er88wn.com^
 ||3gsoftfile.tc.qq.com^
@@ -7305,6 +7311,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||88lajs1.com^
 ||88lajs2.com^
 ||88lajs4.com^
+||89433332.xyz^
 ||89mtdab.xyz^
 ||8chj9.com^
 ||8cnd.com^
@@ -7407,6 +7414,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||abe01.dnscry.pt^
 ||abel.waringer-atg.de^
 ||abenshishabi.com^
+||abn01.dnscry.pt^
 ||abolid.com^
 ||abovede6.com^
 ||abram.xin^
@@ -7591,15 +7599,19 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||adexpo.tencentmusic.com adclick.tencentmusic.com^
 ||adexpo.tencentmusic.com^
 ||adfilter.imtt.qq.com^
+||adfiltro.fun^
 ||adfox.yandex.ru^
 ||adfree.usableprivacy.net^
 ||adfreedns.top^
 ||adfreeproxy.com^
 ||adfstat.yandex.ru^
 ||adfuture.cn^
+||adg.geili.me^
 ||adg.jnorton.us^
+||adg.khon.dev^
 ||adg.rokh.biz^
 ||adg.rueiliu.space^
+||adg.tshost.no^
 ||adgame.waimai.meituan.com^
 ||adgeo.163.com^
 ||adguanggao.eee114.com^
@@ -7609,31 +7621,44 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||adguard-vpn.com^
 ||adguard-vpn.online^
 ||adguard.abd.ong^
+||adguard.ajinga.net^
+||adguard.alu.dog^
 ||adguard.avdkishore.dev^
 ||adguard.beliefanx.cn^
+||adguard.blogssl.com^
 ||adguard.bonis.de^
 ||adguard.bonsirven.eu^
 ||adguard.cloudmini.net^
+||adguard.dantynes.cyou^
 ||adguard.dekonix.ru^
 ||adguard.depieri.net^
+||adguard.easez.net^
 ||adguard.ef67daisuki.club^
 ||adguard.ender.fr^
+||adguard.frutuozo.com.br^
+||adguard.gambini.org^
 ||adguard.haneulo.com^
+||adguard.hartley.cloud^
 ||adguard.ihatemy.live^
 ||adguard.io^
 ||adguard.jfchenier.ca^
+||adguard.johanliebert.top^
 ||adguard.kiboko.it^
 ||adguard.konikoni428.com^
 ||adguard.kss.ovh^
 ||adguard.leadseason.eu^
 ||adguard.lege.despagne.net^
 ||adguard.londonwebnerd.cloud^
+||adguard.maison.gifino.fr^
 ||adguard.marto.si^
 ||adguard.meddy94.de^
 ||adguard.oms-ctr.ru^
 ||adguard.onlyfriends.info^
+||adguard.pangerl.it^
+||adguard.pggns.de^
 ||adguard.piekacz.pl^
 ||adguard.ruby.ci^
+||adguard.senthil.us^
 ||adguard.shoupperuser.com^
 ||adguard.shutgaming.net^
 ||adguard.shuting.idv.tw^
@@ -7931,12 +7956,16 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||adxserver.ad.cmvideo.cn^
 ||adxstatic.vivo.com.cn^
 ||adzincome.in^
+||ae-fuj-w-p-1.nashkan.net^
+||ae-fuj-w-p-2.nashkan.net^
+||ae-fuj-w-p-3.nashkan.net^
 ||ae.iads.unity3d.com^
 ||aedns.weixin.qq.com^
 ||aefdcxoi.com^
 ||aefmbeq.cn^
 ||aegis.qq.com^
 ||aeletheacd.com^
+||aerodrorne.vip^
 ||aeventlog.beacon.qq.com^
 ||aexception.bugly.qq.com^
 ||af31f.site^
@@ -7948,15 +7977,20 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||afdunaui.com^
 ||afenx.top^
 ||affbot3.com^
+||affcdn.net^
 ||affiliates.minglematch.com^
 ||affiliationjs.s3.amazonaws.com^
+||affsoft.cc^
 ||afgp10l.com^
 ||afk3rs.xyz^
 ||afraid-standard.pro^
 ||africa.avastdns.com^
+||africadns1.liquidtelecom.net^
+||africadns2.liquidtelecom.net^
 ||afs.googlesyndication.com^
 ||afuz032.com^
 ||afxncq.com^
+||ag.apollohct.com^
 ||ag.brianlee.fun^
 ||ag.ff0x.ca^
 ||ag.hostme.co.il^
@@ -7966,8 +8000,12 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||agdewasmnjktfrdewqjgdser.top^
 ||agent.sj.qq.com^
 ||agh-yz.russel053.com^
+||agh.dshubham.xyz^
 ||agh.fltn.us^
+||agh.gloom.nexus^
+||agh.kyusang.win^
 ||agh.printk.info^
+||agh.workfordemo.co.in^
 ||agh.xinfeng16m.top^
 ||agossuoeach.com^
 ||agstat.html5.qq.com^
@@ -7975,6 +8013,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ahadns.net^
 ||ahf.bugly.qq.com^
 ||ahm.jiankang123.net^
+||ahoj.email^
 ||ahp10.site^
 ||ahp18.site^
 ||ahp19.site^
@@ -8415,15 +8454,18 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||asvysvxr.com^
 ||asycxtz.cn^
 ||at*.doubanio.com^
+||at-wie-w-p-1.nashkan.net^
 ||at.pzhg.me^
 ||at.umeng.com^
 ||ata-sdk-uuid-report.dreport.meituan.net^
 ||atbdkmt.xyz^
+||ath01.dnscry.pt^
 ||atl01.dnscry.pt^
 ||atlasvpn.com^
 ||atnnf.xyz^
 ||atomicstudios.info^
 ||aty.sohu.com^
+||au-syd-w-f-1.nashkan.net^
 ||au.umeng.co^
 ||au.umeng.com^
 ||au6w0.xyz^
@@ -8495,6 +8537,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||bace10.top^
 ||badjs.qq.com^
 ||badjs.weixinbridge.com^
+||bahopir188.dnshome.de^
 ||bai.luyouwang.com^
 ||bai128.xyz^
 ||baidu-mipdx.cn.miaozhen.com^
@@ -8527,6 +8570,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||battlekun.com^
 ||bavde1.icu^
 ||bavde3.icu^
+||bazooki-infra.dev^
 ||bbbazlp.cn^
 ||bbges.xyz^
 ||bbhktv.xyz^
@@ -8596,6 +8640,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||bestvpnrating.com^
 ||bestvpnserver.com^
 ||bestvpnssh.com^
+||bestwon203.com^
 ||bestyouproxytube.com^
 ||bestyoutubeproxy.info^
 ||betcss.site^
@@ -8629,6 +8674,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||bigcloud.cyou^
 ||bigcood.xyz^
 ||bigdatacloud.net^
+||bigora2.vuhai.de^
 ||bihaipack.com^
 ||biip.info^
 ||bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
@@ -8639,6 +8685,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||bis8j.com^
 ||bit123.biz^
 ||bitping.com^
+||biying.flymlc.com^
 ||biz.weibo.com^
 ||bj.ad.track.66mobi.com^
 ||bj.vip.waf.dns.iqiyi.com^
@@ -8762,6 +8809,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||btguard.com^
 ||btrace.qq.com^
 ||btrace.video.qq.com^
+||bts01.dnscry.pt^
 ||btsvad8.com^
 ||bttazsyk.icu^
 ||bubbleset.com^
@@ -8962,6 +9010,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ceshi127722.obs.cn-north-4.myhuaweicloud.com^
 ||ceuswatcab01.blob.core.windows.net^
 ||ceuswatcab02.blob.core.windows.net^
+||cfdjb.org^
 ||cfdns.vip^
 ||cfepws.com^
 ||cfg.imtt.qq.com^
@@ -9180,6 +9229,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||coverproxy.com^
 ||cp.discuz.qq.com^
 ||cp.eoncreativity.com^
+||cph01.dnscry.pt^
 ||cpoml.iask.sina.com.cn^
 ||cpro.baidustatic.com.a.bdydns.com^
 ||cpro.baidustatic.com^
@@ -9444,9 +9494,13 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ddgjjj.com^
 ||ddush.xyz^
 ||ddxolb.xyz^
+||de-fra-w-p-1.nashkan.net^
+||de-fsn-w-p-1.nashkan.net^
 ||de.ad.gameley.com^
+||de.dns.privex.io^
 ||de.teradns.org^
 ||dedcrfvdj.xyz^
+||deep-henchman-excuse.cfd^
 ||deepwebvpn.net^
 ||deeterno.cn^
 ||default.cn.zb.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
@@ -9457,6 +9511,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dehaer.site^
 ||dehua.mengtubo.com^
 ||dektcvna.icu^
+||den01.dnscry.pt^
 ||deproxyserver.com^
 ||derew6xbsc.xyz^
 ||dertyhsf.xyz^
@@ -9488,6 +9543,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dfjd.xyz^
 ||dfkd.xyz^
 ||dfsvhv88.com^
+||dfw02.dnscry.pt^
 ||dfxwdc.com^
 ||dg186.cn^
 ||dg98q1fqxxogp.cloudfront.net^
@@ -9594,6 +9650,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dncvj.cn^
 ||dnightwish.xyz^
 ||dnrf0215.com^
+||dns-1.wil.cloud^
+||dns-2.wil.cloud^
 ||dns-cybersec.nordthreatprotection.com^
 ||dns-family.adguard.com^
 ||dns-fr-psv1.cloudsides.com^
@@ -9610,11 +9668,13 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns-tunnel-check.googlezip.net^
 ||dns-unfiltered.adguard.com^
 ||dns.0ooo.icu^
+||dns.0rz.ing^
 ||dns.0x55.net^
 ||dns.23-4.cn^
 ||dns.233py.com.cdn.cloudflare.net^
 ||dns.240527.xyz^
 ||dns.354688.xyz^
+||dns.3wv.de^
 ||dns.4-the.win^
 ||dns.52306.org^
 ||dns.7vpn.com^
@@ -9627,6 +9687,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns.abdullahabas.de^
 ||dns.adguard.com^
 ||dns.adrianlam.com^
+||dns.aeiou.pp.ua^
 ||dns.aerro.in^
 ||dns.albony.xyz^
 ||dns.alekberg.net^
@@ -9635,6 +9696,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns.almir1904.eu^
 ||dns.alvosec.com^
 ||dns.andrewnw.xyz^
+||dns.anon.no^
 ||dns.api.globus.org^
 ||dns.api.integration.globuscs.info^
 ||dns.api.preview.globus.org^
@@ -9642,32 +9704,52 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns.api.sandbox.globuscs.info^
 ||dns.api.staging.globuscs.info^
 ||dns.api.test.globuscs.info^
+||dns.applewebkit.dev^
 ||dns.aquilenet.fr^
 ||dns.ares-taiwan.com^
+||dns.arkbotech.com^
 ||dns.artikel10.org^
+||dns.ashleyjackson.net^
 ||dns.asterimoon.com^
 ||dns.azsopro.net^
 ||dns.b33.space^
 ||dns.b612.me^
+||dns.b72.com^
 ||dns.baishiyuan.cn^
+||dns.beardic.cn^
 ||dns.belnet.be^
 ||dns.benpro.fr^
+||dns.bermeitinger.eu^
 ||dns.beta.gandi.net^
 ||dns.bitdefender.net^
 ||dns.bitservices.io^
 ||dns.blaze-sk.ru^
 ||dns.blokada.org^
+||dns.bmwhocking.com^
 ||dns.bobstrecansky.com^
 ||dns.bofh.in^
+||dns.braene.com^
 ||dns.brahma.world^
+||dns.bravoc.one^
+||dns.brembeck.cloud^
+||dns.burgas.pro^
+||dns.busold.ws^
 ||dns.bw.i81.ru^
 ||dns.caksono.com^
 ||dns.carson-family.com^
 ||dns.carter.me^
+||dns.caspervk.net^
+||dns.cctld.kg^
 ||dns.ceai.com.tw^
+||dns.cert.ee^
 ||dns.chadeyron.fr^
 ||dns.charraud.eu^
 ||dns.chenu.ch^
+||dns.chilimac.net^
+||dns.chmc.ml^
+||dns.christerwaren.fi^
+||dns.christian.moe^
+||dns.chriswservers.com^
 ||dns.chromeina.top^
 ||dns.circl.lu^
 ||dns.clanless.ovh^
@@ -9677,9 +9759,17 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns.cloudflare.com^
 ||dns.cloudtrust.solutions^
 ||dns.cmrg.net^
+||dns.coderoria.com^
 ||dns.colorfreedom.org^
+||dns.comff.net^
 ||dns.connect.fail^
+||dns.cooluc.com^
+||dns.criena.net^
 ||dns.cryptomize.com^
+||dns.crystalyx.net^
+||dns.csa-rz.de^
+||dns.csaonline.de^
+||dns.csswg.org^
 ||dns.cwlys.com^
 ||dns.cyida.com^
 ||dns.cynthialabs.net^
@@ -9687,138 +9777,211 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns.d94.xyz^
 ||dns.d96.info^
 ||dns.daemon.za.net^
+||dns.dallinbryce.com^
+||dns.datenquark.de^
 ||dns.david888.com^
 ||dns.daw.dev^
+||dns.deadsec.net^
+||dns.decky.eu^
 ||dns.decloudus.com^
 ||dns.dekedin.me^
 ||dns.dev-umbrellagov.com^
 ||dns.dgea.fr^
+||dns.diarbagus.id^
 ||dns.digitale-gesellschaft.ch^
 ||dns.digitalsize.net^
+||dns.dns-53.com^
+||dns.dns-53.uk^
+||dns.dns-53.us^
 ||dns.dns-over-https.com^
 ||dns.dnshome.de^
 ||dns.dnsoverhttps.net^
 ||dns.dnswarden.com^
 ||dns.doh.best^
+||dns.dooks.uk^
 ||dns.dotnet.win^
 ||dns.dyn1.de^
 ||dns.eddi.net^
+||dns.edgeburnmedia.com^
 ||dns.edison42.dev^
+||dns.editechstudio.com^
+||dns.efficientdocuments.com^
 ||dns.elemental.software^
+||dns.eliv.kr^
 ||dns.ellichua.com^
 ||dns.emiliyan.com^
+||dns.engineer.web.id^
 ||dns.enzonix.com^
 ||dns.esnube.es^
 ||dns.eu-frankfurt-1.oraclecloud.com^
 ||dns.expert^
 ||dns.extrawdw.net^
 ||dns.ezyss.id^
+||dns.f4a.fun^
+||dns.faked.org^
+||dns.falkenthal.org^
 ||dns.fancyorg.at^
+||dns.farshidhakimy.de^
+||dns.fehlsprache.de^
+||dns.ffnw.de^
 ||dns.filipccz.eu^
+||dns.fizz.studio^
 ||dns.flatuslifir.is^
+||dns.flightspace.net^
 ||dns.flwagners.com^
 ||dns.flymc.cc^
+||dns.freopc.fr^
 ||dns.freyja.pw^
 ||dns.froth.zone^
 ||dns.fullaccesstointernet.jp.eu.org^
 ||dns.furrydns.de^
 ||dns.futuredns.me^
 ||dns.gamban.com^
+||dns.gayanalysing.co.uk^
 ||dns.gi.co.id^
 ||dns.ginovs.nl^
+||dns.girino.org^
+||dns.glf.wtf^
 ||dns.gnb09.id^
 ||dns.goldplate.org^
 ||dns.google.com^
 ||dns.google^
 ||dns.grqu.de^
 ||dns.guard.io^
+||dns.gutwe.in^
 ||dns.ha-dvin.pp.ua^
 ||dns.hahnjo.de^
+||dns.haka.se^
+||dns.hakim.one^
 ||dns.hanahira.dev^
 ||dns.hanmey.de^
+||dns.hellozhao.com^
 ||dns.henek.ovh^
 ||dns.hinet.net^
+||dns.home.daniil.it^
 ||dns.horcrux.vip^
 ||dns.hostux.net^
 ||dns.hotta.page^
+||dns.huas.me^
 ||dns.hugo0.moe^
 ||dns.hujiayucc.cn^
 ||dns.huseynov.work^
 ||dns.huyhoangit.net^
 ||dns.hypercute.eu^
+||dns.iamanuragh.in^
 ||dns.iamninja.ru^
 ||dns.ian.rocks^
 ||dns.ihaveacloud.com^
 ||dns.ikataruto.com^
 ||dns.iki.my.id^
 ||dns.imaicool.com^
+||dns.imchristian.de^
 ||dns.immanuelschaffer.de^
+||dns.inclusioproject.com^
 ||dns.indust.me^
 ||dns.indybanipal.com^
+||dns.inforlogia.com^
 ||dns.interhub.cc^
 ||dns.internal.hosmatic.com^
 ||dns.ipv6dns.com^
+||dns.ishan.pw^
 ||dns.islandnet.com^
 ||dns.janl.eu^
 ||dns.jd.com.gslb.qianxun.com^
+||dns.jhangy.us^
+||dns.jichi.io^
 ||dns.jinwoo.dev^
+||dns.jiyi.eu^
 ||dns.joaofidelix.com.br^
 ||dns.joey01245.nl^
 ||dns.jstockley.com^
 ||dns.jundev.org^
+||dns.jupitrdns.com^
 ||dns.justinnetworkingsolutions.com^
 ||dns.k3nny.fr^
 ||dns.kamilszczepanski.com^
+||dns.kapite.in^
+||dns.karadag.me^
 ||dns.karfamily.net^
 ||dns.karl.one^
+||dns.kastner-online.de^
 ||dns.kawa.tf^
+||dns.kebree.fr^
 ||dns.keke125.com^
 ||dns.kerekes.xyz^
 ||dns.kernel-error.de^
 ||dns.kescher.at^
+||dns.keviland.com^
 ||dns.keweon.center^
 ||dns.koala.us.to^
 ||dns.korzhyk.pp.ua^
 ||dns.kosan.moe^
 ||dns.kugoapps.com^
 ||dns.kukal.cz^
+||dns.kuuhaku.moe^
+||dns.kxy.ink^
 ||dns.l337.site^
 ||dns.lars-lehmann.net^
 ||dns.lashes-brow.ru^
+||dns.learningman.top^
+||dns.lepilleur.com^
 ||dns.levonet.sk^
 ||dns.lgprk.com^
+||dns.liberador.net^
+||dns.lihj.me^
 ||dns.linkr.ninja^
 ||dns.lista.my.id^
+||dns.listo.click^
 ||dns.lobbygod.com^
 ||dns.loveimgmoe.com^
 ||dns.lvolland.fr^
+||dns.maitrekuc.fr^
 ||dns.maolaohei.xyz^
+||dns.marasov.id^
+||dns.marbledfennec.net^
+||dns.mateo.ovh^
 ||dns.mathewakhil.online^
 ||dns.maybe.icu^
+||dns.mayx.eu.org^
 ||dns.meeo.win^
 ||dns.melalandia.tk^
+||dns.melvin2204.nl^
 ||dns.mestdag.fr^
+||dns.mh4ckt3mh4ckt1c4s.xyz^
 ||dns.mihanentalpo.me^
 ||dns.mikeliu.org^
 ||dns.mikrotikrumahan.my.id^
+||dns.mnet-online.de^
 ||dns.mo0on15.com^
 ||dns.molinero.dev^
+||dns.momou.ch^
 ||dns.moonssif.com^
 ||dns.moulticast.net^
 ||dns.mrkaran.dev^
 ||dns.msxnet.ru^
+||dns.mtoo.vip^
 ||dns.murgi.de^
 ||dns.muxinghe.cn^
+||dns.mzjtechnology.com^
 ||dns.mzrme.cn^
+||dns.n23.io^
+||dns.nako.kr^
 ||dns.narl.app^
 ||dns.nas-server.ru^
+||dns.neeb.it^
 ||dns.neilzone.co.uk^
+||dns.neowutran.ovh^
+||dns.netraptor.com.au^
+||dns.netvpn.net^
 ||dns.neubsi.at^
 ||dns.neutopia.org^
 ||dns.nextdns.io^
+||dns.nguyendn.com^
 ||dns.nhtsky.com^
+||dns.nick-slowinski.de^
 ||dns.ningkelle.id^
 ||dns.nixnet.xyz^
+||dns.nodoa.me^
 ||dns.norvig.dk^
 ||dns.notjakob.com^
 ||dns.novali.date^
@@ -9826,66 +9989,94 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns.npe.bz^
 ||dns.npsolution.it^
 ||dns.nullgate.net^
+||dns.odinpl.com^
 ||dns.ofdoom.net^
 ||dns.oliviertv.co.za^
+||dns.olpploiopkuyhiopsfrt.info^
 ||dns.opendns.com^
 ||dns.oryxlabs.com^
 ||dns.oszx.co^
 ||dns.ours.luxe^
+||dns.ourvau.lt^
 ||dns.ovpn.bond^
 ||dns.paesa.es^
 ||dns.panszelescik.pl^
+||dns.pari.network^
 ||dns.pccoach.nl^
 ||dns.pernika.net^
 ||dns.pesaventofilippo.com^
 ||dns.phillipjberry.net^
+||dns.pierzchlewicz.pl^
+||dns.pizzari.me^
 ||dns.pnh.my.id^
 ||dns.porteii.com^
 ||dns.pragmasec.nl^
+||dns.princex.net^
 ||dns.privado.ovh^
+||dns.propheci.xyz^
+||dns.psociety.de^
 ||dns.pub^
 ||dns.pumpkinvrar.com^
 ||dns.qq.com^
+||dns.qrtz.club^
 ||dns.quad9.net^
+||dns.quiet.rocks^
+||dns.rabbitdns.org^
 ||dns.rafn.is^
 ||dns.rayanbab.com^
 ||dns.rbn.gr^
 ||dns.reckoningslug.name^
+||dns.redhosting.com.ar^
+||dns.redvau.lt^
+||dns.reitmeier.me^
+||dns.renardyre.com^
+||dns.repinger.com^
 ||dns.repinger.my.id^
 ||dns.retakecs.com^
 ||dns.rin.sh^
+||dns.roedel.cloud^
 ||dns.ronc.ru^
 ||dns.rootlab.top^
 ||dns.rotunneling.net^
+||dns.rslvr.eu^
 ||dns.rubyfish.cn^
 ||dns.sarak.as^
+||dns.sarakas.net^
 ||dns.sarilouis.com^
 ||dns.sb^
 ||dns.scapetical.com^
 ||dns.scarx.net^
 ||dns.schlagheck.berlin^
+||dns.scott-smith.us^
 ||dns.scuola.org^
+||dns.sec511.com^
+||dns.seia.io^
 ||dns.seiffert.me^
 ||dns.sellan.fr^
 ||dns.serdcebolit.ru^
 ||dns.sev.monster^
+||dns.shareworx.net^
 ||dns.shecan.ir^
 ||dns.sheggi.ch^
 ||dns.shimul.me^
 ||dns.silen.org^
 ||dns.silentlybren.com^
 ||dns.simplylinux.ch^
+||dns.sindominio.net^
 ||dns.siry.de^
 ||dns.skrep.eu^
 ||dns.skrep.in^
 ||dns.slinkyman.net^
 ||dns.smartguard.io^
+||dns.soldier.terumi.club^
 ||dns.spil.co.id^
 ||dns.spirio.fr^
 ||dns.sstomp.nl^
 ||dns.startupstack.tech^
 ||dns.stevenz.net^
+||dns.stirringphoto.com^
 ||dns.strassmair.org^
+||dns.suhaila.dev^
 ||dns.superstefan.win^
 ||dns.supfree.net^
 ||dns.svoi.dev^
@@ -9899,6 +10090,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns.thegoodsource.net^
 ||dns.theres.one^
 ||dns.therifleman.name^
+||dns.tierradeayala.com^
+||dns.tipsy.coffee^
 ||dns.tls-data.de^
 ||dns.tracker.ink^
 ||dns.trust404.win^
@@ -9913,10 +10106,16 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns.uplenk.com^
 ||dns.us-ashburn-1.oraclecloud.com^
 ||dns.us-phoenix-1.oraclecloud.com^
+||dns.vaioswolke.xyz^
+||dns.vault81.de^
+||dns.velyn.my.id^
 ||dns.vinnyp.xyz^
 ||dns.vinokurov.tk^
+||dns.vip-kingstore.xyz^
 ||dns.vishalk.com^
 ||dns.vmath.my.id^
+||dns.vojtat.cz^
+||dns.w3ctag.org^
 ||dns.wahr.top^
 ||dns.wakgood.net^
 ||dns.wang.art^
@@ -9928,12 +10127,18 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns.weixin.qq.com*^
 ||dns.weixin.qq.com.cn^
 ||dns.weixin.qq.com^
+||dns.xiumu.org^
+||dns.xlion.tw^
+||dns.xuming.studio^
+||dns.xusqui.com^
 ||dns.xwdmw.xyz^
 ||dns.yameenassotally.com^
 ||dns.yandex.ru^
 ||dns.yatima.tv^
 ||dns.youni.win^
+||dns.zemows.industries^
 ||dns.zfsystem.tech^
+||dns.zui.lol^
 ||dns.zzuhacker.cn^
 ||dns0.eu^
 ||dns01.flm9.net^
@@ -9951,6 +10156,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns1.pietjacobs.be^
 ||dns1.ryan-palmer.com^
 ||dns1.saferbfc.org^
+||dns1.server.my.id^
 ||dns1.sg.newpangea.de^
 ||dns1.techeasy.org^
 ||dns1.us.newpangea.de^
@@ -9962,6 +10168,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns2.cbio.top^
 ||dns2.digitale-gesellschaft.ch^
 ||dns2.guidocioni.it^
+||dns2.in-berlin.de^
 ||dns2.klcd.eu^
 ||dns2.lezainski.com^
 ||dns2.nextdns.io^
@@ -10010,9 +10217,11 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||doh.30x.me^
 ||doh.360.cn^
 ||doh.42l.fr^
+||doh.978159.xyz^
 ||doh.aaaab3n.moe^
 ||doh.abraservice.xyz^
 ||doh.amonsul.net^
+||doh.angry.im^
 ||doh.apad.pro^
 ||doh.applied-privacy.net^
 ||doh.appliedprivacy.net^
@@ -10029,11 +10238,14 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||doh.captnemo.in^
 ||doh.ccb-net.it^
 ||doh.centraleu.pi-dns.com^
+||doh.cippapp.com^
 ||doh.cnetwork.cloud^
+||doh.cornes.me^
 ||doh.cox.net^
 ||doh.datacore.ch^
 ||doh.datahata.by^
 ||doh.defaultroutes.de^
+||doh.denypradana.com^
 ||doh.disconnect.app^
 ||doh.dns-ga.de^
 ||doh.dns.apple.com.v.aaplimg.com^
@@ -10042,27 +10254,35 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||doh.dns4all.eu^
 ||doh.dnscrypt.uk^
 ||doh.dnswarden.com^
+||doh.domreg.lt^
 ||doh.dscloud.me^
 ||doh.eastas.pi-dns.com^
 ||doh.eastau.pi-dns.com^
 ||doh.eastus.pi-dns.com^
+||doh.eddi.net^
 ||doh.eu.dnswarden.com^
+||doh.excdn.eu.org^
 ||doh.ffmuc.net^
 ||doh.funil.de^
 ||doh.funtopia.tv^
+||doh.futa.app^
 ||doh.futa.gg^
 ||doh.hottis.de^
 ||doh.ibr.cs.tu-bs.de^
+||doh.immerda.ch^
 ||doh.infotek.net.id^
 ||doh.infracell.net^
 ||doh.iucc.ac.il^
 ||doh.jeroenhd.nl^
 ||doh.kekew.info^
+||doh.kel.pe^
+||doh.kidzonet.io^
 ||doh.killtw.im^
 ||doh.kooman.org^
 ||doh.lacontrevoie.fr^
 ||doh.li^
 ||doh.libredns.gr^
+||doh.linngde.com^
 ||doh.luigi.nexific.it^
 ||doh.lv^
 ||doh.maskab.com^
@@ -10093,7 +10313,10 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||doh.safesurfer.io^
 ||doh.sb^
 ||doh.seby.io^
+||doh.serverhost.no^
 ||doh.sidnlabs.nl^
+||doh.suche.org^
+||doh.sunoaki.net^
 ||doh.syshero.org^
 ||doh.technochat.in^
 ||doh.this.web.id^
@@ -10104,6 +10327,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||doh.us.dnswarden.com^
 ||doh.valscosmos.com^
 ||doh.viatech.com.tw^
+||doh.webnmail.de^
 ||doh.westeu.pi-dns.com^
 ||doh.westus.pi-dns.com^
 ||doh.wewitro.net^
@@ -10374,6 +10598,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||elegant-creator.com^
 ||elephantvpn.com^
 ||elevatorpartsbuy.com^
+||eliatofani.ovh^
 ||elinvarpayola.com^
 ||elopatchwork.com^
 ||elsmom.xyz^
@@ -10435,6 +10660,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||etahub.com^
 ||etest.dangcdn.com^
 ||etg.qq.com^
+||eth.link^
 ||ether-pack.pangolin-sdk-toutiao.com
 ||ether-pack.pangolin-sdk-toutiao.com^
 ||etienlw.top^
@@ -10488,6 +10714,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||extmaps-api.yandex.net^
 ||extshort.weixin.qq.com/mmtls^$app=com.tencent.mm
 ||eybstar.com^
+||eyg01.dnscry.pt^
 ||eyq3nog.icu^
 ||eyungameapi.tymcdn.com^
 ||eyungamesdk.tymcdn.com^
@@ -10517,6 +10744,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||family.5ososea.com^
 ||family.dot.dns.yandex.net^
 ||family.mydns.network^
+||family.rabbitdns.org^
 ||familyincloud.com^
 ||familyshield.opendns.com^
 ||famorlymal.com^
@@ -10568,6 +10796,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||feiln.xyz^
 ||fengyukun03.cn^
 ||feq853.com^
+||fet01.dnscry.pt^
 ||fezgate.ovh^
 ||ffgpol.com^
 ||ffmehcg.cn^
@@ -10586,6 +10815,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||fhrl2018.com^
 ||fhsmtrnsfnt.com^
 ||fhvbhx.xyz^
+||fi-hel-w-f-2.nashkan.net^
 ||fi11av37.com^
 ||fi11av39.com^
 ||fiberprox.com^
@@ -10649,6 +10879,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||fmre1.com^
 ||fnfhjka.xyz^
 ||fngcgbl.icu^
+||fnt01.dnscry.pt^
 ||fo.tiqu.io^
 ||fo.zhangbaochang.top^
 ||fodder.qq.com^
@@ -10672,6 +10903,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||fqpxzr.xyz^
 ||fqxkj.cn^
 ||fr-dns1.bancuh.com^
+||fr-gra-w-f-1.nashkan.net^
+||fr-gra-w-p-1.nashkan.net^
 ||fr1.dnswarden.com^
 ||fr5uptmx.com^$important
 ||fra-dns.bitdefender.net^
@@ -10826,6 +11059,11 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||gatecollect.kugou.com^
 ||gateway.fomichev.cloud^
 ||gaut.now-dns.net^
+||gb-cov-w-f-1.nashkan.net^
+||gb-cov-w-p-1.nashkan.net^
+||gb-lon-w-f-1.nashkan.net^
+||gb-lon-w-p-1.nashkan.net^
+||gb-lon-w-p-2.nashkan.net^
 ||gbcnvip15.com^
 ||gbrtyhnsc.xyz^
 ||gbsp002.com^
@@ -11023,6 +11261,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||grs.dbankcloud.com^
 ||grs.hicloud.com^
 ||grs.platform.dbankcloud.ru^
+||gru01.dnscry.pt^
 ||gscatk.cn^
 ||gshsne.xyz^
 ||gsjzlssws.com^
@@ -11056,6 +11295,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||gustamadh.dynv6.net^
 ||guzg78logz.adobe.io^
 ||guzsjdl.cn^
+||gva01.dnscry.pt^
 ||gvbhae0.com^
 ||gvgdeo-c.125299490711.cos.ap-nqewak.com.yunruig.xyz^$important
 ||gvirabi.com^
@@ -11129,6 +11369,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||haiwanli.com^
 ||halihali*.com/js/wap2-jm-ms.js
 ||halihali2.com/js/wap2-jm-100ftop.js
+||han01.dnscry.pt^
 ||handerfix.com^
 ||hanlanad.com^
 ||hanniel.tech^
@@ -11185,6 +11426,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||hegk06a.top^
 ||hegk09a.top^
 ||heioa.xyz^
+||hel01.dnscry.pt^
 ||helios.plan9-dns.com^
 ||helloworld.cx^
 ||helpmehide.net^
@@ -11289,6 +11531,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||hk2.ooroot.com^
 ||hkctmldg.icu^
 ||hkg01.dnscry.pt^
+||hkg02.dnscry.pt^
 ||hkk456.cc^
 ||hkkeafj.cn^
 ||hkname.freecdn.one^
@@ -11376,6 +11619,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||hqgearb.icu^
 ||hqnpwzu.cn^
 ||hqzcths.cn^
+||hrk01.dnscry.pt^
 ||hrngmf.com^
 ||hsadeg.site^
 ||hsdawz.com^
@@ -11740,6 +11984,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ispcapi.mcafee.com^
 ||ispunblock.com^
 ||ispvpn.com^
+||ist01.dnscry.pt^
 ||isub.snssdk.com.bytedns.net^
 ||isub.snssdk.com^
 ||iswgnn.com^
@@ -11878,9 +12123,11 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||jjklrcw.com^
 ||jjztrz.xyz^
 ||jk.c.sdk.kwad.com^
+||jkdns.me^
 ||jklhs7u.com^
 ||jknnjk.com^
 ||jknrwe.cn^
+||jkt01.dnscry.pt^
 ||jkzbjv.xyz^
 ||jljftl.xyz^
 ||jlpckj.com^
@@ -11907,6 +12154,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||jomwihn.cn^
 ||jothvz.xyz^
 ||jp-dns1.bancuh.com^
+||jp-tyo-w-p-1.nashkan.net^
 ||jp.68360612.xyz^
 ||jp.ad.gameley.com^
 ||jp.tiar.app^
@@ -12026,6 +12274,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||kaiguangdou.com^
 ||kaishq.top^
 ||kaitain.restena.lu^
+||kaiwu.xyz^
 ||kanwby.com^
 ||kaosts.com^
 ||kart2ks.icu^
@@ -12081,6 +12330,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||kingsurfproxy.com^
 ||kinhincauking.website^
 ||kinleung.cn^
+||kiri.nonexiste.net^
 ||kissfang.cn^
 ||kit-device-log-
 ||kiv01.dnscry.pt^
@@ -12197,6 +12447,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||kyxw9itc.xyz^
 ||kyxw9itv.club^
 ||kyzx.xyZ^
+||kz-pav-w-p-1.nashkan.net^
 ||kzchyhr.cn^
 ||kzgmpu.com^
 ||kzjkexn.cn^
@@ -12340,6 +12591,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||lijie.in^
 ||lijunkai.com^
 ||likdie.com^
+||lim01.dnscry.pt^
 ||limevpn.com^
 ||lindung.pp.ua^
 ||line*-adscore-api.biligame.net^
@@ -12431,6 +12683,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||lmxxxz.com^
 ||lnaevr.fun^
 ||lnzjlr.xyz^
+||loadlow.me^
 ||local.info.g9hc4.cn^
 ||local.sufly.top^
 ||localads.chengzijianzhan.cn.queniurc.com^
@@ -12564,8 +12817,12 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ltsubzgmw.xyz^
 ||luciochen.cn^
 ||luckyorange.com^
+||lukscasino-479-tr.xyz^
+||lukscasino-542-tr.xyz^
+||lukscasino-929-tr.xyz^
 ||luminati.io^
 ||luminatinet.com^
+||luna-is.so-gorgeo.us.kg^
 ||luodiye6666.oss-cn-hongkong.aliyuncs.com^$important
 ||luogod.xyz^
 ||luoyangjinmeii.com^
@@ -12747,6 +13004,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||meiweifood.xyz^
 ||mel-au.prcdn.net^
 ||mellowmd.com^
+||mendozasdelivery.com^
 ||mengbli.com^
 ||meqanhm.icu^
 ||mercury-sdk.snssdk.com^
@@ -12795,7 +13053,9 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||midas.gtimg.cn^
 ||mifyeldx.top^
 ||mig.str.mdt.qq.com^
+||mikezhang.xyz^
 ||mikongdd.top^
+||mil01.dnscry.pt^
 ||milimili.tv/js/loadjs/jquery10.4.js
 ||milimili.tv/js/loadjs/jquery10.7.js
 ||milimili.tv/js/loadjs/jquery10.8.js
@@ -12856,6 +13116,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||mnhknds.com^
 ||mnpbxjq.cn^
 ||mnqlog.ldmnq.com^
+||mnrv.trade^
 ||mnzvtwd.cn^
 ||mo.umlzk.xyz^$important
 ||mobads-logs.baidu.com^
@@ -12918,6 +13179,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||mrgecm.xyz^
 ||mrhboe.xyz^
 ||mrqbuf.xyz^
+||mru01.dnscry.pt^
 ||mryshl.com^
 ||ms-ads-monitoring-events.presage.io^
 ||msc.mcafee.com^
@@ -13040,8 +13302,10 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||naaifood.cn^
 ||nadvideo*.baidu.com^
 ||naemailom.fun^
+||naganohara-yoimiya.momokko.moe^
 ||naiep.xyz^
 ||najnus.com^
+||nana-is.so-gorgeo.us.kg^
 ||naned.xyz^
 ||nanoproxy.com^
 ||napps-1.com^
@@ -13090,6 +13354,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||nequal.cn^
 ||nequal.com^
 ||netaltr.com^
+||netcup.mismat.ch^
 ||netgeek.info^
 ||netnut.io^
 ||netscop.net^
@@ -13137,9 +13402,11 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||niaideren.icu^
 ||niangaoxiansheng.com^
 ||nice-autosurf.com^
+||nicsezcheckfbi.gov^
 ||nieae.xyz^
 ||niebiaoyyds.com^
 ||nifyeldc.top^
+||nightlymoon.us.kg^
 ||nightowlvpn.com^
 ||nijnqwem.xyz^
 ||nike666.com^
@@ -13167,7 +13434,10 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||njupt-sacc.com^
 ||njzyjy.cn^
 ||nkadc.xyz^
+||nl-dro-w-f-1.nashkan.net^
+||nl-dro-w-p-1.nashkan.net^
 ||nl-rcd.iqiyi.com^
+||nl.dns.privex.io^
 ||nlvgxr.xyz^
 ||nlyuuy.cn^
 ||nmcnbgp.cn^
@@ -13228,6 +13498,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ns.lov.host^
 ||ns.mtsoln.com^
 ||ns.ral9005.org^
+||ns.trcnet.fi^
 ||ns0.fdn.fr^
 ||ns01.fyi^
 ||ns1.dotls.org^
@@ -13237,6 +13508,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ns1.qquack.org^
 ||ns1.recursive.dnsbycomodo.com^
 ||ns1.sc-lezhi.com^
+||ns2.4netguides.org^
 ||ns2.flodns.net^
 ||ns2.opennameserver.org^
 ||ns2.recursive.dnsbycomodo.com^
@@ -13258,6 +13530,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ntozchv.icu^
 ||nuannuanqi.top^
 ||nudpqt.com^
+||nue01.dnscry.pt^
 ||nuheoub.cn^
 ||nunxhv.com^
 ||nutaku.net^
@@ -13362,6 +13635,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||omgmta1.qq.com^
 ||omhoa.com^
 ||omlube.com/O/1000970O3001405O1O.js
+||omr01.dnscry.pt^
 ||oncinu.com^
 ||onconnect.info^
 ||one.fsylr.com^
@@ -13642,6 +13916,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||panyyhh.xyz^
 ||panzend.xyz^
 ||papervpn.info^
+||par01.dnscry.pt^
 ||paradisemall.net^
 ||paranoia.mydns.network^
 ||parnett55.xyz^
@@ -13650,6 +13925,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||partner.uc.cn^
 ||partnerads-test.ysm.yahoo.net^
 ||partnerads.ysm.yahoo.com^
+||pashagame456.com^
 ||passport.dns.iqiyi.com^
 ||passport.iqiyi.com^
 ||passport.kuaishou.com^
@@ -13690,6 +13966,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||per.adfilter.net^
 ||perfect-privacy.com^
 ||perfectvpn.net^
+||performance.gosami.xyz^
 ||perlproxy.com^
 ||personalvpn.biz^
 ||personalvpn.com^
@@ -13862,6 +14139,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||presidentalhistory.wiki^
 ||prewxacode.wxqcloud.qq.com.cn^
 ||primeproxy23.info^
+||princez.uk^
 ||printruns.us^
 ||printtools.us^
 ||privacy.io^
@@ -14390,6 +14668,9 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||res1.hubcloud.com.cn^
 ||res2.hubcloud.com.cn^
 ||res3.hubcloud.com.cn^
+||resolv1.trash.net^
+||resolv2.trash.net^
+||resolv3.trash.net^
 ||resolve.umeng.com^
 ||resolver-eu.haringstad.com^
 ||resolver.msg.global.xiaomi.net^
@@ -14417,6 +14698,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||rfastvpn.co.cc^
 ||rfnenr.xyz^
 ||rfnhwaj.cn^
+||rfree1.blue-shield.at^
+||rfree2.blue-shield.at^
 ||rfto9i.icu^
 ||rgvqddo.com^
 ||rh.qq.com^
@@ -14454,6 +14737,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||rmzbfum.cn^
 ||rndhaunteran.com^
 ||rnhqxh.com^
+||ro-buc-w-f-1.nashkan.net^
+||ro-buc-w-p-1.nashkan.net^
 ||roi.soulapp.cn^
 ||romiyee.icu^
 ||ronbbf.xyz^
@@ -14689,6 +14974,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||sdvsv.com^
 ||sdzhongke.cn^
 ||se3v5tjfff3aet.me^
+||sea01.dnscry.pt^
 ||sealine.youku.com^
 ||search.ixigua.com^
 ||search.video.iqiyi.com^
@@ -14721,6 +15007,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||securevpn.io^
 ||securewebproxy.net^
 ||securitales.com^
+||security.rabbitdns.org^
 ||securitykiss.com^
 ||securitymobile.club^
 ||secvpnproxy.co.cc^
@@ -14789,6 +15076,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||sfsafsadfjbbj-dsafjnb-1321533417.cos.ap-beijing.myqcloud.com^
 ||sg-dns1.bancuh.com^
 ||sg-public-data-api.hoyoverse.com^
+||sg-w-f-1.nashkan.net^
+||sg-w-p-1.nashkan.net^
 ||sg.teradns.org^
 ||sg.ylhglobal.com^
 ||sg1.dnswarden.com^
@@ -14796,6 +15085,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||sgegie.fun^
 ||sgeth7.icu^
 ||sglyd.cn^
+||sgn01.dnscry.pt^
 ||sh-qiruizx.com^
 ||shadeyouvpn.com^
 ||shadowsocks.org^
@@ -14868,6 +15158,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||simplevpn.info^
 ||simplewebanalysis.com^
 ||sin01.dnscry.pt^
+||sin02.dnscry.pt^
+||sin03.dnscry.pt^
 ||sina.cn/cm/sinaads_
 ||sinawap.com^
 ||singmwn54g.com^
@@ -14898,6 +15190,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||siz3wxt8p.shop^
 ||sjarvis.taobao.com^
 ||sjbgyak.cn^
+||sjc01.dnscry.pt^
 ||sjdfuvz.cn^
 ||sjoy7rq.cn^
 ||sk1dupf2k.cc^
@@ -14912,6 +15205,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||skogsborg.net^
 ||skxuueby.cn^
 ||sky.tongjiai.com^
+||skydragoness.com^
 ||skyssh.co^
 ||skyvpn.net^
 ||slb-p2p.vcloud.ks-live.com^
@@ -14999,6 +15293,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||sqevnrb.com^
 ||sqkt38.cc^$important
 ||sqsh.3g.qq.com^
+||squidmall.vip^
 ||squidproxyserver.com^
 ||srbzw.cn^
 ||sriedmueadguard.casa^
@@ -15299,6 +15594,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||tdigcw.com^
 ||tdsdk.cpatrk.net^
 ||tdsdk.xdrig.com^
+||tecdrive.site^
 ||techain.baidu.com^
 ||technofix.ir^
 ||techspecndt.com^
@@ -15330,6 +15626,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||testguard.meexx.de^
 ||testpilot.firefox.com^
 ||tetiao9.com^
+||tetty-is.so-gorgeo.us.kg^
 ||teusyxz.icu^
 ||tf-4.now-dns.org^
 ||tfbulkidn.com^
@@ -15424,6 +15721,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||tikimg.cc^
 ||tikvpn.com^
 ||time.video.iqiyi.com^
+||timedns.net^
 ||timetohide.me^
 ||timmes.nl^
 ||tinghao8.com/assets/publish/
@@ -15610,6 +15908,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||trfmxf.xyz^
 ||trh64a.top^$important
 ||trialproxy.com^
+||tributh.net^
 ||trickbyte.com^
 ||trilightzone.org^
 ||trk.pinterest.com^
@@ -15641,6 +15940,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||tseda6.icu^
 ||tslbahi.top^
 ||tslianm.com^
+||tsm01.dnscry.pt^
 ||tsvrv.com^
 ||tsyndicate.com^
 ||ttag.dns.nomu.pw^
@@ -15671,6 +15971,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||turbovpn.com^
 ||turmericrecipes.com^
 ||tushwjp.icu^
+||tuskythehusky.tech^
 ||tutufu.com/bd/b-c1.js
 ||tuvpn.com^
 ||tuvtpxp.cn^
@@ -15712,6 +16013,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||tyed6.top^
 ||tymh2022.xyz^
 ||tyo01.dnscry.pt^
+||tyo02.dnscry.pt^
 ||typaza.com^
 ||tyrsn6di.icu^
 ||tyrwtm.com^
@@ -16043,8 +16345,20 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||urs.microsoft.com.nsatc.net^
 ||ursegreatm.fun^
 ||urtr4hrq.com^
+||us-chi-w-f-1.nashkan.net^
+||us-chi-w-p-1.nashkan.net^
+||us-hil-w-f-1.nashkan.net^
+||us-hil-w-p-1.nashkan.net^
+||us-jac-w-f-1.nashkan.net^
+||us-jac-w-p-1.nashkan.net^
+||us-kan-w-f-1.nashkan.net^
+||us-kan-w-p-1.nashkan.net^
 ||us-ny-alula.heliumcloud.cc^
+||us-nyc-w-f-1.nashkan.net^
+||us-nyc-w-p-1.nashkan.net^
 ||us-proxy.org^
+||us-saj-w-f-1.nashkan.net^
+||us-saj-w-p-1.nashkan.net^
 ||us-v10.events.data.microsoft.com^
 ||us.doh.cloudveil.org^
 ||us.l.qq.com^
@@ -16282,6 +16596,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||vmindhls.tc.qq.com^
 ||vnfjsus.xyz^
 ||vnfsbl.xyz^
+||vno01.dnscry.pt^
 ||vnote.vivo.com.cn^
 ||vnvmif.cn^
 ||vobas.com^
@@ -16297,6 +16612,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||volcsirius.com^
 ||volgreal.com^
 ||vonvpn.com^
+||vorlif.org^
 ||vorluic.cn^
 ||vornz.com^
 ||vortex-win-sandbox.data.microsoft.com^
@@ -17036,6 +17352,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||xn--521-x72fh66s.cn^
 ||xn--6dcm9jb.xn--gecrj9c^$important
 ||xn--blqw4qdtj1zl4x4c.net^$important
+||xn--durhre-yxa.de^
 ||xn--gov-x68dy61b.shop^
 ||xn--hdc2b4b1b3b2cve.xn--gecrj9c^$important
 ||xn--hdcaaaa5ybbbb3pcccc.xn--gecrj9c^$important
@@ -17279,6 +17596,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||yusnw.cc^
 ||yutew.cc^
 ||yuvdqnpo.com^
+||yuvelirtut.website^
+||yvr01.dnscry.pt^
 ||yvsnhc.com^
 ||yw800.com.cn^
 ||ywkkmze.cn^
@@ -17299,6 +17618,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||yyuivw6.com^
 ||yywridi.cn^
 ||yyys.shop^
+||yyz01.dnscry.pt^
 ||yzc35326.top^
 ||yzcpgadw.icu^
 ||yziwoidi.icu^
@@ -17320,6 +17640,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||zaiceyjjqq.com^
 ||zailet.com^
 ||zaiyuanyqq.com^
+||zakaria.website^
 ||zal01.dnscry.pt^
 ||zalmos.com^
 ||zangtankqq.com^
@@ -17385,6 +17706,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||zdlnhv.xyz^
 ||zdmbl.xyz^
 ||zdmybl.xyz^
+||zdn.ro^
 ||zdo-bdg.xyz^
 ||zdobdg.fyi^
 ||zdvfpa.xyz^
