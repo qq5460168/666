@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-08-19 16:10:17（北京时间）
+! Version: 2024-08-19 18:08:29（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17901
+! Total count: 17900
 
  ! 某些其他
  #晴雅规则
@@ -13,7 +13,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-08-19T07:52:44+08:00
+# Update time: 2024-08-19T09:52:57+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [360]
 # [qq.com]
@@ -5342,18 +5342,17 @@
 127.0.0.1 zt.jd.com
 127.0.0.1 zymo.mps.weibo.com
 127.0.0.1 zz.bdstatic.com
-13.107.246.40                 vscode.dev
 13.107.42.16                  pipelines.actions.githubusercontent.com
 140.82.112.10                 codeload.github.com
 140.82.112.22 cloud.githubusercontent.com
 140.82.112.25                 alive.github.com
 140.82.112.26                 live.github.com
-140.82.112.3                  gist.github.com
 140.82.112.3                  github.com
 140.82.113.21                 education.github.com
 140.82.114.17                 github.community
 140.82.114.21                 collector.github.com
 140.82.114.22                 central.github.com
+140.82.114.4                  gist.github.com
 140.82.114.5                  api.github.com
 142.250.115.188     alt2-mtalk.google.com
 142.250.115.188     alt6-mtalk.google.com
@@ -5373,10 +5372,11 @@
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
-185.199.108.133               avatars3.githubusercontent.com
-185.199.108.133               avatars4.githubusercontent.com
+185.199.108.133               avatars.githubusercontent.com
+185.199.108.133               avatars1.githubusercontent.com
+185.199.108.133               objects.githubusercontent.com
 185.199.108.133               private-user-images.githubusercontent.com
-185.199.109.153               assets-cdn.github.com
+185.199.109.133               user-images.githubusercontent.com
 185.199.109.153               github.io
 185.199.109.154               github.githubassets.com
 185.199.110.133 avatars.githubusercontent.com
@@ -5388,11 +5388,12 @@
 185.199.110.133 avatars5.githubusercontent.com
 185.199.110.133 desktop.githubusercontent.com
 185.199.110.133 media.githubusercontent.com
+185.199.110.153               assets-cdn.github.com
 185.199.110.153               githubstatus.com
-185.199.111.133               avatars.githubusercontent.com
 185.199.111.133               avatars0.githubusercontent.com
-185.199.111.133               avatars1.githubusercontent.com
 185.199.111.133               avatars2.githubusercontent.com
+185.199.111.133               avatars3.githubusercontent.com
+185.199.111.133               avatars4.githubusercontent.com
 185.199.111.133               avatars5.githubusercontent.com
 185.199.111.133               camo.githubusercontent.com
 185.199.111.133               cloud.githubusercontent.com
@@ -5400,9 +5401,7 @@
 185.199.111.133               favicons.githubusercontent.com
 185.199.111.133               github.map.fastly.net
 185.199.111.133               media.githubusercontent.com
-185.199.111.133               objects.githubusercontent.com
 185.199.111.133               raw.githubusercontent.com
-185.199.111.133               user-images.githubusercontent.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -5424,16 +5423,16 @@
 23.53.11.237 store.akamai.steamstatic.com
 23.53.11.246 cdn.akamai.steamstatic.com
 23.53.11.248 community.akamai.steamstatic.com
-3.5.11.228                    github-production-repository-file-5c1aeb.s3.amazonaws.com
+3.5.24.90                     github-com.s3.amazonaws.com
+3.5.30.134                    github-production-release-asset-2e65be.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
-52.216.186.99                 github-production-release-asset-2e65be.s3.amazonaws.com
-52.216.211.161                github-production-user-asset-6210df.s3.amazonaws.com
-52.216.213.9                  github-cloud.s3.amazonaws.com
+52.217.132.49                 github-cloud.s3.amazonaws.com
+52.217.166.145                github-production-user-asset-6210df.s3.amazonaws.com
+52.217.87.188                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-54.231.196.73                 github-com.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 66.203.124.31 mega.co.nz
