@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-08-21 00:07:46（北京时间）
+! Version: 2024-08-21 02:09:16（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 10552
+! Total count: 10583
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -35,6 +35,7 @@
 ||*.p2p.huya.com^
 ||*.qc.bsccdn.net^
 ||*.retail.n.weimob.com^
+||*.saxysec.com^
 ||*.sigmob.cn^
 ||*.va.huya.com^
 ||*.vegslb.com^
@@ -76,6 +77,7 @@
 ||*igd.xml*^
 ||*isAds*^
 ||*load_new_ad=*^
+||*miaozhen.com^
 ||*mobads*^
 ||*mobads://*^
 ||*snscosdownload*^
@@ -134,9 +136,12 @@
 ||1105yh.com^
 ||1106yh.com^
 ||1107piaoliang2022.xyz^
+||111.45.69.159^
+||111.45.69.21^
 ||1113dage2022.xyz^
 ||1116yitiao2022.xyz^
 ||1117liangtiao2022.xyz^
+||112.60.14.98^
 ||113.105.153.20^
 ||113.219.183.77^
 ||113.240.86.171^
@@ -252,6 +257,8 @@
 ||23dhj4q.com^
 ||23jgiy.com^
 ||2409-8754-8310-35--3.volcsirius.com^
+||2409:8702:4860:10::62^
+||2409:8c54:1040:9::149^
 ||2431.vainews.cn^
 ||24klm.cn^
 ||24klm.net^
@@ -571,6 +578,7 @@
 ||ac.dun.163yun.com^
 ||ac.o2.qq.com^
 ||acaupail.net^
+||acc.qq.com^
 ||access*.tpns.tencent.com^
 ||access.pangolin-sdk-toutiao-*.com^
 ||access.pangolin-sdk-toutiao-b.com^
@@ -1238,6 +1246,7 @@
 ||ams02.dnscry.pt^
 ||ams1.startpage.com^
 ||ams2.startpage.com^
+||amsweb-cdn-gz-*.file.myqcloud.com^
 ||amsweb-cdn-gz-1258344696.file.myqcloud.com^
 ||amung.us^
 ||amvecurt.cn^
@@ -1329,11 +1338,13 @@
 ||aoyou4.top^
 ||aoyou5.top^
 ||aparvibices.com^
+||apd-*.v.smtcdns.com^
 ||apd-pcdnvodstat.teg.tencent-cloud.net^
 ||apd-pcdnwxlogin.teg.tencent-cloud.net^
 ||apd-pcdnwxnat.teg.tencent-cloud.net^
 ||apd-pcdnwxstat.teg.tencent-cloud.net^
 ||apd-ugcvlive.apdcdn.tc.qq.com^
+||apd-vlive.apdcdn.tc.qq.com^
 ||apd-vodp2plogin.teg.tencent-cloud.net^
 ||apd-vodp2pnat.teg.tencent-cloud.net^
 ||apdfmhp.cn^
@@ -1971,6 +1982,7 @@
 ||callies-online.site^
 ||camep.xyz^
 ||canadianshield.cira.ca^
+||canary-acc.video.qq.com^
 ||canser1.top^
 ||canser5.top^
 ||canser7.top^
@@ -2026,6 +2038,7 @@
 ||cdn-asp.yiye.ai^
 ||cdn-cbd-advert-prod.shuxinyc.com^
 ||cdn-data6.video.iqiyi.com^
+||cdn-go.cn^
 ||cdn-new-ad.wtzw.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
 ||cdn.0ms.dev^
@@ -2248,6 +2261,7 @@
 ||contassh.com^
 ||content-autofill.googleapis.com^
 ||content-understand-strategy.sm.cn^
+||content.rconfig.qq.com^
 ||contentabc.com^
 ||cook.iqiyi.com^
 ||cookie-law-enforcement-qq.xyz^
@@ -2643,6 +2657,8 @@
 ||dl_dir.qq.com^
 ||dl_dir2.qq.com^
 ||dlads.cn^
+||dldir1.qq.com^
+||dldir1v6.qq.com^
 ||dldir2.qq.com^
 ||dldir3.qq.com^
 ||dldir5.qq.com^
@@ -4946,6 +4962,7 @@
 ||ispcapi.mcafee.com^
 ||ispunblock.com^
 ||ispvpn.com^
+||isrpt-vn.gdt.qq.com^
 ||ist01.dnscry.pt^
 ||isub.snssdk.com.bytedns.net^
 ||isub.snssdk.com^
@@ -6037,6 +6054,7 @@
 ||monitor-ads-test.huan.tv^
 ||monitor-uu.play.aiseet.atianqi.com^
 ||monitor.ads.8le8le.com^
+||monitor.l.qq.com^
 ||monitor.music.qq.com^
 ||monitor.qq.com^
 ||monitor.uu.qq.com^
@@ -6555,6 +6573,7 @@
 ||open.douyin.com^
 ||open.e.kuaishou.cn^
 ||open.e.kuaishou.com^
+||open.gtimg.cn^
 ||open.kuaishouzt.com^
 ||open.kwaishouzt.com^
 ||open.kwaizt.com^
@@ -6739,6 +6758,7 @@
 ||p99nxpivfscyverz.me^
 ||pacaio.match.qq.com^
 ||packetriot.net^
+||page-acc.video.qq.com^
 ||page.amap.com^
 ||pagead2.googleadservices.com^
 ||pagead2.googlesyndication.com^
@@ -6792,6 +6812,7 @@
 ||pawxy.com^
 ||pay.sboot.cn^
 ||payoneok.com^
+||pbaccess.video.qq.com^
 ||pbaiyho.cn^
 ||pbproxy.red^
 ||pbproxy2.co^
@@ -7536,6 +7557,7 @@
 ||rhtc.quanminyouxi.cn^
 ||ric.openbld.net^
 ||rich.qq.com^
+||richmedia.video.qq.com^
 ||richshredinger.com^
 ||ricko.is^
 ||rifyeldz.top^
@@ -7615,6 +7637,7 @@
 ||ruliaoqi.com^
 ||rulwph.xyz^
 ||rumpelsepp.org^
+||rumt-zh.com^
 ||run-syndicate.com^
 ||runative-syndicate.com^
 ||runn.fun^
@@ -8043,6 +8066,7 @@
 ||sncop.uioozpxq.com^
 ||sngapm.qq.com^
 ||sngmta.qq.com^
+||snowflake.qq.com^
 ||snowproxy.com^
 ||sns-paopao.iqiyi.com^
 ||snssdk.com^
@@ -8342,6 +8366,7 @@
 ||t7z.cupid.iqiyi.com^
 ||ta.qq.com^
 ||ta20k.xyz^
+||tab.video.qq.com^
 ||tahltanboutell.com^
 ||tailscale.com^
 ||tailscale.io^
@@ -8776,6 +8801,7 @@
 ||typaza.com^
 ||tyrsn6di.icu^
 ||tyrwtm.com^
+||tytx.m.cn.miaozhen.com^
 ||tyutuyoo.top^
 ||tz.sec.xiaomi.com^
 ||tzcfyre.cn^
@@ -8825,6 +8851,7 @@
 ||ug-data.mihoyo.com^
 ||ug.snssdk.com^
 ||ugbjqwe.com^
+||ugc-upload.3g.qq.com^
 ||ugd.gtimg.com^
 ||ugdsoft.com^
 ||ugugct.xyz^
@@ -9301,6 +9328,7 @@
 ||victoriajumpc.com^
 ||video-ad.sm.cn^
 ||video-dsp.pddpic.com^
+||video-mobile-tech-*.shiply-cdn.qq.com^
 ||video.dispatch.tc.qq.com^
 ||video.mpush.qq.com^
 ||video.new-eve.com^
@@ -9578,6 +9606,7 @@
 ||w2.gskwai.com^
 ||w2.kskwai.com^
 ||w41.i7x3.fun^
+||wa.gtimg.com^
 ||wagzqhq.cn^
 ||waitfree.us^
 ||waizongguan.net^
@@ -9809,6 +9838,7 @@
 ||www.dknindsl.com^
 ||www.dnsadguard.co.uk^
 ||www.doca182.com^
+||www.douyin10010.cn^
 ||www.dragonib.com^
 ||www.geodeep.org^
 ||www.google-analytics.com^
@@ -10074,6 +10104,7 @@
 ||xrkadslmgg.xyz^
 ||xryrylt.cn^
 ||xs.dmzj.com^
+||xs.gdt.qq.com^
 ||xsgdt.play.*.*^
 ||xsgdt.play.*^
 ||xsjh001.xyz^
