@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-08-21 22:08:06（北京时间）
+! Version: 2024-08-22 00:09:31（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 10615
+! Total count: 10621
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -146,6 +146,7 @@
 ||113.219.183.77^
 ||113.240.86.171^
 ||11jianzhan.com^
+||120.238.119.113^
 ||1205qitiao2022.xyz^
 ||120askimages.com^
 ||121.12.1.102^
@@ -258,6 +259,7 @@
 ||23jgiy.com^
 ||2409-8754-8310-35--3.volcsirius.com^
 ||2409:8702:4860:10::62^
+||2409:8c20:8ab1:203:1::5^
 ||2409:8c54:1040:9::149^
 ||2431.vainews.cn^
 ||24klm.cn^
@@ -308,6 +310,8 @@
 ||37er19htfd.execute-api.us-east-1.amazonaws.com^
 ||387635.com^
 ||38kmute.xyz^
+||39.96.184.178^
+||39.96.185.90^
 ||39mydp.xyz^
 ||3ad5iot.com^
 ||3dcosas.xyz^
@@ -1287,7 +1291,6 @@
 ||anchorfree.net^
 ||andes.tech^
 ||android.bugly.qq.com^
-||android.googleapis.com^
 ||android.rqd.qq.com^
 ||androvpn.com^
 ||andrqd.play.aiseet.atianqi.com^
@@ -1960,6 +1963,7 @@
 ||c.sayhi.360.cn^
 ||c.sm.cn^
 ||c.ssp.qq.com^
+||c.tobidad.cn^
 ||c.tpgjb.top^
 ||c.wkanx.com^
 ||c0.ifengimg.com^
@@ -2043,7 +2047,6 @@
 ||cdn-asp.yiye.ai^
 ||cdn-cbd-advert-prod.shuxinyc.com^
 ||cdn-data6.video.iqiyi.com^
-||cdn-go.cn^
 ||cdn-new-ad.wtzw.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
 ||cdn.0ms.dev^
@@ -5247,6 +5250,8 @@
 ||jzxpxj.xyz^
 ||k.ssp.qq.com^
 ||k16e9b.com^
+||k2-dy-icy-ml-fclouddns.gslb.new.fclouddns.net^
+||k2-dy-icy-ml.gslb.ksyuncdn.com^
 ||k2.dancihu.com^
 ||k2vpn.io^
 ||k31bpzf.xyz^
@@ -5520,6 +5525,8 @@
 ||lf3-static.bytednsdoc.com^
 ||lf3-webcastcdn-tos-sign.douyinstatic.com^
 ||lf6-ad-union-sdk.pglstatp-toutiao.com^
+||lf6-imcloud-file-sign.bytetos.com.download.ks-cdn.com^
+||lf6-imcloud-file-sign.bytetos.com^
 ||lf6-orange.byteorge.com^
 ||lf6-sf-be-pack-sign.pglstatp-toutiao.com^
 ||lf9-app-pkg-sign.bytesmanager.com^
@@ -6951,7 +6958,6 @@
 ||plainproxies.com^
 ||planet-vids.online^
 ||play-lh.googleusercontent.com^
-||play.googleapis.com^
 ||play.kakao.com^
 ||play5r.com^
 ||playproxy.com^
