@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-08-21 10:29:59（北京时间）
+! Version: 2024-08-21 12:09:47（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 10583
+! Total count: 10616
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -803,7 +803,9 @@
 ||adguard.pangerl.it^
 ||adguard.pggns.de^
 ||adguard.piekacz.pl^
+||adguard.quydang.name.vn^
 ||adguard.ruby.ci^
+||adguard.sealyserver.com^
 ||adguard.senthil.us^
 ||adguard.shoupperuser.com^
 ||adguard.shutgaming.net^
@@ -1280,6 +1282,7 @@
 ||analytics.yahoo.com^
 ||analyticsengine.s3.amazonaws.com^
 ||analyze.lemurbrowser.com^
+||ananoos.com^
 ||ancheonyo.fun^
 ||anchorfree.net^
 ||andes.tech^
@@ -1566,6 +1569,7 @@
 ||atomicstudios.info^
 ||aty.sohu.com^
 ||au-syd-w-f-1.nashkan.net^
+||au.rslvr.eu^
 ||au.umeng.co^
 ||au.umeng.com^
 ||au6w0.xyz^
@@ -1580,6 +1584,7 @@
 ||auto-aufladen.de^
 ||availablesshaother.com^
 ||avira-vpn.com^
+||avira-vpn.net^
 ||avlstatic.vivo.com.cn^
 ||awabo.com^
 ||awan.ftp.sh^
@@ -1738,6 +1743,7 @@
 ||bfjk360.com^
 ||bftqdd.xyz^
 ||bfugui.com^
+||bg.rslvr.eu^
 ||bg04y.xyz^
 ||bg4nxu2u5t.com^
 ||bgbyzv.xyz^
@@ -1890,7 +1896,6 @@
 ||btsvad8.com^
 ||bttazsyk.icu^
 ||bubbleset.com^
-||buc-m2.illmods.com^
 ||buffered.com^
 ||bugly.qq.com^
 ||bugreportv2.qq.com^
@@ -2163,6 +2168,7 @@
 ||click.googleanalytics.com^
 ||click.oneplus.cn^
 ||click.tianyaui.com^
+||clickapp.info^
 ||clickserver.googleads.com^
 ||clickwork7secure.com^
 ||client.show.qq.com^
@@ -2384,6 +2390,7 @@
 ||d.apemlegit.my.id^
 ||d.gdt.qq.com^
 ||d.kugou.com^
+||d.toairs.com^
 ||d.toutiao.com^
 ||d0lzq.com^
 ||d101vabyweqq2v.cloudfront.net^
@@ -2973,6 +2980,7 @@
 ||dns.loveimgmoe.com^
 ||dns.lvolland.fr^
 ||dns.maitrekuc.fr^
+||dns.mandre.dev^
 ||dns.maolaohei.xyz^
 ||dns.marasov.id^
 ||dns.marbledfennec.net^
@@ -2981,7 +2989,6 @@
 ||dns.maybe.icu^
 ||dns.mayx.eu.org^
 ||dns.meeo.win^
-||dns.melalandia.tk^
 ||dns.melvin2204.nl^
 ||dns.mestdag.fr^
 ||dns.mh4ckt3mh4ckt1c4s.xyz^
@@ -3156,6 +3163,7 @@
 ||dns.wakgood.net^
 ||dns.wang.art^
 ||dns.wargan.io^
+||dns.warma.me^
 ||dns.warpnine.de^
 ||dns.watch^
 ||dns.wechat.com^
@@ -3189,6 +3197,7 @@
 ||dns1.irumatech.com^
 ||dns1.klcd.eu^
 ||dns1.nextdns.io^
+||dns1.nielsdb.be^
 ||dns1.pietjacobs.be^
 ||dns1.ryan-palmer.com^
 ||dns1.saferbfc.org^
@@ -3243,6 +3252,7 @@
 ||doh-01.spectrum.com^
 ||doh-02.spectrum.com^
 ||doh-2.seby.io^
+||doh-ca.naftalie.net^
 ||doh-ch.blahdns.com^
 ||doh-de.blahdns.com^
 ||doh-fi.blahdns.com^
@@ -3774,6 +3784,7 @@
 ||fast-proxy.com.de^
 ||fastest-proxy.com.de^
 ||fastestvpn.com^
+||fastestvpn.info^
 ||fastfoxvpn.com^
 ||fastfreeproxy.info^
 ||fastp.org^
@@ -3902,6 +3913,7 @@
 ||foirkrt.icu^
 ||foisml.com^
 ||fooid.xyz^
+||for-privacy.net^
 ||forestseasons.com.cn^
 ||forflygonom.com^
 ||fortniters.info^
@@ -3928,6 +3940,7 @@
 ||free-proxy.com.de^
 ||free-proxy.com^
 ||free-proxy.cz^
+||free-proxy.xyz^
 ||free-proxyserver.com^
 ||free-proxysite.com^
 ||free-signal.com^
@@ -3945,6 +3958,7 @@
 ||freeconnect.link^
 ||freedevpn.com^
 ||freedns.controld.com^
+||freedom.cx^
 ||freedom.mydns.network^
 ||freedome-vpn.net^
 ||freedomproxy.com^
@@ -4527,6 +4541,7 @@
 ||hjkiguy.com^
 ||hjpqt.cn^
 ||hjtedf.xyz^
+||hk.rslvr.eu^
 ||hk2.ooroot.com^
 ||hkctmldg.icu^
 ||hkg01.dnscry.pt^
@@ -5130,6 +5145,7 @@
 ||jp-tyo-w-p-1.nashkan.net^
 ||jp.68360612.xyz^
 ||jp.ad.gameley.com^
+||jp.rslvr.eu^
 ||jp.tiar.app^
 ||jp.tiarap.org^
 ||jp1.f7b6h9.tk^
@@ -5920,6 +5936,7 @@
 ||megaproxylist.net^
 ||megumin.is.my.waifu.cz^
 ||mehide.asia^
+||mehide.org^
 ||meihaoxiangwang.com^
 ||meihu56.cn^
 ||meishesdk.com^
@@ -6074,6 +6091,7 @@
 ||motsjnv.cn^
 ||motuopj.cn^
 ||mouseflow.com^
+||movieproxy.com^
 ||moviets.tc.qq.com^
 ||moxiaoqihuoguo.com^
 ||mp.weixin.qq.com/mp/advertisement^
@@ -6335,6 +6353,7 @@
 ||nl-dro-w-p-1.nashkan.net^
 ||nl-rcd.iqiyi.com^
 ||nl.dns.privex.io^
+||nl.rslvr.eu^
 ||nlvgxr.xyz^
 ||nlyuuy.cn^
 ||nmcnbgp.cn^
@@ -6423,6 +6442,7 @@
 ||nuannuanqi.top^
 ||nudpqt.com^
 ||nue01.dnscry.pt^
+||nue2.moderateinfra.net^
 ||nuheoub.cn^
 ||nunxhv.com^
 ||nutaku.net^
@@ -6633,6 +6653,7 @@
 ||osefcorp.duckdns.org^
 ||oslbahk.top^
 ||osnignsk.xyz^
+||ospylac.com^
 ||oss-asq-download.11222.cn^
 ||oss.dns.aliyun.com.dalvhe.com^
 ||ossapi.baidu.com^
@@ -6988,8 +7009,10 @@
 ||postserviceuk.com^
 ||potatovpn.io^
 ||powedw.com^
+||poxy.pl^
 ||ppedp.cn^
 ||ppg.viviv.com^
+||ppira.com^
 ||pplnjoow.com^
 ||pplsearcher.com^
 ||ppyibei.com^
@@ -7048,6 +7071,7 @@
 ||protonvpn.net^
 ||prounlock.org^
 ||providentsopport.site^
+||provpn.info^
 ||provpnaccounts.com^
 ||prox.pw^
 ||prox.rocks^
@@ -7056,6 +7080,7 @@
 ||proxfree.com^
 ||proxied.org^
 ||proxies.biz^
+||proxies.center^
 ||proxify.biz^
 ||proxify.cc^
 ||proxify.co.uk^
@@ -7199,6 +7224,7 @@
 ||proxyway.com^
 ||proxyweb.com.es^
 ||proxywebsite.co.uk^
+||proxywebtunnel.com^
 ||prt-stsdk.vivo.com.cn^
 ||ps.browser.qq.com^
 ||ps1.modr.club^
@@ -7910,6 +7936,7 @@
 ||sg-public-data-api.hoyoverse.com^
 ||sg-w-f-1.nashkan.net^
 ||sg-w-p-1.nashkan.net^
+||sg.rslvr.eu^
 ||sg.teradns.org^
 ||sg.ylhglobal.com^
 ||sg1.dnswarden.com^
@@ -8033,6 +8060,7 @@
 ||skxuueby.cn^
 ||sky.tongjiai.com^
 ||skydragoness.com^
+||skynetwork.info^
 ||skyssh.co^
 ||skyvpn.net^
 ||slb-p2p.vcloud.ks-live.com^
@@ -8055,6 +8083,7 @@
 ||smartnextusa.com^
 ||smartop-sdkapi.jiguang.cn^
 ||smartproxy.com^
+||smartydns.com^
 ||smetrics.samsung.com^
 ||smfjfgie.xyz^
 ||smr.snssdk.com^
@@ -9147,6 +9176,7 @@
 ||us-v10.events.data.microsoft.com^
 ||us.doh.cloudveil.org^
 ||us.l.qq.com^
+||us.rslvr.eu^
 ||us.vortex-win.data.microsoft.com^
 ||us1.blissdns.net^
 ||us1.dns.lavate.ch^
@@ -9162,6 +9192,7 @@
 ||userproxy.com^
 ||usertrack.alibaba-inc.com^
 ||usfw2eu.icu^
+||uskt.info^
 ||uslbaht.top^
 ||uslsxe.com^
 ||uspauline.com^
@@ -9508,6 +9539,7 @@
 ||vpnshazam.com^
 ||vpnshieldapp.com^
 ||vpnsuper.app^
+||vpnto.bhadrikais.my.id^
 ||vpntraffic.com^
 ||vpntunnel.com^
 ||vpntunnel.net^
@@ -10259,6 +10291,7 @@
 ||youtubebyclick.com^
 ||youtubee.top^
 ||youtubeunblocked.live^
+||youtubez.com^
 ||youxi.kugou.com^
 ||yovbak.com^
 ||yoyovpn.org^
