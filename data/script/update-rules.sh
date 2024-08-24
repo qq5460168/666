@@ -41,7 +41,7 @@ rules=(
    #"https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt" #T白
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt" #HaGeZi's Encrypted
   "https://github.com/entr0pia/fcm-hosts/raw/fcm/fcm-hosts" #FCM Hosts
-"https://raw.githubusercontent.com/790953214/qy-Ads-Rule/main/black.txt" #晴雅
+"http://rssv.cn/adguard/api.php?type=black" #晴雅
 "" #
 "" #
  
