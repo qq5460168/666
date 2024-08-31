@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-08-31 22:04:14（北京时间）
+! Version: 2024-09-01 00:07:22（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7203
+! Total count: 7224
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -171,6 +171,8 @@
 ||155zn.com^
 ||163487*.qmgmw.com^
 ||1640831964042.se-life.cn^
+||16dd-advertise-1252317822.file.myqcloud.com^
+||16dd-advertise-1252317822.image.myqcloud.com^
 ||180zhengkkl.com^
 ||183.61.169.140^
 ||183.61.169.142^
@@ -593,6 +595,7 @@
 ||ad.tk.cn^
 ||ad.toutiao.com^
 ||ad.us.sinaimg.cn^
+||ad.v3mh.com^
 ||ad.v6.kuaishou.cn^
 ||ad.wamxb.info^
 ||ad.weixin.qq.com^
@@ -763,6 +766,7 @@
 ||ads.ubestkid.com^
 ||ads.union.jd.com^
 ||ads.uutest.cn^
+||ads.v3mh.com^
 ||ads.vungle.com^
 ||ads.yahoo.com^
 ||ads.yap.yahoo.com^
@@ -1415,6 +1419,7 @@
 ||bg4nxu2u5t.com^
 ||bgbyzv.xyz^
 ||bgdizsay.icu^
+||bgg.baidu.com^
 ||bh0874.online^
 ||bhaabom.cn^
 ||bhcnmrn.icu^
@@ -1475,6 +1480,7 @@
 ||bootpreload.uve.weibo.com^
 ||bootrealtime.uve.weibo.com^
 ||boss.qzone.qq.com^
+||bossaudioandcomic-1252317822.image.myqcloud.com^
 ||botnrr.xyz^
 ||botonmetaverse.com^
 ||boxwcr.icu^
@@ -1720,6 +1726,7 @@
 ||ciislunar.com^
 ||city.youpukeji.cn^
 ||cix0wk.com^
+||cj.qidian.com^
 ||cjgdch.com^
 ||cjhd.mediav.com^
 ||ck.ads.heytapmobi.com^
@@ -2931,6 +2938,7 @@
 ||hopefullyapricot.com^
 ||hot.browser.miui.com^
 ||hotchat-im.iqiyi.com^
+||houyi.kkmh.com^
 ||hpcwwd.com^
 ||hpd.baidu.com^
 ||hpg786n.cn^
@@ -3113,6 +3121,8 @@
 ||ilyf4amifh.com^
 ||im-x.jd.com^
 ||im64.jpush.cn^
+||imag8.pubmatic.com^
+||imag86.pubmatic.com^
 ||image-ad.sm.cn^
 ||image.cnamedomain.com^
 ||image.csslcloud.net^
@@ -3121,6 +3131,7 @@
 ||imagecloub.com^
 ||imageplus.baidu.com^
 ||images.kxuexue.com^
+||images.outbrainimg.com^
 ||images.pinduoduo.com^
 ||imapi2.snssdk.com^
 ||imc.l.qq.com^
@@ -3201,6 +3212,7 @@
 ||ipqc5ejfe.icu^
 ||ipsoazr.icu^
 ||ipv4.gdt.qq.com^
+||ipv4.kkmh.com^
 ||iqede.xyz^
 ||iqgessh.icu^
 ||iqgoukn.cn^
@@ -3943,6 +3955,7 @@
 ||m-cloud.zhihu.com/api/cloud/zhihu/config/all*^
 ||m-cloud.zhihu.com^
 ||m-game.book.qq.com^
+||m.ad.zhangyue.com^
 ||m.atm.youku.com^
 ||m.bugly.qq.com^
 ||m.do.downcdn.top^
@@ -3976,6 +3989,7 @@
 ||mad.ireader.com^
 ||mads.meituan.com^
 ||magellan.alimama.com^
+||magev6.if.qidian.com^
 ||magsrv.com^
 ||mail.kguapp.com^
 ||main.gamecenter.vivo.com.cn^
@@ -3984,6 +3998,7 @@
 ||manage88.com^
 ||manbag.net^
 ||manguan.vip^
+||manhua.acimg.cn^
 ||manlungkey.com^
 ||manual.sensorsdata.cn^
 ||maobujie.com^
@@ -4759,6 +4774,7 @@
 ||play.kakao.com^
 ||playstats.v.duowan.com^
 ||plbs9k.icu^
+||plbslog.umeng.com^
 ||plmn5.com^
 ||plnshao.xyz^
 ||plof69.com^
@@ -5336,6 +5352,7 @@
 ||sec.video.qq.com^
 ||secgw-default.cn.nt.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
 ||securemetrics.apple.com^
+||securepubads.g.doubleclick.net^
 ||securitymobile.club^
 ||selornews.com^
 ||sensifyfugged.com^
@@ -5985,6 +6002,7 @@
 ||udns.weixin.qq.com^
 ||uebabuf.cn^
 ||uebohjhh.xyz^
+||uedas.qidian.com^
 ||uejdsw.com^
 ||uem.migu.cn^
 ||ufgg55.xyz^
@@ -6035,6 +6053,7 @@
 ||unified-ter.hismarttv.com^
 ||uniformer.biz^
 ||union.360.cn^
+||union.baidu.cn^
 ||union.baidu.com^
 ||union.discuz.qq.com^
 ||union.eff.qq.com^
@@ -6442,6 +6461,7 @@
 ||whwxxny.com^
 ||whyfate.cn^
 ||wiczcu.xyz^
+||widgets.outbrain.com^
 ||widgets.pinterest.com^
 ||widow5blackfr.com^
 ||win.gdt.qq.com^
@@ -6700,6 +6720,7 @@
 ||xiaomi-dtv.m.cn.miaozhen.com^
 ||xiaomifood.cn^
 ||xiaoqurong.com^
+||xiaoshuo.wtzw.com^
 ||xiaosunxin.cn^
 ||xiaoxiuapp.com^
 ||xiaoy.name^
