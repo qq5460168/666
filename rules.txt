@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-09-03 10:34:55（北京时间）
+! Version: 2024-09-03 12:09:14（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14667
+! Total count: 14669
 
  ! 某些其他
  #晴雅规则
@@ -13,7 +13,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-09-03T01:52:28+08:00
+# Update time: 2024-09-03T03:52:28+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [360]
 # [qq.com]
@@ -700,6 +700,7 @@
 #晴雅！！
 #未知来源 广告/日志
 #杂七杂八
+#极光推送
 #极弧
 #某些网页的图片加载
 #浅笑
@@ -5353,12 +5354,12 @@
 140.82.112.22                 education.github.com
 140.82.112.22 cloud.githubusercontent.com
 140.82.112.26                 live.github.com
-140.82.112.3                  gist.github.com
 140.82.113.22                 collector.github.com
 140.82.113.25                 alive.github.com
 140.82.114.18                 github.community
 140.82.114.22                 central.github.com
 140.82.114.3                  github.com
+140.82.114.4                  gist.github.com
 140.82.114.6                  api.github.com
 142.250.115.188     alt2-mtalk.google.com
 142.250.115.188     alt6-mtalk.google.com
@@ -5368,7 +5369,6 @@
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.182.105.145                github-production-user-asset-6210df.s3.amazonaws.com
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
 18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.me,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
@@ -5382,12 +5382,11 @@
 183.136.207.132 ultimateota.d.miui.com
 185.199.108.133               avatars0.githubusercontent.com
 185.199.108.133               avatars2.githubusercontent.com
-185.199.108.133               avatars4.githubusercontent.com
 185.199.108.133               avatars5.githubusercontent.com
 185.199.108.133               camo.githubusercontent.com
-185.199.108.133               objects.githubusercontent.com
 185.199.109.153               assets-cdn.github.com
 185.199.109.153               github.io
+185.199.109.154               github.githubassets.com
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars1.githubusercontent.com
@@ -5398,15 +5397,16 @@
 185.199.110.133 desktop.githubusercontent.com
 185.199.110.133 media.githubusercontent.com
 185.199.110.153               githubstatus.com
-185.199.110.154               github.githubassets.com
 185.199.111.133               avatars.githubusercontent.com
 185.199.111.133               avatars1.githubusercontent.com
 185.199.111.133               avatars3.githubusercontent.com
+185.199.111.133               avatars4.githubusercontent.com
 185.199.111.133               cloud.githubusercontent.com
 185.199.111.133               desktop.githubusercontent.com
 185.199.111.133               favicons.githubusercontent.com
 185.199.111.133               github.map.fastly.net
 185.199.111.133               media.githubusercontent.com
+185.199.111.133               objects.githubusercontent.com
 185.199.111.133               private-user-images.githubusercontent.com
 185.199.111.133               raw.githubusercontent.com
 185.199.111.133               user-images.githubusercontent.com
@@ -5431,15 +5431,16 @@
 23.53.11.237 store.akamai.steamstatic.com
 23.53.11.246 cdn.akamai.steamstatic.com
 23.53.11.248 community.akamai.steamstatic.com
-3.5.11.228                    github-production-repository-file-5c1aeb.s3.amazonaws.com
-3.5.9.197                     github-production-release-asset-2e65be.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
-52.216.169.243                github-cloud.s3.amazonaws.com
+52.216.146.35                 github-production-release-asset-2e65be.s3.amazonaws.com
 52.217.171.217                github-com.s3.amazonaws.com
+52.217.207.17                 github-cloud.s3.amazonaws.com
+52.217.82.92                  github-production-repository-file-5c1aeb.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+54.231.203.41                 github-production-user-asset-6210df.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 66.203.124.31 mega.co.nz
@@ -6220,6 +6221,7 @@
 @@||train.17u.cn^$important
 @@||translator.qq.com^$important
 @@||ts.market.mi-img.com^$important
+@@||tsis.jpush.cn^$important
 @@||turing.captcha.gtimg.com^$important
 @@||tv.2345.com^
 @@||tv.2345.com^$important
