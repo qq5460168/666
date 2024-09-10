@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-09-10 12:09:18（北京时间）
+! Version: 2024-09-10 14:10:52（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14677
+! Total count: 14682
 
  ! 某些其他
  #晴雅规则
@@ -13,7 +13,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-09-10T03:54:27+08:00
+# Update time: 2024-09-10T05:53:45+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [360]
 # [qq.com]
@@ -5370,6 +5370,8 @@
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
+16.15.216.27                  github-com.s3.amazonaws.com
+16.182.105.145                github-production-user-asset-6210df.s3.amazonaws.com
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
 18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.me,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
@@ -5383,14 +5385,18 @@
 183.136.207.132 ultimateota.d.miui.com
 185.199.108.133               avatars.githubusercontent.com
 185.199.108.133               avatars1.githubusercontent.com
-185.199.108.133               avatars4.githubusercontent.com
+185.199.108.133               avatars3.githubusercontent.com
 185.199.108.133               avatars5.githubusercontent.com
+185.199.108.133               camo.githubusercontent.com
 185.199.108.133               cloud.githubusercontent.com
 185.199.108.133               favicons.githubusercontent.com
 185.199.108.133               media.githubusercontent.com
 185.199.108.133               objects.githubusercontent.com
+185.199.108.133               raw.githubusercontent.com
+185.199.108.133               user-images.githubusercontent.com
 185.199.109.153               assets-cdn.github.com
 185.199.109.153               github.io
+185.199.109.154               github.githubassets.com
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars1.githubusercontent.com
@@ -5403,13 +5409,10 @@
 185.199.110.153               githubstatus.com
 185.199.111.133               avatars0.githubusercontent.com
 185.199.111.133               avatars2.githubusercontent.com
-185.199.111.133               avatars3.githubusercontent.com
-185.199.111.133               camo.githubusercontent.com
+185.199.111.133               avatars4.githubusercontent.com
 185.199.111.133               desktop.githubusercontent.com
 185.199.111.133               github.map.fastly.net
 185.199.111.133               private-user-images.githubusercontent.com
-185.199.111.133               raw.githubusercontent.com
-185.199.111.133               user-images.githubusercontent.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -5428,14 +5431,12 @@
 23.53.11.237 store.akamai.steamstatic.com
 23.53.11.246 cdn.akamai.steamstatic.com
 23.53.11.248 community.akamai.steamstatic.com
-3.5.30.129                    github-production-release-asset-2e65be.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 423down.com##LI.item:has(.sticky-post)
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
-52.217.103.188                github-com.s3.amazonaws.com
-52.217.166.145                github-production-user-asset-6210df.s3.amazonaws.com
+52.216.43.65                  github-production-release-asset-2e65be.s3.amazonaws.com
 52.217.82.92                  github-production-repository-file-5c1aeb.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 54.231.226.169                github-cloud.s3.amazonaws.com
@@ -6662,6 +6663,7 @@ scoregg.com##.float-modal
 share.acgnx.se##IMG[src*='share.acgnx.se']
 similarweb.com^
 sina.cn###float-btn.callApp_fl_btn
+sina.cn##.wap-msg-bar-wap-bottom,#m-sentiment3,.broadcast,.animated.pluse
 sina.cn##SECTION.sw_c0.sina_sliders_pos
 sina.cn##[sax-type='proxy'][data-pos][data-saxname][loaded='loaded']
 sina.com.cn###SFA_NV_POP
@@ -7121,6 +7123,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||3i2i.com^
 ||3nnc0at.xyz^$important
 ||3p4.cn^
+||3pkf5m0gd.com^
 ||3prndxd.cn^
 ||3q3l.cn^
 ||3rsppty.cn^
@@ -9355,6 +9358,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||emilyz.top^
 ||emoticon-sns.iqiyi.com^
 ||ems.youku.com^
+||endowmentoverhangutmost.com^
 ||endpoint.zhuishushenqi.com^
 ||enennsa.gushiwen.cn^
 ||enhad.xyz^
@@ -9400,6 +9404,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||etg.qq.com^
 ||ether-pack.pangolin-sdk-toutiao.com
 ||ether-pack.pangolin-sdk-toutiao.com^
+||ethicalads.io^
 ||etienlw.top^
 ||etlanaberez.fun^
 ||etn.076lvo.xyz^
