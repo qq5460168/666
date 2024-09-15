@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-09-15 12:09:12（北京时间）
+! Version: 2024-09-15 14:09:50（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7312
+! Total count: 7316
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -4072,6 +4072,7 @@
 ||masdk.3g.qq.com^
 ||masdkv6.3g.qq.com^
 ||masterconn.qq.com^
+||match.adsrvr.cn^
 ||maximpetus.com^
 ||mazu.3g.qq.com^
 ||mazu.m.qq.com^
@@ -5735,6 +5736,7 @@
 ||t-qmad.qimao.com^
 ||t-remad.qm989.com^
 ||t.atomicfile.cn^
+||t.dentsuchina.cn^
 ||t.gdt.qq.com^
 ||t.jmads.net^
 ||t.l.qq.com^
@@ -5942,6 +5944,7 @@
 ||tqmcj.cn^
 ||tquspo.com^
 ||tqytqdrq.icu^
+||tr.byteurl.cn^
 ||trace.qq.com^
 ||tracelog-debug.aiclk.com^
 ||tracelog-debug.qquanquan.com^
@@ -6392,6 +6395,7 @@
 ||volc.bj.ad.track.66mobi.com^
 ||volceapplog.com^
 ||volcsirius.com^
+||volctrack.com^
 ||volgreal.com^
 ||vorluic.cn^
 ||vortex-win-sandbox.data.microsoft.com^
