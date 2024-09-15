@@ -42,7 +42,9 @@ rules=(
 
 "" #
   "https://github.com/entr0pia/fcm-hosts/raw/fcm/fcm-hosts" #FCM Hosts
-"" #晴雅
+
+"https://raw.gitcode.com/rssv/qy-Ads-Rule/raw/main/black.txt" #晴雅
+
 "" #
 "" #
  
