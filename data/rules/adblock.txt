@@ -806,8 +806,11 @@ zb.zhaobiao.cn##div.box:nth-child(5) > div.advertisement.box:nth-child(2)
 123pan.com##.banner_all_wrap
 !哔咔漫画
 ||*.diwodiwo.xyz^
+!ofiii
+||proxy.svc.litv.tv^
+ofiii.com##div.nonlinear_image_container.ad_impression
+ofiii.com##.jsx-126687236
 !其它补充
-edu.iask.sina.com.cn##.ad-screen
 ###vid_overlay
 ##.modalJS_object
 ###content-wrapper > div.container-fluid.pb-0:first-child > div.video-block.section-padding:last-child > div.row > div.col-md-4:last-child > div.single-video-right > div.row > div.col-md-12:first-child > div.adblock:first-child
@@ -823,7 +826,5 @@ scoregg.com##.float-modal
 medium.com##.m, .abb, .add, .ade
 hanyu.baidu.com###J_CishuBtn > img
 hanyu.baidu.com###main > div.app-qrcode:first-child
-
-
-
-
+edu.iask.sina.com.cn##.ad-screen
+www.9game.cn##.entry.qak_popup
