@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-09-22 22:05:13（北京时间）
+! Version: 2024-09-23 00:07:31（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7321
+! Total count: 7284
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -25,7 +25,6 @@
 ||*.ads.huawei.com.au^
 ||*.ads.huawei.com^
 ||*.beizi.biz^
-||*.cmgadx.com^
 ||*.diwodiwo.xyz^
 ||*.dns.cross.gt^
 ||*.e.qq.com^
@@ -46,7 +45,6 @@
 ||*/api/ad/*^
 ||*/auto_download/game_pkg_list/*^
 ||*/effect_ad/*^
-||*/effect_ad/splash*^
 ||*/effect_ad/splash_screen/*^
 ||*/game/abtest/*^
 ||*/guest/statuses_extend*^
@@ -501,7 +499,6 @@
 ||abrnfctkn.xyz^
 ||absod.video.iqiyi.com^
 ||absorbingconstitution.com^
-||abtest*-misc-lf.zijieapi.com^
 ||abtest-ch.snssdk.com^
 ||abtest.alibaba.com^
 ||abtest3-misc-hl.zijieapi.com^
@@ -521,7 +518,6 @@
 ||ackcdn.net^
 ||acqc9.com^
 ||acquirethem.com^
-||acs.m.taobao.com^
 ||acs4baichuan.m.taobao.com^
 ||acsc10.com^
 ||acscdn.com^
@@ -1204,7 +1200,6 @@
 ||api.yuedu.dns.iqiyi.com^
 ||api.zhihu.com/ab/*^
 ||api.zhihu.com/commercial_api/answer/*/bottom*^
-||api.zhihu.com/commercial_api/launch_v2?app=*&size=*&non_full_size=*&vf=*^
 ||api.zhihu.com/commercial_api/launch_v2^
 ||api01pbmp.zhuishushenqi.com^
 ||api02u58f.zhuishushenqi.com^
@@ -1271,7 +1266,6 @@
 ||aqilk66444a.xyz^
 ||aquvg.com^
 ||aqvwn18102h.com^
-||ards.iqiyi.com^
 ||areyoutherenow.com^
 ||arkn81.com^
 ||arpg2.com^
@@ -1532,7 +1526,6 @@
 ||bslbahv.top^
 ||bsrv.qq.com^
 ||bswsmlp.cn^
-||bsync3-normal-lq.zijieapi.com^
 ||btescs.fun^
 ||btgoo.cc^
 ||btrace.qq.com^
@@ -1600,7 +1593,6 @@
 ||caardinal.com^
 ||cache.gaode.com^
 ||cache.video.iqiyi.com^
-||cache.wuji.qq.com^
 ||caclick.qq.com^
 ||cad.youku.com^
 ||cai-identity.adobe.io^
@@ -2108,7 +2100,6 @@
 ||dl_dir.qq.com^
 ||dl_dir2.qq.com^
 ||dlads.cn^
-||dldir1.qq.com^
 ||dldir1v6.qq.com^
 ||dldir2.qq.com^
 ||dldir3.qq.com^
@@ -2551,7 +2542,6 @@
 ||frontend-perf-service.e.kuaishou.com^
 ||frontier-toutiao.snssdk.com^
 ||frontier100-toutiao-hl.fqnovel.com^
-||frontier100-toutiao-lf.fqnovel.com^
 ||fronttoad.com^
 ||frpns.com^
 ||frrhdl.xyz^
@@ -2634,8 +2624,6 @@
 ||gdsoq.com^
 ||gdt.qq.com^
 ||gdzshoes.com^
-||gecko*-lf.zijieapi.com^
-||gecko*-lq.zijieapi.com^
 ||gecko-hl.snssdk.com^
 ||gecko-lq.snssdk.com^
 ||gecko.snssdk.com^
@@ -3170,7 +3158,6 @@
 ||images.outbrainimg.com^
 ||images.pinduoduo.com^
 ||imapi2.snssdk.com^
-||imapi5-oth-lq.zijieapi.com^
 ||imc.l.qq.com^
 ||ime-store-cdn.gtimg.com^
 ||img-c.heytapimage.com^
@@ -3365,7 +3352,6 @@
 ||jianchajingmk.net^
 ||jianxinshanghai.com^
 ||jianyihang.com^
-||jibh.zhangxy2.cn^
 ||jieshimaya.xyz^
 ||jietuhb.com^
 ||jiezoiq.cn^
@@ -3728,7 +3714,6 @@
 ||lestv7.icu^
 ||leyad.cn^
 ||lezbrja.cn^
-||lf*-ad-union-sdk.pglstatp-toutiao*.com^
 ||lf*-ad-union-sdk.pglstatp-toutiao.com^
 ||lf*-orange.byteorge.com^
 ||lf*-sf-be-pack-sign.pglstatp-toutiao.com^
@@ -3867,7 +3852,6 @@
 ||log-alibaba-taobao-douyin.cdn.bcebos.com^
 ||log-api-mn.huxiu.com^
 ||log-api.huxiu.com^
-||log-api.pangolin-sdk-toutiao*.com^
 ||log-api.pangolin-sdk-toutiao-*.com^
 ||log-api.pangolin-sdk-toutiao-b.com^
 ||log-api.pangolin-sdk-toutiao.com^
@@ -3917,7 +3901,6 @@
 ||log1.cmpassport.com^
 ||log1wtlogin.qq.com^
 ||log2.cmpassport.com^
-||log3-applog-lq.fqnovel.com^
 ||log3-misc-lf.amemv.com^
 ||log3-misc-lq.amemv.com^
 ||log3-normal-hl.toutiaoapi.com^
@@ -3981,8 +3964,6 @@
 ||luogod.xyz^
 ||luoyangjinmeii.com^
 ||lupic.cdn.bcebos.com^
-||lv-api-sinfonlinea.ulikecam.com^
-||lv-api.ulikecam.com^
 ||lvcha99.cc^
 ||lvjtiaa.xyz^
 ||lvrvdn.xyz^
@@ -4076,7 +4057,6 @@
 ||masdk.3g.qq.com^
 ||masdkv6.3g.qq.com^
 ||masterconn.qq.com^
-||match.adsrvr.cn^
 ||maximpetus.com^
 ||mazu.3g.qq.com^
 ||mazu.m.qq.com^
@@ -4647,7 +4627,6 @@
 ||oyysbc.xyz^
 ||ozkbdxdu.icu^
 ||p 1-lm.adkwai.com^
-||p*-*.adkwai.com^
 ||p*-ad-aweme.byteimg.com^
 ||p*-ad-sign.byteimg.com^
 ||p*-ad.byteimg.com^
@@ -4769,7 +4748,6 @@
 ||pcstatbak.kugou.com^
 ||pcvzpj.xyz^
 ||pcweb.v1.mgtv.com^
-||pd.ads.cn.miaozhen.com^
 ||pdhhmf.cn^
 ||pdiabbi.cn^
 ||pdjjrh.xyz^
@@ -4809,7 +4787,6 @@
 ||pic.jd-bbs.com^
 ||pic0.ptqy.gitv.tv^
 ||pic640.weishi.qq.com^
-||picgg.idti.cn^
 ||picnewsss.com^
 ||pig.pupuapi.com^
 ||pimlog.baidu.com^
@@ -4824,7 +4801,6 @@
 ||piqtpbxo.icu^
 ||pirubcfy.xyz^
 ||pirxzl.xyz^
-||pitaya.bytedance.com^
 ||pitk.birdgesdk.com^
 ||pixel.facebook.com^
 ||pixon.ads-pixiv.net^
@@ -4863,12 +4839,9 @@
 ||poiqknfl.com^
 ||pojihfnkbllg.net^
 ||pojkhufef.xyz^
-||polaris*-normal-lf.zijieapi^
-||polaris.zijieapi.com^
 ||polaris3-normal-hl.zijieapi.com^
 ||polaris3-normal-lf.zijieapi.com^
 ||polaris3-normal-lq.zijieapi.com^
-||polaris5-normal-lq.zijieapi.com^
 ||polfaqgvsd.net^
 ||policy.jd.com^
 ||policy.video.iqiyi.com^
@@ -4882,7 +4855,6 @@
 ||poqwua.cn^
 ||pos.baidu.com^
 ||postserviceuk.com^
-||pow.wandx5.cn^
 ||powedw.com^
 ||ppedp.cn^
 ||ppg.viviv.com^
@@ -5099,7 +5071,6 @@
 ||qutyan8848.com^
 ||quzmtpxw.xyz^
 ||qvxvvjom.com^
-||qw.wandx5.cn^
 ||qw2v.taoxiehui.cn^
 ||qwapi.apple.com^
 ||qwcwnjk.com^
@@ -5739,7 +5710,6 @@
 ||t-qmad.qimao.com^
 ||t-remad.qm989.com^
 ||t.atomicfile.cn^
-||t.dentsuchina.cn^
 ||t.gdt.qq.com^
 ||t.jmads.net^
 ||t.l.qq.com^
@@ -5947,7 +5917,6 @@
 ||tqmcj.cn^
 ||tquspo.com^
 ||tqytqdrq.icu^
-||tr.byteurl.cn^
 ||trace.qq.com^
 ||tracelog-debug.aiclk.com^
 ||tracelog-debug.qquanquan.com^
@@ -6260,13 +6229,11 @@
 ||v2.uyan.cc^
 ||v20.events.data.microsoft.com^
 ||v26-novelapp.fqnovelvod.com^
-||v26-reading.qznovelvod.com^
 ||v3-ad.video.yximgs.com^
 ||v3-be-pack.pglstatp-toutiao.com^
 ||v3-cold-src1.douyinvod.com^
 ||v3-fe-pack.pglstatp-toutiao.com^
 ||v3-novelapp.fqnovelvod.com^
-||v3-reading.qznovelvod.com^
 ||v4-lm.adukwai.com^
 ||v4dwkcv.com^
 ||v5-be-pack.pglstatp-toutiao.com^
@@ -6276,7 +6243,6 @@
 ||v5-hl-g-hw.douyinvod.com^
 ||v5-hl-h-bd.douyinvod.com^
 ||v5-hl-h-hw.douyinvod.com^
-||v5-novelapp.fqnovelvod.com^
 ||v6-adashx.ut.amap.com^
 ||v6-adashx.ut.cainiao.com^
 ||v6-adashx.ut.ele.me^
@@ -6398,7 +6364,6 @@
 ||volc.bj.ad.track.66mobi.com^
 ||volceapplog.com^
 ||volcsirius.com^
-||volctrack.com^
 ||volgreal.com^
 ||vorluic.cn^
 ||vortex-win-sandbox.data.microsoft.com^
@@ -6644,7 +6609,6 @@
 ||www.dragonib.com^
 ||www.geodeep.org^
 ||www.googleadservices.com^
-||www.googletagmanager.com^
 ||www.govchengdu.cn^
 ||www.govguangxi.cn^
 ||www.govguilin.cn^
@@ -6741,7 +6705,6 @@
 ||www.zbinview.com^
 ||www.zhangjiyi.top^
 ||www.zhaohainan.cn^
-||www.zhihu.com/api/v4/answers/*/recommendations?omni=*&amp;amp;load_new_ad=*&amp;amp;page_index=*^
 ||www42.zskwai.com^
 ||wwxufo.com^
 ||wx.uc.downcdn.top^
