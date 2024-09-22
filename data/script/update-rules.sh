@@ -30,26 +30,25 @@ rules=(
   "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #大萌主
   "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt"  #DD
   "https://raw.gitmirror.com/Cats-Team/dns-filter/main/abp.txt" #AdRules DNS Filter
-
-"https://raw.hellogithub.com/hosts" #GitHub加速
+  "https://raw.hellogithub.com/hosts" #GitHub加速
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/adhosts.txt" #测试hosts
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt" #白名单
   "https://raw.githubusercontent.com/loveqqzj/AdGuard/master/Mobile.txt" #loveqqzj
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Blacklist.txt" #mphin
   "https://gitee.com/zjqz/ad-guard-home-dns/raw/master/black-list" #周木木
   "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/black.txt" #liwenjie119
-   #"https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt" #T白
-
-"" #
   "https://github.com/entr0pia/fcm-hosts/raw/fcm/fcm-hosts" #FCM Hosts
-
-"https://raw.gitcode.com/rssv/qy-Ads-Rule/raw/main/black.txt" #晴雅
-
-"" #
-"" #
- 
-  
+  "https://raw.gitcode.com/rssv/qy-Ads-Rule/raw/main/black.txt" #晴雅
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
+   #"https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt" #T白
+   "" #
+  "" #
+  "" #
+ "" #
+ "" #
+ "" #
+  
+ 
  )
 
 allow=(
