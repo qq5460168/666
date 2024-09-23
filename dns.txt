@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-09-23 08:37:53（北京时间）
+! Version: 2024-09-23 10:43:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7347
+! Total count: 7351
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -925,6 +925,7 @@
 ||adx-cn.anythinktech.com^
 ||adx-drcn.op.dbankcloud.cn^
 ||adx-open-service.youku.com^
+||adx-os.anythinktech.com^
 ||adx.ads.heytapmobi.com^
 ||adx.ads.oppomobile.com^
 ||adx.halomobi.com^
@@ -1400,6 +1401,7 @@
 ||bd-a-1.appmobile.cn^
 ||bd-js.duote.com^
 ||bd.ahsrst.cn^
+||bdad.123pan.cn^
 ||bdapi-ads.realmemobile.com^
 ||bdapi-in-ads.realmemobile.com^
 ||bdapi.ads.heytapmobi.com^
@@ -4300,7 +4302,6 @@
 ||mssdk.zijieapi.com^
 ||mssdk3-normal-lf.zijieapi.com^
 ||mssdk3-normal-lq.zijieapi.com^
-||msxf.com^$importantlematch.com^
 ||msync-im1-vip6-std.easemob.com^
 ||mt4v4.com^
 ||mta.qq.com^
@@ -6153,6 +6154,7 @@
 ||umengacs.m.taobao.com^
 ||umengcloud.com^
 ||umengjmacs.m.taobao.com^
+||umini.shujupie.com^
 ||umkezbh.cn^
 ||umsns.com^
 ||umwatsonc.events.data.microsoft.com^
@@ -6286,12 +6288,14 @@
 ||v20.events.data.microsoft.com^
 ||v26-novelapp.fqnovelvod.com^
 ||v26-reading.qznovelvod.com^
+||v2mi.gdt.qq.com^
 ||v3-ad.video.yximgs.com^
 ||v3-be-pack.pglstatp-toutiao.com^
 ||v3-cold-src1.douyinvod.com^
 ||v3-fe-pack.pglstatp-toutiao.com^
 ||v3-novelapp.fqnovelvod.com^
 ||v3-reading.qznovelvod.com^
+||v3.gdt.qq.com^
 ||v4-lm.adukwai.com^
 ||v4dwkcv.com^
 ||v5-be-pack.pglstatp-toutiao.com^
