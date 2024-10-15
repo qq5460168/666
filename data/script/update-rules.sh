@@ -41,7 +41,7 @@ rules=(
   "https://raw.gitcode.com/rssv/qy-Ads-Rule/raw/main/black.txt" #晴雅
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
    #"https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt" #T白
-   "" #
+   "https://raw.githubusercontent.com/miaoermua/AdguardFilter/main/rule.txt" #喵二
   "" #
   "" #
  "" #
