@@ -1,5 +1,7 @@
 !屏蔽B站直播P2P上传
-*.chat.bilibili.com
+‖*.chat.bilibili.com
+#罗盘软件
+||bid-adx.vlion.cn^
 !Amazon ADS
 ||analyticsengine.s3.amazonaws.com^
 ||advice-ads.s3.amazonaws.com^
