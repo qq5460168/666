@@ -38,7 +38,7 @@ rules=(
   "https://gitee.com/zjqz/ad-guard-home-dns/raw/master/black-list" #周木木
   "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/black.txt" #liwenjie119
   "https://github.com/entr0pia/fcm-hosts/raw/fcm/fcm-hosts" #FCM Hosts
-  "https://raw.githubusercontent.com/790953214/qy-Ads-Rule/refs/heads/main/black.txt" #晴雅
+ # "https://raw.githubusercontent.com/790953214/qy-Ads-Rule/refs/heads/main/black.txt" #晴雅
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
    #"https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt" #T白
    "https://raw.githubusercontent.com/qq5460168/dangchu/refs/heads/main/777.txt" #喵二
