@@ -70,6 +70,8 @@ smartapps.cn##swan-template[data-origin-name*="adRecommendation"]
 ||api.chcatv.hismarttv.com^
 ||api.eu.hismarttv.com^
 ||api.sa.hismarttv.com^
+||api-dynhost.hismarttv.com^
+||api-cloudfalcon.hismarttv.com^
 !京东
 m.jd.com###appdlCon > div.modal
 ||ads-union.jd.com^
