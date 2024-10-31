@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-10-31 20:14:20（北京时间）
+! Version: 2024-10-31 22:07:29（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2727
+! Total count: 2730
 @@*.flyme.cn
 @@*.myapp.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -2554,6 +2554,7 @@
 @@||v2.get.sogou.com^$important
 @@||v2.jinrishici.com^
 @@||v2.jinrishici.com^$important
+@@||v3-novelapp.fqnovelvod.com^$important
 @@||v3-ppx.ixigua.com^$important
 @@||v6-nimg.ws.126.net^
 @@||v9-x.toutiaovod.com^$important
@@ -2627,11 +2628,13 @@
 @@||ww1.lanzous.com^$important
 @@||ww12.lanzous.com^$important
 @@||wwo.wps.cn^$important
+@@||www-env.dropbox-dns.com^$important
 @@||www.123pan.com^$important
 @@||www.2345.com^
 @@||www.acompli.com^$important
 @@||www.alidns.com^$important
 @@||www.apple.com.cn^$important
+@@||www.bilibili.com^$important
 @@||www.bing.com^$important
 @@||www.blogger.com^$important
 @@||www.bqgyy.com^
