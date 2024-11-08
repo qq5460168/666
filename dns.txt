@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-08 22:07:31（北京时间）
+! Version: 2024-11-09 00:08:57（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7562
+! Total count: 7593
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -209,6 +209,7 @@
 ||1iuybpo.com^
 ||1jc5t.xyz^
 ||1kanz.cn^
+||1rtb.net^
 ||1u5gy.xyz^
 ||1w73a5d.cn^
 ||1weorpu.com^
@@ -674,6 +675,7 @@
 ||adashx.ut.youku.com^
 ||adasiatagmanager.appspot.com^
 ||adayvquq.cn^
+||adbehavior.ximalaya.com^
 ||adbeuch.cn^
 ||adbsdk.flyermobi.com^
 ||adbtwyxl96.fun^
@@ -687,6 +689,7 @@
 ||adclick.tencentmusic.com^
 ||adcolony.com^
 ||adcr77.com^
+||addata.jd.com^
 ||addictedwonder.com^
 ||aden.baidu.com^
 ||adeng.lebo.cn^
@@ -850,11 +853,14 @@
 ||adsclick.qq.com^
 ||adsco.re^
 ||adsdk.9imobi.com^
+||adsdk.idmzj.com^
 ||adsdk.state.duoku.com^
 ||adsdk.vivo.com.cn^
 ||adsdk.whjzjx.cn^
 ||adsdkapi.dxys.pro^
+||adse.wsa.ximalaya.com^
 ||adse.ximalaya.com^
+||adsehera.ximalaya.com^
 ||adsense.7723.com^
 ||adsense.com^
 ||adsense.google.cn^
@@ -1060,6 +1066,7 @@
 ||alexanbelen.com^
 ||alfpair.com^
 ||ali-ad.a.yximgs.com^
+||ali-stats.jpush.cn^
 ||ali2.a.yximgs.com^
 ||alictibet.com^
 ||aliyun.cdn.chengzilte.top^
@@ -1137,6 +1144,7 @@
 ||anti-sdk-report.m.jd.com^
 ||anwqj0i.xyz^
 ||anxioushatedconservation.com^
+||anythinktech.com^
 ||anyunwl04.com^
 ||aobuygo.com^
 ||aoqinglv.cn^
@@ -1300,6 +1308,7 @@
 ||app.pyypl.io^
 ||app.thestaxapp.com^
 ||appc.baidu.com^
+||appcfg.v.qq.com^
 ||appchannel.html5.qq.com^
 ||appcloud2.in.zhihu.com^
 ||appdist.360os.com^
@@ -1341,6 +1350,7 @@
 ||arwh3scr.world^
 ||arwh4scr.xyz^
 ||as.weixin.qq.com^
+||as.yyymvp.com^
 ||as89de.top^
 ||asdffe22.com^
 ||asdqfdfb.www71685a.com^
@@ -1874,6 +1884,7 @@
 ||cmts.iqiyi.com^
 ||cn-api.anythinktech.com^
 ||cn-da.anythinktech.com^
+||cn-fp.apitd.net^
 ||cn-tk.anythinktech.com^
 ||cn.register.xmpush.xiaomi.com^
 ||cn.vortex-win.data.microsoft.com^
@@ -3717,6 +3728,7 @@
 ||kl.yditweb.cn^
 ||kl91ccp.com^
 ||klbvqqqj.com^
+||klink.volceapplog.com^
 ||kljslku.com^
 ||klufjdo.com^
 ||kmbopoie.com^
@@ -4018,6 +4030,7 @@
 ||log-upload-eur.mihoyo.com^
 ||log-upload-os.hoyoverse.com^
 ||log-upload.mihoyo.com^
+||log-verify.mob.com^
 ||log.8zhuayu.cc^
 ||log.ad.xiaomi.com^
 ||log.aispeech.com^
@@ -4301,6 +4314,7 @@
 ||miaozhen.com^
 ||miav-cse.avlyun.com^
 ||microapp.bytedance.com^
+||microfun.cn^
 ||midas.gtimg.cn^
 ||mifyeldx.top^
 ||mig.str.mdt.qq.com^
@@ -4737,6 +4751,7 @@
 ||open.kwaizt.com^^
 ||open.oneplus.net^
 ||open.snssdk.com.bytedns.net^
+||open.snssdk.com^
 ||open.toutiao.com^
 ||open.youzanyun.com^
 ||openapi.guanjia.qq.com^
@@ -4811,15 +4826,19 @@
 ||p*-*.adkwai.com^
 ||p*-ad-aweme.byteimg.com^
 ||p*-ad-sign.byteimg.com^
+||p*-ad.ad*kwai.com^
 ||p*-ad.adukwai.com^
 ||p*-ad.byteimg.com^
 ||p*-be-pack-sign.pglstatp-toutiao.com^
+||p*-ff.ad*kwai.com^
+||p*-lm.ad*kwai.com^
 ||p*-lm.adkwai.com^
 ||p*-lm.adukwai.com^
 ||p*-local-ads.byteimg.com.queniuso.com^
 ||p*-local-ads.byteimg.com^
 ||p*-passport.byteacctimg.com^
 ||p*-webcast-sign.douyinpic.com^
+||p*-yx.adkwai.com^
 ||p.buluo.qq.com^
 ||p.l.qq.com^
 ||p.mb.qq.com^
@@ -5029,6 +5048,7 @@
 ||pnewsapp.tc.qq.com^
 ||pnhp3x1.com^
 ||pnlhnx.xyz^
+||pns.ximalaya.com^
 ||pnzhpb.xyz^
 ||poae2klya.icu^
 ||poasotha.com^
@@ -5208,6 +5228,7 @@
 ||qktmwiq.cn^
 ||qm-ab.wtzw.com^
 ||qm-data.wtzw.com^
+||qm989.com^
 ||qmfcybwbf12.com^
 ||qmfcybwbf16.com^
 ||qmfcybwbf19.com^
@@ -5570,6 +5591,7 @@
 ||sdk-e.play.aiseet.atianqi.com^
 ||sdk-infra.inmobi.cn^
 ||sdk-log.partner.sm.cn^
+||sdk-open-phone.getui.com^
 ||sdk.1rtb.net^
 ||sdk.alibaba.com.ailbaba.me^
 ||sdk.beizi.biz^
@@ -5578,6 +5600,7 @@
 ||sdk.hzsanjiaomao.com^
 ||sdk.markmedia.com.cn^
 ||sdk.mobads.adwangmai.com^
+||sdk.open.phone.igexin.com^
 ||sdk.open.talk.gepush.com^
 ||sdk.push.mob.com^
 ||sdk.sipujia.cn^
@@ -5756,6 +5779,7 @@
 ||slonlyuse.shop^
 ||slsuggestion.live^
 ||slutcmail.com^
+||sm.cn^
 ||sm2kz.net^
 ||smabye.com^
 ||smad.ms.zhangyue.net^
@@ -6120,6 +6144,7 @@
 ||tns.simba.taobao.com^
 ||toastspinner.com^
 ||tobapplog.ctobsnssdk.com^
+||tobapplog.volceapplog.com^
 ||toblog.ctobsnssdk.com^
 ||toblog.snssdk.com^
 ||toblog.volceapplog.com^
@@ -6133,6 +6158,7 @@
 ||tools.3g.qq.com^
 ||topnewsfeeds.net^
 ||tosv.boe.byted.org^
+||touch-moblie.com^
 ||toutiao-frontier.snssdk.com^
 ||toutiao.2haha.com^
 ||toutiao.jxnews.com.cn^
@@ -6308,6 +6334,8 @@
 ||ugbjqwe.com^
 ||ugc-upload.3g.qq.com^
 ||ugd.gtimg.com^
+||ugdtimg.com^
+||ugsdk.cn^
 ||ugugct.xyz^
 ||uhwnrfu.cn^
 ||uhyhdrh.cn^
@@ -6402,6 +6430,7 @@
 ||ups.cp31.ott.cibntv.net^
 ||upzabkw.cn^
 ||uqelxct.cn^
+||uranus.jd.com^
 ||uraseszincy.com^
 ||urchin.com^
 ||urimnugocfr.com^
@@ -6524,6 +6553,7 @@
 ||vancuongthinh.com^
 ||variety.tc.qq.com^
 ||vas-hl-x.snssdk.com^
+||vas-lf-x.snssdk.com^
 ||vaxgyly.cn^
 ||vayol.com^
 ||vbdbmqzu.com^
@@ -6703,6 +6733,7 @@
 ||wallpaper-*.file.myqcloud.com^
 ||wan.baidu.com^
 ||wanba.baidu.com^
+||wanchuweilai.com^
 ||wangxialin.top^
 ||wangyq.ltd^
 ||wanyol.com^
