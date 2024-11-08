@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-08 12:09:50（北京时间）
+! Version: 2024-11-08 14:11:31（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 15650
+! Total count: 15647
 
  ! 某些其他
  #晴雅规则
@@ -995,8 +995,10 @@
 127.0.0.1 106k.l.mob.com
 127.0.0.1 1106.l.mob.com
 127.0.0.1 114.118.4.4
+127.0.0.1 116.205.193.167
 127.0.0.1 117b.l.mob.com
 127.0.0.1 11f3.l.mob.com
+127.0.0.1 123.56.23.22
 127.0.0.1 127.irs01.com
 127.0.0.1 129.227.17.142
 127.0.0.1 129.227.17.145
@@ -7296,7 +7298,6 @@ myqqjd.com##.adsbygoogl
 nxnba.com##.bootom-fixed
 ofiii.com##.jsx-126687236
 ofiii.com##div.nonlinear_image_container.ad_impression
-om^
 oss-cn-hangzhou.aliyuncs.com##A.hm_item[href^='https://tcs-devops.aliyuncs.com/thumbnail/']
 pabopa.com##DIV[style='width: 100%;'],DIV[carousel-item],#slide.layui-carousel,.closeable
 pan.baidu.com##.nd-operate-guidance
@@ -7670,7 +7671,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||113.105.153.20^
 ||113.219.183.77^
 ||113.240.86.171^
-||116.205.193.167^
 ||11jianzhan.com^
 ||120.232.202.5^
 ||120.232.202.6^
@@ -7691,7 +7691,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||122.14.229.149^
 ||1222dfm3l.cc^
 ||1224.zg-babyroo.com^
-||123.56.23.22^
 ||1233azpupg05.com^$important
 ||124.225.195.107^
 ||12551-1311572332.cos.ap-shanghai.myqcloud.com^
@@ -7714,7 +7713,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||16dd-advertise-1252317822.file.myqcloud.com^
 ||16dd-advertise-1252317822.image.myqcloud.com^
 ||180zhengkkl.com^
-||182.254.116.116^
 ||183.240.223.132^
 ||183.61.169.140^
 ||183.61.169.142^
@@ -7740,7 +7738,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||2020mustang.com^
 ||2022facaiabc9.xyz^
 ||2023musk.net^
-||203.205.137.89^
 ||2052.flash2-http.qq.com^
 ||208622.top^
 ||21511.ua96.com
