@@ -58,7 +58,6 @@ allow=(
    "https://raw.githubusercontent.com/user001235/112/main/white.txt" #浅笑
   "" #
   #"https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt" #8680
-  "https://gitee.com/zjqz/ad-guard-home-dns/raw/master/white-list" #周木木
   "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt" #liwenjie119
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt" #T白名单
   "https://raw.githubusercontent.com/miaoermua/AdguardFilter/main/whitelist.txt" #喵二白名单
