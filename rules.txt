@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-10 18:07:14（北京时间）
+! Version: 2024-11-10 20:12:22（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 15690
+! Total count: 15700
 
  ! 某些其他
  #晴雅规则
@@ -31,6 +31,11 @@
 # 皮皮虾无法访问问题
 # 知乎
 ## 163登陆
+## Ads - Baidu
+## Ads - Coolapk
+## Ads - Google
+## Ads - Leigod
+## Ads - Xiaomi
 ## 信息流及评论区广告
 ## 小米云服务备份
 ## 放行
@@ -583,12 +588,17 @@
 #555影视
 #8680
 #A站点赞
+#BAT Built-in DNS
 #Block Ads
+#Block Anti-Fraud Center Tracking
+#Block Built-in DNS
+#Block PCDN
 #Blogger
 #B站
 #B站APP关注列表
 #Fake Fucker
 #ICP/IP地址/域名信息备案管理系统
+#Input
 #MIUI去广告
 #MIUI浏览器去广告
 #MIUI浏览器网址拦截
@@ -600,6 +610,7 @@
 #QQ钱包
 #QQ音乐广告
 #QQ音乐的歌曲加载
+#Tracking
 #bing
 #dropbox
 #gamepass日志
@@ -965,7 +976,6 @@
 127.0.0.1 *-inapps.appsflyersdk.com
 127.0.0.1 *-launches.appsflyersdk.com
 127.0.0.1 *.bjmantis.net
-127.0.0.1 *.mcdn.bilivideo.cn
 127.0.0.1 *.nrb.footprintdns.com
 127.0.0.1 0.r.msn.com
 127.0.0.1 01.adnxs.com
@@ -7103,7 +7113,6 @@ baike.baidu.com##[class="qtqy-container"],[class="yitiao-content J-yitiao-conten
 baike.baidu.com##[onclick^="page.Mixedor.mixedOpen(this,"]
 baike.so.com##section#business-flow.business-flow
 best.pconline.com.cn###JnoLoginFixedBottom
-bilibili
 bimibimi.cc##[src^='https://dd-static.jd.com']
 bing.com###bnp_container
 bing.com##.b_ad
@@ -7752,6 +7761,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||2052.flash2-http.qq.com^
 ||208622.top^
 ||21511.ua96.com
+||21511.ua96.com^$important
 ||21qma3vs.com^
 ||220.243.190.6^
 ||220.243.190.7
@@ -8861,7 +8871,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||api.vip.ptqy.gitv.tv^
 ||api.wqycq.com^
 ||api.xahc971.com^
-||api.xiangkanwang.com^
 ||api.xn--zw0autp42d.cn^
 ||api.xyhx.cc^
 ||api.xyhx.org^
@@ -9396,7 +9405,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||cdn-api-verify.mob.com^
 ||cdn-asp.yiye.ai^
 ||cdn-cbd-advert-prod.shuxinyc.com^
-||cdn-data6.video.iqiyi.com^
 ||cdn-new-ad.wtzw.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
 ||cdn.51img3.com^
@@ -9427,7 +9435,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||cdn3.mancdn88.com^
 ||cdn93d99x0e.23bei.com^
 ||cdncloud.asia^
-||cdndata.video.iqiyi.com^
 ||cdnlog.zhenai.com^
 ||cdns.mbxt.net^
 ||cdrhjt.com^
@@ -11099,6 +11106,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||indivdict.gtimg.com^
 ||indivi-cdn-v6.shouji.sogou.com^
 ||inews.gtimg.com
+||inews.gtimg.com^$important
 ||info.3g.qq.com^
 ||info.gdt.qq.com^
 ||info.zb.qq.com^
@@ -11593,6 +11601,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||l-rcd.iqiyi.com^
 ||l.glrcy.cn^
 ||l.infwd.xyz
+||l.infwd.xyz^$important
 ||l.playlustofus.com^$important
 ||l.pnsblw.cn
 ||l.pnsblw.cn^$important
@@ -12093,7 +12102,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||mercury.jd.com^
 ||mermaid.ximalaya.com^
 ||merqieth.com^
-||meta-cdn.video.iqiyi.com^
 ||meta.video.iqiyi.com^
 ||metauniverse88.com^
 ||metaversemolecule.com^
@@ -13506,6 +13514,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||sdk.markmedia.com.cn^
 ||sdk.mobads.adwangmai.com^
 ||sdk.nouzhu.cn
+||sdk.nouzhu.cn^$important
 ||sdk.open.phone.igexin.com^
 ||sdk.open.talk.gepush.com^
 ||sdk.push.mob.com^
@@ -14209,6 +14218,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ttzhongbao.com^
 ||tu.mt20230625tu.com^
 ||tu2.jinpaigz.com
+||tu2.jinpaigz.com^$important
 ||tuhzjrr.cn^
 ||tuisong.baidu.com^
 ||tumeite.cn^

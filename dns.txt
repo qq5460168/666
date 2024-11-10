@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-10 18:07:14（北京时间）
+! Version: 2024-11-10 20:12:22（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7593
+! Total count: 7589
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -1261,7 +1261,6 @@
 ||api.vip.ptqy.gitv.tv^
 ||api.wqycq.com^
 ||api.xahc971.com^
-||api.xiangkanwang.com^
 ||api.xn--zw0autp42d.cn^
 ||api.xyhx.cc^
 ||api.xyhx.org^
@@ -1741,7 +1740,6 @@
 ||cdn-api-verify.mob.com^
 ||cdn-asp.yiye.ai^
 ||cdn-cbd-advert-prod.shuxinyc.com^
-||cdn-data6.video.iqiyi.com^
 ||cdn-new-ad.wtzw.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
 ||cdn.51img3.com^
@@ -1771,7 +1769,6 @@
 ||cdn3.mancdn88.com^
 ||cdn93d99x0e.23bei.com^
 ||cdncloud.asia^
-||cdndata.video.iqiyi.com^
 ||cdnlog.zhenai.com^
 ||cdns.mbxt.net^
 ||cdrhjt.com^
@@ -4279,7 +4276,6 @@
 ||mercury.jd.com^
 ||mermaid.ximalaya.com^
 ||merqieth.com^
-||meta-cdn.video.iqiyi.com^
 ||meta.video.iqiyi.com^
 ||metauniverse88.com^
 ||metaversemolecule.com^
