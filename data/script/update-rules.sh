@@ -55,7 +55,7 @@ allow=(
  "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt" #
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt"
   "https://file-git.trli.club/file-hosts/allow/Domains"#冷漠
-   "https://hub.gitmirror.com/https://raw.githubusercontent.com/user001235/112/main/white.txt" #浅笑
+   "https://raw.githubusercontent.com/user001235/112/main/white.txt" #浅笑
   "" #
   #"https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt" #8680
   "https://gitee.com/zjqz/ad-guard-home-dns/raw/master/white-list" #周木木
