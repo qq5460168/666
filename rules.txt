@@ -2,17 +2,19 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-11 00:07:41（北京时间）
+! Version: 2024-11-11 02:09:02（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 15700
+! Total count: 15704
 
  ! 某些其他
  #晴雅规则
+ ||api.juliangcili.com^
 #  糯米PHP 网站
 # GitHub520 Host End
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
+# Tracking
 # Update time: 2024-11-07T15:53:00+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
@@ -594,6 +596,7 @@
 #Block Built-in DNS
 #Block PCDN
 #Blogger
+#B直播
 #B站
 #B站APP关注列表
 #Fake Fucker
@@ -655,6 +658,7 @@
 #其他腾讯系
 #去除oneplus云控
 #去除首页还有什么值得买推广
+#友盟平台
 #反向DNS查找
 #发现页去除酷品
 #同程旅行
@@ -702,6 +706,7 @@
 #微信小程序,城市通
 #微信支付
 #必应
+#快手平台
 #快手广告
 #快手评论图片
 #懂车帝一些图片加载
@@ -771,6 +776,7 @@
 #脚本之家
 #腾讯云实时音视频
 #腾讯广告
+#腾讯广告服务
 #腾讯手游加速器
 #腾讯新闻
 #腾讯游戏
@@ -784,6 +790,7 @@
 #葫芦侠
 #西瓜视频图片
 #视频app
+#谷歌广告服务
 #谷歌翻译，①网页，③新版APP用。
 #贴吧弹窗
 #路由器
@@ -797,6 +804,7 @@
 #锁屏画报正常化
 #阿里图片
 #阿里巴巴购物
+#阿里广告服务
 #阿里推送(未知用途)
 #阿里系登录接口
 #音乐适配
@@ -6232,6 +6240,7 @@
 @@||api.jr.mi.com^$important
 @@||api.kuaishouzt.com^$important
 @@||api.kwaizt.com^
+@@||api.live.bilibili.com^$app=tv.danmaku.bili,important
 @@||api.micloud.xiaomi.net^$important
 @@||api.miui.security.xiaomi.com^$important
 @@||api.miwifi.com^$important
@@ -7057,9 +7066,7 @@
 @@||zkres.myzaker.com^$important
 @@||zm.sm-tc.cn^$important
 @@||ztgame.com^
-Block Anti-Fraud Center Tracking
 Mplay/kk1.js
-Tracking
 _/bigREDcat.css?
 _/bigREDdog.js
 acglala.me##.topm,.donghua_info > DIV[style='width:100%;'],.donghua_info > a
@@ -7558,6 +7565,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.dns-detect.alicdn.com^
 ||*.dns.cross.gt^
 ||*.e.qq.com^
+||*.gamecenter.qq.com^
 ||*.gdt.qq.com^
 ||*.hpplay.cn^
 ||*.hubcloud.com.cn^
@@ -8791,6 +8799,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||api-e189.21cn.com^
 ||api-env.dropbox-dns.com^
 ||api-fc.dutils.com^
+||api-flow.flyme.cn^
 ||api-gps.hismarttv.com^
 ||api-gw.wtzw.com^
 ||api-htp.beizi.biz^
@@ -10330,6 +10339,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||fiktvlnc.icu^
 ||file-yuedu.iqiyi.com^
 ||file.7youxi.com^
+||file.daihuo.qq.com^
 ||file.market.xiaomi.com^
 ||fillhr.xyz^
 ||filter.appstore.vivo.com.cn^
@@ -12787,7 +12797,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||p9-sign.douyinpic.com^
 ||pacaio.match.qq.com^
 ||packet.cf^$important
-||page-acc.video.qq.com^
 ||page.amap.com^
 ||pagead2.googleadservices.com^
 ||pagead2.googlesyndication.com^
@@ -15695,11 +15704,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||zzxlhwyp.com^
 ||zzycj.com^
 ‖*.chat.bilibili.com
-友盟平台
-快手平台
-腾讯广告服务
-谷歌广告服务
-阿里广告服务
 ﻿! Title: 去广告规则，反馈🐧群请点击主页
 ﻿[个人收集 2.0]
 ﻿﻿! Title: 广告白名单规则，反馈🐧群

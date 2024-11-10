@@ -2,9 +2,10 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-11 00:07:41（北京时间）
+! Version: 2024-11-11 02:09:02（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7589
+! Total count: 7592
+||api.juliangcili.com^
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -34,6 +35,7 @@
 ||*.dns-detect.alicdn.com^
 ||*.dns.cross.gt^
 ||*.e.qq.com^
+||*.gamecenter.qq.com^
 ||*.gdt.qq.com^
 ||*.hpplay.cn^
 ||*.hubcloud.com.cn^
@@ -1187,6 +1189,7 @@
 ||api-e189.21cn.com^
 ||api-env.dropbox-dns.com^
 ||api-fc.dutils.com^
+||api-flow.flyme.cn^
 ||api-gps.hismarttv.com^
 ||api-gw.wtzw.com^
 ||api-htp.beizi.biz^
@@ -2603,6 +2606,7 @@
 ||fiktvlnc.icu^
 ||file-yuedu.iqiyi.com^
 ||file.7youxi.com^
+||file.daihuo.qq.com^
 ||file.market.xiaomi.com^
 ||fillhr.xyz^
 ||filter.appstore.vivo.com.cn^
@@ -4914,7 +4918,6 @@
 ||p9-pack.byteimg.com^
 ||p9-sign.douyinpic.com^
 ||pacaio.match.qq.com^
-||page-acc.video.qq.com^
 ||page.amap.com^
 ||pagead2.googleadservices.com^
 ||pagead2.googlesyndication.com^
