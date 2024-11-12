@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-12 16:10:58（北京时间）
+! Version: 2024-11-12 18:08:27（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 15706
+! Total count: 15711
 
  ! 某些其他
  #晴雅规则
@@ -67,6 +67,7 @@
 ##.C1U,.C1M,.C2L,.C2R
 ##.__isboostOverContent
 ##.ad_img
+##.ads-bg.ads-bg-home
 ##.advertise
 ##.adwap
 ##.ayx[style="position: fixed;bottom: -10px;right:0;z-index:999;width:250px"]
@@ -609,6 +610,7 @@
 #QQ小世界图片
 #QQ小程序
 #QQ浏览器小说广告
+#QQ相关
 #QQ群在线文档
 #QQ钱包
 #QQ音乐广告
@@ -6786,6 +6788,8 @@
 @@||qlogo.cn^$important
 @@||qn.cache.wpscdn.cn^$important
 @@||qnmob3.doubanio.com^
+@@||qq-web.cdn-go.cn^
+@@||qqvip-web.cdn-go.cn^
 @@||quan.suning.com^$important
 @@||quapp.shenbabao.com^$important
 @@||quark.cn^$important
@@ -7853,6 +7857,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||3zmmm.net/ggxx/
 ||40fenzhong.com^
 ||4199tv.com^
+||41grk.icu^
 ||42yenxh.cn^
 ||44r9fl.xyz^
 ||49789c.com^
