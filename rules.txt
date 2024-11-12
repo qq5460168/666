@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-12 12:09:55（北京时间）
+! Version: 2024-11-12 14:11:24（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 15704
+! Total count: 15706
 
  ! 某些其他
  #晴雅规则
@@ -599,6 +599,7 @@
 #B直播
 #B站
 #B站APP关注列表
+#CDN相关
 #Fake Fucker
 #ICP/IP地址/域名信息备案管理系统
 #Input
@@ -6705,6 +6706,7 @@
 @@||netease.com^$important
 @@||nishub1.10010.com^$important
 @@||nmobi.kuwo.cn^$important
+@@||npm.cdn-go.cn^
 @@||nsclick.baidu.com^$important
 @@||nstool.netease.com^$important
 @@||o.actio.systems^$important
