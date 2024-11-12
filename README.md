@@ -2,19 +2,19 @@
 <h1 align="center"><br>一个强力去广告的规则</h1>
 <p>
   <a href="https://github.com/qq5460168/666">
-    <img src="https://img.shields.io/github/last-commit/8680/GOODBYEADS?style=flat-square" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/qq5460168/666?style=flat-square" alt="last update" />
   </a>
   <a href="https://github.com/qq5460168/666">
-    <img src="https://img.shields.io/github/forks/8680/GOODBYEADS?style=flat-square" alt="forks" />
+    <img src="https://img.shields.io/github/forks/qq5460168/666?style=flat-square" alt="forks" />
   </a>
   <a href="https://github.com/qq5460168/666">
-    <img src="https://img.shields.io/github/stars/8680/GOODBYEADS?style=flat-square" alt="stars" />
+    <img src="https://img.shields.io/github/stars/qq5460168/666?style=flat-square" alt="stars" />
   </a>
   <a href="https://github.com/qq5460168/666/issues/">
-    <img src="https://img.shields.io/github/issues/8680/GOODBYEADS?style=flat-square" alt="open issues" />
+    <img src="https://img.shields.io/github/issues/qq5460168/666?style=flat-square" alt="open issues" />
   </a>
   <a href="https://github.com/qq5460168/666">
-    <img src="https://img.shields.io/github/license/8680/GOODBYEADS?style=flat-square" alt="license" />
+    <img src="https://img.shields.io/github/license/qq5460168/666?style=flat-square" alt="license" />
   </a>
 </p>
 
