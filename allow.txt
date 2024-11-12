@@ -2,7 +2,7 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-12 14:11:24（北京时间）
+! Version: 2024-11-12 16:10:58（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 2582
 @@*.flyme.cn
@@ -1968,7 +1968,6 @@
 @@||nexus.microsoftonline-p.com^$important
 @@||nishub1.10010.com^$important
 @@||nmobi.kuwo.cn^$important
-@@||npm.cdn-go.cn^
 @@||nps.onyx.azure.net^$important
 @@||ns.itunes.apple.com^$important
 @@||nsclick.baidu.com^
@@ -2122,6 +2121,7 @@
 @@||pp.myapp.com^$important
 @@||ppq.apple.com^$important
 @@||printerconfigurations.googleusercontent.com^$important
+@@||pro.bugly.qq.com^$important
 @@||prod.firstpartyapps.oaspapps.com.akadns.net^$important
 @@||prod.msocdn.com^$important
 @@||profile.csdnimg.cn^
