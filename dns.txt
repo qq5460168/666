@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-19 20:15:10（北京时间）
+! Version: 2024-11-19 22:08:30（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7597
+! Total count: 7593
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -5061,7 +5061,6 @@
 ||pojihfnkbllg.net^
 ||pojkhufef.xyz^
 ||polaris*-normal-lf.zijieapi^
-||polaris.zijieapi.com^
 ||polaris3-normal-hl.zijieapi.com^
 ||polaris3-normal-lf.zijieapi.com^
 ||polaris3-normal-lq.zijieapi.com^
@@ -6124,8 +6123,6 @@
 ||tmochyf.cn^
 ||tmwbszn.icu^
 ||tnc*.zijieapi.com^
-||tnc0-*.zijieapi.com^
-||tnc0-bjlgy.zijieapi.com^
 ||tnc11-bjlgy.zijieapi.com^
 ||tnc3-aliec1.toutiaoapi.com^
 ||tnc3-aliec2.bytedance.com^
@@ -6642,7 +6639,6 @@
 ||vnote.vivo.com.cn^
 ||vnvmif.cn^
 ||vod-license-m.volccdn.com^
-||vod-settings.bytedanceapi.com^
 ||vod.streamlakeapi.com^
 ||voiceads.cn^
 ||vokmhydy.xyz^
