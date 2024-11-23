@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-24 00:08:27（北京时间）
+! Version: 2024-11-24 02:09:26（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2589
+! Total count: 2596
 @@*.flyme.cn
 @@*.myapp.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -1202,6 +1202,7 @@
 @@||api-album.quark.cn^$important
 @@||api-cmnt.wtzw.com^$important
 @@||api-game.meizu.com^$important
+@@||api-pda.jdl.com^$important
 @@||api-shoulei-ssl.xunlei.com^
 @@||api-unionid.meituan.com^$important
 @@||api.account.xiaomi.com^$important
@@ -1215,6 +1216,7 @@
 @@||api.flash.cn^$important
 @@||api.io.mi.com^$important
 @@||api.iplay.163.com^
+@@||api.jdl.com^$important
 @@||api.jr.mi.com^$important
 @@||api.ke.com^
 @@||api.kuaishouzt.com^$important
@@ -1421,6 +1423,7 @@
 @@||connectivitycheck.gstatic.com^$important
 @@||connectivitycheck.platform.hicloud.com^$important
 @@||console.bce.baidu.com^$domain=console.bce.baidu.com
+@@||consumerapp-1251779293.image.myqcloud.com^$important
 @@||content-autofill.googleapis.com^$important
 @@||core.tantanapp.com^$important
 @@||counter-strike.net^$important
@@ -1570,6 +1573,7 @@
 @@||epicgames-download1.akamaized.net^$important
 @@||epochtimes.com^
 @@||ereg.wip3.adobe.com^
+@@||erp.jd.com^$important
 @@||err.taobao.com^
 @@||etl-xlmc-ssl.sandai.net^$important
 @@||exp.sug.browser.miui.com^$important
@@ -1672,6 +1676,7 @@
 @@||h5.hpplay.com.cn^
 @@||h5.m.taobao.com^$important
 @@||h5.mse.360.cn^
+@@||h5api.m.taobao.com^$important
 @@||haohuo.jinritemai.com^ 
 @@||haohuo.snssdk.com^
 @@||haokan.baidu.com^$important
@@ -1856,6 +1861,7 @@
 @@||loginex.microsoftonline.com^$important
 @@||logs.game.qq.com^$important
 @@||lol.qq.com^$important
+@@||lop-proxy.jd.com^$important
 @@||lpl.qq.com^$important
 @@||lsposed.org^
 @@||luna-dict-community.nosdn.127.net^
@@ -2088,6 +2094,7 @@
 @@||pbaccess.video.qq.com^$important
 @@||pbs.twimg.com^$important
 @@||pcvideoaliyun.titan.mgtv.com^$important#
+@@||pda.jd.com^$important
 @@||pdc.micloud.xiaomi.net^$important
 @@||pepsico.com.cn^
 @@||pg-bootstrap.itunes.apple.com^$important
