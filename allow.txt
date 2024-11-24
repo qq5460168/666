@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-24 12:09:44（北京时间）
+! Version: 2024-11-24 14:10:44（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2596
+! Total count: 2600
 @@*.flyme.cn
 @@*.myapp.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -1206,6 +1206,7 @@
 @@||api-shoulei-ssl.xunlei.com^
 @@||api-unionid.meituan.com^$important
 @@||api.account.xiaomi.com^$important
+@@||api.amemv.com^$important
 @@||api.apple-cloudkit.com^$important
 @@||api.comm.miui.com^$important
 @@||api.coolapk.com^
@@ -1216,6 +1217,7 @@
 @@||api.flash.cn^$important
 @@||api.io.mi.com^$important
 @@||api.iplay.163.com^
+@@||api.jdl.cn^$important
 @@||api.jdl.com^$important
 @@||api.jr.mi.com^$important
 @@||api.ke.com^
@@ -1223,6 +1225,7 @@
 @@||api.kwaizt.com^
 @@||api.live.bilibili.com^$app=tv.danmaku.bili,important
 @@||api.live.bilibili.com^$important
+@@||api.m.jd.com^$important
 @@||api.micloud.xiaomi.net^$important
 @@||api.miui.security.xiaomi.com^$important
 @@||api.miwifi.com^$important
@@ -2466,6 +2469,7 @@
 @@||vv.video.qq.com^$important
 @@||w.pandora.xiaomi.com^$important
 @@||w8.com.cn^
+@@||waapdg.jd.com^$important
 @@||waimai-guide.ele.me^
 @@||waimai-guide.ele.me^$important
 @@||wallpaper.cdn.pandora.xiaomi.com^$important

@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-24 12:09:44（北京时间）
+! Version: 2024-11-24 14:10:44（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 15866
+! Total count: 15871
 
  ! 某些其他
  #晴雅规则
@@ -15,7 +15,7 @@
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
 # Tracking
-# Update time: 2024-11-24T03:53:25+08:00
+# Update time: 2024-11-24T05:53:16+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -6034,6 +6034,7 @@
 127.0.0.1 zt.jd.com
 127.0.0.1 zymo.mps.weibo.com
 127.0.0.1 zz.bdstatic.com
+13.107.246.51                 vscode.dev
 13.107.42.16                  pipelines.actions.githubusercontent.com
 140.82.112.10                 codeload.github.com
 140.82.112.21                 collector.github.com
@@ -6042,9 +6043,9 @@
 140.82.112.4                  gist.github.com
 140.82.113.18                 github.community
 140.82.113.21                 central.github.com
+140.82.113.3                  github.com
 140.82.114.22                 education.github.com
 140.82.114.25                 live.github.com
-140.82.114.4                  github.com
 140.82.114.6                  api.github.com
 142.250.115.188     alt6-mtalk.google.com
 142.250.141.188     alt2-mtalk.google.com
@@ -6063,16 +6064,14 @@
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
 185.199.108.133               avatars1.githubusercontent.com
-185.199.108.133               avatars2.githubusercontent.com
-185.199.108.133               avatars3.githubusercontent.com
-185.199.108.133               avatars5.githubusercontent.com
-185.199.108.133               camo.githubusercontent.com
-185.199.108.133               desktop.githubusercontent.com
+185.199.108.133               avatars4.githubusercontent.com
+185.199.108.133               favicons.githubusercontent.com
+185.199.108.133               media.githubusercontent.com
 185.199.108.133               private-user-images.githubusercontent.com
-185.199.108.133               user-images.githubusercontent.com
 185.199.108.153               assets-cdn.github.com
-185.199.109.133               avatars4.githubusercontent.com
+185.199.109.153               github.io
 185.199.109.153               githubstatus.com
+185.199.109.154               github.githubassets.com
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars1.githubusercontent.com
@@ -6082,16 +6081,18 @@
 185.199.110.133 avatars5.githubusercontent.com
 185.199.110.133 desktop.githubusercontent.com
 185.199.110.133 media.githubusercontent.com
-185.199.110.153               github.io
-185.199.110.154               github.githubassets.com
 185.199.111.133               avatars.githubusercontent.com
 185.199.111.133               avatars0.githubusercontent.com
+185.199.111.133               avatars2.githubusercontent.com
+185.199.111.133               avatars3.githubusercontent.com
+185.199.111.133               avatars5.githubusercontent.com
+185.199.111.133               camo.githubusercontent.com
 185.199.111.133               cloud.githubusercontent.com
-185.199.111.133               favicons.githubusercontent.com
+185.199.111.133               desktop.githubusercontent.com
 185.199.111.133               github.map.fastly.net
-185.199.111.133               media.githubusercontent.com
 185.199.111.133               objects.githubusercontent.com
 185.199.111.133               raw.githubusercontent.com
+185.199.111.133               user-images.githubusercontent.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -6110,6 +6111,7 @@
 23.53.11.237 store.akamai.steamstatic.com
 23.53.11.246 cdn.akamai.steamstatic.com
 23.53.11.248 community.akamai.steamstatic.com
+3.5.8.181                     github-production-release-asset-2e65be.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 423down.com##LI.item:has(.sticky-post)
@@ -6121,10 +6123,9 @@
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
 52.216.154.52                 github-production-user-asset-6210df.s3.amazonaws.com
-52.216.208.105                github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.45.244                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.216.54.185                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.197.113                github-com.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-54.231.162.1                  github-com.s3.amazonaws.com
 54.231.232.81                 github-cloud.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
@@ -6242,6 +6243,7 @@
 @@||api-shoulei-ssl.xunlei.com^
 @@||api-unionid.meituan.com^$important
 @@||api.account.xiaomi.com^$important
+@@||api.amemv.com^$important
 @@||api.comm.miui.com^$important
 @@||api.coolapk.com^
 @@||api.developer.xiaomi.com^$important
@@ -6249,11 +6251,13 @@
 @@||api.flash.cn^$important
 @@||api.io.mi.com^$important
 @@||api.iplay.163.com^
+@@||api.jdl.cn^$important
 @@||api.jdl.com^$important
 @@||api.jr.mi.com^$important
 @@||api.kuaishouzt.com^$important
 @@||api.kwaizt.com^
 @@||api.live.bilibili.com^$app=tv.danmaku.bili,important
+@@||api.m.jd.com^$important
 @@||api.micloud.xiaomi.net^$important
 @@||api.miui.security.xiaomi.com^$important
 @@||api.miwifi.com^$important
@@ -6994,6 +6998,7 @@
 @@||vv.video.qq.com^$important
 @@||w.pandora.xiaomi.com^$important
 @@||w8.com.cn^
+@@||waapdg.jd.com^$important
 @@||waimai-guide.ele.me^$important
 @@||wallpaper.cdn.pandora.xiaomi.com^$important
 @@||wan.baidu.com^
