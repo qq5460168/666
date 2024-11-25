@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-25 12:10:53（北京时间）
+! Version: 2024-11-25 14:12:38（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2602
+! Total count: 2607
 @@*.flyme.cn
 @@*.myapp.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -1150,6 +1150,7 @@
 @@||acs.youku.com^$important
 @@||act.vip.iqiyi.com^
 @@||act.vip.iqiyi.com^$important
+@@||act.zhuanzhuan.com^$important
 @@||activation.sls.microsoft.com^$important
 @@||activity.tuiapple.com^$important
 @@||activity.windows.com^$important
@@ -1603,8 +1604,10 @@
 @@||fba.apple.com^$important
 @@||fc3tn.baidu.com^
 @@||fc5tn.baidu.com^
+@@||feconf.zhuanzhuan.com^$important
 @@||feed-image.baidu.com^
 @@||feedback.miui.com^$important
+@@||feentry.zhuanzhuan.com^$important
 @@||fexclick.baidu.com^
 @@||fga0.market.xiaomi.com^$important
 @@||fgc0.market.xiaomi.com^$important
@@ -1681,6 +1684,7 @@
 @@||h5.m.taobao.com^$important
 @@||h5.mse.360.cn^
 @@||h5api.m.taobao.com^$important
+@@||h5offline.zhuanzhuan.com^$important
 @@||haohuo.jinritemai.com^ 
 @@||haohuo.snssdk.com^
 @@||haokan.baidu.com^$important
@@ -2238,6 +2242,7 @@
 @@||secure.globalsign.com^$important
 @@||security.microsoft.com^$important
 @@||self.events.data.microsoft.com^$important
+@@||sentry.zhuanzhuan.com^$important
 @@||serverstatus.apple.com^$important
 @@||setup.icloud.com^$important
 @@||sf0.market.xiaomi.com^$important
