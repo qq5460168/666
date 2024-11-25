@@ -42,8 +42,8 @@ rules=(
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
    #"https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt" #T白
    "https://raw.githubusercontent.com/qq5460168/dangchu/refs/heads/main/777.txt" #喵二
-  "" #
-  "" #
+  "https://raw.githubusercontent.com/tongxin0520/AdFilterForAdGuard/refs/heads/main/KR_DNS_Filter.txt" #tongxin0520
+  "https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/blacklist.txt" #Zisbusy
  "" #
  "" #
  "" #
@@ -56,11 +56,16 @@ allow=(
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt"
   "https://file-git.trli.club/file-hosts/allow/Domains"#冷漠
    "https://raw.githubusercontent.com/user001235/112/main/white.txt" #浅笑
-  "" #
+  "https://ghp.ci/https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt" #jhsvip
   #"https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt" #8680
   "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt" #liwenjie119
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt" #T白名单
   "https://raw.githubusercontent.com/miaoermua/AdguardFilter/main/whitelist.txt" #喵二白名单
+  "https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/whitelist.txt" #Zisbusy
+    "" #
+     "" #
+      "" #
+       "" #
  
  
 )
