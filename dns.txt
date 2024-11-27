@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-27 08:40:39（北京时间）
+! Version: 2024-11-27 10:55:09（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7907
+! Total count: 7911
 || default.cn.sz.wagbridge.ad.alibabacorp.com^
 || default.cn.wagbridge.ad.alibabacorp.com^
 ||*-*.ad*kwai.com^
@@ -1126,6 +1126,7 @@
 ||amdc.alipay.com^
 ||amdc.m.taobao.com^
 ||amdcopen.m.taobao.com^
+||amdcopen.m.umeng.com^
 ||amerzbj.cn^
 ||amltaqap.com^
 ||ampproject.org^
@@ -1222,6 +1223,7 @@
 ||api-fc.dutils.com^
 ||api-flow.flyme.cn^
 ||api-fp-retry-bj.fengkongcloud.com^
+||api-gd.hiaiabc.com^
 ||api-gps.hismarttv.com^
 ||api-gw.wtzw.com^
 ||api-htp.beizi.biz^
@@ -1968,6 +1970,7 @@
 ||cnalzlf.top^
 ||cncnails.net^
 ||cnlogs.umeng.com^
+||cnlogs.umengcloud.com^
 ||cns.wxdal.cn^
 ||cnzz.cn^
 ||cnzz.com^
@@ -2829,6 +2832,7 @@
 ||fy.1sapp.com^
 ||fy14.cn^
 ||fz7erebwy.vip^
+||g-adnet.hiaiabc.com^
 ||g-staic.ganjingworld.com^
 ||g-zt.kwai-pro.com^
 ||g.cn.miaozhen.com^
