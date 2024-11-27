@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-27 12:10:42（北京时间）
+! Version: 2024-11-27 14:12:24（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16121
+! Total count: 16181
 
  
  ! 某些其他
@@ -14,8 +14,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Tracking
-# Update time: 2024-11-27T03:53:26+08:00
+# Update time: 2024-11-27T05:53:18+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -1174,6 +1173,7 @@
 127.0.0.1 a.tn.token-ad.com
 127.0.0.1 a.tradplusad.com
 127.0.0.1 a.vserv.mobi
+127.0.0.1 a.wkanx.com
 127.0.0.1 a0.app.xiaomi.com
 127.0.0.1 a1.alibabausercontent.com
 127.0.0.1 a1662.oadz.com
@@ -1240,11 +1240,14 @@
 127.0.0.1 activity.browser.intl.miui.com
 127.0.0.1 activity.umeng.com
 127.0.0.1 ad-asm.tianmu.mobi
+127.0.0.1 ad-channel.diwodiwo.xyz
 127.0.0.1 ad-clientlog.cn-shanghai.log.aliyuncs.com
 127.0.0.1 ad-delivery.net
+127.0.0.1 ad-display.diwodiwo.xyz
 127.0.0.1 ad-dp-drcn.cloud.huawei.com.cn
 127.0.0.1 ad-dsp-1251779293.file.myqcloud.com
 127.0.0.1 ad-emea.doubleclick.net
+127.0.0.1 ad-log-upload.mihoyo.com
 127.0.0.1 ad-mob-app.le.com
 127.0.0.1 ad-r.soulapp.cn
 127.0.0.1 ad-scope.com
@@ -1264,6 +1267,7 @@
 127.0.0.1 ad.51wnl.com
 127.0.0.1 ad.adhouyi.cn
 127.0.0.1 ad.admin.10010.com
+127.0.0.1 ad.aggrx.com
 127.0.0.1 ad.api.3g.tudou.com
 127.0.0.1 ad.api.3g.youku.com
 127.0.0.1 ad.api.mobile.youku.com
@@ -1483,6 +1487,7 @@
 127.0.0.1 ads.adroi.com.cn
 127.0.0.1 ads.api.vungle.com
 127.0.0.1 ads.aplus.pptv.com
+127.0.0.1 ads.betweendigital.com
 127.0.0.1 ads.bssdl.kugou.com
 127.0.0.1 ads.celtra.com
 127.0.0.1 ads.creative-serving.com
@@ -1531,6 +1536,7 @@
 127.0.0.1 ads.voiceads.cn
 127.0.0.1 ads.vserv.mobi
 127.0.0.1 ads.weilitoutiao.net
+127.0.0.1 ads.x.com
 127.0.0.1 ads.xxxad.net
 127.0.0.1 ads.yahoo.com
 127.0.0.1 ads.yam.com
@@ -1539,6 +1545,7 @@
 127.0.0.1 ads.yimg.com
 127.0.0.1 ads.youtube.com
 127.0.0.1 ads.zaobao.com
+127.0.0.1 ads.zhinengxiyifang.cn
 127.0.0.1 ads1.msads.net
 127.0.0.1 ads1.msn.com
 127.0.0.1 ads2.greystripe.com
@@ -1546,9 +1553,11 @@
 127.0.0.1 ads2.msads.net
 127.0.0.1 ads2.msn.com
 127.0.0.1 ads3-normal-hl.zijieapi.com
+127.0.0.1 ads3-normal-lf.zijieapi.com
 127.0.0.1 ads3-normal-lq.zijieapi.com
 127.0.0.1 ads3-normal.zijieapi.com
 127.0.0.1 ads5-normal-hl.zijieapi.com
+127.0.0.1 ads5-normal-lf.zijieapi.com
 127.0.0.1 ads5-normal-lq.zijieapi.com
 127.0.0.1 ads5-normal.zijieapi.com
 127.0.0.1 adsapi.snapchat.com
@@ -1637,6 +1646,7 @@
 127.0.0.1 adsmind.tc.qq.com
 127.0.0.1 adsmind.ugdtimg.com
 127.0.0.1 adsolution.imtt.qq.com
+127.0.0.1 adsoss.zhinengxiyifang.cn
 127.0.0.1 adsp.xunlei.com
 127.0.0.1 adspecs.yahoo.com
 127.0.0.1 adsqqclick.qq.com
@@ -1691,6 +1701,7 @@
 127.0.0.1 advertpay.vip.xunlei.com
 127.0.0.1 advice-ads.s3.amazonaws.com
 127.0.0.1 adview.cn
+127.0.0.1 adx-ad-prod.wkanx.com
 127.0.0.1 adx-ad.smart-tv.cn
 127.0.0.1 adx-bid.tianzhuobj.com
 127.0.0.1 adx-bj-req.anythinktech.com
@@ -2159,6 +2170,7 @@
 127.0.0.1 atrace.chelaile.net.cn
 127.0.0.1 attr.appsflyer.com
 127.0.0.1 au.apk.umeng.com
+127.0.0.1 au.qq.com
 127.0.0.1 au.umeng.co
 127.0.0.1 au.umeng.com
 127.0.0.1 au.w.inmobi.cn
@@ -2195,6 +2207,7 @@
 127.0.0.1 av1.xdrig.com
 127.0.0.1 aw.mic.mob.com
 127.0.0.1 awake-stats.jpush.cn
+127.0.0.1 awaken.amap.com
 127.0.0.1 aweme-hl.snssdk.com
 127.0.0.1 aweme.snssdk.com
 127.0.0.1 ax.admobile.top
@@ -2331,6 +2344,7 @@
 127.0.0.1 bsrv.qq.com
 127.0.0.1 bss.pandora.xiaomi.com
 127.0.0.1 bsync3-normal-hl.zijieapi.com
+127.0.0.1 bsync3-normal-lf.zijieapi.com
 127.0.0.1 bsync3-normal-lq.zijieapi.com
 127.0.0.1 bsync5-normal-lf.zijieapi.com
 127.0.0.1 bsync5-normal-lq.zijieapi.com
@@ -2582,6 +2596,8 @@
 127.0.0.1 cm-10-60.getui.com
 127.0.0.1 cm-10-69.igexin.com
 127.0.0.1 cm-10-70.getui.com
+127.0.0.1 cm.adform.net
+127.0.0.1 cm.adgrx.com
 127.0.0.1 cm.adkmob.com
 127.0.0.1 cm.baichuan.baidu.com
 127.0.0.1 cm.baidu.com
@@ -2647,6 +2663,7 @@
 127.0.0.1 cnzz.com
 127.0.0.1 cnzz.mmstat.com
 127.0.0.1 coconuts.boy.jp
+127.0.0.1 code.bdstatic.com
 127.0.0.1 code.sms.mob.com
 127.0.0.1 collect.bz.mgtv.com
 127.0.0.1 collect.cn.miaozhen.com
@@ -2869,11 +2886,14 @@
 127.0.0.1 dl.g.youku.com
 127.0.0.1 dl.txcdns.com
 127.0.0.1 dl.zuimeitianqi.com
+127.0.0.1 dl2.bav.baidu.com
 127.0.0.1 dl_dir.qq.com
 127.0.0.1 dl_dir2.qq.com
+127.0.0.1 dldir1.qq.com
 127.0.0.1 dldir1v6.qq.com
 127.0.0.1 dldir2.qq.com
 127.0.0.1 dldir3.qq.com
+127.0.0.1 dldir4.qq.com
 127.0.0.1 dldir5.qq.com
 127.0.0.1 dlied6.qq.com
 127.0.0.1 dload.qd.qingting.fm
@@ -2897,6 +2917,7 @@
 127.0.0.1 dnms.getui.com
 127.0.0.1 dns.jd.com
 127.0.0.1 dns.m.sm.cn
+127.0.0.1 dns.weixin.qq.com
 127.0.0.1 dns.weixin.qq.com.cn
 127.0.0.1 doc.admobile.top
 127.0.0.1 doc.tingyun.com
@@ -2917,6 +2938,7 @@
 127.0.0.1 doubleclick.net
 127.0.0.1 douyu.grey.voiceads.cn
 127.0.0.1 down.apps.sina.cn
+127.0.0.1 down.lltskb.com
 127.0.0.1 downdload.shuzilm.cn
 127.0.0.1 download.alicdn.com
 127.0.0.1 download.changhong.upgrade2.huan.tv
@@ -2935,6 +2957,7 @@
 127.0.0.1 drcn-weather.cloud.huawei.com
 127.0.0.1 drd.hauchi.com.tw
 127.0.0.1 dsp-ad.yy.com
+127.0.0.1 dsp-cookie.adfarm1.adition.com
 127.0.0.1 dsp-idea.cdn.bcebos.com
 127.0.0.1 dsp-x.jd.com
 127.0.0.1 dsp.ads.umeng.com
@@ -3012,6 +3035,7 @@
 127.0.0.1 epai.cn.miaozhen.com
 127.0.0.1 epi.exc.mob.com
 127.0.0.1 epp.2polj.top
+127.0.0.1 erebor.douban.com
 127.0.0.1 errlog.umeng.com
 127.0.0.1 errlogos.umeng.com
 127.0.0.1 errnewlog.umeng.com
@@ -3052,8 +3076,18 @@
 127.0.0.1 f.aty.sohu.com
 127.0.0.1 f.gm.mob.com
 127.0.0.1 f.moblink.mob.com
+127.0.0.1 f1.market.mi-img.com
+127.0.0.1 f1.market.xiaomi.com
 127.0.0.1 f1.webshare.mob.com
+127.0.0.1 f2.market.mi-img.com
+127.0.0.1 f2.market.xiaomi.com
 127.0.0.1 f2.mob.com
+127.0.0.1 f3.market.mi-img.com
+127.0.0.1 f3.market.xiaomi.com
+127.0.0.1 f4.market.mi-img.com
+127.0.0.1 f4.market.xiaomi.com
+127.0.0.1 f5.market.mi-img.com
+127.0.0.1 f5.market.xiaomi.com
 127.0.0.1 fa.163.com
 127.0.0.1 fac2.oadz.com
 127.0.0.1 fans.bestvogue.com
@@ -3108,6 +3142,7 @@
 127.0.0.1 fra1.ib.adnxs.com
 127.0.0.1 frappe.chanct.cn
 127.0.0.1 free-lbv3.idouyinvod.com
+127.0.0.1 frodo.douban.com
 127.0.0.1 frontier-toutiao.snssdk.com
 127.0.0.1 frontier.snssdk.com
 127.0.0.1 fs.cl2009.com
@@ -3195,6 +3230,7 @@
 127.0.0.1 gecko.zijieapi.com
 127.0.0.1 gecko3-lq.zijieapi.com
 127.0.0.1 gecko5-hl.zijieapi.com
+127.0.0.1 gecko5-lf.zijieapi.com
 127.0.0.1 gecko5-lq.zijieapi.com
 127.0.0.1 gecko5.zijieapi.com
 127.0.0.1 gemini.yahoo.com
@@ -3342,6 +3378,7 @@
 127.0.0.1 hot.browser.miui.com
 127.0.0.1 hotapi-va.isnssdk.com
 127.0.0.1 hotchat-im.iqiyi.com
+127.0.0.1 hotsoon.snssdk.com
 127.0.0.1 hpd.baidu.com
 127.0.0.1 hq.appsflyer.com
 127.0.0.1 hq1.appsflyer.com
@@ -3502,6 +3539,7 @@
 127.0.0.1 img.toponad.com
 127.0.0.1 img.wan.sogou.com
 127.0.0.1 img.xgo.com.cn
+127.0.0.1 img01.51y5.net
 127.0.0.1 img01.taotaosou.cn
 127.0.0.1 img1.126.net
 127.0.0.1 img1.360buyimg.com
@@ -3534,6 +3572,7 @@
 127.0.0.1 inapps.appsflyersdk.com
 127.0.0.1 inc2.igexin.com
 127.0.0.1 incoming-data-sense360.s3.amazonaws.com
+127.0.0.1 increase-openapi.soulapp.cn
 127.0.0.1 index.umeng.com
 127.0.0.1 info.3g.qq.com
 127.0.0.1 info.gdt.qq.com
@@ -3556,6 +3595,8 @@
 127.0.0.1 install2.kugou.com
 127.0.0.1 inte.sogou.com
 127.0.0.1 interest.mix.sina.com.cn
+127.0.0.1 interface.music.163.com
+127.0.0.1 interface3.music.163.com
 127.0.0.1 internal-amis-res.cdn.bcebos.com
 127.0.0.1 intl.mtp.umeng.com
 127.0.0.1 intl.wapa.taobao.com
@@ -4039,6 +4080,7 @@
 127.0.0.1 minigame5-normal.zijieapi.com
 127.0.0.1 minisite.letv.com
 127.0.0.1 minisite2012.qq.com
+127.0.0.1 minorshort.weixin.qq.com
 127.0.0.1 mipcache.bdstatic.com
 127.0.0.1 misc.in.duokanbox.com
 127.0.0.1 misc.pandora.xiaomi.com
@@ -4112,6 +4154,7 @@
 127.0.0.1 mos.adubest.com
 127.0.0.1 mos.miaozhen.com
 127.0.0.1 mou.niu.xunlei.com
+127.0.0.1 movies.ttwifi.net
 127.0.0.1 moviets.tc.qq.com
 127.0.0.1 mp.bz.mgtv.com
 127.0.0.1 mp.huangye.miui.com
@@ -4388,6 +4431,8 @@
 127.0.0.1 p3-novel.byteimg.com
 127.0.0.1 p3-tt.byteimg.com
 127.0.0.1 p3.adkwai.com
+127.0.0.1 p3.dcarimg.com
+127.0.0.1 p3.douyinpic.com
 127.0.0.1 p3.l.qq.com
 127.0.0.1 p4-ad.adukwai.com
 127.0.0.1 p5-ad.adukwai.com
@@ -4395,6 +4440,7 @@
 127.0.0.1 p6-be-pack-sign.pglstatp-toutiao.com
 127.0.0.1 p6-novel.byteimg.com
 127.0.0.1 p6-reading-sign.fqnovelpic.com
+127.0.0.1 p6-webcast.douyinpic.com
 127.0.0.1 p9-ad-sign.byteimg.com
 127.0.0.1 p9-be-pack-sign.pglstatp-toutiao.com
 127.0.0.1 pacaio.match.qq.com
@@ -4593,6 +4639,7 @@
 127.0.0.1 q.getui.com
 127.0.0.1 q.i.gdt.qq.com
 127.0.0.1 q.z74d.com
+127.0.0.1 qadx.qinlinad.com
 127.0.0.1 qapm.baidu.com
 127.0.0.1 qappcenterv6.3g.qq.com
 127.0.0.1 qautodl.qq.com
@@ -4654,6 +4701,7 @@
 127.0.0.1 rad.live.com
 127.0.0.1 rad.microsoft.com
 127.0.0.1 raddus.bayescom.com
+127.0.0.1 rapi.cmgadx.com
 127.0.0.1 rawdata.appsflyer.com
 127.0.0.1 rcb.aiclk.com
 127.0.0.1 rcd.iqiyi.com
@@ -4745,14 +4793,17 @@
 127.0.0.1 rs1.qq.com
 127.0.0.1 rs2.qq.com
 127.0.0.1 rt-m.kugou.com
+127.0.0.1 rt.ad-score.com
 127.0.0.1 rt.applovin.com
 127.0.0.1 rt.applvn.com
 127.0.0.1 rta.umeng.com
+127.0.0.1 rtb-csync.smartadserver.com
 127.0.0.1 rtb.adentifi.com
 127.0.0.1 rtb.getui.com
 127.0.0.1 rtb.iredwhale.com
 127.0.0.1 rtb.tangelo.com.cn
 127.0.0.1 rtb.voiceads.cn
+127.0.0.1 rtbapi.douyucdn.cn
 127.0.0.1 rtlog3-applog-hl.fqnovel.com
 127.0.0.1 rtlog5-applog-hl.fqnovel.com
 127.0.0.1 rtmonitor.kugou.com
@@ -4985,6 +5036,7 @@
 127.0.0.1 sf6-amtos-cdn.bytesmanager.com
 127.0.0.1 sf6-be-pack.pglstatp-toutiao.com
 127.0.0.1 sf6-fe-pack.pglstatp-toutiao.com
+127.0.0.1 sf6-ttcdn-tos.pstatp.com
 127.0.0.1 sfl-fe-tos.pglstatp-toutiao.com
 127.0.0.1 sg-vid-events.taboola.com
 127.0.0.1 sg.mmstat.com
@@ -5003,7 +5055,6 @@
 127.0.0.1 shjs.irs01.com
 127.0.0.1 shjs2.irs01.com
 127.0.0.1 short-video.kakamobi.cn
-127.0.0.1 shouji.sogou.com
 127.0.0.1 show-3.mediav.com
 127.0.0.1 show-f.mediav.com
 127.0.0.1 show-g.mediav.com
@@ -5095,6 +5146,7 @@
 127.0.0.1 sqsh.3g.qq.com
 127.0.0.1 ss.chelaile.net.cn
 127.0.0.1 ssbsync.smartadserver.com
+127.0.0.1 ssdk-sg.pangle.io
 127.0.0.1 ssdk.adkmob.com
 127.0.0.1 ssl-cdn.static.browser.mi-img.com
 127.0.0.1 ssl.google-analytics.com
@@ -5288,6 +5340,7 @@
 127.0.0.1 talk.nz4.getui.net
 127.0.0.1 talk.nz4.igexin.com
 127.0.0.1 talkv6.getui.com
+127.0.0.1 tangram-config.gdt.qq.com
 127.0.0.1 tangram.e.qq.com
 127.0.0.1 taobao.qq.com
 127.0.0.1 tapad-platform.oss-cn-beijing.aliyuncs.com
@@ -5371,12 +5424,14 @@
 127.0.0.1 tmfmazu.m.qq.com
 127.0.0.1 tmfsdk.m.qq.com
 127.0.0.1 tmfsdktcpv4.m.qq.com
+127.0.0.1 tnc0-bjlgy.zijieapi.com
 127.0.0.1 tnc1-bjlgy.zijieapi.com
 127.0.0.1 tnc11-aliec2.zijieapi.com
 127.0.0.1 tnc11-alisc1.zijieapi.com
 127.0.0.1 tnc11-bjlgy.zijieapi.com
 127.0.0.1 tnc16-alisg.byteoversea.com
 127.0.0.1 tnc16-alisg.isnssdk.com
+127.0.0.1 tnc16-useast1a.byteoversea.com
 127.0.0.1 tnc16-useast1a.isnssdk.com
 127.0.0.1 tnc2-bjlgy.zijieapi.com
 127.0.0.1 tnc3-aliec1.toutiaoapi.com
@@ -5436,7 +5491,9 @@
 127.0.0.1 trace.rtbasia.com
 127.0.0.1 tracelog-debug.aiclk.com
 127.0.0.1 tracelog-debug.qquanquan.com
+127.0.0.1 track-config.y5kfpt.com
 127.0.0.1 track-dsp.adwangmai.com
+127.0.0.1 track-gateway.y5kfpt.com
 127.0.0.1 track.58.com
 127.0.0.1 track.ad.xiaomi.com
 127.0.0.1 track.adx.adlefee.com
@@ -5562,6 +5619,7 @@
 127.0.0.1 umsns.com
 127.0.0.1 umtrack.com
 127.0.0.1 un-acs.youku.com
+127.0.0.1 uni-shumeng.zhipin.com
 127.0.0.1 unicom.shuzilm.cn
 127.0.0.1 unidesk.alicdn.com
 127.0.0.1 union.baidu.com
@@ -5586,6 +5644,7 @@
 127.0.0.1 update.avlyun.sec.miui.com
 127.0.0.1 update.baidu.com
 127.0.0.1 update.duokan.com
+127.0.0.1 update.miui.com
 127.0.0.1 update.mobile.kugou.com
 127.0.0.1 update.pan.baidu.com
 127.0.0.1 update.sdk.jiguang.cn
@@ -5650,6 +5709,7 @@
 127.0.0.1 v1-fe-pack.pglstatp-toutiao.com
 127.0.0.1 v1-lm.adukwai.com
 127.0.0.1 v1.keepcdn.com
+127.0.0.1 v11-dcar-ad.dcarvod.com
 127.0.0.1 v12-d00344a6e9w.z.irs01.com
 127.0.0.1 v12-j0954dl1xdl.z.irs01.com
 127.0.0.1 v12-j3110dfspsv.z.irs01.com
@@ -5668,8 +5728,10 @@
 127.0.0.1 v2.gdt.qq.com
 127.0.0.1 v2.reachmax.cn
 127.0.0.1 v26-be-pack.pglstatp-toutiao.com
+127.0.0.1 v26-dcar-ad.dcarvod.com
 127.0.0.1 v3-ad.ixigua.com
 127.0.0.1 v3-be-pack.pglstatp-toutiao.com
+127.0.0.1 v3-dcar-ad.dcarvod.com
 127.0.0.1 v3-fe-pack.pglstatp-toutiao.com
 127.0.0.1 v4-lm.adukwai.com
 127.0.0.1 v4-only.eip-ntt.audio-ak.spotify.com.akahost.net
@@ -5689,11 +5751,13 @@
 127.0.0.1 v6-api-share.mob.com
 127.0.0.1 v6-api.share.mob.com
 127.0.0.1 v6-be-pack.pglstatp-toutiao.com
+127.0.0.1 v6-dcar-ad.dcarvod.com
 127.0.0.1 v6-devs-data.dutils.com
 127.0.0.1 v6-fe-pack.pglstatp-toutiao.com
 127.0.0.1 v6-m.mpl.dutils.com
 127.0.0.1 v6ii.gdt.qq.com
 127.0.0.1 v9-be-pack.pglstatp-toutiao.com
+127.0.0.1 v9-dcar-ad.dcarvod.com
 127.0.0.1 vaas.junion.jiguang.cn
 127.0.0.1 val.api.youku.com
 127.0.0.1 val.atm.cp31.ott.cibntv.net
@@ -5876,6 +5940,7 @@
 127.0.0.1 woocall.sina.com.cn
 127.0.0.1 woodpecker.uc.cn
 127.0.0.1 workbench.umeng.com
+127.0.0.1 world.qpic.cn
 127.0.0.1 wow-activity.youdao.com
 127.0.0.1 wow.youdao.com
 127.0.0.1 wr.da.netease.com
@@ -5967,7 +6032,9 @@
 127.0.0.1 wx.sifakaoshi360.com
 127.0.0.1 wxa.wxs.qq.com
 127.0.0.1 wxa79ef55c1a84e284.wx.ckjr001.com
+127.0.0.1 wximg.wxs.qq.com
 127.0.0.1 wxs.qq.com
+127.0.0.1 wxsmw.wxs.qq.com
 127.0.0.1 wxsnsad.tc.qq.com
 127.0.0.1 wxsnsdy.tc.qq.com
 127.0.0.1 wxsnsdy.video.qq.com
@@ -6037,6 +6104,7 @@
 127.0.0.1 yun-hl.3g.qq.com
 127.0.0.1 yun.tuitiger.com
 127.0.0.1 yximgs.com
+127.0.0.1 yybadaccess.3g.qq.com
 127.0.0.1 z-eu.amazon-adsystem.com
 127.0.0.1 z-na.amazon-adsystem.com
 127.0.0.1 z.5th.zone
@@ -6058,7 +6126,6 @@
 13.107.42.16                  pipelines.actions.githubusercontent.com
 140.82.112.10                 codeload.github.com
 140.82.112.21                 collector.github.com
-140.82.112.22 cloud.githubusercontent.com
 140.82.112.26                 alive.github.com
 140.82.112.4                  gist.github.com
 140.82.113.21                 central.github.com
@@ -6074,7 +6141,6 @@
 151.101.193.194               github.global.ssl.fastly.net
 16.15.217.23                  github-production-repository-file-5c1aeb.s3.amazonaws.com
 16.182.107.17                 github-com.s3.amazonaws.com
-16.182.37.57                  github-production-release-asset-2e65be.s3.amazonaws.com
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
 18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.me,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
@@ -6086,36 +6152,27 @@
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
+185.199.108.133               avatars0.githubusercontent.com
+185.199.108.133               avatars2.githubusercontent.com
 185.199.108.133               avatars3.githubusercontent.com
-185.199.108.133               avatars5.githubusercontent.com
-185.199.108.133               media.githubusercontent.com
-185.199.108.133               objects.githubusercontent.com
+185.199.108.133               avatars4.githubusercontent.com
+185.199.108.133               desktop.githubusercontent.com
+185.199.108.133               raw.githubusercontent.com
 185.199.108.133               user-images.githubusercontent.com
-185.199.109.153               assets-cdn.github.com
+185.199.108.153               assets-cdn.github.com
+185.199.109.133               avatars5.githubusercontent.com
 185.199.109.153               github.io
 185.199.109.154               github.githubassets.com
-185.199.110.133 avatars.githubusercontent.com
-185.199.110.133 avatars0.githubusercontent.com
-185.199.110.133 avatars1.githubusercontent.com
-185.199.110.133 avatars2.githubusercontent.com
-185.199.110.133 avatars3.githubusercontent.com
-185.199.110.133 avatars4.githubusercontent.com
-185.199.110.133 avatars5.githubusercontent.com
-185.199.110.133 desktop.githubusercontent.com
-185.199.110.133 media.githubusercontent.com
 185.199.110.153               githubstatus.com
 185.199.111.133               avatars.githubusercontent.com
-185.199.111.133               avatars0.githubusercontent.com
 185.199.111.133               avatars1.githubusercontent.com
-185.199.111.133               avatars2.githubusercontent.com
-185.199.111.133               avatars4.githubusercontent.com
 185.199.111.133               camo.githubusercontent.com
 185.199.111.133               cloud.githubusercontent.com
-185.199.111.133               desktop.githubusercontent.com
 185.199.111.133               favicons.githubusercontent.com
 185.199.111.133               github.map.fastly.net
+185.199.111.133               media.githubusercontent.com
+185.199.111.133               objects.githubusercontent.com
 185.199.111.133               private-user-images.githubusercontent.com
-185.199.111.133               raw.githubusercontent.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -6142,10 +6199,13 @@
 45.116.79.187 av1.xdrig.com
 45.116.79.187 fakeloc.cc
 45.116.79.187 fakelocation.api.lerist.dev
+47.246.37.220 bigota.d.miui.com
+47.246.37.220 hugeota.d.miui.com
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
-52.216.144.211                github-cloud.s3.amazonaws.com
+52.216.34.169                 github-production-release-asset-2e65be.s3.amazonaws.com
 52.216.37.105                 github-production-user-asset-6210df.s3.amazonaws.com
+52.217.173.153                github-cloud.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
