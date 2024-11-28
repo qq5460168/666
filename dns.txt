@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-28 22:08:12（北京时间）
+! Version: 2024-11-29 00:09:56（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7911
+! Total count: 7907
 || default.cn.sz.wagbridge.ad.alibabacorp.com^
 || default.cn.wagbridge.ad.alibabacorp.com^
 ||*-*.ad*kwai.com^
@@ -2093,18 +2093,15 @@
 ||d.url.cn/myapp/qq_desk/pre_res/official/*.plist?mType=ConfigCheck^
 ||d.url.cn^
 ||d0lzq.com^
-||d1.music.126.net^
 ||d13gni3sfor862.cloudfront.net^
 ||d16-ad.kwai.net^
 ||d1esebcdm6wx7j.cloudfront.net^
 ||d1f05vr3sjsuy7.cloudfront.net^
 ||d1pmhihatyvp1k.cloudfront.net^
 ||d1q4x2p7t0gq14.cloudfront.net^
-||d2.music.126.net^
 ||d20903hof2l33q.cloudfront.net^
 ||d227cncaprzd7y.cloudfront.net^
 ||d2wy8f7a9ursnm.cloudfront.net^
-||d3.music.126.net^
 ||d37d9zbli5ytch.cloudfront.net^
 ||d3f3.xyz^
 ||d3fulrozqmnmsg.cloudfront.net^
@@ -2112,7 +2109,6 @@
 ||d3mshiiq22wqhz.cloudfront.net^
 ||d3nfknbv.icu^
 ||d4-ks.a.kwimgs.com^
-||d6.music.126.net^
 ||d8962a.xyz^
 ||da.mgtv.com^
 ||da.mmarket.com^
