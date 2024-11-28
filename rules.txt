@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-29 00:09:56（北京时间）
+! Version: 2024-11-29 02:10:51（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16181
+! Total count: 16178
 
  
  ! 某些其他
@@ -14,7 +14,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-11-28T15:53:38+08:00
+# Update time: 2024-11-28T17:53:45+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -3597,8 +3597,6 @@
 127.0.0.1 install2.kugou.com
 127.0.0.1 inte.sogou.com
 127.0.0.1 interest.mix.sina.com.cn
-127.0.0.1 interface.music.163.com
-127.0.0.1 interface3.music.163.com
 127.0.0.1 internal-amis-res.cdn.bcebos.com
 127.0.0.1 intl.mtp.umeng.com
 127.0.0.1 intl.wapa.taobao.com
@@ -5845,7 +5843,6 @@
 127.0.0.1 vulcan5.branch.io
 127.0.0.1 vungle.com
 127.0.0.1 vv.play.aiseet.atianqi.com
-127.0.0.1 vweixinthumb.tc.qq.com
 127.0.0.1 w.cnews.qq.com
 127.0.0.1 w.inews.qq.com
 127.0.0.1 w.inmobi.com
@@ -6169,9 +6166,9 @@
 185.199.110.133               private-user-images.githubusercontent.com
 185.199.110.133               raw.githubusercontent.com
 185.199.110.133               user-images.githubusercontent.com
-185.199.111.153               assets-cdn.github.com
-185.199.111.153               github.io
-185.199.111.153               githubstatus.com
+185.199.110.153               assets-cdn.github.com
+185.199.110.153               github.io
+185.199.110.153               githubstatus.com
 185.199.111.154               github.githubassets.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
@@ -6191,7 +6188,6 @@
 23.53.11.237 store.akamai.steamstatic.com
 23.53.11.246 cdn.akamai.steamstatic.com
 23.53.11.248 community.akamai.steamstatic.com
-3.5.22.145                    github-production-repository-file-5c1aeb.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 423down.com##LI.item:has(.sticky-post)
@@ -6206,8 +6202,9 @@
 51.ruyo.net###recent-posts-4
 52.216.34.169                 github-production-release-asset-2e65be.s3.amazonaws.com
 52.216.37.105                 github-production-user-asset-6210df.s3.amazonaws.com
+52.216.54.185                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.197.113                github-com.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-54.231.162.1                  github-com.s3.amazonaws.com
 54.231.232.81                 github-cloud.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
