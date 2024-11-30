@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-11-30 20:13:25（北京时间）
+! Version: 2024-11-30 22:06:40（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7911
+! Total count: 7915
 || default.cn.sz.wagbridge.ad.alibabacorp.com^
 || default.cn.wagbridge.ad.alibabacorp.com^
 ||*-*.ad*kwai.com^
@@ -633,6 +633,7 @@
 ||ad.cyapi.cn^
 ||ad.daum.net^
 ||ad.dev.360.cn^
+||ad.doubleclick.net^
 ||ad.e.kuaishou.com^
 ||ad.gamebox.360.cn^
 ||ad.gtbrowser.com^
@@ -712,6 +713,7 @@
 ||adcaffe-bard.atcloudbox.com^
 ||adcd7.com^
 ||adcdn.holmesmind.com^
+||adcdn.hpplay.cn^
 ||adcdn.tencentmusic.com^
 ||adcdn6.tencentmusic.com^
 ||adclick.g.doubleclick.net^
@@ -888,8 +890,10 @@
 ||adsdk.vivo.com.cn^
 ||adsdk.whjzjx.cn^
 ||adsdkapi.dxys.pro^
+||adse.test.ximalaya.com^
 ||adse.wsa.ximalaya.com^
 ||adse.ximalaya.com^
+||adsebs.ximalaya.com^
 ||adsehera.ximalaya.com^
 ||adsense.7723.com^
 ||adsense.com^
