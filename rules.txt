@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-05 14:12:34（北京时间）
+! Version: 2024-12-05 16:12:03（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16426
+! Total count: 16425
 
  
  ! 某些其他
@@ -14,7 +14,7 @@
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-12-05T05:53:34+08:00
+# Update time: 2024-12-05T07:53:35+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -6202,21 +6202,21 @@
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
-185.199.108.133               avatars.githubusercontent.com
 185.199.108.133               avatars0.githubusercontent.com
-185.199.108.133               avatars1.githubusercontent.com
 185.199.108.133               avatars2.githubusercontent.com
-185.199.108.133               avatars5.githubusercontent.com
-185.199.108.133               camo.githubusercontent.com
+185.199.108.133               avatars3.githubusercontent.com
 185.199.108.133               cloud.githubusercontent.com
 185.199.108.133               objects.githubusercontent.com
-185.199.108.133               private-user-images.githubusercontent.com
-185.199.110.133               avatars3.githubusercontent.com
+185.199.110.133               avatars.githubusercontent.com
+185.199.110.133               avatars1.githubusercontent.com
 185.199.110.133               avatars4.githubusercontent.com
+185.199.110.133               avatars5.githubusercontent.com
+185.199.110.133               camo.githubusercontent.com
 185.199.110.133               desktop.githubusercontent.com
 185.199.110.133               favicons.githubusercontent.com
 185.199.110.133               github.map.fastly.net
 185.199.110.133               media.githubusercontent.com
+185.199.110.133               private-user-images.githubusercontent.com
 185.199.110.133               raw.githubusercontent.com
 185.199.110.133               user-images.githubusercontent.com
 185.199.110.153               assets-cdn.github.com
@@ -6255,10 +6255,10 @@
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
 52.216.136.19                 github-cloud.s3.amazonaws.com
-52.216.218.161                github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.217.121.193                github-com.s3.amazonaws.com
-52.217.224.161                github-production-release-asset-2e65be.s3.amazonaws.com
+52.216.244.132                github-production-release-asset-2e65be.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+54.231.169.41                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+54.231.225.113                github-com.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 66.203.124.31 mega.co.nz
@@ -7671,7 +7671,6 @@ msn.cn###onetrust-consent-sdk
 msn.cn###rightRailContentContainer > div > div.modernRightRail_modulesContainer-DS-EntryPoint1-1 > fluent-design-system-provider:nth-child(2)
 mxdm9.com,ntdm9.com,mxdm6.com,ntdm6.com##[style$='background-size: 400px 127px !important;'],[style$='bottom: 127px;']
 myqqjd.com##.adsbygoogl
-n.app.qq.com^
 nxnba.com##.bootom-fixed
 ofiii.com##.jsx-126687236
 ofiii.com##div.nonlinear_image_container.ad_impression
