@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-11 18:09:16（北京时间）
+! Version: 2024-12-11 20:15:48（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7933
+! Total count: 7936
 || default.cn.sz.wagbridge.ad.alibabacorp.com^
 || default.cn.wagbridge.ad.alibabacorp.com^
 ||*-*.ad*kwai.com^
@@ -1305,6 +1305,7 @@
 ||api.tencentmusic.com^
 ||api.th.wanzjhb.com^
 ||api.touch-mobile.baidu.com^
+||api.touch-moblie.com^
 ||api.tw06.xlmc.sec.miui.com^
 ||api.us.hismarttv.com^
 ||api.userstyles.org^
@@ -1422,6 +1423,7 @@
 ||asldmlws.cn^
 ||asleyty.com^
 ||asoursuls.com^
+||aspect-upush.umeng.com^
 ||aspwg.cn^
 ||asr-server.soulapp.cn^
 ||assets.zhutile.com^
@@ -4215,6 +4217,8 @@
 ||log-upload-eur.mihoyo.com^
 ||log-upload-os.hoyoverse.com^
 ||log-upload.mihoyo.com^
+||log-verify.dutils.com^
+||log-verify.hiaiabc.com^
 ||log-verify.mob.com^
 ||log.8zhuayu.cc^
 ||log.ad.xiaomi.com^
@@ -4947,7 +4951,6 @@
 ||open.e.kuaishou.cn^
 ||open.e.kuaishou.com^
 ||open.kuaishouzt.com^
-||open.kwaishouzt.com^
 ||open.kwaizt.com^
 ||open.kwaizt.com^^
 ||open.oneplus.net^
