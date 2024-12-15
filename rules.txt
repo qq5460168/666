@@ -2,19 +2,93 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-15 12:10:05（北京时间）
+! Version: 2024-12-15 14:11:11（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16433
+! Total count: 16516
 
  
+  
+     
+            
+             
+                   
+                              <a class="text-decoration-none">538268498</a>
+                              <a class="text-decoration-none">http://rssv.cn/adguard/api.php?type=black</a>
+                              <td>拦截应用/广告商</td>
+                              规则意见反馈群
+                              订阅地址
+                            </div>
+                            </div> <a class="text-decoration-none"></a>
+                            </tr>
+                            <div class="center-text">
+                            <td>停止更新日志，规则持续更新中...<br></td></tr><td>☆VIVO旗下广告<br></td></tr><td>☆携程旅行(开屏广告)<br></td></tr><td>☆腾讯视频片头广告(其它广告全部连体婴)<br></td></tr><td>☆百度贴吧<br></td></tr><td>☆微信(公众号文章底部广告)<br></td></tr><td>☆豆瓣<br></td></tr><td>☆百度网盘.百度地图(开屏广告)<br></td></tr><td>☆酷安<br></td></tr><td>基本规则(部分规则需要☹)<br></td></tr>                    </tbody>
+                            <tr v-for="item in newlist">
+                            <tr>
+                        </div>
+                        </thead>
+                        <div class="ms-0">
+                        <div class="pub-toast-mask-box-html" v-html="cpmsg"></div>
+                        <tbody>
+                        <thead>
+                    </div>
+                    <div class=" ">
+                    <div class="pub-toast-mask-box">
+                    <p>新增标星☆提醒无需root实现拦截</p>
+                    <table class="table table-bordered table-striped  table-hover" cellpadding="2" cellspacing="0" border="1">
+                </div>
+                <div class="center-text">
+                <div class="pub-toast-mask">
+                <div class="row container-fluid">
+                font-size:14px;
+            </div>
+            <div class="container p-1 my-3 text-body" style="background: rgba(0.96875, 0.97265625, 0.9765625, 0.05);">
+            <div class="pub-toast">
+            <div class="table-responsive">
+            html{
+            }
+        </div>
+        <div class="container" id="app">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex">
+        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.7.14/vue.min.js"></script>
+        <style>
+        <title>晴雅adguard订阅规则</title>
+        display: inline-block;
+        text-align: center;
+      text-align: center;
+      }
+    </body>
+    </head>
+    </style>
+    <body>
+    <head>
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    } 
+  display: table;
+  height: 120%;
+  left: 0;
+  line-height: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -100;
+  }  
  ! 某些其他
  #晴雅规则
+ .center-text {
+ text-align: center;
 #  糯米PHP 网站
 # GitHub520 Host End
 # GitHub520 Host Start
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2024-12-15T04:04:40+08:00
+# Update time: 2024-12-15T06:04:43+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -902,6 +976,7 @@
 #饿了么登录
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
+.bgdiv {
 .buzz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net
 .buzz/*0*0*0*==$third-party
 .cn/2022/*/*.txt$third-party
@@ -945,6 +1020,8 @@
 .live/ty/*-*-*$third-party
 .net/v2/stats/1*$third-party
 .net/vh1/1*$third-party
+.pub-toast-mask {
+.pub-toast-mask-box-html {
 .ru/ads/
 .shop:*/ack?s=
 .shop:*/bid?url=
@@ -6194,7 +6271,6 @@
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.182.36.169                 github-cloud.s3.amazonaws.com
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
 180.163.150.33      dl.l.google.com
@@ -6245,8 +6321,6 @@
 23.53.11.246 cdn.akamai.steamstatic.com
 23.53.11.248 community.akamai.steamstatic.com
 3.5.17.0                      github-production-repository-file-5c1aeb.s3.amazonaws.com
-3.5.8.173                     github-production-release-asset-2e65be.s3.amazonaws.com
-3.5.8.222                     github-production-user-asset-6210df.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 423down.com##LI.item:has(.sticky-post)
@@ -6259,7 +6333,10 @@
 47.246.37.220 hugeota.d.miui.com
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
+52.216.244.132                github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.114.113                github-production-user-asset-6210df.s3.amazonaws.com
 52.217.121.193                github-com.s3.amazonaws.com
+52.217.140.193                github-cloud.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
@@ -6279,11 +6356,15 @@
 91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
 91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
 91porny.com/api/getPos?jspath=/
+://*mp4*/js/wcount.js$~third-party
 :800*/d/*n=$third-party
 :800*/sc/*n=$third-party
 :8007/*/*?is_not=
 :8008/*/*?is_not=
 :8891/v*$third-party
+<!doctype html>
+</html>
+<html>
 ?adspot_
 ?local_ga_js=
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -7441,6 +7522,7 @@ baidu.com##.ec-ad
 baidu.com##.ec-result-inner
 baidu.com##.ec_ad_results
 baidu.com##.ec_wise_ad
+baidu.com##.page-head-queryarea
 baidu.com##.rel-exp-feed-ad-item
 baidu.com##.se-recommend-word-list,#se-recommend-word-list-container
 baidu.com##DIV.c-container.ec-container
@@ -16432,6 +16514,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||zzycj.com^
 || default.cn.sz.wagbridge.ad.alibabacorp.com^
 || default.cn.wagbridge.ad.alibabacorp.com^
+}
 ‖*.chat.bilibili.com
 ﻿! Title: 去广告规则，反馈🐧群请点击主页
 ﻿[个人收集 2.0]
