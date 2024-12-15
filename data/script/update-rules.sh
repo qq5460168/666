@@ -1,4 +1,4 @@
-#!/bin/sh
+3#!/bin/sh
 LC_ALL='C'
 
 rm *.txt
@@ -45,7 +45,7 @@ rules=(
   "https://raw.githubusercontent.com/tongxin0520/AdFilterForAdGuard/refs/heads/main/KR_DNS_Filter.txt" #tongxin0520
   "https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/blacklist.txt" #Zisbusy
 
- "http://rssv.cn/adguard/api.php?type=black" #晴雅
+# "http://rssv.cn/adguard/api.php?type=black" #晴雅
  "" #
  "" #
   
