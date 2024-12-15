@@ -44,7 +44,8 @@ rules=(
    "https://raw.githubusercontent.com/qq5460168/dangchu/refs/heads/main/777.txt" #喵二
   "https://raw.githubusercontent.com/tongxin0520/AdFilterForAdGuard/refs/heads/main/KR_DNS_Filter.txt" #tongxin0520
   "https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/blacklist.txt" #Zisbusy
- "" #
+
+ "http://rssv.cn/adguard/api.php?type=black" #晴雅
  "" #
  "" #
   
