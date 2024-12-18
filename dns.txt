@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-18 22:07:50（北京时间）
+! Version: 2024-12-19 00:09:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7938
+! Total count: 7945
 || default.cn.sz.wagbridge.ad.alibabacorp.com^
 || default.cn.wagbridge.ad.alibabacorp.com^
 ||*-*.ad*kwai.com^
@@ -570,6 +570,7 @@
 ||act.qq.com^
 ||act.vip.iqiyi.com/interact/api/v2/show?P00001=*^
 ||act.vip.iqiyi.com^
+||actfile.cdn.pandora.xiaomi.com^
 ||activation.cyberlink.com^
 ||activeqq.3g.qq.com^
 ||activity-ag.awemeughun.com^
@@ -3087,6 +3088,7 @@
 ||h4b0srs.cn^
 ||h5.dzgsdswh5.xyz^
 ||h5.gdt.qq.com^
+||h5.tv.mi.com^
 ||h5.vivo.com.cn^
 ||h5vv.play.aiseet.atianqi.com^
 ||h6cp.icu^
@@ -3512,6 +3514,7 @@
 ||indivi-cdn-v6.shouji.sogou.com^
 ||info.3g.qq.com^
 ||info.gdt.qq.com^
+||info.mina.xiaoaisound.com^
 ||info.zb.qq.com^
 ||infotrack.gdt.qq.com^
 ||inkuae.com^
@@ -4623,6 +4626,7 @@
 ||msdk.qq.com^
 ||msdk.voiceads.cn^
 ||msdsd2.cn^
+||msec.opposhop.cn^
 ||msg.71.am^
 ||msg.ettoday.net^
 ||msg.iqiyi.com^
@@ -5943,6 +5947,7 @@
 ||sfbixfd.cn^
 ||sfg11rr.com^
 ||sfl-fe-tos.pglstatp-toutiao.com^
+||sfn.opposhop.cn^
 ||sfp.safe.baidu.com^
 ||sfsafsadfjbbj-dsafjnb-1321533417.cos.ap-beijing.myqcloud.com^
 ||sg-public-data-api.hoyoverse.com^
@@ -6163,6 +6168,7 @@
 ||stg-data.ads.heytapmobi.com^
 ||stgowan.com^
 ||stienlb.top^
+||stm-collect.cn.miaozhen.com^
 ||stmzzs.com^
 ||stnew.xyz^
 ||store.log.ksyun.com^
@@ -6372,6 +6378,7 @@
 ||tjqwb.cn^
 ||tjwzyjx.icu^
 ||tk.anythinktech.com^
+||tk.d.mi.com^
 ||tkcloud.iqiyi.com^
 ||tknkfd.xyz^
 ||tkqwurl.icu^

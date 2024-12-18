@@ -2,13 +2,14 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-18 22:07:50（北京时间）
+! Version: 2024-12-19 00:09:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16394
+! Total count: 16404
 
  
  ! 某些其他
  #晴雅规则
+#
 #  糯米PHP 网站
 # Todesk
 # [小说]
@@ -874,11 +875,14 @@
 #酷安图片
 #酷安残留广告拦截，勿删
 #酷狗vip抽年卡
+#针对OPPO商城的拦截规则
+#针对上汽大众的拦截规则
 #针对中国移动
 #针对可可影视
 #针对咪咕视频
 #针对喜马拉雅
 #针对天猫校园
+#针对小爱音箱的拦截规则
 #针对小米商城的广告拦截，勿删'
 #针对百度
 #针对网易云音乐
@@ -896,7 +900,6 @@
 #领红包封面
 #饿了么小程序
 #饿了么登录
-$important
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
 .buzz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net
@@ -8475,6 +8478,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||act.qq.com^
 ||act.vip.iqiyi.com/interact/api/v2/show?P00001=*^
 ||act.vip.iqiyi.com^
+||actfile.cdn.pandora.xiaomi.com^
 ||activation.cyberlink.com^
 ||activeqq.3g.qq.com^
 ||activity-ag.awemeughun.com^
@@ -11157,6 +11161,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||h4b0srs.cn^
 ||h5.dzgsdswh5.xyz^
 ||h5.gdt.qq.com^
+||h5.tv.mi.com^
 ||h5.vivo.com.cn^
 ||h5vv.play.aiseet.atianqi.com^
 ||h6cp.icu^
@@ -11616,6 +11621,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||inews.gtimg.com^$important
 ||info.3g.qq.com^
 ||info.gdt.qq.com^
+||info.mina.xiaoaisound.com^
 ||info.zb.qq.com^
 ||info4.video.qq.com^$important
 ||infotrack.gdt.qq.com^
@@ -12811,6 +12817,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||msdk.qq.com^
 ||msdk.voiceads.cn^
 ||msdsd2.cn^
+||msec.opposhop.cn^
 ||msg.71.am^
 ||msg.ettoday.net^
 ||msg.iqiyi.com^
@@ -14218,6 +14225,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||sfg11rr.com^
 ||sfl-fe-tos.pglstatp-toutiao.com
 ||sfl-fe-tos.pglstatp-toutiao.com^
+||sfn.opposhop.cn^
 ||sfp.safe.baidu.com^
 ||sfsafsadfjbbj-dsafjnb-1321533417.cos.ap-beijing.myqcloud.com^
 ||sg-public-data-api.hoyoverse.com^
@@ -14457,6 +14465,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||stgowan.com^
 ||stienlb.top^
 ||stlib.qbb6.com^$important
+||stm-collect.cn.miaozhen.com^
 ||stmzzs.com^
 ||stnew.xyz^
 ||store.log.ksyun.com^
@@ -14674,6 +14683,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||tjqwb.cn^
 ||tjwzyjx.icu^
 ||tk.anythinktech.com^
+||tk.d.mi.com^
 ||tkcloud.iqiyi.com^
 ||tknkfd.xyz^
 ||tkodoczxfrie.yuchengxinxia.xyz^$important
