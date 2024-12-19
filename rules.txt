@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-20 00:08:59（北京时间）
+! Version: 2024-12-20 02:10:49（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16407
+! Total count: 16398
 
  
  ! 某些其他
@@ -7755,11 +7755,13 @@ tools.bugscaner.com###div_qrcode_container
 trafficjunky.com$third-part
 tuniu.com##.web_envelope_mod, .tuniu-assist-hide, .show
 tv.sohu.com##.actv-banner.js-app-topbanner,.banner_yunying,.js-oper-pos,IMG.vrs-banner-act-img
+u.com
 unpkg.com/aladug/*.js
 v.qq.com##div[class*="mod_row_box mod_row_box_special"]
 v11av.xyz##.content__body [rel='nofollow'][href][target='_blank']
 v11av.xyz##.row.q-ma-none A[rel='noopener nofollow'][href][style='display: block;']
 vacations.ctrip.com##.side_function
+wan.baidu.com^
 webtor.io##DIV.ad
 webtor.io##IFRAME[scrolling='no']
 webtor.io##[data-element='empty']
@@ -7860,8 +7862,6 @@ zhihu.com##.Kok-mobile.Kok.Lottie
 zhihu.com##.MobileAppHeader-downloadLink
 zhihu.com##div[data-za-detail-view-path-is_ad]
 zol.com.cn##A.dingtong.xianshiyouhui
-|| default.cn.sz.wagbridge.ad.alibabacorp.com^
-|| default.cn.wagbridge.ad.alibabacorp.com^
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -8521,9 +8521,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ad-sdk.aiclk.com^
 ||ad-sdk.huxiu.com^
 ||ad-sdk.lenovomm.com^
-||ad-sh-sz-zb.wagbridge.tanx.alimama.com.gds.alibabadns.com ^
-||ad-sh-sz-zb.wagbridge.tanx.alimama.com.gds.alibabadns.com ^
-||ad-sh-sz-zb.wagbridge.tanx.alimama.com^
 ||ad-ssp-engine-qa-ct.soulapp-inc.cn^
 ||ad-static.ssread.cn^
 ||ad-survey.com^
@@ -10244,10 +10241,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dedcrfvdj.xyz^
 ||deeplink.umeng.com^
 ||deeterno.cn^
-||default.cn.sz.wagbridge.ad.alibabacorp.com.gds.alibabadns.com ^
-||default.cn.sz.wagbridge.ad.alibabacorp.com.gds.alibabadns.com ^
-||default.cn.wagbridge.ad.alibabacorp.com.gds.alibabadns.com ^
-||default.cn.wagbridge.ad.alibabacorp.com.gds.alibabadns.com ^
+||default.cn.sz.wagbridge.ad.alibabacorp.com^
+||default.cn.wagbridge.ad.alibabacorp.com^
 ||default.cn.zb.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
 ||defaultts.tc.qq.com^
 ||degjidp.icu^
@@ -12840,7 +12835,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||mssdk-bu.snssdk.com
 ||mssdk-bu.snssdk.com^
 ||mssdk.volces.com^
-||mssdk.volces.com^$
 ||mssdk.zijieapi.com^
 ||mssdk3-normal-lf.zijieapi.com^
 ||mssdk3-normal-lq.zijieapi.com^
@@ -13174,7 +13168,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||open.e.kuaishou.cn^
 ||open.e.kuaishou.com^
 ||open.kuaishouzt.com^
-||open.kuaishouzt.com^$
 ||open.kwaizt.com^
 ||open.kwaizt.com^^
 ||open.lalanuz.cn^$important
@@ -13583,7 +13576,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||pub.idqqimg.com^
 ||pubfuture-ad.com^
 ||pubfuture.com^$third-party
-||public-bjy-rs-kce-node1466.idchb1az2.hb1.kwaidc.com^
 ||public-deliver5.miguvideo.com^
 ||public.gdtimg.com^
 ||public.wlbaike.com^
@@ -14402,6 +14394,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ssp.maplehaze.cn^
 ||ssp.qq.com^
 ||ssp.tencentmusic.com^
+||ssp.vivo.com.cn^$important
 ||ssqyuvavse.com^
 ||sss.umeng.com^
 ||sssxwsry.com^
@@ -16404,8 +16397,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||zzxedr.xyz^
 ||zzxlhwyp.com^
 ||zzycj.com^
-|| default.cn.sz.wagbridge.ad.alibabacorp.com^
-|| default.cn.wagbridge.ad.alibabacorp.com^
 ‖*.chat.bilibili.com
 ﻿! Title: 去广告规则，反馈🐧群请点击主页
 ﻿[个人收集 2.0]
