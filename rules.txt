@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-19 22:07:39（北京时间）
+! Version: 2024-12-20 00:08:59（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16405
+! Total count: 16407
 
  
  ! 某些其他
@@ -774,6 +774,7 @@
 #微信小程序,城市通
 #微信帮助与反馈
 #微信支付
+#微信视频号图片
 #必应
 #快手平台
 #快手广告
@@ -824,6 +825,7 @@
 #百度
 #百度地图街景
 #百度好看视频
+#百度手机助手网页版
 #百度搜索一个域名,误杀后会进入不了搜索结果
 #百度翻译接口
 #皮皮虾pro
@@ -2948,7 +2950,6 @@
 127.0.0.1 dl2.bav.baidu.com
 127.0.0.1 dl_dir.qq.com
 127.0.0.1 dl_dir2.qq.com
-127.0.0.1 dldir1.qq.com
 127.0.0.1 dldir1v6.qq.com
 127.0.0.1 dldir2.qq.com
 127.0.0.1 dldir3.qq.com
@@ -6403,6 +6404,7 @@
 @@||appmsg.gzmtr.cn^$important
 @@||appsupport.qq.com^$important
 @@||as.weixin.qq.com^$important
+@@||ascdn.baidu.com^$important
 @@||at.umeng.com^$important
 @@||audid-api.taobao.com^$important
 @@||audio-cdn.shuqireader.com^$important
@@ -6549,6 +6551,7 @@
 @@||dj.1688.com^$important
 @@||dl.360safe.com^$important
 @@||dl.reg.163.com^$important
+@@||dldir1.qq.com^$important
 @@||dldir3.qq.com^$important
 @@||dm.toutiao.com^$important
 @@||dm.video.qq.com^
@@ -9377,7 +9380,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||as.yyymvp.com^
 ||as89de.top^
 ||asacdn.com/prod/redirect.html
-||ascdn.baidu.com^
 ||asdffe22.com^
 ||asdqfdfb.www71685a.com^
 ||asdx55.com^
