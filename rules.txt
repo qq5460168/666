@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-21 12:09:35（北京时间）
+! Version: 2024-12-21 14:09:54（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16356
+! Total count: 16360
 
  
  ! 某些其他
@@ -1051,6 +1051,7 @@
 /site/mov*$third-party
 /static/jietiandixs/jtd.js$~third-party
 /static/js/miniyyrtv-config.js
+/static/lbsite/*/*.js?v=$third-party
 /statics/js/dddd.js
 /statics/js/guding.js
 /statics/js/hth1111.html
@@ -7500,6 +7501,7 @@ google.com##.adsbygoogle
 google.com##.fbar
 google.com##.g.kno-result.rQUFld.mnr-c.g-blk
 greasyfork.org#@#body .ad
+gs.com
 guancha.cn##.g_header44
 guancha.cn##.g_swiper_container
 hanman/static/dist/ppm/js/main.js
@@ -8149,6 +8151,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||3pkf5m0gd.com^
 ||3prndxd.cn^
 ||3q3l.cn^
+||3qxsa.cc/js/news2.js
 ||3rsppty.cn^
 ||3t769up6.com^
 ||3v7c7y.online^
@@ -10882,6 +10885,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||g1kb9u.xyz^
 ||g2.ganjing.world^
 ||g6afvmg48.cc^
+||g7htk7ls7.com^
 ||gadx.hubcloud.com.cn^
 ||gahvy6ww.icu^
 ||gaia-mix-prd.vivo.com.cn^
