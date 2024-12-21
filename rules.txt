@@ -2,7 +2,7 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-21 18:07:06（北京时间）
+! Version: 2024-12-21 20:12:32（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 16360
 
@@ -640,6 +640,7 @@
 #4399小游戏
 #555影视
 #8680
+#@@||appdownload.alicdn.com^$important
 #@@||update.miui.com^$important
 #A站点赞
 #BAT Built-in DNS
@@ -950,6 +951,7 @@
 .ru/ads/
 .shop:*/ack?s=
 .shop:*/bid?url=
+.sxhjty.cn^
 .top/*/*.js?ts=$third-party
 .top/*/2022*/.js$third-party
 .top/*q=*form=*&*url=http*$third-party
@@ -6404,7 +6406,6 @@
 @@||appcloud.zhihu.com^$important
 @@||appcloud2.zhihu.com^$important
 @@||appdl-1-drcn.dbankcdn.com^$important
-@@||appdownload.alicdn.com^$important
 @@||appimg.dbankcdn.com^$important
 @@||appmsg.gzmtr.cn^$important
 @@||appsupport.qq.com^$important
@@ -7678,7 +7679,6 @@ qq.com##[id^='App_WAP_share_page']
 quark.cn##.ad-wolong-container
 qushucheng.com##.appguide-wrap
 qushucheng.com##.hotcmd-wp
-rtant
 scoregg.com##.float-modal
 share.acgnx.se##IMG[src*='share.acgnx.se']
 similarweb.com^
