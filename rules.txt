@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-21 22:05:14（北京时间）
+! Version: 2024-12-22 00:08:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16360
+! Total count: 16361
 
  
  ! 某些其他
@@ -771,6 +771,7 @@
 #应用宝
 #应用游戏页去除推广视频
 #得间
+#微云分享
 #微信公众号广告
 #微信小程序,城市通
 #微信帮助与反馈
@@ -899,6 +900,7 @@
 #阿里广告服务
 #阿里推送(未知用途)
 #阿里系登录接口
+#阿里系软件下载
 #音乐适配
 #领红包封面
 #饿了么小程序
@@ -3004,7 +3006,6 @@
 127.0.0.1 down.apps.sina.cn
 127.0.0.1 down.lltskb.com
 127.0.0.1 downdload.shuzilm.cn
-127.0.0.1 download.alicdn.com
 127.0.0.1 download.changhong.upgrade2.huan.tv
 127.0.0.1 download.sd.baidu.com
 127.0.0.1 download.sdk.mob.com
@@ -5108,7 +5109,6 @@
 127.0.0.1 share-jmlink.jpush.cn
 127.0.0.1 share.baidu.com
 127.0.0.1 share.mob.com
-127.0.0.1 sharechain.qq.com
 127.0.0.1 sharesdk.mob.com
 127.0.0.1 shark-tracer.netease.com
 127.0.0.1 shence.hupu.com
@@ -6569,6 +6569,7 @@
 @@||douyincdn.com^$important
 @@||down.anticheatexpert.com^$important
 @@||down.sandai.net^
+@@||download.alicdn.com^$important
 @@||download.uc.cn^
 @@||downpack.baidu.com^$important
 @@||downum.game.uc.cn^$important
@@ -7110,6 +7111,7 @@
 @@||sf3-pitaya-tos.pstatp.com^$important
 @@||sfsapi.micloud.xiaomi.net^$important
 @@||share.myfreecams.com^$important
+@@||sharechain.qq.com^$important
 @@||shouji.360.cn^
 @@||shouji.sogou.com^
 @@||simg.sinajs.cn^$important
@@ -7537,7 +7539,6 @@ ifeng.com##[class^='index_wutong']
 ifeng.com##[href^='https://mall.ifeng.com'],IMG[class^='picMark-'][src^='https://x0.ifengimg.com/']
 ifeng.com##div[class^="ad_"]
 ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
-image.com^$important
 imgur.com##.Ad.sas.Smart
 iplaysoft.com##.related_posts
 iplaysoft.com##.wwads-cn.wwads-horizontal
