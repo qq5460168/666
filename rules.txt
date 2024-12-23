@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-23 16:11:36（北京时间）
+! Version: 2024-12-23 18:08:56（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16361
+! Total count: 16365
 
  
  ! 某些其他
@@ -783,6 +783,7 @@
 #快手评论图片
 #懂车帝一些图片加载
 #手机淘宝网页端
+#抖音极速版表情
 #抖音直播
 #抖音直播间购物车和购物车商品图片
 #抖音短剧接口
@@ -906,6 +907,7 @@
 #饿了么小程序
 #饿了么登录
 *.lijie.*/*_*?$third-party
+*.market.xiaomi.com^$important
 */blsx_*_*_*?*$third-party
 .buzz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net
 .buzz/*0*0*0*==$third-party
@@ -6390,6 +6392,7 @@
 @@||api.zhuti.xiaomi.com^$important
 @@||api2-album.quark.cn^$important
 @@||apis.google.com
+@@||apischedule.ksyungslb.com^$important
 @@||apissl.ksapisrv.com^$important
 @@||apiwz.midukanshu.com^
 @@||app-api.pixiv.net^$important
@@ -7751,6 +7754,7 @@ sspai.com##.recommend-card
 stbemucode.com##DIV.header-ads
 stbemucode.com##IFRAME[frameborder='0'][marginheight='0']
 sukebei.nyaa.si##.servers-cost-money1
+t^
 template/m1938pc/ads/*.js
 thepaper.cn##[class^='index_footer_banner']
 tieba.baidu.com##.activity_head
