@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-24 22:07:05（北京时间）
+! Version: 2024-12-25 00:08:44（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16364
+! Total count: 16363
 
  
  ! 某些其他
@@ -954,7 +954,6 @@
 .ru/ads/
 .shop:*/ack?s=
 .shop:*/bid?url=
-.sxhjty.cn^
 .top/*/*.js?ts=$third-party
 .top/*/2022*/.js$third-party
 .top/*q=*form=*&*url=http*$third-party
@@ -7653,6 +7652,7 @@ myqqjd.com##.adsbygoogl
 nxnba.com##.bootom-fixed
 ofiii.com##.jsx-126687236
 ofiii.com##div.nonlinear_image_container.ad_impression
+om
 oss-cn-hangzhou.aliyuncs.com##A.hm_item[href^='https://tcs-devops.aliyuncs.com/thumbnail/']
 pabopa.com##DIV[style='width: 100%;'],DIV[carousel-item],#slide.layui-carousel,.closeable
 pan.baidu.com##.nd-operate-guidance
@@ -7903,7 +7903,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.gamecenter.qq.com^
 ||*.gdt.qq.com^
 ||*.hubcloud.com.cn^
-||*.ksyungslb.com^
 ||*.nrb.footprintdns.com^
 ||*.nstool.ntes53.netease.com^
 ||*.p2p.huya.com^
