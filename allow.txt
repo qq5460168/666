@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-25 18:08:05（北京时间）
+! Version: 2024-12-25 20:14:44（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2776
+! Total count: 2781
 @@*.flyme.cn
 @@*.myapp.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -1245,6 +1245,7 @@
 @@||api.jdl.com^$important
 @@||api.jr.mi.com^$important
 @@||api.ke.com^
+@@||api.kingdata.ksyun.com^$important
 @@||api.kuaishouzt.com^$important
 @@||api.kwaizt.com^
 @@||api.live.bilibili.com^$app=tv.danmaku.bili,important
@@ -1757,6 +1758,7 @@
 @@||haohuo.jinritemai.com^ 
 @@||haohuo.snssdk.com^
 @@||haokan.baidu.com^$important
+@@||hdns.ksyun.com^$important
 @@||hermes.hupu.com^$important
 @@||hls3-cf.xvideos-cdn.com^$important
 @@||hls9-cf.xvideos-cdn.com^$important
@@ -1816,11 +1818,13 @@
 @@||img.funshion.com^
 @@||img.jbzj.com^$important
 @@||img.mp.itc.cn^$important
+@@||img.shouji.sogou.com^$important
 @@||img.zuoyebang.cc^$important
 @@||imgcache.qq.com^$important
 @@||imop.com^
 @@||imtt.dd.qq.com^$important
 @@||increase-openapi.soulapp.cn^$important
+@@||indivi-cdn.shouji.sogou.com^$important
 @@||inews.gtimg.com
 @@||inews.gtimg.com^
 @@||inews.gtimg.com^$important
@@ -2424,6 +2428,7 @@
 @@||sq.bls.mdt.qq.com^$important
 @@||sqdd.myapp.com^
 @@||sqimg.qq.com^$important
+@@||srv.android.shouji.sogou.com^$important#微信相关
 @@||ssl-cdn.static.browser.mi-img.com^$important
 @@||ssl.gstatic.com^$important
 @@||ssl.msdk.qq.com^
