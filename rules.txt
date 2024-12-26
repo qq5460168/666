@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-27 00:09:05（北京时间）
+! Version: 2024-12-27 02:10:33（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16190
+! Total count: 16200
 
  
  ! 某些其他
@@ -672,7 +672,6 @@
 #QQ音乐广告
 #QQ音乐的歌曲加载
 #Tracking
-#X8沙箱
 #bing
 #dropbox
 #gamepass日志
@@ -767,11 +766,13 @@
 #应用商店
 #应用宝
 #应用游戏页去除推广视频
+#度小满
 #得间
 #微信公众号广告
 #微信小程序,城市通
 #微信帮助与反馈
 #微信支付
+#微信爱奇艺
 #微信视频号图片
 #必应
 #快手平台
@@ -6235,6 +6236,9 @@
 :8007/*/*?is_not=
 :8008/*/*?is_not=
 :8891/v*$third-party
+<<<<<<< HEAD
+=======
+>>>>>>> 1df2b9c2a14304b53827a56f1bb3f035215ef5ea
 ?adspot_
 ?local_ga_js=
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -6821,6 +6825,7 @@
 @@||luna-dict-community.nosdn.127.net^
 @@||m.360buyimg.com^$important
 @@||m.intl.taobao.com^$important
+@@||m.iqiyi.com^$important
 @@||m.jiaoyimao.com^$important
 @@||m.jingxi.com^
 @@||m.jingxi.com^$important
@@ -9197,7 +9202,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||api.vip.ptqy.gitv.tv^
 ||api.wqycq.com^
 ||api.wtzw.com^
-||api.x8zs.com^$important
 ||api.xahc971.com^
 ||api.xn--zw0autp42d.cn^
 ||api.xyhx.cc^
@@ -9254,6 +9258,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||app-measurement.com^
 ||app-preload.iqiyi.com^
 ||app.bugsnag.com^
+||app.duxiaoman.com^
+||app.duxiaomanfintech.com^
 ||app.fairparkdallas.com^
 ||app.fashalot.com^
 ||app.getsentry.com^
@@ -9511,6 +9517,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||bhjuy10.com^
 ||bhpprfk.cn^
 ||bhulgot.com^
+||bi-sensors.duxiaoman.com^
 ||bianxian.com^
 ||bid-adx.vlion.cn^
 ||bidtoolads.com^
@@ -12096,7 +12103,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||lf3-static.bytednsdoc.com^
 ||lf3-webcastcdn-tos-sign.douyinstatic.com^
 ||lf6-ad-union-sdk.pglstatp-toutiao.com^
-||lf6-cdn-tos.bytecdntp.com^$important
 ||lf6-imcloud-file-sign.bytetos.com.download.ks-cdn.com^
 ||lf6-imcloud-file-sign.bytetos.com^
 ||lf6-orange.byteorge.com^
@@ -14818,6 +14824,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||umengjmacs.m.taobao.com^
 ||umini.shujupie.com^
 ||umkezbh.cn^
+||umoney.dxmstatic.com^
 ||umsns.com^
 ||umwatsonc.events.data.microsoft.com^
 ||umyrn.xyz^
@@ -15177,6 +15184,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||w1.bskwai.com^
 ||w1.cskwai.com^
 ||w1.dskwai.com^
+||w1.dxmstatic.com^
 ||w1.eskwai.com^
 ||w1.fskwai.com^
 ||w1.gskwai.com^
@@ -15405,6 +15413,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||www.dknindsl.com^
 ||www.doca182.com^
 ||www.dragonib.com^
+||www.dxmpay.com^
 ||www.geodeep.org^
 ||www.google-analytics.com^
 ||www.googleadservices.com^
@@ -15620,6 +15629,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||xilofr.xyz^
 ||ximit8023.maijijo.com^
 ||xinbo-lora.cn^
+||xindai.duxiaoman.com^
 ||xinerdact.com^
 ||xingya-ad-track.shytkjgs.com^
 ||xingyou25.xyz^
