@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-28 14:10:11（北京时间）
+! Version: 2024-12-28 16:09:45（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16203
+! Total count: 16207
 
  
  ! 某些其他
@@ -425,6 +425,7 @@
 ##a[href^="/ad.html?url="]
 ##a[href^="https://91keep.tv"]
 ##body > A[ontouchstart='this.click();'][href]
+##body > DIV.ad3
 ##body > DIV[class][style='top: 132px;']
 ##body > DIV[class][style='top: 133px;']
 ##body > DIV[class][style^='bottom: '][style$='vw; display: block;']
@@ -923,6 +924,8 @@
 .com:8010/cc/
 .cyou/redbaiduct.com
 .cyou/xling_*_$third-party
+.fun/*.jss?17*&r=0$third-party
+.fun/*/17*/*.css?r=0$third-party
 .icu/*_*_*.js$third-party
 .icu/?token=$third-party
 .icu/biyys*.js$third-party
@@ -938,6 +941,7 @@
 .shop:*/bid?url=
 .top/*/*.js?ts=$third-party
 .top/*/2022*/.js$third-party
+.top/*_*_vw*sbjs?$third-party
 .top/*q=*form=*&*url=http*$third-party
 .top/?token=$third-party
 .top/gluinfo.php?s=$third-party
@@ -7368,7 +7372,6 @@
 @@||zkres.myzaker.com^$important
 @@||zm.sm-tc.cn^$important
 @@||ztgame.com^
-Ddog.css?
 Mplay/kk1.js
 _/bigREDcat.css?
 _/bigREDdog.js
@@ -14651,6 +14654,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||trektinyreproduce.com^
 ||trfmxf.xyz^
 ||trh64a.top^$important
+||trjfoagf.icu^
 ||trk.pinterest.com^
 ||trognoi.com^
 ||trp69.top^
