@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2024-12-30 18:09:03（北京时间）
+! Version: 2024-12-30 20:14:21（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2791
+! Total count: 2811
 @@*.flyme.cn
 @@*.myapp.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -1135,6 +1135,7 @@
 @@||about.gitlab.cn^$important
 @@||abtest3-misc-lf.zijieapi.com^
 @@||abtestvm.bytedance.com^
+@@||ac.dun.163.com^$important'
 @@||ac.dun.163yun.com^
 @@||access.open.uc.cn^$important
 @@||account-public-service-prod03.ol.epicgames.com^$important
@@ -1157,6 +1158,7 @@
 @@||act.vip.iqiyi.com^
 @@||act.vip.iqiyi.com^$important
 @@||act.zhuanzhuan.com^$important
+@@||act.zhuanzhuan.com^$important'
 @@||activation.sls.microsoft.com^$important
 @@||activity.tuiapple.com^$important
 @@||activity.windows.com
@@ -1250,6 +1252,7 @@
 @@||api.kwaizt.com^
 @@||api.live.bilibili.com^$app=tv.danmaku.bili,important
 @@||api.live.bilibili.com^$important
+@@||api.look.163.com^$important'
 @@||api.m.jd.com^$important
 @@||api.micloud.xiaomi.net^$important
 @@||api.miui.security.xiaomi.com^$important
@@ -1289,6 +1292,7 @@
 @@||app.market.xiaomi.com^$important
 @@||app.toutiao.com^
 @@||app.zhuanzhuan.com^$important
+@@||app.zhuanzhuan.com^$important'
 @@||appattest.apple.com^$important
 @@||appcfg.v.qq.com^
 @@||appcloud.zhihu.com^$important
@@ -1343,6 +1347,7 @@
 @@||baixing.com^
 @@||bbs.mobileapi.hupu.com^$important
 @@||bcloud.uc.cn^$important
+@@||bdad.123pan.cn^$important'
 @@||bdimg.share.baidu.com^$important
 @@||beacon-api.aliyuncs.com^
 @@||beaconcdn.qq.com^$important
@@ -1378,6 +1383,7 @@
 @@||byteimg.com.queniusy.com^
 @@||c.bing.com^$important
 @@||c.bing.net^$important
+@@||c.cnzz.com^$important'
 @@||c.duomai.com^$important
 @@||c.evidon.com^
 @@||c.live.com^$important
@@ -1667,9 +1673,11 @@
 @@||fc3tn.baidu.com^
 @@||fc5tn.baidu.com^
 @@||feconf.zhuanzhuan.com^$important
+@@||feconf.zhuanzhuan.com^$important'
 @@||feed-image.baidu.com^
 @@||feedback.miui.com^$important
 @@||feentry.zhuanzhuan.com^$important
+@@||feentry.zhuanzhuan.com^$important'
 @@||fexclick.baidu.com^
 @@||fga0.market.xiaomi.com^$important
 @@||fgc0.market.xiaomi.com^$important
@@ -1731,6 +1739,7 @@
 @@||graph.microsoft.com^$important
 @@||graph.qq.com^$important
 @@||graph.windows.net^$important
+@@||grpc.biliapi.net^$important'
 @@||gs.apple.com^$important
 @@||gsa.apple.com^$important
 @@||gsp0.baidu.com
@@ -1758,6 +1767,7 @@
 @@||h5.yijifen.com^
 @@||h5api.m.taobao.com^$important
 @@||h5offline.zhuanzhuan.com^$important
+@@||h5offline.zhuanzhuan.com^$important'
 @@||haohuo.jinritemai.com^ 
 @@||haohuo.snssdk.com^
 @@||haokan.baidu.com^$important
@@ -1862,6 +1872,7 @@
 @@||itunes.apple.com^$important
 @@||itunes.com^$important
 @@||iwork.apple.com^$important
+@@||iyfbodn.com^$important'
 @@||jia.360.cn^
 @@||jiathis.com^
 @@||jifen-api.2345.com^
@@ -1986,6 +1997,7 @@
 @@||m.youtube.com^$important
 @@||m.yuanfudao.com^
 @@||m.zhuanzhuan.com^$important
+@@||m.zhuanzhuan.com^$important'
 @@||ma*-normal-lf.zijieapi.com^
 @@||mac.bmcx.com^
 @@||mail.qq.com^$important
@@ -2210,6 +2222,7 @@
 @@||pan.quark.cn^
 @@||pan.quark.cn^$important
 @@||parked-content.godaddy.com^$important
+@@||partner.googleadservices.com^$important'
 @@||partnerservices.getmicrosoftkey.com^$important
 @@||passport.2345.com^
 @@||passport.360.cn^
@@ -2349,6 +2362,7 @@
 @@||s1.kskwai.com^$important
 @@||s2.ssl.qhres2.com^$important
 @@||s3.pstatp.com^$important
+@@||s4.cnzz.com^$important'
 @@||safebrowsing-cache.google.com^$important
 @@||safebrowsing.google.com^$important
 @@||safebrowsing.googleapis.com^$important
@@ -2363,6 +2377,7 @@
 @@||scone-pa.clients6.google.com^$important
 @@||scs.openspeech.cn^$important
 @@||sdk-api.beizi.biz^$important
+@@||sdk-api.beizi.biz^$important'
 @@||sdk.alibaba.com.ailbaba.me^$important
 @@||sdk.e.qq.com
 @@||sdk.live.360.cn^
@@ -2380,6 +2395,7 @@
 @@||self.events.data.microsoft.com
 @@||self.events.data.microsoft.com^$important
 @@||sentry.zhuanzhuan.com^$important
+@@||sentry.zhuanzhuan.com^$important'
 @@||serverstatus.apple.com^$important
 @@||settings-win.data.microsoft.com^
 @@||setup.icloud.com^$important
@@ -2436,7 +2452,7 @@
 @@||sq.bls.mdt.qq.com^$important
 @@||sqdd.myapp.com^
 @@||sqimg.qq.com^$important
-@@||srv.android.shouji.sogou.com^$important#微信相关
+@@||srv.android.shouji.sogou.com^$important
 @@||ssl-cdn.static.browser.mi-img.com^$important
 @@||ssl.gstatic.com^$important
 @@||ssl.msdk.qq.com^
@@ -2489,8 +2505,10 @@
 @@||swimg1.hstdyf.com^$important
 @@||swscan.apple.com^$important
 @@||sylvan.apple.com^$important
+@@||syndicatedsearch.goog^$important'
 @@||sysdk.cl2009.com^$important
 @@||szlong.weixin.qq.com^
+@@||szlong.weixin.qq.com^$important'
 @@||szmg.qq.com^
 @@||szmmsns.qpic.cn^$important
 @@||t*.baidu.com^
@@ -2643,6 +2661,7 @@
 @@||vweixinf.tc.qq.com^$important
 @@||vweixinthumb.tc.qq.com^$important
 @@||w.pandora.xiaomi.com^$important
+@@||w1.kskwai.com^$important'
 @@||w8.com.cn^
 @@||waapdg.jd.com^$important
 @@||waimai-guide.ele.me^
@@ -2783,6 +2802,7 @@
 @@||yunjiasu.com^
 @@||yybadaccess.3g.qq.com^$important
 @@||z.weixin.qq.com^$important
+@@||z3.cnzz.com^$important'
 @@||zazhipu.com^
 @@||zconfig.alibabausercontent.com^
 @@||zhan.vivo.com.cn^$important
