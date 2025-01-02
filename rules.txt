@@ -2,7 +2,7 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-02 20:15:25（北京时间）
+! Version: 2025-01-02 22:07:17（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 16262
 
@@ -620,6 +620,7 @@
 ##高德地图
 #123网盘app
 #163
+#1688网页版图片
 #18+不良网站
 #18bit
 #360
@@ -6204,6 +6205,7 @@
 23.53.11.248 community.akamai.steamstatic.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
+404: Not Found
 423down.com##LI.item:has(.sticky-post)
 45.116.79.187 ads.api.fakeloc.cc
 45.116.79.187 api.fakeloc.cc
@@ -6447,6 +6449,7 @@
 @@||card-paopao.iqiyi.com^$important
 @@||cards.iqiyi.com^$important
 @@||castatic.fengkongcloud.com^$important
+@@||cbu01.alicdn.com^$important
 @@||cc.map.qq.com^$important
 @@||cdn-msp*.18comic*.*^
 @@||cdn-msp*.18comic.*^
@@ -7575,7 +7578,6 @@ ithome.com##.rm-modal-bg
 ithome.com##.rm-modal-body
 ithome.com##.rm-modal1-bg
 ithome.com##.rm-modal1-body
-ivew.l.qq.com
 ix6080.com##DIV[style$='vw; display: block;']
 jav777.cc,jav777.xyz###playertopads
 jav777.cc,jav777.xyz##.myad_alert_82
@@ -9737,7 +9739,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||cbjslog.baidu.com^
 ||cbu01.alicdn.com/img/ibank/*
 ||cbu01.alicdn.com/img/ibank/2020/714/563/22725365417_967741881.jpg
-||cbu01.alicdn.com^$important
 ||cc-316.cc^
 ||cc-api-data.adobe.io^
 ||cc-cdn.adobe.com^
@@ -10310,7 +10311,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns-*.eastus.cloudapp.azure.com^
 ||dns-info-static.hitwh.net.cn^
 ||dns-test.research.a10protects.com^
-||dns.alidns.com^
 ||dns.cyida.com^
 ||dns.jd.com.gslb.qianxun.com^
 ||dns.jd.com^
