@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-05 20:13:29（北京时间）
+! Version: 2025-01-05 22:05:28（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16263
+! Total count: 16266
 
  
 #  糯米PHP 网站
@@ -752,6 +752,7 @@
 #小米相关
 #小米矫正流量，
 #小米视频
+#小米部件
 #小米骚扰拦截 数据库更新
 #小红书分享链接
 #屏蔽微信后台自动下载
@@ -825,6 +826,8 @@
 #百度好看视频
 #百度手机助手网页版
 #百度搜索一个域名,误杀后会进入不了搜索结果
+#百度相关
+#百度知道头像
 #百度翻译接口
 #皮皮虾pro
 #皮皮虾评论区发图
@@ -838,6 +841,7 @@
 #笔趣阁网页广告
 #米哈游
 #米游社
+#米游社图标
 #系统判断联网
 #网易
 #网易云api
@@ -2305,7 +2309,6 @@
 127.0.0.1 bat.bing.com
 127.0.0.1 bats.video.yahoo.com
 127.0.0.1 bazhua.igexin.com
-127.0.0.1 bbs-static.miyoushe.com
 127.0.0.1 bbs.mob.com
 127.0.0.1 bbu.umeng.com
 127.0.0.1 bc-ad-vod.zdmimg.com
@@ -4041,7 +4044,6 @@
 127.0.0.1 mazu.m.qq.com
 127.0.0.1 mazu.sec.miui.com
 127.0.0.1 mbdlog.iqiyi.com
-127.0.0.1 mbdp02.bdstatic.com
 127.0.0.1 mcd-mkt-prod31-lb.campaign.adobe.com
 127.0.0.1 mcg-ads.inmobi.com
 127.0.0.1 mcgi.v.qq.com
@@ -4548,12 +4550,7 @@
 127.0.0.1 phone.getui.com
 127.0.0.1 phone.igexin.com
 127.0.0.1 pic-ad-ld.tupian1234.com
-127.0.0.1 pic.fastapi.net
-127.0.0.1 pic.feedsads.cn
 127.0.0.1 pic.jd-bbs.com
-127.0.0.1 pic.rmb.bdstatic.com
-127.0.0.1 pic6.ajkimg.com
-127.0.0.1 pic640.weishi.qq.com
 127.0.0.1 pig.pupuapi.com
 127.0.0.1 pigeon.umeng.com
 127.0.0.1 pingfore.qq.com
@@ -6414,6 +6411,7 @@
 @@||baijiahao.baidu.com^$important
 @@||baike.so.com^$important
 @@||baixing.com^
+@@||bbs-static.miyoushe.com^$important
 @@||bbs.mobileapi.hupu.com^$important
 @@||beian.miit.gov.cn^$important
 @@||bgp.video-upload-v*.lf.bytelb.net^
@@ -6453,6 +6451,7 @@
 @@||castatic.fengkongcloud.com^$important
 @@||cbu01.alicdn.com^$important
 @@||cc.map.qq.com^$important
+@@||cdn-f1.assistant.miui.com^$important
 @@||cdn-msp*.18comic*.*^
 @@||cdn-msp*.18comic.*^
 @@||cdn.ark.qq.com^$important
@@ -6491,6 +6490,7 @@
 @@||cnlogin.cainiao.com^
 @@||cnnic.net.cn^
 @@||collect.hupu.com^$important
+@@||common.jbzj.com^$important
 @@||computemaster.bxcearth.com^$important
 @@||conf.hpplay.cn^
 @@||config.cmpassport.com^$important
@@ -6690,6 +6690,7 @@
 @@||haohuo.jinritemai.com^ 
 @@||haohuo.snssdk.com^
 @@||haokan.baidu.com^$important
+@@||hectorstatic.baidu.com^$important
 @@||hermes.hupu.com^$important
 @@||hls3-cf.xvideos-cdn.com^$important
 @@||hls9-cf.xvideos-cdn.com^$important
@@ -6866,6 +6867,7 @@
 @@||mars.jd.com^$important
 @@||mb.yidianzixun.com^$important
 @@||mbd.baidu.com^$important
+@@||mbdp02.bdstatic.com^$important
 @@||mca.cmpay.com^$important
 @@||mcc1684939218000.lgecqrb.com^$important
 @@||mcc1684939331000.lgecqrb.com^$important
@@ -7012,6 +7014,7 @@
 @@||pic.iask.com.cn^$important
 @@||pic.imgdb.cn
 @@||pic.mairuan.com^$important
+@@||pic.rmb.bdstatic.com^$important
 @@||pic2.zhimg.com^
 @@||pingfore.qq.com^$important
 @@||pinghot.qq.com^$important
@@ -7162,6 +7165,7 @@
 @@||stats.gc.apple.com^
 @@||statsig.com^
 @@||statusapi.micloud.xiaomi.net^$important
+@@||store.assistant.miui.com^$important
 @@||store.heytapimage.com^$important
 @@||stripe.com^$domain=pay.openai.com
 @@||studcat.infra.systems^$important
@@ -7627,7 +7631,6 @@ m.qidian.com##A.catalog-download
 m.qidian.com##I.icon-logo
 m.qidian.com##P.text-content
 m.sm.cn##DIV[ad_seid],.dl-banner-lg.card
-m.tv/mdp.js
 manwa.me#@#.ad-area
 manwa1.me,manwa2.me,manwa.me##.ad-area-close
 manwa1.me,manwa2.me,manwa.me##.swiper-container.swiper-container-horizontal
