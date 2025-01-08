@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-08 22:07:29（北京时间）
+! Version: 2025-01-09 00:09:21（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16266
+! Total count: 16268
 
  
 #  糯米PHP 网站
@@ -753,6 +753,7 @@
 #小米矫正流量，
 #小米视频
 #小米部件
+#小米预警中心-地震预警
 #小米骚扰拦截 数据库更新
 #小红书分享链接
 #屏蔽微信后台自动下载
@@ -6692,6 +6693,7 @@
 @@||haokan.baidu.com^$important
 @@||hectorstatic.baidu.com^$important
 @@||hermes.hupu.com^$important
+@@||himg.bdimg.com^$important
 @@||hls3-cf.xvideos-cdn.com^$important
 @@||hls9-cf.xvideos-cdn.com^$important
 @@||hmrz.wo.cn^$important
@@ -7145,6 +7147,7 @@
 @@||spotifycdn.net^$important
 @@||sqdd.myapp.com^
 @@||sqimg.qq.com^$important
+@@||srv.sec.miui.com^$important
 @@||ssl-cdn.static.browser.mi-img.com^$important
 @@||ssl.gstatic.com^$important
 @@||ssl.msdk.qq.com^
@@ -11199,7 +11202,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||hijack.baidu.com^
 ||hikin.online^
 ||hikykhz.icu^
-||himg.bdimg.com^
 ||hiqua.xyz^
 ||histats.com^
 ||hjbqnwb.com^
