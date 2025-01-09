@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-09 18:08:33（北京时间）
+! Version: 2025-01-09 20:14:31（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16268
+! Total count: 16277
 
  
 #  糯米PHP 网站
@@ -219,6 +219,7 @@
 ##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
 ##DIV[style='position: fixed; left: 0px; bottom: 0px; width: 100%; height: 120px; z-index: 2147483647 !important;']
 ##DIV[style='position: fixed; line-height: 100vh; width: 100vw; top: 0px; left: 0px;']
+##DIV[style='position:relative !important;padding:0px !important;margin:0px !important;width:100% !important;overflow:hidden !important;font-size:0px !important;line-height:0px !important;']
 ##DIV[style='width: 100%;background-color: black;color: white;padding: 15px 0;']
 ##DIV[style^='box-sizing: border-box; position: relative; left: 0px; z-index: 214748']
 ##DIV[style^='display: block; aspect-ratio: 728 / 90; background-image: url("/static/resources/lp.php']
@@ -897,6 +898,7 @@
 #饿了么登录
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
+-1325890192.cos.
 .buzz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net
 .buzz/*0*0*0*==$third-party
 .cn/2022/*/*.txt$third-party
@@ -8409,6 +8411,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||abdluv.xyz^
 ||abe.ymmiyun.com^
 ||abenshishabi.com^
+||abernc.xyz^
 ||abolid.com^
 ||abot.pos.baidu.com^
 ||abovede6.com^
@@ -9526,6 +9529,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||bh0874.online^
 ||bhaabom.cn^
 ||bhcnmrn.icu^
+||bhgzwqy.top^
 ||bhjuy10.com^
 ||bhpprfk.cn^
 ||bhulgot.com^
@@ -11050,6 +11054,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||gxhzv.cn^
 ||gxlsjt.com^
 ||gxxie.com^
+||gxxyclub.top^
 ||gxzxiww.com^
 ||gyhgcgj.xyz^
 ||gyjinchuang.vip^
@@ -12367,6 +12372,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||lpxmall.com^
 ||lqe3.icu^
 ||lqjinx.xyz^
+||lqweqk61qlih.click^
 ||lrlsrz.xyz^
 ||lrqpyhn.icu^
 ||ls.l.qq.com^
@@ -12770,6 +12776,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||mvamnng.cn^
 ||mvgucp.com^
 ||mvlkvth.cn^
+||mvwitz.xyz^
 ||mw.app.qq.com^
 ||mwandlx.top^
 ||mwdwepok.xyz^
@@ -14453,6 +14460,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||tat.pandora.xiaomi.com^
 ||taxismaned.top^
 ||tbcgumkadc.xyz^
+||tbl258ym4.cc^
 ||tbm.snssdk.com^
 ||tc6tc.com^
 ||tcbox.baidu.com^
@@ -15870,6 +15878,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||yfhtbdn.com^
 ||ygwdai.cn^
 ||ygxgk.cn^
+||ygz1pd7.online^
 ||ygzqlnt.cn^
 ||yh.49666664.com^$important
 ||yh.yanghetp.vip^
