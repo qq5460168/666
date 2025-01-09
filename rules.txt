@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-09 11:07:41（北京时间）
+! Version: 2025-01-09 12:09:47（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16269
+! Total count: 16270
 
  
 #  糯米PHP 网站
@@ -7645,6 +7645,7 @@ marriedgames.com.br##div.sp-backdrop-info.show-prompt:first-child
 match.tdping.com##P[style='text-align:left;margin:0;'],td.livetitle > L
 medium.com##.m, .abb, .add, .ade
 mefcl.com##article:has(span.sticky-icon)
+mi-img.com^$important
 mini.yyrtv.com##.right-gg
 mobi*.*.cam/*_$third-party
 mobi*.*.cyou/*_$third-party
@@ -7659,7 +7660,6 @@ msn.cn###main > div.stripecontainer:nth-child(22)
 msn.cn###onetrust-consent-sdk
 msn.cn###rightRailContentContainer > div > div.modernRightRail_modulesContainer-DS-EntryPoint1-1 > fluent-design-system-provider:nth-child(2)
 mxdm9.com,ntdm9.com,mxdm6.com,ntdm6.com##[style$='background-size: 400px 127px !important;'],[style$='bottom: 127px;']
-mxs.com###inglestore.inglestore
 myqqjd.com##.adsbygoogl
 nxnba.com##.bootom-fixed
 ofiii.com##.jsx-126687236
@@ -7686,6 +7686,7 @@ pornhub.com##.adContainer
 pornhub.com##.premiumAdvertWrapper
 pornhub.com##.premiumPromoBannerWrapper
 pornhub.com##.topAdContainter
+q.xyz^
 qilishusong.cn##[style*='display: block'],[style*='position: absolute; width: 100%;'],[style*='height:120px;']
 qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 qq.com##.ad-cell-common
