@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-13 18:09:16（北京时间）
+! Version: 2025-01-13 20:15:30（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16285
+! Total count: 16286
 
  
 #  糯米PHP 网站
@@ -7859,6 +7859,7 @@ www.zhihu.com##.OpenInAppButton
 www.zhihu.com##A.MBannerAd
 www.zhihu.com##A.MHotFeedAd,.MRelateFeedAd,.WeiboAd-wrap,.AdvertImg.AdvertImg--isLoaded.MBannerAd-image,.Banner-adTag,[href='https://maimai.cn/']
 x.com/*/videoads/
+xcb3.top^
 ximalaya.com##.change-logo.S_q,.packet-container._PC,.less-tips._PC *
 xmh/200/200-*.gif
 xyz:9002/*?x=$third-party
