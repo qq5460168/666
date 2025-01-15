@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-15 16:10:29（北京时间）
+! Version: 2025-01-15 18:08:06（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16286
+! Total count: 16285
 
  
 #  糯米PHP 网站
@@ -7778,7 +7778,6 @@ tieba.baidu.com##DIV[id^='aside-ad']
 tieba.baidu.com##DIV[id^='mediago-tb-frs-list']
 tieba.baidu.com##div[class*='-ad-pb-']
 tools.bugscaner.com###div_qrcode_container
-top^
 tuniu.com##.web_envelope_mod, .tuniu-assist-hide, .show
 tv.sohu.com##.actv-banner.js-app-topbanner,.banner_yunying,.js-oper-pos,IMG.vrs-banner-act-img
 unpkg.com/aladug/*.js
