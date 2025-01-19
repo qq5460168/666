@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-19 14:09:57（北京时间）
+! Version: 2025-01-19 16:08:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16398
+! Total count: 16399
 
  
 #  糯米PHP 网站
@@ -7580,6 +7580,7 @@ haokan.baidu.com##div.landrightbanner
 haokan.baidu.com##div.player-pause-code
 haokan.baidu.com##div.videolist-item-topbanner
 happymh.com##[src="https://c.nationaltcm.com/ad/tm1111dd.png"]
+hdlbp.xyz^
 heiliao346.pro###post-card-1234,#post-card-518,#post-card-1000,#post-card-666,#post-card-1588,#post-card-1555,#post-card-1118,#post-card-618,#post-card-888,#post-card-999
 hentaicomic.ru#@#.Flagrow-Ads-under-header
 hentaicomic.ru#@#.pcd_ad
