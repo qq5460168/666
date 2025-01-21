@@ -2,11 +2,12 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-22 00:09:21（北京时间）
+! Version: 2025-01-22 02:10:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16699
+! Total count: 16700
 
  
+#
 #                    
 #  糯米PHP 网站
 # ADS
@@ -6397,12 +6398,7 @@
 @@|reading.snssdk.com^
 @@|tnc3-aliec2.snssdk.com^
 @@|v*-fq-tts.fqnovelvod.com^
-@@||#a0.app.xiaomi.com^
-@@||#api.ad.xiaomi.com^
-@@||#globalapi.ad.xiaomi.com^
 @@||#m.uczzd.cn^
-@@||#pgdt.gtimg.cn^
-@@||#pingma.qq.com^
 @@||*.alipay.com^$important
 @@||*.cdninstagram.com^$important
 @@||*.img.mobile.sina.cn^$important
@@ -6414,7 +6410,6 @@
 @@||*.micloud.xiaomi.net^$important
 @@||*.twimg.com^$important
 @@||*.video.xiaomi.com^$important
-@@||*?.mistat.xiaomi.com^
 @@||*ad*.ksyungslb.com^
 @@||*m.chenzhongtech.com^
 @@||/template/conch/asset/js/hlhtml.js$domain=www.lldm.net|1anime.me
@@ -6437,6 +6432,7 @@
 @@||7x24s.com^
 @@||96956.com.cn^$important
 @@||a.video.qq.com^$important
+@@||a0.app.xiaomi.com^
 @@||a0.app.xiaomi.com^$important
 @@||about.gitlab.cn^$important
 @@||abtest.mistat.xiaomi.com^
@@ -6502,6 +6498,7 @@
 @@||api-shoulei-ssl.xunlei.com^
 @@||api-unionid.meituan.com^$important
 @@||api.account.xiaomi.com^$important
+@@||api.ad.xiaomi.com^
 @@||api.airpush.com^
 @@||api.amemv.com^$important
 @@||api.comm.miui.com^$important
@@ -6926,6 +6923,7 @@
 @@||githubusercontent.com^$important
 @@||gk.sina.cn^
 @@||global-search.browser.miui.com^$important
+@@||globalapi.ad.xiaomi.com^
 @@||gm.mmstat.com^
 @@||gma.alicdn.com^
 @@||googleadservices.com^
@@ -7319,6 +7317,7 @@
 @@||pdds.ucweb.com^
 @@||pepsico.com.cn^
 @@||personaclick.com^
+@@||pgdt.gtimg.cn^
 @@||phonecallapi.micloud.xiaomi.net^$important
 @@||pic*.iqiyipic.com^$important
 @@||pic*.zhimg.com^$important
@@ -7330,6 +7329,7 @@
 @@||pingfore.qq.com^$important
 @@||pinghot.qq.com^$important
 @@||pingjs.qq.com^$important
+@@||pingma.qq.com^
 @@||pingtas.qq.com^$important
 @@||pingtcss.qq.com^$important
 @@||pitaya.bytedance.com^
@@ -10809,6 +10809,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||duodada.com/Tpl/default/system.js
 ||dup.baidustatic.com^
 ||dutils.com^
+||duxiaoman.com^
 ||duxingangtiaoban.com^
 ||duyewnf.icu^
 ||duyixpy.top^

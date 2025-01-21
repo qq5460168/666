@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-22 00:09:21（北京时间）
+! Version: 2025-01-22 02:10:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3033
+! Total count: 3032
 @@*.flyme.cn
 @@*.myapp.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -969,12 +969,7 @@
 @@|zm.outer.hoopchina.com^
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
-@@||#a0.app.xiaomi.com^
-@@||#api.ad.xiaomi.com^
-@@||#globalapi.ad.xiaomi.com^
 @@||#m.uczzd.cn^
-@@||#pgdt.gtimg.cn^
-@@||#pingma.qq.com^
 @@||*-ttcdn-tos.pstatp.com^
 @@||*-www.sway-cdn.com^
 @@||*-www.sway-extensions.com^
@@ -1074,7 +1069,6 @@
 @@||*.y.qq.com^$important
 @@||*.yammer.com^
 @@||*.yammerusercontent.com^
-@@||*?.mistat.xiaomi.com^
 @@||*ad*.ksyungslb.com^
 @@||*akamaiedge.net*^
 @@||*akamaihd.net^
@@ -1139,6 +1133,7 @@
 @@||96956.com.cn^$important
 @@||a.video.qq.com^$important
 @@||a0.app.xiaomi.com
+@@||a0.app.xiaomi.com^
 @@||a0.app.xiaomi.com^$important
 @@||a1.qpic.cn^$important
 @@||about.gitlab.cn^$important
@@ -1255,6 +1250,7 @@
 @@||api-shoulei-ssl.xunlei.com^
 @@||api-unionid.meituan.com^$important
 @@||api.account.xiaomi.com^$important
+@@||api.ad.xiaomi.com^
 @@||api.airpush.com^
 @@||api.amemv.com^$important
 @@||api.apple-cloudkit.com^$important
@@ -1858,6 +1854,7 @@
 @@||gk.sina.cn^
 @@||global-search.browser.miui.com^$important
 @@||global.market.xiaomi.com^$important
+@@||globalapi.ad.xiaomi.com^
 @@||gm.mmstat.com^
 @@||gma.alicdn.com^
 @@||go.microsoft.com^$important
@@ -2416,6 +2413,7 @@
 @@||pepsico.com.cn^
 @@||personaclick.com^
 @@||pg-bootstrap.itunes.apple.com^$important
+@@||pgdt.gtimg.cn^
 @@||phonecallapi.micloud.xiaomi.net^$important
 @@||phonesubmissions.apple.com^$important
 @@||pic*.iqiyipic.com^$important
@@ -2430,6 +2428,7 @@
 @@||pingfore.wegame.com.cn^$important
 @@||pinghot.qq.com^$important
 @@||pingjs.qq.com^$important
+@@||pingma.qq.com^
 @@||pingtas.qq.com^$important
 @@||pingtcss.qq.com^$important
 @@||pitaya.bytedance.com^
