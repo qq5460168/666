@@ -2,12 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-22 16:10:47（北京时间）
+! Version: 2025-01-22 18:06:59（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16701
+! Total count: 16720
 
  
-#
 #                    
 #  糯米PHP 网站
 # ADS
@@ -637,6 +636,7 @@
 #18bit
 #360
 #360下载安装
+#360借贷
 #360升级
 #360搜图
 #360清理大师
@@ -744,9 +744,11 @@
 #京东图床
 #京东图片
 #京东存储和图片提供
+#京东金融
 #什么值得买浏览记录
 #今日诗词
 #代理游戏
+#众安金融
 #优酷
 #优酷app
 #优酷图片加载
@@ -780,6 +782,7 @@
 #大圣净化
 #大师兄
 #天下手游
+#天星金融
 #天气
 #天猫app
 #天猫校园
@@ -829,6 +832,7 @@
 #微信相关↑
 #微信相关↓
 #微信视频号图片
+#微粒贷
 #必应
 #快手平台
 #快手相关
@@ -848,10 +852,12 @@
 #抖音网页版
 #抖音网页版验证图片
 #抖音聊天图片
+#招联金融
 #拷贝漫画
 #拼多多
 #探探
 #推特(第三方调用)
+#携程金融
 #放行log文件,减少重复请求造成的发热
 #放行一堆click
 #斗鱼
@@ -876,6 +882,7 @@
 #淘宝的一个主要域名
 #淘宝的一些功能加载
 #淘宝菜鸟裹裹
+#滴滴数科
 #滴滴顺风车
 #熊猫小说
 #爱(i)茅台
@@ -988,6 +995,7 @@
 #领红包封面
 #饿了么小程序
 #饿了么登录
+#马上消费
 #魅族^
 #魅族天气
 *.lijie.*/*_*?$third-party
@@ -8013,7 +8021,6 @@ msn.cn###onetrust-consent-sdk
 msn.cn###rightRailContentContainer > div > div.modernRightRail_modulesContainer-DS-EntryPoint1-1 > fluent-design-system-provider:nth-child(2)
 mxdm9.com,ntdm9.com,mxdm6.com,ntdm6.com##[style$='background-size: 400px 127px !important;'],[style$='bottom: 127px;']
 myqqjd.com##.adsbygoogl
-net^
 nxnba.com##.bootom-fixed
 ofiii.com##.jsx-126687236
 ofiii.com##div.nonlinear_image_container.ad_impression
@@ -8477,6 +8484,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||2wgolxk.com^
 ||2xmzazd.cn^
 ||3.cjcp.cn^
+||3.cn^$important
 ||32.huanqiu.com^
 ||3269x.com^
 ||3337126.com^
@@ -8488,6 +8496,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||35vc.com^
 ||36.102.218.149:4482/image.uczzd.cn^
 ||360114.xyz^
+||360shuke.com^$important
 ||36htg.fun^
 ||36mghtd.xyz^
 ||37.1.213.100^
@@ -10048,6 +10057,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||c.ads.rgyun.com^
 ||c.bidtoolads.com^
 ||c.cnzz.com^
+||c.didi.cn^$important
 ||c.evidon.com^
 ||c.fa.jd.com^
 ||c.gdt.qq.com^
@@ -11040,6 +11050,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ezraahdn.icu^
 ||ezu6rd5.houge.in^
 ||f.8fenxiang.com^
+||f.airstar.com^$important
 ||f.gxrwc.xyz^$important
 ||f1.market.mi-img.com^
 ||f1tfmxzg.icu^
@@ -11551,6 +11562,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||hegk06a.top^
 ||hegk09a.top^
 ||heioa.xyz^
+||help.jr.mi.com^$important
 ||henanqiuzhige.com^
 ||hermes-server.hupu.com^
 ||heshun365.cn^
@@ -13147,6 +13159,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||mtrace.qq.com^
 ||mtt.eve.mdt.qq.com^
 ||mu6m1.com^
+||mucf.cc^$important
 ||muchenzhongguo.com^
 ||mudroom.aquadisco.xyz^
 ||muhnbc.cn^
@@ -14307,6 +14320,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||s.toutiao.com^
 ||s.ufile.cc^
 ||s.union.360.cn^
+||s.webank.com^$important
 ||s1.hapying.com^
 ||s1.qq.com^
 ||s1.ssl.qhres.com^
@@ -14824,6 +14838,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||t-qmad.qimao.com^
 ||t-remad.qm989.com^
 ||t.atomicfile.cn^
+||t.ctrip.cn^$important
 ||t.dentsuchina.cn^
 ||t.gdt.qq.com^
 ||t.jmads.net^
@@ -15219,6 +15234,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||u-x.jd.com^
 ||u.guannin.com^
 ||u.l.qq.com^
+||u.msxf.com^$important
 ||u.txuesoft.cn^
 ||u.x.jd.com^
 ||u1.idongde.com^
@@ -15428,6 +15444,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||v*.gdt.qq.com^
 ||v.adintl.cn^
 ||v.adx.hubcloud.com.cn^
+||v.didi.cn^$important
 ||v.gdt.qq.com^
 ||v.jingwoxin.com/huobao/2114/index.html^$important
 ||v.jingwoxin.com^$important
@@ -15803,6 +15820,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||wlgxaij.cn^
 ||wlhcb.cn^
 ||wlsyuule.cam^
+||wm4.cn^$important
 ||wmqfey.com^
 ||wmxke.com^
 ||wn.pos.baidu.com^
@@ -16133,6 +16151,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||xixrdn.xyz^
 ||xj.gdt.qq.com^
 ||xj.gtimg.cn^
+||xjietiao.com^$important
 ||xjrvwz.com^
 ||xjssjc.com^
 ||xjzyhp.xyz^
