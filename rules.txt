@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-25 18:07:00（北京时间）
+! Version: 2025-01-25 20:12:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16723
+! Total count: 16727
 
  
 #                    
@@ -758,6 +758,7 @@
 #公共CDN
 #其他↓
 #其他腾讯系
+#分期乐
 #去除oneplus云控
 #去除首页还有什么值得买推广
 #友盟平台
@@ -814,6 +815,7 @@
 #小米预警中心-地震预警
 #小米骚扰拦截 数据库更新
 #小红书分享链接
+#小赢
 #屏蔽微信后台自动下载
 #山姆
 #帖子详情好物推荐
@@ -838,6 +840,7 @@
 #快手相关
 #快手评论图片
 #快手送礼物
+#快贷
 #感谢*(https://github.com/niani2)反馈
 #懂车帝一些图片加载
 #手机搜狗输入法
@@ -4613,7 +4616,6 @@
 127.0.0.1 p3-tt.byteimg.com
 127.0.0.1 p3.adkwai.com
 127.0.0.1 p3.dcarimg.com
-127.0.0.1 p3.douyinpic.com
 127.0.0.1 p3.l.qq.com
 127.0.0.1 p4-ad.adukwai.com
 127.0.0.1 p5-ad.adukwai.com
@@ -6928,7 +6930,6 @@
 @@||gia.jd.com^$important
 @@||gift.douyucdn.cn^
 @@||gift.douyucdn.cn^$important
-@@||githubusercontent.com^$important
 @@||gk.sina.cn^
 @@||global-search.browser.miui.com^$important
 @@||globalapi.ad.xiaomi.com^
@@ -7907,7 +7908,6 @@ huya.com##.small-handle-tip
 huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 icon-icons.com##.bsa-placeholder.fondo-blanco
 iconfinder.com###banner_upgrade_prompt
-icu^
 ifeng.com##[class^='index_bottom_box']
 ifeng.com##[class^='index_fixSlideBox']
 ifeng.com##[class^='index_pageBottomBrand']
@@ -10116,6 +10116,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||cap.cyberlink.com^
 ||captivias.site^
 ||carbonads.com^
+||cardloan.xiaoying.com^$important
 ||cards-css.iqiyi.com^
 ||careers.hotjar.com^
 ||carstat.bitauto.com^
@@ -13492,6 +13493,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||opencdnpddvod2.jomodns.com^
 ||opencloud.wostore.cn^
 ||opencollective.com^
+||opengw.xiaoying.com^$important
 ||openjmacs.m.taobao.com^
 ||openlog.cashcatads.com^
 ||openmsf.3g.qq.com^
@@ -15916,6 +15918,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||www.bytedance.com.w.cdngslb.com^
 ||www.bytedance.com^
 ||www.cartoon18.com/assets/*/jquery.js
+||www.cdkuaidai.com^$important
 ||www.ceseasons.com^
 ||www.claiks.com^
 ||www.dahe6f.com^
@@ -15926,6 +15929,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||www.doca182.com^
 ||www.dragonib.com^
 ||www.dxmpay.com^
+||www.fenqile.com^$important
 ||www.fmiphone-apple.com^
 ||www.geodeep.org^
 ||www.google-analytics.com^
