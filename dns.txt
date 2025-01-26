@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-26 22:04:29（北京时间）
+! Version: 2025-01-27 00:07:17（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7885
+! Total count: 7883
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -3113,7 +3113,6 @@
 ||heshun365.cn^
 ||hesramfi.com^
 ||hexagon-analytics.com^
-||heytap.com^
 ||heytapugc.com^
 ||hezhib.top^
 ||hezlqmwm.com^
@@ -4667,7 +4666,6 @@
 ||ndfsl.com^
 ||ndqcz0e.xyz^
 ||ndujy.xyz^
-||nearme.com.cn^
 ||nefbjp.xyz^
 ||nefrpt.top^
 ||neg2zos.icu^

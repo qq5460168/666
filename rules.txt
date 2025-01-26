@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-26 22:04:29（北京时间）
+! Version: 2025-01-27 00:07:17（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16730
+! Total count: 16732
 
  
 #                    
@@ -876,6 +876,8 @@
 #极光推送
 #极弧
 #某些网页的图片加载
+#欢太官网
+#欢太软件商店
 #测速网站
 #海信TV
 #淘宝
@@ -6500,6 +6502,7 @@
 @@||apd-ugcvlive.apdcdn.tc.qq.com^$important
 @@||apd-vlive.apdcdn.tc.qq.com^$important
 @@||api-cmnt.wtzw.com^$important
+@@||api-cn.cdo.heytapmobi.com^$important
 @@||api-cn.store.heytapmobi.com^
 @@||api-cn.theme.heytapmobi.com^
 @@||api-game.meizu.com^$important
@@ -6610,6 +6613,7 @@
 @@||boxer.baidu.com^
 @@||boxer.baidu.com^$important
 @@||bqq.gtimg.com^$important
+@@||brand.heytap.com^$important
 @@||broccoli.uc.cn^$important
 @@||browser.360.cn^$important
 @@||browser.events.data.msn.com^$important
@@ -7513,6 +7517,7 @@
 @@||store.assistant.miui.com^$important
 @@||store.heytapimage.com^$important
 @@||store.meizu.com^
+@@||storedl1.nearme.com.cn^$important
 @@||stripe.com^$domain=pay.openai.com
 @@||studcat.infra.systems^$important
 @@||subscription.iqiyi.com^
@@ -8137,7 +8142,6 @@ tieba.baidu.com##div[class*='-ad-pb-']
 tools.bugscaner.com###div_qrcode_container
 tuniu.com##.web_envelope_mod, .tuniu-assist-hide, .show
 tv.sohu.com##.actv-banner.js-app-topbanner,.banner_yunying,.js-oper-pos,IMG.vrs-banner-act-img
-un^
 unpkg.com/aladug/*.js
 v.qq.com##div[class*="mod_row_box mod_row_box_special"]
 v11av.xyz##.content__body [rel='nofollow'][href][target='_blank']
@@ -11574,7 +11578,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||heshun365.cn^
 ||hesramfi.com^
 ||hexagon-analytics.com^
-||heytap.com^
 ||heytapugc.com^
 ||hezhib.top^
 ||hezlqmwm.com^
@@ -13251,7 +13254,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ndfsl.com^
 ||ndqcz0e.xyz^
 ||ndujy.xyz^
-||nearme.com.cn^
 ||nefbjp.xyz^
 ||nefrpt.top^
 ||neg2zos.icu^
