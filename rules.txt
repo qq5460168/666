@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-01-29 22:07:23（北京时间）
+! Version: 2025-01-30 00:09:41（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16735
+! Total count: 16785
 
  
 #                    
@@ -751,6 +751,7 @@
 #优酷
 #优酷app
 #优酷图片加载
+#传奇广告
 #低端影视
 #信息流及评论区广告
 #免费公共 DNS 服务器大全
@@ -975,6 +976,7 @@
 #表情消息
 #西瓜视频图片
 #视频app
+#讯飞输入法
 #谷歌广告服务
 #谷歌翻译，①网页，③新版APP用。
 #贴吧弹窗
@@ -1037,7 +1039,6 @@
 .com:8005/*&n=$third-party
 .com:8008/sc/*?n=$third-party
 .com:8010/cc/
-.com^
 .cyou/redbaiduct.com
 .cyou/xling_*_$third-party
 .fun/*.jss?17*&r=0$third-party
@@ -8399,7 +8400,10 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||10090dfs.com^
 ||1010pic.com^
 ||1017facai8.xyz^
+||103.192.211.66^$important
+||104.192.83.74^$important
 ||106.11.23.107^
+||107.148.161.253^$important
 ||109218er.xyz^
 ||1104piaoba2022.xyz^
 ||1105yh.com^
@@ -8409,6 +8413,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||1116yitiao2022.xyz^
 ||1117liangtiao2022.xyz^
 ||113-116-50-196-yf81c2bb.nodeedge.cn:9512^
+||114.132.216.51^$important
 ||11jianzhan.com^
 ||1205qitiao2022.xyz^
 ||120askimages.com^
@@ -8416,9 +8421,11 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||1222dfm3l.cc^
 ||1224.zg-babyroo.com^
 ||1233azpupg05.com^$important
+||125.124.158.40^$important
 ||12551-1311572332.cos.ap-shanghai.myqcloud.com^
 ||1267a.xyz^
 ||126ccb.xyz^
+||128tl.com^$important
 ||1338999.com^
 ||1377a.xyz^
 ||1378a.xyz^
@@ -8427,18 +8434,23 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||13hangpifa.com^
 ||14370.net^$important
 ||154.22.214.2^
+||155tl.com^$important
 ||155zn.com^
+||156.238.246.232 ^$important
 ||156zw.com/css/js/tools.js
 ||163.com/wap/special/article_cooper_piapia/
 ||163487*.qmgmw.com^
 ||1640831964042.se-life.cn^
+||172.247.38.153^$important
 ||17282.org^
 ||180zhengkkl.com^
 ||18479.pw^
+||186tl.com^$important
 ||187388.com^
 ||188555.com^
 ||18dui.com^
 ||1905715.com^
+||199tl.com^$important
 ||1biqug.com/js/ajax.js
 ||1dfsdfg.com^
 ||1hzopx6nz7.adobe.io^
@@ -8512,6 +8524,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||36mghtd.xyz^
 ||37.1.213.100^
 ||37bhof.com^
+||38.63.62.221^$important
 ||387635.com^
 ||38kmute.xyz^
 ||39mydp.xyz^
@@ -8536,7 +8549,11 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||4199tv.com^
 ||41grk.icu^
 ||42yenxh.cn^
+||43.159.198.195^$important
 ||44r9fl.xyz^
+||47.243.82.91^$important
+||47.252.15.122^$important
+||47.57.3.161^$important
 ||49789c.com^
 ||49789c.com^  
 ||4a9.cn^
@@ -8556,6 +8573,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||50aqzb.com^
 ||51-tour.net^
 ||51.la^
+||510tl.com^$important
 ||517heiya.com^
 ||51gongxiao.com^
 ||51jqq.top^
@@ -8566,6 +8584,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||52aoteman.com^
 ||52kuwang.cn^
 ||52pipaxing.com^
+||530tl.com^$important
 ||54askjdklm.xyz^
 ||54dbg.xyz^
 ||55001.fyi^
@@ -8573,6 +8592,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||555ysys.com/gg/g.js
 ||5598tp.com^
 ||55zzz.cn^
+||567tl.com^$important
 ||56fba.cn^
 ||56yk.com^
 ||58jingxuan.top/115
@@ -8606,7 +8626,9 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||637o.top^
 ||65432.pw^
 ||660pxbm.top^
+||665tl.com^$important
 ||670t5x.cn^
+||678tl.com^$important
 ||67it.com^
 ||68710266.com^
 ||688mob.com^
@@ -8648,6 +8670,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||77aiav.me^
 ||77nnv9.xyz^
 ||77qwq.com^
+||77tl.com^$important
+||77tlbb.com^$important
 ||77zz7.com^
 ||785008.com^
 ||785008.com^  
@@ -8670,6 +8694,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||7sj9n87sls.adobe.io^
 ||7xixi.site^
 ||7zz3maneujdf.me^
+||8.210.20.157^$important
+||8.210.61.119^$important
 ||8122888tp.com^
 ||8181zx.com^
 ||81wx.info^
@@ -8679,6 +8705,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||84893573.com^
 ||84zm8.xyz^
 ||86649334.com^
+||868tlbb.com^$important
 ||87012670.com^
 ||87318.xyz^
 ||87336.xyz^
@@ -8718,6 +8745,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||98765.pw^
 ||98765432100.online^
 ||98765432100.site^
+||98tl.com^$important
+||98tl.net^$important
 ||99999999.club^
 ||999gg.net^
 ||999pro.top^
@@ -11532,6 +11561,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||haohuo.snssdk.com^
 ||haokan.baidu.com^
 ||haokuaixiu.site^
+||haotl.com^$important
 ||haoweb.top^
 ||haoy1.top^
 ||haoyongdm.com^
@@ -14318,6 +14348,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||rzsgxmm.cn^
 ||s*-fe-scm.pglstatp-toutiao.com^
 ||s*a.pstatp.com^
+||s*voicecloud.cn^
 ||s.1rtb.net^
 ||s.amazon-adsystem.com^
 ||s.btime.com^
@@ -15682,6 +15713,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||vvdzucs.cn^
 ||vvfht.fun^
 ||vvv.dingouqc.com^$important
+||vvvtl.com^$important
 ||vvwuqxp.icu^
 ||vvxhth.xyz^
 ||vweixinthumb.tc.qq.com^
@@ -15888,21 +15920,35 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||wwkh9ku.xyz^
 ||www-env.dropbox-dns.com^
 ||www.*yydstxt*/js/cdn.js
+||www.128tl.com^$important
+||www.155tl.com^$important
 ||www.16m.cc^
 ||www.17c122.com^$important
 ||www.17c123.com^$important
 ||www.17c584.com^$important
 ||www.17c710.com^$important
 ||www.17c939.com^$important
+||www.186tl.com^$important
+||www.199tl.com^$important
 ||www.200ps.com^
 ||www.288txt.com/da/*.js
 ||www.3aym.cn^
+||www.510tl.com^$important
 ||www.517xx.com^
+||www.530tl.com^$important
+||www.567tl.com^$important
 ||www.5nj.com/js/cnzz*.js
+||www.665tl.com^$important
+||www.678tl.com^$important
 ||www.737qq.pw^$important
+||www.77tl.com^$important
+||www.77tlbb.com^$important
 ||www.7x8qwer.top^$important
+||www.868tlbb.com^$important
 ||www.9129666tp.com^
 ||www.9129yjtp.com^$important
+||www.98tl.com^$important
+||www.98tl.net^$important
 ||www.99tianxin.com^
 ||www.abblm.com^
 ||www.abcdlm.com^
@@ -15957,6 +16003,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||www.govyunfu.cn^
 ||www.govyunnan.cn^
 ||www.govzhajian.cn^
+||www.haotl.com^$important
 ||www.happyyong.com^
 ||www.hdmp4.cc/js/foot.js
 ||www.hebeixingfei.com^
@@ -16032,6 +16079,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||www.vbnm888.com^
 ||www.view-apple.com^
 ||www.vmsal.vip^
+||www.vvvtl.com^$important
 ||www.wedbccid.top^$important
 ||www.werwzd1.com^
 ||www.wndlkj.com^
@@ -16064,6 +16112,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||www.zhangjiyi.top^
 ||www.zhaohainan.cn^
 ||www.zubo1139.com^$important
+||www.zzztl.com^$important
 ||www42.zskwai.com^
 ||wwxufo.com^
 ||wx.uc.downcdn.top^
@@ -16732,6 +16781,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||zzxedr.xyz^
 ||zzxlhwyp.com^
 ||zzycj.com^
+||zzztl.com^$important
 ||奥门广场.com^
 ‖*.chat.bilibili.com
 某些其他
