@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-02-04 16:11:10（北京时间）
+! Version: 2025-02-04 18:08:47（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16791
+! Total count: 16830
 
  
 #                    
@@ -37,10 +37,12 @@
 # 百度贴吧
 # 皮皮虾无法访问问题
 # 知乎
+# 绕过企业证书过期
 # 网易云蜗牛阅读^
 # 美团
 # 腾讯视频
 # 色情广告图片服务器
+# 避免迅雷版权问题
 ## 163登陆
 ## 信息流及评论区广告
 ## 小米云服务备份
@@ -656,6 +658,7 @@
 #Fake Fucker
 #ICP/IP地址/域名信息备案管理系统
 #IP 地址查询
+#Logolabn去广告
 #MIUI 天气预报
 #MIUI 流量中心
 #MIUI去广告
@@ -697,12 +700,15 @@
 #Umeng | 友盟
 #X5内核文档插件下载
 #X8沙箱
+#YouTube 去底部广告
 #adobe
+#appcake去广告
 #bing
 #cdn加速
 #dropbox
 #gamepass日志
 #gp助手
+#https://qa666.xyz?tg=1959655
 #ios app付费解锁
 #ios上的pixiv
 #ios毒奶
@@ -744,6 +750,7 @@
 #京东图床
 #京东图片
 #京东存储和图片提供
+#人人视频
 #什么值得买浏览记录
 #今日诗词
 #代理游戏
@@ -798,6 +805,7 @@
 #字节系 AD API SDK 屏蔽
 #安逸花
 #小哥工作台
+#小小影视去广告
 #小米主题商店
 #小米主题设计师注册
 #小米云备份
@@ -840,6 +848,7 @@
 #快手相关
 #快手评论图片
 #快手送礼物
+#快活
 #快贷
 #感谢*(https://github.com/niani2)反馈
 #懂车帝一些图片加载
@@ -933,6 +942,7 @@
 #直播吧
 #知乎
 #知乎图片
+#福利网站去广告
 #科利达WiFi
 #移动app登录
 #移动广告平台
@@ -951,6 +961,7 @@
 #网易光遇 sky 登录
 #网易图片
 #网易年度总结
+#网络播放去广告
 #罗盘软件
 #美团外卖
 #美团推送(大众点评)
@@ -994,6 +1005,7 @@
 #针对转转App
 #链家、贝壳找房验证码
 #锁屏画报正常化
+#阅友去广告
 #阿里图片
 #阿里巴巴购物
 #阿里广告服务
@@ -8849,6 +8861,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||access1.tpns.tencent.com
 ||access1.tpns.tencent.com^
 ||accomplishmentmentalresurrection.com^
+||acf.huaerdadi.com^
 ||acgshenshicha.cn^
 ||ack.tuisong.baidu.com^
 ||ackcdn.net^
@@ -9143,6 +9156,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ads.pubmatic.com^
 ||ads.raidrive.com##a
 ||ads.raidrive.com##img
+||ads.reader.yueyouxs.com^
 ||ads.servebom.com^
 ||ads.service.kugou.com
 ||ads.service.kugou.com^
@@ -9387,6 +9401,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||aiclk.com^
 ||aid.video.qq.com^
 ||aifwjekfe.xyz^
+||aig.aigzg.com^
 ||ailehui9149.com^
 ||aiqu222.com/da/
 ||aiqu2727.com/da/
@@ -9516,6 +9531,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||aoyou3.top^
 ||aoyou4.top^
 ||aoyou5.top^
+||ap.91adv.com.cn^
 ||ap.dongqiudi.com^
 ||aparvibices.com^
 ||apd-*.v.smtcdns.com^
@@ -9794,7 +9810,11 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||auth-uploads.dhcc.wang^
 ||auth.be.sec.miui.com^
 ||auto423.com^$important
+||av1.xdrig.com^
 ||availablesshaother.com^
+||avapp.calvapib.me^
+||avapp.calvapic.me^
+||avapp.calvapid.me^
 ||avatar.confong.cn^
 ||avlstatic.vivo.com.cn^
 ||award.xmcdn.com^
@@ -10336,6 +10356,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||cloud-log.yy.com^
 ||cloud.shtac.cn^
 ||cloudasbook.com^
+||cloudconf.fengkongcloud.com^
 ||cloudflare.st^
 ||club.bilibili.com^
 ||clue.oceanengine.com^
@@ -10973,6 +10994,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||egsxdp.cn^
 ||eheb8.cn^
 ||ehfjup.xyz^
+||ehg-youtube.hitbox.com^
 ||ehk.trenhdg.com^
 ||eiadf.xyz^
 ||eifyeldw.top^
@@ -10985,6 +11007,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ekdky.cn^
 ||elegant-creator.com^
 ||elevatorpartsbuy.com^
+||eleven.bayescom.cn^
 ||elinvarpayola.com^
 ||elopatchwork.com^
 ||elsmom.xyz^
@@ -11417,6 +11440,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||google-analytics.com^
 ||googleadapis.com^
 ||googleads-cn.com^
+||googleads.g.doubleclick-cn.net^
 ||googleads.g.doubleclick.nes^
 ||googleads.g.doubleclick.net^
 ||googleadservices-cn.com^
@@ -11777,6 +11801,9 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||huaweicdncmnet.inter.iqiyi.com^
 ||huaweinnd.top^
 ||huaxia.name^
+||hub5btmain.v6.shub.sandai.net^
+||hub5emu.v6.shub.sandai.net^
+||hub5idx.v6.shub.sandai.net^
 ||hubcloud.com.cn^
 ||hubiazhi.com^
 ||hudiecaifu.com^
@@ -12391,6 +12418,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||kklpe.xyz^
 ||kkmbbvz.xyz^
 ||kkpgv2.xunlei.com^
+||kksdk.tapque.com^
 ||kkylx.xyz^
 ||kl.67it.com^
 ||kl.yditweb.cn^
@@ -12974,6 +13002,9 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||mcs.snssdk.com^
 ||mcs.zijieapi.com^
 ||mdap.alipay.com^
+||mdapi.lyvsas.fun^
+||mdapi.mdlzyx.me^
+||mdapi.opsvwa.xyz^
 ||mdc.html5.qq.com^
 ||mdevstat.qqlive.qq.com^
 ||mdhxyhl.cn^
@@ -13449,6 +13480,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||oceanbot-steam.com^
 ||oceanengine.com^
 ||ocloud-httpdns-cn.heytapmobi.com^
+||ocsp.apple.com^
 ||ocx.umeng.com^
 ||oehhq.xyz^
 ||oewtuho.cn^
@@ -13498,6 +13530,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||omgmta1.qq.com^
 ||omhoa.com^
 ||omlube.com/O/1000970O3001405O1O.js
+||omsdkapi.tapque.com^
 ||oncinu.com^
 ||one.fsylr.com^
 ||one.gongshu168.cn^
@@ -13624,6 +13657,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||p*-yx.adkwai.com^
 ||p*.bdxiguaimg.com^$important
 ||p.buluo.qq.com^
+||p.juxuyun.com^
 ||p.l.qq.com^
 ||p.mb.qq.com^
 ||p.s.360.cn^
@@ -13959,6 +13993,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||putv.qpic.cn^
 ||puy2.cn^
 ||pv.cheshi.com^
+||pv.dakawm.cc^
 ||pv.quw1234.icu^
 ||pv.zhiding.cn^
 ||pvajlmhjjq.xyz^
@@ -14464,6 +14499,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||sdk-log.partner.sm.cn^
 ||sdk-open-phone.getui.com^
 ||sdk.1rtb.net^
+||sdk.adtiming.com^
 ||sdk.alibaba.com.ailbaba.me^
 ||sdk.api.oaid.wocloud.cn^
 ||sdk.beizi.biz^
@@ -14471,6 +14507,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||sdk.e.qq.com
 ||sdk.e.qq.com^
 ||sdk.hzsanjiaomao.com^
+||sdk.kkpromotion.tapque.com^
 ||sdk.markmedia.com.cn^
 ||sdk.mobads.adwangmai.com^
 ||sdk.nouzhu.cn
@@ -14510,6 +14547,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||sealine.youku.com^
 ||search.ixigua.com^
 ||search.video.iqiyi.com^
+||search1.kuaihuoapi.com^
 ||search3-search.ixigua.com^
 ||search5-search-hl.ixigua.com^
 ||search5-search.ixigua.com^
@@ -16053,6 +16091,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||www.pksanb.com^
 ||www.ppslsa.com^
 ||www.q4ee.top^
+||www.qchannel01.cn^
 ||www.qhj0u.com^$important
 ||www.qinlinghe.com^
 ||www.qkixi.com^

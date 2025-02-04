@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-02-04 16:11:10（北京时间）
+! Version: 2025-02-04 18:08:47（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7885
+! Total count: 7912
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -514,6 +514,7 @@
 ||access.toggle.qq.com^
 ||access1.tpns.tencent.com^
 ||accomplishmentmentalresurrection.com^
+||acf.huaerdadi.com^
 ||acgshenshicha.cn^
 ||ack.tuisong.baidu.com^
 ||ackcdn.net^
@@ -802,6 +803,7 @@
 ||ads.pinterest.com^
 ||ads.privacy.qq.com^
 ||ads.pubmatic.com^
+||ads.reader.yueyouxs.com^
 ||ads.servebom.com^
 ||ads.service.kugou.com^
 ||ads.serving-sys.cn^
@@ -1041,6 +1043,7 @@
 ||aiclk.com^
 ||aid.video.qq.com^
 ||aifwjekfe.xyz^
+||aig.aigzg.com^
 ||ailehui9149.com^
 ||aiseet.aa.atianqi.com^
 ||aiseet.atianqi.com^
@@ -1158,6 +1161,7 @@
 ||aoyou3.top^
 ||aoyou4.top^
 ||aoyou5.top^
+||ap.91adv.com.cn^
 ||ap.dongqiudi.com^
 ||aparvibices.com^
 ||apd-*.v.smtcdns.com^
@@ -1405,7 +1409,11 @@
 ||autchoog.net^
 ||auth-uploads.dhcc.wang^
 ||auth.be.sec.miui.com^
+||av1.xdrig.com^
 ||availablesshaother.com^
+||avapp.calvapib.me^
+||avapp.calvapic.me^
+||avapp.calvapid.me^
 ||avatar.confong.cn^
 ||avlstatic.vivo.com.cn^
 ||award.xmcdn.com^
@@ -1909,6 +1917,7 @@
 ||cloud-log.yy.com^
 ||cloud.shtac.cn^
 ||cloudasbook.com^
+||cloudconf.fengkongcloud.com^
 ||cloudflare.st^
 ||club.bilibili.com^
 ||clue.oceanengine.com^
@@ -2494,6 +2503,7 @@
 ||egsxdp.cn^
 ||eheb8.cn^
 ||ehfjup.xyz^
+||ehg-youtube.hitbox.com^
 ||ehk.trenhdg.com^
 ||eiadf.xyz^
 ||eifyeldw.top^
@@ -2506,6 +2516,7 @@
 ||ekdky.cn^
 ||elegant-creator.com^
 ||elevatorpartsbuy.com^
+||eleven.bayescom.cn^
 ||elinvarpayola.com^
 ||elopatchwork.com^
 ||elsmom.xyz^
@@ -2921,6 +2932,7 @@
 ||google-analytics.com^
 ||googleadapis.com^
 ||googleads-cn.com^
+||googleads.g.doubleclick-cn.net^
 ||googleads.g.doubleclick.nes^
 ||googleads.g.doubleclick.net^
 ||googleadservices-cn.com^
@@ -3265,6 +3277,9 @@
 ||huaweicdncmnet.inter.iqiyi.com^
 ||huaweinnd.top^
 ||huaxia.name^
+||hub5btmain.v6.shub.sandai.net^
+||hub5emu.v6.shub.sandai.net^
+||hub5idx.v6.shub.sandai.net^
 ||hubcloud.com.cn^
 ||hubiazhi.com^
 ||hudiecaifu.com^
@@ -3838,6 +3853,7 @@
 ||kklpe.xyz^
 ||kkmbbvz.xyz^
 ||kkpgv2.xunlei.com^
+||kksdk.tapque.com^
 ||kkylx.xyz^
 ||kl.67it.com^
 ||kl.yditweb.cn^
@@ -4375,6 +4391,9 @@
 ||mcs.snssdk.com^
 ||mcs.zijieapi.com^
 ||mdap.alipay.com^
+||mdapi.lyvsas.fun^
+||mdapi.mdlzyx.me^
+||mdapi.opsvwa.xyz^
 ||mdc.html5.qq.com^
 ||mdevstat.qqlive.qq.com^
 ||mdhxyhl.cn^
@@ -4813,6 +4832,7 @@
 ||oceanbot-steam.com^
 ||oceanengine.com^
 ||ocloud-httpdns-cn.heytapmobi.com^
+||ocsp.apple.com^
 ||ocx.umeng.com^
 ||oehhq.xyz^
 ||oewtuho.cn^
@@ -4860,6 +4880,7 @@
 ||omgmta.qq.com^
 ||omgmta1.qq.com^
 ||omhoa.com^
+||omsdkapi.tapque.com^
 ||oncinu.com^
 ||one.fsylr.com^
 ||one.gongshu168.cn^
@@ -4981,6 +5002,7 @@
 ||p*-webcast-sign.douyinpic.com^
 ||p*-yx.adkwai.com^
 ||p.buluo.qq.com^
+||p.juxuyun.com^
 ||p.l.qq.com^
 ||p.mb.qq.com^
 ||p.s.360.cn^
@@ -5296,6 +5318,7 @@
 ||putv.qpic.cn^
 ||puy2.cn^
 ||pv.cheshi.com^
+||pv.dakawm.cc^
 ||pv.quw1234.icu^
 ||pv.zhiding.cn^
 ||pvajlmhjjq.xyz^
@@ -5774,12 +5797,14 @@
 ||sdk-log.partner.sm.cn^
 ||sdk-open-phone.getui.com^
 ||sdk.1rtb.net^
+||sdk.adtiming.com^
 ||sdk.alibaba.com.ailbaba.me^
 ||sdk.api.oaid.wocloud.cn^
 ||sdk.beizi.biz^
 ||sdk.cferw.com^
 ||sdk.e.qq.com^
 ||sdk.hzsanjiaomao.com^
+||sdk.kkpromotion.tapque.com^
 ||sdk.markmedia.com.cn^
 ||sdk.mobads.adwangmai.com^
 ||sdk.open.phone.igexin.com^
@@ -5815,6 +5840,7 @@
 ||sealine.youku.com^
 ||search.ixigua.com^
 ||search.video.iqiyi.com^
+||search1.kuaihuoapi.com^
 ||search3-search.ixigua.com^
 ||search5-search-hl.ixigua.com^
 ||search5-search.ixigua.com^
@@ -7219,6 +7245,7 @@
 ||www.pksanb.com^
 ||www.ppslsa.com^
 ||www.q4ee.top^
+||www.qchannel01.cn^
 ||www.qinlinghe.com^
 ||www.qkixi.com^
 ||www.qlspx.com^
