@@ -2,7 +2,7 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-02-05 18:08:37（北京时间）
+! Version: 2025-02-05 20:14:27（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 16863
 
@@ -5514,7 +5514,6 @@
 127.0.0.1 sz.gafz.chanct.cn
 127.0.0.1 szextshort.weixin.qq.com
 127.0.0.1 szlong.weixin.qq.com
-127.0.0.1 szminorshort.weixin.qq.com
 127.0.0.1 szxy.getui.com
 127.0.0.1 t-dsp.pinduoduo.com
 127.0.0.1 t-l.play.aiseet.atianqi.com
@@ -7056,6 +7055,7 @@
 @@||intercom-clicks.com^
 @@||interest.mix.sina.com.cn^$important
 @@||ios.bugly.qq.com^$important
+@@||ios.crashsight.qq.com^$important
 @@||ip.cn^$important
 @@||ip.rtbasia.com^
 @@||ip.taobao.com^$important
@@ -7494,7 +7494,6 @@
 @@||sm.cn^$important
 @@||smart.360.cn^
 @@||smsks1.cmpassport.com^$important
-@@||snowflake.qq.com^$important
 @@||sobot.com^
 @@||sofire.baidu.com^
 @@||sofire.baidu.com^$important
@@ -7556,6 +7555,7 @@
 @@||sysdk.cl2009.com^$important
 @@||szlong.weixin.qq.com^
 @@||szmg.qq.com^
+@@||szminorshort.weixin.qq.com^$important
 @@||szmmsns.qpic.cn^$important
 @@||t.co^$important
 @@||t.uc.cn^$important
