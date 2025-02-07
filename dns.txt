@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-02-08 00:09:12（北京时间）
+! Version: 2025-02-08 02:10:40（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7907
+! Total count: 7908
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -152,7 +152,6 @@
 ||1113dage2022.xyz^
 ||1116yitiao2022.xyz^
 ||1117liangtiao2022.xyz^
-||113-116-50-196-yf81c2bb.nodeedge.cn:9512^
 ||11jianzhan.com^
 ||1205qitiao2022.xyz^
 ||120askimages.com^
@@ -591,6 +590,7 @@
 ||ad.daum.net^
 ||ad.dev.360.cn^
 ||ad.doubleclick.net^
+||ad.duapps.com^
 ||ad.e.kuaishou.com^
 ||ad.gamebox.360.cn^
 ||ad.gtbrowser.com^
@@ -807,6 +807,7 @@
 ||ads.service.kugou.com^
 ||ads.serving-sys.cn^
 ||ads.sohu.com^
+||ads.soulapp.cn^
 ||ads.static.madserving.com^
 ||ads.sunmaker.com^
 ||ads.superad.cc^
@@ -2393,7 +2394,6 @@
 ||dsplog.vivo.com.cn^
 ||dspsdk.pinduoduo.com^
 ||dsqzk.cn^
-||dss0.bdstatic.com^
 ||dstbekdf.xyz^
 ||dstbunkfw.xyz^
 ||dt243100.com^
@@ -5707,6 +5707,7 @@
 ||s.toutiao.com^
 ||s.ufile.cc^
 ||s.union.360.cn^
+||s0n9app.com^
 ||s1.hapying.com^
 ||s1.qq.com^
 ||s1.ssl.qhres.com^
@@ -6091,7 +6092,6 @@
 ||stat.youpin.mi.com^
 ||statcounter.com^
 ||static-d.iqiyi.com^
-||static-s.iqiyi.com^
 ||static-ssl.mediav.com^
 ||static.ads-twitter.com^
 ||static.cdnativepush.com^
@@ -6441,6 +6441,7 @@
 ||tracker.gitee.com^
 ||tracker.kugou.com^
 ||tracker.medproad.com^
+||tracker.soulapp.cn^
 ||trackerads.com^
 ||trackercdnbj.kugou.com^
 ||tracking.kdnet.net^
