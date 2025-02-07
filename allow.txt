@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-02-07 14:12:04（北京时间）
+! Version: 2025-02-07 16:10:51（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3041
+! Total count: 3045
 @@*.flyme.cn
 @@*.myapp.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -1171,6 +1171,7 @@
 @@||activity.tuiapple.com^$important
 @@||activity.windows.com
 @@||activity.windows.com^$important
+@@||activity.youku.com^$important
 @@||ad-log-upload.mihoyo.com^
 @@||ad.doubleclick.net^
 @@||ad.mcloud.139.com^$important
@@ -1205,6 +1206,7 @@
 @@||ali-gamezone.static.yximgs.com^
 @@||ali-ky.static.yximgs.com^
 @@||ali.static.yximgs.com^
+@@||ali.static.yximgs.com^$important
 @@||ali2.a.yximgs.com^$important
 @@||alicdn.com^$important
 @@||alissl.ucdl.pp.uc.cn^$important
@@ -1518,6 +1520,7 @@
 @@||click.redditmail.com^
 @@||click.royalcaribbeanmarketing.com^
 @@||click.s.kohls.com^
+@@||click.simba.taobao.com^
 @@||click.simba.taobao.com^$important
 @@||click.snapshat.com^
 @@||click.zoom.us^
@@ -1779,6 +1782,7 @@
 @@||f11.baidu.com^$important
 @@||f12.baidu.com^$important
 @@||f4.market.xiaomi.com^
+@@||f7.baidu.com^$important
 @@||f8.market.xiaomi.com^$important
 @@||facebook.com^$important
 @@||fanqienovel.com^
