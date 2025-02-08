@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-02-08 20:12:42（北京时间）
+! Version: 2025-02-08 22:06:23（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16969
+! Total count: 16987
 
  
                    
@@ -17,7 +17,7 @@
 # NOMO APP
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2025-02-08T19:58:05+08:00
+# Update time: 2025-02-08T21:58:22+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -742,6 +742,7 @@
 #丰巢
 #丰巢app图片
 #主题商店
+#乐享借
 #书旗
 #书旗听书
 #书旗小说评论
@@ -765,6 +766,7 @@
 #传奇广告
 #低端影视
 #信息流及评论区广告
+#借钱呗
 #免费公共 DNS 服务器大全
 #公共CDN
 #其他↓
@@ -850,6 +852,7 @@
 #微信相关↓
 #微信视频号图片
 #微粒贷
+#微银信用
 #必应
 #快手图标
 #快手头像
@@ -6369,7 +6372,6 @@
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.182.64.73                  github-com.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6381,27 +6383,27 @@
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
+185.199.108.133               avatars.githubusercontent.com
+185.199.108.133               avatars0.githubusercontent.com
+185.199.108.133               avatars1.githubusercontent.com
+185.199.108.133               avatars2.githubusercontent.com
+185.199.108.133               avatars3.githubusercontent.com
+185.199.108.133               avatars4.githubusercontent.com
+185.199.108.133               avatars5.githubusercontent.com
+185.199.108.133               camo.githubusercontent.com
+185.199.108.133               cloud.githubusercontent.com
+185.199.108.133               desktop.githubusercontent.com
+185.199.108.133               favicons.githubusercontent.com
+185.199.108.133               github.map.fastly.net
+185.199.108.133               media.githubusercontent.com
+185.199.108.133               objects.githubusercontent.com
+185.199.108.133               raw.githubusercontent.com
+185.199.108.133               user-images.githubusercontent.com
+185.199.108.153               github.io
 185.199.108.153               githubstatus.com
 185.199.109.153               assets-cdn.github.com
-185.199.109.153               github.io
 185.199.109.154               github.githubassets.com
-185.199.111.133               avatars.githubusercontent.com
-185.199.111.133               avatars0.githubusercontent.com
-185.199.111.133               avatars1.githubusercontent.com
-185.199.111.133               avatars2.githubusercontent.com
-185.199.111.133               avatars3.githubusercontent.com
-185.199.111.133               avatars4.githubusercontent.com
-185.199.111.133               avatars5.githubusercontent.com
-185.199.111.133               camo.githubusercontent.com
-185.199.111.133               cloud.githubusercontent.com
-185.199.111.133               desktop.githubusercontent.com
-185.199.111.133               favicons.githubusercontent.com
-185.199.111.133               github.map.fastly.net
-185.199.111.133               media.githubusercontent.com
-185.199.111.133               objects.githubusercontent.com
-185.199.111.133               private-user-images.githubusercontent.com
-185.199.111.133               raw.githubusercontent.com
-185.199.111.133               user-images.githubusercontent.com
+185.199.110.133               private-user-images.githubusercontent.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -6420,7 +6422,6 @@
 23.53.11.237 store.akamai.steamstatic.com
 23.53.11.246 cdn.akamai.steamstatic.com
 23.53.11.248 community.akamai.steamstatic.com
-3.5.2.232                     github-production-repository-file-5c1aeb.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 404: Not Found
@@ -6434,10 +6435,12 @@
 47.246.37.220 hugeota.d.miui.com
 51.ruyo.net###calendar-3
 51.ruyo.net###recent-posts-4
-52.216.58.113                 github-cloud.s3.amazonaws.com
-52.217.192.249                github-production-user-asset-6210df.s3.amazonaws.com
+52.216.215.9                  github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.216.32.105                 github-cloud.s3.amazonaws.com
+52.217.167.97                 github-production-user-asset-6210df.s3.amazonaws.com
 52.217.228.105                github-production-release-asset-2e65be.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+54.231.196.233                github-com.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 66.203.124.31 mega.co.nz
@@ -7596,6 +7599,7 @@
 @@||sm.cn^$important
 @@||smart.360.cn^
 @@||smsks1.cmpassport.com^$important
+@@||snowflake.qq.com^$important
 @@||sobot.com^
 @@||sofire.baidu.com^
 @@||sofire.baidu.com^$important
@@ -8990,6 +8994,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||acscdn.com^
 ||act.qq.com^
 ||actfile.cdn.pandora.xiaomi.com^
+||action.fenqile.com^$important
 ||activation.cyberlink.com^
 ||activeqq.3g.qq.com^
 ||activity-ag.awemeughun.com^
@@ -9819,6 +9824,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||apiyd.my91app.com^
 ||apk-lb-json.fodexin.com^
 ||apk.qqvv88.com^
+||apk.xurongwl.com^$important
 ||apks.webxiaobai.top^
 ||apm-log-upload-os.hoyoverse.com^
 ||apmplus.volces.com^
@@ -10561,6 +10567,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||cooperation.html5.qq.com^
 ||corssdk.map.qq.com^
 ||cos.ho7k.com^
+||coss-shark-down.fenqile.com^$important
 ||count.candou.com^
 ||count.enet.com.cn^
 ||count.nuanyuehanxing.com^
@@ -10600,6 +10607,10 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||creative.medproad.com^
 ||creepingbrings.com^
 ||creport.start.qq.com^
+||cres.fenqile.cn^$important
+||cresauth.fenqile.cn^$important
+||cresauth1.fenqile.cn^$important
+||cresauth2.fenqile.cn^$important
 ||crf999.cn^
 ||criteo.net^
 ||crobotb.com^
@@ -10746,6 +10757,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dbnsd2viud.xyz^
 ||dbnwlp.xyz^
 ||dbxok6uo.icu^
+||dc.fenqile.com^$important
 ||dc.letv.com^
 ||dc.services.visualstudio.com^
 ||dc.sigmob.cn^
@@ -12378,6 +12390,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||jpvrbt.xyz^
 ||jq-ww.com^
 ||jq-ww.com^  
+||jqb.wzyzxedkgs.com^$important
+||jqbapiweb.wzyzxedkgs.com^$important
 ||jqkcett.icu^
 ||jqmt.qq.com^
 ||jqtkzuco.xyz^
@@ -13508,7 +13522,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||nissifresh.com^
 ||nithisp.cn^
 ||niulai0323166.space^
-||nj.cschannel.anticheatexpert.com^
 ||njcengpianwang.cn^
 ||njcyt.com^
 ||njogejt.icu^
@@ -15596,6 +15609,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||upload-z0.qiniup.com^
 ||upload.ksapisrv.com^
 ||upload.luckyorange.net^
+||upload.xurongwl.com^$important
 ||upload_data.qq.com^
 ||uploadlog.p2p.qq.com^
 ||uploads*.gifshow.com^
@@ -15989,6 +16003,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||wdzwd.xyz^
 ||weather-analytics-events.apple.com^
 ||weather-community-drcn.weather.dbankcloud.cn^
+||web.xurongwl.com^$important
 ||webcast*-open-lq.douyin.com^
 ||webcast-open.douyin.com^
 ||webcast.amemv.com/webcast/gamecp/*^
@@ -16344,6 +16359,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||xckyqq.com^
 ||xcmz999.com^
 ||xcvwrj.xyz^
+||xcwl.tech^$important
 ||xcwzq.xyz^
 ||xdcs-collector.ximalaya.com^
 ||xddzshop.com^
@@ -16689,6 +16705,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||yxhjt.com^
 ||yximgs.com^
 ||yxmrqc.com^
+||yxtapi.wuzhouali.top^$important
+||yxth5.wuzhouali.top^$important
 ||yxvoud.com^
 ||yy4480qpgyy.com^
 ||yyefao.com^
