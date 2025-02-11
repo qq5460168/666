@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-02-11 08:38:17（北京时间）
+! Version: 2025-02-11 10:41:31（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16875
+! Total count: 16855
 
  
                    
@@ -17,7 +17,7 @@
 # NOMO APP
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2025-02-11T07:58:07+08:00
+# Update time: 2025-02-11T09:58:01+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -6425,6 +6425,7 @@
 23.53.11.237 store.akamai.steamstatic.com
 23.53.11.246 cdn.akamai.steamstatic.com
 23.53.11.248 community.akamai.steamstatic.com
+3.5.31.106                    github-production-repository-file-5c1aeb.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 404: Not Found
@@ -6436,11 +6437,10 @@
 45.116.79.187 fakelocation.api.lerist.dev
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.58.113                 github-cloud.s3.amazonaws.com
-52.217.192.249                github-production-user-asset-6210df.s3.amazonaws.com
-52.217.225.209                github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.167.97                 github-production-user-asset-6210df.s3.amazonaws.com
+52.217.228.105                github-production-release-asset-2e65be.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-54.231.233.57                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+54.231.197.129                github-cloud.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 66.203.124.31 mega.co.nz
@@ -8455,6 +8455,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||1381a.xyz^
 ||13hangpifa.com^
 ||14370.net^$important
+||1500020991.vodplayer.wxamedia.com^
 ||154.22.214.2^
 ||155tl.com^$important
 ||155zn.com^
@@ -11532,6 +11533,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||guzsjdl.cn^
 ||gvbhae0.com^
 ||gvgdeo-c.125299490711.cos.ap-nqewak.com.yunruig.xyz^$important
+||gvideo.qpic.cn^
 ||gw-w.jiaoliuqu.com^
 ||gw.yoccj.cn^$important
 ||gw1jvhs.com^
@@ -14880,6 +14882,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||static.qblv.qq.com^
 ||static.res.qq.com^
 ||static.squirrelgs.info^$important
+||static.wxqcloud.qq.com.cn^
 ||static.yxh1.cn^$important
 ||statics.woozooo.com^
 ||statics88.vip^
@@ -15821,32 +15824,9 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||w.inmobi.com^
 ||w.l.qq.com^
 ||w1.askwai.com^
-||w1.bskwai.com^
-||w1.cskwai.com^
-||w1.dskwai.com^
 ||w1.dxmstatic.com^
-||w1.eskwai.com^
-||w1.fskwai.com^
 ||w1.gskwai.com^
-||w1.hskwai.com^
-||w1.iskwai.com^
-||w1.jskwai.com^
 ||w1.kskwai.com^
-||w1.lskwai.com^
-||w1.mskwai.com^
-||w1.nskwai.com^
-||w1.oskwai.com^
-||w1.pskwai.com^
-||w1.qskwai.com^
-||w1.rskwai.com^
-||w1.sskwai.com^
-||w1.tskwai.com^
-||w1.uskwai.com^
-||w1.vskwai.com^
-||w1.wskwai.com^
-||w1.xskwai.com^
-||w1.yskwai.com^
-||w1.zskwai.com^
 ||w2.eckwai.com^
 ||w2.gskwai.com^
 ||w2.kskwai.com^
