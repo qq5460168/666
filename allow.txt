@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-02-17 20:15:09（北京时间）
+! Version: 2025-02-17 22:07:58（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2937
+! Total count: 2942
 @@*.flyme.cn
 @@*.myapp.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -1119,6 +1119,7 @@
 @@||316.coolapk1s.com^
 @@||360.cn^
 @@||360buyimg.com^$important
+@@||360kuai.com^$important
 @@||3746760377.qnqcdn.net^$important
 @@||3975.com^
 @@||3d-platform-pro.obs.cn-south-1.myhuaweicloud.com^$important
@@ -1921,6 +1922,7 @@
 @@||imasdk.googleapis.com^
 @@||ime-store-cdn.gtimg.com^$important
 @@||img*.funshion.com^
+@@||img.360kuai.com^$important
 @@||img.alicdn.com^$important
 @@||img.cmvideo.cn^$important
 @@||img.funshion.com^
@@ -1931,6 +1933,7 @@
 @@||img.zuoyebang.cc^$important
 @@||img14.360buyimg.com^
 @@||imgcache.qq.com^$important
+@@||imgx.mediav.com^$important
 @@||imop.com^
 @@||imtt.dd.qq.com^$important
 @@||in.appcenter.ms^$important
@@ -2391,6 +2394,7 @@
 @@||printerconfigurations.googleusercontent.com^$important
 @@||pro.bugly.qq.com^$important
 @@||pro.m.jd.com^$important
+@@||prod-chat-kimi-tos.moonshot.cn
 @@||prod.firstpartyapps.oaspapps.com.akadns.net^$important
 @@||prod.msocdn.com^$important
 @@||profile.csdnimg.cn^
@@ -2831,6 +2835,7 @@
 @@||wwo.wps.cn^$important
 @@||www-env.dropbox-dns.com^$important
 @@||www.123pan.com^$important
+@@||www.360kuai.com^$important
 @@||www.acompli.com^$important
 @@||www.alidns.com^$important
 @@||www.apple.com.cn^$important
