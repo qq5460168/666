@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-02-18 18:08:33（北京时间）
+! Version: 2025-02-18 20:14:45（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7903
+! Total count: 7910
 ||*-*.ad*kwai.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -643,6 +643,7 @@
 ||ad.zhuanzhuan.com^
 ||ad.zijieapi.com^
 ||ad1.xiaomi.com^
+||ad2.ettoday.net^
 ||ad2023.site^
 ||ad7.com^
 ||ada.baidu.com^
@@ -2181,6 +2182,7 @@
 ||ddush.xyz^
 ||ddxolb.xyz^
 ||de.ad.gameley.com^
+||de.tynt.com^
 ||dedcrfvdj.xyz^
 ||deeplink.umeng.com^
 ||deeterno.cn^
@@ -3472,6 +3474,7 @@
 ||in-addr.arpa^
 ||in-page-push.com^
 ||in.appcenter.ms^
+||in.treasuredata.com^
 ||indivdict.gtimg.com^
 ||indivi-cdn-v6.shouji.sogou.com^
 ||info.3g.qq.com^
@@ -4198,6 +4201,7 @@
 ||log.mmstat.com^
 ||log.music.baidu.com^
 ||log.pinterest.com^
+||log.popin.cc^
 ||log.snssdk.com.bytedns.net^
 ||log.snssdk.com^
 ||log.stat.kugou.com^
@@ -5051,7 +5055,6 @@
 ||p26.gejulm*.com^
 ||p2cdn.com^
 ||p2kfynrr.icu^
-||p2p.huya.com^
 ||p3-ad-sign.byteimg.com/web.business.image^
 ||p3-ad-sign.byteimg.com^
 ||p3-ad.adbkwai.com^
@@ -5629,6 +5632,7 @@
 ||rksnqq.com^
 ||rkzby.cn^
 ||rljjt.cn^
+||rlog.popin.cc^
 ||rlog.video.qq.com^
 ||rlogs.youdao.com^
 ||rlqoyht.icu^
@@ -5748,6 +5752,7 @@
 ||s65m.win^
 ||s6in.cc^
 ||s8.url.cn^
+||s8t.teads.tv^
 ||sa8zdui.com^
 ||saad.ms.zhangyue.net^
 ||saas-static.yiye.ai^
@@ -6209,12 +6214,14 @@
 ||t.jmads.net^
 ||t.l.qq.com^
 ||t.sj.qq.com^
+||t.teads.tv^
 ||t.track.ad.xiaomi.com^
 ||t002.ottcn.com^
 ||t0pan.top^
 ||t1-app.dewu.com^
 ||t1-fast.dewu.net^
 ||t1.a.market.xiaomi.com^
+||t1.teads.tv^
 ||t1tgame.com^
 ||t2.a.market.xiaomi.com^
 ||t23o.cn^
