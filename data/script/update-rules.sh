@@ -46,7 +46,8 @@ rules=(
   "https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/blacklist.txt" #Zisbusy
 
 # "http://rssv.cn/adguard/api.php?type=black" #晴雅
- "" #
+
+"https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt" #茯苓
  "" #
   
  
