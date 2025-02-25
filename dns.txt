@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-02-25 14:11:37（北京时间）
+! Version: 2025-02-25 16:11:21（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8399
+! Total count: 8411
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -30,6 +30,7 @@
 ||*.4egscv.com^
 ||*.59p643.com^
 ||*.5z6h6b.cn^
+||*.60qso7.com^
 ||*.6nxa6g.com^
 ||*.80ritc.com^
 ||*.8le8le.com^
@@ -58,6 +59,7 @@
 ||*.dns.cross.gt^
 ||*.dtsmndu.com^
 ||*.eavztdi.com^
+||*.emsxev.xyz^
 ||*.evqvxuq.com^
 ||*.f1k4eil.xyz^
 ||*.fohbgjv.com^
@@ -78,9 +80,12 @@
 ||*.kwilmid.top^
 ||*.kxayxw.cn^
 ||*.laebu.cn^
+||*.lzwrhiw.xyz^
 ||*.mise*.buzz^
+||*.njp878.com^
 ||*.nrb.footprintdns.com^
 ||*.obj23q.com^
+||*.ombuw.xyz^
 ||*.oneliner.cn^
 ||*.oweisik.top^
 ||*.p2p.huya.com^
@@ -91,6 +96,7 @@
 ||*.qc.bsccdn.net^
 ||*.qgivvd.cn^
 ||*.retail.n.weimob.com^
+||*.s8etj5.com^
 ||*.saxysec.com^
 ||*.sigmob.cn^
 ||*.siigck.xyz^
@@ -102,12 +108,14 @@
 ||*.v4v6v4.com^
 ||*.va.huya.com^
 ||*.vegslb.com^
+||*.vkomjd.com^
 ||*.weilayun.com^
 ||*.wfojsm.com^
 ||*.x586di.com^
 ||*.xqojux.xyz^
 ||*.ydxdg.xyz^
 ||*.yinghua-*.cc^
+||*.z9ehxz.com^
 ||*.ztgha.xyz^
 ||*/ad-app-package/*^
 ||*/ads/index.htm*^
@@ -1762,6 +1770,7 @@
 ||bi-sensors.duxiaoman.com^
 ||bianxian.com^
 ||bid-adx.vlion.cn^
+||bidotz.icu^
 ||bidtoolads.com^
 ||bieqpf.cn^
 ||biexsite.net^
@@ -5175,6 +5184,7 @@
 ||nzymeedg.icu^
 ||o.iads.unity3d.com^
 ||o.zjjrlx4.com^
+||o1098464.ingest.sentry.io^
 ||o2.jyjyj.cn^
 ||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com.gds.alibabadns.com^
 ||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^
@@ -5200,6 +5210,7 @@
 ||ocx.umeng.com^
 ||oehhq.xyz^
 ||oewtuho.cn^
+||of1j087.top^
 ||offerwall.yandex.net^
 ||ofooe.cn^
 ||ofreadingand.biz^
@@ -7334,6 +7345,7 @@
 ||vlgkotr.cn^
 ||vlive.qqvideo.tc.qq.com^
 ||vlujojf.icu^
+||vm0c.tbl1444klf.cc^
 ||vmat.gtimg.com^
 ||vmbzhfh.cn^
 ||vmdlxj.xyz^

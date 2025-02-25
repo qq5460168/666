@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-02-25 14:11:37（北京时间）
+! Version: 2025-02-25 16:11:21（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 18037
+! Total count: 18050
 
  
 #  糯米PHP 网站
@@ -18,7 +18,7 @@
 # NSFW内容拦截规则 #
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2025-02-25T13:57:54+08:00
+# Update time: 2025-02-25T15:57:58+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -48,6 +48,7 @@
 # 拦截瞄趣漫画广告接口
 # 拦截蓝狐视频APP广告API
 # 拦截钓鱼网站＆色情广告＆赌博广告
+# 拦截青龙面板实时错误追踪请求
 # 拦截飞鸟听书相关广告
 # 搜狗输入法
 # 支付宝
@@ -6807,7 +6808,7 @@
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.15.217.244                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+16.15.185.54                  github-production-release-asset-2e65be.s3.amazonaws.com
 16.182.42.113                 github-com.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
@@ -6870,8 +6871,8 @@
 45.116.79.187 fakelocation.api.lerist.dev
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.217.192.249                github-production-user-asset-6210df.s3.amazonaws.com
-52.217.224.129                github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.132.225                github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.167.97                 github-production-user-asset-6210df.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 54.231.228.33                 github-cloud.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
@@ -8937,6 +8938,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.4egscv.com^
 ||*.59p643.com^
 ||*.5z6h6b.cn^
+||*.60qso7.com^
 ||*.6nxa6g.com^
 ||*.80ritc.com^
 ||*.8le8le.com^
@@ -8965,6 +8967,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.dns.cross.gt^
 ||*.dtsmndu.com^
 ||*.eavztdi.com^
+||*.emsxev.xyz^
 ||*.evqvxuq.com^
 ||*.f1k4eil.xyz^
 ||*.fohbgjv.com^
@@ -8985,9 +8988,12 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.kwilmid.top^
 ||*.kxayxw.cn^
 ||*.laebu.cn^
+||*.lzwrhiw.xyz^
 ||*.mise*.buzz^
+||*.njp878.com^
 ||*.nrb.footprintdns.com^
 ||*.obj23q.com^
+||*.ombuw.xyz^
 ||*.oneliner.cn^
 ||*.oweisik.top^
 ||*.p2p.huya.com^
@@ -8998,6 +9004,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.qc.bsccdn.net^
 ||*.qgivvd.cn^
 ||*.retail.n.weimob.com^
+||*.s8etj5.com^
 ||*.saxysec.com^
 ||*.sigmob.cn^
 ||*.siigck.xyz^
@@ -9009,12 +9016,14 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.v4v6v4.com^
 ||*.va.huya.com^
 ||*.vegslb.com^
+||*.vkomjd.com^
 ||*.weilayun.com^
 ||*.wfojsm.com^
 ||*.x586di.com^
 ||*.xqojux.xyz^
 ||*.ydxdg.xyz^
 ||*.yinghua-*.cc^
+||*.z9ehxz.com^
 ||*.ztgha.xyz^
 ||*/ad-app-package/*^
 ||*/ads/index.htm*^
@@ -10830,6 +10839,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||bi-sensors.duxiaoman.com^
 ||bianxian.com^
 ||bid-adx.vlion.cn^
+||bidotz.icu^
 ||bidtoolads.com^
 ||bieqpf.cn^
 ||biexsite.net^
@@ -14505,6 +14515,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||o.fwmdafm.cn^$important
 ||o.iads.unity3d.com^
 ||o.zjjrlx4.com^
+||o1098464.ingest.sentry.io^
 ||o2.jyjyj.cn^
 ||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com.gds.alibabadns.com^
 ||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^
@@ -14531,6 +14542,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ocx.umeng.com^
 ||oehhq.xyz^
 ||oewtuho.cn^
+||of1j087.top^
 ||offerwall.yandex.net^
 ||ofooe.cn^
 ||ofreadingand.biz^
@@ -16818,6 +16830,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||vlgkotr.cn^
 ||vlive.qqvideo.tc.qq.com^
 ||vlujojf.icu^
+||vm0c.tbl1444klf.cc^
 ||vmat.gtimg.com^
 ||vmbzhfh.cn^
 ||vmdlxj.xyz^
