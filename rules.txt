@@ -2,13 +2,16 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-02-28 20:14:40（北京时间）
+! Version: 2025-02-28 22:08:06（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 18183
+! Total count: 18543
 
  
 #   美团
+#  京东
+#  哔哩哔哩
 #  糯米PHP 网站
+#  网易系 
 #  阿里系
 # ADS
 # GitHub520 Host End
@@ -19,18 +22,19 @@
 # NSFW内容拦截规则 #
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2025-02-28T19:57:58+08:00
+# Update time: 2025-02-28T21:58:07+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
-# ip138相关内容
+# ip138
 # other
 # twitter
 # 修复小米健康无法打开手表公交卡的问题
-# 太平洋科技相关内容
+# 太平洋科技
 # 头条相关
 # 小米云服务状态
 # 小米社区
+# 小米系
 # 屏蔽穿山甲SDK，字节相关SDK、API，AD域名
 # 常规广告拦截规则 #
 # 应用汇
@@ -54,69 +58,78 @@
 # 搜狗输入法
 # 支付宝
 # 支付宝以及淘宝农场任务
-# 放行360搜索相关内容
+# 放行17173
+# 放行360搜索
+# 放行58同城
 # 放行BOSS直聘页面加载
 # 放行Google play商店应用下载接口
-# 放行Google搜索移动端相关内容
+# 放行Google搜索移动端
 # 放行Google登录界面布局
 # 放行Google部分网页布局
 # 放行IP地址查询
 # 放行IP查询＆DNS查询
-# 放行TapTap相关内容
+# 放行TapTap
 # 放行Yep搜索引擎
 # 放行steam APP图片加载
-# 放行凤凰网科技相关内容
+# 放行一甜相机
+# 放行九游门户
+# 放行便民查询网
+# 放行凤凰网科技
+# 放行大众点评
 # 放行学信网APP内刷新
-# 放行小红书相关内容
+# 放行小红书
 # 放行小鸡词典官网加载
 # 放行弹弹play磁力播放
 # 放行手机网易网
 # 放行拼多多
 # 放行搜图引擎
-# 放行搜狗相关内容
-# 放行番茄小说APP相关内容
-# 放行番茄畅听相关内容
+# 放行搜狗
+# 放行海信官网
+# 放行海尔官网
+# 放行游侠网
+# 放行番茄小说APP
+# 放行番茄畅听
 # 放行百度图片首页顶部功能区图片
-# 放行百度搜索相关内容
+# 放行百度搜索
 # 放行百度经验排版
-# 放行知乎相关内容
+# 放行知乎
 # 放行磁力在线解析观看下载
-# 放行网易CC直播相关内容
+# 放行网易CC直播
 # 放行网易DNS检测工具
 # 放行网易MuMu模拟器官网
-# 放行网易云商相关内容
+# 放行网易云商
 # 放行网易云游戏平台
-# 放行网易云课堂相关内容
-# 放行网易云音乐相关内容
+# 放行网易云课堂
+# 放行网易云音乐
 # 放行网易伏羲官网
 # 放行网易体育网
 # 放行网易充值中心
-# 放行网易发烧游戏平台相关内容
+# 放行网易发烧游戏平台
 # 放行网易号官网
 # 放行网易大神社区
 # 放行网易官网
 # 放行网易家长关爱平台
 # 放行网易开源镜像站
-# 放行网易招聘相关内容
+# 放行网易招聘
 # 放行网易数帆官网
 # 放行网易新闻官网＆邮箱看世界窗口
 # 放行网易易盾
 # 放行网易有数BI官网
 # 放行网易游戏内容社区
 # 放行网易游戏官网
-# 放行网易游戏客服中心相关内容
+# 放行网易游戏客服中心
 # 放行网易游戏隐私政策接口
-# 放行网易藏宝阁相关内容
-# 放行网易邮箱相关内容
+# 放行网易藏宝阁
+# 放行网易邮箱
 # 放行网易雷火事业群官网
 # 放行网易靓号官网
 # 放行联通手机营业厅功能页面与图片显示
-# 放行蓝奏云相关内容
-# 放行豌豆荚相关内容
+# 放行蓝奏云
+# 放行豌豆荚
 # 放行迅雷下载加速
-# 放行酷安相关内容
+# 放行酷安
 # 放行青柠起始页
-# 放行黑猫投诉相关内容
+# 放行黑猫投诉
 # 本规则为茯苓拦截名单，所有规则均为网络冲浪时抓取。#
 # 流氓下载器
 # 百度相关网页提示App内阅读左侧Logo
@@ -720,32 +733,118 @@
 #******************#
 #***************************************************#
 #123网盘app
+#126邮箱官网
 #163
+#163邮箱官网
 #1688网页版图片
 #18+不良网站
 #18bit
+#22听书网音频接口
+#316签名墙
 #360
 #360下载安装
 #360借贷
 #360升级
+#360安全卫士下载接口
+#360安全卫士官网
+#360安全浏览器下载接口
+#360安全浏览器官网
 #360小游戏图标
+#360手机浏览器下载接口
+#360手机浏览器官网
 #360搜图
+#360杀毒下载接口
+#360杀毒官网
 #360清理大师
 #360热点
 #360翻译
 #4399小游戏
 #555影视
 #8680
+#900查询
+#> 3975游戏
+#> > 大牌餐饮
+#> > 应用宝
+#> > 微信
+#> > 搜狐视频
+#> >迅雷
+#> APP工具
+#> MASN中国
+#> PE工具
+#> UC浏览器
+#> UC直播
+#> UC短视频
+#> xlivesex直播
+#> 下载
+#> 东方财富网
+#> 中关村在线
+#> 优米电视
+#> 其他
+#> 千橡
+#> 原神
+#> 同盾
+#> 域名注册
+#> 天气预报
+#> 字节跳动
+#> 巨人网络
+#> 建设银行
+#> 微软
+#> 快手
+#> 搜狐
+#> 斗鱼
+#> 新浪
+#> 新疆网上税务局
+#> 查询
+#> 模拟城市
+#> 淘宝
+#> 深圳通
+#> 爱奇艺
+#> 百事公司大中华区
+#> 百姓网
+#> 百度
+#> 短剧
+#> 米读小说
+#> 腾讯
+#> 苹果
+#> 蜗牛
+#> 试玩平台
+#> 酷狗音乐
+#> 阿里巴巴
+#> 饿了么
 #@@||appdownload.alicdn.com^$important
 #@@||update.miui.com^$important
+#@@||v*-novelapp.fqnovelvod.com^
+#AD推荐的游戏介绍加载
+#API调用
+#APP下载页面
+#APP下载页面布局
+#APP扫码后登陆页面加载
+#APP消息列表加载
+#APP聊天窗口内图片加载
+#APP设置页各选项内容布局加载
+#Android Apk下载页面
+#App内网易心小易界面游戏图标跳转链接
+#App内视频加载
+#App登录接口
 #A站点赞
+#BWIKI网页图片
+#BWIKI网页排版
+#BWIKI首页
+#BiLiBiLi游戏官网
+#BiLiBiLi游戏官网内容加载
+#BiLiBiLi移动游戏中心
+#BiLiBiLi移动游戏中心内容加载
+#BiLiBiLi移动游戏中心网页布局
 #Block Anti-Fraud Center Tracking
 #Blogger
 #B直播
 #B站
 #B站APP关注列表
+#CC字幕加载
+#CC直播域名
 #DNS相关
 #Fake Fucker
+#Google搜索右上角头像菜单显示
 #ICP/IP地址/域名信息备案管理系统
 #IP 地址查询
 #Logolabn去广告
@@ -765,6 +864,12 @@
 #OPPO应用配置
 #OPPO开放平台
 #OPPO账号相关
+#PC端哔哩UWP进入视频时调用的官方接口
+#PC网页端右上角天气图片
+#PC网页端搜索首页LOGO
+#PC网页端登录界面二维码加载＆评论显示接口
+#PC页面端登陆验证接口
+#PC首页
 #QQ互动标识图
 #QQ头像
 #QQ安全中心
@@ -788,6 +893,7 @@
 #UC浏览器
 #UC浏览器 & 夸克
 #UC浏览器网盘
+#UP主主页商品页面加载
 #Umeng | 友盟
 #X5内核文档插件下载
 #X8沙箱
@@ -803,6 +909,8 @@
 #ios app付费解锁
 #ios上的pixiv
 #ios毒奶
+#ip测试页电脑端
+#ip测试页移动端
 #kimi智能助手
 #mytvsuper
 #nextdns
@@ -816,67 +924,123 @@
 #soul签到
 #teams
 #vivo
+#yeah邮箱官网
+#《网易游戏隐私政策及儿童个人信息保护规则》
 #一些应用短信登陆拼图验证
 #一些应用调用的高德api
 #一加12屏蔽系统更新
 #一号店优惠券
+#一甜相机＆快影图片接口
 #七猫免费小说
 #七猫小说
+#七鱼官网
+#万年历查询
 #三星手机商店
+#下载App页面
+#下载接口跳转
+#下载文件引擎
+#下载页面跳转
+#专栏加载
+#专栏加载页面
+#东方头条
 #个推
 #中国移动
 #中国联通
 #丰巢
 #丰巢app图片
+#主站
 #主题商店
 #乐享借
 #书旗
 #书旗听书
 #书旗小说评论
+#书籍封面接口＆用户头像接口
+#二手车详情界面加载
 #云商城
+#云商官网
+#云贝签到
 #交管12123
 #京东
 #京东优惠券
 #京东会员权益中心
 #京东图片
 #京东存储和图片提供
+#京东联盟官网
+#京喜
 #人人视频
 #什么值得买浏览记录
+#今日头条相关
 #今日诗词
+#任务中心
+#企业邮箱官网
+#企业邮箱登录入口
 #众安贷
 #众安金融
 #优酷
 #优酷app
 #优酷app 兑换vip
 #优酷图片加载
+#会员购商品页面加载
 #传奇广告
 #低端影视
+#作品封面加载
+#作者主页内点击文章跳转
+#作者主页头像加载
+#作者头像＆二维码
 #信息流及评论区广告
 #信用分
+#倘若下方链接放行后，有个别音频无法播放，可使用通配符进行放行。
 #借钱呗
+#免费企业邮箱官网
 #免费公共 DNS 服务器大全
+#入驻美团网页布局
 #公共CDN
 #其他↓
+#内容双击点赞图标加载
+#内容图片加载，包括但不限于功能性按钮图标、栏目封面、用户头像、车型图片、直播封面。
 #分期乐
+#创业参考相关推荐封面＆部分用户头像
+#创业参考网页布局
+#创业参考跳转接口
+#加盟榜部分品牌图片接口
 #去除oneplus云控
 #去除首页还有什么值得买推广
+#参考：https://h5.jd.com/article/247.html
 #友盟平台
 #反向DNS查找
 #发现页去除酷品
 #可可影视
+#右上角登录布局
+#合集封面
 #吉用花
+#同时也是助力扫码跳转链接
+#同时也是官网的商品加载接口
+#同时也是懂车帝手机页面端文章顶部内容推荐＆热门推荐＆精彩推荐接口
+#同时也是美团App内消息页面布局
 #同程旅行
+#含商家骑手聊天
+#含喜马拉雅域名
+#听书智能朗读接口
+#听书真人讲书接口
 #咪咕
 #咪咕图片
 #咪咕爱看视频
 #咪咕视频接口
 #唯品会APP
+#商品分享链接加载
+#商品图片及其各种图
+#商品页面
+#商品页面前的跳转
+#商家版官网
+#商家版网页布局
 #喜番短剧
 #喜马拉雅
+#喜马拉雅音源加载
 #喜马拉雅音频下载
 #喵酷扫描登录
 #囧次元
 #图床
+#图片加载
 #土豆视频
 #墨墨背单词
 #夏普电视开机广告
@@ -888,6 +1052,7 @@
 #天气
 #天猫app
 #天猫校园
+#天翼账号本机号码免注册一键登录
 #头像
 #头条pro
 #头条授权登陆
@@ -896,11 +1061,25 @@
 #夸克浏览器下载插件
 #夸克网盘
 #夸克首页
+#奇元图片资源官网
+#奇妙应用App内容图片＆应用图标
 #好分期
 #字节系 AD API SDK 屏蔽
 #安逸花
+#官网
+#官网Logo
+#官网图片接口
+#官网图片接口＆文章图片接口
+#官网登录界面网页布局
 #宜享花
 #宜人贷
+#客户端下载中心
+#客户端下载页布局＆图片
+#客户端云村视频加载
+#客户端连接接口
+#客户端音乐加载
+#客服反馈信息上传平台
+#客服反馈信息短链接平台
 #小哥工作台
 #小小影视去广告
 #小米主题设计师注册
@@ -920,13 +1099,16 @@
 #小米预警中心-地震预警
 #小米骚扰拦截 数据库更新
 #小红书分享链接
+#小说封面
 #小赢
 #屏蔽微信后台自动下载
 #山姆
 #帖子详情好物推荐
 #帖子详情赞助内容
 #应用商店
+#应用图标
 #应用宝
+#应用游戏界面视频加载
 #应用游戏页去除推广视频
 #度小满
 #得间
@@ -950,11 +1132,26 @@
 #快贷
 #惠融钱包
 #懂车帝
+#手机号查询
+#手机号码登录窗口布局(PC端＆手机端)
+#手机号码登陆接口＆网页端扫描登陆接口
 #手机搜狗输入法
 #手机淘宝网页端
+#手机网页端下载宣传轮播图加载
+#手机网页端作者主页加载
+#手机网页端左上角Logo加载
+#手机网页端浏览时，点击APP专属视频时跳转的哔哩哔哩apk下载接口
+#手机网页端顶部Logo加载＆作家福利轮播图加载
+#手机页面端官网
+#批发官网
+#批发移动端官网
+#批发网页布局
+#投诉内容详情域名
 #抖音头像
+#抖音实名认证校验页面
 #抖音极速版表情
 #抖音直播
+#抖音直播购物
 #抖音直播间购物车和购物车商品图片
 #抖音相关
 #抖音短剧接口
@@ -964,28 +1161,70 @@
 #抖音聊天图片
 #拍拍贷
 #招联金融
+#拦截会导致搜出来的内容无法点击跳转
+#拦截后「一直商品介绍加载中」
+#拦截后「上述三处打开白屏」
+#拦截后「打开网页白屏」
+#拦截后「打开网页空白」
+#拦截后「网页白屏」
+#拦截后打开官网会黑屏
+#拦截后打开客户端显示「网络连接失败」
+#拦截后显示「网络异常，请稍后重试。」
+#拦截后显示「网络故障」
+#拦截后点击按钮无反应
+#拦截后登录提示「系统繁忙」
+#拦截后登录没反应
+#拦截后验证图片无法加载
+#拦截显示「您的网络好像不太给力」
+#拦截显示加载失败
+#拦截显示网络不给力
+#拦截显示网络异常
+#拦截该域名Safari无法播放视频
+#拦截该域名提示网络错误，无法打开消息列表设置
+#拦截该域名电脑端页面提示广告加载失败，无实际性作用容易产生歧义
 #拷贝漫画
 #拼多多
 #拼多多视频封面
 #探探
 #推特(第三方调用)
+#搜索内容视频页面
+#搜索引擎网页布局
+#搜索结果内容预览图片接口＆平台Logo加载
+#搜索结果列表
+#搜索结果图片加载＆搜狗百科图片加载
+#搜索结果部分视频加载接口
 #携程金融
 #放行log文件,减少重复请求造成的发热
 #放行一堆click
+#文章作者头像加载
+#文章图片
+#文章封面接口＆文章内图片接口＆视频封面接口
+#文章封面＆文章图片＆视频封面
+#文章布局加载
 #斗鱼
 #新浪微博
 #新浪新闻图片^
 #新浪新闻网页误杀
+#新浪通行证注册页面
+#新浪通行证登录页面
+#新版本APP登录时验证账号安全
+#新网游频道
 #日历网
+#普通下载文件地址
 #晴雅↑
 #晴雅↓
+#更改头像＆更改封面
 #有道翻译官网页翻译
 #朋友圈图片
+#服务支持
 #未知来源 广告/日志
 #杂七杂八
 #极光推送
 #极弧
+#某些APP图标加载
 #某些网页的图片加载
+#查找好友加载页面
+#校园招聘官网
 #欢太官网
 #欢太软件商店
 #油管缓存
@@ -998,8 +1237,15 @@
 #淘宝的一个主要域名
 #淘宝的一些功能加载
 #淘宝菜鸟裹裹
+#游戏中心游戏下载链接
+#游戏图标＆文章图片
+#游戏排行榜
+#游戏新闻中心
+#游戏时间统计
+#游戏条款加载
 #滴滴数科
 #滴滴顺风车
+#热点内容相关封面
 #熊猫小说
 #爱(i)茅台
 #爱奇艺
@@ -1012,11 +1258,20 @@
 #王者一些图片
 #王者更新
 #王者荣耀登录
+#用户动态＆评论区表情加载
+#用户回答图片
+#用户头像加载
+#用户头像＆用户背景图
+#用户头像＆部分封面
+#电费计算器
 #番茄免费小说
 #番茄小说
 #番茄小说听书
 #番茄小说短信登陆
 #番茄小说网页
+#登录二维码加载接口
+#登录接口
+#登录页面跳转
 #登陆域名
 #百家号图片
 #百度
@@ -1041,17 +1296,42 @@
 #皮皮虾评论区发图
 #盒子定位
 #直播吧
+#相关图片
 #知乎
+#短链接加载
+#社会招聘官网
 #福利网站去广告
 #科利达WiFi
 #移动app登录
 #移动广告平台
+#移动端商品详情页用户头像加载
+#移动端官网
+#移动端有些广告图也是此域名。
+#移动端登录接口
+#移动端精品分类图标
+#移动端网页布局
+#移动端访问频繁验证页面
+#移动端页面
+#移动端页面内容接口
+#移动端页面图片
+#移动端页面特殊按钮图标
+#移动端顶部宣传图跳转接口
+#移动端顶部宣传图＆官网页面布局
+#移动端首页
+#移动网页端内容加载
+#移动网页端布局
+#移动网页端登录后的自动跳转
+#移动网页端网页布局
+#移动网页端顶部快捷入口图标
+#立即下载页面
 #笔趣阁
 #笔趣阁网页广告
+#第三方蓝奏云APP
 #米哈游
 #米游社
 #米游社图标
 #系统判断联网
+#系统通知页面及其活动加载组件
 #网易
 #网易云api
 #网易云邮箱大师
@@ -1061,9 +1341,28 @@
 #网易图片
 #网易年度总结
 #网络播放去广告
+#网页中输入此地址会跳转至页面端界面
+#网页内容加载
+#网页加载
+#网页图片
+#网页布局
+#网页排版
+#网页提示登录时的Logo
+#网页版「吧」头像加载
+#网页版加载
+#网页端动态加载
+#网页端用户头像与文件图标
+#网页端表情加载
+#网页端评论区未登录时左侧小头像
+#网页端资源列表加载
+#网页部分图标加载
 #罗盘软件
 #美团外卖
+#美团外卖商家自入驻网页布局
+#美团开店宝登录跳转接口
 #美团推送(大众点评)
+#美团网账号登录处背景图片接口
+#老黄历查询
 #脚本之家
 #腾讯云实时音视频
 #腾讯充值
@@ -1076,7 +1375,9 @@
 #腾讯视频搜索
 #花瓣测速
 #花生壳推送
+#英文介绍页宣传视频加载
 #苹果商店图片
+#荣誉周报加载排版
 #菜鸟
 #菜鸟包裹侠
 #葫芦侠
@@ -1087,24 +1388,39 @@
 #表情消息
 #西瓜视频图片
 #视频app
+#视频加载
+#视频封面
+#视频评测＆评论区视频
 #讯飞输入法
+#谷歌
 #谷歌广告服务
 #谷歌翻译，①网页，③新版APP用。
+#贝壳账户页面
+#账号与安全页面加载
+#账号安全页面
 #贴吧弹窗
 #路由器
+#跳转
+#跳转链接
+#身份证查询
 #转转
+#输入法云联想
+#输入法灵感语录同步
 #迅雷下载
+#进入网页版邮箱跳转
 #部分设备的小米推送
 #酷友APPea 分享
 #酷安
 #酷安图片
 #酷安推送
+#酷安模块头条重要通知加载
 #酷狗vip抽年卡
 #金铲铲之战登录
 #针对转转App
 #钱多多
 #银河互联网网络电视
 #链家、贝壳找房验证码
+#链接跳转
 #锁屏画报正常化
 #阅友去广告
 #阿里图片
@@ -1113,12 +1429,21 @@
 #阿里推送(未知用途)
 #阿里系登录接口
 #阿里系软件下载
+#音乐版官网
 #音乐适配
+#页面布局
+#页面排版
+#页面端及资源加载
+#页面端商品跳转网页图片
+#页面端商品跳转网页布局
 #领红包封面
 #饿了么小程序
 #饿了么登录
+#首页个别图片加载
 #马上消费
+#验证码验证页面＆搜索参数错误页面
 #魅族
+#魅族商城
 #魅族天气
 #龙享花
 *.lijie.*/*_*?$third-party
@@ -6816,9 +7141,10 @@
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.15.185.54                  github-production-release-asset-2e65be.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
+172.18.0.1                    github-com.s3.amazonaws.com
+172.18.0.1                    github-production-release-asset-2e65be.s3.amazonaws.com
 173.194.202.188     alt4-mtalk.google.com
 180.163.150.33      dl.l.google.com
 180.163.151.161     dl.google.com
@@ -6828,26 +7154,26 @@
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
-185.199.108.154               github.githubassets.com
+185.199.108.133               avatars.githubusercontent.com
+185.199.108.133               avatars0.githubusercontent.com
+185.199.108.133               avatars1.githubusercontent.com
+185.199.108.133               avatars2.githubusercontent.com
+185.199.108.133               avatars3.githubusercontent.com
+185.199.108.133               avatars4.githubusercontent.com
+185.199.108.133               avatars5.githubusercontent.com
+185.199.108.133               camo.githubusercontent.com
+185.199.108.133               cloud.githubusercontent.com
+185.199.108.133               desktop.githubusercontent.com
+185.199.108.133               favicons.githubusercontent.com
+185.199.108.133               github.map.fastly.net
+185.199.108.133               media.githubusercontent.com
+185.199.108.133               objects.githubusercontent.com
+185.199.108.133               private-user-images.githubusercontent.com
+185.199.108.133               raw.githubusercontent.com
 185.199.109.153               assets-cdn.github.com
 185.199.109.153               github.io
 185.199.109.153               githubstatus.com
-185.199.111.133               avatars.githubusercontent.com
-185.199.111.133               avatars0.githubusercontent.com
-185.199.111.133               avatars1.githubusercontent.com
-185.199.111.133               avatars2.githubusercontent.com
-185.199.111.133               avatars3.githubusercontent.com
-185.199.111.133               avatars4.githubusercontent.com
-185.199.111.133               avatars5.githubusercontent.com
-185.199.111.133               camo.githubusercontent.com
-185.199.111.133               cloud.githubusercontent.com
-185.199.111.133               desktop.githubusercontent.com
-185.199.111.133               favicons.githubusercontent.com
-185.199.111.133               github.map.fastly.net
-185.199.111.133               media.githubusercontent.com
-185.199.111.133               objects.githubusercontent.com
-185.199.111.133               private-user-images.githubusercontent.com
-185.199.111.133               raw.githubusercontent.com
+185.199.109.154               github.githubassets.com
 185.199.111.133               user-images.githubusercontent.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
@@ -6867,6 +7193,7 @@
 23.53.11.237 store.akamai.steamstatic.com
 23.53.11.246 cdn.akamai.steamstatic.com
 23.53.11.248 community.akamai.steamstatic.com
+3.5.28.249                    github-cloud.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 404: Not Found
@@ -6878,9 +7205,7 @@
 45.116.79.187 fakelocation.api.lerist.dev
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.217.106.12                 github-cloud.s3.amazonaws.com
-52.217.106.124                github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.217.142.113                github-com.s3.amazonaws.com
+52.217.132.225                github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.217.192.249                github-production-user-asset-6210df.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 5dm.app##[src*="sinaimg.cn"]
@@ -6954,6 +7279,7 @@
 @@||177j.wodenongtiacom^$important
 @@||17u.cn^$important
 @@||1sapp.com^
+@@||1tian.kuaishou.com^
 @@||316.coolapk1s.com^
 @@||360.cn^
 @@||360buyimg.com^$important
@@ -6962,10 +7288,12 @@
 @@||3975.com^
 @@||3d-platform-pro.obs.cn-south-1.myhuaweicloud.com^$important
 @@||3g.163.com^
+@@||3g.ali213.net^
 @@||3gimg.qq.com^$important
 @@||40017.cn^$important
 @@||7x24s.com^
 @@||96956.com.cn^$important
+@@||a.9game.cn^
 @@||a.video.qq.com^$important
 @@||a0.app.xiaomi.com^
 @@||a0.app.xiaomi.com^$important
@@ -6975,7 +7303,9 @@
 @@||abtestvm.bytedance.com^
 @@||ac.dun.163yun.com^
 @@||access1.tpns.tencent.com^
+@@||account.dianping.com^
 @@||account.wps.cn^$important
+@@||accountapi.dianping.com^
 @@||accscdn.m.taobao.com^$important
 @@||acs.m.taobao.com^
 @@||acs.m.taobao.com^$important
@@ -7009,6 +7339,7 @@
 @@||ali-ky.static.yximgs.com^
 @@||ali.static.yximgs.com^
 @@||ali.static.yximgs.com^$important
+@@||ali2.a.kwimgs.com^
 @@||ali2.a.yximgs.com^$important
 @@||alissl.ucdl.pp.uc.cn^$important
 @@||aliyuncs.com/*.png
@@ -7167,6 +7498,7 @@
 @@||bs-origin.pull.yximgs.com^
 @@||btrace.qq.com^$important
 @@||bucket-ynote-online-cdn.note.youdao.com^$important
+@@||c.58cdn.com.cn^
 @@||c.duomai.com^$important
 @@||c.evidon.com^
 @@||c.gj.qq.com^
@@ -7179,6 +7511,7 @@
 @@||c1.skype.com^
 @@||cache.ip138.com^
 @@||cainiao-app-logs.cn-zhangjiakou.log.aliyuncs.com^
+@@||callback.58.com^
 @@||campus.163.com^
 @@||captive.apple.com^$important
 @@||card-paopao.iqiyi.com^$important
@@ -7366,6 +7699,7 @@
 @@||dfcfw.com^
 @@||dftoutiao.com^
 @@||di.phncdn.com^
+@@||dianfeijisuanqi.bmcx.com^
 @@||dig.bdurl.net^$important
 @@||dig.lianjia.com^
 @@||dig.lianjia.com^$important
@@ -7735,6 +8069,7 @@
 @@||kwimgs.com^$important
 @@||kyaru-concat.now.sh^$important
 @@||l.qq.com^
+@@||laohuangli.bmcx.com^
 @@||laomaotao.net^
 @@||lc-cn-n1-shared.com^
 @@||leihuo.163.com^
@@ -7813,11 +8148,13 @@
 @@||luna-dict-community.nosdn.127.net^
 @@||lx.meituan.net^
 @@||m.163.com^
+@@||m.17173.com^
 @@||m.360.cn^
 @@||m.360buyimg.com^$important
 @@||m.360video.so.com^
 @@||m.bilibili.com^
 @@||m.ctrip.com^
+@@||m.dianping.com^
 @@||m.ds.163.com^
 @@||m.intl.taobao.com^$important
 @@||m.ip138.com^
@@ -7882,6 +8219,7 @@
 @@||mdn.open.wo.cn^$important
 @@||me-api.jd.com^
 @@||med-fe.cdn.bcebos.com^
+@@||media.9game.cn^
 @@||mediation.adnxs.com^$important
 @@||meiqia.com^
 @@||member.aligames.com^$important
@@ -7965,8 +8303,10 @@
 @@||necaptcha.nosdn.127.net^
 @@||netease.com^$important
 @@||new.vip.weibo.cn^
+@@||newgame.17173.com^
 @@||news-l.play.aiseet.atianqi.com^
 @@||news.163.com^
+@@||news.17173.com^
 @@||news.sina.com.cn^
 @@||nileapi.market.xiaomi.com^$import
 @@||nimg.ws.126.net^
@@ -7995,6 +8335,7 @@
 @@||oppo.yidianzixun.com^$important
 @@||orange-dc.alibaba.com^$important
 @@||orbit.jd.com^
+@@||osp.meituan.net^
 @@||oss-asq-static.11222.cn^$important
 @@||ossapi.baidu.com^
 @@||otheve.beacon.qq.com^$important
@@ -8119,9 +8460,13 @@
 @@||pic.imgdb.cn
 @@||pic.mairuan.com^$important
 @@||pic.rmb.bdstatic.com^$important
+@@||pic2.58cdn.com.cn^
 @@||pic2.zhimg.com^
+@@||pic4.58cdn.com.cn^
+@@||pic5.58cdn.com.cn^
 @@||pic640.weishi.qq.com^$important
 @@||pic7.iqiyipic.com^
+@@||pic8.58cdn.com.cn^
 @@||picasso-static.xiaohongshu.com^
 @@||pifa.pinduoduo.com^
 @@||pingfore.qq.com^$important
@@ -8232,6 +8577,7 @@
 @@||s.mvconf.f.360.cn^
 @@||s.ssl.qhres2.com^$important
 @@||s0.2mdn.net^
+@@||s0.meituan.net^
 @@||s1.hdslb.com^
 @@||s1.kskwai.com^$important
 @@||s1.meituan.net^
@@ -8277,10 +8623,12 @@
 @@||sfsapi.micloud.xiaomi.net^$important
 @@||share.myfreecams.com^$important
 @@||sharechain.qq.com^$important
+@@||shenfenzheng.bmcx.com^
 @@||shminorshort.weixin.qq.com^
 @@||shmmsns.qpic.cn^$important
 @@||short.weixin.qq.com^$important
 @@||shouji.360.cn^
+@@||shouji.bmcx.com^
 @@||shouji.sougou.com^
 @@||simg.sinajs.cn^$important
 @@||similarweb.com^
@@ -8334,6 +8682,7 @@
 @@||static-tapad.tapdb.net^
 @@||static.122.gov.cn^$important
 @@||static.360buyimg.com^
+@@||static.ali213.net^
 @@||static.biligame.com^
 @@||static.e.189.cn^$important
 @@||static.hdslb.com^
@@ -8406,6 +8755,7 @@
 @@||tnc3-aliec2.snssdk.com^$important
 @@||tnc3-bjlgy.zijieapi.com^
 @@||tongji.flash.cn^$important
+@@||top.17173.com^
 @@||tousu.sina.cn^
 @@||tousu.sina.com.cn^
 @@||tpstelemetry.tencent.com^$important
@@ -8428,6 +8778,7 @@
 @@||tvepg.pandora.xiaomi.com^$important
 @@||twitter.com^
 @@||tx163.com^$important
+@@||tx2.a.kwimgs.com^
 @@||tybook.taoyuewenhua.net^
 @@||u.163.com^
 @@||u.oppomobile.com^
@@ -8520,6 +8871,7 @@
 @@||wallpaper.cdn.pandora.xiaomi.com^$important
 @@||wan.baidu.com^
 @@||wan.douyu.com^
+@@||wannianrili.bmcx.com^
 @@||wap.cmpassport.com^$important
 @@||wappass.baidu.com^
 @@||wb.amap.com^$important
@@ -8559,18 +8911,24 @@
 @@||www.123pan.com^$important
 @@||www.126.com^
 @@||www.163.com^
+@@||www.17173.com^
 @@||www.360kuai.com^$important
 @@||www.360simg.com^
+@@||www.9game.cn^
+@@||www.ali213.net^
 @@||www.alidns.com^$important
 @@||www.bilibili.com^
 @@||www.biligame.com^
 @@||www.blogger.com^$important
+@@||www.bmcx.com^
 @@||www.bqgyy.com^
 @@||www.chemdraw.com.cn^$important
 @@||www.cmpassport.com^$important
 @@||www.crossoverchina.com^$important
 @@||www.data.mistat.*xiaomi.com^
 @@||www.data.sec*.miui.com^
+@@||www.dianping.com^
+@@||www.dpfile.com^
 @@||www.dxmpay.com^$important
 @@||www.google-analytics.com^$domain=myqqjd.com
 @@||www.google.com^$important
@@ -8578,7 +8936,9 @@
 @@||www.googletagmanager.com^$domain=myqqjd.com
 @@||www.gstatic.com
 @@||www.gstatic.com^$important
+@@||www.haier.com^
 @@||www.hao123.com^$important
+@@||www.hisense.com^
 @@||www.ip138.com^
 @@||www.iqiyi.com^$important
 @@||www.jd.com^
