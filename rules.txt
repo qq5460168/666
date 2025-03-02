@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-03-02 10:49:24（北京时间）
+! Version: 2025-03-02 12:09:40（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 18578
+! Total count: 18584
 
  
 #   美团
@@ -22,7 +22,7 @@
 # NSFW内容拦截规则 #
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2025-03-02T09:58:04+08:00
+# Update time: 2025-03-02T11:58:01+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -473,6 +473,7 @@
 ##[rel='nofollow'][href^='/book/baidu_verify_code']
 ##[src$='/dibu.adadadad']
 ##[src$='anyhosthub-480x90.gif']
+##[src*='tif'][style='width:100%;height:120px'],[src*='tif'][onerror='this.style.display=\'none\'']
 ##[src*='zdmbl.xyz']
 ##[src='/images/c_l.png']
 ##[src='/static/ads.png']
@@ -1234,6 +1235,7 @@
 #杂七杂八
 #极光推送
 #极弧
+#极限软件园
 #某些APP图标加载
 #某些网页的图片加载
 #查找好友加载页面
@@ -7146,20 +7148,20 @@
 13.107.42.16                  pipelines.actions.githubusercontent.com
 140.82.112.25                 alive.github.com
 140.82.113.3                  gist.github.com
-140.82.113.3                  github.com
 140.82.113.9                  codeload.github.com
 140.82.114.18                 github.community
 140.82.114.21                 central.github.com
 140.82.114.21                 education.github.com
 140.82.114.22                 collector.github.com
 140.82.114.25                 live.github.com
+140.82.114.4                  github.com
 140.82.114.5                  api.github.com
 142.250.115.188     alt6-mtalk.google.com
 142.250.141.188     alt2-mtalk.google.com
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.15.217.244                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+16.182.42.113                 github-com.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -7210,6 +7212,8 @@
 23.53.11.237 store.akamai.steamstatic.com
 23.53.11.246 cdn.akamai.steamstatic.com
 23.53.11.248 community.akamai.steamstatic.com
+3.5.30.234                    github-cloud.s3.amazonaws.com
+3.5.30.237                    github-production-release-asset-2e65be.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 404: Not Found
@@ -7221,11 +7225,9 @@
 45.116.79.187 fakelocation.api.lerist.dev
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.217.142.113                github-com.s3.amazonaws.com
-52.217.167.97                 github-production-user-asset-6210df.s3.amazonaws.com
-52.217.228.105                github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.106.124                github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.192.249                github-production-user-asset-6210df.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-54.231.228.33                 github-cloud.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 66.203.124.31 mega.co.nz
@@ -8011,6 +8013,7 @@
 @@||img.cmvideo.cn^$important
 @@||img.funshion.com^
 @@||img.jbzj.com^$important
+@@||img.jxdown.com^$important
 @@||img.meituan.net^
 @@||img.mp.itc.cn^$important
 @@||img.pddpic.com^
@@ -8085,6 +8088,7 @@
 @@||jumpluna.58.com^$important
 @@||jvod.300hu.com^
 @@||jwpcdn.com^
+@@||jxdown.com^$important
 @@||k.sinaimg.cn^
 @@||kdocs.cn^$important
 @@||kf-ui.cdn-go.cn^$important
@@ -8190,6 +8194,7 @@
 @@||m.jiaoyimao.com^$important
 @@||m.jingxi.com^
 @@||m.jingxi.com^$important
+@@||m.jxdown.com^$important
 @@||m.manhuabei.com^$important
 @@||m.meizu.com^
 @@||m.pinduoduo.com^
@@ -8516,7 +8521,7 @@
 @@||pp.myapp.com^$important
 @@||pro.bugly.qq.com^$important
 @@||pro.m.jd.com^$important
-@@||prod-chat-kimi-tos.moonshot.cn
+@@||prod-chat-kimi-tos.moonshot.cn^
 @@||profile.csdnimg.cn^
 @@||pss.bdstatic.com^
 @@||psstatic.cdn.bcebos.com^
@@ -15339,6 +15344,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||pagead2.googlesyndication.com^
 ||pagespeed.report.qq.com^
 ||pageview.kgsz.cn^
+||palmertx.com/template/js/img-1.php
 ||pan.baidu.com/buy/ad/*^
 ||panchaxumbilic.com^
 ||pangolin*.com^

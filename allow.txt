@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-03-02 10:49:24（北京时间）
+! Version: 2025-03-02 12:09:40（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3979
+! Total count: 3982
 @@*.flyme.cn
 @@*.myapp.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -2295,6 +2295,7 @@
 @@||img.cmvideo.cn^$important
 @@||img.funshion.com^
 @@||img.jbzj.com^$important
+@@||img.jxdown.com^$important
 @@||img.kemono.su^
 @@||img.meituan.net^
 @@||img.mp.itc.cn^$important
@@ -2405,6 +2406,7 @@
 @@||jupiter.sys.miui.com^
 @@||jvod.300hu.com^
 @@||jwpcdn.com^
+@@||jxdown.com^$important
 @@||jytechs.in^
 @@||k.sinaimg.cn^
 @@||kdocs.cn^$important
@@ -2558,6 +2560,7 @@
 @@||m.jiaoyimao.com^$important
 @@||m.jingxi.com^
 @@||m.jingxi.com^$important
+@@||m.jxdown.com^$important
 @@||m.ke.com^
 @@||m.lianjia.com^
 @@||m.manhuabei.com^$important
@@ -3059,7 +3062,7 @@
 @@||pro.bugly.qq.com^$important
 @@||pro.m.jd.com^
 @@||pro.m.jd.com^$important
-@@||prod-chat-kimi-tos.moonshot.cn
+@@||prod-chat-kimi-tos.moonshot.cn^
 @@||prod.firstpartyapps.oaspapps.com.akadns.net^$important
 @@||prod.msocdn.com^$important
 @@||profile-avatar.csdnimg.cn^
