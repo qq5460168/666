@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-03-04 04:08:53（北京时间）
+! Version: 2025-03-04 06:07:43（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 18584
+! Total count: 18586
 
  
 #   美团
@@ -22,7 +22,7 @@
 # NSFW内容拦截规则 #
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2025-03-04T03:57:50+08:00
+# Update time: 2025-03-04T05:57:51+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -7161,8 +7161,7 @@
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.15.185.54                  github-production-release-asset-2e65be.s3.amazonaws.com
-16.182.42.1                   github-cloud.s3.amazonaws.com
+16.15.217.244                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 16.182.42.113                 github-com.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
@@ -7225,8 +7224,9 @@
 45.116.79.187 fakelocation.api.lerist.dev
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.215.9                  github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.217.167.97                 github-production-user-asset-6210df.s3.amazonaws.com
+52.217.118.161                github-cloud.s3.amazonaws.com
+52.217.192.249                github-production-user-asset-6210df.s3.amazonaws.com
+52.217.228.105                github-production-release-asset-2e65be.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
@@ -9066,6 +9066,7 @@
 @@||zm.sm-tc.cn^$important
 @@||ztgame.com^
 Mplay/kk1.js
+^
 _/bigREDcat.css?
 _/bigREDdog.js
 acglala.me##.topm,.donghua_info > DIV[style='width:100%;'],.donghua_info > a
@@ -9082,6 +9083,7 @@ axutongxue.com##DIV[style*='px;position:relative;box-shadow:rgb(0 0 0/24%)0px 3p
 axutongxue.com##DIV[style*='z-index: 9999999;display: flex;justify-content: center;align-items: center;']
 axutongxue.com##DIV[style='text-align:center']
 axutongxue.com##a[href^="https://axu.simhaoka.com/phone/index?id=B956B2050EAA74084CC3FE6EF37C57CF"],img[src^="https://wework.qpic.cn/wwpic3az/846587_PMCu545RQwifXal_1712199121"],img[src^="https://wework.qpic.cn/wwpic3az/600855_1TyhIR25RbqC90L_1725602260/0"],img[src^="http://cbu01.alicdn.com"],a[href^="https://ibiling.cn/paper?from=axpaper"],a[href^="https://flowus.cn/share/f35316bd-0af5-490a-a755-ff3538e868f3?code=CZ3ECT"],a[href^="https://marscode.cn/?utm_source=axutongxue.com&utm_medium=xycpa&utm_campaign="],a[href="https://mp.weixin.qq.com/s/ZARDTFAmy2mM7ExgcXOl-w"]
+baidu.com
 baidu.com###J-super-layer-promote
 baidu.com###bdrainrwDragButton
 baidu.com###page-copyright.se-page-copyright.se-copyrig
