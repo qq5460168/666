@@ -48,7 +48,8 @@ rules=(
 "https://gh.llkk.cc/https://raw.githubusercontent.com/790953214/qy-Ads-Rule/refs/heads/main/black.txt" #晴雅
 
 "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt" #茯苓
- "" #
+
+"https://raw.githubusercontent.com/qq5460168/dangchu/refs/heads/main/%E5%85%94%E5%85%94%E8%87%AA%E7%94%A8%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E8%A7%84%E5%88%99%EF%BC%8C%E7%A6%81%E6%AD%A2%E9%9A%90%E7%A7%81%E6%94%B6%E9%9B%86.txt" #兔兔自用
   
  
  )
