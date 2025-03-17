@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-03-17 14:12:40（北京时间）
+! Version: 2025-03-17 16:12:37（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8541
+! Total count: 8537
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -813,7 +813,6 @@
 ||ad.wtzw.com^
 ||ad.wx.com:12638^
 ||ad.wx.com^
-||ad.xelements.cn^
 ||ad.xiaohongshu.com^
 ||ad.xiaomi.com^
 ||ad.ximalaya.com^
@@ -1295,7 +1294,6 @@
 ||amdc.alipay.com^
 ||amdc.m.taobao.com^
 ||amdcopen.m.taobao.com^
-||amdcopen.m.umeng.com^
 ||amerzbj.cn^
 ||amltaqap.com^
 ||ampproject.org^
@@ -1315,7 +1313,6 @@
 ||analytics-api.samsunghealthcn.com^
 ||analytics-sg.tiktok.com^
 ||analytics.126.com^
-||analytics.126.net^
 ||analytics.163.com^
 ||analytics.95516.com^
 ||analytics.ad.daum.net^
@@ -1647,7 +1644,6 @@
 ||az2-upload-js.gifshow.com^
 ||az4-upload.ksapisrv.com^
 ||azdxypf.cn^
-||azr.footprintdns.com^
 ||azukgee.cn^
 ||b-gtc.getui.net^
 ||b.1th.app^
