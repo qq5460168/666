@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-03-17 12:10:56（北京时间）
+! Version: 2025-03-17 14:12:40（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 18812
+! Total count: 18823
 
  
 #   美团
@@ -22,7 +22,7 @@
 # NSFW内容拦截规则 #
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2025-03-17T11:57:58+08:00
+# Update time: 2025-03-17T13:57:55+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -7192,11 +7192,11 @@
 13.107.42.16                  pipelines.actions.githubusercontent.com
 140.82.112.10                 codeload.github.com
 140.82.112.3                  gist.github.com
+140.82.112.5                  api.github.com
 140.82.113.21                 central.github.com
 140.82.113.22                 collector.github.com
 140.82.113.22                 education.github.com
 140.82.113.25                 live.github.com
-140.82.113.5                  api.github.com
 140.82.114.17                 github.community
 140.82.114.26                 alive.github.com
 140.82.114.3                  github.com
@@ -7205,7 +7205,7 @@
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.182.106.249                github-com.s3.amazonaws.com
+16.182.38.25                  github-production-user-asset-6210df.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -7267,9 +7267,9 @@
 45.116.79.187 fakelocation.api.lerist.dev
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.32.241                 github-production-user-asset-6210df.s3.amazonaws.com
+52.216.48.33                  github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.217.133.1                  github-cloud.s3.amazonaws.com
-52.217.236.185                github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.133.57                 github-com.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 54.231.228.33                 github-production-release-asset-2e65be.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
@@ -10322,7 +10322,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ad-*file.myqcloud.com^
 ||ad-api.morefreegame.com^
 ||ad-audit-provider.soulapp.cn^
-||ad-cache.dopool.com^
 ||ad-cdn.qingting.fm^
 ||ad-cdn.qtfm.cn^
 ||ad-channel.diwodiwo.xyz^
@@ -10384,6 +10383,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ad.gamebox.360.cn^
 ||ad.gtbrowser.com^
 ||ad.holmesmind.com^
+||ad.hpplay.cn^
 ||ad.hzyoka.com^
 ||ad.infoseek.com^
 ||ad.intl.xiaomi.com^
@@ -10475,6 +10475,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||addictedwonder.com^
 ||addthis.com/live/
 ||aden.baidu.com^
+||adeng.hpplay.cn^
 ||adeng.lebo.cn^
 ||adexpo.tencentmusic.com adclick.tencentmusic.com^
 ||adexpo.tencentmusic.com^
@@ -10801,7 +10802,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||adx.sogaha.cn^
 ||adx.xiaodutv.com^
 ||adx.zuoyebang.com^
-||adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn^
 ||adxlog-adnet.vivo.com.cn^
 ||adxlog.vivo.com.cn^
 ||adxserver.ad.cmvideo.cn^
@@ -11169,7 +11169,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||apk.qqvv88.com^
 ||apk.xurongwl.com^$important
 ||apk2.jingpengpeixun.xyz^
-||apks.webxiaobai.top^
 ||apm-log-upload-os.hoyoverse.com^
 ||apmplus.volces.com^
 ||apollo.map.qq.com^
@@ -11746,6 +11745,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||cdn.dashenya.com^
 ||cdn.hanaya-m.com^
 ||cdn.holmesmind.com^
+||cdn.hpplay.com.cn^
 ||cdn.inads.cn^
 ||cdn.itphanpytor.club^
 ||cdn.jquery-cdn.cc^
@@ -12904,6 +12904,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||g.163.com/*&affiliate=
 ||g.cn.miaozhen.com^
 ||g.doubleclick.net^
+||g.dtv.cn.miaozhen.com^
 ||g.rain8.com^
 ||g.yccdn.com^
 ||g.youshishop.com^
@@ -13089,6 +13090,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||gscatk.cn^
 ||gshsne.xyz^
 ||gsjzlssws.com^
+||gslb.hpplay.cn^
 ||gsnlc.cn^
 ||gsp0.baidu.com^
 ||gsp0.kj-gov.cn^
@@ -13175,6 +13177,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||h4b0srs.cn^
 ||h5.dzgsdswh5.xyz^
 ||h5.gdt.qq.com^
+||h5.hpplay.com.cn^
 ||h5.tv.mi.com^
 ||h5.vivo.com.cn^
 ||h5vv.play.aiseet.atianqi.com^
@@ -13356,6 +13359,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||hot.browser.miui.com^
 ||hotchat-im.iqiyi.com^
 ||hotjar.com^$third-party
+||hotupgrade.hpplay.cn^
 ||houyi.kkmh.com^
 ||hp6v2.iep53.vip^
 ||hpcwwd.com^
@@ -13363,7 +13367,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||hpg786n.cn^
 ||hpgmkbt.icu^
 ||hpiekt.cn^
-||hpplay.cn^
+||hpplay.cdn.cibn.cc^
 ||hpvl2kb.icu^
 ||hpvwdkn.cn^
 ||hqbuoh.com^
@@ -13591,6 +13595,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||image-ad.sm.cn^
 ||image.cnamedomain.com^
 ||image.csslcloud.net^
+||image.hpplay.cn^
 ||image.uczzd.cn^
 ||image.yafytg.cn^
 ||image2.printstation8.com^
@@ -13603,6 +13608,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||imapi2.snssdk.com^
 ||imapi5-oth-lq.zijieapi.com^
 ||imc.l.qq.com^
+||imdns.hpplay.cn^
 ||ime-store-cdn.gtimg.com^
 ||img-c.heytapimage.com^
 ||img-x.jd.com^
@@ -15624,6 +15630,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||picnewsss.com^
 ||pig.pupuapi.com^
 ||pimlog.baidu.com^
+||pin.hpplay.cn^
 ||ping.pinyin.sogou.com^
 ||pingfore.qq.com^
 ||pingfore.qq.com^$app=com.tencent.mm
@@ -16136,6 +16143,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||rou3.xyz^
 ||route-stats.d.meituan.net^
 ||rouwhapt.com^
+||rp.hpplay.cn^
 ||rpahyhn.cn^
 ||rpdi192.icu^
 ||rpkcqtf.cn^
@@ -16336,6 +16344,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||sdk.verification.jiguang.cn^
 ||sdkapp.mobile.sina.cn^
 ||sdkapp.uve.weibo.com^
+||sdkauth.hpplay.cn^
 ||sdkcfg.adintl.cn^
 ||sdkconf.avlyun.com^
 ||sdkconfig.ad.intl.xiaomi.com^
@@ -16528,6 +16537,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||skogsborg.net^
 ||skxuueby.cn^
 ||sky.tongjiai.com^
+||sl.hpplay.cn^
 ||slb-p2p.vcloud.ks-live.com^
 ||slbh5.youkawallet.com^$important
 ||slfango.ltd^
@@ -16680,7 +16690,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||static.res.qq.com^
 ||static.squirrelgs.info^$important
 ||static.trafficjunky.com^
-||static.wxqcloud.qq.com.cn^
 ||static.yxh1.cn^$important
 ||static5.niwodai.com^$important
 ||statics.woozooo.com^
@@ -17141,6 +17150,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||tuyyex.icu^
 ||tv.snssdk.com^
 ||tvabqt.cn^
+||tvapp.hpplay.cn^
 ||tvdpebx.cn^
 ||tvgkatu.icu^
 ||tvl.076lvo.xyz^
@@ -17565,6 +17575,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||vihppjk.cn^
 ||vijnhyru.xyz^
 ||vip.ffzy-online3.com^
+||vipauth.hpplay.cn^
 ||viplp.top^
 ||vipwm.cc^
 ||vipxyajs.data.kuiniuca.com^
