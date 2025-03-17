@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-03-17 20:16:20（北京时间）
+! Version: 2025-03-17 22:14:45（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8507
+! Total count: 8511
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -824,6 +824,7 @@
 ||adashx.ut.cainiao.com^
 ||adashx.ut.dingtalk.com^
 ||adashx.ut.shuqi.com^
+||adashx.ut.uc.cn^
 ||adashx.ut.youku.com^
 ||adashxgc.ut.taobao.com^
 ||adasiatagmanager.appspot.com^
@@ -3324,9 +3325,11 @@
 ||gzfzcj.cn^
 ||gzqvd.cn^
 ||gzsjym.xyz^
+||h-adashx.ut.amap.com^
 ||h-adashx.ut.cainiao.com^
 ||h-adashx.ut.dingtalk.com^
 ||h-adashx.ut.taobao.com^
+||h-adashx.ut.uc.cn^
 ||h-adashx.ut.youku.com^
 ||h-adashx4bc.ut.taobao.com^
 ||h-adashx4yt.ut.taobao.com^
@@ -6159,6 +6162,7 @@
 ||s*-fe-scm.pglstatp-toutiao.com^
 ||s*a.pstatp.com^
 ||s*voicecloud.cn^
+||s-adashx.ut.uc.cn^
 ||s-gm.mmstat.com^
 ||s.1rtb.net^
 ||s.amazon-adsystem.com^
