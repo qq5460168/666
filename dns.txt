@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-03-20 20:16:10（北京时间）
+! Version: 2025-03-20 22:09:04（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8516
+! Total count: 8518
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -1428,7 +1428,6 @@
 ||api.kurobbs.com/config/getOpenScreen*^
 ||api.kwaizt.com^
 ||api.liumingye.cn^
-||api.m.jd.com^
 ||api.megvii.com^
 ||api.miui.security.xiaomi.com^
 ||api.myadsget.com^
@@ -1978,8 +1977,10 @@
 ||cbjslog.baidu.com^
 ||cbu01.alicdn.com^
 ||cc-316.cc^
+||cc-algo-cn.heytapimage.com^
 ||cc-api-data.adobe.io^
 ||cc-cdn.adobe.com^
+||cc-img-cn.heytapimage.com^
 ||cc.m.jd.com^
 ||cc.map.qq.com^
 ||ccav.website^
@@ -2858,6 +2859,7 @@
 ||evb0gxo.icu^
 ||evbb.xyz^
 ||evdbcnk.cn^
+||event.dc.oppomobile.com^
 ||event.toggle.qq.com^
 ||event.tradplusad.com^
 ||event.zhihu.com^
@@ -3680,6 +3682,7 @@
 ||ibozys.cn^
 ||ibqkjbw.com^
 ||ibreeno.com^
+||ibrowser.feeds.heytapmobi.com^
 ||ibwqfpo.xyz^
 ||ic.adobe.io^
 ||ic.snssdk.com^
@@ -5725,7 +5728,6 @@
 ||prewxacode.wxqcloud.qq.com.cn^
 ||privacy.qq.com^
 ||prlioxb.cn^
-||pro.m.jd.com^
 ||procdn.asia^
 ||prodigalpromotion.com^
 ||proesh.com^
