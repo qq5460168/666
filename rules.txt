@@ -2,7 +2,7 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-03-22 02:11:39（北京时间）
+! Version: 2025-03-22 04:08:57（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 18834
 
@@ -22,7 +22,7 @@
 # NSFW内容拦截规则 #
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2025-03-22T01:57:52+08:00
+# Update time: 2025-03-22T03:57:55+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -7206,6 +7206,7 @@
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
+16.15.185.131                 github-cloud.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -7268,11 +7269,10 @@
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
 52.216.32.241                 github-production-user-asset-6210df.s3.amazonaws.com
-52.216.50.113                 github-com.s3.amazonaws.com
-52.217.123.241                github-cloud.s3.amazonaws.com
+52.216.62.241                 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.162.113                github-com.s3.amazonaws.com
 52.217.236.185                github-production-repository-file-5c1aeb.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-54.231.228.33                 github-production-release-asset-2e65be.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 66.203.124.31 mega.co.nz
