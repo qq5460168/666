@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-03-25 16:16:45（北京时间）
+! Version: 2025-03-25 18:09:45（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 18797
+! Total count: 18801
 
  
 #   美团
@@ -22,7 +22,7 @@
 # NSFW内容拦截规则 #
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2025-03-25T15:57:44+08:00
+# Update time: 2025-03-25T17:57:48+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -1548,7 +1548,6 @@
 .icu/?token=$third-party
 .icu/biyys*.js$third-party
 .icu/pssbk?$third-party
-.io##DIV.ad
 .js?*&ssid=$third-party
 .live/hm.js$third-party
 .live/r/*/*_r=*
@@ -1590,6 +1589,7 @@
 .xyz/xling_*_*_*.js?
 .xyz:*/bug?*=$third-party
 .xyz:*/hm$third-party
+.xyz:*/js/b.php?v=*
 /*/*.add.*.add
 /*_*_aubi.js$third-party
 /.*\.*\.shouji\.sogou\.com/
@@ -1659,6 +1659,7 @@
 /js/news2zz.js
 /js/pingbi.js
 /js/statistics/user_ad.js
+/js/tj.js
 /lf.fqnovel.*/
 /m.html?rmid=*&yd=
 /m.html?shareName=*&proxyAccount=
@@ -7192,7 +7193,6 @@
 127.0.0.1 zvs2.cnzz.com
 127.0.0.1 zymo.mps.weibo.com
 127.0.0.1 zz.bdstatic.com
-13.107.246.40                 vscode.dev
 13.107.42.16                  pipelines.actions.githubusercontent.com
 140.82.112.10                 codeload.github.com
 140.82.112.26                 alive.github.com
@@ -7202,13 +7202,14 @@
 140.82.113.25                 live.github.com
 140.82.113.5                  api.github.com
 140.82.114.17                 github.community
+140.82.114.21                 education.github.com
 140.82.114.4                  github.com
 142.250.115.188     alt6-mtalk.google.com
 142.250.141.188     alt2-mtalk.google.com
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.15.185.131                 github-cloud.s3.amazonaws.com
+16.15.176.0                   github-cloud.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -7271,10 +7272,10 @@
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
 52.216.32.241                 github-production-user-asset-6210df.s3.amazonaws.com
-52.216.48.33                  github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.216.53.169                 github-production-release-asset-2e65be.s3.amazonaws.com
 52.217.133.57                 github-com.s3.amazonaws.com
+52.217.236.185                github-production-repository-file-5c1aeb.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-54.231.228.33                 github-production-release-asset-2e65be.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 66.203.124.31 mega.co.nz
@@ -9156,6 +9157,7 @@
 Mplay/kk1.js
 _/bigREDcat.css?
 _/bigREDdog.js
+_300x250.js
 acglala.me##.topm,.donghua_info > DIV[style='width:100%;'],.donghua_info > a
 achaec.cc##[style*='px; bottom: 0px; left: 0px; z-index: ']
 achaec.cc##[style*='px; top: 0px; left: 0px; z-index:']
@@ -9255,7 +9257,8 @@ docin.com##.moneyBox
 dongmanhuayuan.myheartsite.com##.card-body
 eastday.com##DIV.lfyinliu
 edu.iask.sina.com.cn##.ad-screen
-error code: 522
+error code: 520
+evice.skysrt.com
 facebook.com#@#script:not([src]) + style + div[id]:not([class]):not([style])
 fanyi.baidu.com##H1,H3,.intro-nav.clearfix,.intro-copyrigh,A.app-bar,.intro-copyright
 greasyfork.org#@#body .ad
@@ -9995,6 +9998,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||517heiya.com^
 ||51gongxiao.com^
 ||51jqq.top^
+||51korean.com^
 ||51minbingtuan.net^
 ||51xuex.com.cn^
 ||51y5.net^
