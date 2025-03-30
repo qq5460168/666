@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-03-31 04:08:25（北京时间）
+! Version: 2025-03-31 06:07:17（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 18860
+! Total count: 18861
 
  
 #   美团
@@ -21,7 +21,7 @@
 # NOMO APP
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2025-03-31T03:57:55+08:00
+# Update time: 2025-03-31T05:57:55+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -7217,7 +7217,6 @@
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.182.38.25                  github-production-user-asset-6210df.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -7229,6 +7228,7 @@
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
+185.199.109.153               github.io
 185.199.109.154               github.githubassets.com
 185.199.111.133               avatars.githubusercontent.com
 185.199.111.133               avatars0.githubusercontent.com
@@ -7248,7 +7248,6 @@
 185.199.111.133               raw.githubusercontent.com
 185.199.111.133               user-images.githubusercontent.com
 185.199.111.153               assets-cdn.github.com
-185.199.111.153               github.io
 185.199.111.153               githubstatus.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
@@ -7279,6 +7278,7 @@
 45.116.79.187 fakelocation.api.lerist.dev
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
+52.216.32.241                 github-production-user-asset-6210df.s3.amazonaws.com
 52.217.113.1                  github-cloud.s3.amazonaws.com
 52.217.133.57                 github-com.s3.amazonaws.com
 52.217.236.185                github-production-repository-file-5c1aeb.s3.amazonaws.com
@@ -9368,6 +9368,7 @@ msn.cn###onetrust-consent-sdk
 msn.cn###rightRailContentContainer > div > div.modernRightRail_modulesContainer-DS-EntryPoint1-1 > fluent-design-system-provider:nth-child(2)
 mxdm9.com,ntdm9.com,mxdm6.com,ntdm6.com##[style$='background-size: 400px 127px !important;'],[style$='bottom: 127px;']
 myqqjd.com##.adsbygoogl
+net^
 nxnba.com##.bootom-fixed
 ofiii.com##.jsx-126687236
 ofiii.com##div.nonlinear_image_container.ad_impression
