@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-03-30 16:10:17（北京时间）
+! Version: 2025-03-30 18:09:08（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8523
+! Total count: 8495
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -159,7 +159,6 @@
 ||*feed_ad*^
 ||*get-ads*^
 ||*getappmsgad*^
-||*googleads*^
 ||*googleadsserving.cn^
 ||*igd.xml*^
 ||*isAds*^
@@ -221,7 +220,6 @@
 ||1.bmkjku09.cc^
 ||1.feihua.com^
 ||1.olybvun.cc^
-||10.130.208.223^
 ||10090dfs.com^
 ||1010pic.com^
 ||1017facai8.xyz^
@@ -233,21 +231,11 @@
 ||1105yh.com^
 ||1106yh.com^
 ||1107piaoliang2022.xyz^
-||111.51.128.172^
 ||1113dage2022.xyz^
 ||1116yitiao2022.xyz^
 ||1117liangtiao2022.xyz^
-||113-116-50-196-yf81c2bb.nodeedge.cn:9512^
 ||118.pkvgbk.com^
-||119.28.83.28:8099^
 ||11jianzhan.com^
-||120.232.202.5^
-||120.232.202.6^
-||120.232.202.7^
-||120.232.207.80^
-||120.232.210.151^
-||120.232.210.153^
-||120.232.210.155^
 ||1205qitiao2022.xyz^
 ||1206q3-giqvvwa1jie9-017.cbhdmir.cn^
 ||121.43.235.135^
@@ -277,8 +265,6 @@
 ||180zhengkkl.com^
 ||1813dc.wifwroi.com^
 ||1814.dkhwyzv.com^
-||183.232.114.245^
-||183.240.223.132^
 ||18479.pw^
 ||187388.com^
 ||188555.com^
@@ -745,8 +731,6 @@
 ||ad-sdk.aiclk.com^
 ||ad-sdk.huxiu.com^
 ||ad-sdk.lenovomm.com^
-||ad-sh-sz-zb.wagbridge.tanx.alimama.com.gds.alibabadns.com ^
-||ad-sh-sz-zb.wagbridge.tanx.alimama.com^
 ||ad-ssp-engine-qa-ct.soulapp-inc.cn^
 ||ad-static.ssread.cn^
 ||ad-survey.com^
@@ -932,7 +916,6 @@
 ||ads*.xhscdn.com^
 ||ads*.zijieapi.com^
 ||ads*kugou.com^
-||ads-acc.qqbrowser.qq.com^
 ||ads-api-o.api.leiniao.com^
 ||ads-api.tiktok.com^
 ||ads-api.twitter.com^
@@ -941,13 +924,11 @@
 ||ads-dev.pinterest.com^
 ||ads-drcn.platform.hihonorcloud.com^
 ||ads-img-al.xhscdn.com^
-||ads-img-bak.xhscdn.com^
 ||ads-img-qc.xhscdn.com^
 ||ads-lb.serving-sys.cn^
 ||ads-marketing-vivofs.vivo.com.cn^
 ||ads-pixiv.net^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
-||ads-sdk-api.ranfenghd.com^
 ||ads-sg.tiktok.com^
 ||ads-shopping.shouqianba.com^
 ||ads-union.jd.com^
@@ -1071,7 +1052,6 @@
 ||adsfile20.bssdlbig.kugou.com^
 ||adsfilebssdlbig.*.kugou.com^
 ||adsfilebssdlbig.ali.kugou.com^
-||adsfilebssdlbig.tx.kugou.com^
 ||adsfileretry.service.kugou.com^
 ||adsfs-sdkconfig.heytapimage.com^
 ||adsfs.heytapimage.com^
@@ -1926,7 +1906,6 @@
 ||c.ads.rgyun.com^
 ||c.bidtoolads.com^
 ||c.cnzz.com^
-||c.etoolads.cn^
 ||c.evidon.com^
 ||c.fa.jd.com^
 ||c.gdt.qq.com^
@@ -1982,7 +1961,6 @@
 ||captivias.site^
 ||carbonads.com^
 ||cards-css.iqiyi.com^
-||cards.iqiyi.com^
 ||careers.hotjar.com^
 ||carstat.bitauto.com^
 ||cas.bugly.qq.com^
@@ -2447,9 +2425,7 @@
 ||dedcrfvdj.xyz^
 ||deeplink.umeng.com^
 ||deeterno.cn^
-||default.cn.sz.wagbridge.ad.alibabacorp.com.gds.alibabadns.com ^
 ||default.cn.sz.wagbridge.ad.alibabacorp.com^
-||default.cn.wagbridge.ad.alibabacorp.com.gds.alibabadns.com ^
 ||default.cn.wagbridge.ad.alibabacorp.com^
 ||default.cn.zb.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
 ||defaultts.tc.qq.com^
@@ -2675,7 +2651,6 @@
 ||dsplog.vivo.com.cn^
 ||dspsdk.pinduoduo.com^
 ||dsqzk.cn^
-||dss0.bdstatic.com^
 ||dstbekdf.xyz^
 ||dstbunkfw.xyz^
 ||dt243100.com^
@@ -3908,6 +3883,7 @@
 ||iwan.baidu.com^
 ||iwanad.baidu.com^
 ||iweiweb.com^
+||iwuaym.icu^
 ||ixav-cse.avlyun.com^
 ||ixbua.xyz^
 ||ixelrsd.cn^
@@ -4849,7 +4825,6 @@
 ||mercury.jd.com^
 ||mermaid.ximalaya.com^
 ||merqieth.com^
-||mesu.apple.com^
 ||met-horn-log.dreport.meituan.net^
 ||meta-cdn.video.iqiyi.com^
 ||meta.video.iqiyi.com^
@@ -5198,7 +5173,6 @@
 ||nissifresh.com^
 ||nithisp.cn^
 ||niulai0323166.space^
-||nj.cschannel.anticheatexpert.com^
 ||njcengpianwang.cn^
 ||njcyt.com^
 ||njogejt.icu^
@@ -5767,7 +5741,6 @@
 ||ptvfzv.xyz^
 ||pub.idqqimg.com^
 ||pubfuture-ad.com^
-||public-bjy-rs-kce-node1466.idchb1az2.hb1.kwaidc.com^
 ||public-deliver5.miguvideo.com^
 ||public.gdtimg.com^
 ||public.wlbaike.com^
@@ -6240,6 +6213,7 @@
 ||sanme2.taisantech.com^
 ||sascwt.cn^
 ||sasdk.3g.qq.com^
+||sat29.so*koaq.com^
 ||saveu5-normal-lf.zijieapi.com^
 ||saveu5-normal-lq.zijieapi.com^
 ||saviourketonic.com^
@@ -6823,7 +6797,6 @@
 ||thvx9i.icu^
 ||tiandesign.top^
 ||tiandiren0031.xyz^
-||tianshu.qq.com^
 ||tianxuan.gtimg.cn^
 ||tianyuewangluo.top^
 ||tieba-ares.cdn.bcebos.com^
@@ -7674,7 +7647,6 @@
 ||wspeed.qq.com^
 ||wtiaw.top^
 ||wtienle.top^
-||wtradv.market.xiaomi.com^
 ||wubizigeng.com^
 ||wuji.video.qq.com^
 ||wuliao.jingyanben.com^
