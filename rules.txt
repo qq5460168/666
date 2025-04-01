@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-01 18:15:12（北京时间）
+! Version: 2025-04-01 20:16:52（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 18846
+! Total count: 18847
 
  
 #   美团
@@ -21,7 +21,7 @@
 # NOMO APP
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2025-04-01T17:57:50+08:00
+# Update time: 2025-04-01T19:57:52+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -7229,14 +7229,13 @@
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
+185.199.108.153               assets-cdn.github.com
 185.199.108.153               github.io
 185.199.108.153               githubstatus.com
-185.199.109.153               assets-cdn.github.com
 185.199.109.154               github.githubassets.com
+185.199.110.133               avatars.githubusercontent.com
 185.199.110.133               github.map.fastly.net
 185.199.110.133               media.githubusercontent.com
-185.199.110.133               user-images.githubusercontent.com
-185.199.111.133               avatars.githubusercontent.com
 185.199.111.133               avatars0.githubusercontent.com
 185.199.111.133               avatars1.githubusercontent.com
 185.199.111.133               avatars2.githubusercontent.com
@@ -7250,6 +7249,7 @@
 185.199.111.133               objects.githubusercontent.com
 185.199.111.133               private-user-images.githubusercontent.com
 185.199.111.133               raw.githubusercontent.com
+185.199.111.133               user-images.githubusercontent.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -9270,6 +9270,7 @@ docin.com##.moneyBox
 dongmanhuayuan.myheartsite.com##.card-body
 eastday.com##DIV.lfyinliu
 edu.iask.sina.com.cn##.ad-screen
+error code: 522
 facebook.com#@#script:not([src]) + style + div[id]:not([class]):not([style])
 fanyi.baidu.com##H1,H3,.intro-nav.clearfix,.intro-copyrigh,A.app-bar,.intro-copyright
 greasyfork.org#@#body .ad
