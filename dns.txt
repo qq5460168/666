@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-01 16:13:19（北京时间）
+! Version: 2025-04-01 18:15:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8497
+! Total count: 8512
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -23,6 +23,8 @@
 ||*.233leyuan.com^
 ||*.233lyly.cn^
 ||*.233lyly.com^
+||*.2b4dlx.com^
+||*.2wa9vg.com^
 ||*.365dmp.com^
 ||*.3adtjg.com^
 ||*.3dqvcli.xyz^
@@ -46,6 +48,7 @@
 ||*.applovin.com^
 ||*.awkwla.cn^
 ||*.beizi.biz^
+||*.bg3partner.fun^
 ||*.bgbjjtd.com^
 ||*.bidjora.com^
 ||*.bjmantis.net^
@@ -84,8 +87,11 @@
 ||*.lxclli.cn^
 ||*.lzwrhiw.xyz^
 ||*.mise*.buzz^
+||*.n8pnux.com^
 ||*.njp878.com^
 ||*.nrb.footprintdns.com^
+||*.nxue75.com^
+||*.o96jic.com^
 ||*.obj23q.com^
 ||*.ombuw.xyz^
 ||*.oneliner.cn^
@@ -104,8 +110,11 @@
 ||*.sigmob.cn^
 ||*.siigck.xyz^
 ||*.sjpxfz.xyz^
+||*.so04011koaq.com^
+||*.tap0102mzq.top^
 ||*.tbyfz.xyz^
 ||*.tkmihh.xyz^
+||*.ud9ipy.com^
 ||*.ul2tos.cn^
 ||*.uweisit.top^
 ||*.v4v6v4.com^
@@ -394,6 +403,7 @@
 ||495qp188.com^
 ||49789c.com^
 ||49789c.com^
+||49lq.mm51-t0403.cc^
 ||49lq.mm51-tvhn1767.vip^
 ||4a9.cn^
 ||4asfgyx.com^
@@ -3157,6 +3167,7 @@
 ||getads.tianad.cn^
 ||getui.cn^
 ||getui.com^
+||geuvus.icu^
 ||geziyd.com^
 ||gfbdb1.com^
 ||gfrzzzx.cn^
@@ -4656,6 +4667,7 @@
 ||lsancil.top^
 ||lshuaibin.cn^
 ||lsj2.5aer.com^
+||lsjarh.top^
 ||lskmipb.icu^
 ||lslbahl.top^
 ||lt.shuinn7.top^
@@ -7096,6 +7108,7 @@
 ||uibjhqwkl.com^
 ||uifyeldt.top^
 ||uioozpxq.com^
+||uiruyhgdlq9.com^
 ||uiteligularly.fun^
 ||ujgf120.com^
 ||ujnkn.com^
@@ -7651,6 +7664,7 @@
 ||wtienle.top^
 ||wubizigeng.com^
 ||wuji.video.qq.com^
+||wuk.91c0218.top^
 ||wuliao.jingyanben.com^
 ||wuplexv.cn^
 ||wvyqks.xyz^
@@ -7991,6 +8005,7 @@
 ||xn--xhq9mt12cf5v.ren^
 ||xn--zw0autp42d.cn^
 ||xne1ocient87zxz.360doc.cn^
+||xnp92aeh02.knlwy.cn^
 ||xnzetb.xyz^
 ||xnzxeu.com^
 ||xokcaxw.cn^

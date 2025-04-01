@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-01 16:13:19（北京时间）
+! Version: 2025-04-01 18:15:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 18832
+! Total count: 18846
 
  
 #   美团
@@ -21,7 +21,7 @@
 # NOMO APP
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2025-04-01T15:57:49+08:00
+# Update time: 2025-04-01T17:57:50+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -136,7 +136,7 @@
 # 放行青柠起始页
 # 放行黑猫投诉
 # 文件名称：茯苓拦截列表
-# 更新时间：2025-03-25
+# 更新时间：2025-04-01
 # 流氓下载器
 # 百度相关网页提示App内阅读左侧Logo
 # 百度贴吧
@@ -7218,7 +7218,6 @@
 142.250.141.188     alt2-mtalk.google.com
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
-16.15.194.140                 github-production-user-asset-6210df.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -7230,9 +7229,13 @@
 183.136.207.132 hugeota.d.miui.com
 183.136.207.132 superota.d.miui.com
 183.136.207.132 ultimateota.d.miui.com
-185.199.108.153               assets-cdn.github.com
-185.199.109.153               github.io
-185.199.109.153               githubstatus.com
+185.199.108.153               github.io
+185.199.108.153               githubstatus.com
+185.199.109.153               assets-cdn.github.com
+185.199.109.154               github.githubassets.com
+185.199.110.133               github.map.fastly.net
+185.199.110.133               media.githubusercontent.com
+185.199.110.133               user-images.githubusercontent.com
 185.199.111.133               avatars.githubusercontent.com
 185.199.111.133               avatars0.githubusercontent.com
 185.199.111.133               avatars1.githubusercontent.com
@@ -7244,13 +7247,9 @@
 185.199.111.133               cloud.githubusercontent.com
 185.199.111.133               desktop.githubusercontent.com
 185.199.111.133               favicons.githubusercontent.com
-185.199.111.133               github.map.fastly.net
-185.199.111.133               media.githubusercontent.com
 185.199.111.133               objects.githubusercontent.com
 185.199.111.133               private-user-images.githubusercontent.com
 185.199.111.133               raw.githubusercontent.com
-185.199.111.133               user-images.githubusercontent.com
-185.199.111.154               github.githubassets.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -7280,9 +7279,10 @@
 45.116.79.187 fakelocation.api.lerist.dev
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.217.105.236                github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.216.32.241                 github-production-user-asset-6210df.s3.amazonaws.com
+52.216.36.249                 github-com.s3.amazonaws.com
 52.217.113.1                  github-cloud.s3.amazonaws.com
-52.217.133.57                 github-com.s3.amazonaws.com
+52.217.236.185                github-production-repository-file-5c1aeb.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 54.231.202.225                github-production-release-asset-2e65be.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
@@ -9270,7 +9270,6 @@ docin.com##.moneyBox
 dongmanhuayuan.myheartsite.com##.card-body
 eastday.com##DIV.lfyinliu
 edu.iask.sina.com.cn##.ad-screen
-error code: 521
 facebook.com#@#script:not([src]) + style + div[id]:not([class]):not([style])
 fanyi.baidu.com##H1,H3,.intro-nav.clearfix,.intro-copyrigh,A.app-bar,.intro-copyright
 greasyfork.org#@#body .ad
@@ -9570,6 +9569,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.233leyuan.com^
 ||*.233lyly.cn^
 ||*.233lyly.com^
+||*.2b4dlx.com^
+||*.2wa9vg.com^
 ||*.365dmp.com^
 ||*.3adtjg.com^
 ||*.3dqvcli.xyz^
@@ -9594,6 +9595,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.awkwla.cn^
 ||*.b5gvpk5.com^$important
 ||*.beizi.biz^
+||*.bg3partner.fun^
 ||*.bgbjjtd.com^
 ||*.bidjora.com^
 ||*.bjmantis.net^
@@ -9634,8 +9636,11 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.lxclli.cn^
 ||*.lzwrhiw.xyz^
 ||*.mise*.buzz^
+||*.n8pnux.com^
 ||*.njp878.com^
 ||*.nrb.footprintdns.com^
+||*.nxue75.com^
+||*.o96jic.com^
 ||*.obj23q.com^
 ||*.ombuw.xyz^
 ||*.oneliner.cn^
@@ -9654,8 +9659,11 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.sigmob.cn^
 ||*.siigck.xyz^
 ||*.sjpxfz.xyz^
+||*.so04011koaq.com^
+||*.tap0102mzq.top^
 ||*.tbyfz.xyz^
 ||*.tkmihh.xyz^
+||*.ud9ipy.com^
 ||*.ul2tos.cn^
 ||*.uweisit.top^
 ||*.v4v6v4.com^
@@ -9991,6 +9999,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||495qp188.com^
 ||49789c.com^
 ||49789c.com^  
+||49lq.mm51-t0403.cc^
 ||49lq.mm51-tvhn1767.vip^
 ||4a9.cn^
 ||4asfgyx.com^
@@ -12994,6 +13003,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||getads.tianad.cn^
 ||getui.cn^
 ||getui.com^
+||geuvus.icu^
 ||geziyd.com^
 ||gfbdb1.com^
 ||gfrzzzx.cn^
@@ -14609,6 +14619,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||lsancil.top^
 ||lshuaibin.cn^
 ||lsj2.5aer.com^
+||lsjarh.top^
 ||lskmipb.icu^
 ||lslbahl.top^
 ||lt.shuinn7.top^
@@ -17259,6 +17270,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||uibjhqwkl.com^
 ||uifyeldt.top^
 ||uioozpxq.com^
+||uiruyhgdlq9.com^
 ||uiteligularly.fun^
 ||ujgf120.com^
 ||ujnkn.com^
@@ -17845,6 +17857,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||wtienle.top^
 ||wubizigeng.com^
 ||wuji.video.qq.com^
+||wuk.91c0218.top^
 ||wuliao.jingyanben.com^
 ||wumengtianb1-sdf.jxws603.top^$important
 ||wuplexv.cn^
@@ -18272,6 +18285,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||xn--xhq9mt12cf5v.ren^
 ||xn--zw0autp42d.cn^
 ||xne1ocient87zxz.360doc.cn^
+||xnp92aeh02.knlwy.cn^
 ||xnzetb.xyz^
 ||xnzxeu.com^
 ||xokcaxw.cn^
