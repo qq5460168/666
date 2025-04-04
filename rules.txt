@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-04 08:41:07（北京时间）
+! Version: 2025-04-04 10:54:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 18874
+! Total count: 18875
 
  
 #   美团
@@ -21,7 +21,7 @@
 # NOMO APP
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2025-04-04T07:57:54+08:00
+# Update time: 2025-04-04T09:57:54+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -7217,7 +7217,6 @@
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.182.106.249                github-com.s3.amazonaws.com
 16.182.38.25                  github-production-user-asset-6210df.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
@@ -7247,10 +7246,10 @@
 185.199.109.133               private-user-images.githubusercontent.com
 185.199.109.133               raw.githubusercontent.com
 185.199.109.133               user-images.githubusercontent.com
+185.199.109.154               github.githubassets.com
 185.199.110.153               assets-cdn.github.com
 185.199.110.153               github.io
 185.199.110.153               githubstatus.com
-185.199.111.154               github.githubassets.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -7280,10 +7279,11 @@
 45.116.79.187 fakelocation.api.lerist.dev
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.152.196                github-cloud.s3.amazonaws.com
-52.216.62.241                 github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.236.185                github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.216.36.249                 github-com.s3.amazonaws.com
+52.216.48.33                  github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.205.129                github-cloud.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+54.231.228.33                 github-production-release-asset-2e65be.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 66.203.124.31 mega.co.nz
@@ -7296,6 +7296,7 @@
 72.247.96.248 www.pinterest.com
 74.125.126.188      alt5-mtalk.google.com
 74.125.200.188      alt1-mtalk.google.com
+777.cc,jav777.xyz##.myad_alert_82_box
 90mh.org##[style$='background-size: 393px 125px !important;']
 91porn.com#@#.vjs-preroll
 91porny.com###playerJsvLayer.jsv-layer
