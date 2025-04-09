@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-09 18:11:06（北京时间）
+! Version: 2025-04-09 20:16:41（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8540
+! Total count: 8521
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -169,7 +169,6 @@
 ||*feed_ad*^
 ||*get-ads*^
 ||*getappmsgad*^
-||*googleads*^
 ||*googleadsserving.cn^
 ||*igd.xml*^
 ||*isAds*^
@@ -231,9 +230,7 @@
 ||1.bmkjku09.cc^
 ||1.feihua.com^
 ||1.olybvun.cc^
-||10.130.208.223^
 ||10090dfs.com^
-||1010pic.com^
 ||1017facai8.xyz^
 ||101kyty.com^
 ||106.11.23.107^
@@ -243,21 +240,11 @@
 ||1105yh.com^
 ||1106yh.com^
 ||1107piaoliang2022.xyz^
-||111.51.128.172^
 ||1113dage2022.xyz^
 ||1116yitiao2022.xyz^
 ||1117liangtiao2022.xyz^
-||113-116-50-196-yf81c2bb.nodeedge.cn:9512^
 ||118.pkvgbk.com^
-||119.28.83.28:8099^
 ||11jianzhan.com^
-||120.232.202.5^
-||120.232.202.6^
-||120.232.202.7^
-||120.232.207.80^
-||120.232.210.151^
-||120.232.210.153^
-||120.232.210.155^
 ||1205qitiao2022.xyz^
 ||1206q3-giqvvwa1jie9-017.cbhdmir.cn^
 ||121.43.235.135^
@@ -287,8 +274,6 @@
 ||180zhengkkl.com^
 ||1813dc.wifwroi.com^
 ||1814.dkhwyzv.com^
-||183.232.114.245^
-||183.240.223.132^
 ||18479.pw^
 ||187388.com^
 ||188555.com^
@@ -756,8 +741,6 @@
 ||ad-sdk.aiclk.com^
 ||ad-sdk.huxiu.com^
 ||ad-sdk.lenovomm.com^
-||ad-sh-sz-zb.wagbridge.tanx.alimama.com.gds.alibabadns.com ^
-||ad-sh-sz-zb.wagbridge.tanx.alimama.com^
 ||ad-ssp-engine-qa-ct.soulapp-inc.cn^
 ||ad-static.ssread.cn^
 ||ad-survey.com^
@@ -880,6 +863,8 @@
 ||aden.baidu.com^
 ||adeng.hpplay.cn^
 ||adeng.lebo.cn^
+||adexp.chinaliftoff.io^
+||adexp.liftoff.io^
 ||adexpo.tencentmusic.com adclick.tencentmusic.com^
 ||adexpo.tencentmusic.com^
 ||adfilter.imtt.qq.com^
@@ -943,7 +928,6 @@
 ||ads*.xhscdn.com^
 ||ads*.zijieapi.com^
 ||ads*kugou.com^
-||ads-acc.qqbrowser.qq.com^
 ||ads-api-o.api.leiniao.com^
 ||ads-api.tiktok.com^
 ||ads-api.twitter.com^
@@ -952,13 +936,11 @@
 ||ads-dev.pinterest.com^
 ||ads-drcn.platform.hihonorcloud.com^
 ||ads-img-al.xhscdn.com^
-||ads-img-bak.xhscdn.com^
 ||ads-img-qc.xhscdn.com^
 ||ads-lb.serving-sys.cn^
 ||ads-marketing-vivofs.vivo.com.cn^
 ||ads-pixiv.net^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
-||ads-sdk-api.ranfenghd.com^
 ||ads-sg.tiktok.com^
 ||ads-shopping.shouqianba.com^
 ||ads-union.jd.com^
@@ -1082,7 +1064,6 @@
 ||adsfile20.bssdlbig.kugou.com^
 ||adsfilebssdlbig.*.kugou.com^
 ||adsfilebssdlbig.ali.kugou.com^
-||adsfilebssdlbig.tx.kugou.com^
 ||adsfileretry.service.kugou.com^
 ||adsfs-sdkconfig.heytapimage.com^
 ||adsfs.heytapimage.com^
@@ -1142,6 +1123,7 @@
 ||adv-sv-show.focus.cn^
 ||adv-sv-stat.focus.cn^
 ||adv.app.qq.com^
+||adv.fjtv.net^
 ||adv.madserving.com^
 ||adv.sec.intl.miui.com^
 ||adv.sec.miui.com^
@@ -1936,7 +1918,6 @@
 ||c.ads.rgyun.com^
 ||c.bidtoolads.com^
 ||c.cnzz.com^
-||c.etoolads.cn^
 ||c.evidon.com^
 ||c.fa.jd.com^
 ||c.gdt.qq.com^
@@ -1992,7 +1973,6 @@
 ||captivias.site^
 ||carbonads.com^
 ||cards-css.iqiyi.com^
-||cards.iqiyi.com^
 ||careers.hotjar.com^
 ||carstat.bitauto.com^
 ||cas.bugly.qq.com^
@@ -2044,6 +2024,7 @@
 ||cdn.9823df.com^
 ||cdn.aiclk.com^
 ||cdn.anyshare.icu^
+||cdn.chinaliftoff-creatives.io^
 ||cdn.cmgadx.com^
 ||cdn.creative-bars1.com^
 ||cdn.dashenya.com^
@@ -2053,6 +2034,7 @@
 ||cdn.inads.cn^
 ||cdn.itphanpytor.club^
 ||cdn.jquery-cdn.cc^
+||cdn.liftoff-creatives.io^
 ||cdn.nearbyad.com^
 ||cdn.read.html5.qq.com^
 ||cdn.uaa010.com^
@@ -2155,9 +2137,12 @@
 ||classic.39health.com^
 ||clcmdie.com^
 ||click*forhz.adsmogo.com^
+||click.chinaliftoff.io^
 ||click.googleanalytics.com^
+||click.liftoff.io^
 ||click.oneplus.cn^
 ||click.tianyaui.com^
+||click4.chinaliftoff.io^
 ||clickserver.googleads.com^
 ||client.show.qq.com^
 ||clientlog.music.163.com^
@@ -2275,7 +2260,6 @@
 ||crash.browser.qq.com^
 ||crash2.zhihu.com^
 ||crashlytics.163.com^
-||crashlytics.com^
 ||crashlyticsreports-pa.googleapis.com^
 ||creamaroc.com^
 ||createssque.club^
@@ -2457,9 +2441,7 @@
 ||dedcrfvdj.xyz^
 ||deeplink.umeng.com^
 ||deeterno.cn^
-||default.cn.sz.wagbridge.ad.alibabacorp.com.gds.alibabadns.com ^
 ||default.cn.sz.wagbridge.ad.alibabacorp.com^
-||default.cn.wagbridge.ad.alibabacorp.com.gds.alibabadns.com ^
 ||default.cn.wagbridge.ad.alibabacorp.com^
 ||default.cn.zb.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
 ||defaultts.tc.qq.com^
@@ -2686,7 +2668,6 @@
 ||dsplog.vivo.com.cn^
 ||dspsdk.pinduoduo.com^
 ||dsqzk.cn^
-||dss0.bdstatic.com^
 ||dstbekdf.xyz^
 ||dstbunkfw.xyz^
 ||dt243100.com^
@@ -3819,6 +3800,8 @@
 ||imp.ads.rgyun.com^
 ||imp.voiceads.cn^
 ||imp.zol.com.cn^
+||impression-asia.chinaliftoff.io^
+||impression-asia.liftoff.io^
 ||impression.biligame.com^
 ||imtmp.net^
 ||in-addr.arpa^
@@ -4467,6 +4450,7 @@
 ||lgoseh.fun^
 ||lguaud.icu^
 ||lgygy.cn^
+||lh3.googleadsserving.cn^
 ||lhdlbp.xyz^
 ||lhgwcvw.cn^
 ||lhiefl.com^
@@ -4863,7 +4847,6 @@
 ||mercury.jd.com^
 ||mermaid.ximalaya.com^
 ||merqieth.com^
-||mesu.apple.com^
 ||met-horn-log.dreport.meituan.net^
 ||meta-cdn.video.iqiyi.com^
 ||meta.video.iqiyi.com^
@@ -5212,7 +5195,6 @@
 ||nissifresh.com^
 ||nithisp.cn^
 ||niulai0323166.space^
-||nj.cschannel.anticheatexpert.com^
 ||njcengpianwang.cn^
 ||njcyt.com^
 ||njogejt.icu^
@@ -5314,6 +5296,7 @@
 ||offerwall.yandex.net^
 ||ofooe.cn^
 ||ofreadingand.biz^
+||ogads-pa.clients6.google.com^
 ||oganilglk.cyou^
 ||oghqvffmnt.com^
 ||ognujxj.cn^
@@ -5780,7 +5763,6 @@
 ||ptvfzv.xyz^
 ||pub.idqqimg.com^
 ||pubfuture-ad.com^
-||public-bjy-rs-kce-node1466.idchb1az2.hb1.kwaidc.com^
 ||public-deliver5.miguvideo.com^
 ||public.gdtimg.com^
 ||public.wlbaike.com^
@@ -6837,7 +6819,6 @@
 ||thvx9i.icu^
 ||tiandesign.top^
 ||tiandiren0031.xyz^
-||tianshu.qq.com^
 ||tianxuan.gtimg.cn^
 ||tianyuewangluo.top^
 ||tieba-ares.cdn.bcebos.com^
@@ -6939,6 +6920,7 @@
 ||tower.ubixioe.com^
 ||tp2p.kg.qq.com^
 ||tp4sul.jwzd.com.cn^
+||tpc.googlesyndication-cn.com^
 ||tpc.googlesyndication.com^
 ||tpstelemetry.tencent.com^
 ||tptp002.cfd^
@@ -7689,7 +7671,6 @@
 ||wspeed.qq.com^
 ||wtiaw.top^
 ||wtienle.top^
-||wtradv.market.xiaomi.com^
 ||wubizigeng.com^
 ||wuji.video.qq.com^
 ||wuk.91c0218.top^
