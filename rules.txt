@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-12 02:12:16（北京时间）
+! Version: 2025-04-12 04:09:46（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 19063
+! Total count: 19073
 
  
 #   美团
@@ -1311,7 +1311,7 @@
 #用户头像加载
 #用户头像＆用户背景图
 #用户头像＆部分封面
-#电影港跳转广告
+#电影港
 #电费计算器
 #番茄免费小说
 #番茄小说
@@ -1501,6 +1501,7 @@
 #阿里推送(未知用途)
 #阿里系登录接口
 #阿里系软件下载
+#雨课堂
 #音乐版官网
 #音乐适配
 #页面布局
@@ -7782,6 +7783,7 @@
 @@||cfg.imtt.qq.com^$important
 @@||cfm.jd.com^$important
 @@||cg.163.com^
+@@||changjiang.yuketang.cn^$important
 @@||chrome-infra-packages.appspot.com^$important
 @@||ci.xiaohongshu.com^
 @@||cl2.webterren.com^$important
@@ -9256,6 +9258,7 @@
 @@||www.youtube-nocookie.com
 @@||www.youtube.com^$important
 @@||www.yuewen.com^
+@@||www.yuketang.cn^$important
 @@||www.zhihu.com^
 @@||www1.appcleanermac.com^$important
 @@||www1.pcauto.com.cn^
@@ -9713,6 +9716,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*-data.ads.heytapmobi.com^
 ||*-inapps.appsflyersdk.com^
 ||*-launches.appsflyersdk.com^
+||*.04kai.org^$important
 ||*.233leyuan.cn^
 ||*.233leyuan.com^
 ||*.233lyly.cn^
@@ -9780,6 +9784,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.jomoxc.com^
 ||*.juicyads.me^
 ||*.jvere.xyz^
+||*.kbddftp.cn^$important
 ||*.kweisid.top^
 ||*.kwilmid.top^
 ||*.kxayxw.cn^
@@ -9790,6 +9795,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.n8pnux.com^
 ||*.njp878.com^
 ||*.nrb.footprintdns.com^
+||*.nswsu.com^$important
 ||*.nxue75.com^
 ||*.o96jic.com^
 ||*.obj23q.com^
@@ -9805,6 +9811,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.qgivvd.cn^
 ||*.qiuxl11.cn^
 ||*.retail.n.weimob.com^
+||*.rhjdc.com^$important
 ||*.s8etj5.com^
 ||*.saxysec.com^
 ||*.searesource.top^$important
@@ -13082,6 +13089,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||frrhdl.xyz^
 ||frsejhged.xyz^
 ||frt040803.341035.cc^$important
+||frt041202.045189.cc^$important
 ||fsgsfaf6.com^
 ||fsjjrbz.cn^
 ||fsmhub.icu^
@@ -14391,6 +14399,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||kowqd1.top^
 ||kowqd5.top^
 ||kowqd7.top^
+||kowuie.sydneypass.info^$important
 ||kqubxdb.cn^
 ||kr.axyqd.cn^$important
 ||kr.sdykcloud.cn^
@@ -18725,6 +18734,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ytqeavc.icu^
 ||ytqlyw.xyz^
 ||ytvwhbejc.com^
+||yu041202.982051.cc^$important
 ||yuanlin15.cn^
 ||yuanmengbi.com^
 ||yuanxiang19.fun^
