@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-11 22:08:30（北京时间）
+! Version: 2025-04-12 00:15:51（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 19012
+! Total count: 19011
 
  
 #   美团
@@ -9315,6 +9315,7 @@
 @@||zkres.myzaker.com^$important
 @@||zm.sm-tc.cn^$important
 @@||ztgame.com^
+Could not parse paths: invalid socket address syntax
 Mplay/kk1.js
 _/bigREDcat.css?
 _/bigREDdog.js
@@ -9418,10 +9419,8 @@ docin.com##.moneyBox
 dongmanhuayuan.myheartsite.com##.card-body
 eastday.com##DIV.lfyinliu
 edu.iask.sina.com.cn##.ad-screen
-error code: 521
 facebook.com#@#script:not([src]) + style + div[id]:not([class]):not([style])
 fanyi.baidu.com##H1,H3,.intro-nav.clearfix,.intro-copyrigh,A.app-bar,.intro-copyright
-g^
 greasyfork.org#@#body .ad
 guancha.cn##.g_header44
 guancha.cn##.g_swiper_container
