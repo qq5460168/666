@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-12 10:52:53（北京时间）
+! Version: 2025-04-12 12:10:14（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 19075
+! Total count: 19074
 
  
 #   美团
@@ -7436,6 +7436,7 @@
 66.203.125.53 w.api.mega.co.nz
 66.203.125.56 mcd270n310.karere.mega.nz
 66.203.127.13 g.static.mega.co.nz
+7.0.0.1 www.oadz.com
 72.247.96.248 api.pinterest.com
 72.247.96.248 i.pinimg.com
 72.247.96.248 pinterest.com
@@ -7444,7 +7445,6 @@
 72.247.96.248 www.pinterest.com
 74.125.126.188      alt5-mtalk.google.com
 74.125.200.188      alt1-mtalk.google.com
-777.cc,jav777.xyz##.myad_alert_82_box
 90mh.org##[style$='background-size: 393px 125px !important;']
 91porn.com#@#.vjs-preroll
 91porny.com###playerJsvLayer.jsv-layer
@@ -9320,7 +9320,6 @@
 @@||zm.sm-tc.cn^$important
 @@||ztgame.com^
 Mplay/kk1.js
-^
 _/bigREDcat.css?
 _/bigREDdog.js
 _300x250.js
