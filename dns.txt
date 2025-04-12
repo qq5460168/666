@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-12 22:06:37（北京时间）
+! Version: 2025-04-13 00:09:11（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8573
+! Total count: 8576
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -532,6 +532,7 @@
 ||785008.com^
 ||785008.com^
 ||7859tz10.com^
+||789.kakamobi.cn^
 ||789peizi.com^
 ||78dfvv.com^
 ||79zxcv.com^
@@ -1414,7 +1415,6 @@
 ||api-gps.hismarttv.com^
 ||api-gw.wtzw.com^
 ||api-htp.beizi.biz^
-||api-ks.wtzw.com^
 ||api-p*.mobsurl.com^
 ||api-p*.yksdks.com^
 ||api-p1.yksdks.com^
@@ -2116,6 +2116,7 @@
 ||changyangadvertising.com^
 ||chaoku.oss-cn-chengdu.aliyuncs.com^
 ||chaseherbalpasty.com^
+||chat-platform-open.kakamobi.cn^
 ||chat1.jd.com^
 ||chdezxp.com^
 ||checkappexec.microsoft.com^
@@ -4027,6 +4028,7 @@
 ||jianxinshanghai.com^
 ||jianyihang.com^
 ||jiatoutrade.com^
+||jiaxiao-awd.kakamobi.cn^
 ||jibh.zhangxy2.cn^
 ||jieshimaya.xyz^
 ||jietuhb.com^
@@ -6708,6 +6710,7 @@
 ||svvbrkk.cn^
 ||svvev3.com^
 ||sw9t.ml^
+||swallow.kakamobi.cn^
 ||swan-api.iqiyi.com^
 ||swwwxww.oss-cn-hangzhou.aliyuncs.com^
 ||sxguowei.com^
