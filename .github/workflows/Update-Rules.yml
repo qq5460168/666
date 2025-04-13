@@ -22,8 +22,8 @@ jobs:
       - name: Git push assets to Github
         run: |
           git init
-          git config --local user.email "916899380@qq.com"
-          git config --local user.name "qq5460168"
+          git config --global user.name "AutoUpdater[Bot]"
+          git config --global user.email "916899380+autoupdater[bot]@users.noreply.github.com"
           git branch -m master
           git add --all
           git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
