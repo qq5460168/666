@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-13 10:08:34（北京时间）
+! Version: 2025-04-13 12:42:33（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 19079
+! Total count: 19100
 
  
 #   美团
@@ -9496,7 +9496,6 @@ m.qidian.com##A.catalog-download
 m.qidian.com##I.icon-logo
 m.qidian.com##P.text-content
 m.sm.cn##DIV[ad_seid],.dl-banner-lg.card
-m^$important
 manwa.me#@#.ad-area
 manwa1.me,manwa2.me,manwa.me##.ad-area-close
 manwa1.me,manwa2.me,manwa.me##.swiper-container.swiper-container-horizontal
@@ -10007,6 +10006,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||13hangpifa.com^
 ||14370.net^$important
 ||1500020991.vodplayer.wxamedia.com^
+||1500022744.vodplayer.wxamedia.com^
 ||1500026601.vodplayer.wxamedia.com^
 ||154.22.214.2^
 ||155tl.com^$important
@@ -11106,6 +11106,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||alexanbelen.com^
 ||alfpair.com^
 ||ali-ad.a.yximgs.com^
+||ali-p2p-v2.pull.yximgs.com^
 ||ali-stats.jpush.cn^
 ||ali2.a.yximgs.com^
 ||alictibet.com^
@@ -12719,6 +12720,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dygtulfe.icu^
 ||dyhnbgtsl.xyz^
 ||dykeep.com^
+||dyp2p-ali.douyucdn.cn^
+||dyp2p-hw.douyucdn.cn^
 ||dysohvv.com^
 ||dytt8.com/js*
 ||dyxz*.com/static/gdw.js
@@ -13702,6 +13705,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||hvdswb.tnhjwrs.com^
 ||hvr.tjkfcnn.cn^$important
 ||hw-ot-ad.a.yximgs.com^
+||hw-p2p-pull.video-voip.com^
+||hw-p2p.pull.yximgs.com^
 ||hwfoct.icu^
 ||hwgzp5.com^
 ||hwivedn.icu^
@@ -14413,6 +14418,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||krr894.top^
 ||krw.yrehdfer.com^
 ||ks-adaptive.pull.yximgs.com^
+||ks-p2p-v2.pull.yximgs.com^
+||ks-p2p.pull.yximgs.com^
 ||ks.ferlytc.com^
 ||ks.pull.yximgs.com^
 ||ks66666661.com^
@@ -15087,6 +15094,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||mine.z74d.com^$important
 ||mingtians.top^
 ||mini-app-packages-cdn.taobao.com^
+||mini-prog-drm.vodplayvideo.net^
 ||mini2015.qq.com^
 ||miniapp-ad.cdn.bcebos.com^
 ||minigame.gtimg.cn^
@@ -15732,6 +15740,10 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||p26.gejulm*.com^
 ||p2cdn.com^
 ||p2kfynrr.icu^
+||p2pchunk-table.douyucdn.cn^
+||p2plive-ali.douyucdn.cn^
+||p2pupdate.gamedl.qq.com^
+||p2pupgrade.gamedl.qq.com^
 ||p3-ad-sign.byteimg.com/web.business.image^
 ||p3-ad-sign.byteimg.com^
 ||p3-ad.adbkwai.com^
@@ -15816,6 +15828,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||pcbrowser.dd.qq.com^
 ||pcdn-monitor.cdn.bcebos.com^
 ||pcdn-tracker.baidu.com^
+||pcdn.xmcdn.com^
 ||pcdnlog-receiver-pub.jd.com^
 ||pchznf.xyz^
 ||pcm-img.zhls.qq.com^
@@ -16149,6 +16162,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||qmfcybwbf16.com^
 ||qmfcybwbf19.com^
 ||qmfcybwbf28.com^
+||qn-cdnfile1pcdn.msstatic.com^
 ||qn-livewebbs2pcdn.msstatic.com^
 ||qnfvojfkw.xyz^
 ||qnguqmt.top^
@@ -16523,6 +16537,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||saveu5-normal-lf.zijieapi.com^
 ||saveu5-normal-lq.zijieapi.com^
 ||saviourketonic.com^
+||saxysec.com^
 ||sb.scorecardresearch.com^
 ||sb4you1.com^
 ||sb6k.top^
@@ -16966,6 +16981,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||stream.snssdk.com^
 ||stricaik.com^
 ||studylabs.cn^
+||stun.hitv.com^
 ||stun.syncthing.net^
 ||stunthedge.com^
 ||style-browse-openapi.test.gifshow.com^
@@ -17278,6 +17294,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||tower.ubixioe.com^
 ||tp2p.kg.qq.com^
 ||tp4sul.jwzd.com.cn^
+||tpa-hcdn.iqiyi.com^
 ||tpc.googlesyndication-cn.com^
 ||tpc.googlesyndication.com^
 ||tpns.q.com^$important
@@ -17416,6 +17433,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||tx-cfg-u1.ubixioe.com^
 ||tx-data-u1.ubixioe.com^
 ||tx-kmpaudio.pull.yximgs.com^
+||tx-p2p-pull.live-voip.com^
+||tx-p2p-v2.pull.yximgs.com^
 ||tx.a.kspkg.com^
 ||txbhhh.xyz^
 ||txcv68f.com^
@@ -17496,6 +17515,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ugfe111.top^
 ||ugsdk.cn^
 ||ugugct.xyz^
+||uhabo.com^
 ||uhwnrfu.cn^
 ||uhyhdrh.cn^
 ||uibjhqwkl.com^
@@ -18589,6 +18609,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||xy-livewebbs2pcdn.msstatic.com^
 ||xyadtlyy.com^
 ||xybnfn.xyz^
+||xycdn.com^
 ||xyf-test.oss-cn-beijing.aliyuncs.com^$important
 ||xygj.cc^
 ||xyizgh.cn^

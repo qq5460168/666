@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-13 10:08:34（北京时间）
+! Version: 2025-04-13 12:42:33（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8576
+! Total count: 8598
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -278,6 +278,7 @@
 ||1381a.xyz^
 ||13hangpifa.com^
 ||1500020991.vodplayer.wxamedia.com^
+||1500022744.vodplayer.wxamedia.com^
 ||1500026601.vodplayer.wxamedia.com^
 ||154.22.214.2^
 ||155zn.com^
@@ -1287,6 +1288,7 @@
 ||alexanbelen.com^
 ||alfpair.com^
 ||ali-ad.a.yximgs.com^
+||ali-p2p-v2.pull.yximgs.com^
 ||ali-stats.jpush.cn^
 ||ali2.a.yximgs.com^
 ||alictibet.com^
@@ -2753,6 +2755,8 @@
 ||dygtulfe.icu^
 ||dyhnbgtsl.xyz^
 ||dykeep.com^
+||dyp2p-ali.douyucdn.cn^
+||dyp2p-hw.douyucdn.cn^
 ||dysohvv.com^
 ||dyzt55url8.adobe.io^
 ||dzfzfv.xyz^
@@ -3673,6 +3677,8 @@
 ||hvdath.xyz^
 ||hvdswb.tnhjwrs.com^
 ||hw-ot-ad.a.yximgs.com^
+||hw-p2p-pull.video-voip.com^
+||hw-p2p.pull.yximgs.com^
 ||hwfoct.icu^
 ||hwgzp5.com^
 ||hwivedn.icu^
@@ -4329,6 +4335,8 @@
 ||krr894.top^
 ||krw.yrehdfer.com^
 ||ks-adaptive.pull.yximgs.com^
+||ks-p2p-v2.pull.yximgs.com^
+||ks-p2p.pull.yximgs.com^
 ||ks.ferlytc.com^
 ||ks.pull.yximgs.com^
 ||ks66666661.com^
@@ -4946,6 +4954,7 @@
 ||mindopu.com^
 ||mingtians.top^
 ||mini-app-packages-cdn.taobao.com^
+||mini-prog-drm.vodplayvideo.net^
 ||mini2015.qq.com^
 ||miniapp-ad.cdn.bcebos.com^
 ||minigame.gtimg.cn^
@@ -5549,6 +5558,10 @@
 ||p26.gejulm*.com^
 ||p2cdn.com^
 ||p2kfynrr.icu^
+||p2pchunk-table.douyucdn.cn^
+||p2plive-ali.douyucdn.cn^
+||p2pupdate.gamedl.qq.com^
+||p2pupgrade.gamedl.qq.com^
 ||p3-ad-sign.byteimg.com/web.business.image^
 ||p3-ad-sign.byteimg.com^
 ||p3-ad.adbkwai.com^
@@ -5627,6 +5640,7 @@
 ||pcbrowser.dd.qq.com^
 ||pcdn-monitor.cdn.bcebos.com^
 ||pcdn-tracker.baidu.com^
+||pcdn.xmcdn.com^
 ||pcdnlog-receiver-pub.jd.com^
 ||pchznf.xyz^
 ||pcm-img.zhls.qq.com^
@@ -5931,6 +5945,7 @@
 ||qmfcybwbf16.com^
 ||qmfcybwbf19.com^
 ||qmfcybwbf28.com^
+||qn-cdnfile1pcdn.msstatic.com^
 ||qn-livewebbs2pcdn.msstatic.com^
 ||qnfvojfkw.xyz^
 ||qnguqmt.top^
@@ -6288,6 +6303,7 @@
 ||saveu5-normal-lf.zijieapi.com^
 ||saveu5-normal-lq.zijieapi.com^
 ||saviourketonic.com^
+||saxysec.com^
 ||sb.scorecardresearch.com^
 ||sb4you1.com^
 ||sb6k.top^
@@ -6682,6 +6698,7 @@
 ||stream.snssdk.com^
 ||stricaik.com^
 ||studylabs.cn^
+||stun.hitv.com^
 ||stun.syncthing.net^
 ||stunthedge.com^
 ||style-browse-openapi.test.gifshow.com^
@@ -6974,6 +6991,7 @@
 ||tower.ubixioe.com^
 ||tp2p.kg.qq.com^
 ||tp4sul.jwzd.com.cn^
+||tpa-hcdn.iqiyi.com^
 ||tpc.googlesyndication-cn.com^
 ||tpc.googlesyndication.com^
 ||tpstelemetry.tencent.com^
@@ -7093,6 +7111,8 @@
 ||tx-cfg-u1.ubixioe.com^
 ||tx-data-u1.ubixioe.com^
 ||tx-kmpaudio.pull.yximgs.com^
+||tx-p2p-pull.live-voip.com^
+||tx-p2p-v2.pull.yximgs.com^
 ||tx.a.kspkg.com^
 ||txbhhh.xyz^
 ||txcv68f.com^
@@ -7166,6 +7186,7 @@
 ||ugfe111.top^
 ||ugsdk.cn^
 ||ugugct.xyz^
+||uhabo.com^
 ||uhwnrfu.cn^
 ||uhyhdrh.cn^
 ||uibjhqwkl.com^
@@ -8140,6 +8161,7 @@
 ||xy-livewebbs2pcdn.msstatic.com^
 ||xyadtlyy.com^
 ||xybnfn.xyz^
+||xycdn.com^
 ||xygj.cc^
 ||xyizgh.cn^
 ||xypcr-1-8-new01.grejskx.com^
