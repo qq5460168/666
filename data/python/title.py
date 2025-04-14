@@ -1,57 +1,33 @@
 import datetime
-import os
-from pathlib import Path
-from zoneinfo import ZoneInfo  # Python 3.9+ 标准库，替代pytz
+import pytz
+import glob
 
-def process_files():
-    """处理文本文件并添加文件头信息"""
-    # 时区设置（使用标准库替代pytz）
-    beijing_tz = ZoneInfo("Asia/Shanghai")
-    beijing_time = datetime.datetime.now(beijing_tz).strftime('%Y-%m-%d %H:%M:%S')
-    
-    # 使用pathlib处理路径
-    base_dir = Path(__file__).parent.parent  # 更安全的路径获取方式
-    txt_files = list(base_dir.glob('*.txt'))
-    
-    for file_path in txt_files:
-        # 跳过目录和非文本文件
-        if not file_path.is_file():
-            print(f"跳过非文件对象：{file_path}")
-            continue
-            
-        try:
-            # 读取内容并统计准确行数
-            with open(file_path, 'r', encoding='utf-8') as f:
-                content = f.read()
-                line_count = len(content.splitlines())  # 更准确的行数统计方式
-                
-            # 构建文件头模板
-            header = f"""\
-[个人合并 2.0]
-! Title: 去广告规则，酷安反馈反馈
-! Homepage: https://github.com/qq5460168/666
-! Expires: 12 Hours
-! Version: {beijing_time}（北京时间）
-! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: {line_count}
+# 获取当前时间并转换为北京时间
+utc_time = datetime.datetime.now(pytz.timezone('UTC'))
+beijing_time = utc_time.astimezone(pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
 
-"""
-            # 原子化写入操作
-            temp_file = file_path.with_suffix('.tmp')
-            with open(temp_file, 'w', encoding='utf-8') as f:
-                f.write(header)
-                f.write(content)
-                
-            # 替换原文件
-            temp_file.replace(file_path)
-            print(f"已处理：{file_path.name}")
-            
-        except UnicodeDecodeError:
-            print(f"编码错误：{file_path} 不是UTF-8文本文件")
-        except PermissionError:
-            print(f"权限不足：无法修改 {file_path}")
-        except Exception as e:
-            print(f"处理 {file_path} 时发生未知错误：{str(e)}")
+# 获取文件列表
+file_list = glob.glob('.././*.txt')  # 将路径替换为你的文件所在的目录
 
-if __name__ == '__main__':
-    process_files()
+# 遍历文件列表
+for file_path in file_list:
+    # 打开文件并读取内容
+    with open(file_path, 'r') as file:
+        content = file.read()
+
+    # 计算文件的行数
+    line_count = content.count('\n') + 1
+
+    # 在文件顶部插入内容
+    new_content = f"[个人合并 2.0]\n" \
+                  f"! Title: 去广告规则，酷安反馈反馈\n" \
+                  f"! Homepage: https://github.com/qq5460168/666\n" \
+                  f"! Expires: 12 Hours\n" \
+                  f"! Version: {beijing_time}（北京时间）\n" \
+                  f"! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列\n" \
+                  f"! Total count: {line_count}\n" \
+                  f"{content}"
+
+    # 将更新后的内容写入文件
+    with open(file_path, 'w') as file:
+        file.write(new_content)
