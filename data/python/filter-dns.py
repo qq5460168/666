@@ -1,10 +1,16 @@
 import datetime
+
 # 打开原始文件和目标文件
 with open('.././rules.txt', 'r') as input_file, open('.././dns.txt', 'w') as output_file:
     # 逐行读取原始文件内容
     for line in input_file:
         # 去除行尾的换行符
         line = line.strip()
+        
+        # 检查是否包含 "m^$important" 错误规则，如果包含则跳过
+        if "m^$important" in line:
+            print(f"跳过错误规则: {line}")
+            continue
         
         # 检查行长度是否大于等于2，并且首字符是"||"并且结尾是"^"
         if len(line) >= 2 and line.startswith("||") and line.endswith("^"):
