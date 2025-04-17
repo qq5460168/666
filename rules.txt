@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-17 12:10:58（北京时间）
+! Version: 2025-04-17 14:12:53（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 19110
+! Total count: 19138
 
  
 #   美团
@@ -21,7 +21,7 @@
 # NOMO APP
 # Star me: https://github.com/521xueweihan/GitHub520
 # Todesk
-# Update time: 2025-04-17T11:53:29+08:00
+# Update time: 2025-04-17T13:53:55+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # [小说]
 # [视频客户端过滤器]
@@ -2520,6 +2520,7 @@
 127.0.0.1 aiad-aisuda.cdn.bcebos.com
 127.0.0.1 aic.oceanengine.com
 127.0.0.1 aid.video.qq.com
+127.0.0.1 aider-res.meizu.com
 127.0.0.1 aim.yoyi.com.cn
 127.0.0.1 aip.aiclk.com
 127.0.0.1 aiseet.aa.atianqi.com
@@ -2638,6 +2639,8 @@
 127.0.0.1 api-ext.mediav.com
 127.0.0.1 api-fc.dutils.com
 127.0.0.1 api-fd.dutils.com
+127.0.0.1 api-flow.flyme.cn
+127.0.0.1 api-flow.meizu.com
 127.0.0.1 api-fp-retry-bj.fengkongcloud.com
 127.0.0.1 api-ga.aiclk.com
 127.0.0.1 api-gd.dutils.com
@@ -2671,6 +2674,7 @@
 127.0.0.1 api-p3.yksdks.com
 127.0.0.1 api-p4.mobsurl.com
 127.0.0.1 api-p4.yksdks.com
+127.0.0.1 api-push.meizu.com
 127.0.0.1 api-share.mob.com
 127.0.0.1 api-shoulei-ssl.xunlei.com
 127.0.0.1 api-trace.kajicam.com
@@ -3109,6 +3113,7 @@
 127.0.0.1 bossaudioandcomic-1252317822.image.myqcloud.com
 127.0.0.1 bottle.irs01.com
 127.0.0.1 brandshow.58.com
+127.0.0.1 bro.flyme.cn
 127.0.0.1 broker.mqtt.pandora.xiaomi.com
 127.0.0.1 bronrt.stsdk.vivo.com.cn
 127.0.0.1 brort.stsdk.vivo.com.cn
@@ -3220,6 +3225,7 @@
 127.0.0.1 caclick.qq.com
 127.0.0.1 cad.youku.com
 127.0.0.1 caid.shuzilm.cn
+127.0.0.1 cal.meizu.com
 127.0.0.1 callback.tradplusad.com
 127.0.0.1 campaign-tapad.s3.amazonaws.com
 127.0.0.1 campaign.adobe.com
@@ -3810,6 +3816,8 @@
 127.0.0.1 easou.irs01.com
 127.0.0.1 easytomessage.com
 127.0.0.1 eb2.3lift.com
+127.0.0.1 ebook-res.meizu.com
+127.0.0.1 ebook.res.meizu.com
 127.0.0.1 ec.oceanengine.com
 127.0.0.1 eclick.baidu.com
 127.0.0.1 ecma.bdimg.com
@@ -3856,6 +3864,7 @@
 127.0.0.1 errnewlogos.umeng.com
 127.0.0.1 errrloh.umeng.com
 127.0.0.1 ers.baidu.com
+127.0.0.1 es-res.flyme.cn
 127.0.0.1 et-eus.w.inmobi.com
 127.0.0.1 et.tanx.com
 127.0.0.1 et.w.inmobi.cn
@@ -4003,9 +4012,11 @@
 127.0.0.1 galaxy.bz.mgtv.com
 127.0.0.1 gallery.pandora.xiaomi.com
 127.0.0.1 game-motivatead.aiclk.com
+127.0.0.1 game-res.meizu.com
 127.0.0.1 game.eve.mdt.qq.com
 127.0.0.1 game.html5.qq.com
 127.0.0.1 game.loveota.com
+127.0.0.1 game.res.meizu.com
 127.0.0.1 game.weibo.cn
 127.0.0.1 gamebox.kugou.com
 127.0.0.1 gamecenter.iqiyi.com
@@ -4454,6 +4465,7 @@
 127.0.0.1 info.gdt.qq.com
 127.0.0.1 info.mediav.com
 127.0.0.1 info.umeng.com
+127.0.0.1 infocenter.meizu.com
 127.0.0.1 infotrack.gdt.qq.com
 127.0.0.1 infra-admin.corp.kuaishou.com
 127.0.0.1 ini.update.360safe.com
@@ -4862,6 +4874,7 @@
 127.0.0.1 madeqr.com
 127.0.0.1 mads.amazon-adsystem.com
 127.0.0.1 mads.suning.com
+127.0.0.1 madx.flyme.cn
 127.0.0.1 mail.domob.cn
 127.0.0.1 mail.jpush.cn
 127.0.0.1 manager.tradplusad.com
@@ -5138,6 +5151,7 @@
 127.0.0.1 mydisplay.ctfile.com
 127.0.0.1 myes.youku.com
 127.0.0.1 myvpn.inmobi.com
+127.0.0.1 mz-api.smzdm.com 
 127.0.0.1 n.3g.163.com
 127.0.0.1 n.mark.le.com
 127.0.0.1 n.mark.letv.com
@@ -5246,6 +5260,7 @@
 127.0.0.1 opehs.tanx.com
 127.0.0.1 open-ad.vivo.com.cn
 127.0.0.1 open-cms-api.quark.cn
+127.0.0.1 open-iflow.meizu.com
 127.0.0.1 open-pixon.ads-pixiv.net
 127.0.0.1 open.camscanner.com
 127.0.0.1 open.cnzz.com
@@ -5267,6 +5282,7 @@
 127.0.0.1 openacs.m.taobao.com
 127.0.0.1 openacs4uc.m.taobao.com
 127.0.0.1 openapi-gy.getui.com
+127.0.0.1 openapi-news.meizu.com
 127.0.0.1 openapi-smsp.getui.com
 127.0.0.1 openapi.mysteel.com
 127.0.0.1 openapi.toponad.com
@@ -5580,6 +5596,7 @@
 127.0.0.1 push.mob.com
 127.0.0.1 push.mobile.kugou.com
 127.0.0.1 push.pgl.qq.com
+127.0.0.1 push.res.meizu.com
 127.0.0.1 push.skysrt.com
 127.0.0.1 push.umeng.com
 127.0.0.1 push.xdrig.com
@@ -5693,6 +5710,8 @@
 127.0.0.1 rd.da.netease.com
 127.0.0.1 rd.wan.360.cn
 127.0.0.1 reader.browser.miui.com
+127.0.0.1 reader.meizu.com
+127.0.0.1 reader.res.meizu.com
 127.0.0.1 reader.sh.vip.qq.com
 127.0.0.1 reading-hl.snssdk.com
 127.0.0.1 reading-lq.snssdk.com
@@ -5968,6 +5987,7 @@
 127.0.0.1 sa3cba2a.irs03.com
 127.0.0.1 saad.ms.zhangyue.net
 127.0.0.1 saas.tingyun.com
+127.0.0.1 safe.res.meizu.com
 127.0.0.1 safe.ucweb.com
 127.0.0.1 safebrowsing.googleapis.com
 127.0.0.1 samsung-com.112.2o7.net
@@ -6263,6 +6283,7 @@
 127.0.0.1 ssl.google-analytics.com
 127.0.0.1 ssl.msdk.qq.com
 127.0.0.1 sso.oceanengine.com
+127.0.0.1 ssp-res.flyme.cn
 127.0.0.1 ssp-sdk-api.jiguang.cn
 127.0.0.1 ssp-sdk-status.jiguang.cn
 127.0.0.1 ssp.1nmob.com
@@ -6421,6 +6442,8 @@
 127.0.0.1 szlong.weixin.qq.com
 127.0.0.1 szxy.getui.com
 127.0.0.1 t-dsp.pinduoduo.com
+127.0.0.1 t-e.flyme.cn
+127.0.0.1 t-flow.flyme.cn
 127.0.0.1 t-l.play.aiseet.atianqi.com
 127.0.0.1 t.adbxb.com
 127.0.0.1 t.ads.sohu.com
@@ -6579,9 +6602,11 @@
 127.0.0.1 toblog.snssdk.com
 127.0.0.1 toblog.tobsnssdk.com
 127.0.0.1 toblog.volceapplog.com
+127.0.0.1 tongji-res1.meizu.com
 127.0.0.1 tongji.baidu.com
 127.0.0.1 tongji.cn.miaozhen.com
 127.0.0.1 tongji.cnzz.com
+127.0.0.1 tongji.meizu.com
 127.0.0.1 tongji.qidian.com
 127.0.0.1 tongji.wrating.com
 127.0.0.1 tongji.zhidao.baidu.com
@@ -6748,6 +6773,7 @@
 127.0.0.1 umengacs.m.taobao.com
 127.0.0.1 umengcloud.com
 127.0.0.1 umengjmacs.m.taobao.com
+127.0.0.1 umid.orion.meizu.com
 127.0.0.1 ump.sz.creditcard.ecitic.com
 127.0.0.1 umsns.com
 127.0.0.1 umtrack.com
@@ -6808,6 +6834,7 @@
 127.0.0.1 upos-sz-mirror08h.bilivideo.com
 127.0.0.1 upos-sz-mirrorcos.bilivideo.com
 127.0.0.1 ups.analytics.yahoo.com
+127.0.0.1 upush.res.meizu.com
 127.0.0.1 upush.umeng.com
 127.0.0.1 urchin.lstat.youku.com
 127.0.0.1 url8807.global.passport.xiaomi.com
@@ -6834,6 +6861,7 @@
 127.0.0.1 uve.weibo.com
 127.0.0.1 uvu.nojmlxq.cn
 127.0.0.1 uweb.umeng.com
+127.0.0.1 uxip.meizu.com
 127.0.0.1 v.adintl.cn
 127.0.0.1 v.admaster.com.cn
 127.0.0.1 v.adx.hubcloud.com.cn
@@ -7345,19 +7373,19 @@
 127.0.0.1 zz.bdstatic.com
 13.107.246.73                 vscode.dev  # Timeout
 13.107.42.16                  pipelines.actions.githubusercontent.com
-140.82.112.21                 central.github.com
-140.82.112.26                 live.github.com
-140.82.113.21                 collector.github.com
-140.82.113.22                 api.individual.githubcopilot.com
-140.82.113.22                 education.github.com
-140.82.113.26                 alive.github.com
-140.82.114.17                 github.community
+140.82.112.22                 api.individual.githubcopilot.com
+140.82.112.22                 central.github.com
+140.82.113.18                 github.community
+140.82.113.21                 education.github.com
+140.82.113.22                 collector.github.com
+140.82.113.25                 live.github.com
+140.82.114.26                 alive.github.com
 142.250.115.188     alt6-mtalk.google.com
 142.250.141.188     alt2-mtalk.google.com
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.15.194.192                 github-production-release-asset-2e65be.s3.amazonaws.com
+16.15.193.45                  github-production-repository-file-5c1aeb.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -7412,8 +7440,6 @@
 23.53.35.199 cdn.akamai.steamstatic.com
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
-3.5.17.120                    github-production-user-asset-6210df.s3.amazonaws.com
-3.5.21.110                    github-production-repository-file-5c1aeb.s3.amazonaws.com
 31.216.145.5 mega.nz
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
@@ -7428,9 +7454,11 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.217.169.1                  github-com.s3.amazonaws.com
-52.217.99.76                  github-cloud.s3.amazonaws.com
+52.216.219.185                github-cloud.s3.amazonaws.com
+52.217.203.89                 github-production-user-asset-6210df.s3.amazonaws.com
+52.217.98.244                 github-production-release-asset-2e65be.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+54.231.194.17                 github-com.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 66.203.124.31 g.cdn1.mega.co.nz
