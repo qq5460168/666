@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-18 14:12:42（北京时间）
+! Version: 2025-04-18 16:11:48（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8601
+! Total count: 8606
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -82,6 +82,7 @@
 ||*.jomoxc.com^
 ||*.juicyads.me^
 ||*.jvere.xyz^
+||*.jwcnmta.top^
 ||*.kweisid.top^
 ||*.kwilmid.top^
 ||*.kxayxw.cn^
@@ -6363,6 +6364,7 @@
 ||sdk.sipujia.cn^
 ||sdk.taobao.com.ailbaba.me^
 ||sdk.verification.jiguang.cn^
+||sdk2xr232.top^
 ||sdkapp.mobile.sina.cn^
 ||sdkapp.uve.weibo.com^
 ||sdkauth.hpplay.cn^
@@ -7716,6 +7718,7 @@
 ||wn68din.cn^
 ||wn80drk.shop^
 ||wns.notify.windows.com.akadns.net^
+||wnymfqnrzp6.com^
 ||wnzle.com^
 ||wo1990.com^
 ||wof.matchkj.com^
@@ -7778,6 +7781,7 @@
 ||www.adsage.cn^
 ||www.adsmogo.com^
 ||www.afmykaa.com^
+||www.aitongji.vip^
 ||www.anbdd19.xyz^
 ||www.antailianmeng.com^
 ||www.baidu.com.sogou.360.cn.qq.com.hunlaife.cn^
@@ -7919,6 +7923,7 @@
 ||www.wqetqi.vip^
 ||www.wyxcb6.top^
 ||www.xaqsl.com^
+||www.xhslg84.vip^
 ||www.xhsrt47.vip^
 ||www.xhsrt588.vip^
 ||www.xhsrt594.vip^
