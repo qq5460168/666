@@ -69,8 +69,8 @@ done
 
 # 合并并去重规则
 echo "合并和去重规则..."
-cat rules*.txt | grep -Ev '^(!|\[)' | sort -u > tmp-rules.txt
-cat allow*.txt | grep '^@@' | sort -u > tmp-allow.txt
+cat rules*.txt | grep -Ev '^(#|!|\[|$)' | grep -E '^\|\|' | sort -u > tmp-rules.txt
+cat allow*.txt | grep -E '^@@\|\|.*\^$' | grep -Ev '^(#|!|$)' | sort -u > tmp-allow.txt
 
 # 移动最终结果
 mv tmp-rules.txt ../rules.txt
