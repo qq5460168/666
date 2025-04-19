@@ -1,0 +1,183 @@
+!
+! Title: Ad Filter For AdGuard  
+! Description: 这是一个适用于AdGuard的广告拦截规则，配合官方拦截规则能有效阻止绝大部分中国互联网的广告。但请注意，由于此规则由个人维护且以个人使用为目的，所以可能有误拦截的情况发生。  
+! Version: 2.0.5  
+! Homepage: https://ad.kirychan.com  
+! Last modified: 2025-03-20T21:55:03+09:00  
+ 
+! 快手相关服务  
+!
+||e.kuaishou.com^
+||frontend-perf-service.e.kuaishou.com^
+||kuaishouad.cn^
+||log-sdk.ksapisrv.com^
+||open.e.kuaishou.cn^
+||open.kuaishouzt.com^
+||p*-ad.adukwai.com^
+||p*-ff.adkwai.com^
+||p*-lm.adkwai.com^
+||p*-lm.adukwai.com^
+||v4-lm.adukwai.com^
+||w1.kskwai.com^
+ 
+! 阿里、淘宝相关服务  
+!
+||*adashx.ut.taobao.com^
+||adashbc.ut.taobao.com^
+||adashx.m.taobao.com.w.kunlunhuf.com^
+||adashxgc.ut.taobao.com^
+||audid-api.taobao.com^
+||baichuan-sdk.alicdn.com.w.cdngslb.com^
+||baichuan-sdk.alicdn.com^
+||baichuan-sdk.taobao.com^
+||ip.taobao.com^
+||tanx.com^
+||volces.com^
+||wcp.taobao.com^
+ 
+! 百度相关服务  
+!
+||als.baidu.com^
+||api.touch-mobile.baidu.com^
+||bes-mtj.baidu.com^
+||bj-a.bcebos.com.n.shifen.com^
+||cdbaidu.com^
+||esm.baidu.com^
+||fclog.baidu.com^
+||feed-image.baidu.com^
+||fxgate.baidu.com^
+||hmma.baidu.com^
+||integralwall.baidu.com^
+||luimg.baidu.com^
+||mbd.wshifen.com^
+||mobads.baidu.com^
+||mobads-logs.baidu.com^
+||nadvideo*.baidu.com^
+||union.baidu.com^
+||wn.pos.baidu.com^
+
+! 哔哩哔哩开屏广告
+!
+||broadcast.chat.bilibili.com^
+ 
+! 微博相关服务  
+!
+||ad.us.sinaimg.cn^
+||ad.weibo.com^
+||biz.weibo.com^
+||fund.sina.com.cn^
+||newsapi.sina.cn^
+||uve.weibo.com^
+ 
+! 腾讯相关服务  
+!
+||ad.qq.com^
+||appcfg.v.qq.com^
+||bk.info.zb.qq.com^
+||bugly.qq.com^
+||e.qq.com^
+||gdt.qq.com^
+||img.gamecenter.qq.com^
+||info.zb.qq.com^
+||kde.qq.com^
+||mtt.eve.mdt.qq.com^
+||pgdt.gtimg.cn^
+||pgdt.ugdtimg.com^
+||photovideo-circle.photo.qq.com^
+||prewxacode.wxqcloud.qq.com.cn^
+||qzs.gdtimg.com^
+||v*.gdt.qq.com^
+||vv.video.qq.com^
+||vweixinthumb.tc.qq.com^
+||wuji.video.qq.com^
+||wxa.wxs.qq.com^
+||xj.gtimg.cn^
+ 
+! 京东相关服务  
+!
+||addata.jd.com^
+||ccc-x.jd.com^
+||dsp-x.jd.com^
+||img2.360buyimg.com^
+||img-x.jd.com^
+||im-x.jd.com^
+||janapi.jd.com^
+||jingpaidang.com^
+||uranus.jd.com^
+||video-*.pddpic.com^
+||wl.jd.com^
+||wq.jd.com^
+||xlog.jd.com^
+ 
+! 穿山甲广告平台  
+!
+||csjplatform.com^
+||pangolin*.com^
+||pglstatp-toutiao.com^
+||webcast-open.douyin.com^
+ 
+! 七猫小说相关服务  
+!
+||cdn-new-ad.wtzw.com.g4.bdydns.com^
+||cdn-new-ad.wtzw.com^
+||qm989.com^
+||s.peplle.cn^
+ 
+! 友盟和数字联盟  
+!
+||shuzilm.cn^
+||umeng.com^
+ 
+! VIVO广告  
+!
+||risk-fp-openapi.vivo.com.cn^
+||ssp.vivo.com.cn^
+
+! OPPO浏览器/天气广告  
+!
+||adx.ads.heytapmobi.com^
+||event.dc.oppomobile.com^
+||cc-algo-cn.heytapimage.com^
+||adsfs.heytapimage.com^
+||cc-img-cn.heytapimage.com^
+||ibrowser.feeds.heytapmobi.com^
+
+! 佳投广告  
+!
+||adxvip.com^
+||benshar.com^
+||jiaads.com^
+||jiaadsx.com^
+||jiatoutrade.com^
+||sltxantonline.com^
+ 
+! 其他未分类  
+!
+||1rtb.net^
+||3yoqu.com^
+||6sense.com^
+||ampproject.org^
+||anythinktech.com^
+||beizi.biz^
+||c.sayhi.360.cn^
+||cn-fp.apitd.net^
+||etoote.com^
+||g1.tagtic.com^
+||getui.com^
+||hubcloud.com.cn^
+||mon.changyou.com^
+||sentry.io^
+||sdk.api.oaid.wocloud.cn^
+||sdk.open.phone.igexin.com^
+||sm.cn^
+||static.lm-a.zblb.sm.cn^
+||telecome.cn^
+||transcosmos-cn.com^
+||ubixioe.com^
+||unioncom.cc^
+||wi-fi.cn^
+||yousuoweiedu.com^
+||yximgs.com^
+||zhonglianhuashu.com^
+
+
