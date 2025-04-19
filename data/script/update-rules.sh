@@ -142,8 +142,19 @@ cat \
 wait
 
 
-cat *.txt | grep '^@' \
- | sort -n | uniq > tmp-allow.txt & #允许清单处理
+# 提取以 @@|| 开头并以 ^ 结尾的规则
+cat *.txt \
+ | grep '^@@||.*\^$' \
+ | sort -u > allow_ends_with_caret.txt
+
+# 提取以 @@|| 开头并以 ^$important 结尾的规则
+cat *.txt \
+ | grep '^@@||.*\^\$important$' \
+ | sort -u > allow_ends_with_important.txt
+
+# 合并两种规则到一个文件中
+cat allow_ends_with_caret.txt allow_ends_with_important.txt \
+ | sort -u > tmp-allow.txt
 wait
 
 cp tmp-allow.txt .././allow.txt
