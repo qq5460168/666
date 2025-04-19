@@ -1,0 +1,2617 @@
+﻿! Title: 广告白名单规则，反馈🐧群
+! Homepage: https://github.com/qq5460168/me
+
+#中国电信app
+@@||appgoad.189.cn^$important
+#爱回收
+@@||aihuishou.com^$important
+#雨课堂
+@@||www.yuketang.cn^$important
+@@||changjiang.yuketang.cn^$important
+#华为商店图标
+@@||appimg-drcn.dbankcdn.com^$important
+#清新云
+@@||ipv4dns.com^$important
+#拓竹3D打印相关服务
+@@||*.bblmw.cn^
+# 放行安居客
+#官网
+@@||www.anjuke.com^
+#地区官网
+@@||*.anjuke.com$important
+#移动端官网
+@@||m.anjuke.com^
+#分类图片接口
+@@||pic6.ajkimg.com^
+# 放行即梦AI
+#灵感封面加载
+@@||p3-heycan-hgt-sign.byteimg.com^
+@@||p6-heycan-hgt-sign.byteimg.com^
+@@||p9-heycan-hgt-sign.byteimg.com^
+#作者头像加载
+@@||p3-faceu-img-sign.byteimg.com^
+@@||p6-faceu-img-sign.byteimg.com^
+@@||p9-faceu-img-sign.byteimg.com^
+#极限软件园
+@@||m.jxdown.com^$important
+@@||img.jxdown.com^$important
+@@||jxdown.com^$important
+#一加相册插件
+@@||fourier-videoclip-eu.allawnos.com^$important
+# 放行海信官网
+@@||www.hisense.com^
+# 放行海尔官网
+@@||www.haier.com^
+#云商城
+@@||cdn.staticfile.org^$important
+# 放行青柠起始页
+@@||limestart.cn^
+#kimi智能助手
+@@||prod-chat-kimi-tos.moonshot.cn^
+#adobe
+@@||na1r.services.adobe.com^
+@@||ereg.adobe.com^
+@@||lmlicenses.wip4.adobe.com^
+#新浪微博
+@@||sax.sina.com.cn^
+# NOMO APP
+@@||sdkapi.sms.mob.com^
+@@||news-l.play.aiseet.atianqi.com^
+@@||p-l.play.aiseet.atianqi.com^
+#skype
+@@||browser.pipe.aria.microsoft.com^
+@@||evtubescms.phncdn.com^
+@@||c1.skype.com^
+@@||events.data.microsoft.com^
+@@||mobile.pipe.aria.microsoft.com^
+#mytvsuper
+@@||imasdk.googleapis.com^
+#唯品会APP
+@@||api.union.vip.com^
+#酷安推送
+@@||guid.tpns.tencent.com^
+@@||access1.tpns.tencent.com^
+#有道翻译官网页翻译
+@@||c.youdao.com^
+#大众养生网
+@@||mipcache.bdstatic.com^
+#爱(i)茅台
+@@||mm1.365dmp.com^
+@@||mm3.365dmp.com^
+@@||sfp.safe.baidu.com^
+@@||sofire.bdstatic.com^
+#cdn加速
+@@||cdn.bootcdn.net^
+#pornhub
+@@||ss.phncdn.com^
+@@||ei.phncdn.com^
+@@||dm1.phncdn.com^
+@@||di.phncdn.com^
+@@||cdn1d-static-shared.phncdn.com^
+@@||cdn1-smallimg.phncdn.com^
+@@||cn.pornhub.com^
+@@||www.pornhub.com^
+#推特(第三方调用)
+@@||mobile.twitter.com^
+@@||twitter.com^
+@@||www.twitter.com^
+#手机搜狗输入法
+@@||shouji.sougou.com^
+# 搜狗输入法
+@@||input.shouji.sogou.com^$important
+@@||worldwide.sogou.com^$important
+# 放行搜狗
+#搜索引擎网页布局
+@@||search.sogoucdn.com^
+#搜索结果图片加载＆搜狗百科图片加载
+@@||img.sogoucdn.com^
+@@||pic.baike.soso.com^
+@@||img01.sogoucdn.com^
+@@||img02.sogoucdn.com^
+@@||img03.sogoucdn.com^
+@@||img04.sogoucdn.com^
+#墨墨背单词
+@@||www.maimemo.com^$important
+#Blogger
+@@||www.blogger.com^$important
+#ICP/IP地址/域名信息备案管理系统
+@@||beian.miit.gov.cn^$important
+#交管12123
+@@||static.122.gov.cn^$important
+@@||down.anticheatexpert.com^$important
+#转转
+@@||app.zhuanzhuan.com^$important
+@@||m.zhuanzhuan.com^$important
+# 放行阅文集团
+#阅文集团官网
+@@||www.yuewen.com^
+#起点小说网登陆注册接口
+@@||passport.qidian.com^
+#起点小说网登陆注册二维码接口与微信登陆注册接口
+@@||ptlogin.yuewen.com^
+#起点小说中文网
+@@||www.qidian.com^
+@@||m.qidian.com^
+#起点小说女生网
+@@||www.qdmm.com^
+@@||m.qdmm.com^
+#起点小说女生网顶部宣传图
+@@||img1.qidian.com^
+#起点小说网页排版
+@@||qdfepccdn.qidian.com^
+#起点小说PC网页端＆手机网页端首页轮播图接口
+@@||bossaudioandcomic-1252317822.image.myqcloud.com^
+#起点小说书籍封面图
+@@||bookcover.yuewen.com^
+#起点小说PC网页端书籍详情页
+#手机网页端书籍详情页跳转链接
+@@||book.qidian.com^
+#起点小说书籍详情页作者头像接口
+@@||ccportrait.yuewen.com^
+#起点小说作家说头像接口
+@@||facepic.qidian.com^
+#起点小说公示文章接口
+@@||acts.qidian.com^
+#起点小说公示文章页面布局
+@@||qidian.gtimg.com^
+#起点小说男生网手机网页端特殊功能按钮图片接口
+#起点小说女生网手机页面端书籍分区加载＆书籍封面接口
+@@||imgservices-1252317822.image.myqcloud.com^
+#阅文作家专区官网
+@@||write.qq.com^
+#阅文作家专区页面布局
+@@||stawritecdn.yuewen.com^
+#阅文作家专区登陆注册接口
+@@||passport.yuewen.com^
+#起点游戏首页
+@@||game.qidian.com^
+#起点游戏首页页面布局
+@@||img.qidian.com^
+#起点游戏封面
+@@||gameimg.qidian.com^
+#迅雷下载
+@@||down.sandai.net^
+#4399小游戏
+@@||stat.api.4399.com^
+#大圣净化
+@@||wiki.ad-gone.com
+#天气
+@@||i.tianqi.com^$important
+#  糯米PHP 网站
+@@||www.nuomiphp.com^$important
+#低端影视
+@@||ddys.pro^$important
+#nextdns
+@@||test.nextdns.io^$important
+#teams
+@@||teams.live.com^$important
+#ios毒奶
+@@||limbopro.com^$important
+#某些网页的图片加载
+@@||img.mp.itc.cn^$important
+#一些应用调用的高德api
+@@||mpsapi.amap.com^$important
+#同程旅行
+@@||40017.cn^$important
+#一些应用短信登陆拼图验证
+@@||turing.captcha.gtimg.com^$important
+#七猫小说
+@@||api-cmnt.wtzw.com^$important
+#探探
+@@||i.tancdn.com^$important
+@@||i.tantanapp.com^$important
+@@||core.tantanapp.com^$important
+#ios app付费解锁
+@@||api.revenuecat.com^$important
+#葫芦侠
+@@||huluxia.com^$important
+#bing
+@@||bing.net^$important
+!小黑盒验证
+@@||fp-it.fengkongcloud.com^
+##公共CDN
+@@||bootcdn.net^$important
+#斗鱼
+@@||market.m.taobao.com^$important
+@@||msg.douyu.com^$important
+@@||bjfesdk.douyucdn.cn^$important
+@@||gift.douyucdn.cn^$important
+##图床
+@@||pic.imgdb.cn
+#阿里推送(未知用途)
+@@||mpush-api.aliyun.com^$important
+# Todesk
+@@||st.todesk.com^$important
+# 皮皮虾无法访问问题
+@@||dm.toutiao.com^$important
+@@||dig.bdurl.net^$important
+@@||ws.ribaoapi.com^$important
+# 应用汇
+@@||mobile.appchina.com^$important
+# twitter
+@@||api.twitter.com^$important
+@@||pbs.twimg.com^$important
+!华为账号登录
+@@||oauth-login-drcn.platform.dbankcloud.com^
+#> 同盾
+@@||fp.tongdun.net^
+@@||fraudmetrix.cn^
+!ofiii
+@@||cdi.ofiii.com^
+@@||fino.svc.litv.tv^
+!携程移动端主页
+@@||m.ctrip.com^
+#> 饿了么
+@@||ipassport.ele.me^
+#天翼账号本机号码免注册一键登录
+@@||id6.me^
+#> 建设银行
+@@||adv.ccb.com^
+#> 深圳通
+@@||ecard.shenzhentong.com^
+#> 百姓网
+@@||baixing.com^
+#> 新疆网上税务局
+@@||xj-n-tax.gov.cn^
+#> 百事公司大中华区
+@@||pepsico.com.cn^
+#> 下载
+@@||duote.com^
+#> >迅雷
+@@||api-shoulei-ssl.xunlei.com^
+# 放行迅雷下载加速
+@@||hub5btmain.v6.shub.sandai.net^
+#> 查询
+@@||7x24s.com^
+@@||mac.bmcx.com^
+#> 试玩平台
+@@||uri6.com^
+#> 天气预报
+@@||e.weather.com.cn^
+#> PE工具
+@@||laomaotao.net^
+#> 域名注册
+@@||bluehost.com^
+@@||ename.com.cn^
+@@||ename.net^
+@@||hosting24.com^
+#谷歌
+@@||csi.gstatic.com^
+@@||googleadservices.com^
+# 放行Google play商店应用下载接口
+@@||*.xn--ngstr-lra8j.com^
+# 放行Google登录界面布局
+#拦截后点击按钮无反应
+# 放行Google部分网页布局
+#Google搜索右上角头像菜单显示
+# 放行Google搜索移动端
+#网页提示登录时的Logo
+#搜索结果内容预览图片接口＆平台Logo加载
+@@||encrypted-tbn0.gstatic.com^
+@@||encrypted-tbn1.gstatic.com^
+@@||encrypted-tbn2.gstatic.com^
+@@||encrypted-tbn3.gstatic.com^
+#> 蜗牛
+@@||woniu.com^
+#> 千橡
+@@||imop.com^
+#> 3975游戏
+@@||3975.com^
+#> 模拟城市
+@@||live.simcitybuildit.com^
+#> 巨人网络
+@@||ztgame.com^
+#> 原神
+@@||log-upload.mihoyo.com^
+#> APP工具
+@@||ereg.wip3.adobe.com^
+@@||similarweb.com^
+#> 短剧
+@@||1sapp.com^
+#> 优米电视
+@@||umiwi.com^
+#> xlivesex直播
+@@||xlivesex.com^
+#> 苹果
+@@||stats.gc.apple.com^
+#> 微软
+@@||click.linksynergy.com^
+#> > 大牌餐饮
+@@||sjh.baidu.com^
+#> 斗鱼
+@@||gift.douyucdn.cn^
+@@||msg.douyu.com^
+#> 字节跳动
+@@||haohuo.snssdk.com^
+#555影视
+@@||3d-platform-pro.obs.cn-south-1.myhuaweicloud.com^$important
+@@||ichnaea-web.netflix.com^$important
+#大师兄
+@@||sdk.alibaba.com.ailbaba.me^$important
+##Omofun
+@@||pic2.zhimg.com^
+@@||lf6-imcloud-file-sign.bytetos.com^
+@@||lf3-imcloud-file-sign.bytetos.com^
+#视频app
+@@||fs-im-kefu.7moor-fs1.com^$important
+#领红包封面
+@@||sourl.cn^$important
+#> 搜狐
+@@||api.tv.sohu.com^
+@@||track.sohu.com^
+@@||yule.sohu.com^
+#> > 搜狐视频
+#拦截该域名Safari无法播放视频
+@@||data.vod.itc.cn^
+#> MASN中国
+@@||g.live.com^
+#> 东方财富网
+@@||dfcfw.com^
+@@||mobappconfig.securities.eastmoney.com^
+#> 中关村在线
+@@||direct.wap.zol.com.cn^
+#> 米读小说
+@@||apiwz.midukanshu.com^
+#路由器
+@@||router.ctc.lan^$important
+#苹果商店图片
+@@||is1-ssl.mzstatic.com^$important
+#三星手机商店
+@@|img.samsungapps.com^
+@@|img.galaxyappstore.com^
+#酷安图片
+@@||image.coolapk.com^
+#丰巢
+@@||dsp.fcbox.com^$important
+#囧次元
+@@||wxsnsdy.wxs.qq.com^$important
+#花生壳推送
+@@||push.oray.com^$important
+#链家、贝壳找房验证码
+@@||dig.lianjia.com^$important
+#书旗小说评论
+@@||stars.shuqireader.com^$important
+#土豆视频
+@@||www.tudou.com^$important
+#A站点赞
+@@||api.kuaishouzt.com^$important
+#饿了么小程序
+@@||waimai-guide.ele.me^$important
+#饿了么登录
+@@||ipassport.ele.me^$important
+#滴滴顺风车
+@@||dorado.xiaojukeji.com^$important
+#极弧
+@@||about.gitlab.cn^$important
+#soul签到
+@@||increase-openapi.soulapp.cn^$important
+#脚本之家
+@@||img.jbzj.com^$important
+#西瓜视频图片
+@@||p3-sign.bdxiguaimg.com^$important
+@@||p26-sign.bdxiguaimg.com^$important
+#天猫app
+#@@||appdownload.alicdn.com^$important
+#音乐适配
+@@||nmobi.kuwo.cn^$important
+#ios上的pixiv
+@@||oauth.secure.pixiv.net^$important
+#极光推送
+@@||tsis.jpush.cn^$important
+#科利达WiFi
+@@||portal.ik.weiyunjian.com^$important
+#米游社
+@@||upload-bbs.miyoushe.com^$important
+#书旗听书
+@@||audio-cdn.shuqireader.com^$important
+#反向DNS查找
+@@||*.in-addr.arpa^$important
+#123网盘app
+@@||sdk-api.beizi.biz^$important
+# 放行123云盘手机网页布局
+@@||statics.123pan.com^
+#盒子定位
+@@||restapi.amap.com^$important
+#脚本之家
+@@||icws.jb51.net^$important
+#dropbox
+@@||www-env.dropbox-dns.com^$important
+#喜马拉雅音频下载
+@@||ietheivaicai.com^$important
+#针对转转App
+@@||app.zhuanzhuan.com^$important
+#免费公共 DNS 服务器大全
+@@||dns.icoa.cn^$important
+#丰巢app图片
+@@||consumerapp-1251779293.image.myqcloud.com^$important
+#菜鸟包裹侠
+@@||h5api.m.taobao.com^$important
+#欢太官网
+@@||brand.heytap.com^$important
+#欢太软件商店
+@@||storedl1.nearme.com.cn^$important
+@@||api-cn.cdo.heytapmobi.com^$important
+#直播吧
+@@||m.zhibo8.com^$important
+#喜番短剧
+@@||tube.e.kuaishou.com^$important
+#脚本之家
+@@||common.jbzj.com^$important
+#gp助手
+@@||bucket-ynote-online-cdn.note.youdao.com^$important
+#IP 地址查询
+@@||ipxx.pro^$important
+##影视仓小雅误杀
+@@||fs-im-kefu.7moor-fs1.com^$important
+##瑞幸
+@@||dualstack-a.apilocate.amap.com^$important
+#什么值得买浏览记录
+@@||app-api.smzdm.com^$important
+@@||h5offline.zhuanzhuan.com^$important
+@@||m.zhuanzhuan.com^$important
+@@||feconf.zhuanzhuan.com^$important
+@@||feentry.zhuanzhuan.com^$important
+@@||sentry.zhuanzhuan.com^$important
+@@||act.zhuanzhuan.com^$important
+@@||app-api.pixiv.net^$important
+#测速网站
+@@||cdn.iocdn.cc^$important
+#今日诗词
+@@||v1.jinrishici.com^$important
+@@||v2.jinrishici.com^$important
+#花瓣测速
+@@||connect-drcn.hispace.hicloud.com^$important
+#油管缓存
+@@||jnn-pa.googleapis.com^$important
+#日历网
+@@||gl.zle.com^$important
+#银河互联网网络电视
+@@||gitv.tv^$important
+# 放行Yep搜索引擎
+@@||yep.com^
+# 放行蓝奏云
+#下载文件引擎
+@@||i72.lanzoug.com^
+@@||i82.lanzoug.com^
+#第三方蓝奏云APP
+@@||appcenter.ms^
+#图片加载
+@@||pic*.40017.cn^
+# 放行TapTap
+#AD推荐的游戏介绍加载
+@@||static-tapad.tapdb.net^
+#游戏时间统计
+@@||report.taptapdada.com^
+# 放行小鸡词典官网加载
+@@||jikipedia.com^
+# 放行学信网APP内刷新
+@@||push.chsi.com.cn^
+# 放行酷安
+#用户头像＆用户背景图
+@@||avatar.coolapk.com^
+#某些APP图标加载
+@@||image.9game.cn^
+#应用游戏界面视频加载
+@@||f.video.weibocdn.com^
+#酷安模块头条重要通知加载
+#316签名墙
+@@||316.coolapk1s.com^
+@@||api.coolapk1s.com^
+# 放行搜图引擎
+@@||saucenao.com^
+# 放行BOSS直聘页面加载
+@@||zhipin.com^
+# 放行豌豆荚
+#普通下载文件地址
+@@||android-apps.pp.cn^
+#应用图标
+@@||android-artworks.25pp.com^
+# 放行知乎
+#主站
+@@||www.zhihu.com^
+#网页排版
+@@||static.zhihu.com^
+#视频加载
+@@||video.zhihu.com^
+#文章图片
+#移动端有些广告图也是此域名。
+@@||pic*.zhimg.com^
+#跳转链接
+@@||link.zhihu.com^
+#专栏加载
+@@||zhuanlan.zhihu.com^
+@@||vdn3.vzuu.com^
+@@||lens.zhihu.com^
+@@||duga.zhihu.com^$important
+# 放行弹弹play磁力播放
+@@||hub5btmain.sandai.net^
+@@||hub5pn.wap.sandai.net^
+# 太平洋科技
+#官网
+@@||www.pconline.com.cn^
+#网页布局
+@@||js.3conline.com^
+#移动端页面图片
+@@||www1.pconline.com.cn^
+#移动端页面特殊按钮图标
+@@||www1.pcauto.com.cn^
+# 放行凤凰网科技
+#作者头像＆二维码
+@@||x0.ifengimg.com^
+#文章封面＆文章图片＆视频封面
+@@||d.ifengimg.com^
+# 放行磁力在线解析观看下载
+@@||webtor.io^
+@@||instant.io^
+# 放行steam APP图片加载
+@@||cdn.akamai.steamstatic.com^
+@@||community.akamai.steamstatic.com^
+# 放行IP地址查询
+#900查询
+@@||ip.900cha.com^
+# 放行IP查询＆DNS查询
+@@||ipw.cn^
+# ip138
+#ip测试页电脑端
+@@||www.ip138.com^
+#ip测试页移动端
+@@||m.ip138.com^
+#页面排版
+@@||cache.ip138.com^
+#喜马拉雅音源加载
+@@||www.ximalaya.com^
+#22听书网音频接口
+#含喜马拉雅域名
+@@||aod.cos.tx.xmcdn.com^
+@@||fdfs.xmcdn.com^
+# 放行便民查询网
+#官网
+@@||www.bmcx.com^
+#网页布局
+#电费计算器
+@@||dianfeijisuanqi.bmcx.com^
+#万年历查询
+@@||wannianrili.bmcx.com^
+#老黄历查询
+@@||laohuangli.bmcx.com^
+#手机号查询
+@@||shouji.bmcx.com^
+#身份证查询
+@@||shenfenzheng.bmcx.com^
+# 放行一甜相机
+#官网
+@@||1tian.kuaishou.com^
+#网页布局
+@@||tx2.a.kwimgs.com^
+#一甜相机＆快影图片接口
+@@||ali2.a.kwimgs.com^
+# 放行17173
+#官网
+@@||www.17173.com^
+#移动端官网
+@@||m.17173.com^
+#新网游频道
+@@||newgame.17173.com^
+#游戏新闻中心
+@@||news.17173.com^
+#游戏排行榜
+@@||top.17173.com^
+# 放行九游门户
+#官网
+@@||www.9game.cn^
+#移动端官网
+@@||a.9game.cn^
+#游戏图标＆文章图片
+@@||media.9game.cn^
+# 放行游侠网
+#官网
+@@||www.ali213.net^
+#移动端官网
+@@||3g.ali213.net^
+#官网图片接口＆文章图片接口
+@@||static.ali213.net^
+# 放行58同城
+#网页布局
+@@||c.58cdn.com.cn^
+#用户头像＆部分封面
+@@||pic2.58cdn.com.cn^
+@@||pic4.58cdn.com.cn^
+@@||pic5.58cdn.com.cn^
+@@||pic8.58cdn.com.cn^
+#移动端访问频繁验证页面
+@@||callback.58.com^
+# 放行大众点评
+#官网
+@@||www.dianping.com^
+#登录页面跳转
+@@||account.dianping.com^
+#登录二维码加载接口
+@@||accountapi.dianping.com^
+#客户端下载页布局＆图片
+@@||www.dpfile.com^
+#移动端页面
+@@||m.dianping.com^
+#网页部分图标加载
+@@||osp.meituan.net^
+#移动端页面内容接口
+#同时也是美团App内消息页面布局
+@@||s0.meituan.net^
+
+！↓ 百度系 ↓
+#百度天气图标
+@@||dss0.bdstatic.com^$important
+#百度支付接口
+@@||www.dxmpay.com^$important
+#百度相关
+@@||himg.bdimg.com^$important
+@@||hectorstatic.baidu.com^$important
+@@||mbdp02.bdstatic.com^$important
+#页面排版
+@@||bkssl.bdimg.com^
+# 放行百度搜索
+#相关图片
+@@||t8.baidu.com^
+@@||t9.baidu.com^
+@@||t10.baidu.com^
+@@||t11.baidu.com^
+@@||t12.baidu.com^
+@@||mss0.bdstatic.com^
+#热点内容相关封面
+@@||gips2.baidu.com^
+#移动网页端网页布局
+#拦截会导致搜出来的内容无法点击跳转
+@@||ms.bdstatic.com^
+#搜索结果部分视频加载接口
+@@||psstatic.cdn.bcebos.com^
+#PC网页端搜索首页LOGO
+@@||pss.bdstatic.com^
+#PC网页端右上角天气图片
+@@||dss2.bdstatic.com^
+# 放行百度经验排版
+@@||exp-new.bdstatic.com^
+#百度知道头像
+@@||pic.rmb.bdstatic.com^$important
+#官网
+@@||zhidao.baidu.com^
+#用户回答图片
+@@||iknow-pic.cdn.bcebos.com^
+#百度手机助手网页版
+@@||ascdn.baidu.com^$important
+#百度地图街景
+@@||sv.map.baidu.com^$important
+@@||api.tuisong.baidu.com^$important
+#百度
+@@||suggestion.baidu.com^$important
+#百度好看视频
+@@||haokan.baidu.com^$important
+# 百度相关网页提示App内阅读左侧Logo
+@@||b.bdstatic.com^
+# 放行百度图片首页顶部功能区图片
+@@||emoji.bj.bcebos.com^
+#百度翻译接口
+@@||fanyi.baidu.com^$important
+#> 百度
+@@||boxer.baidu.com^
+@@||fc3tn.baidu.com^
+@@||fc5tn.baidu.com^
+@@||feed-image.baidu.com^
+@@||fexclick.baidu.com^
+@@||gsp0.baidu.com^
+@@||issuecdn.baidupcs.com^
+@@||ms.bdimg.com^
+@@||sofire.baidu.com^
+@@||wan.baidu.com^
+@@||c.tieba.baidu.com^$important
+@@||duapps.com^$important
+@@||mbd.baidu.com^$important
+@@||t7.baidu.com^$important
+@@||cpu.baidu.com^$important
+@@||baijiahao.baidu.com^$important
+@@||sp1.baidu.com^$important
+@@||issuecdn.baidupcs.com^$important
+@@||sofire.baidu.com^$important
+#输入法云联想
+@@||udpolimenew.baidu.com^
+#输入法灵感语录同步
+@@||mime.baidu.com^
+#百度搜索一个域名,误杀后会进入不了搜索结果
+@@||boxer.baidu.com^$important
+#百度小程序
+@@||ossapi.baidu.com^
+#百度百科
+@@||baikebcs.bdimg.com^
+@@||bkimg.cdn.bcebos.com^
+#百度求医问药网
+@@||med-fe.cdn.bcebos.com^
+#百度贴吧表情误杀
+@@||static.tieba.baidu.com^
+#网页版「吧」头像加载
+@@||imgsrc.baidu.com^
+@@||tb.himg.baidu.com^
+#百度网盘签到图片界面
+@@||staticsns.cdn.bcebos.com^
+# 百度贴吧
+@@||gsp1.baidu.com^
+@@||sp0.baidu.com^
+@@||sp2.baidu.com^
+@@||bce.baidu.com^
+@@||bj.bcebos.com^
+#百度贴吧签到
+@@||als.baidu.com^
+#百度视频封面
+@@||f7.baidu.com^$important
+#百家号图片
+@@||f12.baidu.com^$important
+@@||f11.baidu.com^$important
+@@||f10.baidu.com^$important
+！ ↑ 百度系 ↑ 
+
+！ 快手系
+
+#快手图标
+@@||ali.static.yximgs.com^$important
+#快手头像
+@@||thirdwx.qlogo.cn^$important
+#快手评论图片
+@@||ali2.a.yximgs.com^$important
+#> 快手
+@@||api.kwaizt.com^
+#快手送礼物
+@@||w1.kskwai.com^
+
+！ 优酷系
+#优酷app 兑换vip
+@@||activity.youku.com^$important
+#拦截该域名电脑端页面提示广告加载失败，无实际性作用容易产生歧义
+@@||vali-g1.cp31.ott.cibntv.net^
+#优酷图片加载
+@@||liangcang-material.alicdn.com^$important
+#优酷app
+@@||acs.youku.com^$important
+@@||f-vali.cp31.ott.cibntv.net^$important
+@@||nstool.netease.com^$important
+@@||downpack.baidu.com^$important
+@@||gdown.baidu.com^$important
+@@||pkg.sinaimg.cn^$important
+#喵酷扫描登录
+@@||qr.cp31.ott.cibntv.net^$important
+@@||heyi-acs.cp31.ott.cibntv.net^$important
+
+！ 微信系
+
+#微信公众号视频
+@@||finderpdd.video.qq.com^$important
+@@||apd-vlive.apdcdn.tc.qq.com^$important
+@@||apd-ugcvlive.apdcdn.tc.qq.com^$important
+#登陆域名
+@@||long.weixin.qq.com^$important
+@@||short.weixin.qq.com^$important
+#朋友圈图片
+@@||szmmsns.qpic.cn^$important
+@@||mmsns.qpic.cn^$important
+@@||shmmsns.qpic.cn^$important
+#表情消息
+@@||emoji.qpic.cn^$important
+#头像
+@@||wx.qlogo.cn^$important
+#微信视频号图片
+@@||dldir1.qq.com^$important
+#微信帮助与反馈
+@@||kf-ui.cdn-go.cn^$important
+#> > 微信
+@@||shminorshort.weixin.qq.com^
+@@||support.weixin.qq.com^
+@@||minorshort.weixin.qq.com^
+@@||szlong.weixin.qq.com^
+# 微信红包
+@@||as.weixin.qq.com^$important
+##微信支付
+@@||payapp.weixin.qq.com^$important
+!部分微信小程序登录
+@@||cnlogin.cainiao.com^
+#微信小程序,城市通
+@@||17u.cn^$important
+#QQ微信小(程序)游戏
+@@||dir.minigame.qq.com^
+@@||game.html5.qq.com^
+@@||user1.game.qq.com^
+#微信广告政策
+@@||ads.privacy.qq.com^
+#QQ微信头像
+@@||py.qlogo.cn^
+@@||py2.qlogo.cn^
+@@||p.qlogo.cn^
+
+！ QQ系
+
+#QQ空间图片加载＆视频加载
+@@||qzs.qq.com^
+#QQ空间说说图片上传接口
+@@||v6.pic.upqzfile.com^
+#QQ链接跳转
+@@||qm.qq.com^
+#QQ日签卡图片加载
+@@||tianshu.gtimg.cn^
+#听歌时长记录
+@@||stat6.y.qq.com^
+#QQ音乐首页
+@@||y.qq.com^
+#推荐歌曲图片加载
+@@||y.gtimg.cn^
+#应用宝模拟器登录接口
+@@||v.stream.qq.com^$important
+#腾讯健康系统
+@@||jiazhang.qq.com^
+#QQ收藏
+@@||sharechain.qq.com^$important
+#QQ互动标识图
+@@||downv6.qq.com^$important
+#QQ空间精选照片
+@@||qzone-web-v2.cdn-go.cn^$important
+#QQ相关
+@@||npm.cdn-go.cn^
+@@||pub.idqqimg.com^
+@@||qq-web.cdn-go.cn^
+@@||qqvip-web.cdn-go.cn^
+#QQ小世界图片
+@@||world.qpic.cn^$important
+#QQ空间图片加载＆视频加载
+@@||qzs.qq.com^
+#QQ空间说说图片上传接口
+@@||v6.pic.upqzfile.com^
+#QQ链接跳转
+@@||qm.qq.com^
+#QQ日签卡图片加载
+@@||tianshu.gtimg.cn^
+#听歌时长记录
+@@||stat6.y.qq.com^
+#QQ音乐首页
+@@||y.qq.com^
+#推荐歌曲图片加载
+@@||y.gtimg.cn^
+#活动界面商品加载
+@@||home.m.duiba.com.cn^
+@@||48609.activity-42.m.duiba.com.cn^
+#个人信息界面图片加载
+@@||qqadapt.qpic.cn^
+@@||a1.qpic.cn^
+#幸运字符界面布局加载
+@@||cdn-go.cn^
+#互动标识图标加载
+@@||*.dlied1.cdntips.net^
+#游戏充值加载
+#授权登录用户图标加载
+@@||thirdqq.qlogo.cn^
+#卡片加载
+@@||tx2.a.yximgs.com^
+#QQ钱包
+@@||moggy-image-1251316161.file.myqcloud.com^$important
+@@||myun.tenpay.com^$important
+#qq登录授权接口
+@@||qappcenterv6.3g.qq.com^$important
+#腾讯游戏
+@@||msdk.qq.com^$important
+#微信游戏圈图片
+@@||mmgame.qpic.cn^$important
+#微视视频封面
+@@||pic640.weishi.qq.com^$important
+#QQ群在线文档
+@@||pub.idqqimg.com^$important
+@@||docs.idqqimg.com^$important
+#> 腾讯
+@@||l.qq.com^
+@@||yunjiasu.com^
+#查找好友加载页面
+@@||rdelivery.qq.com^
+!QQ音乐PC端登录
+@@||c.y.qq.com^
+#qq的一些资源图片加载
+@@||static-res.qq.com^$important
+#QQ音乐的歌曲加载
+@@||isure.stream.qqmusic.qq.com^$important
+#QQ小程序
+@@||public.gdtimg.com^$important
+#qq空间图片
+@@||m.qpic.cn^$important
+#腾讯游戏
+@@||*.lol.qq.com^$important
+@@||lol.qq.com^$important
+@@||lpl.qq.com^$important
+@@||logs.game.qq.com^$important
+@@||cn.ekg.riotgames.com^$important
+#腾讯新闻
+@@||inews.gtimg.com^$important
+@@||view.inews.qq.com^$important
+!qq音乐畅听广告
+@@||v.gdt.qq.com^$important
+#QQ直播
+@@||livew.l.qq.com^
+#QQ邮箱
+@@||iwx.mail.qq.com^
+#腾讯活动
+@@||img.ssl.msdk.qq.com^
+#腾讯充值
+@@||midas.gtimg.cn^
+@@||api.unipay.qq.com^
+!腾讯视频图片资源
+@@||puui.qpic.cn^
+!腾讯网图片资源
+@@||inews.gtimg.com^
+#X5内核文档插件下载
+@@||static.res.qq.com^
+#QQ安全中心
+@@||aq.qq.com^
+#QQ头像
+@@||pgdt.gtimg.cn^
+#QQ浏览器插件误杀
+@@||tbsone.imtt.qq.com^
+#王者更新
+@@||apd-pcdniegwzlogin.teg.tencent-cloud.net^$important
+# 腾讯视频
+@@||dm.video.qq.com^
+@@||c.gj.qq.com^
+@@||vd.l.qq.com^
+@@||mdevstat.qqlive.qq.com^
+@@||vv.video.qq.com^$important
+@@||mini2015.qq.com^
+@@llpbaccess.video.qq.com^$important
+@@||a.video.qq.com^$important
+@@||richmedia.video.qq.com^$important
+@@||disp-qryapi.3g.qq.com^$important
+@@||soup.v.qq.com^
+@@||bkvv.video.qq.com^$important
+#金铲铲之战登录
+@@||ios.crashsight.qq.com^$important
+@@||szminorshort.weixin.qq.com^$important
+@@||snowflake.qq.com^$important
+#QQ跳转
+@@||bqq.gtimg.com^$important
+#山姆
+@@||pro.bugly.qq.com^$important
+#应用宝
+@@||yybadaccess.3g.qq.com^$important
+#腾讯视频搜索
+@@||pbaccess.video.qq.com^$important
+#腾讯手游加速器
+@@||h.trace.qq.com^$important
+@@||otheve.beacon.qq.com^$important
+@@|img1.360buyimg.com^
+#腾讯游戏登录相关
+@@||ssl.msdk.qq.com^
+#王者一些图片
+@@|img.ssl.msdk.qq.com^
+#> > 应用宝
+@@||sqdd.myapp.com^
+#QQ相关
+@@||pacaio.match.qq.com^
+@@||btrace.qq.com^$important
+@@||c.y.qq.com^$important
+@@||cdn.ark.qq.com^$important
+@@||cfg.imtt.qq.com^$important
+@@||cmshow.qq.com^$important
+@@||dd.myapp.com^$important
+@@||graph.qq.com^$important
+@@||im.qq.com^$important
+@@||imtt.dd.qq.com^$important
+@@||mail.qq.com^$important
+@@||pingfore.qq.com^$important
+@@||pingjs.qq.com^$important
+@@||pingtas.qq.com^$important
+@@||pingtcss.qq.com^$important
+@@||pp.myapp.com^$important
+@@||res.imtt.qq.com^$important
+@@||recmd.html5.qq.com^$important
+@@||szmg.qq.com^
+@@||c.pc.qq.com^$important
+@@||guanjia.qq.com^
+@@||c.pc.qq.com^
+@@||sqimg.qq.com^$important
+@@||pinghot.qq.com^$important
+@@||debugtbs.qq.com^$important
+@@||3gimg.qq.com^$important
+@@||tdid.m.qq.com^$important
+@@||cc.map.qq.com^$important
+@@||dnet.mb.qq.com^$important
+@@||map.qq.com^$important
+@@||qun.qzone.qq.com^$important
+@@||vdun.weibo.com^$important
+@@||soft.tbs.imtt.qq.com^$important
+@@||stat.y.qq.com^$important
+@@||tbs.imtt.qq.com^$important
+@@||vectorsdk.map.qq.com^$important
+@@||work.weixin.qq.com^$important
+@@||weidian.com^$important
+@@||qlogo.cn^$important
+@@||thirdwx.qlogo.cn^$important
+@@||imgcache.qq.com^$important
+@@||translator.qq.com^$important
+@@||appsupport.qq.com^$important
+@@||aegis.qq.com^$important
+@@||ii.gdt.qq.com^$important
+@@||dldir3.qq.com^$important
+@@||gdtimg.com^$important
+@@||ios.bugly.qq.com^$important
+@@||tangram.e.qq.com^$important
+@@||upage.imtt.qq.com^$important
+@@||ap6.ssl.msdk.qq.com^$important
+@@||isee.weishi.qq.com^$important
+@@||game.weixin.qq.com^$important
+@@||defaultts.tc.qq.com^$important
+@@||wxsnsencsvp.wxs.qq.com^$important
+@@||masterconn2.qq.com^$important
+#皮皮虾评论区发图
+@@||z.weixin.qq.com^$important
+#王者荣耀登录
+@@||ip6.ssl.msdk.qq.com^$important
+#腾讯云实时音视频
+@@||mlvbdc.live.qcloud.com^$important
+!腾讯系 头像
+@@qlogo.cn^
+
+# 小米系
+
+#小米预警中心-地震预警
+@@||srv.sec.miui.com^$important
+#米游社图标
+@@||bbs-static.miyoushe.com^$important
+#小米部件
+@@||store.assistant.miui.com^$important
+@@||cdn-f1.assistant.miui.com^$important
+#小米商店
+@@||3746760377.qnqcdn.net^$important
+!小米隐私政策撤回同意
+@@||data.sec.miui.com^
+# 小米社区
+@@||web.vip.miui.com^$important
+# 小米云服务状态
+@@||statusapi.micloud.xiaomi.net^$important
+#小米路由器
+@@||api.miwifi.com^$important
+#MIUI浏览器
+@@||hot.browser.intl.miui.com^
+#MIUI浏览器关键词联想
+@@||activity.browser.intl.miui.com^
+@@||reader.browser.miui.com^
+
+## 小米云服务备份
+@@||a0.app.xiaomi.com^$important
+@@||a0.app.xiaomi.com^
+@@||globalapi.ad.xiaomi.com^
+#小米矫正流量，
+@@||adv.sec.miui.com^$important
+@@||flash.sec.miui.com^$important
+!小米主题
+@@||zhuti.xiaomi.com^
+@@||api.zhuti.xiaomi.com^$important
+# 修复小米健康无法打开手表公交卡的问题
+@@||cnbj1.fds.api.xiaomi.com^$important
+@@||api.vip.miui.com^$important
+#小米应用商店图片
+@@||vd1.market.xiaomi.com^$important
+#小米浏览器搜索推荐
+@@||sug.browser.miui.com^
+#小米视频
+@@||*.video.xiaomi.com^$important
+@@||mivideo.cdn.pandora.xiaomi.com^$important
+@@||v*-dc-ad.ixigua.com^$important
+#小米隐私收集
+@@||data.mistat.*xiaomi.com^
+@@||www.data.mistat.*xiaomi.com^
+@@||o.data.mistat.xiaomi.com^
+#小米主题设计师注册
+@@||market.xiaomi.com^
+#MIUI手机管家
+@@||data.sec*.miui.com^
+@@||www.data.sec*.miui.com^
+#部分设备的小米推送
+@@||resolver.gslb.mi-idc.com^
+@@||register.xmpush.xiaomi.com^
+@@||register*mi.com^
+@@||resolver*mi.com^
+@@||app.chat.xiaomi.net^
+@@||abtest.mistat.xiaomi.com^
+@@||cn.register.xmpush.xiaomi.com^
+@@||idmb.register.xmpush.global.xiaomi.com^
+@@||ru.register.xmpush.global.xiaomi.com^
+@@||fr.register.xmpush.global.xiaomi.com^
+@@||register.xmpush.global.xiaomi.com^
+#MIUI黄页
+@@||api.huangye.miui.com^
+#MIUI垃圾清理
+@@||flash.sec.intl.miui.com^
+@@||staging.flash.sec.miui.com^
+#小米文件下载
+@@||api.airpush.com^
+@@||file.xmpush.xiaomi.com^
+@@||api.airpush.com^
+@@||api-push.meizu.com^
+@@||file.xiaomi.com^
+@@||f4.market.xiaomi.com^
+#MIUI 流量中心
+@@||api.sec.intl.miui.com^
+#MIUI 天气预报
+@@||wtradv.market.xiaomi.com^
+!小爱音箱配网
+@@||tracker.ai.xiaomi.com^
+#锁屏画报正常化
+@@||wallpaper.cdn.pandora.xiaomi.com^$important
+@@||package.wallpaper.cdn.pandora.xiaomi.com.lan^$important
+@@||w.pandora.xiaomi.com^$important
+#应用商店
+@@||sec-cdn.static.xiaomi.net^$important
+@@||fgc0.market.xiaomi.com^$important
+@@||fga0.market.xiaomi.com^$important
+@@||t3.market.mi-img.com^$important
+@@||sec.resource.xiaomi.net^$important
+@@||*.market.xiaomi.com^$important
+@@||*.market.mi-img.com^$important
+#主题商店
+@@||f*.market.xiaomi.com^$important
+@@||f*.market.mi-img.com^$important
+@@||market.mi-img.com^$important
+#小米其他
+@@||connect.intl.rom.miui.com^$important
+@@||global-search.browser.miui.com^$important
+@@||hot.browser.miui.com^$important
+@@||nav.browser.miui.com^
+@@||data.mistat.xiaomi.com^$important
+@@||thm.market.xiaomi.com^$important
+@@||sf0.market.xiaomi.com^$important
+@@||updateinfo.market.xiaomi.com^$important
+@@||api.developer.xiaomi.com^$important
+@@||resolver.msg.xiaomi.net^
+@@m.video.xiaomi.com
+@@||api.account.xiaomi.com^$important
+@@||api.comm.miui.com^$important
+@@||api.device.xiaomi.net^$important
+@@||api.jr.mi.com^$important
+@@||api.micloud.xiaomi.net^$important
+@@||api.miui.security.xiaomi.com^$important
+@@||api.sec.miui.com^$important
+@@||api.video.xiaomi.com^$important
+@@||app.market.xiaomi.com^$important
+@@||appcloud.zhihu.com^$important
+@@||appmsg.gzmtr.cn^$important
+@@||at.umeng.com^$important
+@@||bigota.d.miui.com^$important
+@@||data.mistat.intl.xiaomi.com^$important
+@@||f8.market.xiaomi.com^$important
+@@||file.market.xiaomi.com^$import
+@@||nileapi.market.xiaomi.com^$import
+@@||cn.app.chat.xiaomi.net^$important
+@@||connect.rom.miui.com/generate_204^$important
+@@||m.video.xiaomi.com^$important
+@@||metok.sys.miui.com^$important
+@@||mibi.api.xiaomi.com^$important
+@@||migrate.driveapi.micloud.xiaomi.net^$important
+@@||pdc.micloud.xiaomi.net^$important
+@@||phonecallapi.micloud.xiaomi.net^$important
+@@||resolver.msg.xiaomi.net^$important
+@@||sfsapi.micloud.xiaomi.net^$important
+#@@||update.miui.com^$important
+@@||ssl-cdn.static.browser.mi-img.com^$important
+@@||ts.market.mi-img.com^$important
+@@||cdn.cnbj1.fds.api.mi-img.com^$important
+@@||app-measurement.com^$important
+@@||exp.sug.browser.miui.com^$important
+@@||*.mi-img.com^$important
+@@||xzz.xiaomin.tech^$important
+@@||api.io.mi.com^$important
+@@||tracker.ai.xiaomi.com^$important
+@@||*.micloud.xiaomi.net^$important
+@@||web.vip.miui.com^$important
+@@||mi-img.com^$important
+@@||feedback.miui.com^$important
+@@||connect.rom.miui.com^$important
+@@||mobile.controller.duokanbox.com^$important
+@@||o2o.api.xiaomi.com^$important
+@@||tvepg.pandora.xiaomi.com^$important
+
+！ 爱奇艺系  
+
+#微信爱奇艺
+@@||static-s.iqiyi.com^$important
+@@||m.iqiyi.com^$important
+#爱奇艺
+@@||www.iqiyi.com^$important
+@@||t7z.cupid.iqiyi.com^
+@@||cmts.iqiyi.com^$important
+@@||static.iqiyi.com^$important
+@@||iface2.iqiyi.com^$important
+#爱奇艺vip
+@@||vip.iqiyi.com^$important
+#视频封面
+@@||pic7.iqiyipic.com^
+#爱奇艺会员权益
+@@||passport.iqiyi.com^$important
+#爱奇艺会员成长体系
+@@||lequ-qfe.iqiyi.com^$important
+#> 爱奇艺
+@@||act.vip.iqiyi.com^
+@@||msg.video.qiyi.com^
+@@||subscription.iqiyi.com^
+#爱奇艺
+@@||card-paopao.iqiyi.com^$important
+@@||gw-paopao.iqiyi.com^$important
+#爱奇艺图片误杀
+@@||pic*.iqiyipic.com^$important
+#爱奇艺一个域名误杀会导致首页无法刷新
+@@||cards.iqiyi.com^$important
+
+！  抖音系
+
+#App登录接口
+#拦截后登录提示「系统繁忙」
+@@||log.snssdk.com^
+#用户头像加载
+@@||p1.douyinpic.com^
+@@||p3.douyinpic.com^
+@@||p5.douyinpic.com^
+@@||p9.douyinpic.com^
+@@||p11.douyinpic.com^
+@@||p26.douyinpic.com^
+@@||p29.douyinpic.com^
+#作品封面加载
+@@||p1-sign.douyinpic.com^
+@@||p3-sign.douyinpic.com^
+@@||p5-sign.douyinpic.com^
+@@||p6-sign.douyinpic.com^
+@@||p9-sign.douyinpic.com^
+@@||p26-sign.douyinpic.com^
+#拦截后登录没反应
+@@||auth.zijieapi.com^
+#拦截后显示「网络故障」
+@@||verify.zijieapi.com^
+#拦截后验证图片无法加载
+@@||p3-catpcha.byteimg.com^
+@@||p6-catpcha.byteimg.com^
+@@||p9-catpcha.byteimg.com^
+#短链接加载
+@@||v.douyin.com^
+#内容双击点赞图标加载
+@@||p3-pc-weboff.byteimg.com^
+#抖音极速版表情
+@@||apischedule.ksyungslb.com^$important
+#抖音短剧接口
+@@||webcast-open.douyin.com^$important
+#抖音聊天图片
+@@||p11-sign.douyinpic.com^$important
+#抖音直播间购物车和购物车商品图片
+@@||ecombdimg.com^
+#抖音直播间购物车和购物车商品图片
+@@||ecombdimg.com^
+#抖音实名认证校验页面
+@@||lf1-cdn-tos.bytegoofy.com^
+#抖音网页版
+@@||lf-cdn-tos.bytescm.com^$important
+!抖音网页
+@@||lf3-cdn-tos.bytegoofy.com^$important
+@@||lf6-cdn-tos.bytegoofy.com^$important
+#抖音直播购物
+@@||haohuo.jinritemai.com^ 
+@@||tnc11-bjlgy.zijieapi.com^
+#抖音直播
+@@||douyincdn.com^$important
+#抖音网页版验证图片
+@@||verify.snssdk.com^
+@@||vcs.snssdk.com^
+# 抖音小程序
+@@||pitaya.bytedance.com^
+#抖音头像
+@@||p6.douyinpic.com^$important
+
+#  阿里系
+
+#> 阿里巴巴
+@@||dcms.1688.com^
+@@||gm.mmstat.com^
+@@||wgo.mmstat.com^
+@@||zconfig.alibabausercontent.com^
+#PC页面端登陆验证接口
+@@||cf.aliyun.com^
+#手机淘宝网页端
+@@||main.m.taobao.com^$important
+#官网
+@@||www.taobao.com^
+#移动端官网
+#登录接口
+@@||login.taobao.com^
+#移动端登录接口
+@@||login.m.taobao.com^
+#页面布局
+@@||o.alicdn.com^
+#网页加载
+@@||h5api.m.tmall.com^
+#商品页面
+@@||item.taobao.com^
+#1688网页版图片
+@@||cbu01.alicdn.com^$important
+#阿里系软件下载
+@@||download.alicdn.com^$important
+#移动端商品详情页用户头像加载
+@@||sns.m.taobao.com^
+#> 淘宝
+@@||click*.taobao.com^
+@@||accscdn.m.taobao.com^$important
+@@||click.simba.taobao.com^
+@@||amdc.m.taobao.com^
+@@||click.mz.simba.taobao.com^
+@@||eco.taobao.com^
+@@||err.taobao.com^
+@@||s.click.taobao.com^
+@@||h-adashx.ut.taobao.com^$important
+@@||m.intl.taobao.com^$important
+@@||m.intl.taobao.com^$important
+@@||eco.taobao.com^$important
+@@||audid-api.taobao.com^$important
+@@||amdcopen.m.taobao.com^$important
+@@||g.alicdn.com^$important
+@@||tunion-api.m.taobao.com^
+!淘宝特卖网
+@@||gma.alicdn.com^
+#淘宝的一个主要域名
+@@||trade-acs.m.taobao.com^$important
+#淘宝的一些功能加载
+@@||hudong.alicdn.com^$important
+@@||orange-dc.alibaba.com^$important
+@@||yixiu-abtest.alicdn.com^$important
+#淘宝授权
+@@||acs4baichuan.m.taobao.com^
+#淘宝活动
+@@||s.click.alimama.com^
+#淘宝菜鸟裹裹
+@@||appdownload.alicdn.com^
+#账号与安全页面加载
+@@||my.cainiao.com^
+# 支付宝
+@@||mmstat.com^
+# 支付宝以及淘宝农场任务
+@@||audid-api-sg.taobao.com^
+#阿里系登录接口
+@@||acs.m.taobao.com^
+#阿里巴巴购物
+@@||dj.1688.com^$important
+!阿里系
+@@||uczzd.cn^$important
+@@||cl2.webterren.com^$important
+@@||alissl.ucdl.pp.uc.cn^$important
+@@||downum.game.uc.cn^$important
+@@||iflow.uc.cn^$important
+@@||unet.ucweb.com^$important
+@@||image.uc.cn^$important
+@@||mos.m.taobao.com^$important
+@@||s.click.taobao.com^$important
+@@||uland.taobao.com^$important
+@@||g.shumafen.cn^$important
+@@||h5.m.taobao.com^$important
+@@||ip.taobao.com^$important
+@@||*.alipay.com^$important
+@@||click.simba.taobao.com^$important
+!阿里云盘登录需要
+@@||acs.m.taobao.com^$important
+#阿里图片
+@@||img.alicdn.com^$important
+
+！  番茄系
+#网页排版
+@@||lf3-cdn-tos.bytescm.com^
+@@||lf3-short.bytegoofy.com^
+#手机网页端顶部Logo加载＆作家福利轮播图加载
+#手机网页端下载宣传轮播图加载
+@@||lf3-static.bytednsdoc.com^
+# 放行番茄小说APP
+#小说封面
+@@||p6-novel.byteimg.com^
+#听书智能朗读接口
+@@||v3-fq-tts.fqnovelvod.com^
+@@||v6-fq-tts.fqnovelvod.com^
+@@||v11-fq-tts.fqnovelvod.com^
+@@||v26-fq-tts.fqnovelvod.com^
+#听书真人讲书接口
+#倘若下方链接放行后，有个别音频无法播放，可使用通配符进行放行。
+#@@||v*-novelapp.fqnovelvod.com^
+@@||v5-novelapp.fqnovelvod.com^
+@@||v26-novelapp.fqnovelvod.com^
+# 放行番茄畅听
+#官网
+@@||novelfm.changdunovel.com^
+#音乐版官网
+@@||www.novelfm.com^
+#Android Apk下载页面
+@@||novelfm.zlink.toutiao.com^
+#书籍封面接口＆用户头像接口
+@@||p3-novelfm-sign.novelfmpic.com^
+@@||p6-novelfm-sign.novelfmpic.com^
+@@||p9-novelfm-sign.novelfmpic.com^
+#番茄小说听书
+@@||v3-novelapp.fqnovelvod.com^$important
+#番茄小说
+@@|tnc3-aliec2.snssdk.com^
+@@|v*-fq-tts.fqnovelvod.com^
+@@|abtest3-misc-lf.zijieapi.com^
+@@|log5-applog-lf.fqnovel.com^
+@@|reading.snssdk.com^
+@@||log5-applog.fqnovel.com^
+@@||p6-novel.byteimg.com
+@@||p3-novel-sign.byteimg.com^
+@@||p3-novel.byteimg.com^
+@@||lf3-reading.fqnovelpic.com^
+@@||p3-reading-sign.fqnovelpic.com^
+@@||p6-reading-sign.fqnovelpic.com^
+@@||p9-reading-sign.fqnovelpic.com^
+#番茄小说短信登陆
+@@||tnc3-aliec2.snssdk.com^$important
+#番茄小说网页
+@@||fanqienovel.com^$important
+
+#懂车帝
+@@||p1-dcd.byteimg.com^
+@@||p3-dcd.byteimg.com^
+@@||p9-dcd.byteimg.com^
+@@||p3-dcd-sign.byteimg.com^
+@@||p6-dcd-sign.byteimg.com^
+@@||p9-dcd-sign.byteimg.com^
+@@||open.bytedanceapi.com^
+@@||p3.dcarimg.com^$important
+#内容图片加载，包括但不限于功能性按钮图标、栏目封面、用户头像、车型图片、直播封面。
+@@||p6-dcd.byteimg.com^
+@@||p5-auto.dcarimg.com^
+@@||p5-auto-sign.dcarimg.com^
+@@||p3-passport.byteacctimg.com^
+@@||p3-webcast-sign.douyinpic.com^
+@@||p6-webcast-sign.douyinpic.com^
+@@||p9-webcast-sign.douyinpic.com^
+#二手车详情界面加载
+@@||lf6-cdn2-tos.bytegoofy.com^
+
+##豆包
+@@||lf-c-flwb.bytetos.com^
+@@||lf-cdn-tos.bytescm.com^
+@@||mcs.zijieapi.com^
+@@||mon.zijieapi.com^
+@@||abtestvm.bytedance.com^
+@@||p1-tt.byteimg.com^
+@@||p3-tt.byteimg.com^
+@@||p9-tt.byteimg.com^
+@@||p3-search.byteimg.com^
+@@||p3-flow-imagex-sign.byteimg.com^
+@@||p6-flow-imagex-sign.byteimg.com^
+@@||p9-flow-imagex-sign.byteimg.com^
+@@||swimg1.hstdyf.com^$important
+
+# 放行小红书
+#官网
+@@||www.xiaohongshu.com^
+#小红书分享链接
+@@||xhslink.com^$important
+#网页布局
+@@||fe-static.xhscdn.com^
+#用户头像加载
+@@||sns-avatar-qc.xhscdn.com^
+#网页端表情加载
+@@||picasso-static.xiaohongshu.com^
+#手机网页端左上角Logo加载
+@@||ci.xiaohongshu.com^
+#英文介绍页宣传视频加载
+#PC网页端登录界面二维码加载＆评论显示接口
+@@||fe-video-qc.xhscdn.com^
+
+# 放行拼多多
+#官网
+@@||www.pinduoduo.com^
+#移动端官网
+@@||m.pinduoduo.com^
+#移动端网页布局
+#拦截后「打开网页白屏」
+@@||mcdn.pinduoduo.com^
+#移动端顶部宣传图＆官网页面布局
+@@||cdn.pinduoduo.com^
+#移动端顶部宣传图跳转接口
+@@||lp.pinduoduo.com^
+#移动端精品分类图标
+@@||img.pddpic.com^
+@@||commimg.pddpic.com^
+@@||t*img.yangkeduo.com^
+#APP下载页面
+@@||download.pinduoduo.com^
+#APP下载页面布局
+@@||lpcdn.pinduoduo.com^
+#商品分享链接加载
+#同时也是助力扫码跳转链接
+#页面端商品跳转网页布局
+@@||static.pddpic.com^
+#页面端商品跳转网页图片
+@@||funimg.pddpic.com^
+#批发官网
+@@||pifa.pinduoduo.com^
+#批发移动端官网
+@@||mms.pinduoduo.com^
+#批发网页布局
+#拦截后「打开网页空白」
+@@||mms-static.pddpic.com^
+#商家版官网
+@@||mai.pinduoduo.com^
+#商家版网页布局
+@@||mms-static.pinduoduo.com^
+#拼多多视频封面
+@@||video3.pddpic.com^$important
+@@||video2.pddpic.com^$important
+
+!google系
+@@||facebook.com^$important
+@@||m.youtube.com^$important
+@@||www.google.com^$important
+@@||connectivitycheck.gstatic.com^$important
+@@||www.youtube.com^$important
+@@||youtu.be^$important
+@@||youtubei.googleapis.com^$important
+@@||apis.google.com
+@@||clients.l.google.com
+@@||clients1.google.com
+@@||gstatic.com
+@@||manifest.googlevideo.com
+@@||i.ytimg.com
+@@||www.gstatic.com
+@@||www.youtube-nocookie.com
+@@||youtube-nocookie.com
+@@||r4---sn-qxo7rn7e.googlevideo.com^$important
+@@||r5---sn-4g5ednsl.googlevideo.com^$important
+@@||r4---sn-a5meknek.googlevideo.com^$important
+@@||xn--ngstr-lra8j.com^$important
+@@||r3---sn-a5mlrn7r.googlevideo.com^$important
+@@||gvt1.com^$important
+
+#  网易系 
+
+#网易
+@@||netease.com^$important
+@@||passport.youdao.com^$important
+@@||mam.netease.com^$important
+@@||webzjcaptcha.reg.163.com^
+@@||api.iplay.163.com^
+# 放行网易云音乐
+#页面端及资源加载
+@@||music.163.com^
+@@||*.music.126.net^
+#客户端音乐加载
+@@||m701.music.126.net^
+@@||m801.music.126.net^
+@@||m8.music.126.net^
+@@||m7.music.126.net^
+#客户端云村视频加载
+@@||vodkgeyttp9.vod.126.net^
+@@||vodkgeyttp8.vod.126.net^
+# 放行网易官网
+@@||www.163.com^
+@@||3g.163.com^
+#页面排版
+@@||static.ws.126.net^
+#文章图片
+@@||nimg.ws.126.net^
+# 放行网易游戏官网
+@@||game.163.com^
+# 放行网易游戏内容社区
+@@||play.163.com^
+#网页图片
+@@||img3.cache.netease.com^
+@@||cms-bucket.ws.126.net^
+# 放行网易云游戏平台
+@@||cg.163.com^
+# 放行网易邮箱
+#163邮箱官网
+@@||mail.163.com^
+#126邮箱官网
+@@||www.126.com^
+#yeah邮箱官网
+@@||yeah.163.com^
+#免费企业邮箱官网
+@@||ym.163.com^
+#企业邮箱官网
+@@||qiye.163.com^
+#企业邮箱登录入口
+@@||qy.163.com^
+#进入网页版邮箱跳转
+#下载页面跳转
+@@||u.163.com^
+#下载接口跳转
+@@||res.126.net^
+#拦截显示网络异常
+@@||cstaticdun-v6.126.net^
+# 放行网易靓号官网
+@@||haoma.163.com^
+# 放行网易CC直播
+#官网
+@@||cc.163.com^
+#移动端官网
+@@||h5.cc.163.com^
+#移动网页端布局
+@@||h5static.cc.163.com^
+#移动网页端内容加载
+#拦截显示加载失败
+@@||api.cc.163.com^
+# 放行网易大神社区
+#PC首页
+@@||ds.163.com^
+#移动端首页
+@@||m.ds.163.com^
+#API调用
+@@||api.ds.163.com^
+#App内视频加载
+#CC直播域名
+@@||vod.cc.163.com^
+#App内网易心小易界面游戏图标跳转链接
+@@||s.163.com^
+# 放行网易DNS检测工具
+# 放行网易易盾
+@@||dun.163.com^
+# 放行手机网易网
+@@||m.163.com^
+# 放行网易号官网
+@@||mp.163.com^
+# 放行网易新闻官网＆邮箱看世界窗口
+@@||news.163.com^
+# 放行网易云商
+#七鱼官网
+@@||qi.163.com^
+#云商官网
+@@||b.163.com^
+#网页布局
+@@||res.qiyukf.net^
+#官网Logo
+@@||ysf.qiyukf.net^
+# 放行网易云课堂
+#官网
+@@||study.163.com^
+#网页布局
+@@||swap.stu.126.net^
+# 放行网易数帆官网
+@@||sf.163.com^
+# 放行网易有数BI官网
+@@||youdata.163.com^
+# 放行网易伏羲官网
+@@||fuxi.163.com^
+# 放行网易雷火事业群官网
+@@||leihuo.163.com^
+# 放行网易家长关爱平台
+@@||jiazhang.gm.163.com^
+# 放行网易充值中心
+@@||ecard.163.com^
+# 放行网易游戏隐私政策接口
+#《网易游戏隐私政策及儿童个人信息保护规则》
+@@||unisdk.update.netease.com^
+# 放行网易游戏客服中心
+#官网
+@@||gm.163.com^
+#网页布局
+@@||urswebzj.nosdn.127.net^
+# 放行网易藏宝阁
+#官网
+@@||cbg.163.com^
+#链接跳转
+@@||url.163.com^
+# 放行网易招聘
+#校园招聘官网
+@@||campus.163.com^
+#社会招聘官网
+@@||hr.163.com^
+# 放行网易开源镜像站
+@@||mirrors.163.com^
+# 放行网易发烧游戏平台
+#官网
+@@||fever.163.com^
+#页面布局
+#拦截后打开官网会黑屏
+@@||mpay-web.g.mkey.163.com^
+#客户端连接接口
+#拦截后打开客户端显示「网络连接失败」
+@@||fcount-api.webapp.163.com^
+# 放行网易体育网
+@@||sports.163.com^
+# 放行网易MuMu模拟器官网
+@@||mumu.163.com^
+#官网
+@@||id.163.com^
+#跳转
+@@||reg.163.com^
+@@||mob.163.com^
+#网易云音乐 音效下载
+@@||d*.music.126.net^
+#网易图片
+@@||v6-nimg.ws.126.net^
+@@||gdfp.gifshow.com^$important
+@@||kwimgs.com^$important
+@@||p*.music.126.net^$important
+#网易云邮箱大师
+@@||dashi.163.com^$important
+!网易验证
+@@||cstaticdun.126.net^
+#云贝签到
+@@||ac.dun.163yun.com^
+#> 新浪
+@@||iask.cn^
+@@||iask.com.cn^
+@@||mix.sina.com.cn^
+#更改头像＆更改封面
+@@||new.vip.weibo.cn^
+#文章布局加载
+@@||js.t.sinajs.cn^
+#APP扫码后登陆页面加载
+@@||passport.weibo.cn^
+#用户动态＆评论区表情加载
+@@||face.t.sinajs.cn^
+# 放行黑猫投诉
+#官网
+@@||tousu.sina.com.cn^
+#网页布局
+@@||n.sinaimg.cn^
+#网页内容加载
+@@||news.sina.com.cn^
+#右上角登录布局
+@@||i.sso.sina.com.cn^
+#投诉内容详情域名
+@@||tousu.sina.cn^
+#新浪新闻网页误杀
+@@||cre.dp.sina.cn^
+@@||gk.sina.cn^
+#新浪通行证注册页面
+@@||login.sina.com.cn^
+#新浪通行证登录页面
+@@||passport.weibo.com^
+#网易年度总结
+@@||count.mail.163.com^
+#新浪新闻图片^
+@@||k.sinaimg.cn^
+#网易光遇 sky 登录
+@@||fp-upload.dun.163.com^
+# 网易云蜗牛阅读^
+@@||du.163.com^
+#网易云音乐听歌统计
+@@||clientlog*music.163.com^
+@@||clientlog3.music.163.com^
+#网易云api
+@@|api.iplay.163.com
+## 163登陆
+@@||dl.reg.163.com^$important
+#天下手游
+@@||tx163.com^$important
+!新浪
+@@||free.sinaimg.cn^$important
+@@||simg.sinajs.cn^$important
+@@||u1.img.mobile.sina.cn^$important
+@@||wbapp.mobile.sina.cn^$important
+@@||*.img.mobile.sina.cn^$important
+@@||wx2.sinaimg.cn^$important
+
+！  酷狗
+
+#酷狗vip抽年卡
+@@||gateway.kugou.com^$important
+#> 酷狗音乐
+@@||mobilelog.kugou.com^
+
+#  哔哩哔哩
+
+#B站
+@@||cm.bilibili.com^$important
+@@||broadcastlv.chat.bilibili.com^
+@@||app.bilibili.com^$important
+@@||data.bilibili.com^
+@@||live-trace.bilibili.com^
+@@||g.msn.com^
+!B站弹幕
+@@broadcastlv.chat.bilibili.com^
+#pilipalax
+@@||mcdn.bilivideo.cn^$important
+#B直播
+@@||api.live.bilibili.com^
+#B站APP关注列表
+@@||space.bilibili.com^$important
+b站视频加载
+@@||upos-sz-*.bilivideo.com^$important
+#官网
+@@||www.bilibili.com^
+#移动端官网
+@@||m.bilibili.com^
+#网页端评论区未登录时左侧小头像
+@@||static.hdslb.com^
+#网页端动态加载
+@@||api.vc.bilibili.com^
+#首页个别图片加载
+@@||i0.hdslb.com^
+@@||i1.hdslb.com^
+@@||i2.hdslb.com^
+#专栏加载页面
+@@||s1.hdslb.com^
+#CC字幕加载
+@@||aisubtitle.hdslb.com^
+#系统通知页面及其活动加载组件
+@@||message.bilibili.com^
+@@||activity.hdslb.com^
+#任务中心
+@@||member.bilibili.com^
+#贝壳账户页面
+@@||pay.bilibili.com^
+#荣誉周报加载排版
+@@||s2.hdslb.com^
+#游戏条款加载
+@@||game.bilibili.com^
+@@||static.biligame.com^
+#会员购商品页面加载
+@@||mall.bilibili.com^
+#立即下载页面
+@@||d.bilibili.com^
+#手机网页端浏览时，点击APP专属视频时跳转的哔哩哔哩apk下载接口
+@@||dl.hdslb.com^
+#PC端哔哩UWP进入视频时调用的官方接口
+@@||grpc.biliapi.net^
+#BWIKI首页
+@@||wiki.biligame.com^
+#BWIKI网页排版
+@@||staticwiki.biligame.com^
+#BWIKI网页图片
+@@||patchwiki.biligame.com^
+#游戏中心游戏下载链接
+@@||pkg.biligame.com^
+#账号安全页面
+#新版本APP登录时验证账号安全
+@@||passport.bilibili.com^
+#客户端下载中心
+#UP主主页商品页面加载
+@@||cm.bilibili.com^
+#合集封面
+@@||archive.biliimg.com^
+#BiLiBiLi游戏官网
+@@||www.biligame.com^
+#BiLiBiLi游戏官网内容加载
+@@||line1-h5-pc-api.biligame.com^
+@@||line3-h5-pc-api.biligame.com^
+#BiLiBiLi移动游戏中心
+@@||app.biligame.com^
+#BiLiBiLi移动游戏中心网页布局
+@@||static-mobilegame-1.biligame.net^
+#BiLiBiLi移动游戏中心内容加载
+@@||line1-h5-mobile-api.biligame.com^
+@@||line3-h5-mobile-api.biligame.com^
+@@||line3-statics-h5-mobile-api.biligame.net^
+#网页中输入此地址会跳转至页面端界面
+@@||big.bilibili.com^
+
+！ 头条
+
+#头条pro
+@@||ib.snssdk.com^
+@@||ic.snssdk.com^
+@@||is.snssdk.com^
+#东方头条
+@@||dftoutiao.com^
+#今日头条相关
+@@||p3-sign.toutiaoimg.com^
+@@||mcs.snssdk.com^
+@@||dm.toutiao.com^$important
+@@||v9-x.toutiaovod.com^$important
+@@||p9-sign.toutiaoimg.com^$important
+@@||p26-sign.toutiaoimg.com^$important
+@@||p6-shortvideo-sign.toutiaoimg.com^$important
+@@||p3-sign.toutiaoimg.com^$important
+@@||d.toutiao.com^$important
+#头条授权登陆
+@@||open.snssdk.com^
+#官网
+@@||www.toutiao.com^
+#手机页面端官网
+#同时也是懂车帝手机页面端文章顶部内容推荐＆热门推荐＆精彩推荐接口
+@@||m.toutiao.com^
+#文章作者头像加载
+@@||sf1-cdn-tos.toutiaostatic.com^
+@@||sf3-cdn-tos.toutiaostatic.com^
+@@||sf6-cdn-tos.toutiaostatic.com^
+#文章封面接口＆文章内图片接口＆视频封面接口
+#手机网页端作者主页加载
+#拦截显示网络不给力
+@@||sf6-cdn-tos.douyinstatic.com^
+#作者主页头像加载
+@@||sf3-cdn-tos.bdxiguastatic.com^
+#下载App页面
+#作者主页内点击文章跳转
+@@||article.zlink.toutiao.com^
+
+##夸克网盘
+@@||drive.quark.cn^$important
+##夸克首页
+@@||myquark.cn^$important
+#夸克/神马
+@@||quark.sm.cn^$important
+@@||broccoli.uc.cn^$important
+@@||uop.quark.cn
+@@||api2-album.quark.cn^$important
+@@||pan.quark.cn^$important
+#手机号码登陆接口＆网页端扫描登陆接口
+@@||uop.quark.cn^
+#手机号码登录窗口布局(PC端＆手机端)
+#网页端资源列表加载
+#拦截后显示「网络异常，请稍后重试。」
+@@||drive-pc.quark.cn^
+@@||drive-h.quark.cn^
+#网页端用户头像与文件图标
+@@||image.quark.cn^
+#夸克
+@@||quark.cn^
+@@||px.wpk.quark.cn^$important
+@@||dw-data-channel.quark.cn^$important
+@@||applog.lc.quark.cn^$important
+@@||api-album.quark.cn^$important
+@@||quark.cn^$important
+##夸克网盘扫码登陆
+@@||t.uc.cn^$important
+#夸克浏览器下载插件
+@@||pdds-c1-cdn.uc.cn^
+@@||pdds.ucweb.com^
+#搜索结果列表
+@@||sugs.m.sm.cn^
+#UC浏览器网盘
+@@||uc.ucweb.com^
+@@||puds.ucweb.com^
+#> UC短视频
+@@||huichuan-mc.sm.cn^
+@@||huichuan.sm.cn^
+@@||vps.uc.cn^
+#> UC直播
+@@||ulive-interact.uc.cn^
+@@||ulive-sc.uc.cn^
+@@||v.uc.cn^
+#> UC浏览器
+@@||ucweb.com^
+#UC浏览器
+@@||emoji.uc.cn^
+@@||m.uczzd.cn^
+@@||iflow-api.uc.cn^
+@@||iflow.uczzd.cn^
+#UC
+@@||uc-titans-cn-01.heytapimage.com^$important
+@@||uc-titans-cn.heytapimage.com^$important
+@@||api.open.uc.cn^$important
+@@||drive.uc.cn^$important
+
+#中国移动
+@@||config.cmpassport.com^$important
+@@||www.cmpassport.com^$important
+@@||wap.cmpassport.com^$important
+@@||onekey1.cmpassport.com^$important
+@@||log1.cmpassport.com^$important
+@@||smsks1.cmpassport.com^$important
+@@||verify.cmpassport.com^$important
+@@||dx.10086.cn^$important
+@@||jiguang.coc.10086.cn^$important
+#移动app登录
+@@||client.app.coc.10086.cn^$important
+#咪咕爱看视频
+@@||aikanlive.miguvideo.com^
+#咪咕图片
+@@||img.cmvideo.cn^$important
+#咪咕视频接口
+@@||pcvideoaliyun.titan.mgtv.com^$important
+#咪咕
+@@||aikanvod.miguvideo.com^$important
+
+
+#中国联通
+@@||opencloud.wostore.cn^$important
+@@||auth.wosms.cn^$important
+@@||id.mail.wo.cn^$important
+@@||mdn.open.wo.cn^$important
+@@||hmrz.wo.cn^$important
+@@||nishub1.10010.com^$important
+@@||enrichgw.10010.com^$important
+# 放行联通手机营业厅功能页面与图片显示
+@@||img.client.10010.com^
+@@||m1.img.10010.com^
+
+#  京东
+@@||gia.jd.com^$important
+@@||wl.jd.com^$important
+@@||mjrpay.jd.com^$important
+@@||cfm.jd.com^$important
+@@||jr.jd.com^$important
+@@||mars.jd.com^$important
+@@||wqsd.jd.com^
+@@||me-api.jd.com^
+@@||ms.jr.jd.com^
+@@||active.jd.com^
+@@||m.jd.watbe.top^
+@@||m.jd.watbc.top^
+@@||orbit.jd.com^
+@@||wl.jd.com^
+@@||mapi.m.jd.com^$important
+@@||union-click.jd.com^$important
+@@||im-x.jd.com^$important
+!京东一号店
+@@||yhd.com^$important
+#京东外卖
+@@||policy.jd.com^$important
+#一号店优惠券
+@@||vip-pro.m.yhd.com^$important
+@@||venus.yhd.com^$important
+#京东图片
+@@||img14.360buyimg.com^
+#京东会员权益中心
+@@||pro.m.jd.com^$important
+#京东优惠券
+@@||jingfen.jd.com^$important
+#小哥工作台
+@@||waapdg.jd.com^$important
+@@||api.amemv.com^$important
+@@||api.jdl.cn^$important
+@@||api.m.jd.com^$important
+@@||api-pda.jdl.com^$important
+@@||pda.jd.com^$important
+@@||api.jdl.com^$important
+@@||lop-proxy.jd.com^$important
+@@||erp.jd.com^$important
+#官网
+@@||www.jd.com^
+#移动端官网
+#同时也是官网的商品加载接口
+@@||m.jd.com^
+#官网登录界面网页布局
+@@||storage.jd.com^
+#网页版加载
+@@||wq.360buyimg.com^
+#网页布局
+@@||storage.360buyimg.com^
+#商品页面前的跳转
+@@||wk.idey.cn^
+#拦截后「一直商品介绍加载中」
+@@||static.360buyimg.com^
+#商品图片及其各种图
+#参考：https://h5.jd.com/article/247.html
+@@||img10.360buyimg.com^
+@@||img12.360buyimg.com^
+@@||img13.360buyimg.com^
+@@||img30.360buyimg.com^
+#奇妙应用App内容图片＆应用图标
+@@||kjimg10.360buyimg.com^
+#京东联盟官网
+@@||union.jd.com^
+#移动网页端顶部快捷入口图标
+@@||m15.360buyimg.com^
+#移动网页端登录后的自动跳转
+@@||h5.360buyimg.com^
+#视频评测＆评论区视频
+@@||jvod.300hu.com^
+#京喜
+@@||st.jingxi.com^
+
+#   美团
+
+#官网
+@@||www.meituan.com^
+#网页布局
+#美团网账号登录处背景图片接口
+@@||s3plus.meituan.net^
+#官网图片接口
+@@||img.meituan.net^
+#入驻美团网页布局
+@@||s3.meituan.net^
+#拦截后「上述三处打开白屏」
+@@||s1.meituan.net^
+#创业参考跳转接口
+@@||cube.meituan.com^
+#创业参考网页布局
+@@||cube.meituan.net^
+#创业参考相关推荐封面＆部分用户头像
+@@||s3plus-img.meituan.net^
+#加盟榜部分品牌图片接口
+@@||p1.meituan.net^
+#拦截显示「您的网络好像不太给力」
+@@||appsec-mobile.meituan.com^
+#美团开店宝登录跳转接口
+#拦截后「网页白屏」
+@@||awp-assets.meituan.net^
+#美团外卖商家自入驻网页布局
+#拦截后「网页白屏」
+@@||lx.meituan.net^
+#客服反馈信息短链接平台
+#客服反馈信息上传平台
+@@||h5.dianping.com^
+#APP设置页各选项内容布局加载
+@@||i.meituan.com^
+#APP消息列表加载
+#含商家骑手聊天
+@@||api.neixin.cn^
+#APP聊天窗口内图片加载
+@@||file.neixin.cn^
+！美团
+@@||dreport.meituan.net^$important
+#美团推送(大众点评)
+@@||dpmtpush.dianping.com^$important
+#美团外卖
+@@||pingma.qq.com^
+##美团领券小程序
+@@||dpurl.cn^$important
+@@||market.waimai.meituan.com^$important
+#拦截该域名提示网络错误，无法打开消息列表设置
+@@||pubmsg.meituan.com^
+#猫眼
+@@||api-unionid.meituan.com^$important
+
+！ 360
+
+@@||h5.mse.360.cn^
+@@||jspassport.ssl.qhimg.com^
+@@||qhres2.com^
+@@||se.360.cn^
+@@||soft.360.cn^$important
+@@||m.360buyimg.com^$important
+@@||app.huabao.360.cn^$important
+@@||360buyimg.com^$important
+@@||passport.360.cn^$important
+@@||app.home.360.cn^$important
+@@||q3.jia.360.cn^$important
+@@||browser.360.cn^$important
+@@||dot.360.cn^$important
+#360小游戏图标
+@@||imgx.mediav.com^$important
+#360热点
+@@||www.360kuai.com^$important
+@@||360kuai.com^$important
+@@||img.360kuai.com^$important
+#360升级
+@@||update.360safe.com^
+@@|down.360safe.com^
+#360搜图
+@@|m.image.so.com^
+#360下载安装
+@@||dl.360safe.com^$important
+#360清理大师
+@@||sjws.ssl.qihucdn.com^
+@@||mvconf.f.360.cn^
+#360翻译
+@@||gw.shouji.360.cn^
+@@||msedown.360safe.com^
+网页总体布局
+@@||s*.ssl.qhimg.com^
+@@||s*.ssl.qhmsg.com^
+@@||s*.ssl.qhres2.com^
+#网页图片
+@@||p*.qhimg.com^
+@@||se*.360simg.com^
+#移动端官网
+@@||m.360.cn^
+#360安全卫士官网
+@@||weishi.360.cn^
+#360安全卫士下载接口
+@@||wsdl.360safe.com^
+#360杀毒官网
+@@||sd.360.cn^
+#360杀毒下载接口
+@@||sfdl.360safe.com^
+#360安全浏览器官网
+#360安全浏览器下载接口
+@@||down.360safe.com^
+#360手机浏览器官网
+@@||mse.360.cn^
+#360手机浏览器下载接口
+#奇元图片资源官网
+@@||www.360simg.com^
+# 放行360搜索
+#官网
+@@||www.so.com^
+#移动端官网
+@@||m.so.com^
+#验证码验证页面＆搜索参数错误页面
+@@||qcaptcha.so.com^
+#搜索内容视频页面
+@@||m.360video.so.com^
+
+#系统判断联网
+!苹果
+@@||captive.apple.com^$important
+!Windows
+@@||www.msftconnecttest.com^$important
+!华为
+@@||connectivitycheck.platform.hicloud.com^$important
+!vivo
+@@||wifi.vivo.com.cn^$important
+
+!海外
+@@||self.events.data.microsoft.com^$important
+@@||bing.com^$important
+@@||instagram.com^$important
+@@||*.twimg.com^$important
+@@||*.cdninstagram.com^$important
+@@||www.recaptcha.net^$important
+@@||spotifycdn.net^$important
+@@||spotify.com^$important
+@@||spclient.wg.spotify.com^$important
+@@||cn.ultraiso.net^$important
+@@||cdn.jsdelivr.net^$important
+@@||client.wns.windows.com^$important
+@@||dmm.co.jp^$important
+@@||vmware.com^$important
+@@||www.paypalobjects.com^$important
+!国内大站/app
+@@||zkres.myzaker.com^$important
+@@||adidasapp.api.adidas.com.cn^$important
+@@||mobile.appchina.com^$important
+@@||mobile.yangkeduo.com^$important
+@@||sm.cn^$important
+@@||statics.itc.cn^$important
+@@||quan.suning.com^$important
+@@||api.zhihu.com^$important
+@@||get.sogou.com^$important
+@@||ctrip.com^$important
+@@||ip.cn^$important
+@@||m.video.9ddm.com^$important
+@@||input.shouji.sogou.com^$important
+@@||ykimg.com^$important
+@@||upgrade.ptmi.gitv.tv^$important
+@@||yun.duiba.com.cn^$important
+@@||baike.so.com^$important
+@@||p2p.huya.com^$important
+@@||www.jiaoyimao.com^$important
+@@||m.jiaoyimao.com^$important
+@@||jumpluna.58.com^$important
+@@||oss-asq-static.11222.cn^$important
+
+#魅族
+@@||aider.meizu.com^
+@@||www.meizu.com^
+@@||store.meizu.com^
+@@||uxip.meizu.com^
+#魅族天气
+@@||aider-res.meizu.com^
+##Flyme 游戏下载
+@@||api-game.meizu.com^$important
+@@||game.res.meizu.com^$important
+##官网
+@@||m.meizu.com^
+#魅族商城
+@@||detail.meizu.com^
+#服务支持
+@@||care.meizu.com^
+
+#OPPO 应用商店 主题 开屏广告
+@@||api-cn.store.heytapmobi.com^
+@@||api-cn.theme.heytapmobi.com^
+#OPPO开放平台
+@@||open.oppomobile.com^$important
+##OPPO商店登陆
+@@||client-uc.heytapmobi.com^$important
+@@||dragate.dc.oppomobile.com^$important
+@@||dragate-cn.dc.heytapmobi.com^$important
+!一点资讯
+@@||oppo.yidianzixun.com^$important
+@@||ib11.go2yd.com^$important
+#OPPO账号相关
+@@||u.oppomobile.com^
+#OPPO应用配置
+@@||appconf.heytapdownload.com^
+
+#皮皮虾/字节跳动
+@@||mon.snssdk.com^
+@@||mon.isnssdk.com^
+@@||is-hl.snssdk.com^
+@@||p**-ppx.byteimg.com^
+@@||dig.zjurl.cn^
+@@||i.snssdk.com^
+@@||sf3-ttcdn-tos.pstatp.com^
+#页面布局＆图片加载
+@@||lf1-cdn-tos.bytescm.com^
+
+#放行一堆click
+@@||click-trk.com^
+@@||clickcease.com^
+@@||clickdimensions.com^
+@@||clickiocdn.com^
+@@||clicktale.net^
+@@||intercom-clicks.com^
+@@||klclick*.com^
+@@||personaclick.com^
+@@||click.aliexpress.com^
+@@||click.allkeyshop.com^
+@@||click.alternate.de^
+@@||click.member.americanexpress.com^
+@@||click.appcast.io^
+@@||clicks.aweber.com^
+@@||click.emcom.bankofamerica.com^
+@@||click.em.blizzard.com^
+@@||click.myctm.canadiantire.ca^
+@@||target.clickfunnels.com^
+@@||click.cptrack.de^
+@@||click.mc.crimsontrace.com^
+@@||clickserve.dartsearch.net^
+@@||click.o.delta.com^
+@@||click.discord.com^
+@@||click.dji.com^
+@@||ad.doubleclick.net^
+@@||click*.experian.com^
+@@||click.fidelityinvestments.com^
+@@||click.holidayinnclubemail.com^
+@@||click.instantink.hpsmart.com^
+@@||click.icptrack.com^
+@@||click.email.jcpenney.com^
+@@||click.justwatch.com^
+@@||click.klarna.de^
+@@||click.chp.kohls.com^
+@@||click.s.kohls.com^
+@@||click.e.krogermail.com^
+@@||click.landsend.com^
+@@||click.e.lowes.com^
+@@||click.mail.macmillan.com^
+@@||click.microsoft*.com^
+@@||click.mlsend.com^
+@@||click.email.newegg.com^
+@@||click.members.nra.org^
+@@||clicks.pipaffiliates.com^
+@@||click.pstmrk.it^
+@@||click.redditmail.com^
+@@||click.royalcaribbeanmarketing.com^
+@@||click.e.safelite.com^
+@@||click.em.samsclub.com^
+@@||click.e.sees.com^
+@@||click.snapshat.com^
+@@||click.email.sonos.com^
+@@||click.mailing.ticketmaster.com^
+@@||clicks.trx-hub.com^
+@@||cdn.webclicks24.com^
+@@||click.zoom.us^
+
+!知乎评论
+@@||zhihu-web-analytics.zhihu.com/api/v2/za/payload-verification
+@@||mparticle.uc.cn^$important
+# 知乎
+@@||appcloud2.zhihu.com^$important
+@@||sugar.zhihu.com^$important
+# 知乎
+@@||appcloud2.zhihu.com^$important
+@@||sugar.zhihu.com^$important
+
+#> 其他
+@@||auditude.com^
+@@||bitsumactivationserver.com^
+@@||c.evidon.com^
+@@||clarins.com.cn^
+@@||d1z2jf7jlzjs58.cloudfront.net^
+@@||d2na2p72vtqyok.cloudfront.net^
+@@||da.mmarket.com^
+@@||duiba.com.cn^
+@@||gvt2.com^
+@@||hsforms.net^
+@@||jiathis.com^
+@@||jimdo.com^
+@@||jwpcdn.com^
+@@||knet.cn^
+@@||lc-cn-n1-shared.com^
+@@||livere.com^
+@@||profile.csdnimg.cn^
+@@||s0.2mdn.net^
+@@||statsig.com^
+@@||tagtic.cn^
+@@||w8.com.cn^
+@@||widget.gleamjs.io^
+@@||wmflabs.org^
+@@||wxapp.lvyadx.cn^
+@@||x6img.com^
+@@||xifuquan.com^
+@@||zazhipu.com^
+@@||flydigi.com^
+@@||pv.sohu.com^$important
+@@||000714.xyz^
+@@||blueskyxn.com^
+@@||openap-alps.51y5.net^$important
+@@||177j.wodenongtiacom^$important
+@@||177d.wodeshougoncom^$important
+@@||177h.wodeshougong.com^$important
+@@||rs.xmeye.net^$important
+@@||wwo.wps.cn^$important
+@@||www.123pan.com^$important
+@@||saomiao.51240.com^$important
+@@||saomiao.bmcx.com^$important
+@@||frontier.tiktokv.com^$important
+@@||p16-tiktokcdn-com.akamaized.net^$important
+@@||tnc16-platform-useast1a.tiktokv.com^$important
+@@||speech.platform.bing.com^$important
+@@||eastus.api.speech.microsoft.com^$important
+@@||mca.cmpay.com^$important
+@@||store.heytapimage.com^$important
+@@||play1.heytapimage.com^$important
+@@||theme.heytapimage.com^$important
+@@||credit-jfimage-cn.heytapimage.com^$important
+@@||dm.toutiao.com^$important
+@@||etl-xlmc-ssl.sandai.net^$important
+@@||map.bmcx.com^$important
+@@||d.bmcx.com^$important
+@@||f.bmcx.com^$important
+@@||xvideos.com^$important
+@@||www.xvideos.com^$important
+@@||static-ss.xvideos-cdn.com^$important
+@@||hls9-cf.xvideos-cdn.com^$important
+@@||hls3-cf.xvideos-cdn.com^$important
+@@||cdn77-vid.xvideos-cdn.com^$important
+@@||ad.mcloud.139.com^$important
+@@||sysdk.cl2009.com^$important
+@@||yoyodadada.lanzouw.com^$important
+@@||m.tb.cn^$important
+@@||www.lsds.cn^$important
+@@||readstatic.zhulang.com^$important
+@@||wx.17u.cn^$important
+@@||hotel.17u.cn^$important
+@@||mcc1684939218000.lgecqrb.com^$important
+@@||mcc1684939331000.lgecqrb.com^$important
+@@||wb.amap.com^$important
+@@||lf9-mgsdk-sign.dailygn.com^$important
+@@||lf6-mgsdk-sign.dailygn.com^$important
+@@||m.jingxi.com^$important
+@@||jstatic.3.cn^$important
+@@||fonts.gstatic.com^$important
+@@||www.googleadservices.com^$important
+@@||wm.makeding.com^$important
+@@||cpv2.mairuan.com^$important
+@@||edge.activity.windows.com^$important
+@@||o.actio.systems^$important
+@@||studcat.infra.systems^$important
+@@||www.crossoverchina.com^$important
+@@||c.duomai.com^$important
+@@||browser.events.data.msn.com^$important
+@@||mediation.adnxs.com^$important
+@@||disneyplus.bn5x.net^$important
+@@||lf1-ttcdn-tos.pstatp.com^$important
+@@||mx.technolutions.net^$important
+@@||chrome-infra-packages.appspot.com^$important
+@@||cps.kaola.com^$important
+@@||s.click.tmall.com^$important
+@@||www1.appcleanermac.com^$important
+@@||widget.mibbit.com^$important
+@@||cros-updates-serving.appspot.com^$important
+@@||ptmi.gitv.tv^$important
+@@||puui.qpic.cn^$important
+@@||ingest.sentry.io^$important
+@@||zm.sm-tc.cn^$important
+@@||ms.vipstatic.com^$important
+@@||amp-api-edge.apps.apple.com^$important
+@@||aweme.snssdk.com^$important
+@@||ggpht.com^$important
+@@||t.co^$important
+@@||scs.openspeech.cn^$important
+@@||www.ntdtv.com^$important
+@@||jump.luna.58.com^$important
+@@||games.mobileapi.hupu.com^$important
+@@||collect.hupu.com^$important
+@@||bbs.mobileapi.hupu.com^$important
+@@||minigame.zijieapi.com^$important
+@@||api.flash.cn^$important
+@@||tongji.flash.cn^$important
+@@||stat.funshion.com^$important
+@@||sf3-pitaya-tos.pstatp.com^$important
+@@||qzonestyle.gtimg.cn^$important
+@@||static.e.189.cn^$important
+@@||hermes.hupu.com^$important
+@@||hoopchina.com^$important
+@@||lf-dy-sourcecdn-tos.bytegecko.com^$important
+@@||kdocs.cn^$important
+@@||www.kdocs.cn^$important
+@@||qn.cache.wpscdn.cn^$important
+@@||account.wps.cn^$important
+@@||volcengine-cache-weboffice.wpscdn.cn^$important
+@@||volcengine-kdocs-cache.wpscdn.cn^$important
+@@||i.gtimg.cn^$important
+@@||xiaoshuo.wtzw.com^$important
+@@||castatic.fengkongcloud.com^$important
+@@||lf9-open-ma-pkg-sign.bytemastatic.com^$important
+@@||play-fe.googleapis.com^$important
+@@||content-autofill.googleapis.com^$important
+@@||ssl.gstatic.com^$important
+@@||www.gstatic.com^$important
+@@||zhwnlapi.etouch.cn^$important
+@@||ww12.lanzous.com^$important
+@@||ww1.lanzous.com^$important
+@@||www.alidns.com^$important
+@@||play.googleapis.com^$important
+@@||nsclick.baidu.com^$important
+@@||da.mmarket.com^$important
+@@||177e.wodenongtian.com^$important
+@@||177f.wodenongtian.com^$important
+@@||wodenongtian.com^$important
+@@||m.ykimg.com^$important
+@@||v2.get.sogou.com^$important
+@@||ap.6wz.co^$important
+@@||push1.91cloud.net^$important
+@@||pull2.91cloud.net^$important
+@@||static.qiyi.com^$important
+@@||ecmb.bdimg.com^$important
+@@||mobile.ximalaya.com^$important
+@@||share.myfreecams.com^$important
+@@||loc.map.baidu.com^$important
+@@||mixer.sina.cn^$important
+@@||s.img.mix.sina.com.cn^$important
+@@||interest.mix.sina.com.cn^$important
+@@||tracker.didistatic.com^$important
+@@||ecombdapi.com^$important
+@@||apissl.ksapisrv.com^$important
+@@||member.aligames.com^$important
+@@||tpstelemetry.tencent.com^$important
+@@||tv.2345.com^$important
+@@||push.m.youku.com^$important
+@@||appimg.dbankcdn.com^$important
+@@||train.17u.cn^$important
+@@||s3.pstatp.com^$important
+@@||click.aliyun.com^$important
+@@||cn-cd-dx-2.natfrp.cloud^$important
+@@||alps.51y5.net^$important
+@@||analysis.chatglm.cn^$important
+@@||up.cm.ksmobile.com^$important
+@@||appdl-1-drcn.dbankcdn.com^$important
+@@||s.ssl.qhres2.com^$important
+@@||s2.ssl.qhres2.com^$important
+@@||localads.chengzijianzhan.cn^$important
+@@||zhan.vivo.com.cn^$important
+@@||pic.iask.com.cn^$important
+@@||static.iask.cn^$important
+@@||s1.kskwai.com^$important
+@@||dc.sigmob.cn^$important
+@@||tv.2345.com^
+@@||qnmob3.doubanio.com^
+@@||i.ibb.co^
+@@||frodo.douban.com^
+@@||aizhan.com^$important
+@@||we.tl^$important
+@@||gw.alicdn.com^$important
+@@||tbm-auth.alicdn.com^$important
+@@||api.rikka.app^$important
+@@||duiba.com.cn^$important
+@@||dxx.wwwtop.top^$important
+@@||f.51240.com^$important
+@@||hosts-file.net^$important
+@@||kyaru-concat.now.sh^$important
+@@||lhl.zxcs.linghit.com^$important
+@@||yun.rili.cn^$important
+@@||counter-strike.net^$important
+@@||www.chemdraw.com.cn^$important
+@@||pool.v6.bt.n0808.com
+@@||parked-content.godaddy.com^$important
+@@||ydstatic.com^$important
+@@||iteye.com^$important
+@@||ohssr.cn^$important
+@@||akamaized.net^$important
+@@||duckduckgo.com^$important
+@@||bmap6.cn^$important
+@@||api.ts.feedback.qy.net^$important
+@@||bonuscloud.io^$important
+@@||computemaster.bxcearth.com^$important
+@@||gcable.com.cn^$important
+@@||96956.com.cn^$important
+@@||uee.me^$important
+@@||www.kanjiantu.com^$important
+@@||analytics.yinxiang.com^$important
+@@||pic.mairuan.com^$important
+@@||quapp.shenbabao.com^$important
+@@||dataprajna.net^$important
+@@||cn.bing.com^$important
+@@||img.zuoyebang.cc^$important
+@@||mb.yidianzixun.com^$important
+@@||activity.tuiapple.com^$important
+@@||m.manhuabei.com^$important
+@@||www.manhuabei.com^$important
+@@||v3-ppx.ixigua.com^$important
+@@||worldwide.sogou.com^$important
+@@||adnmb3.com^
+@@||cnnic.net.cn^
+@@||wappass.baidu.com^
+@@||dilidili.live^
+@@||dataprajna.net^
+@@||ip.rtbasia.com^
+@@||credit.heytap.com^$important
+@@||credit-cdn.heytap.com^$important
+@@||apmfront.17u.cn^$important
+@@||file.40017.cn^$important
+@@||in.appcenter.ms^$important
+@@||io75a.ocloud.heytapmobi.com^$important
+@@||apd-pcdnwxstat.teg.tencent-cloud.net^$important
+@@||fcbox.cfcom^
+@@||hugelog.fcbox.com^$important
+@@||assets.giocdn.com^$important
+@@||www.hao123.com^$important
+@@||dns.adguard.com^$important
+@@||dns-family.adguard.com^$important
+
+

@@ -1,0 +1,96 @@
+!*********************************************************
+! 
+! Copyright (c) 周木木
+! https://gitee.com/zjqz/ad-guard-home-dns
+!
+!*********************************************************
+! DNS ad blocking blacklist for AdGuard Home
+! Title: black-list
+! Expires: 20991231
+! Update: 20240401
+!*********************************************************
+! url=https://gitee.com/zjqz/ad-guard-home-dns/raw/master/black-list
+! version=20240401104730
+!*********************************************************
+!--------Commonly used--------
+||dragonparking.com^
+||sadbh-kye.com^
+||tat.pandora.xiaomi.com^
+||ad1.xiaomi.com^
+||adc.hpplay.cn^
+||lcs-cops.adobe.io^
+||cc-api-data.adobe.io^
+||lcs-robs.adobe.io^
+||ic.adobe.io^
+||*.g9hc4.cn^
+||ph0f2h2csf.adobe.io^
+||cctypekit.adobe.io^
+||cclibraries-defaults-cdn.adobe.com^
+||cc-cdn.adobe.com^
+||alert.kuyun.com^
+||api.hpplay.com.cn^
+||geo2.adobe.com^
+||*.233leyuan.com^
+||*.233leyuan.cn^
+||*.233lyly.com^
+||*.233lyly.cn^
+||s3m1.fenxi.com^
+||s3m2.fenxi.com^
+||s3m3.fenxi.com^
+||s3m4.fenxi.com^
+||s1m.mediav.com^
+||s2m.mediav.com^
+||s3m.mediav.com^
+||s4m.mediav.com^
+||cjhd.mediav.com^
+||static.mediav.com^
+||static-ssl.mediav.com^
+||domob.cn^
+||sumatang.com^
+||bigcloud.cyou^
+||picnewsss.com^
+||t1tgame.com^
+||ergodicitytech.com^
+||qzs.gdtimg.com^
+||sigmob.cn^
+||sigmob.com^
+||dutils.com^
+||roi.soulapp.cn^
+||tnc3-bjlgy.zijieapi.com^
+||c.tpgjb.top^
+||f.8fenxiang.com^
+||local.info.g9hc4.cn^
+||realsrv.com^
+||jads.co^
+||juicyads.com^
+||centering.raidrive.com/standard/c/widget
+||dxyeyf6ecy.adobe.io^
+||1hzopx6nz7.adobe.io^
+||p13n.adobe.io^
+||p13n-mr.adobe.io^
+||cai-identity.adobe.io^
+||dyzt55url8.adobe.io^
+||gw8gfjbsO5.adobe.io^
+||2ftem87osk.adobe.io^
+||phef2h2csf.adobe.io^
+||7sj9n87sls.adobe.io^
+||b5kbg2ggog.adobe.io^
+||p7uxzbht8h.adobe.io^
+||guzg78logz.adobe.io^
+||crs.cr.adobe.com^
+||photos.adobe.io^
+||cai-splunk-proxy.adobe.io^
+||cap.cyberlink.com^
+||activation.cyberlink.com^
+||registeridm.com^
+www.qinav.com##div[class="b300"]
+www.qinav.com##div[id="qinav_b*"]
+centering.raidrive.com###div-gpt-ad-1648048258625-0
+centering.raidrive.com###div-gpt-ad-1666694094447-0
+/get/*?zoneid=$script
+||ads.raidrive.com##img
+||ads.raidrive.com##a
+||dragonparking.com^
+||sadbh-kye.com^
+!--------The List End--------
+
