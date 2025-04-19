@@ -142,11 +142,9 @@ cat \
 wait
 
 
-# 提取以 @@|| 开头，以 ^ 结尾的规则
-grep '^@@||.*\^$' input.txt > output_rules_ends_with_caret.txt
-
-# 提取以 @@|| 开头，以 ^$important 结尾的规则
-grep '^@@||.*\^\$important$' input.txt > output_rules_ends_with_important.txt
+cat *.txt | grep '^@' \
+ | sort -n | uniq > tmp-allow.txt & #允许清单处理
+wait
 
 cp tmp-allow.txt .././allow.txt
 cp tmp-rules.txt .././rules.txt
