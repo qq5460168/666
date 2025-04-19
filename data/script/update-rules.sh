@@ -11,6 +11,19 @@ mkdir -p ./tmp/
 cp ./data/rules/adblock.txt ./tmp/rules01.txt
 cp ./data/rules/whitelist.txt ./tmp/allow01.txt
 
+cd tmp
+#下载yhosts规则
+#curl https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts | sed '/0.0.0.0 /!d; /#/d; s/0.0.0.0 /||/; s/$/\^/' > rules001.txt
+
+#下载大圣净化规则
+#curl https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts > rules002.txt
+#sed -i '/视频/d;/奇艺/d;/微信/d;/localhost/d' rules002.txt
+#sed -i '/127.0.0.1 /!d; s/127\.0\.0\.1 /||/; s/$/\^/' rules002.txt
+
+#下载乘风视频过滤规则
+#curl https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt | awk '!/^$/{if($0 !~ /[#^|\/\*\]\[\!]/){print "||"$0"^"} else if($0 ~ /[#\$|@]/){print $0}}' | sort -u > rules003.txt
+
+
 echo '下载规则'
 rules=(
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt" #5460
