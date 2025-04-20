@@ -131,9 +131,10 @@ cat \
 
 echo 开始合并
 
-cat rules*.txt \
- |grep -Ev "^((\!)|(\[)).*" \
- | sort -n | uniq | awk '!a[$0]++' > tmp-rules.txt & #处理AdGuard的规则
+
+# 合并规则并过滤掉注释行和特定格式的行
+cat rules*.txt | grep -Ev "^(#|!|\[)" | sed '/^$/d' | sort -u > tmp-rules.txt & #处理AdGuard的规则
+
 
 cat \
  | grep -E "^[(\@\@)|(\|\|)][^\/\^]+\^$" \
