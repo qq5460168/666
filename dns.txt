@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-25 00:11:00（北京时间）
+! Version: 2025-04-25 02:11:42（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8616
+! Total count: 8642
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -1339,6 +1339,7 @@
 ||analy.tuniu.cn^
 ||analyse.weather.com.cn^
 ||analysis-acc-ssl.xunlei.com^
+||analysis.chatglm.cn^
 ||analysis.yozocloud.cn^
 ||analytics-api.samsunghealthcn.com^
 ||analytics-sg.tiktok.com^
@@ -1570,6 +1571,7 @@
 ||applog.uc.cn^
 ||applog.ucdns.uc.cn^
 ||applog.zijieapi.com^
+||applovin.com^
 ||appmetrica.yandex.ru^
 ||appmobile.cn^
 ||apppush.xiaohongshu.com^
@@ -2054,6 +2056,7 @@
 ||cdn-api-verify.mob.com^
 ||cdn-asp.yiye.ai^
 ||cdn-cbd-advert-prod.shuxinyc.com^
+||cdn-f.adsmoloco.com^
 ||cdn-new-ad.wtzw.com.g4.bdydns.com^
 ||cdn-new-ad.wtzw.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
@@ -2070,6 +2073,7 @@
 ||cdn.hanaya-m.com^
 ||cdn.holmesmind.com^
 ||cdn.hpplay.com.cn^
+||cdn.iads.unitychina.cn^
 ||cdn.inads.cn^
 ||cdn.itphanpytor.club^
 ||cdn.jquery-cdn.cc^
@@ -2249,6 +2253,7 @@
 ||conf.hpplay.cn^
 ||config.ads.vungle.com^
 ||config.chsmarttv.com^
+||config.inmobi.com^
 ||config.mobisage.cn^
 ||config.unityads.unity3d.com^
 ||configsvr.msf.3g.qq.com^
@@ -2350,6 +2355,8 @@
 ||czghjt.com^
 ||d*-m.dewu.net^
 ||d-test.39.net^
+||d.applovin.com^
+||d.applvn.com^
 ||d.gdt.qq.com^
 ||d.kugou.com^
 ||d.toutiao.com^
@@ -2900,6 +2907,7 @@
 ||esmapi.dangbei.net^
 ||estcruden.biz^
 ||esw.tymcdn.com^
+||et-eus.w.inmobi.com^
 ||et.tanx.com^
 ||etahub.com^
 ||etest.dangcdn.com^
@@ -3311,6 +3319,7 @@
 ||gpxxbyf.cn^
 ||gqdfgyz.cn^
 ||grandcomms.cn^
+||graph.facebook.com^
 ||grduswfx.com^
 ||greatnumeric.com^
 ||greenxcx.com^
@@ -3716,6 +3725,8 @@
 ||i-game.book.qq.com^
 ||i.cidianwang.com^
 ||i.gdt.qq.com^
+||i.l-new.inmobicdn.net^
+||i.l.inmobicdn.net^
 ||i.snssdk.com/api/ad/*^
 ||i.snssdk.com^
 ||i.vip.iqiyi.com^
@@ -3851,6 +3862,7 @@
 ||imp.zol.com.cn^
 ||impression-asia.chinaliftoff.io^
 ||impression-asia.liftoff.io^
+||impression.appsflyer.com^
 ||impression.biligame.com^
 ||imtmp.net^
 ||in-addr.arpa^
@@ -5073,6 +5085,10 @@
 ||mrqbuf.xyz^
 ||mryshl.com^
 ||ms-ads-monitoring-events.presage.io^
+||ms.applovin.com^
+||ms.applvn.com^
+||ms4.applovin.com^
+||ms4.applvn.com^
 ||msch.f.360.cn^
 ||msdk.qq.com^
 ||msdk.voiceads.cn^
@@ -5323,6 +5339,7 @@
 ||nzrlx6wc.icu^
 ||nzrovf.xyz^
 ||nzymeedg.icu^
+||o-sdk.mediation.unity3d.com^
 ||o.iads.unity3d.com^
 ||o.zjjrlx4.com^
 ||o1098464.ingest.sentry.io^
@@ -5806,6 +5823,7 @@
 ||prlioxb.cn^
 ||pro.bugly.qq.com^
 ||procdn.asia^
+||prod-mediate-events.applovin.com^
 ||prodigalpromotion.com^
 ||proesh.com^
 ||proesh.com^
@@ -6127,6 +6145,7 @@
 ||reportlog.dftoutiao.com^
 ||res.kekedy.app^
 ||res.mi.baidu.com^
+||res1.applovin.com^
 ||res1.hubcloud.com.cn^
 ||resolve.umeng.com^
 ||resolver.msg.global.xiaomi.net^
@@ -6205,6 +6224,7 @@
 ||rsvqlz.cn^
 ||rszkhn.xyz^
 ||rt.applovin.com^
+||rt.applvn.com^
 ||rtb.voiceads.cn^
 ||rtborp.xyz^
 ||rte.fuoo1.top^
@@ -6353,6 +6373,7 @@
 ||sdk-log.partner.sm.cn^
 ||sdk-open-phone.getui.com^
 ||sdk.1rtb.net^
+||sdk.ad.smaato.net^
 ||sdk.adtiming.com^
 ||sdk.alibaba.com.ailbaba.me^
 ||sdk.api.oaid.wocloud.cn^
@@ -6721,6 +6742,7 @@
 ||sun66387567606.site^
 ||sunriseoutdoor.cn^
 ||superbdolly.com^
+||supply.inmobicdn.net^
 ||supportmetrics.apple.com^
 ||surface361.com^
 ||surperverse.com^
@@ -6765,6 +6787,7 @@
 ||t-dsp.pinduoduo.com^
 ||t-qmad.qimao.com^
 ||t-remad.qm989.com^
+||t.applovin.com^
 ||t.atomicfile.cn^
 ||t.dentsuchina.cn^
 ||t.gdt.qq.com^
@@ -6838,6 +6861,7 @@
 ||telemetry-sdk-metrics.inmobi.cn^
 ||telemetry.microsoft.com^
 ||telemetry.remoteapp.windowsazure.com^
+||telemetry.sdk.inmobi.com^
 ||telemetry.urs.microsoft.com^
 ||temai.snssdk.com^
 ||ten.sngapm.qq.com^
@@ -7012,6 +7036,7 @@
 ||tqmcj.cn^
 ||tquspo.com^
 ||tqytqdrq.icu^
+||tr-asia.adsmoloco.com^
 ||tr.byteurl.cn^
 ||tr.iadsdk.apple.com^
 ||trace.qq.com^
@@ -7768,6 +7793,7 @@
 ||wuk.91c0218.top^
 ||wuliao.jingyanben.com^
 ||wuplexv.cn^
+||wv.inner-active.mobi^
 ||wvyqks.xyz^
 ||ww-7o1-0h.os.23v7m9.cc^
 ||wwads.cn^
