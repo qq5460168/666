@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-25 02:11:42（北京时间）
+! Version: 2025-04-25 04:09:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8642
+! Total count: 8647
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -1203,6 +1203,7 @@
 ||adx.ads.heytapmobi.com^
 ||adx.ads.oppomobile.com^
 ||adx.apiok.net^
+||adx.appsdk.com.cn^
 ||adx.halomobi.com^
 ||adx.maplehaze.cn^
 ||adx.op.cp18.ott.cibntv.net^
@@ -1461,6 +1462,7 @@
 ||api.faba.pw^
 ||api.fanqiesdk.com^
 ||api.fqnovel.com^
+||api.fu.xcultur.com^
 ||api.globalphone.hismarttv.com^
 ||api.higame.hismarttv.com^
 ||api.hismarttv.com^
@@ -1490,6 +1492,7 @@
 ||api.sec.miui.com^
 ||api.share.mob.com^
 ||api.sm.cn^
+||api.ssp.xcultur.com^
 ||api.statsig.com^
 ||api.tencentmusic.com^
 ||api.th.wanzjhb.com^
@@ -7384,6 +7387,7 @@
 ||v*-be-pack.pglstatp-toutiao.com^
 ||v*-novelapp.fqnovelvod.com^
 ||v*.gdt.qq.com^
+||v.110route.cn^
 ||v.adintl.cn^
 ||v.adx.hubcloud.com.cn^
 ||v.gdt.qq.com^
@@ -8343,6 +8347,7 @@
 ||ytqeavc.icu^
 ||ytqlyw.xyz^
 ||ytvwhbejc.com^
+||ytx-file.110route.cn^
 ||yuanlin15.cn^
 ||yuanmengbi.com^
 ||yuanxiang19.fun^
