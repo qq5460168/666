@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-04-30 11:00:19（北京时间）
+! Version: 2025-04-30 12:11:15（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3001
+! Total count: 3005
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -265,6 +265,7 @@
 @@||ali-ky.static.yximgs.com^
 @@||ali.static.yximgs.com^
 @@||ali.static.yximgs.com^$important
+@@||ali2-course.video.yximgs.com^$important
 @@||ali2.a.kwimgs.com^
 @@||ali2.a.yximgs.com^
 @@||ali2.a.yximgs.com^$important
@@ -1906,6 +1907,8 @@
 @@||p.qlogo.cn^$important
 @@||p0.meituan.net^
 @@||p1-dcd.byteimg.com^
+@@||p1-lm.adbkwai.com^$important
+@@||p1-lm.adukwai.com^$important
 @@||p1-sign.douyinpic.com^
 @@||p1-tt.byteimg.com^
 @@||p1.douyinpic.com^
@@ -1916,6 +1919,7 @@
 @@||p11-webcast.douyinpic.com^
 @@||p11.douyinpic.com^
 @@||p16-tiktokcdn-com.akamaized.net^$important
+@@||p2-lm.adukwai.com^$important
 @@||p26-sign.bdxiguaimg.com^
 @@||p26-sign.bdxiguaimg.com^$important
 @@||p26-sign.douyinpic.com^
