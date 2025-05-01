@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-01 22:08:30（北京时间）
+! Version: 2025-05-02 00:10:57（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8653
+! Total count: 8579
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -54,12 +54,9 @@
 ||*.bjmantis.net^
 ||*.bjnxo.cn^
 ||*.cmgadx.com^
-||*.compute.hwclouds-dns.com^
 ||*.cyfupnq.com^
 ||*.diwodiwo.xyz^
 ||*.dmcduio.com^
-||*.dns-detect.alicdn.com^
-||*.dns.cross.gt^
 ||*.dtsmndu.com^
 ||*.eavztdi.com^
 ||*.emsxev.xyz^
@@ -1376,7 +1373,6 @@
 ||annelinterv.fun^
 ||anon-stats.eff.org^
 ||antheaceliacd.com^
-||anti-sdk-report.m.jd.com^
 ||anwqj0i.xyz^
 ||anxioushatedconservation.com^
 ||anythinktech.com^
@@ -1393,7 +1389,6 @@
 ||ap.91adv.com.cn^
 ||ap.dongqiudi.com^
 ||aparvibices.com^
-||apd-*.v.smtcdns.com^
 ||apd-pcdnvodstat.teg.tencent-cloud.net^
 ||apd-pcdnwxlogin.teg.tencent-cloud.net^
 ||apd-pcdnwxnat.teg.tencent-cloud.net^
@@ -1418,7 +1413,6 @@
 ||api-cn.open.heytapmobi.com^
 ||api-dynhost.hismarttv.com^
 ||api-e189.21cn.com^
-||api-env.dropbox-dns.com^
 ||api-fc.dutils.com^
 ||api-flow.flyme.cn^
 ||api-fp-retry-bj.fengkongcloud.com^
@@ -1515,8 +1509,6 @@
 ||api.xyhx.org^
 ||api.yfanads.com^
 ||api.youtu.qq.com^
-||api.yuedu.dns..com^
-||api.yuedu.dns.iqiyi.com^
 ||api.zhihu.com/ab/*^
 ||api.zhihu.com/commercial_api/answer/*/bottom*^
 ||api01pbmp.zhuishushenqi.com^
@@ -1533,7 +1525,6 @@
 ||api5-normal-quic-lf.ixigua.com^
 ||api5-normal-sinfonlineb.dcarapi.com^
 ||api7.tuisong.baidu.com^
-||apidns-js.kwd.inkuai.com^
 ||apihb6.ksapisrv.com^
 ||apijsv6.gifshow.com^
 ||apijsv6.ksapisrv.com^
@@ -1993,7 +1984,6 @@
 ||caaie.xyz^
 ||caardinal.com^
 ||cache.gaode.com^
-||cache.video.iqiyi.com^
 ||cache.wuji.qq.com^
 ||caclick.qq.com^
 ||cad.youku.com^
@@ -2295,7 +2285,6 @@
 ||cp.eoncreativity.com^
 ||cpc-service-square.aiclk.com^
 ||cpoml.iask.sina.com.cn^
-||cpro.baidustatic.com.a.bdydns.com^
 ||cpro.baidustatic.com^
 ||cpro.zol.com.cn^
 ||cpro88.vip^
@@ -2357,7 +2346,6 @@
 ||cyhbrjf.cn^
 ||cypcb.net^
 ||cyq3noz.icu^
-||cz15.now-dns.top^
 ||czd367.com^
 ||czghjt.com^
 ||d*-m.dewu.net^
@@ -2573,8 +2561,6 @@
 ||dididy.xyz^
 ||dieka888.com^
 ||diffpkg.browser.qq.com^
-||dig-ec.bdurl.net^
-||dig-tlsv3.bdurl.net^
 ||dig.bdurl.net^
 ||dig.qbao.com^
 ||dig.zjurl.cn^
@@ -2630,33 +2616,14 @@
 ||dncvj.cn^
 ||dnightwish.xyz^
 ||dnrf0215.com^
-||dns*.londrimarketing.com.br^
-||dns*po.lzn376.com^
-||dns-*.eastus.cloudapp.azure.com^
-||dns-info-static.hitwh.net.cn^
-||dns-test.research.a10protects.com^
-||dns.cyida.com^
-||dns.jd.com.gslb.qianxun.com^
-||dns.jd.com^
-||dns.loveimgmoe.com^
 ||dns.qq.com^
-||dns.supfree.net^
 ||dns.weibo.cn^
 ||dns.weixin.qq.com*^
 ||dns.weixin.qq.com^
-||dns1.dimassa.net^
-||dnsa*f.*zzy.com^
-||dnsin.in.zapto.xyz^
-||dnsnio.*.com^
-||dnsrr9.wym*.com^
-||dnss-blocklist.flinteger.com^
-||dnsxyc.wym*.com^
-||dnszcp.zzg*.com^
 ||dnyzbp.cn^
 ||dnzmhr.xyz^
 ||doccd.xyz^
 ||dodhvug.cn^
-||doh.dns.apple.com^
 ||dohihf.com^
 ||doiney.pandasone.com^
 ||dojyiu8.com^
@@ -2673,7 +2640,6 @@
 ||doubleclick-cn.net^
 ||doubleclick.com^
 ||doubleclick.net^
-||doujin-assets.dns.doujin.dmm.co.jp^
 ||douyaobuy.com^
 ||down.paperyy.com^
 ||download*.vzuu.com^
@@ -2704,7 +2670,6 @@
 ||dreemdmbabys.oss-cn-guangzhou.aliyuncs.com^
 ||drfvtgbyk.xyz^
 ||drml.video.iqiyi.com^
-||dropbox-dns.com^
 ||drs.wtzw.com^
 ||ds4x53xfg4f53gh453h.top^
 ||dsawdsc.com^
@@ -3193,7 +3158,6 @@
 ||gaszfc.moo39829.net^
 ||gatecollect.kugou.com^
 ||gator.volces.com^
-||gaut.now-dns.net^
 ||gbcnvip15.com^
 ||gbrtyhnsc.xyz^
 ||gbsp002.com^
@@ -3413,7 +3377,6 @@
 ||h.baminw.cn^
 ||h.trace.qq.com^
 ||h.wymwyma.cn^
-||h1-us.iot-dns.com^
 ||h1v3fa.com^
 ||h21n.top^
 ||h2ji5.xyz^
@@ -3626,41 +3589,19 @@
 ||htjrlm.com^
 ||htseca.top^
 ||http://vibeaconstr.onezapp.com:8080/analytics/upload^
-||httpdns-api.aliyuncs.com^
 ||httpdns-browser.platform.dbankcloud.cn^
-||httpdns-sc.aliyuncs.com^
-||httpdns-sdk.n.netease.com^
-||httpdns.*.yy.com^
 ||httpdns.alicdn.com^
-||httpdns.baidubce.com^
 ||httpdns.bcelive.com^
 ||httpdns.bilivideo.com^
-||httpdns.browser.miui.com^
-||httpdns.c.cdnhwc2.com^
-||httpdns.danuoyi.tbcache.com^
-||httpdns.gslb.yy.com^
-||httpdns.huaweicloud.com^
 ||httpdns.kg.qq.com^
 ||httpdns.kwd.inkuai.com^
 ||httpdns.meituan.com^
-||httpdns.music.163.com^
-||httpdns.music.ntes53.netease.com^
-||httpdns.n.netease.com^
-||httpdns.n.shifen.com^
 ||httpdns.ocloud.oppomobile.com^
-||httpdns.platform.dbankcloud.cn^
 ||httpdns.platform.dbankcloud.com^
 ||httpdns.pro^
-||httpdns.push.heytapmobi.com^
-||httpdns.push.oppomobile.com^
-||httpdns.tantanapp.com^
-||httpdns.volcengineapi.com^
-||httpdns.yunxindns.com^
-||httpdns1.cc.cdnhwc5.com^
 ||httpkafka.unityads.unity3d.com^
 ||httpring.qq.com^
 ||https-apple.com^
-||httpsdns.baidu.com^
 ||httpsjs.com^
 ||htvixv.xyz^
 ||huashan-datahub-drcn.emui.dbankcloud.com^
@@ -3923,7 +3864,6 @@
 ||ipsoazr.icu^
 ||ipv4.gdt.qq.com^
 ||ipv4.kkmh.com^
-||ipv6-static.dns.iqiyi.com^
 ||ipv6.shuzilm.cn^
 ||iqede.xyz^
 ||iqgessh.icu^
@@ -4097,7 +4037,6 @@
 ||jnc7d034.top^
 ||jnhgm.com^
 ||jnmascx.xyz^
-||jnox.now-dns.top^
 ||jnp0kmm.icu^
 ||jntmwrm.com^
 ||jnwpzq.com^
@@ -4176,7 +4115,6 @@
 ||jtienla.top^
 ||jtjh.tw^
 ||jtpu9s.icu^
-||ju78.now-dns.top^
 ||juicyads.com^
 ||jujcjz.xyz^
 ||junshi8181.com^
@@ -4616,7 +4554,6 @@
 ||local.info.g9hc4.cn^
 ||localads.chengzijianzhan.cn.queniurc.com^
 ||localads.chengzijianzhan.cn^
-||lofter.httpdns.c.163.com^
 ||log*-misc-lf.amemv.com^
 ||log*-misc-lq.amemv.com^
 ||log*-normal-lq.toutiaoapi.com^
@@ -5140,7 +5077,6 @@
 ||multi-az-ad.kuaishou.com^
 ||mus-nettech.youku.com^
 ||muses-ugc.iqiyi.com^
-||music.httpdns.c.163.com^
 ||musicoholics.com^
 ||musicps.p2p.qq.com^
 ||musicpunch.p2p.qq.com^
@@ -5315,8 +5251,6 @@
 ||novelapi.baidu.com^
 ||novelsns.html5.qq.com^
 ||novelvideocdn.qq.com^
-||now-dns.net^
-||now-dns.org^
 ||npftmqv.cn^
 ||nphqw.cn^
 ||nqdufv.xyz^
@@ -5369,7 +5303,6 @@
 ||oca.telemetry.microsoft.com^
 ||oceanbot-steam.com^
 ||oceanengine.com^
-||ocloud-httpdns-cn.heytapmobi.com^
 ||ocsp.apple.com^
 ||ocx.umeng.com^
 ||oehhq.xyz^
@@ -5459,7 +5392,6 @@
 ||open.toutiao.com^
 ||open.youzanyun.com^
 ||openapi.guanjia.qq.com^
-||opencdnbaiduwm.jomodns.com^
 ||opencdnpddpic2.cdn.vsjwtcdn.com^
 ||opencdnpddvod2.jomodns.com^
 ||opencloud.wostore.cn^
@@ -5495,7 +5427,6 @@
 ||osnignsk.xyz^
 ||oss-asq-download.11222.cn^
 ||oss.cdn.aiclk.com^
-||oss.dns.aliyun.com.dalvhe.com^
 ||ossapi.baidu.com^
 ||ossfile001.com^
 ||ossgw.alicdn.com^
@@ -5660,8 +5591,7 @@
 ||partner.uc.cn^
 ||partnerads-test.ysm.yahoo.net^
 ||partnerads.ysm.yahoo.com^
-||passport.dns.iqiyi.com^
-||passport.iqiyi.com^
+||passport..iqiyi.com^
 ||passport.kuaishou.com^
 ||payoneok.com^
 ||pbaiyho.cn^
@@ -6291,7 +6221,6 @@
 ||s0n9app.com^
 ||s1.hapying.com^
 ||s1.ssl.qhres.com^
-||s1310ipmi.now-dns.net^
 ||s1m.mediav.com^
 ||s2dcm.com^
 ||s2m.mediav.com^
@@ -6887,7 +6816,6 @@
 ||testcloud.tgpa.qq.com^
 ||tetiao9.com^
 ||teusyxz.icu^
-||tf-4.now-dns.org^
 ||tfbulkidn.com^
 ||tfcdn.jingmiuyyds.com^
 ||tfdmzsgy.icu^
@@ -7748,7 +7676,6 @@
 ||wit.qq.com^
 ||wkrcbszi.xyz^
 ||wl.jd.com^
-||wlay.dd-dns.de^
 ||wlgxaij.cn^
 ||wlhcb.cn^
 ||wlog.gifshow.com^
@@ -7809,7 +7736,6 @@
 ||wwggnaw.xyz^
 ||wwgqqq.com^
 ||wwkh9ku.xyz^
-||www-env.dropbox-dns.com^
 ||www.002st.top^
 ||www.16m.cc^
 ||www.199221.top^
