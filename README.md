@@ -79,12 +79,6 @@ DNS拦截规则数量: 8579
 - 误杀的网站
 
 ## ⭐ 感谢支持
-<p align='center'>
-  <a href="https://github.com/8680/GOODBYEADS/stargazers">
-    <img src="https://api.star-history.com/svg?repos=8680/GOODBYEADS&type=Date">
-  </a>
-</p>
-
 
 
 
