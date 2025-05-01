@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-01 16:12:20（北京时间）
+! Version: 2025-05-01 18:09:25（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8650
+! Total count: 8653
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -796,6 +796,7 @@
 ||ad.gamebox.360.cn^
 ||ad.gameley.com^
 ||ad.gtbrowser.com^
+||ad.guangggao.eee114.com^
 ||ad.holmesmind.com^
 ||ad.hpplay.cn^
 ||ad.hzyoka.com^
@@ -821,6 +822,7 @@
 ||ad.seeyouyima.com^
 ||ad.shunchangzhixing.com^
 ||ad.sitemaji.com^
+||ad.smaato.net^
 ||ad.sohu.com^
 ||ad.tencentmusic.com^
 ||ad.tianmu.mobi^
@@ -843,6 +845,7 @@
 ||ad.xmmnsl.com^
 ||ad.xunkids.com^
 ||ad.youku.com^
+||ad.zhangyue.com^
 ||ad.zhuanzhuan.com^
 ||ad.zijieapi.com^
 ||ad1.xiaomi.com^
@@ -1032,7 +1035,6 @@
 ||ads.uutest.cn^
 ||ads.v3mh.com^
 ||ads.vserv.mobi^
-||ads.vungle.com^
 ||ads.yahoo.com^
 ||ads.yap.yahoo.com^
 ||ads.yieldmo.com^
@@ -8052,6 +8054,7 @@
 ||xgnsvx.stwqhfi.cn^
 ||xgzdys.com^
 ||xh990214c.llpstudy.top^
+||xhcdn.com^
 ||xheqbc.cn^
 ||xhiit0n.xyz^
 ||xhkvff.cn^
