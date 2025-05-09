@@ -40,6 +40,7 @@ DNS拦截规则数量: 8577
 白名单规则数量: 3009 
 ``` 
 <details open>
+
 <summary>规则列表</summary>
 <ul>
 
@@ -49,8 +50,11 @@ DNS拦截规则数量: 8577
 - **[DNS拦截规则(Ghproxy-国内加速)](https://ghp.ci/https://raw.githubusercontent.com/qq5460168/666/master/dns.txt)**
 - **[白名单（Github）](https://raw.githubusercontent.com/qq5460168/666/master/allow.txt)**
 - **[白名单(Ghproxy-国内加速)](https://ghp.ci/https://raw.githubusercontent.com/qq5460168/666/master/allow.txt)**
+- **[Hosts规则（Github）](https://raw.githubusercontent.com/qq5460168/666/master/hosts.txt)**
+- **[Hosts规则(Ghproxy-国内加速)](https://ghproxy.net/https://raw.githubusercontent.com/qq5460168/666/master/hosts.txt)**
 
 </ul>
+
 </details>
 
 <h2 id="b">📔 上游列表</h2>
