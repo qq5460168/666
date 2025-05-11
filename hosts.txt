@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-11 12:12:07（北京时间）
+! Version: 2025-05-11 14:11:51（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8507
+! Total count: 8509
 0.0.0.0 *-*.ad*kwai.com
 0.0.0.0 *-*.ap-east-1.elb.amazonaws.com
 0.0.0.0 *-*.ap-southeast-1.elb.amazonaws.com
@@ -3964,6 +3964,8 @@
 0.0.0.0 jiaads.com
 0.0.0.0 jiaadsx.com
 0.0.0.0 jianchajingmk.net
+0.0.0.0 jiangpan.net
+0.0.0.0 jiangpankyy.com
 0.0.0.0 jianxinshanghai.com
 0.0.0.0 jianyihang.com
 0.0.0.0 jiatoutrade.com
