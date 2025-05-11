@@ -58,8 +58,7 @@ allow=(
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt"
   "https://file-git.trli.club/file-hosts/allow/Domains"#冷漠
    "https://raw.githubusercontent.com/user001235/112/main/white.txt" #浅笑
-  "https://ghp.ci/https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt" #jhsvip
-  #"https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt" #8680
+  "https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt" #jhsvip
   "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt" #liwenjie119
   "" #
   "https://raw.githubusercontent.com/miaoermua/AdguardFilter/main/whitelist.txt" #喵二白名单
