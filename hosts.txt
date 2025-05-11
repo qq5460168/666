@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-11 22:07:52（北京时间）
+! Version: 2025-05-12 00:09:09（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8509
+! Total count: 8504
 0.0.0.0 *-*.ad*kwai.com
 0.0.0.0 *-*.ap-east-1.elb.amazonaws.com
 0.0.0.0 *-*.ap-southeast-1.elb.amazonaws.com
@@ -738,7 +738,6 @@
 0.0.0.0 ad-display.wikawika.xyz
 0.0.0.0 ad-download.hismarttv.com
 0.0.0.0 ad-drs.52qumao.com
-0.0.0.0 ad-experience.bytedance.com
 0.0.0.0 ad-ga.nocode.com
 0.0.0.0 ad-ggtg-api.37.com.cn
 0.0.0.0 ad-h5-cdn.soulapp.cn
@@ -5459,7 +5458,6 @@
 0.0.0.0 p1-play.kgslb.com
 0.0.0.0 p1.adkwai.com
 0.0.0.0 p10528-ad-server.ejoy.com
-0.0.0.0 p11-webcast-sign.douyinpic.com
 0.0.0.0 p11q.cn
 0.0.0.0 p13n-mr.adobe.io
 0.0.0.0 p13n.adobe.io
@@ -6352,9 +6350,7 @@
 0.0.0.0 sf3-fe-tos.pglstatp-toutiao.com
 0.0.0.0 sf3-ttcdn-tos.pstatp.com
 0.0.0.0 sf6-be-pack.pglstatp-toutiao.com
-0.0.0.0 sf6-cdn-tos.bdxiguastatic.com
 0.0.0.0 sf6-fe-pack.pglstatp-toutiao.com
-0.0.0.0 sf6-fe-tos.pglstatp-toutiao.com
 0.0.0.0 sf6-ttcdn-tos.pstatp.com
 0.0.0.0 sfbixfd.cn
 0.0.0.0 sfg11rr.com
@@ -7372,7 +7368,6 @@
 0.0.0.0 vexilorath.com
 0.0.0.0 vf.kkys5.com
 0.0.0.0 vf.kkys6.com
-0.0.0.0 vfiles.gtimg.cn
 0.0.0.0 vfjsa6do.icu
 0.0.0.0 vfrdewsdg.xyz
 0.0.0.0 vfsdgjrr.xyz
