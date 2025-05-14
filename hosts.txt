@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-14 08:43:54（北京时间）
+! Version: 2025-05-14 11:04:16（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8505
+! Total count: 8522
 0.0.0.0 *-*.ad*kwai.com
 0.0.0.0 *-*.ap-east-1.elb.amazonaws.com
 0.0.0.0 *-*.ap-southeast-1.elb.amazonaws.com
@@ -76,7 +76,6 @@
 0.0.0.0 *.javadvi.com
 0.0.0.0 *.jennylisnerphotography.com
 0.0.0.0 *.jjzemoc3ca.top
-0.0.0.0 *.jomoxc.com
 0.0.0.0 *.juicyads.me
 0.0.0.0 *.jvere.xyz
 0.0.0.0 *.jwcnmta.top
@@ -179,6 +178,8 @@
 0.0.0.0 *miaozhen.com
 0.0.0.0 *mobads*
 0.0.0.0 *mobads://*
+0.0.0.0 *pangolin*toutiao*.com
+0.0.0.0 *pglstatp-toutiao.com
 0.0.0.0 *snscosdownload*
 0.0.0.0 *tianmu.mobi
 0.0.0.0 *umeng.com
@@ -679,11 +680,13 @@
 0.0.0.0 abcd.cnhuoche.com
 0.0.0.0 abdluv.xyz
 0.0.0.0 abe.ymmiyun.com
+0.0.0.0 abeacdataort-stsdk.vivo.com.cn
 0.0.0.0 abenshishabi.com
 0.0.0.0 abernc.xyz
 0.0.0.0 abgr2x.aprewf.cn
 0.0.0.0 abolid.com
 0.0.0.0 abot.pos.baidu.com
+0.0.0.0 about.ads.microsoft.com
 0.0.0.0 abovede6.com
 0.0.0.0 abp.telemetry.adblockplus.org
 0.0.0.0 abram.xin
@@ -1006,6 +1009,7 @@
 0.0.0.0 ads.lejuliang.com
 0.0.0.0 ads.lingyuexiu.cn
 0.0.0.0 ads.linkedin.com
+0.0.0.0 ads.log.kafka.top
 0.0.0.0 ads.morefreegame.com
 0.0.0.0 ads.music.126.net
 0.0.0.0 ads.oneway.mobi
@@ -1018,6 +1022,7 @@
 0.0.0.0 ads.servebom.com
 0.0.0.0 ads.service.kugou.com
 0.0.0.0 ads.serving-sys.cn
+0.0.0.0 ads.sinaimg.cn
 0.0.0.0 ads.sohu.com
 0.0.0.0 ads.soulapp.cn
 0.0.0.0 ads.static.madserving.com
@@ -1032,6 +1037,7 @@
 0.0.0.0 ads.uutest.cn
 0.0.0.0 ads.v3mh.com
 0.0.0.0 ads.vserv.mobi
+0.0.0.0 ads.x.com
 0.0.0.0 ads.yahoo.com
 0.0.0.0 ads.yap.yahoo.com
 0.0.0.0 ads.yieldmo.com
@@ -1094,6 +1100,7 @@
 0.0.0.0 adsfile.qq.com
 0.0.0.0 adsfile20.bssdlbig.kugou.com
 0.0.0.0 adsfilebssdlbig.*.kugou.com
+0.0.0.0 adsfilebssdlbig.ali.kugou.com.wswebcdn.com
 0.0.0.0 adsfilebssdlbig.ali.kugou.com
 0.0.0.0 adsfilebssdlbig.tx.kugou.com
 0.0.0.0 adsfileretry.service.kugou.com
@@ -1321,6 +1328,7 @@
 0.0.0.0 alyssabelen.com
 0.0.0.0 am.bwaa301.icu
 0.0.0.0 amadeus--box-10909--www-zhihu-com.zpres.zhihu.com
+0.0.0.0 amap-aos-info-nogw.amap.com
 0.0.0.0 amazonaax.com
 0.0.0.0 amcn.bytedance.com
 0.0.0.0 amdc.alipay.com
@@ -1866,6 +1874,7 @@
 0.0.0.0 bootrealtime.uve.weibo.com
 0.0.0.0 bootstron.com
 0.0.0.0 boss.qzone.qq.com
+0.0.0.0 bossaudioandcomic-1252317822.image.myqcloud.com
 0.0.0.0 botnrr.xyz
 0.0.0.0 botonmetaverse.com
 0.0.0.0 boxwcr.icu
@@ -2969,6 +2978,8 @@
 0.0.0.0 feed-image.baidu.com
 0.0.0.0 feed.baidu.com
 0.0.0.0 feedback-c.zijieapi.com
+0.0.0.0 feeds.vivo.com.cn
+0.0.0.0 feedsplat.vivo.com.cn
 0.0.0.0 feiln.xyz
 0.0.0.0 fengyukun03.cn
 0.0.0.0 feq853.com
@@ -3122,6 +3133,7 @@
 0.0.0.0 gaia-mix-prd.vivo.com.cn
 0.0.0.0 gaipuzui.com
 0.0.0.0 gaiqgs.xyz
+0.0.0.0 galileotelemetry.tencent.com
 0.0.0.0 galopelikeantelope.com
 0.0.0.0 game-attribute.biligame.com
 0.0.0.0 game.e.kuaishou.com
@@ -4963,6 +4975,7 @@
 0.0.0.0 monitor.music.qq.com
 0.0.0.0 monitor.qq.com
 0.0.0.0 monitor.uu.qq.com
+0.0.0.0 monitor.v2.tcyad.com
 0.0.0.0 monott.ad.xelements.cn
 0.0.0.0 monroe4825edcs.xyz
 0.0.0.0 monsetting.toutiao.com
@@ -6008,6 +6021,7 @@
 0.0.0.0 relafp.xyz
 0.0.0.0 remfebd.cn
 0.0.0.0 reminews.com
+0.0.0.0 remoteads.oss-cn-beijing.aliyuncs.com
 0.0.0.0 render-resource.11222.cn
 0.0.0.0 render-server.cdn.bcebos.com
 0.0.0.0 rengbali.fun
@@ -6210,6 +6224,7 @@
 0.0.0.0 saveu5-normal-lq.zijieapi.com
 0.0.0.0 saviourketonic.com
 0.0.0.0 saxysec.com
+0.0.0.0 sb.adtidy.com
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 sb4you1.com
 0.0.0.0 sb6k.top
@@ -7589,6 +7604,7 @@
 0.0.0.0 wfsh.026o.cn
 0.0.0.0 wgoeisdnlk.com
 0.0.0.0 whe0nqk.icu
+0.0.0.0 whjzjx.cn
 0.0.0.0 whoami.akamai.net
 0.0.0.0 whwxxny.com
 0.0.0.0 whyfate.cn
@@ -7603,6 +7619,7 @@
 0.0.0.0 wipbbok.com
 0.0.0.0 wipew.com
 0.0.0.0 wit.qq.com
+0.0.0.0 wkanx.com
 0.0.0.0 wkrcbszi.xyz
 0.0.0.0 wl.jd.com
 0.0.0.0 wlgxaij.cn
