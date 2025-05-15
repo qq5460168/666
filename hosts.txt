@@ -2,11 +2,12 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-15 16:12:55（北京时间）
+! Version: 2025-05-15 18:10:04（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8522
+! Total count: 8543
 0.0.0.0 *-*.ad*kwai.com
 0.0.0.0 *-*.ap-east-1.elb.amazonaws.com
+0.0.0.0 *-*.ap-northeast-2.elb.amazonaws.com
 0.0.0.0 *-*.ap-southeast-1.elb.amazonaws.com
 0.0.0.0 *-ad-sign.byteimg.com
 0.0.0.0 *-ad.a.yximgs.com
@@ -25,6 +26,7 @@
 0.0.0.0 *.233lyly.com
 0.0.0.0 *.2b4dlx.com
 0.0.0.0 *.2wa9vg.com
+0.0.0.0 *.31xx958d.cc
 0.0.0.0 *.365dmp.com
 0.0.0.0 *.3adtjg.com
 0.0.0.0 *.3dqvcli.xyz
@@ -53,6 +55,7 @@
 0.0.0.0 *.bidjora.com
 0.0.0.0 *.bjmantis.net
 0.0.0.0 *.bjnxo.cn
+0.0.0.0 *.bllst.cn
 0.0.0.0 *.cmgadx.com
 0.0.0.0 *.cyfupnq.com
 0.0.0.0 *.diwodiwo.xyz
@@ -71,6 +74,7 @@
 0.0.0.0 *.giqnyl.cn
 0.0.0.0 *.hrdhej.xyz
 0.0.0.0 *.hubcloud.com.cn
+0.0.0.0 *.hychwg.cyou
 0.0.0.0 *.iburtq.xyz
 0.0.0.0 *.ifllqc.cn
 0.0.0.0 *.javadvi.com
@@ -85,6 +89,7 @@
 0.0.0.0 *.laebu.cn
 0.0.0.0 *.lxclli.cn
 0.0.0.0 *.lzwrhiw.xyz
+0.0.0.0 *.md410.cc
 0.0.0.0 *.mise*.buzz
 0.0.0.0 *.n8pnux.com
 0.0.0.0 *.njp878.com
@@ -121,10 +126,13 @@
 0.0.0.0 *.vegslb.com
 0.0.0.0 *.vkomjd.com
 0.0.0.0 *.voiceads.cn
+0.0.0.0 *.wacaoldy1.com
 0.0.0.0 *.weilayun.com
 0.0.0.0 *.wfojsm.com
+0.0.0.0 *.wy2qq.top
 0.0.0.0 *.x586di.com
 0.0.0.0 *.xqojux.xyz
+0.0.0.0 *.y80iwf.cyou
 0.0.0.0 *.ydxdg.xyz
 0.0.0.0 *.yinghua-*.cc
 0.0.0.0 *.z9ehxz.com
@@ -222,6 +230,7 @@
 0.0.0.0 093yuht.com
 0.0.0.0 096iokj.com
 0.0.0.0 09jsufg.com
+0.0.0.0 0c4d3f6.*.com
 0.0.0.0 0er7pc8.xyz
 0.0.0.0 0krdn3.com
 0.0.0.0 0m483y7.cn
@@ -489,6 +498,7 @@
 0.0.0.0 67it.com
 0.0.0.0 68710266.com
 0.0.0.0 688mob.com
+0.0.0.0 698444.lol
 0.0.0.0 69852b1734.com
 0.0.0.0 69e7.fun
 0.0.0.0 69mok.com
@@ -561,6 +571,7 @@
 0.0.0.0 831kaiyun.net
 0.0.0.0 84893573.com
 0.0.0.0 84zm8.xyz
+0.0.0.0 8516.fun
 0.0.0.0 85795.today
 0.0.0.0 86649334.com
 0.0.0.0 87012670.com
@@ -3510,6 +3521,7 @@
 0.0.0.0 hkrpg-log-upload-os.hoyoverse.com
 0.0.0.0 hkrpg-log-upload.mihoyo.com
 0.0.0.0 hkscldggm.xyz
+0.0.0.0 hkw27.icu
 0.0.0.0 hladalliance.com
 0.0.0.0 hlalliances.com
 0.0.0.0 hlbbn6ii.icu
@@ -4226,6 +4238,7 @@
 0.0.0.0 kkjshsj.com
 0.0.0.0 kklpe.xyz
 0.0.0.0 kklq05121p0i.com
+0.0.0.0 kklq05151p0i.com
 0.0.0.0 kkmbbvz.xyz
 0.0.0.0 kkpgv2.xunlei.com
 0.0.0.0 kksdk.tapque.com
@@ -4742,6 +4755,7 @@
 0.0.0.0 m3hual.89doc.com
 0.0.0.0 m4pgay.com
 0.0.0.0 m5asa4.xianxin.cc
+0.0.0.0 m69e.cyou
 0.0.0.0 m7.bnpkxgfp.xyz
 0.0.0.0 m7g2v1b9.com
 0.0.0.0 ma-adx.ctrip.com
@@ -5332,6 +5346,7 @@
 0.0.0.0 omgmta.qq.com
 0.0.0.0 omgmta1.qq.com
 0.0.0.0 omhoa.com
+0.0.0.0 ommbqw.icu
 0.0.0.0 omsdkapi.tapque.com
 0.0.0.0 oncinu.com
 0.0.0.0 one.fsylr.com
@@ -5559,6 +5574,7 @@
 0.0.0.0 pay.sboot.cn
 0.0.0.0 payoneok.com
 0.0.0.0 pbaiyho.cn
+0.0.0.0 pbdhsolmxw1.com
 0.0.0.0 pbtsjh.xyz
 0.0.0.0 pcbrowser.dd.qq.com
 0.0.0.0 pcdn-monitor.cdn.bcebos.com
@@ -6370,6 +6386,7 @@
 0.0.0.0 sf6-ttcdn-tos.pstatp.com
 0.0.0.0 sfbixfd.cn
 0.0.0.0 sfg11rr.com
+0.0.0.0 sfh35.icu
 0.0.0.0 sfl-fe-tos.pglstatp-toutiao.com
 0.0.0.0 sfn.opposhop.cn
 0.0.0.0 sfp.safe.baidu.com
@@ -6805,6 +6822,7 @@
 0.0.0.0 thind.unityads.unity3d.com
 0.0.0.0 thinkmd.cn
 0.0.0.0 thoohizoogli.xyz
+0.0.0.0 thu15.*.com
 0.0.0.0 thvx9i.icu
 0.0.0.0 tiandesign.top
 0.0.0.0 tiandiren0031.xyz
@@ -7678,6 +7696,7 @@
 0.0.0.0 wv.inner-active.mobi
 0.0.0.0 wvyqks.xyz
 0.0.0.0 ww-7o1-0h.os.23v7m9.cc
+0.0.0.0 ww.wcav495.vip
 0.0.0.0 wwads.cn
 0.0.0.0 wwggnaw.xyz
 0.0.0.0 wwgqqq.com
@@ -7763,7 +7782,9 @@
 0.0.0.0 www.jmine.cn
 0.0.0.0 www.jtlopk.xyz
 0.0.0.0 www.kanglingjiu.com
+0.0.0.0 www.kca8531.cc
 0.0.0.0 www.kcc4445.top
+0.0.0.0 www.kdu4127.cc
 0.0.0.0 www.kowqd3.top
 0.0.0.0 www.kowqd9.top
 0.0.0.0 www.kp12a.top

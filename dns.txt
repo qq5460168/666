@@ -2,11 +2,12 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-15 16:12:55（北京时间）
+! Version: 2025-05-15 18:10:04（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8522
+! Total count: 8543
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
+||*-*.ap-northeast-2.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
@@ -25,6 +26,7 @@
 ||*.233lyly.com^
 ||*.2b4dlx.com^
 ||*.2wa9vg.com^
+||*.31xx958d.cc^
 ||*.365dmp.com^
 ||*.3adtjg.com^
 ||*.3dqvcli.xyz^
@@ -53,6 +55,7 @@
 ||*.bidjora.com^
 ||*.bjmantis.net^
 ||*.bjnxo.cn^
+||*.bllst.cn^
 ||*.cmgadx.com^
 ||*.cyfupnq.com^
 ||*.diwodiwo.xyz^
@@ -71,6 +74,7 @@
 ||*.giqnyl.cn^
 ||*.hrdhej.xyz^
 ||*.hubcloud.com.cn^
+||*.hychwg.cyou^
 ||*.iburtq.xyz^
 ||*.ifllqc.cn^
 ||*.javadvi.com^
@@ -85,6 +89,7 @@
 ||*.laebu.cn^
 ||*.lxclli.cn^
 ||*.lzwrhiw.xyz^
+||*.md410.cc^
 ||*.mise*.buzz^
 ||*.n8pnux.com^
 ||*.njp878.com^
@@ -121,10 +126,13 @@
 ||*.vegslb.com^
 ||*.vkomjd.com^
 ||*.voiceads.cn^
+||*.wacaoldy1.com^
 ||*.weilayun.com^
 ||*.wfojsm.com^
+||*.wy2qq.top^
 ||*.x586di.com^
 ||*.xqojux.xyz^
+||*.y80iwf.cyou^
 ||*.ydxdg.xyz^
 ||*.yinghua-*.cc^
 ||*.z9ehxz.com^
@@ -222,6 +230,7 @@
 ||093yuht.com^
 ||096iokj.com^
 ||09jsufg.com^
+||0c4d3f6.*.com^
 ||0er7pc8.xyz^
 ||0krdn3.com^
 ||0m483y7.cn^
@@ -489,6 +498,7 @@
 ||67it.com^
 ||68710266.com^
 ||688mob.com^
+||698444.lol^
 ||69852b1734.com^
 ||69e7.fun^
 ||69mok.com^
@@ -561,6 +571,7 @@
 ||831kaiyun.net^
 ||84893573.com^
 ||84zm8.xyz^
+||8516.fun^
 ||85795.today^
 ||86649334.com^
 ||87012670.com^
@@ -3510,6 +3521,7 @@
 ||hkrpg-log-upload-os.hoyoverse.com^
 ||hkrpg-log-upload.mihoyo.com^
 ||hkscldggm.xyz^
+||hkw27.icu^
 ||hladalliance.com^
 ||hlalliances.com^
 ||hlbbn6ii.icu^
@@ -4226,6 +4238,7 @@
 ||kkjshsj.com^
 ||kklpe.xyz^
 ||kklq05121p0i.com^
+||kklq05151p0i.com^
 ||kkmbbvz.xyz^
 ||kkpgv2.xunlei.com^
 ||kksdk.tapque.com^
@@ -4742,6 +4755,7 @@
 ||m3hual.89doc.com^
 ||m4pgay.com^
 ||m5asa4.xianxin.cc^
+||m69e.cyou^
 ||m7.bnpkxgfp.xyz^
 ||m7g2v1b9.com^
 ||ma-adx.ctrip.com^
@@ -5332,6 +5346,7 @@
 ||omgmta.qq.com^
 ||omgmta1.qq.com^
 ||omhoa.com^
+||ommbqw.icu^
 ||omsdkapi.tapque.com^
 ||oncinu.com^
 ||one.fsylr.com^
@@ -5559,6 +5574,7 @@
 ||pay.sboot.cn^
 ||payoneok.com^
 ||pbaiyho.cn^
+||pbdhsolmxw1.com^
 ||pbtsjh.xyz^
 ||pcbrowser.dd.qq.com^
 ||pcdn-monitor.cdn.bcebos.com^
@@ -6370,6 +6386,7 @@
 ||sf6-ttcdn-tos.pstatp.com^
 ||sfbixfd.cn^
 ||sfg11rr.com^
+||sfh35.icu^
 ||sfl-fe-tos.pglstatp-toutiao.com^
 ||sfn.opposhop.cn^
 ||sfp.safe.baidu.com^
@@ -6805,6 +6822,7 @@
 ||thind.unityads.unity3d.com^
 ||thinkmd.cn^
 ||thoohizoogli.xyz^
+||thu15.*.com^
 ||thvx9i.icu^
 ||tiandesign.top^
 ||tiandiren0031.xyz^
@@ -7678,6 +7696,7 @@
 ||wv.inner-active.mobi^
 ||wvyqks.xyz^
 ||ww-7o1-0h.os.23v7m9.cc^
+||ww.wcav495.vip^
 ||wwads.cn^
 ||wwggnaw.xyz^
 ||wwgqqq.com^
@@ -7763,7 +7782,9 @@
 ||www.jmine.cn^
 ||www.jtlopk.xyz^
 ||www.kanglingjiu.com^
+||www.kca8531.cc^
 ||www.kcc4445.top^
+||www.kdu4127.cc^
 ||www.kowqd3.top^
 ||www.kowqd9.top^
 ||www.kp12a.top^
