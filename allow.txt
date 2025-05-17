@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-17 16:10:47（北京时间）
+! Version: 2025-05-17 18:08:24（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3073
+! Total count: 3090
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -370,6 +370,7 @@
 @@||api.pzds.com^
 @@||api.qiniu.com^
 @@||api.revenuecat.com^$important
+@@||api.revved.com^
 @@||api.rikka.app^$important
 @@||api.sec.intl.miui.com^
 @@||api.sec.miui.com^
@@ -728,6 +729,7 @@
 @@||cm-h.phncdn.com^
 @@||cm.bilibili.com^
 @@||cm.bilibili.com^$important
+@@||cms-assets.unrealengine.com^
 @@||cms-bucket.ws.126.net^
 @@||cmshow.qq.com^$important
 @@||cmts.iqiyi.com^$important
@@ -753,6 +755,7 @@
 @@||companymanager.microsoftonline.com^$important
 @@||compass-ssl.microsoft.com^$important
 @@||compliance.microsoft.com^$important
+@@||components.unrealengine.com^
 @@||computemaster.bxcearth.com^$important
 @@||conf.hpplay.cn^
 @@||config.cmpassport.com^$important
@@ -894,11 +897,13 @@
 @@||dns.icoa.cn^$important
 @@||dns.iqiyi.com^
 @@||dnscheck.tools^
+@@||dockerstatic.com^
 @@||docrdsfx76ssb.cloudfront.net^
 @@||docs.idqqimg.com^
 @@||docs.idqqimg.com^$important
 @@||docs.live.net^$important
 @@||docs.microsoft.com^$important
+@@||domains-ws.revved.com^
 @@||dorado.xiaojukeji.com^$important
 @@||doris.yidianzixun.com^
 @@||dot.360.cn^$important
@@ -1213,7 +1218,6 @@
 @@||h5api.m.tmall.com^
 @@||h5offline.zhuanzhuan.com^$important
 @@||h5static.cc.163.com^
-@@||h5vv6.video.qq.com^
 @@||hanime1.me^
 @@||haohuo.snssdk.com^
 @@||haoka.lot-ml.com^
@@ -1333,6 +1337,9 @@
 @@||image.uc.cn^
 @@||image.uc.cn^$important
 @@||imagecdn.clips4sale.com^
+@@||images.google.cn^
+@@||images.google.com.hk^
+@@||images.google.com^
 @@||images.nvidiagrid.net^
 @@||images1-focus-opensocial.googleusercontent.com^
 @@||images2.imgbox.com^
@@ -2162,6 +2169,7 @@
 @@||publish-pic-cpu.baidu.com^
 @@||pubmsg.meituan.com^
 @@||puds.ucweb.com^
+@@||pull-m1.wxlivecdn.com^
 @@||pull2.91cloud.net^$important
 @@||puser.funshion.com^
 @@||push.apple.com^
@@ -2402,6 +2410,7 @@
 @@||sp1.baidu.com^$important
 @@||sp2.baidu.com^
 @@||space.bilibili.com^$important
+@@||spaceship-cdn.com^
 @@||spclient.wg.spotify.com^$important
 @@||speech.platform.bing.com^$important
 @@||speed.live.360.cn^
@@ -2500,9 +2509,13 @@
 @@||store-site-backend-static.ak.epicgames.com^$important
 @@||store.assistant.miui.com^
 @@||store.assistant.miui.com^$important
+@@||store.cdn.queniuqe.com^
 @@||store.epicgames.com^$important
+@@||store.fastly.steamstatic.com^
 @@||store.heytapimage.com^$important
 @@||store.meizu.com^
+@@||store.steamchina.com^
+@@||store.steamchina.queniuam.com^
 @@||store.steampowered.com^
 @@||storedl1.nearme.com.cn^$important
 @@||storep.91haoka.cn^
@@ -2899,11 +2912,15 @@
 @@||www.dxmpay.com^$important
 @@||www.e0734.com^
 @@||www.easyicon.net^$important
+@@||www.epicgames.com^
 @@||www.epicgames.com^$important
 @@||www.ero-labs.com^
 @@||www.ferrari.com^
 @@||www.ghproxy.cn^
 @@||www.goofish.com^
+@@||www.google.cn^
+@@||www.google.com.hk^
+@@||www.google.com^
 @@||www.google.com^$important
 @@||www.googleadservices.com^$important
 @@||www.googleapis.com^$important
@@ -2970,6 +2987,7 @@
 @@||www.recaptcha.net^
 @@||www.recaptcha.net^$important
 @@||www.so.com^
+@@||www.spaceship.com^
 @@||www.sway.com^$important
 @@||www.taobao.com^
 @@||www.toutiao.com^
@@ -3002,7 +3020,6 @@
 @@||wx.qlogo.cn^$important
 @@||wx2.sinaimg.cn^$important
 @@||wxapp.lvyadx.cn^
-@@||wxapp.tc.qq.com^
 @@||wxapp.tc.qq.com^$important
 @@||wxaurl.cn^
 @@||wxmini-api.uyouqu.com^
