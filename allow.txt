@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-18 14:12:18（北京时间）
+! Version: 2025-05-18 16:10:51（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3092
+! Total count: 3102
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -375,6 +375,7 @@
 @@||api.sec.intl.miui.com^
 @@||api.sec.miui.com^
 @@||api.sec.miui.com^$important
+@@||api.tiantiantiaosheng.com^
 @@||api.ts.feedback.qy.net^$important
 @@||api.tuisong.baidu.com^$important
 @@||api.tv.sohu.com^
@@ -479,6 +480,7 @@
 @@||autologon.microsoftazuread-sso.com^$important
 @@||avatar.coolapk.com^
 @@||avatar.csdnimg.cn^
+@@||avc.tapimg.com^
 @@||avgle.com^
 @@||aweme.snssdk.com^
 @@||aweme.snssdk.com^$important
@@ -614,6 +616,7 @@
 @@||cdn.plyr.io^
 @@||cdn.staticfile.org^
 @@||cdn.staticfile.org^$important
+@@||cdn.tiantiantiaosheng.com^
 @@||cdn.uci.officeapps.live.com^$important
 @@||cdn.ui.porsche.com^
 @@||cdn.webclicks24.com^
@@ -1373,6 +1376,7 @@
 @@||img.siwazywimg.com^
 @@||img.sogoucdn.com^
 @@||img.ssl.msdk.qq.com^
+@@||img.tapimg.com^
 @@||img.zuoyebang.cc^$important
 @@||img01.sogoucdn.com^
 @@||img02.sogoucdn.com^
@@ -1383,7 +1387,9 @@
 @@||img12.360buyimg.com^
 @@||img13.360buyimg.com^
 @@||img14.360buyimg.com^
+@@||img2.tapimg.com^
 @@||img3.cache.netease.com^
+@@||img3.tapimg.com^
 @@||img30.360buyimg.com^
 @@||img4.qy0.ru^
 @@||imgcache.qq.com^$important
@@ -2118,6 +2124,7 @@
 @@||pitaya.bytedance.com^
 @@||pkg.biligame.com^
 @@||pkg.sinaimg.cn^$important
+@@||pl.taptap.cn^
 @@||platform.linkedin.com^$important
 @@||play-fe.googleapis.com^$important
 @@||play.163.com^
@@ -2991,6 +2998,9 @@
 @@||www.spaceship.com^
 @@||www.sway.com^$important
 @@||www.taobao.com^
+@@||www.taptap.cn^
+@@||www.taptap.io^
+@@||www.tiantiantiaosheng.com^
 @@||www.toutiao.com^
 @@||www.tudou.com^$important
 @@||www.twitter.com^

@@ -2,9 +2,10 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-18 14:12:18（北京时间）
+! Version: 2025-05-18 16:10:51（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8574
+! Total count: 8609
+||*-*-*-lrycfv.vip^
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-northeast-2.elb.amazonaws.com^
@@ -20,6 +21,9 @@
 ||*-data.ads.heytapmobi.com^
 ||*-inapps.appsflyersdk.com^
 ||*-launches.appsflyersdk.com^
+||*.*-t0613.vip^
+||*.01fwzb.com^
+||*.1l036o.com^
 ||*.233leyuan.cn^
 ||*.233leyuan.com^
 ||*.233lyly.cn^
@@ -37,9 +41,11 @@
 ||*.60qso7.com^
 ||*.6nxa6g.com^
 ||*.80ritc.com^
+||*.8359300.cc^
 ||*.8le8le.com^
 ||*.8vx3zks.xyz^
 ||*.9tjoj6.com^
+||*.a48962121.top^
 ||*.ads.heytapmobi.com^
 ||*.ads.huawei.com.au^
 ||*.ads.huawei.com^
@@ -48,6 +54,7 @@
 ||*.amwexgj.com^
 ||*.anhuyj.cn^
 ||*.applovin.com^
+||*.arbyyu.com^
 ||*.awkwla.cn^
 ||*.beizi.biz^
 ||*.bg3partner.fun^
@@ -56,17 +63,24 @@
 ||*.bjmantis.net^
 ||*.bjnxo.cn^
 ||*.bllst.cn^
+||*.bmddsofta.cc^
+||*.bmdzu8m.cc^
 ||*.cmgadx.com^
 ||*.cyfupnq.com^
 ||*.diwodiwo.xyz^
 ||*.dmcduio.com^
+||*.dox3xs.com^
 ||*.dtsmndu.com^
 ||*.eavztdi.com^
 ||*.emsxev.xyz^
 ||*.evqvxuq.com^
+||*.ewstu2.com^
 ||*.f1k4eil.xyz^
+||*.f5o640.com^
 ||*.fohbgjv.com^
 ||*.fokm37.cn^
+||*.ft33t3w.pro^
+||*.g0d679.com^
 ||*.g9hc4.cn^
 ||*.gamecenter.qq.com^
 ||*.gdolr.cn^
@@ -77,9 +91,11 @@
 ||*.hychwg.cyou^
 ||*.iburtq.xyz^
 ||*.ifllqc.cn^
+||*.ilylbap.xyz^
 ||*.javadvi.com^
 ||*.jennylisnerphotography.com^
 ||*.jjzemoc3ca.top^
+||*.jqnljze.xyz^
 ||*.juicyads.me^
 ||*.jvere.xyz^
 ||*.jwcnmta.top^
@@ -103,12 +119,16 @@
 ||*.p2p.huya.com^
 ||*.p3q0tt.com^
 ||*.phire.cn^
+||*.pl1n06.com^
+||*.pnwix.cn^
 ||*.poeme.cn^
 ||*.ppfu3m.com^
 ||*.qc.bsccdn.net^
 ||*.qgivvd.cn^
 ||*.qiuxl11.cn^
+||*.r1gu.com^
 ||*.retail.n.weimob.com^
+||*.rfvjl.cn^
 ||*.s8etj5.com^
 ||*.saxysec.com^
 ||*.sigmob.cn^
@@ -118,6 +138,7 @@
 ||*.tap0102mzq.top^
 ||*.tbyfz.xyz^
 ||*.tkmihh.xyz^
+||*.u101vb.com^
 ||*.ud9ipy.com^
 ||*.ul2tos.cn^
 ||*.uweisit.top^
@@ -132,11 +153,16 @@
 ||*.wy2qq.top^
 ||*.x586di.com^
 ||*.xqojux.xyz^
+||*.xwcphd.xyz^
+||*.xxsp002.cyou^
+||*.xzdabyw.xyz^
 ||*.y80iwf.cyou^
 ||*.ydxdg.xyz^
 ||*.yinghua-*.cc^
+||*.yzbpjz.com^
 ||*.z9ehxz.com^
 ||*.ztgha.xyz^
+||*.zzz725.top^
 ||*/ad-app-package/*^
 ||*/ads/index.htm*^
 ||*/api/ad/*^
@@ -338,7 +364,9 @@
 ||2034kp.vip^
 ||2052.flash2-http.qq.com^
 ||208622.top^
+||213fjdd.com^
 ||21qma3vs.com^
+||21uywiew.com^
 ||2217.zox3ue.com^
 ||2217ccs.cdocker402.com^
 ||222-76-2-45-yf4b1e07.ksyungslb.com^
@@ -465,10 +493,12 @@
 ||55555555555.xyz^
 ||5598tp.com^
 ||55zzz.cn^
+||561.5613828.cc^
 ||565aitiyu.com^
 ||56fba.cn^
 ||56yk.com^
 ||5845.b58456413.com^
+||596.5963135.cc^
 ||59gt.cn^
 ||5afc8f3239.com^
 ||5eucpusr8lbadd6e66vmuv1sok57bf04dcdpidko5hpg5od8erhfuuoo.saxysec.com^
@@ -1638,6 +1668,7 @@
 ||aspect-upush.umeng.com^
 ||aspwg.cn^
 ||asr-server.soulapp.cn^
+||assd.hkewhqoao.cn^
 ||assets.zhutile.com^
 ||astat.bugly.qq.com^
 ||astrategy.beacon.qq.com^
@@ -2982,6 +3013,7 @@
 ||fapi.xdrun.com^
 ||faq.vivo.com.cn^
 ||faxffjo.com^
+||fbia.*.cn^
 ||fc-ccimage.baidu.com^
 ||fc.gaizong.cn^
 ||fc.tiepan.cn^
@@ -7732,6 +7764,8 @@
 ||wwgqqq.com^
 ||wwkh9ku.xyz^
 ||www.002st.top^
+||www.150amqtkk.top^
+||www.150ixesut.top^
 ||www.16m.cc^
 ||www.199221.top^
 ||www.200ps.com^
@@ -7848,6 +7882,7 @@
 ||www.q4ee.top^
 ||www.qchannel01.cn^
 ||www.qd3bcdn1130.top^
+||www.qhmxwux.com^
 ||www.qinlinghe.com^
 ||www.qkixi.com^
 ||www.qlspx.com^

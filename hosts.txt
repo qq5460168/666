@@ -2,9 +2,10 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-18 14:12:18（北京时间）
+! Version: 2025-05-18 16:10:51（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8574
+! Total count: 8609
+0.0.0.0 *-*-*-lrycfv.vip
 0.0.0.0 *-*.ad*kwai.com
 0.0.0.0 *-*.ap-east-1.elb.amazonaws.com
 0.0.0.0 *-*.ap-northeast-2.elb.amazonaws.com
@@ -20,6 +21,9 @@
 0.0.0.0 *-data.ads.heytapmobi.com
 0.0.0.0 *-inapps.appsflyersdk.com
 0.0.0.0 *-launches.appsflyersdk.com
+0.0.0.0 *.*-t0613.vip
+0.0.0.0 *.01fwzb.com
+0.0.0.0 *.1l036o.com
 0.0.0.0 *.233leyuan.cn
 0.0.0.0 *.233leyuan.com
 0.0.0.0 *.233lyly.cn
@@ -37,9 +41,11 @@
 0.0.0.0 *.60qso7.com
 0.0.0.0 *.6nxa6g.com
 0.0.0.0 *.80ritc.com
+0.0.0.0 *.8359300.cc
 0.0.0.0 *.8le8le.com
 0.0.0.0 *.8vx3zks.xyz
 0.0.0.0 *.9tjoj6.com
+0.0.0.0 *.a48962121.top
 0.0.0.0 *.ads.heytapmobi.com
 0.0.0.0 *.ads.huawei.com.au
 0.0.0.0 *.ads.huawei.com
@@ -48,6 +54,7 @@
 0.0.0.0 *.amwexgj.com
 0.0.0.0 *.anhuyj.cn
 0.0.0.0 *.applovin.com
+0.0.0.0 *.arbyyu.com
 0.0.0.0 *.awkwla.cn
 0.0.0.0 *.beizi.biz
 0.0.0.0 *.bg3partner.fun
@@ -56,17 +63,24 @@
 0.0.0.0 *.bjmantis.net
 0.0.0.0 *.bjnxo.cn
 0.0.0.0 *.bllst.cn
+0.0.0.0 *.bmddsofta.cc
+0.0.0.0 *.bmdzu8m.cc
 0.0.0.0 *.cmgadx.com
 0.0.0.0 *.cyfupnq.com
 0.0.0.0 *.diwodiwo.xyz
 0.0.0.0 *.dmcduio.com
+0.0.0.0 *.dox3xs.com
 0.0.0.0 *.dtsmndu.com
 0.0.0.0 *.eavztdi.com
 0.0.0.0 *.emsxev.xyz
 0.0.0.0 *.evqvxuq.com
+0.0.0.0 *.ewstu2.com
 0.0.0.0 *.f1k4eil.xyz
+0.0.0.0 *.f5o640.com
 0.0.0.0 *.fohbgjv.com
 0.0.0.0 *.fokm37.cn
+0.0.0.0 *.ft33t3w.pro
+0.0.0.0 *.g0d679.com
 0.0.0.0 *.g9hc4.cn
 0.0.0.0 *.gamecenter.qq.com
 0.0.0.0 *.gdolr.cn
@@ -77,9 +91,11 @@
 0.0.0.0 *.hychwg.cyou
 0.0.0.0 *.iburtq.xyz
 0.0.0.0 *.ifllqc.cn
+0.0.0.0 *.ilylbap.xyz
 0.0.0.0 *.javadvi.com
 0.0.0.0 *.jennylisnerphotography.com
 0.0.0.0 *.jjzemoc3ca.top
+0.0.0.0 *.jqnljze.xyz
 0.0.0.0 *.juicyads.me
 0.0.0.0 *.jvere.xyz
 0.0.0.0 *.jwcnmta.top
@@ -103,12 +119,16 @@
 0.0.0.0 *.p2p.huya.com
 0.0.0.0 *.p3q0tt.com
 0.0.0.0 *.phire.cn
+0.0.0.0 *.pl1n06.com
+0.0.0.0 *.pnwix.cn
 0.0.0.0 *.poeme.cn
 0.0.0.0 *.ppfu3m.com
 0.0.0.0 *.qc.bsccdn.net
 0.0.0.0 *.qgivvd.cn
 0.0.0.0 *.qiuxl11.cn
+0.0.0.0 *.r1gu.com
 0.0.0.0 *.retail.n.weimob.com
+0.0.0.0 *.rfvjl.cn
 0.0.0.0 *.s8etj5.com
 0.0.0.0 *.saxysec.com
 0.0.0.0 *.sigmob.cn
@@ -118,6 +138,7 @@
 0.0.0.0 *.tap0102mzq.top
 0.0.0.0 *.tbyfz.xyz
 0.0.0.0 *.tkmihh.xyz
+0.0.0.0 *.u101vb.com
 0.0.0.0 *.ud9ipy.com
 0.0.0.0 *.ul2tos.cn
 0.0.0.0 *.uweisit.top
@@ -132,11 +153,16 @@
 0.0.0.0 *.wy2qq.top
 0.0.0.0 *.x586di.com
 0.0.0.0 *.xqojux.xyz
+0.0.0.0 *.xwcphd.xyz
+0.0.0.0 *.xxsp002.cyou
+0.0.0.0 *.xzdabyw.xyz
 0.0.0.0 *.y80iwf.cyou
 0.0.0.0 *.ydxdg.xyz
 0.0.0.0 *.yinghua-*.cc
+0.0.0.0 *.yzbpjz.com
 0.0.0.0 *.z9ehxz.com
 0.0.0.0 *.ztgha.xyz
+0.0.0.0 *.zzz725.top
 0.0.0.0 */ad-app-package/*
 0.0.0.0 */ads/index.htm*
 0.0.0.0 */api/ad/*
@@ -338,7 +364,9 @@
 0.0.0.0 2034kp.vip
 0.0.0.0 2052.flash2-http.qq.com
 0.0.0.0 208622.top
+0.0.0.0 213fjdd.com
 0.0.0.0 21qma3vs.com
+0.0.0.0 21uywiew.com
 0.0.0.0 2217.zox3ue.com
 0.0.0.0 2217ccs.cdocker402.com
 0.0.0.0 222-76-2-45-yf4b1e07.ksyungslb.com
@@ -465,10 +493,12 @@
 0.0.0.0 55555555555.xyz
 0.0.0.0 5598tp.com
 0.0.0.0 55zzz.cn
+0.0.0.0 561.5613828.cc
 0.0.0.0 565aitiyu.com
 0.0.0.0 56fba.cn
 0.0.0.0 56yk.com
 0.0.0.0 5845.b58456413.com
+0.0.0.0 596.5963135.cc
 0.0.0.0 59gt.cn
 0.0.0.0 5afc8f3239.com
 0.0.0.0 5eucpusr8lbadd6e66vmuv1sok57bf04dcdpidko5hpg5od8erhfuuoo.saxysec.com
@@ -1638,6 +1668,7 @@
 0.0.0.0 aspect-upush.umeng.com
 0.0.0.0 aspwg.cn
 0.0.0.0 asr-server.soulapp.cn
+0.0.0.0 assd.hkewhqoao.cn
 0.0.0.0 assets.zhutile.com
 0.0.0.0 astat.bugly.qq.com
 0.0.0.0 astrategy.beacon.qq.com
@@ -2982,6 +3013,7 @@
 0.0.0.0 fapi.xdrun.com
 0.0.0.0 faq.vivo.com.cn
 0.0.0.0 faxffjo.com
+0.0.0.0 fbia.*.cn
 0.0.0.0 fc-ccimage.baidu.com
 0.0.0.0 fc.gaizong.cn
 0.0.0.0 fc.tiepan.cn
@@ -7732,6 +7764,8 @@
 0.0.0.0 wwgqqq.com
 0.0.0.0 wwkh9ku.xyz
 0.0.0.0 www.002st.top
+0.0.0.0 www.150amqtkk.top
+0.0.0.0 www.150ixesut.top
 0.0.0.0 www.16m.cc
 0.0.0.0 www.199221.top
 0.0.0.0 www.200ps.com
@@ -7848,6 +7882,7 @@
 0.0.0.0 www.q4ee.top
 0.0.0.0 www.qchannel01.cn
 0.0.0.0 www.qd3bcdn1130.top
+0.0.0.0 www.qhmxwux.com
 0.0.0.0 www.qinlinghe.com
 0.0.0.0 www.qkixi.com
 0.0.0.0 www.qlspx.com
