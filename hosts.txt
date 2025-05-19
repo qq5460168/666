@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-19 08:47:28（北京时间）
+! Version: 2025-05-19 11:11:53（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8609
+! Total count: 8596
 0.0.0.0 *-*-*-lrycfv.vip
 0.0.0.0 *-*.ad*kwai.com
 0.0.0.0 *-*.ap-east-1.elb.amazonaws.com
@@ -925,7 +925,6 @@
 0.0.0.0 adcdn.hpplay.cn
 0.0.0.0 adcdn.tencentmusic.com
 0.0.0.0 adcdn6.tencentmusic.com
-0.0.0.0 adclick.g.doubleclick.net
 0.0.0.0 adclick.tencentmusic.com
 0.0.0.0 adcolony.com
 0.0.0.0 adcr77.com
@@ -1060,7 +1059,6 @@
 0.0.0.0 ads.pinterest.com
 0.0.0.0 ads.privacy.qq.com
 0.0.0.0 ads.pubmatic.com
-0.0.0.0 ads.raidrive.com
 0.0.0.0 ads.reader.yueyouxs.com
 0.0.0.0 ads.servebom.com
 0.0.0.0 ads.service.kugou.com
@@ -1263,7 +1261,6 @@
 0.0.0.0 adx.zuoyebang.com
 0.0.0.0 adxlog-adnet.vivo.com.cn
 0.0.0.0 adxlog.vivo.com.cn
-0.0.0.0 adxserver.ad.cmvideo.cn
 0.0.0.0 adxst.vivo.com.cn
 0.0.0.0 adxstatic.vivo.com.cn
 0.0.0.0 adxvip.com
@@ -1665,7 +1662,6 @@
 0.0.0.0 asldmlws.cn
 0.0.0.0 asleyty.com
 0.0.0.0 asoursuls.com
-0.0.0.0 aspect-upush.umeng.com
 0.0.0.0 aspwg.cn
 0.0.0.0 asr-server.soulapp.cn
 0.0.0.0 assd.hkewhqoao.cn
@@ -2275,7 +2271,6 @@
 0.0.0.0 cnalzlf.top
 0.0.0.0 cncnails.net
 0.0.0.0 cnlogs.umeng.com
-0.0.0.0 cnlogs.umengcloud.com
 0.0.0.0 cns.wxdal.cn
 0.0.0.0 cnzz.cn
 0.0.0.0 cnzz.com
@@ -4498,7 +4493,6 @@
 0.0.0.0 lgoseh.fun
 0.0.0.0 lguaud.icu
 0.0.0.0 lgygy.cn
-0.0.0.0 lh3.googleadsserving.cn
 0.0.0.0 lhdlbp.xyz
 0.0.0.0 lhgwcvw.cn
 0.0.0.0 lhiefl.com
@@ -4772,7 +4766,6 @@
 0.0.0.0 m-cloud.zhihu.com
 0.0.0.0 m-game.book.qq.com
 0.0.0.0 m-mpl.hiaiabc.com
-0.0.0.0 m.ad.zhangyue.com
 0.0.0.0 m.atm.youku.com
 0.0.0.0 m.bqg16.cc
 0.0.0.0 m.bugly.qq.com
@@ -5281,6 +5274,7 @@
 0.0.0.0 notes-analytics-events.apple.com
 0.0.0.0 notify.app.donotpopup.dialog.but.setinsecureicon.com
 0.0.0.0 notify.bugsnag.com
+0.0.0.0 notify.sec.miui.com
 0.0.0.0 nourcomip.fun
 0.0.0.0 nourl.ubs.baidu.com
 0.0.0.0 novel.pangolin-sdk-toutiao.com
@@ -5463,7 +5457,6 @@
 0.0.0.0 oslbahk.top
 0.0.0.0 osnignsk.xyz
 0.0.0.0 oss-asq-download.11222.cn
-0.0.0.0 oss.cdn.aiclk.com
 0.0.0.0 ossfile001.com
 0.0.0.0 ossgw.alicdn.com
 0.0.0.0 ota.ptqy.gitv.tv
@@ -5622,7 +5615,6 @@
 0.0.0.0 partnerads-test.ysm.yahoo.net
 0.0.0.0 partnerads.ysm.yahoo.com
 0.0.0.0 passport.kuaishou.com
-0.0.0.0 pay.sboot.cn
 0.0.0.0 payoneok.com
 0.0.0.0 pbaiyho.cn
 0.0.0.0 pbdhsolmxw1.com
@@ -5792,7 +5784,6 @@
 0.0.0.0 prlioxb.cn
 0.0.0.0 pro.bugly.qq.com
 0.0.0.0 procdn.asia
-0.0.0.0 prod-mediate-events.applovin.com
 0.0.0.0 prodigalpromotion.com
 0.0.0.0 proesh.com
 0.0.0.0 proesh.com
@@ -6110,7 +6101,6 @@
 0.0.0.0 reportlog.dftoutiao.com
 0.0.0.0 res.kekedy.app
 0.0.0.0 res.mi.baidu.com
-0.0.0.0 res1.applovin.com
 0.0.0.0 res1.hubcloud.com.cn
 0.0.0.0 resolve.umeng.com
 0.0.0.0 resolver.msg.global.xiaomi.net
@@ -6346,7 +6336,6 @@
 0.0.0.0 sdk.hzsanjiaomao.com
 0.0.0.0 sdk.kkpromotion.tapque.com
 0.0.0.0 sdk.markmedia.com.cn
-0.0.0.0 sdk.mobads.adwangmai.com
 0.0.0.0 sdk.open.phone.igexin.com
 0.0.0.0 sdk.open.talk.gepush.com
 0.0.0.0 sdk.push.mob.com
@@ -6750,7 +6739,6 @@
 0.0.0.0 t-dsp.pinduoduo.com
 0.0.0.0 t-qmad.qimao.com
 0.0.0.0 t-remad.qm989.com
-0.0.0.0 t.applovin.com
 0.0.0.0 t.atomicfile.cn
 0.0.0.0 t.dentsuchina.cn
 0.0.0.0 t.gdt.qq.com
@@ -7348,7 +7336,6 @@
 0.0.0.0 v*-novelapp.fqnovelvod.com
 0.0.0.0 v*.gdt.qq.com
 0.0.0.0 v.110route.cn
-0.0.0.0 v.adintl.cn
 0.0.0.0 v.adx.hubcloud.com.cn
 0.0.0.0 v.gdt.qq.com
 0.0.0.0 v.smtcdns.com

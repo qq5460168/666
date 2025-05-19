@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-19 08:47:28（北京时间）
+! Version: 2025-05-19 11:11:53（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 18831
+! Total count: 18818
 
  
 *.lijie.*/*_*?$third-party
@@ -5883,11 +5883,11 @@
 127.0.0.1 zz.bdstatic.com
 13.107.246.73                 vscode.dev  # Timeout
 13.107.42.16                  pipelines.actions.githubusercontent.com
-140.82.112.18                 github.community
 140.82.112.26                 live.github.com
+140.82.113.18                 github.community
+140.82.113.21                 api.individual.githubcopilot.com
 140.82.113.21                 central.github.com
-140.82.113.22                 api.individual.githubcopilot.com
-140.82.114.21                 education.github.com
+140.82.113.21                 education.github.com
 140.82.114.22                 collector.github.com
 140.82.114.25                 alive.github.com
 142.250.115.188     alt6-mtalk.google.com
@@ -5895,7 +5895,7 @@
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.15.201.129                 github-cloud.s3.amazonaws.com
+16.15.184.186                 github-production-release-asset-2e65be.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -5950,6 +5950,9 @@
 23.53.35.199 cdn.akamai.steamstatic.com
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
+3.5.17.135                    github-cloud.s3.amazonaws.com
+3.5.25.129                    github-production-repository-file-5c1aeb.s3.amazonaws.com
+3.5.6.130                     github-production-user-asset-6210df.s3.amazonaws.com
 31.216.145.5 mega.nz
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
@@ -5964,10 +5967,7 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.178.91                 github-com.s3.amazonaws.com
-52.217.18.212                 github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.192.89                 github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.217.73.4                   github-production-user-asset-6210df.s3.amazonaws.com
+52.217.129.1                  github-com.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
@@ -10428,7 +10428,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||adcdn.hpplay.cn^
 ||adcdn.tencentmusic.com^
 ||adcdn6.tencentmusic.com^
-||adclick.g.doubleclick.net^
 ||adclick.tencentmusic.com^
 ||adcolony.com^
 ||adcr77.com^
@@ -10568,7 +10567,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ads.pubmatic.com^
 ||ads.raidrive.com##a
 ||ads.raidrive.com##img
-||ads.raidrive.com^
 ||ads.reader.yueyouxs.com^
 ||ads.servebom.com^
 ||ads.service.kugou.com
@@ -10776,7 +10774,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||adx.zuoyebang.com^
 ||adxlog-adnet.vivo.com.cn^
 ||adxlog.vivo.com.cn^
-||adxserver.ad.cmvideo.cn^
 ||adxst.vivo.com.cn^
 ||adxstatic.vivo.com.cn^
 ||adxvip.com^
@@ -11227,7 +11224,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||asldmlws.cn^
 ||asleyty.com^
 ||asoursuls.com^
-||aspect-upush.umeng.com^
 ||aspwg.cn^
 ||asr-server.soulapp.cn^
 ||assd.hkewhqoao.cn^
@@ -11883,7 +11879,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||cnalzlf.top^
 ||cncnails.net^
 ||cnlogs.umeng.com^
-||cnlogs.umengcloud.com^
 ||cns.wxdal.cn^
 ||cnwimk.xn--mnqs5g04o2ng.com^$important
 ||cnzz.cn^
@@ -14303,7 +14298,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||lgoseh.fun^
 ||lguaud.icu^
 ||lgygy.cn^
-||lh3.googleadsserving.cn^
 ||lhdlbp.xyz^
 ||lhgwcvw.cn^
 ||lhiefl.com^
@@ -14603,7 +14597,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||m-game.book.qq.com^
 ||m-mpl.hiaiabc.com^
 ||m-v8.duzhongkj.com^$important
-||m.ad.zhangyue.com^
 ||m.atm.youku.com^
 ||m.aty.sohu.com
 ||m.bqg16.cc^
@@ -15157,6 +15150,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||notes-analytics-events.apple.com^
 ||notify.app.donotpopup.dialog.but.setinsecureicon.com^
 ||notify.bugsnag.com^
+||notify.sec.miui.com^
 ||nourcomip.fun^
 ||nourl.ubs.baidu.com^
 ||novel.2634273f48e9.com^$important
@@ -15355,7 +15349,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||oslbahk.top^
 ||osnignsk.xyz^
 ||oss-asq-download.11222.cn^
-||oss.cdn.aiclk.com^
 ||ossfile001.com^
 ||ossgw.alicdn.com^
 ||ota.ptqy.gitv.tv^
@@ -15523,7 +15516,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||partnerads-test.ysm.yahoo.net^
 ||partnerads.ysm.yahoo.com^
 ||passport.kuaishou.com^
-||pay.sboot.cn^
 ||payoneok.com^
 ||pbaiyho.cn^
 ||pbdhsolmxw1.com^
@@ -15702,7 +15694,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||prlioxb.cn^
 ||pro.bugly.qq.com^
 ||procdn.asia^
-||prod-mediate-events.applovin.com^
 ||prodigalpromotion.com^
 ||proesh.com^
 ||proesh.com^  
@@ -16051,7 +16042,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||reportlog.dftoutiao.com^
 ||res.kekedy.app^
 ||res.mi.baidu.com^
-||res1.applovin.com^
 ||res1.hubcloud.com.cn^
 ||resolve.umeng.com^
 ||resolver.msg.global.xiaomi.net^
@@ -16298,7 +16288,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||sdk.hzsanjiaomao.com^
 ||sdk.kkpromotion.tapque.com^
 ||sdk.markmedia.com.cn^
-||sdk.mobads.adwangmai.com^
 ||sdk.nouzhu.cn
 ||sdk.nouzhu.cn^$important
 ||sdk.open.phone.igexin.com^
@@ -16752,7 +16741,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||t-dsp.pinduoduo.com^
 ||t-qmad.qimao.com^
 ||t-remad.qm989.com^
-||t.applovin.com^
 ||t.atomicfile.cn^
 ||t.ctrip.cn^$important
 ||t.dentsuchina.cn^
@@ -17401,7 +17389,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||v*-novelapp.fqnovelvod.com^
 ||v*.gdt.qq.com^
 ||v.110route.cn^
-||v.adintl.cn^
 ||v.adx.hubcloud.com.cn^
 ||v.didi.cn^$important
 ||v.gdt.qq.com^

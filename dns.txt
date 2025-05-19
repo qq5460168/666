@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-19 08:47:28（北京时间）
+! Version: 2025-05-19 11:11:53（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8609
+! Total count: 8596
 ||*-*-*-lrycfv.vip^
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
@@ -925,7 +925,6 @@
 ||adcdn.hpplay.cn^
 ||adcdn.tencentmusic.com^
 ||adcdn6.tencentmusic.com^
-||adclick.g.doubleclick.net^
 ||adclick.tencentmusic.com^
 ||adcolony.com^
 ||adcr77.com^
@@ -1060,7 +1059,6 @@
 ||ads.pinterest.com^
 ||ads.privacy.qq.com^
 ||ads.pubmatic.com^
-||ads.raidrive.com^
 ||ads.reader.yueyouxs.com^
 ||ads.servebom.com^
 ||ads.service.kugou.com^
@@ -1263,7 +1261,6 @@
 ||adx.zuoyebang.com^
 ||adxlog-adnet.vivo.com.cn^
 ||adxlog.vivo.com.cn^
-||adxserver.ad.cmvideo.cn^
 ||adxst.vivo.com.cn^
 ||adxstatic.vivo.com.cn^
 ||adxvip.com^
@@ -1665,7 +1662,6 @@
 ||asldmlws.cn^
 ||asleyty.com^
 ||asoursuls.com^
-||aspect-upush.umeng.com^
 ||aspwg.cn^
 ||asr-server.soulapp.cn^
 ||assd.hkewhqoao.cn^
@@ -2275,7 +2271,6 @@
 ||cnalzlf.top^
 ||cncnails.net^
 ||cnlogs.umeng.com^
-||cnlogs.umengcloud.com^
 ||cns.wxdal.cn^
 ||cnzz.cn^
 ||cnzz.com^
@@ -4498,7 +4493,6 @@
 ||lgoseh.fun^
 ||lguaud.icu^
 ||lgygy.cn^
-||lh3.googleadsserving.cn^
 ||lhdlbp.xyz^
 ||lhgwcvw.cn^
 ||lhiefl.com^
@@ -4772,7 +4766,6 @@
 ||m-cloud.zhihu.com^
 ||m-game.book.qq.com^
 ||m-mpl.hiaiabc.com^
-||m.ad.zhangyue.com^
 ||m.atm.youku.com^
 ||m.bqg16.cc^
 ||m.bugly.qq.com^
@@ -5281,6 +5274,7 @@
 ||notes-analytics-events.apple.com^
 ||notify.app.donotpopup.dialog.but.setinsecureicon.com^
 ||notify.bugsnag.com^
+||notify.sec.miui.com^
 ||nourcomip.fun^
 ||nourl.ubs.baidu.com^
 ||novel.pangolin-sdk-toutiao.com^
@@ -5463,7 +5457,6 @@
 ||oslbahk.top^
 ||osnignsk.xyz^
 ||oss-asq-download.11222.cn^
-||oss.cdn.aiclk.com^
 ||ossfile001.com^
 ||ossgw.alicdn.com^
 ||ota.ptqy.gitv.tv^
@@ -5622,7 +5615,6 @@
 ||partnerads-test.ysm.yahoo.net^
 ||partnerads.ysm.yahoo.com^
 ||passport.kuaishou.com^
-||pay.sboot.cn^
 ||payoneok.com^
 ||pbaiyho.cn^
 ||pbdhsolmxw1.com^
@@ -5792,7 +5784,6 @@
 ||prlioxb.cn^
 ||pro.bugly.qq.com^
 ||procdn.asia^
-||prod-mediate-events.applovin.com^
 ||prodigalpromotion.com^
 ||proesh.com^
 ||proesh.com^
@@ -6110,7 +6101,6 @@
 ||reportlog.dftoutiao.com^
 ||res.kekedy.app^
 ||res.mi.baidu.com^
-||res1.applovin.com^
 ||res1.hubcloud.com.cn^
 ||resolve.umeng.com^
 ||resolver.msg.global.xiaomi.net^
@@ -6346,7 +6336,6 @@
 ||sdk.hzsanjiaomao.com^
 ||sdk.kkpromotion.tapque.com^
 ||sdk.markmedia.com.cn^
-||sdk.mobads.adwangmai.com^
 ||sdk.open.phone.igexin.com^
 ||sdk.open.talk.gepush.com^
 ||sdk.push.mob.com^
@@ -6750,7 +6739,6 @@
 ||t-dsp.pinduoduo.com^
 ||t-qmad.qimao.com^
 ||t-remad.qm989.com^
-||t.applovin.com^
 ||t.atomicfile.cn^
 ||t.dentsuchina.cn^
 ||t.gdt.qq.com^
@@ -7348,7 +7336,6 @@
 ||v*-novelapp.fqnovelvod.com^
 ||v*.gdt.qq.com^
 ||v.110route.cn^
-||v.adintl.cn^
 ||v.adx.hubcloud.com.cn^
 ||v.gdt.qq.com^
 ||v.smtcdns.com^
