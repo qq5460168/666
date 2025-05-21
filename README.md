@@ -40,28 +40,50 @@ DNS拦截规则数量: 8630
 白名单规则数量: 3102 
 ``` 
 <details open>
+## 规则类型及用途
+
+| 类型             | 主要用途                       | 下载链接                                                                            |
+|------------------|------------------------------|-------------------------------------------------------------------------------------|
+| 通用黑名单       | 拦截大部分广告域名             | [black.txt](https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt)     |
+| 通用白名单       | 允许误拦截的正常域名           | [white.txt](https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt)     |
+| DNS 规则         | AdGuard Home/支持 DNS 的工具   | [dnslist.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/dnslist.txt)   |
+| Hosts 规则       | 系统 Hosts 文件专用            | [hosts.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/hosts.txt)       |
+| Clash 规则       | Clash Premium 配置             | [Clash.yaml](https://raw.githubusercontent.com/qq5460168/AD886/refs/heads/main/clash.yaml) |
+| Clash Meta 规则  | Clash Meta/Mihomo 配置         | [clash_meta.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/clash_meta.yaml) |
+| Quantumult X     | Quantumult X 配置              | [qx.list](https://raw.githubusercontent.com/qq5460168/AD886/main/qx.list)           |
+| SingBox          | SingBox 配置                   | [singbox.srs](https://raw.githubusercontent.com/qq5460168/AD886/main/singbox.srs)   |
+| Shadowrocket     | Shadowrocket 配置              | [Shadowrocket.list](https://raw.githubusercontent.com/qq5460168/AD886/main/Shadowrocket.list) |
+| Invizible Pro    | Invizible Pro 配置             | [invizible.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/invizible.txt) |
+| AdClose          | AdClose 配置                   | [AdClose.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/AdClose.txt)   |
+
+
+## 规则列表（含加速与备用下载）
+
 <details open>
-<summary>规则列表</summary>
-<ul>
+<summary>点击展开/收起</summary>
 
-- **[拦截规则（Github）](https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)**
-- **[拦截规则(Ghproxy-国内加速)](https://ghproxy.net/https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)**
-- **[DNS拦截规则（Github）](https://raw.githubusercontent.com/qq5460168/666/master/dns.txt)**
-- **[DNS拦截规则(Ghproxy-国内加速)](https://ghp.ci/https://raw.githubusercontent.com/qq5460168/666/master/dns.txt)**
-- **[白名单（Github）](https://raw.githubusercontent.com/qq5460168/666/master/allow.txt)**
-- **[白名单(Ghproxy-国内加速)](https://ghp.ci/https://raw.githubusercontent.com/qq5460168/666/master/allow.txt)**
-- **[Hosts规则（Github）](https://raw.githubusercontent.com/qq5460168/666/master/hosts.txt)**
-- **[Hosts规则(Ghproxy-国内加速)](https://ghproxy.net/https://raw.githubusercontent.com/qq5460168/666/master/hosts.txt)**
-- **[Quantumult X 规则（qx.list）](https://raw.githubusercontent.com/qq5460168/666/master/qx.list)**
-- **[Shadowrocket 规则（Shadowrocket.list）](https://raw.githubusercontent.com/qq5460168/666/master/Shadowrocket.list)**
-- **[AdClose 广告规则（AdClose.txt）](https://raw.githubusercontent.com/qq5460168/666/master/AdClose.txt)**
-- **[Singbox SRS 规则（singbox.srs）](https://raw.githubusercontent.com/qq5460168/666/master/singbox.srs)**
-- **[Singbox JSON 规则（Singbox.json）](https://raw.githubusercontent.com/qq5460168/666/master/Singbox.json)**
-- **[Invizible Pro 规则（invizible.txt）](https://raw.githubusercontent.com/qq5460168/666/master/invizible.txt)**
-- **[Clash 规则（clash.yaml）](https://raw.githubusercontent.com/qq5460168/666/master/clash.yaml)**
-- **[Clash Meta 规则（clash_meta.yaml）](https://raw.githubusercontent.com/qq5460168/666/master/clash_meta.yaml)**
+- 广告拦截规则  
+  - [规则（GitHub）](https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)
+  - [规则（国内加速）](https://ghproxy.net/https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)
+- DNS 拦截规则  
+  - [DNS 规则（GitHub）](https://raw.githubusercontent.com/qq5460168/666/master/dns.txt)
+  - [DNS 规则（国内加速）](https://ghp.ci/https://raw.githubusercontent.com/qq5460168/666/master/dns.txt)
+- 白名单  
+  - [白名单（GitHub）](https://raw.githubusercontent.com/qq5460168/666/master/allow.txt)
+  - [白名单（国内加速）](https://ghp.ci/https://raw.githubusercontent.com/qq5460168/666/master/allow.txt)
+- Hosts 规则  
+  - [Hosts（GitHub）](https://raw.githubusercontent.com/qq5460168/666/master/hosts.txt)
+  - [Hosts（国内加速）](https://ghproxy.net/https://raw.githubusercontent.com/qq5460168/666/master/hosts.txt)
+- 专用客户端规则  
+  - [Quantumult X（qx.list）](https://raw.githubusercontent.com/qq5460168/666/master/qx.list)
+  - [Shadowrocket（Shadowrocket.list）](https://raw.githubusercontent.com/qq5460168/666/master/Shadowrocket.list)
+  - [AdClose（AdClose.txt）](https://raw.githubusercontent.com/qq5460168/666/master/AdClose.txt)
+  - [Singbox SRS（singbox.srs）](https://raw.githubusercontent.com/qq5460168/666/master/singbox.srs)
+  - [Singbox JSON（Singbox.json）](https://raw.githubusercontent.com/qq5460168/666/master/Singbox.json)
+  - [Invizible Pro（invizible.txt）](https://raw.githubusercontent.com/qq5460168/666/master/invizible.txt)
+  - [Clash（clash.yaml）](https://raw.githubusercontent.com/qq5460168/666/master/clash.yaml)
+  - [Clash Meta（clash_meta.yaml）](https://raw.githubusercontent.com/qq5460168/666/master/clash_meta.yaml)
 
-</ul>
 </details>
 
 <h2 id="b">📔 上游列表</h2>
