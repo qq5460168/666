@@ -86,13 +86,7 @@ DNS拦截规则数量: 8630
 
 </details>
 
-<h2 id="b">📔 上游列表</h2>
-<details>
-<summary>点击查看</summary>
-<ul>
 
-</ul>
-</details>
 
 <h2 id="c">🚫 拦截效果</h2>
 
