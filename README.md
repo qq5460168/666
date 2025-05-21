@@ -44,14 +44,17 @@ DNS拦截规则数量: 8630
 <summary>规则列表</summary>
 <ul>
 
-- **[拦截规则（Github）](https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)**
-- **[拦截规则(Ghproxy-国内加速)](https://ghproxy.net/https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)**
-- **[DNS拦截规则（Github）](https://raw.githubusercontent.com/qq5460168/666/master/dns.txt)**
-- **[DNS拦截规则(Ghproxy-国内加速)](https://ghp.ci/https://raw.githubusercontent.com/qq5460168/666/master/dns.txt)**
-- **[白名单（Github）](https://raw.githubusercontent.com/qq5460168/666/master/allow.txt)**
-- **[白名单(Ghproxy-国内加速)](https://ghp.ci/https://raw.githubusercontent.com/qq5460168/666/master/allow.txt)**
-- **[Hosts规则（Github）](https://raw.githubusercontent.com/qq5460168/666/master/hosts.txt)**
-- **[Hosts规则(Ghproxy-国内加速)](https://ghproxy.net/https://raw.githubusercontent.com/qq5460168/666/master/hosts.txt)**
+| **AdGuard 黑名单规则** | 拦截大部分广告域名 | [rules.txt](https://raw.githubusercontent.com/qq5460168/666/master/rules.txt) |
+| **AdGuard 白名单规则** | 允许部分误拦截的域名 | [allow.txt](https://raw.githubusercontent.com/qq5460168/666/master/allow.txt) |
+| **DNS规则** | 用于 AdGuard Home 或其他支持 DNS 规则的工具 | [dns.txt](https://raw.githubusercontent.com/qq5460168/666/master/dns.txt) |
+| **Hosts规则** | 可直接用于系统 Hosts 文件 | [hosts.txt](https://raw.githubusercontent.com/qq5460168/666/master/hosts.txt) |
+| **Clash规则** | Clash Premium 配置 | [clash.yaml](https://raw.githubusercontent.com/qq5460168/666/master/clash.yaml) |
+| **Clash Meta规则** | Clash Meta/Mihomo 专用配置 | [clash_meta.yaml](https://raw.githubusercontent.com/qq5460168/666/master/clash_meta.yaml) |
+| **Quantumult X规则** | Quantumult X 配置 | [qx.list](https://raw.githubusercontent.com/qq5460168/666/master/qx.list) |
+| **SingBox规则** | SingBox 配置 | [singbox.srs](https://raw.githubusercontent.com/qq5460168/666/master/singbox.srs) |
+| **Shadowrocket规则** | Shadowrocket 专用配置 | [Shadowrocket.list](https://raw.githubusercontent.com/qq5460168/666/master/Shadowrocket.list) |
+| **Invizible规则** | Invizible Pro 专用配置 | [invizible.txt](https://raw.githubusercontent.com/qq5460168/666/master/invizible.txt) |
+| **AdClose规则** | AdClose 专用配置 | [AdClose.txt](https://raw.githubusercontent.com/qq5460168/666/master/AdClose.txt) |
 
 </ul>
 
