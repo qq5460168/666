@@ -44,17 +44,17 @@ DNS拦截规则数量: 8630
 
 | 类型             | 主要用途                       | 下载链接                                                                            |
 |------------------|------------------------------|-------------------------------------------------------------------------------------|
-| 通用黑名单       | 拦截大部分广告域名             | [black.txt](https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt)     |
-| 通用白名单       | 允许误拦截的正常域名           | [white.txt](https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt)     |
-| DNS 规则         | AdGuard Home/支持 DNS 的工具   | [dnslist.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/dnslist.txt)   |
-| Hosts 规则       | 系统 Hosts 文件专用            | [hosts.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/hosts.txt)       |
-| Clash 规则       | Clash Premium 配置             | [Clash.yaml](https://raw.githubusercontent.com/qq5460168/AD886/refs/heads/main/clash.yaml) |
-| Clash Meta 规则  | Clash Meta/Mihomo 配置         | [clash_meta.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/clash_meta.yaml) |
-| Quantumult X     | Quantumult X 配置              | [qx.list](https://raw.githubusercontent.com/qq5460168/AD886/main/qx.list)           |
-| SingBox          | SingBox 配置                   | [singbox.srs](https://raw.githubusercontent.com/qq5460168/AD886/main/singbox.srs)   |
-| Shadowrocket     | Shadowrocket 配置              | [Shadowrocket.list](https://raw.githubusercontent.com/qq5460168/AD886/main/Shadowrocket.list) |
-| Invizible Pro    | Invizible Pro 配置             | [invizible.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/invizible.txt) |
-| AdClose          | AdClose 配置                   | [AdClose.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/AdClose.txt)   |
+| 通用黑名单       | 拦截大部分广告域名             | [black.txt](https://raw.githubusercontent.com/qq5460168/666/master/black.txt)     |
+| 通用白名单       | 允许误拦截的正常域名           | [white.txt](https://raw.githubusercontent.com/qq5460168/666/master/white.txt)     |
+| DNS 规则         | AdGuard Home/支持 DNS 的工具   | [dnslist.txt](https://raw.githubusercontent.com/qq5460168/666/master/dns.txt)   |
+| Hosts 规则       | 系统 Hosts 文件专用            | [hosts.txt](https://raw.githubusercontent.com/qq5460168/666/master/hosts.txt)       |
+| Clash 规则       | Clash Premium 配置             | [Clash.yaml](https://raw.githubusercontent.com/qq5460168/666/master/clash.yaml) |
+| Clash Meta 规则  | Clash Meta/Mihomo 配置         | [clash_meta.yaml](https://raw.githubusercontent.com/qq5460168/666/master/clash_meta.yaml) |
+| Quantumult X     | Quantumult X 配置              | [qx.list](https://raw.githubusercontent.com/qq5460168/666/master/qx.list)           |
+| SingBox          | SingBox 配置                   | [singbox.srs](https://raw.githubusercontent.com/qq5460168/666/master/singbox.srs)   |
+| Shadowrocket     | Shadowrocket 配置              | [Shadowrocket.list](https://raw.githubusercontent.com/qq5460168/666/master/Shadowrocket.list) |
+| Invizible Pro    | Invizible Pro 配置             | [invizible.txt](https://raw.githubusercontent.com/qq5460168/666/master/invizible.txt) |
+| AdClose          | AdClose 配置                   | [AdClose.txt](https://raw.githubusercontent.com/qq5460168/666/master/AdClose.txt)   |
 
 
 ## 规则列表（含加速与备用下载）
