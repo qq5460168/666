@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-21 16:12:47（北京时间）
+! Version: 2025-05-21 18:10:00（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8646
+! Total count: 8648
 0.0.0.0 *-*-*-lrycfv.vip
 0.0.0.0 *-*.ad*kwai.com
 0.0.0.0 *-*.ap-east-1.elb.amazonaws.com
@@ -957,6 +957,7 @@
 0.0.0.0 adjust.cn
 0.0.0.0 adjust.com
 0.0.0.0 adkisdh3897.xyz
+0.0.0.0 adks.hpplay.cn
 0.0.0.0 adkwai.com
 0.0.0.0 adlaunch.qingting.fm
 0.0.0.0 adlaunch.qtfm.cn
@@ -1400,6 +1401,7 @@
 0.0.0.0 analytics.126.com
 0.0.0.0 analytics.163.com
 0.0.0.0 analytics.95516.com
+0.0.0.0 analytics.adjust.cn
 0.0.0.0 analytics.google.com
 0.0.0.0 analytics.libertymutual.com.edgekey.net
 0.0.0.0 analytics.map.qq.com
