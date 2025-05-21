@@ -44,8 +44,8 @@ DNS拦截规则数量: 8630
 
 | 类型             | 主要用途                       | 下载链接                                                                            |
 |------------------|------------------------------|-------------------------------------------------------------------------------------|
-| 通用黑名单       | 拦截大部分广告域名             | [black.txt](https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/rules.txt)     |
-| 通用白名单       | 允许误拦截的正常域名           | [white.txt](https://raw.githubusercontent.com/qq5460168/666/master/white.txt)     |
+| 通用黑名单       | 拦截大部分广告域名             | [rules.txt](https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/rules.txt)     |
+| 通用白名单       | 允许误拦截的正常域名           | [white.txt](https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/allow.txt)     |
 | DNS 规则         | AdGuard Home/支持 DNS 的工具   | [dnslist.txt](https://raw.githubusercontent.com/qq5460168/666/master/dns.txt)   |
 | Hosts 规则       | 系统 Hosts 文件专用            | [hosts.txt](https://raw.githubusercontent.com/qq5460168/666/master/hosts.txt)       |
 | Clash 规则       | Clash Premium 配置             | [Clash.yaml](https://raw.githubusercontent.com/qq5460168/666/master/clash.yaml) |
