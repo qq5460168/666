@@ -2,13 +2,14 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-23 02:12:30（北京时间）
+! Version: 2025-05-23 02:26:57（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8628
+! Total count: 8534
 [Adblock Plus 2.0]
 ! Title: 酷安反馈反馈
-! Total Count: 8623
-! Update Time: 2025-05-22 18:12:30（北京时间）
+! Homepage: https://github.com/qq5460168/AD886
+! by: 酷安@那个谁520
+! Total Count: 8528
 ||*-*-*-lrycfv.vip^
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
@@ -729,7 +730,6 @@
 ||abot.pos.baidu.com^
 ||about.ads.microsoft.com^
 ||abovede6.com^
-||abp.telemetry.adblockplus.org^
 ||abram.xin^
 ||abrnfctkn.xyz^
 ||abroad-sdk-push.dutils.com^
@@ -860,7 +860,6 @@
 ||ad.qq.com^
 ||ad.qun.qq.com^
 ||ad.richmob.cn^
-||ad.seeyouyima.com^
 ||ad.shunchangzhixing.com^
 ||ad.sitemaji.com^
 ||ad.smaato.net^
@@ -906,7 +905,6 @@
 ||adashx.ut.amap.com^
 ||adashx.ut.cainiao.com^
 ||adashx.ut.dingtalk.com^
-||adashx.ut.shuqi.com^
 ||adashx.ut.uc.cn^
 ||adashx.ut.youku.com^
 ||adashxgc.ut.taobao.com^
@@ -1161,8 +1159,6 @@
 ||adslvfile.qq.com^
 ||adslvseed.qq.com^
 ||adsmart.konka.com^
-||adsmartget.datads.cn^
-||adsmartgetbes.datads.cn^
 ||adsmartgetqtt.guangtuikeji.com^
 ||adsmind.apdcdn.tc.qq.com^
 ||adsmind.gdtimg.com^
@@ -1250,7 +1246,6 @@
 ||adx-os-req.anythinktech.com^
 ||adx-os.anythinktech.com^
 ||adx-static.ksosoft.com^
-||adx-track.domob.cn^
 ||adx.ads.heytapmobi.com^
 ||adx.ads.oppomobile.com^
 ||adx.apiok.net^
@@ -1392,7 +1387,6 @@
 ||analy.qq.com^
 ||analy.tuniu.cn^
 ||analyse.weather.com.cn^
-||analysis-acc-ssl.xunlei.com^
 ||analysis.chatglm.cn^
 ||analysis.yozocloud.cn^
 ||analytics-api.samsunghealthcn.com^
@@ -1508,7 +1502,6 @@
 ||api.bugsnag.com^
 ||api.chcatv.hismarttv.com^
 ||api.cxzudwk.com^
-||api.datanexus.qq.com^
 ||api.douban.com^
 ||api.e.kuaishou.cn^
 ||api.e.kuaishou.com^
@@ -1728,14 +1721,12 @@
 ||azukgee.cn^
 ||b-gtc.getui.net^
 ||b.1th.app^
-||b.bdstatic.com^
 ||b.qchannel03.cn^
 ||b0rbgroup.xyz^
 ||b0ufmrzl.icu^
 ||b1-data.ads.heytapmobi.com^
 ||b1.51yangsheng.com^
 ||b10.justacdn.net^
-||b2-data.ads.heytapmobi.com^
 ||b2.51yangsheng.com^
 ||b2.ghj7l.com^
 ||b269.photo.store.qq.com^
@@ -1947,7 +1938,6 @@
 ||bridgetnbe.com^
 ||broadcast.chat.bilibili.com^
 ||brownfox.top^
-||browser.events.data.msn.cn^
 ||browser.vivo.com.cn^
 ||browserbook.vivo.com.cn^
 ||browsercfg-drcn.cloud.dbankcloud.cn^
@@ -2182,7 +2172,6 @@
 ||chat-platform-open.kakamobi.cn^
 ||chat1.jd.com^
 ||chdezxp.com^
-||checkappexec.microsoft.com^
 ||cheda1.icu^
 ||cheda10.icu^
 ||cheda7.icu^
@@ -2271,7 +2260,6 @@
 ||cmspapp84.com^
 ||cmws.iad.apple.com^
 ||cn-api.anythinktech.com^
-||cn-beijing.log.aliyuncs.com^
 ||cn-da.anythinktech.com^
 ||cn-fp.apitd.net^
 ||cn-tk.anythinktech.com^
@@ -2290,7 +2278,6 @@
 ||cocloud.site^
 ||collect.kugou.com^
 ||collector.dcdn.baidu.com^
-||collector.github.com^
 ||collector.ximalaya.com^
 ||collegepre.net^
 ||colonistnobilityheroic.com^
@@ -2460,20 +2447,16 @@
 ||dat.yl-zipper.com^
 ||dat8.cc^
 ||data-ads.oneplusmobile.com^
-||data-biz-ipc.tplinkcloud.com.cn^
-||data-drcn.push.dbankcloud.cn^
 ||data-drcn.push.dbankcloud.com^
 ||data-dre.push.dbankcloud.com^
 ||data-drru.push.dbankcloud.com^
 ||data-sdk-uuid-log.d.meituan.net^
 ||data-sdk-uuid-report.dreport.meituan.net^
 ||data-track.yingxiong.com^
-||data-video.71edge.com^
 ||data.ab.qq.com^
 ||data.ads.oppomobile.com^
 ||data.bilibili.cn^
 ||data.chsmarttv.com^
-||data.feidee.net^
 ||data.flurry.com^
 ||data.gzuzfa.cn^
 ||data.lichenqx.com^
@@ -2481,26 +2464,17 @@
 ||data.mistat.rus.xiaomi.com^
 ||data.mistat.xiaomi.com^
 ||data.qq.com^
-||data.sec.miui.com^
-||data.seeyouyima.com^
 ||data.video.dns.iqiyi.com^
 ||data.video.iqiyi.com^
 ||data.video.ptqy.gitv.tv^
-||data.xmseeyouyima.com^
-||data.xmseeyouyima.com.lan^
 ||data.zhongquanjy.com^
 ||data6.video.iqiyi.com^
 ||databyterangers.com.cn^
 ||datacollector-drcn.dt.dbankcloud.cn^
 ||datacollector-drcn.dt.hicloud.com^
-||datacollector-dre.dt.hicloud.com^
 ||datacollector-sea.soulapp.cn^
-||datafinder-api.cli.im^
 ||dataflow.biliapi.com^
-||datagw-edge.alipay.com^
 ||datahub.zhihu.com^
-||datasync-dev-prod-drcn.cloud.dbankcloud.cn^
-||datasync-drcn.cloud.dbankcloud.cn^
 ||datk.anythinktech.com^
 ||dayujs.top^
 ||db11yy.com^
@@ -2560,8 +2534,6 @@
 ||device.fishmobi.com^
 ||devicemgr.lebo.cn^
 ||devlog-upload-os.hoyoverse.com^
-||devs-data.dutils.com^
-||devs-data.hiaiabc.com^
 ||devs.data.mob.com^
 ||dexinyi.cn^
 ||dexuanyu.top^
@@ -2626,7 +2598,6 @@
 ||disp.titan.mgtv.com^
 ||display-apps-ui-soak.iad.apple.com^
 ||display-apps-ui.iad.apple.com^
-||displaycatalog.mp.microsoft.com^
 ||ditorialproce.biz^
 ||dj09j5u.cn^
 ||djbgfit.com^
@@ -2836,7 +2807,6 @@
 ||ecwmvlhy.com^
 ||ed.gumoda.top^
 ||edge.ads.twitch.tv^
-||edge.wshttpdns.com^
 ||edong.link^
 ||edoshbw.top^
 ||edssnet.changchunets.com^
@@ -2914,7 +2884,6 @@
 ||errdom.oss-cn-heyuan.aliyuncs.com^
 ||errlog.umeng.com^
 ||errnewlog.umeng.com^
-||errnewlog.umeng.com.lan^
 ||errnotice.oss-cn-shenzhen.aliyuncs.com^
 ||error.baidu.com^
 ||ert.pengwenli.top^
@@ -3507,7 +3476,6 @@
 ||hdzb6.cc^
 ||heads-ak.spotify.com.edgesuite.net^
 ||heads-fa.spotify.com^
-||healthdata.dbankcloud.cn^
 ||hebstsmgs.com^
 ||hefei64.com^
 ||hefei668.com^
@@ -3645,23 +3613,18 @@
 ||htienlu.top^
 ||htjrlm.com^
 ||htseca.top^
-||http://vibeaconstr.onezapp.com:8080/analytics/upload^
-||httpdns-browser.platform.dbankcloud.cn^
-||httpdns.alicdn.com^
 ||httpdns.bcelive.com^
 ||httpdns.bilivideo.com^
 ||httpdns.kg.qq.com^
 ||httpdns.kwd.inkuai.com^
 ||httpdns.meituan.com^
 ||httpdns.ocloud.oppomobile.com^
-||httpdns.platform.dbankcloud.com^
 ||httpdns.pro^
 ||httpkafka.unityads.unity3d.com^
 ||httpring.qq.com^
 ||https-apple.com^
 ||httpsjs.com^
 ||htvixv.xyz^
-||huashan-datahub-drcn.emui.dbankcloud.com^
 ||huatihui.io^
 ||huatuo.qq.com^
 ||huatuocode.huatuo.qq.com^
@@ -3670,7 +3633,6 @@
 ||huaxia.name^
 ||hub5emu.v6.shub.sandai.net^
 ||hub5idx.v6.shub.sandai.net^
-||hubciddata.sandai.net^
 ||hubcloud.com.cn^
 ||hubiazhi.com^
 ||hudiecaifu.com^
@@ -3806,7 +3768,6 @@
 ||ildopxge.com^
 ||ilyf4amifh.com^
 ||im-x.jd.com^
-||im58log.58.com^
 ||im64.jpush.cn^
 ||imag8.pubmatic.com^
 ||imag86.pubmatic.com^
@@ -3875,7 +3836,6 @@
 ||info.3g.qq.com^
 ||info.gdt.qq.com^
 ||info.mina.xiaoaisound.com^
-||info.pinyin.sogou.com^
 ||info.zb.qq.com^
 ||infotrack.gdt.qq.com^
 ||inkuae.com^
@@ -4137,7 +4097,6 @@
 ||js.keeyekey.xyz^
 ||js.loveshop8.com^
 ||js.moeamv.com^
-||js.monitor.azure.com^
 ||js.spfccc.com^
 ||js.whfyhouse.com^
 ||js.ysfzf.cn^
@@ -4274,7 +4233,6 @@
 ||khgjfm16.com^
 ||kifyeldd.top^
 ||kiitsl.icu^
-||kinglog.feidee.net^
 ||kinhincauking.website^
 ||kinleung.cn^
 ||kissfang.cn^
@@ -4370,7 +4328,6 @@
 ||ktx769.cc^
 ||kuais.mryhq1.cn^
 ||kuaishou-mipdx.cn.miaozhen.com^
-||kuaishou.httpdns.pro^
 ||kuaishouad.cn^
 ||kuanxin.top^
 ||kuiv.cn^
@@ -4538,7 +4495,6 @@
 ||lingsiqiwu.com^
 ||lingting.xin^
 ||link.jzzxapp.cn^
-||linking-data-drcn.hispace.dbankcloud.cn^
 ||linuozhiyao.xyz^
 ||linyongming.top^
 ||lishuaibin.cn^
@@ -4607,14 +4563,12 @@
 ||log*.aliyuncs.com^
 ||log-alibaba-taobao-douyin.cdn.bcebos.com^
 ||log-api-mn.huxiu.com^
-||log-api.caoliao.net^
 ||log-api.huxiu.com^
 ||log-api.pangolin-sdk-toutiao*.com^
 ||log-api.pangolin-sdk-toutiao-*.com^
 ||log-api.pangolin-sdk-toutiao-b.com^
 ||log-api.pangolin-sdk-toutiao.com^
 ||log-hl.snssdk.com^
-||log-klink.zijieapi.com^
 ||log-report.com^
 ||log-sdk.clickwifi.net^
 ||log-sdk.gifshow.com^
@@ -4661,7 +4615,6 @@
 ||log.zongheng.com^
 ||log0-applog-lq.fqnovel.com^
 ||log0-misc-alinc2.amemv.com^
-||log0-misc-hl.amemv.com^
 ||log0-misc-lf.amemv.com^
 ||log0-misc-lq.amemv.com^
 ||log1.cmpassport.com^
@@ -4671,28 +4624,19 @@
 ||log3-misc-lf.amemv.com^
 ||log3-misc-lq.amemv.com^
 ||log3-normal-hl.toutiaoapi.com^
-||log5-applog-hl.fqnovel.com^
-||log5-misc-hl.amemv.com^
 ||log5-misc-lf.amemv.com^
 ||log5-misc-lq.amemv.com^
 ||log6.reader.qq.com^
 ||logapi-and.zhipin.com^
 ||logapi-ios.zhipin.com^
 ||logbak.hicloud.com^
-||logcollect.qufenqian.vip^
-||logconf.iflytek.com^
 ||loggate.moxigame.cn^
 ||logger.qingting.fm^
 ||loggw.alipay.com.cn^
-||lognew.cloooud.com^
 ||logos.kiwibrowser.com^
 ||logrcv.aiclk.com^
 ||logs.amap.com^
 ||logsdk.qq.com^
-||logserver-cn-comue.obs.cn-north1.ctyun.cn^
-||logserver-cn-ty.obs.cn-north1.ctyun.cn^
-||logservice-drcn.dt.hihonorcloud.com^
-||logservice.dbankcloud.cn^
 ||logservice.hicloud.com^
 ||logservice1.hicloud.com^
 ||logstat.kugou.com^
@@ -4905,7 +4849,6 @@
 ||mermaid.ximalaya.com^
 ||merqieth.com^
 ||mesu.apple.com^
-||met-horn-log.dreport.meituan.net^
 ||meta-cdn.video.iqiyi.com^
 ||meta.video.iqiyi.com^
 ||metauniverse88.com^
@@ -4914,22 +4857,14 @@
 ||metheny.cn^
 ||metok.sys.miui.com^
 ||metrics-ad-drcn.dt.hihonorcloud.com^
-||metrics-appdistribute-drcn.dt.hihonorcloud.com^
-||metrics-basecloud-drcn.dt.hihonorcloud.com^
 ||metrics-collector.xaidc.com^
 ||metrics-dra.dt.hicloud.com^
-||metrics-drcn.dt.dbankcloud.cn^
-||metrics-drcn.dt.hihonorcloud.com^
 ||metrics-picture.d.meituan.net^
 ||metrics.apple.com^
 ||metrics.data.hicloud.com^
-||metrics.dt.dbankcloud.cn^
-||metrics.dt.hihonorcloud.com^
 ||metrics.icloud.com^
 ||metrics.mzstatic.com^
 ||metrics1-drcn.dt.dbankcloud.cn^
-||metrics1.data.hicloud.com^
-||metrics1.data.hicloud.com.lan^
 ||metrics2.data.hicloud.com^
 ||metrics5.data.hicloud.com^
 ||metrics5.dt.dbankcloud.ru^
@@ -5036,7 +4971,6 @@
 ||mon11-misc-lq.fqnovel.com^
 ||moneyds.cn^
 ||moni-onrt-stsdk.vivo.com.cn^
-||moniter.wb.qq.com^
 ||monitor-ads-test.huan.tv^
 ||monitor-uu.play.aiseet.atianqi.com^
 ||monitor.ads.8le8le.com^
@@ -5315,7 +5249,6 @@
 ||nunxhv.com^
 ||nutaku.net^
 ||nuucmzuc.com^
-||nw-umwatson.events.data.microsoft.com^
 ||nwera.xyz^
 ||nwgfzjdjhm2.xyz^
 ||nxhwvt.xyz^
@@ -5641,11 +5574,9 @@
 ||pbdhsolmxw1.com^
 ||pbtsjh.xyz^
 ||pcbrowser.dd.qq.com^
-||pcdn-monitor.cdn.bcebos.com^
 ||pcdn-tracker.baidu.com^
 ||pcdn.xmcdn.com^
 ||pcdn.yximgs.com^
-||pcdnlog-receiver-pub.jd.com^
 ||pchznf.xyz^
 ||pcm-img.zhls.qq.com^
 ||pcmlll.nyriidul.com^
@@ -5660,7 +5591,6 @@
 ||pdiabbi.cn^
 ||pdjjrh.xyz^
 ||pdrtcgfx.cn^
-||pds-app-cn-beijing.cn-beijing.log.aliyuncs.com^
 ||pds.pinduoduo.com^
 ||pdweigee.com^
 ||pdxdxl.xyz^
@@ -5832,7 +5762,6 @@
 ||public-deliver5.miguvideo.com^
 ||public.gdtimg.com^
 ||public.wlbaike.com^
-||publiclog.zhiyan.tencent-cloud.net^
 ||pufhzpt.cn^
 ||pull-*-*.ixigua.com^
 ||pull-flv-f13.douyincdn.com^
@@ -6184,7 +6113,6 @@
 ||rps.hpplay.cn^
 ||rpt-gdt.play.aiseet.atianqi.com^
 ||rpt.gdt.qq.com^
-||rptdata.wb.qq.com^
 ||rpyor0k.xyz^
 ||rqd.qq.com^
 ||rqxtbr.xyz^
@@ -6207,7 +6135,6 @@
 ||rtjmln.xyz^
 ||rtlog*-applog-lq.fqnovel.com^
 ||rtlog3-applog-lq.fqnovel.com^
-||rtlog5-applog-hl.fqnovel.com^
 ||rtlog5-applog-lq.fqnovel.com^
 ||rtmark.net^
 ||rtmonitor.kugou.com^
@@ -6240,7 +6167,6 @@
 ||s*a.pstatp.com^
 ||s*voicecloud.cn^
 ||s-adashx.ut.uc.cn^
-||s-gm.mmstat.com^
 ||s.1rtb.net^
 ||s.amazon-adsystem.com^
 ||s.btime.com^
@@ -6308,7 +6234,6 @@
 ||saviourketonic.com^
 ||saxysec.com^
 ||sb.adtidy.com^
-||sb.scorecardresearch.com^
 ||sb4you1.com^
 ||sb6k.top^
 ||sbcjahdc.com^
@@ -6412,7 +6337,6 @@
 ||selornews.com^
 ||sensifyfugged.com^
 ||sensors-log.dongqiudi.com^
-||sensorsdata.cmcc-cs.cn^
 ||sentry-app.ireader.com^
 ||sentry.d.xiaomi.net^
 ||sentry.io^
@@ -6472,7 +6396,6 @@
 ||shanxicloud.net^
 ||share.jileme.net^
 ||shareman.xyz^
-||shark-tracer.netease.com^
 ||shbdyx.com^
 ||sheeroop.com^
 ||shenfagg.com^
@@ -6701,7 +6624,6 @@
 ||stnew.xyz^
 ||stocks-analytics-events.apple.com^
 ||store.log.ksyun.com^
-||storecatalogrevocation.storequality.microsoft.com^
 ||stp.vivo.com.cn^
 ||strategy.beacon.qq.com^
 ||stream.snssdk.com^
@@ -6827,7 +6749,6 @@
 ||tcss.qq.com^
 ||tcuqqhj.icu^
 ||tczyt8.cn^
-||td-log-collect.galsanggame.com^
 ||tdavopl.icu^
 ||tdc.qq.com^
 ||tdid.m.qq.com^
@@ -6982,7 +6903,6 @@
 ||tobapplog.ctobsnssdk.com^
 ||tobapplog.volceapplog.com^
 ||toblog.ctobsnssdk.com^
-||toblog.ctobsnssdk.com.lan^
 ||toblog.snssdk.com^
 ||toblog.volceapplog.com^
 ||toggle.qq.com^
@@ -7008,7 +6928,6 @@
 ||tpa-hcdn.iqiyi.com^
 ||tpc.googlesyndication-cn.com^
 ||tpc.googlesyndication.com^
-||tpstelemetry.tencent.com^
 ||tptp002.cfd^
 ||tpush.html5.qq.com^
 ||tpvuxt.xyz^
@@ -7021,7 +6940,6 @@
 ||tr.byteurl.cn^
 ||tr.iadsdk.apple.com^
 ||trace.qq.com^
-||trace.seeyouyima.com^
 ||tracelog-debug.aiclk.com^
 ||tracelog-debug.qquanquan.com^
 ||track.66mobi.com^
@@ -7089,7 +7007,6 @@
 ||ttly888.com^
 ||ttok09.com^
 ||ttvosc.com^
-||ttxyajs.data.kuiniuca.com^
 ||ttykabh.icu^
 ||ttzhongbao.com^
 ||tu.mt20230625tu.com^
@@ -7219,14 +7136,9 @@
 ||ulog-sdk.gifshow.com^
 ||ulog-sdk.ksapisrv.com^
 ||ulogjs.gifshow.com^
-||ulogjs.ksapisrv.com^
 ||ulogs.umeng.com^
 ||ulogs.umengcloud.com^
 ||ulogs.umengcloud.com.gds.alibabadns.com^
-||ulogs1.gifshow.com^
-||ulogs1.ksapisrv.com^
-||ulogs2.gifshow.com^
-||ulogs2.ksapisrv.com^
 ||ulojlvmejkaem.xyz^
 ||ulyuom.xyz^
 ||um5xcgngmart.xyz^
@@ -7413,7 +7325,6 @@
 ||v6-adashx.ut.ele.me^
 ||v6-be-pack.pglstatp-toutiao.com^
 ||v6-data.video.dns.iqiyi.com^
-||v6-devs-data.dutils.com^
 ||v6-fe-pack.pglstatp-toutiao.com^
 ||v6-gdvod.kwaicdn.com^
 ||v6-novelapp-nxyd.fqnovelvod.com^
@@ -7524,7 +7435,6 @@
 ||vipgslb.hpplay.cn^
 ||viplp.top^
 ||vipwm.cc^
-||vipxyajs.data.kuiniuca.com^
 ||viroffyy.com^
 ||virusinfo-cloudscan-cn.heytapmobi.com^
 ||vivotest.oss-cn-beijing.aliyuncs.com^
@@ -7722,9 +7632,6 @@
 ||wl.jd.com^
 ||wlgxaij.cn^
 ||wlhcb.cn^
-||wlog.gifshow.com^
-||wlog.ksapisrv.com^
-||wlog.kuaishou.com^
 ||wlsyuule.cam^
 ||wmqfey.com^
 ||wmxke.com^
@@ -8552,7 +8459,6 @@
 ||zisnuthz.com^
 ||zixun.imtt.qq.com^
 ||zixuncooperation.html5.qq.com^
-||ziyuan-data.n.shifen.com^
 ||zj-yxw.com^
 ||zjjbtl.com^
 ||zjkssw.com^
