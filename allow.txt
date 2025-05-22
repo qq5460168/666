@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-23 02:26:57（北京时间）
+! Version: 2025-05-23 04:10:59（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3034
+! Total count: 3041
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -483,6 +483,8 @@
 @@||bbs.mobileapi.hupu.com^$important
 @@||bce.baidu.com^
 @@||bcloud.uc.cn^$important
+@@||bd1.zuimeitianqi.com^
+@@||bd2.zuimeitianqi.com^
 @@||bdad.123pan.cn^$important
 @@||bdsmtest.org^
 @@||bdsmtv.cc^
@@ -1223,6 +1225,8 @@
 @@||hmrz.wo.cn^$important
 @@||home.m.duiba.com.cn^
 @@||honkaiimpact3.hoyoverse.com^
+@@||honor-h5.zuimeitianqi.com^
+@@||honor.zuimeitianqi.com^
 @@||hoopchina.com^$important
 @@||hosting24.com^
 @@||hosts-file.net^$important
@@ -1244,6 +1248,7 @@
 @@||huluxia.com^
 @@||huluxia.com^$important
 @@||humb.apple.com^$important
+@@||hwinfo1.zuimeitianqi.com^
 @@||i.dell.com^
 @@||i.gtimg.cn^
 @@||i.gtimg.cn^$important
@@ -1365,6 +1370,7 @@
 @@||indivi-cdn.shouji.sogou.com^$important
 @@||inews.gtimg.com^
 @@||inews.gtimg.com^$important
+@@||info.zuimeitianqi.com^
 @@||informationprotection.hosting.portal.azure.net^$important
 @@||ingest.sentry.io^$important
 @@||inporn.com^
@@ -2257,6 +2263,7 @@
 @@||s3plus-img.meituan.net^
 @@||s3plus.meituan.net^
 @@||s4.cnzz.com^$important
+@@||s7.zuimeitianqi.com^
 @@||safebrowsing-cache.google.com^$important
 @@||safebrowsing.google.com^$important
 @@||safebrowsing.googleapis.com^$important
