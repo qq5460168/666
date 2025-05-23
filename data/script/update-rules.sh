@@ -35,10 +35,12 @@ rules=(
   "https://github.com/entr0pia/fcm-hosts/raw/fcm/fcm-hosts" #FCM Hosts
   "https://raw.githubusercontent.com/790953214/qy-Ads-Rule/refs/heads/main/black.txt" #晴雅
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
-  ""
+
+"https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts"#下一个ID见
   "https://raw.githubusercontent.com/tongxin0520/AdFilterForAdGuard/refs/heads/main/KR_DNS_Filter.txt" #tongxin0520
   "https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/blacklist.txt" #Zisbusy
-  "https://oss.xlxbk.cn/allow.txt" #xlxbk
+
+"https://oss.xlxbk.cn/allow.txt" #xlxbk
   "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt" #茯苓
   "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt" #茯苓白名单
   "https://raw.githubusercontent.com/qq5460168/dangchu/refs/heads/main/%E5%85%94%E5%85%94%E8%87%AA%E7%94%A8%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E8%A7%84%E5%88%99%EF%BC%8C%E7%A6%81%E6%AD%A2%E9%9A%90%E7%A7%81%E6%94%B6%E9%9B%86.txt" #兔兔自用
