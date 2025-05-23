@@ -39,6 +39,13 @@
 DNS拦截规则数量: 8630 
 白名单规则数量: 3102 
 Hosts规则数量: 8628 
+Quantumult X规则数量: 
+Clash规则数量: 
+Clash Meta规则数量: 
+Shadowrocket规则数量: 
+Singbox规则数量: 
+Invizible Pro规则数量: 
+AdClose规则数量: 
 ```
 
 <details open>
