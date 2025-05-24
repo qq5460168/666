@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-24 16:11:23（北京时间）
+! Version: 2025-05-24 18:09:02（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3102
+! Total count: 3122
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -165,6 +165,7 @@
 @@||360kuai.com^$important
 @@||3746760377.qnqcdn.net^$important
 @@||3975.com^
+@@||39d0825d09f05.cdn.sohucs.com^
 @@||3d-platform-pro.obs.cn-south-1.myhuaweicloud.com^$important
 @@||3g.163.com^
 @@||3g.ali213.net^
@@ -398,6 +399,7 @@
 @@||apischedule.ksyungslb.com^$important
 @@||apissl.ksapisrv.com^$important
 @@||apiwz.midukanshu.com^
+@@||apk-packaging.tapimg.com^
 @@||apm.zhihu.com^
 @@||apmfront.17u.cn^$important
 @@||app-advertise.zhihuishu.com^
@@ -577,7 +579,9 @@
 @@||cainiao-app-logs.cn-zhangjiakou.log.aliyuncs.com^
 @@||callback.58.com^
 @@||campus.163.com^
+@@||captcha-gray.zt.kuaishou.com^
 @@||captcha.su.baidu.com^
+@@||captcha.zt.kuaishou.com^
 @@||captive.apple.com^$important
 @@||card-paopao.iqiyi.com^$important
 @@||cards.iqiyi.com^$important
@@ -800,6 +804,7 @@
 @@||cros-omahaproxy.appspot.com^$important
 @@||cros-updates-serving.appspot.com^$important
 @@||csi.gstatic.com^
+@@||css.tv.itc.cn^
 @@||cssubmissions.apple.com^$important
 @@||cstaticdun-v6.126.net^
 @@||cstaticdun.126.net^
@@ -976,6 +981,7 @@
 @@||e-hentai.org^
 @@||e.cn.miaozhen.com^$important
 @@||e.weather.com.cn^
+@@||e3f49eaa46b57.cdn.sohucs.com^
 @@||eastus.api.speech.microsoft.com^$important
 @@||ecard.163.com^
 @@||ecard.shenzhentong.com^
@@ -1472,7 +1478,9 @@
 @@||js-gamezone.static.yximgs.com^
 @@||js.3conline.com^
 @@||js.40017.cn^
+@@||js.a.kspkg.com^
 @@||js.t.sinajs.cn^
+@@||js.tv.itc.cn^
 @@||jspassport.ssl.qhimg.com^
 @@||jstatic.3.cn^
 @@||jstatic.3.cn^$important
@@ -1535,6 +1543,7 @@
 @@||lf-douyin-pc-web.douyinstatic.com^
 @@||lf-douyin-search-fe.bytetos.com^
 @@||lf-dy-sourcecdn-tos.bytegecko.com^$important
+@@||lf-sourcecdn-tos.bytegecko.com^
 @@||lf-webcast-gr-sourcecdn.bytegecko.com^
 @@||lf-webcast-platform.bytetos.com^
 @@||lf-webcast-sourcecdn-tos.bytegecko.com^
@@ -1578,6 +1587,7 @@
 @@||live*.static.yximgs.com^
 @@||live-trace.bilibili.com^
 @@||live.douyin.com^
+@@||live.kuaishou.com^
 @@||live.simcitybuildit.com^
 @@||livere.com^
 @@||livew.l.qq.com^
@@ -1586,6 +1596,7 @@
 @@||loc.map.baidu.com^
 @@||loc.map.baidu.com^$important
 @@||localads.chengzijianzhan.cn^$important
+@@||lockororder.netlify.app^
 @@||log-api.pangolin-sdk-toutiao-b.com^
 @@||log-api.pangolin-sdk-toutiao.com^
 @@||log-upload.mihoyo.com^
@@ -1648,6 +1659,7 @@
 @@||m.jingxi.com^$important
 @@||m.jxdown.com^$important
 @@||m.ke.com^
+@@||m.kuaishou.com^
 @@||m.lianjia.com^
 @@||m.manhuabei.com^$important
 @@||m.meizu.com^
@@ -1659,6 +1671,7 @@
 @@||m.so.com^
 @@||m.tb.cn^$important
 @@||m.toutiao.com^
+@@||m.tv.sohu.com^
 @@||m.uczzd.cn^
 @@||m.v.wali.com^
 @@||m.video.9ddm.com^$important
@@ -1976,6 +1989,7 @@
 @@||p11-webcast.douyinpic.com^
 @@||p11.douyinpic.com^
 @@||p16-tiktokcdn-com.akamaized.net^$important
+@@||p2-game.kskwai.com^
 @@||p2-lm.adbkwai.com^$important
 @@||p2-lm.adukwai.com^$important
 @@||p26-sign.bdxiguaimg.com^
@@ -2089,6 +2103,7 @@
 @@||pgdt.gtimg.cn^
 @@||phonecallapi.micloud.xiaomi.net^$important
 @@||phonesubmissions.apple.com^$important
+@@||photocdn.tv.sohu.com^
 @@||pic*.40017.cn^
 @@||pic*.iqiyipic.com^$important
 @@||pic*.zhimg.com^
@@ -2207,6 +2222,7 @@
 @@||qlogo.cn^
 @@||qlogo.cn^$important
 @@||qm.qq.com^
+@@||qn-static-tap.tapimg.com^
 @@||qn.cache.wpscdn.cn^$important
 @@||qnm.163.com^
 @@||qnmob3.doubanio.com^
@@ -2269,6 +2285,7 @@
 @@||restapi.amap.com^
 @@||restapi.amap.com^$important
 @@||richmedia.video.qq.com^$important
+@@||rls.tapimg.com^
 @@||rocket.chat^
 @@||router.ctc.lan^$important
 @@||rs.xmeye.net^$important
@@ -2588,6 +2605,7 @@
 @@||tagtic.cn^
 @@||tangram.e.qq.com^$important
 @@||target.clickfunnels.com^
+@@||taskofdeity.netlify.app^
 @@||tb.himg.baidu.com^
 @@||tbi.sb-cd.com^
 @@||tbm-auth.alicdn.com^$important
@@ -2660,6 +2678,7 @@
 @@||turing.captcha.gtimg.com^$important
 @@||tv.2345.com^
 @@||tv.2345.com^$important
+@@||tv.sohu.com^
 @@||tvapp.hpplay.cn^
 @@||tvepg.pandora.xiaomi.com^$important
 @@||twitter.com^
@@ -2952,6 +2971,7 @@
 @@||www.kanjiantu.com^$important
 @@||www.kdocs.cn^$important
 @@||www.ke.com^
+@@||www.kuaishou.com^
 @@||www.lamborghini.com^
 @@||www.lianjia.com^
 @@||www.lsds.cn^$important
