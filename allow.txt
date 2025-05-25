@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-25 18:08:52（北京时间）
+! Version: 2025-05-25 20:15:42（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3122
+! Total count: 3130
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -1443,6 +1443,7 @@
 @@||is1-ssl.mzstatic.com^$important
 @@||isee.weishi.qq.com^
 @@||isee.weishi.qq.com^$important
+@@||iservice.10010.com^
 @@||isrg.trustid.ocsp.identrust.com^$important
 @@||issuecdn.baidupcs.com^
 @@||issuecdn.baidupcs.com^$important
@@ -1479,6 +1480,7 @@
 @@||js.3conline.com^
 @@||js.40017.cn^
 @@||js.a.kspkg.com^
+@@||js.img.10010.com^
 @@||js.t.sinajs.cn^
 @@||js.tv.itc.cn^
 @@||jspassport.ssl.qhimg.com^
@@ -1640,6 +1642,7 @@
 @@||m.360video.so.com^
 @@||m.anjuke.com^
 @@||m.bilibili.com^
+@@||m.client.10010.com^
 @@||m.ctrip.com^
 @@||m.dianping.com^
 @@||m.ds.163.com^
@@ -1690,6 +1693,7 @@
 @@||m1.img.10010.com^
 @@||m1.pxb7.com^
 @@||m15.360buyimg.com^
+@@||m2.img.10010.com^
 @@||m7.music.126.net^
 @@||m7.pzds.com^
 @@||m701.music.126.net^
@@ -2273,6 +2277,7 @@
 @@||res.126.net^
 @@||res.cloudinary.com^
 @@||res.imtt.qq.com^$important
+@@||res.mall.10010.cn^
 @@||res.mi.baidu.com^
 @@||res.qiyukf.net^
 @@||res.vmallres.com^
@@ -2891,6 +2896,7 @@
 @@||ww12.lanzous.com^$important
 @@||wwo.wps.cn^$important
 @@||www-env.dropbox-dns.com^$important
+@@||www.10010.com^
 @@||www.123pan.com^$important
 @@||www.126.com^
 @@||www.163.com^
@@ -2921,6 +2927,8 @@
 @@||www.bqgyy.com^
 @@||www.bytedance.com^
 @@||www.chemdraw.com.cn^$important
+@@||www.chinaunicom.com.cn^
+@@||www.chinaunicom.com^
 @@||www.clips4sale.com^
 @@||www.cloudflare-cn.com^
 @@||www.cloudflare.com^
