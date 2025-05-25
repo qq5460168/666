@@ -898,6 +898,7 @@
   - DOMAIN-SUFFIX,adashx.ut.amap.com,REJECT
   - DOMAIN-SUFFIX,adashx.ut.cainiao.com,REJECT
   - DOMAIN-SUFFIX,adashx.ut.dingtalk.com,REJECT
+  - DOMAIN-SUFFIX,adashx.ut.hzshudian.com,REJECT
   - DOMAIN-SUFFIX,adashx.ut.shuqi.com,REJECT
   - DOMAIN-SUFFIX,adashx.ut.uc.cn,REJECT
   - DOMAIN-SUFFIX,adashx.ut.youku.com,REJECT
@@ -3419,6 +3420,7 @@
   - DOMAIN-SUFFIX,h-adashx.ut.amap.com,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.cainiao.com,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.dingtalk.com,REJECT
+  - DOMAIN-SUFFIX,h-adashx.ut.hzshudian.com,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.uc.cn,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.youku.com,REJECT
