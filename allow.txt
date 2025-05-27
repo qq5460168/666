@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-27 18:11:10（北京时间）
+! Version: 2025-05-27 20:18:02（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3130
+! Total count: 3138
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -623,6 +623,7 @@
 @@||cdn.tiantiantiaosheng.com^
 @@||cdn.uci.officeapps.live.com^$important
 @@||cdn.ui.porsche.com^
+@@||cdn.web-global.fds.api.mi-img.com^
 @@||cdn.webclicks24.com^
 @@||cdn.ynuf.aliapp.org^
 @@||cdn1-smallimg.phncdn.com^
@@ -637,6 +638,7 @@
 @@||cdn77-vid.xvideos-cdn.com^$important
 @@||cdnfinder.xyz^
 @@||cdnjs.cloudflare.com^
+@@||cdnjs.com^
 @@||center-h5api.m.taobao.com^
 @@||cert.int-x3.letsencrypt.org^$important
 @@||certs.apple.com^$important
@@ -711,7 +713,6 @@
 @@||clickserve.dartsearch.net^
 @@||clicktale.net^
 @@||client-api.arkoselabs.com^
-@@||client-rapi-missav.recombee.com^
 @@||client-uc.heytapmobi.com^$important
 @@||client.app.coc.10086.cn^$important
 @@||client.wns.windows.com^$important
@@ -1099,7 +1100,6 @@
 @@||fino.svc.litv.tv^
 @@||firebaseperusertopics-pa.googleapis.com^$important
 @@||firstpartyapps.oaspapps.com^$important
-@@||fivetiu.com^
 @@||flash.sec.intl.miui.com^
 @@||flash.sec.miui.com^$important
 @@||flowus.cn^
@@ -1108,6 +1108,7 @@
 @@||fonts.gstatic.com^
 @@||fonts.gstatic.com^$important
 @@||foundation.youdao.com^
+@@||fourhoi.com^
 @@||fourier-videoclip-eu.allawnos.com^$important
 @@||fp-it.fengkongcloud.com^
 @@||fp-upload.dun.163.com^
@@ -1293,6 +1294,7 @@
 @@||i.ibb.co^
 @@||i.imgur.com^
 @@||i.meituan.com^
+@@||i.mi.com^
 @@||i.pximg.net^
 @@||i.snssdk.com^
 @@||i.sso.sina.com.cn^
@@ -1783,7 +1785,9 @@
 @@||mipcache.bdstatic.com^
 @@||mipstatic.sm-tc.cn^$important
 @@||mirrors.163.com^
-@@||missav.com^
+@@||missav.ai^
+@@||missav.live^
+@@||missav.ws^
 @@||mivideo.cdn.pandora.xiaomi.com^$important
 @@||mivideo.g.mi.com^
 @@||mix.sina.com.cn^
@@ -2947,6 +2951,8 @@
 @@||www.dxmpay.com^$important
 @@||www.e0734.com^
 @@||www.easyicon.net^$important
+@@||www.enigmaprotector.cn^
+@@||www.enigmaprotector.com^
 @@||www.epicgames.com^
 @@||www.epicgames.com^$important
 @@||www.ero-labs.com^
@@ -2968,6 +2974,7 @@
 @@||www.hoyoverse.com^
 @@||www.iconfont.cn^$important
 @@||www.ijinshan.com^
+@@||www.internetdownloadmanager.com^
 @@||www.ip138.com^
 @@||www.iqiyi.com^
 @@||www.iqiyi.com^$important
@@ -3004,6 +3011,7 @@
 @@||www.ntdtv.com^$important
 @@||www.nuomiphp.com^$important
 @@||www.onedrive.com^$important
+@@||www.oreans.com^
 @@||www.outlook.com^$important
 @@||www.paypal.com^
 @@||www.paypalobjects.com^
