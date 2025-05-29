@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-29 11:08:11（北京时间）
+! Version: 2025-05-29 12:15:33（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3138
+! Total count: 3147
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -744,6 +744,7 @@
 @@||cn-cd-dx-2.natfrp.cloud^$important
 @@||cn.app.chat.xiaomi.net^
 @@||cn.app.chat.xiaomi.net^$important
+@@||cn.bing.com^
 @@||cn.bing.com^$important
 @@||cn.ekg.riotgames.com^$important
 @@||cn.pornhub.com^
@@ -760,6 +761,7 @@
 @@||common.jbzj.com^$important
 @@||commondatastorage.googleapis.com^$important
 @@||community.akamai.steamstatic.com^
+@@||community.fastly.steamstatic.com^
 @@||companymanager.microsoftonline.com^$important
 @@||compass-ssl.microsoft.com^$important
 @@||compliance.microsoft.com^$important
@@ -2534,6 +2536,7 @@
 @@||statusapi.micloud.xiaomi.net^
 @@||statusapi.micloud.xiaomi.net^$important
 @@||stawritecdn.yuewen.com^
+@@||steamcommunity.com^
 @@||storage.360buyimg.com^
 @@||storage.googleapis.com^$important
 @@||storage.jd.com^
@@ -2629,6 +2632,7 @@
 @@||technet.microsoft.com^$important
 @@||telemetryservice.firstpartyapps.oaspapps.com^$important
 @@||test.nextdns.io^$important
+@@||th.bing.com^
 @@||thecubexguide.com^
 @@||thefantazy.com^
 @@||theme.heytapimage.com^$important
@@ -2678,6 +2682,10 @@
 @@||translator.qq.com^$important
 @@||ts.market.mi-img.com^
 @@||ts.market.mi-img.com^$important
+@@||ts1.tc.mm.bing.net^
+@@||ts2.tc.mm.bing.net^
+@@||ts3.tc.mm.bing.net^
+@@||ts4.tc.mm.bing.net^
 @@||tse1.mm.bing.net^$important
 @@||tsis.jpush.cn^$important
 @@||ttwid.bytedance.com^
@@ -2920,6 +2928,7 @@
 @@||www.bilibili.com^
 @@||www.bilibili.com^$important
 @@||www.biligame.com^
+@@||www.bing.com^
 @@||www.bing.com^$important
 @@||www.bitcomet.com^
 @@||www.blogger.com^$important
