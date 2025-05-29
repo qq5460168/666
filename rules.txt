@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-29 18:10:56（北京时间）
+! Version: 2025-05-29 20:17:41（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 19368
+! Total count: 19290
 
  
 *.lijie.*/*_*?$third-party
@@ -660,7 +660,6 @@
 0.0.0.0 addrlist.sms.mob.com
 0.0.0.0 ade.googlesyndication.com
 0.0.0.0 adeng.hpplay.cn
-0.0.0.0 adeventtracker.spotify.com
 0.0.0.0 adexpo.tencentmusic.com
 0.0.0.0 adfile.caixin.com
 0.0.0.0 adfilter.imtt.qq.com
@@ -681,7 +680,6 @@
 0.0.0.0 adjust.cn
 0.0.0.0 adktracking-1671721947.eu-west-3.elb.amazonaws.com
 0.0.0.0 adkwai.com
-0.0.0.0 adlab.spotify.com
 0.0.0.0 adlaunch.moji.com
 0.0.0.0 adlaunch.qtfm.cn
 0.0.0.0 adlink-api.huan.tv
@@ -730,7 +728,6 @@
 0.0.0.0 adreq.vivo.com.cn
 0.0.0.0 adres.myaora.net
 0.0.0.0 ads-816899299.ap-southeast-1.elb.amazonaws.com
-0.0.0.0 ads-akp.spotify.com
 0.0.0.0 ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com
 0.0.0.0 ads-api-o.api.leiniao.com
 0.0.0.0 ads-api.tiktok.com
@@ -740,7 +737,6 @@
 0.0.0.0 ads-c-1854119718.us-west-1.elb.amazonaws.com
 0.0.0.0 ads-drcn.platform.hihonorcloud.com
 0.0.0.0 ads-drcn.platform.hihonorcloud.com  #华为云的
-0.0.0.0 ads-fa.spotify.com
 0.0.0.0 ads-go.adroi.com.cn
 0.0.0.0 ads-img-al.xhscdn.com
 0.0.0.0 ads-img-bak.xhscdn.com
@@ -749,8 +745,6 @@
 0.0.0.0 ads-marketing-vivofs.vivo.com.cn
 0.0.0.0 ads-privacy-api.prd.mz.internal.unity3d.com
 0.0.0.0 ads-sdk-api.ranfenghd.com
-0.0.0.0 ads-sp-ash.cdn.spotify.com
-0.0.0.0 ads-sp-lon.cdn.spotify.com
 0.0.0.0 ads-tracker.ranfenghd.com
 0.0.0.0 ads-twitter.com
 0.0.0.0 ads-union.jd.com
@@ -955,6 +949,7 @@
 0.0.0.0 adstextview.qq.com
 0.0.0.0 adstore-index-1252524079.file.myqcloud.com
 0.0.0.0 adstrategy.biz.weibo.com
+0.0.0.0 adstudio-assets.scdn.co
 0.0.0.0 adsunflower.com
 0.0.0.0 adsview.qq.com
 0.0.0.0 adsview2.qq.com
@@ -1147,7 +1142,6 @@
 0.0.0.0 analytics.query.yahoo.com
 0.0.0.0 analytics.rayjump.com
 0.0.0.0 analytics.snssdk.com
-0.0.0.0 analytics.spotify.com
 0.0.0.0 analytics.tiktok.com
 0.0.0.0 analytics.twitter.com
 0.0.0.0 analytics.woozooo.com
@@ -1383,7 +1377,6 @@
 0.0.0.0 api.youngle.tech
 0.0.0.0 api.youtu.qq.com
 0.0.0.0 api.yun.jiguang.cn
-0.0.0.0 api.zhihu.com
 0.0.0.0 api1.888zy.cn
 0.0.0.0 api1.shuzilm.cn
 0.0.0.0 api2.appsflyer.com
@@ -1417,7 +1410,7 @@
 0.0.0.0 apiyd.my91app.com
 0.0.0.0 apk-upgrade.afunapp.com
 0.0.0.0 apk-upgrade.afunapp.com #会玩更新
-0.0.0.0 apk-upgrade.qingteng-inc.com
+0.0.0.0 apk-upgrade.qingteng-inc.com  #青藤之恋更新？
 0.0.0.0 apk.shouji.koowo.com
 0.0.0.0 apk.sky.fs.skysrt.com
 0.0.0.0 apks.webxiaobai.top
@@ -1448,12 +1441,12 @@
 0.0.0.0 appapi.51job.com  #前程无忧51job开屏广告，看着误杀大实际未发现
 0.0.0.0 appcfg.v.qq.com
 0.0.0.0 appchannel.html5.qq.com
-0.0.0.0 appcloud.zhihu.com
 0.0.0.0 appcloud2.in.zhihu.com
 0.0.0.0 appconf.mail.163.com
 0.0.0.0 appconf.mail.163.com  #网易邮箱大师更新。副作用：没有配置文件不能点击通知直达邮件，只能到主界面。
 0.0.0.0 appdownload.alicdn.com
 0.0.0.0 appdownload.xianyu.alibaba-inc.com
+0.0.0.0 appdownload.xianyu.alibaba-inc.com  #闲鱼更新？
 0.0.0.0 appdownload.youku.com
 0.0.0.0 appicsh.qq.com
 0.0.0.0 appinfo.adop.cc
@@ -1525,7 +1518,6 @@
 0.0.0.0 assets.gunosy.com
 0.0.0.0 assets.gunosy.com  #↑P站
 0.0.0.0 assets.iredwhale.com
-0.0.0.0 assets.spotify.com
 0.0.0.0 assistant.pandora.xiaomi.com
 0.0.0.0 astat.bugly.qq.com
 0.0.0.0 astrategy.beacon.qq.com
@@ -1555,20 +1547,6 @@
 0.0.0.0 audid-api.taobao.com
 0.0.0.0 audid.umeng.com
 0.0.0.0 audience-164723144.us-east-1.elb.amazonaws.com
-0.0.0.0 audio-ak-spotify-com.akaimaized.net
-0.0.0.0 audio-ak.spotify.com
-0.0.0.0 audio-ak.spotify.com.eip.akadns.net
-0.0.0.0 audio-akp.spotify.com
-0.0.0.0 audio-cf.spotify.com
-0.0.0.0 audio-ec.spotify.com
-0.0.0.0 audio-fa.scdn.co
-0.0.0.0 audio-fab.spotify.com
-0.0.0.0 audio-fac-spotify.com
-0.0.0.0 audio-gc.scdn.co
-0.0.0.0 audio-gc.spotify.com
-0.0.0.0 audio-sp-lon.spotify.com
-0.0.0.0 audio-sp-sto.spotify.com
-0.0.0.0 audio2.spotify.com
 0.0.0.0 auth.api.gitv.tv
 0.0.0.0 auth.dlb.mob.com
 0.0.0.0 auth.irs01.com
@@ -1673,7 +1651,6 @@
 0.0.0.0 bes-api.oceanengine.com
 0.0.0.0 bes-mtj.baidu.com
 0.0.0.0 bes-mtj.baidu.com  #250326
-0.0.0.0 beta.spotify.map.fastly.net
 0.0.0.0 beta.umeng.com
 0.0.0.0 bi-sensors.duxiaoman.com
 0.0.0.0 bi.inmobi.cn
@@ -1811,7 +1788,6 @@
 0.0.0.0 c.msn.com
 0.0.0.0 c.msn.com.cn
 0.0.0.0 c.nz.gt.igexin.com
-0.0.0.0 c.pc.qq.com
 0.0.0.0 c.qchannel01.cn
 0.0.0.0 c.sayhi.360.cn
 0.0.0.0 c.ssp.qq.com
@@ -2165,8 +2141,6 @@
 0.0.0.0 crab.baidu.com
 0.0.0.0 crash.163.com
 0.0.0.0 crash.browser.qq.com
-0.0.0.0 crashdump.ciqe-gslb.spotify.com
-0.0.0.0 crashdump.spotify.com
 0.0.0.0 crashlytics.163.com
 0.0.0.0 crashlytics.com
 0.0.0.0 crashlyticsreports-pa.googleapis.com
@@ -2251,7 +2225,6 @@
 0.0.0.0 datacollector-drcn.dt.hicloud.com
 0.0.0.0 dataflow.biliapi.com
 0.0.0.0 datahub.oceanengine.com
-0.0.0.0 datahub.zhihu.com
 0.0.0.0 datasink.dxmpay.com
 0.0.0.0 datasink.paydxm.com
 0.0.0.0 datax.baidu.com
@@ -2505,6 +2478,7 @@
 0.0.0.0 emoticon.sns.iqiyi.com
 0.0.0.0 ems.cp31.ott.cibntv.net
 0.0.0.0 encounter.bz.mgtv.com
+0.0.0.0 enduser.adsrvr.org
 0.0.0.0 engine.data.cnzz.com
 0.0.0.0 engine.liandaomobi.com
 0.0.0.0 engine.lvehaisen.com
@@ -2705,6 +2679,7 @@
 0.0.0.0 gateway2-tcp-spam.soulapp.cn
 0.0.0.0 gatewayretry.kugou.com
 0.0.0.0 gatewayretry.kugou.com  #不知道什么的广告，抓包到好多ad、ads字符，副作用也未知。
+0.0.0.0 gator.volces.com  #kimi智能助手v2.1.0左右首次运行没网，2.1.3之后没事了。
 0.0.0.0 gavpn.getui.com
 0.0.0.0 gb.corp.163.com
 0.0.0.0 gcdsdk.appsflyer.com
@@ -2748,7 +2723,6 @@
 0.0.0.0 geocdn.unityads.unity3d.com
 0.0.0.0 geofence.sys.miui.com
 0.0.0.0 getui.igexin.com
-0.0.0.0 gew1.ap.spotify.com
 0.0.0.0 geyan.getui.com
 0.0.0.0 gezhen-api.getui.com
 0.0.0.0 gg.kugou.com
@@ -2866,14 +2840,6 @@
 0.0.0.0 hd2.3g.qq.com
 0.0.0.0 hdj.baidu.com
 0.0.0.0 hdns.ksyun.com
-0.0.0.0 heads-ak.spotify.com
-0.0.0.0 heads-akp.spotify.com
-0.0.0.0 heads-cf.spotify.com
-0.0.0.0 heads-ec.spotify.com
-0.0.0.0 heads-fa.scdn.co
-0.0.0.0 heads-fa.spotify.com
-0.0.0.0 heads-fab.spotify.com
-0.0.0.0 heads-fac.spotify.com
 0.0.0.0 help.cnzz.com
 0.0.0.0 help.fenxi.cnzz.com
 0.0.0.0 henzanapp.com
@@ -3217,7 +3183,6 @@
 0.0.0.0 ipm.atm.youku.com
 0.0.0.0 ipt.qchannel03.cn
 0.0.0.0 ipv4.gdt.qq.com
-0.0.0.0 ipv4.scdnco.spotify.map.fastly.net
 0.0.0.0 ipv4.shuzilm.cn
 0.0.0.0 ipv6.kg.qq.com
 0.0.0.0 ipv6.shuzilm.cn
@@ -3273,8 +3238,6 @@
 0.0.0.0 jd.sundxs.com
 0.0.0.0 jd.wxnmvwb.cn
 0.0.0.0 jd.zxsmxt.com
-0.0.0.0 jefes-ec.spotify.com
-0.0.0.0 jefes-fa.scdn.co
 0.0.0.0 jellyfish.pandora.xiaomi.com
 0.0.0.0 jenkins.tradplusad.com
 0.0.0.0 jfapi.chiq-cloud.com
@@ -3385,7 +3348,6 @@
 0.0.0.0 league1.maoyuncloud.cn
 0.0.0.0 learn.appsflyer.com
 0.0.0.0 learn.chaoxing.com
-0.0.0.0 lens.zhihu.com
 0.0.0.0 letv-mipdx.cn.miaozhen.com
 0.0.0.0 letv.axp.admaster.com.cn
 0.0.0.0 letv.ipdx.cn.miaozhen.com
@@ -3423,7 +3385,6 @@
 0.0.0.0 life.html5.qq.com
 0.0.0.0 line1-log.biligame.net
 0.0.0.0 link.1905.com
-0.0.0.0 links.spotify.com
 0.0.0.0 lite.a.market.xiaomi.com
 0.0.0.0 live-ads.huya.com
 0.0.0.0 live-s3m.mediav.com
@@ -3485,7 +3446,6 @@
 0.0.0.0 log.skysrt.com
 0.0.0.0 log.sms.mob.com
 0.0.0.0 log.snssdk.com.bytedns.net
-0.0.0.0 log.spotify.com
 0.0.0.0 log.stat.kugou.com
 0.0.0.0 log.tagtic.cn
 0.0.0.0 log.tagtic.cn 
@@ -3502,7 +3462,6 @@
 0.0.0.0 log1.cmpassport.com
 0.0.0.0 log1wtlogin.qq.com
 0.0.0.0 log2.air.yoyi.com.cn
-0.0.0.0 log2.spotify.com
 0.0.0.0 log3-applog-hl.fqnovel.com
 0.0.0.0 log3-misc-lq.amemv.com
 0.0.0.0 log3-normal-lq.toutiaoapi.com
@@ -3525,7 +3484,6 @@
 0.0.0.0 logservice1.hicloud.com
 0.0.0.0 logstat.caixin.com
 0.0.0.0 logtj.kugou.com
-0.0.0.0 lon6-accesspoint-a33.lon6.spotify.com
 0.0.0.0 ls.l.qq.com
 0.0.0.0 lstat.youku.com
 0.0.0.0 lupic.cdn.bcebos.com
@@ -3535,7 +3493,6 @@
 0.0.0.0 m-adnet.dutils.com
 0.0.0.0 m-adnet.hiaiabc.com
 0.0.0.0 m-adnet.hiaiabc.com  #转转用
-0.0.0.0 m-cloud.zhihu.com
 0.0.0.0 m-game.book.qq.com
 0.0.0.0 m-mpl.hiaiabc.com
 0.0.0.0 m-vali.cp31.ott.cibntv.net
@@ -3820,7 +3777,6 @@
 0.0.0.0 mp.bz.mgtv.com
 0.0.0.0 mp.huangye.miui.com
 0.0.0.0 mp.umeng.com
-0.0.0.0 mp3ad.scdn.co
 0.0.0.0 mparticle.uc.cn
 0.0.0.0 mpcs.suning.com
 0.0.0.0 mpcs.suning.com  #苏宁易购
@@ -3830,8 +3786,6 @@
 0.0.0.0 mqqadr.reader.qq.com
 0.0.0.0 mqqadr.showreader.qq.com
 0.0.0.0 mqqeve.beacon.qq.com
-0.0.0.0 mqtt-internal-public.zhihu.com
-0.0.0.0 mqtt.zhihu.com
 0.0.0.0 mr.da.netease.com
 0.0.0.0 ms.applovin.com
 0.0.0.0 ms.applvn.com
@@ -4193,8 +4147,6 @@
 0.0.0.0 pangolin16.sgsnssdk.com
 0.0.0.0 paopao-monitor.iqiyi.com
 0.0.0.0 paopao.iqiyi.com
-0.0.0.0 partner-service-testing.spotify.com
-0.0.0.0 partner-service.spotify.com
 0.0.0.0 partner.googleadservices.com
 0.0.0.0 partner.oceanengine.com
 0.0.0.0 partner.toutiao.com
@@ -4206,7 +4158,6 @@
 0.0.0.0 passport.umeng.com
 0.0.0.0 pasta.esfile.duapps.com
 0.0.0.0 patriot.cs.pp.cn
-0.0.0.0 payment-callback.spotify.com
 0.0.0.0 pb.hd.sohu.com.cn
 0.0.0.0 pb.sogou.com
 0.0.0.0 pb3.pstatp.com
@@ -4215,7 +4166,6 @@
 0.0.0.0 pcauto.irs01.com
 0.0.0.0 pcbrowser.dd.qq.com
 0.0.0.0 pcd.autohome.com.cn
-0.0.0.0 pci.spotify.com
 0.0.0.0 pclick.yahoo.com
 0.0.0.0 pcookie.cnzz.com
 0.0.0.0 pcookie.tanx.com
@@ -4263,7 +4213,6 @@
 0.0.0.0 pitaya.bytedance.com
 0.0.0.0 pixel.adsafeprotected.com
 0.0.0.0 pixel.facebook.com
-0.0.0.0 pixel.spotify.com
 0.0.0.0 pixel.tapad.com
 0.0.0.0 pixon.ads-pixiv.net
 0.0.0.0 pkg.toponad.com
@@ -4332,9 +4281,6 @@
 0.0.0.0 prod-ms.applovin.com
 0.0.0.0 prod-ms4.applovin.com
 0.0.0.0 prod-pdx-beacon-1406086907.us-west-2.elb.amazonaws.com
-0.0.0.0 prod.spotify-heads.map.fastlylb.net
-0.0.0.0 prod.spotify.map.fastly.net
-0.0.0.0 prod.spotify.map.fastlylb.net
 0.0.0.0 prom.b.qq.com
 0.0.0.0 promote.caixin.com
 0.0.0.0 promotion-partner.kuaishou.com
@@ -4468,7 +4414,6 @@
 0.0.0.0 qtsftl.m.cn.miaozhen.com
 0.0.0.0 qtt.ads.8le8le.com
 0.0.0.0 quanjing.cnzz.com
-0.0.0.0 quicksilver.scdn.co
 0.0.0.0 qwapi.apple.com
 0.0.0.0 qy.qchannel03.cn
 0.0.0.0 qzpb.qq.com
@@ -5079,7 +5024,6 @@
 0.0.0.0 splashimgbssdl.yun.kugou.com
 0.0.0.0 splashimgretrybssdl.cloud.kugou.com
 0.0.0.0 splashqqlive.gtimg.com
-0.0.0.0 spotify-desktop.com
 0.0.0.0 spt.qchannel03.cn
 0.0.0.0 sqdd.myapp.com
 0.0.0.0 sqm.df.telemetry.microsoft.com
@@ -5209,8 +5153,6 @@
 0.0.0.0 stm-collect.cn.miaozhen.com
 0.0.0.0 stm.cn.miaozhen.com
 0.0.0.0 stnetsdk.vivo.com.cn
-0.0.0.0 sto3-accesspoint-a88.sto3.spotify.net
-0.0.0.0 sto3.spotify.com
 0.0.0.0 storage-public.zhaopin.cn
 0.0.0.0 storage.moegirl.org.cn
 0.0.0.0 store.is.autonavi.com
@@ -5228,7 +5170,6 @@
 0.0.0.0 study.snapads.com
 0.0.0.0 su.bdimg.com
 0.0.0.0 su.bdstatic.com
-0.0.0.0 sugar.zhihu.com
 0.0.0.0 sugs.m.sm.cn
 0.0.0.0 support.appsflyer.com
 0.0.0.0 support.umeng.com
@@ -5556,7 +5497,6 @@
 0.0.0.0 u-sdk-track.domob.cn
 0.0.0.0 u-x.jd.com
 0.0.0.0 u.l.qq.com
-0.0.0.0 u.scdn.co
 0.0.0.0 u.ssp.admobile.top
 0.0.0.0 u.uc123.com
 0.0.0.0 u.ucfly.com
@@ -5660,6 +5600,7 @@
 0.0.0.0 update.wtzw.com  #更新？
 0.0.0.0 update0.aiclk.com
 0.0.0.0 update0.qquanquan.com
+0.0.0.0 update0.qquanquan.com  #韩小圈更新？
 0.0.0.0 update01.skyworth-cloud.com
 0.0.0.0 update01.skyworth-cloud.com.wswebpic.com
 0.0.0.0 updatecenter.qq.com
@@ -5669,8 +5610,6 @@
 0.0.0.0 upgrade.mishop.pandora.xiaomi.com
 0.0.0.0 upgrade.ptmi.gitv.tv
 0.0.0.0 upgrade.ptmi.gitv.tv  #小米电视升级
-0.0.0.0 upgrade.scdn.co
-0.0.0.0 upgrade.spotify.com
 0.0.0.0 upload.aiclk.com
 0.0.0.0 upload.gifshow.com
 0.0.0.0 upload.juxiao.mediav.com
@@ -5764,7 +5703,6 @@
 0.0.0.0 v3-linkchat.oceanengine.com
 0.0.0.0 v3.gdt.qq.com
 0.0.0.0 v4-lm.adukwai.com
-0.0.0.0 v4-only.eip-ntt.audio-ak.spotify.com.akahost.net
 0.0.0.0 v4.cnzz.com
 0.0.0.0 v6-api-c.dutils.com
 0.0.0.0 v6-api-d.dutils.com
@@ -5834,13 +5772,9 @@
 0.0.0.0 vhotlxp.video.qq.com
 0.0.0.0 vid.applovin.com
 0.0.0.0 video-ad-stats.googlesyndication.com
-0.0.0.0 video-akp-cdn-spotify-com.akamaized.net
 0.0.0.0 video-cn.oceanengine.com
 0.0.0.0 video-cn.snssdk.com
 0.0.0.0 video-dsp.pddpic.com
-0.0.0.0 video-fa-b.cdn.spotify.com
-0.0.0.0 video-fa.cdn.spotify.com
-0.0.0.0 video-fa.scdn.co
 0.0.0.0 video.dispatch.tc.qq.com
 0.0.0.0 video.market.xiaomi.com
 0.0.0.0 video.mediav.com
@@ -5961,7 +5895,6 @@
 0.0.0.0 webcast3-normal-c-lf.amemv.com
 0.0.0.0 webcast5-normal-lf.amemv.com
 0.0.0.0 webcast5-open-lf.douyin.com
-0.0.0.0 weblb-wg.gslb.spotify.com
 0.0.0.0 weblog.html5.qq.com
 0.0.0.0 webmail.miaozhen.com
 0.0.0.0 websdk.appsflyer.com
@@ -6041,7 +5974,6 @@
 0.0.0.0 www.anythinktech.com
 0.0.0.0 www.applovin.com
 0.0.0.0 www.appsflyer.com
-0.0.0.0 www.audio2.spotify.com
 0.0.0.0 www.baifubao.com
 0.0.0.0 www.bayescom.com
 0.0.0.0 www.beizi.biz
@@ -6092,7 +6024,6 @@
 0.0.0.0 www.qchannel03.cn
 0.0.0.0 www.shuzilm.cn
 0.0.0.0 www.sigmob.com
-0.0.0.0 www.spotify-desktop.com
 0.0.0.0 www.supersonicads.com
 0.0.0.0 www.taboola.com
 0.0.0.0 www.tingyun.com
@@ -6230,8 +6161,6 @@
 0.0.0.0 zhan.cnzz.com
 0.0.0.0 zhanzhang.cnzz.com
 0.0.0.0 zhanzhang.toutiao.com
-0.0.0.0 zhihu-analytics.zhihu.com
-0.0.0.0 zhihu-web-analytics.zhihu.com
 0.0.0.0 zhizi.qq.com
 0.0.0.0 zixuncooperation.html5.qq.com
 0.0.0.0 zjres-ad.kajicam.com
@@ -6272,17 +6201,17 @@
 13.107.42.16                  pipelines.actions.githubusercontent.com
 13.107.42.16 pipelines.actions.githubusercontent.com
 140.82.112.18 github.community
-140.82.112.21                 collector.github.com
 140.82.112.25 live.github.com
-140.82.113.21                 central.github.com
+140.82.113.17                 github.community
+140.82.113.21                 collector.github.com
 140.82.113.21 collector.github.com
+140.82.113.22                 central.github.com
 140.82.113.22 central.github.com
 140.82.113.25                 alive.github.com
-140.82.113.26                 live.github.com
 140.82.113.26 alive.github.com
-140.82.114.18                 github.community
 140.82.114.21                 api.individual.githubcopilot.com
 140.82.114.21                 education.github.com
+140.82.114.25                 live.github.com
 140.82.116.3 gist.github.com
 142.250.115.188     alt6-mtalk.google.com
 142.250.141.188     alt2-mtalk.google.com
@@ -6294,7 +6223,6 @@
 146.75.121.194 github.global.ssl.fastly.net
 151.101.193.194               github.global.ssl.fastly.net
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.15.185.54                  github-cloud.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6308,23 +6236,6 @@
 183.136.207.132 ultimateota.d.miui.com
 184.85.65.125 steamcommunity.com
 184.85.65.125 www.steamcommunity.com
-185.199.109.133               avatars.githubusercontent.com
-185.199.109.133               avatars0.githubusercontent.com
-185.199.109.133               avatars1.githubusercontent.com
-185.199.109.133               avatars2.githubusercontent.com
-185.199.109.133               avatars3.githubusercontent.com
-185.199.109.133               avatars4.githubusercontent.com
-185.199.109.133               avatars5.githubusercontent.com
-185.199.109.133               camo.githubusercontent.com
-185.199.109.133               cloud.githubusercontent.com
-185.199.109.133               desktop.githubusercontent.com
-185.199.109.133               favicons.githubusercontent.com
-185.199.109.133               github.map.fastly.net
-185.199.109.133               media.githubusercontent.com
-185.199.109.133               objects.githubusercontent.com
-185.199.109.133               private-user-images.githubusercontent.com
-185.199.109.133               raw.githubusercontent.com
-185.199.109.133               user-images.githubusercontent.com
 185.199.109.154               github.githubassets.com
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
@@ -6343,12 +6254,29 @@
 185.199.110.133 raw.github.com
 185.199.110.133 raw.githubusercontent.com
 185.199.110.133 user-images.githubusercontent.com
-185.199.110.153               github.io
-185.199.110.153               githubstatus.com
 185.199.110.153 githubstatus.com
 185.199.110.153 lsposed.github.io
 185.199.110.153 topjohnwu.github.io
 185.199.110.154 github.githubassets.com
+185.199.111.133               avatars.githubusercontent.com
+185.199.111.133               avatars0.githubusercontent.com
+185.199.111.133               avatars1.githubusercontent.com
+185.199.111.133               avatars2.githubusercontent.com
+185.199.111.133               avatars3.githubusercontent.com
+185.199.111.133               avatars4.githubusercontent.com
+185.199.111.133               avatars5.githubusercontent.com
+185.199.111.133               camo.githubusercontent.com
+185.199.111.133               cloud.githubusercontent.com
+185.199.111.133               desktop.githubusercontent.com
+185.199.111.133               favicons.githubusercontent.com
+185.199.111.133               github.map.fastly.net
+185.199.111.133               media.githubusercontent.com
+185.199.111.133               objects.githubusercontent.com
+185.199.111.133               private-user-images.githubusercontent.com
+185.199.111.133               raw.githubusercontent.com
+185.199.111.133               user-images.githubusercontent.com
+185.199.111.153               github.io
+185.199.111.153               githubstatus.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -6390,8 +6318,10 @@
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
-3.5.23.181                    github-production-repository-file-5c1aeb.s3.amazonaws.com
+3.5.13.182                    github-cloud.s3.amazonaws.com
 3.5.28.146 github-com.s3.amazonaws.com
+3.5.30.182                    github-production-user-asset-6210df.s3.amazonaws.com
+3.5.7.110                     github-production-repository-file-5c1aeb.s3.amazonaws.com
 31.216.145.5 mega.nz
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
@@ -6406,13 +6336,12 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.210.249                github-com.s3.amazonaws.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
-52.217.137.57                 github-production-release-asset-2e65be.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-54.231.161.73                 github-production-user-asset-6210df.s3.amazonaws.com
+54.231.162.41                 github-com.s3.amazonaws.com
+54.231.169.9                  github-production-release-asset-2e65be.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 64.233.188.188 mtalk.google.com
@@ -6853,8 +6782,6 @@
 @@||bbs.mobileapi.hupu.com^$important
 @@||bce.baidu.com^
 @@||bcicl.*.evergage.com^|
-@@||bd1.zuimeitianqi.com^
-@@||bd2.zuimeitianqi.com^
 @@||bdsmtest.org^
 @@||bdsmtv.cc^
 @@||beian.miit.gov.cn^$important
@@ -7626,8 +7553,6 @@
 @@||home.focusatwill.com^|
 @@||home.m.duiba.com.cn^
 @@||honkaiimpact3.hoyoverse.com^
-@@||honor-h5.zuimeitianqi.com^
-@@||honor.zuimeitianqi.com^
 @@||hoopchina.com^$important
 @@||hosting24.com^
 @@||hosts-file.net^$important
@@ -7649,7 +7574,6 @@
 @@||huichuan.sm.cn^
 @@||huluxia.com^
 @@||huluxia.com^$important
-@@||hwinfo1.zuimeitianqi.com^
 @@||i.dell.com^
 @@||i.gtimg.cn^
 @@||i.gtimg.cn^$important
@@ -7778,7 +7702,6 @@
 @@||inews.gtimg.com^
 @@||inews.gtimg.com^$important
 @@||inews.gtimg.com^$important
-@@||info.zuimeitianqi.com^
 @@||infra-api.newrelic.com^|
 @@||ingest.sentry.io^$important
 @@||inporn.com^
@@ -8707,7 +8630,6 @@
 @@||s3.voicecloud.cn^
 @@||s3plus-img.meituan.net^
 @@||s3plus.meituan.net^
-@@||s7.zuimeitianqi.com^
 @@||saomiao.51240.com^$important
 @@||saomiao.bmcx.com^$important
 @@||saucenao.com^
