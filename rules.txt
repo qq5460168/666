@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-30 18:10:28（北京时间）
+! Version: 2025-05-30 20:17:19（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 19290
+! Total count: 19294
 
  
 *.lijie.*/*_*?$third-party
@@ -6200,18 +6200,18 @@
 13.107.246.73                 vscode.dev  # Timeout
 13.107.42.16                  pipelines.actions.githubusercontent.com
 13.107.42.16 pipelines.actions.githubusercontent.com
-140.82.112.18                 github.community
 140.82.112.18 github.community
+140.82.112.21                 api.individual.githubcopilot.com
+140.82.112.22                 central.github.com
+140.82.112.25                 live.github.com
 140.82.112.25 live.github.com
-140.82.113.21                 education.github.com
+140.82.113.17                 github.community
 140.82.113.21 collector.github.com
-140.82.113.22                 central.github.com
-140.82.113.22                 collector.github.com
 140.82.113.22 central.github.com
-140.82.113.26                 alive.github.com
 140.82.113.26 alive.github.com
-140.82.114.22                 api.individual.githubcopilot.com
-140.82.114.26                 live.github.com
+140.82.114.21                 education.github.com
+140.82.114.22                 collector.github.com
+140.82.114.26                 alive.github.com
 140.82.116.3 gist.github.com
 142.250.115.188     alt6-mtalk.google.com
 142.250.141.188     alt2-mtalk.google.com
@@ -6223,8 +6223,6 @@
 146.75.121.194 github.global.ssl.fastly.net
 151.101.193.194               github.global.ssl.fastly.net
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.15.185.186                 github-production-user-asset-6210df.s3.amazonaws.com
-16.15.192.157                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6320,8 +6318,6 @@
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
-3.5.13.22                     github-cloud.s3.amazonaws.com
-3.5.27.95                     github-com.s3.amazonaws.com
 3.5.28.146 github-com.s3.amazonaws.com
 31.216.145.5 mega.nz
 3dmgame.com##.alertad
@@ -6337,11 +6333,15 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
+52.216.147.43                 github-production-release-asset-2e65be.s3.amazonaws.com
+52.216.239.131                github-production-user-asset-6210df.s3.amazonaws.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
-52.217.234.161                github-production-release-asset-2e65be.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.92.132                 github-com.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+54.231.130.65                 github-cloud.s3.amazonaws.com
+54.231.202.25                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 64.233.188.188 mtalk.google.com
@@ -10534,6 +10534,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||8le8le.com^
 ||8mhcc.top^
 ||8pjqjxmr.com^
+||8rn1y79f02-1.algolianet.com^
 ||8suis.top^
 ||90fcw.cn^
 ||90mh.com/mip/qdbao77.js
@@ -10727,6 +10728,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ad-sdk.lenovomm.com^
 ||ad-sh-sz-zb.wagbridge.tanx.alimama.com.gds.alibabadns.com^
 ||ad-sh-sz-zb.wagbridge.tanx.alimama.com^
+||ad-splash-tracking.hktvmall.com^
+||ad-splash.hktvmall.com^
 ||ad-ssp-engine-qa-ct.soulapp-inc.cn^
 ||ad-static.ssread.cn^
 ||ad-survey.com^
@@ -14783,6 +14786,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||liugaohao.com^
 ||liuyimin5.cn^
 ||liuyingtv.com/common/api_getAcode.php
+||live-api.hktvmall.com^
 ||live13.socket.tw^$important
 ||live19.socket.tw^$important
 ||live22.socket.tw^$important

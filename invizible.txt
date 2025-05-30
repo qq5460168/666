@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-30 18:10:28（北京时间）
+! Version: 2025-05-30 20:17:19（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8630
+! Total count: 8634
 # Title: Invizible Pro Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
@@ -627,6 +627,7 @@
 8le8le.com
 8mhcc.top
 8pjqjxmr.com
+8rn1y79f02-1.algolianet.com
 8suis.top
 90fcw.cn
 90nw.com
@@ -805,6 +806,8 @@ ad-sdk.huxiu.com
 ad-sdk.lenovomm.com
 ad-sh-sz-zb.wagbridge.tanx.alimama.com
 ad-sh-sz-zb.wagbridge.tanx.alimama.com.gds.alibabadns.com
+ad-splash-tracking.hktvmall.com
+ad-splash.hktvmall.com
 ad-ssp-engine-qa-ct.soulapp-inc.cn
 ad-static.ssread.cn
 ad-survey.com
@@ -4549,6 +4552,7 @@ lite.a.market.xiaomi.com
 littlecdn.com
 liugaohao.com
 liuyimin5.cn
+live-api.hktvmall.com
 liveats-vod.video.iqiyi.com
 liveats-vod.video.ptqy.gitv.tv
 livec.l.qq.com
