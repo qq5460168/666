@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-02 22:10:15（北京时间）
+! Version: 2025-06-03 00:12:22（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3147
+! Total count: 3136
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -237,19 +237,14 @@
 @@||ad-gone.com^
 @@||ad-log-upload.mihoyo.com^
 @@||ad-putting.gw.zt-express.com^
-@@||ad.10010.com^
-@@||ad.abchina.com^
 @@||ad.azure.com^
 @@||ad.cityu.edu.hk^
 @@||ad.doubleclick.net^
-@@||ad.kazakinfo.com^
 @@||ad.mcloud.139.com^$important
-@@||ad.ourgame.com^
 @@||ad.siemens.com.cn^
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
 @@||adashbc.ut.taobao.com^$important
 @@||adashx.m.taobao.com^$important
-@@||adcdn.pingan.com^
 @@||adidasapp.api.adidas.com.cn^$important
 @@||adl.windows.com^$important
 @@||admin.microsoft.com^$important
@@ -260,7 +255,6 @@
 @@||ads.taboola.com^
 @@||adv.ccb.com^
 @@||adv.sec.miui.com^$important
-@@||advert.kf5.com^
 @@||advertisement.taobao.com^
 @@||aegis.qq.com^$important
 @@||aeventlog.beacon.qq.com^$important
@@ -332,7 +326,6 @@
 @@||api-unionid.meituan.com^$important
 @@||api.account.xiaomi.com^
 @@||api.account.xiaomi.com^$important
-@@||api.ads.tvb.com^
 @@||api.airpush.com^
 @@||api.amemv.com^$important
 @@||api.apple-cloudkit.com^$important
@@ -402,7 +395,6 @@
 @@||apk-packaging.tapimg.com^
 @@||apm.zhihu.com^
 @@||apmfront.17u.cn^$important
-@@||app-advertise.zhihuishu.com^
 @@||app-api.pixiv.net^$important
 @@||app-api.smzdm.com^$important
 @@||app-measurement.com^$important
@@ -552,7 +544,6 @@
 @@||btrace.qq.com^$important
 @@||bucket-ynote-online-cdn.note.youdao.com^$important
 @@||business.apple.com^$important
-@@||buyad.bi-xenon.cn^
 @@||bytedanceapi.com^
 @@||byteimg.com.queniusy.com^
 @@||c.58cdn.com.cn^
@@ -580,7 +571,6 @@
 @@||callback.58.com^
 @@||campus.163.com^
 @@||captcha-gray.zt.kuaishou.com^
-@@||captcha.su.baidu.com^
 @@||captcha.zt.kuaishou.com^
 @@||captive.apple.com^$important
 @@||card-paopao.iqiyi.com^$important
@@ -1370,7 +1360,6 @@
 @@||img-l3.xnxx-cdn.com^
 @@||img-l3.xvideos-cdn.com^
 @@||img.360kuai.com^$important
-@@||img.ads.tvb.com^
 @@||img.alicdn.com^$important
 @@||img.client.10010.com^
 @@||img.cmvideo.cn^$important
