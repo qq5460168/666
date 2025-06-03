@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-03 18:10:59（北京时间）
+! Version: 2025-06-03 20:18:05（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 19119
+! Total count: 19140
 
  
 *.lijie.*/*_*?$third-party
@@ -6203,17 +6203,17 @@
 13.107.42.16                  pipelines.actions.githubusercontent.com
 13.107.42.16 pipelines.actions.githubusercontent.com
 140.82.112.18 github.community
-140.82.112.22                 central.github.com
+140.82.112.21                 api.individual.githubcopilot.com
+140.82.112.22                 education.github.com
 140.82.112.25 live.github.com
-140.82.113.21                 api.individual.githubcopilot.com
-140.82.113.21                 education.github.com
+140.82.113.18                 github.community
 140.82.113.21 collector.github.com
 140.82.113.22 central.github.com
+140.82.113.25                 alive.github.com
 140.82.113.26 alive.github.com
-140.82.114.18                 github.community
+140.82.114.21                 central.github.com
 140.82.114.21                 collector.github.com
-140.82.114.25                 live.github.com
-140.82.114.26                 alive.github.com
+140.82.114.26                 live.github.com
 140.82.116.3 gist.github.com
 142.250.115.188     alt6-mtalk.google.com
 142.250.141.188     alt2-mtalk.google.com
@@ -6225,6 +6225,7 @@
 146.75.121.194 github.global.ssl.fastly.net
 151.101.193.194               github.global.ssl.fastly.net
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
+16.15.200.193                 github-production-release-asset-2e65be.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6321,8 +6322,6 @@
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
 3.5.28.146 github-com.s3.amazonaws.com
-3.5.6.161                     github-production-user-asset-6210df.s3.amazonaws.com
-3.5.8.191                     github-com.s3.amazonaws.com
 31.216.145.5 mega.nz
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
@@ -6337,13 +6336,14 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.138.179                github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.216.219.225                github-production-release-asset-2e65be.s3.amazonaws.com
-52.216.38.193                 github-cloud.s3.amazonaws.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
+52.217.205.129                github-cloud.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+54.231.128.1                  github-com.s3.amazonaws.com
+54.231.140.185                github-production-user-asset-6210df.s3.amazonaws.com
+54.231.197.129                github-production-repository-file-5c1aeb.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 64.233.188.188 mtalk.google.com
@@ -6838,7 +6838,6 @@
 @@||cdn.jsdelivr.net^$important
 @@||cdn.pinduoduo.com^
 @@||cdn.plyr.io^
-@@||cdn.staticfile.org^
 @@||cdn.staticfile.org^$important
 @@||cdn.staticfile.org^$important
 @@||cdn.tiantiantiaosheng.com^
@@ -6966,7 +6965,6 @@
 @@||cn.register.xmpush.xiaomi.com^
 @@||cn.ultraiso.net^$important
 @@||cn.uptodown.com^
-@@||cnbj1-new.fds.api.xiaomi.com^
 @@||cnbj1.fds.api.xiaomi.com^
 @@||cnbj1.fds.api.xiaomi.com^$important
 @@||cnlogin.cainiao.com^
@@ -7352,6 +7350,7 @@
 @@||gift.douyucdn.cn^
 @@||gift.douyucdn.cn^$important
 @@||gips2.baidu.com^
+@@||gist.github.com^
 @@||git-scm.com^
 @@||gitcode.com^
 @@||gitee.com^
@@ -7465,6 +7464,7 @@
 @@||hub.docker.com^
 @@||hub5btmain.sandai.net^
 @@||hub5btmain.v6.shub.sandai.net^
+@@||hub5idx.v6.shub.sandai.net^
 @@||hub5pn.wap.sandai.net^
 @@||hudong.alicdn.com^$important
 @@||hugelog.fcbox.com^$important
@@ -7568,6 +7568,7 @@
 @@||img.ssl.msdk.qq.com^
 @@||img.tapimg.com^
 @@||img.tg.37wan.com^$important
+@@||img.youpin.mi-img.com^
 @@||img.zuoyebang.cc^$important
 @@||img01.sogoucdn.com^
 @@||img02.sogoucdn.com^
@@ -7758,6 +7759,8 @@
 @@||lhl.zxcs.linghit.com^$important
 @@||liangcang-material.alicdn.com^
 @@||liangcang-material.alicdn.com^$important
+@@||lib.sinaapp.com^
+@@||lifemakeovermysg.archosaur.com^
 @@||lightnovel.us^
 @@||limbopro.com^$important
 @@||limestart.cn^
@@ -7822,6 +7825,7 @@
 @@||m.client.10010.com^
 @@||m.ctrip.com^
 @@||m.dianping.com^
+@@||m.down.sandai.net^
 @@||m.ds.163.com^
 @@||m.dxy.com^
 @@||m.facebook.com^
@@ -7858,6 +7862,7 @@
 @@||m.video.xiaomi.com^$important
 @@||m.vmall.com^
 @@||m.xiachufang.com^
+@@||m.xunlei.com^
 @@||m.yjwujian.cn^
 @@||m.ykimg.com^
 @@||m.ykimg.com^$important
@@ -7878,6 +7883,7 @@
 @@||m801.music.126.net^
 @@||ma*-normal-lf.zijieapi.com^
 @@||mac.bmcx.com^
+@@||mac.xunlei.com^
 @@||mai.91kami.com^
 @@||mai.pinduoduo.com^
 @@||mail.163.com^
@@ -7994,6 +8000,7 @@
 @@||mobile.ximalaya.com^
 @@||mobile.ximalaya.com^$important
 @@||mobile.ximalaya.com^$important
+@@||mobile.xunlei.com^
 @@||mobile.yangkeduo.com^
 @@||mobile.yangkeduo.com^$important
 @@||mobilelog.kugou.com^
@@ -8020,6 +8027,7 @@
 @@||ms.vipstatic.com^$important
 @@||ms.vipstatic.com^$important
 @@||msdk.qq.com^$important
+@@||msdn.itellyou.cn^
 @@||mse.360.cn^
 @@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^
 @@||msedown.360safe.com^
@@ -8043,6 +8051,7 @@
 @@||my.cainiao.com^
 @@||myquark.cn^
 @@||myquark.cn^$important
+@@||mystyle.archosaur.com^
 @@||myun.tenpay.com^$important
 @@||n*-lf*-dy-ncdn-tos-sub.bytegecko.com^
 @@||n*-lf-webcast-cdn-tos-ncdn.bytegecko.com^
@@ -8051,6 +8060,7 @@
 @@||n0va.mihoyo.com^
 @@||na1r.services.adobe.com^
 @@||na61-na62.wagbridge.alibaba.tanx.com^
+@@||nas.xunlei.com^
 @@||nav.browser.miui.com^
 @@||nav.porsche.com^
 @@||ncomment.kuwo.cn^
@@ -8066,6 +8076,7 @@
 @@||news.qq.com^
 @@||news.sina.com.cn^
 @@||newvip-cdn.zhhainiao.com^
+@@||next.itellyou.cn^
 @@||nhentai.com^
 @@||nhentai.net^
 @@||nileapi.market.xiaomi.com^$import
@@ -8249,6 +8260,7 @@
 @@||pbaccess.video.qq.com^$important
 @@||pbs.twimg.com^
 @@||pbs.twimg.com^$important
+@@||pc.xunlei.com^
 @@||pcvideoaliyun.titan.mgtv.com^$important
 @@||pda.jd.com^$important
 @@||pdc.micloud.xiaomi.net^$important
@@ -8314,6 +8326,7 @@
 @@||polaris.zijieapi.com^
 @@||policy.jd.com^$important
 @@||pool.v6.bt.n0808.com
+@@||pool.v6.bt.n0808.com^
 @@||porkbun.com^
 @@||porntop.com^
 @@||pornzog.com^
@@ -8638,6 +8651,7 @@
 @@||static.iask.cn^$important
 @@||static.iqiyi.com^
 @@||static.iqiyi.com^$important
+@@||static.itellyou.cn^
 @@||static.miraheze.org^
 @@||static.pddpic.com^
 @@||static.qiyi.com^$important
@@ -8808,6 +8822,7 @@
 @@||tv.2345.com^
 @@||tv.2345.com^$important
 @@||tv.sohu.com^
+@@||tv.xunlei.com^
 @@||tvapp.hpplay.cn^
 @@||tvepg.pandora.xiaomi.com^$important
 @@||twitter.com^
@@ -9119,6 +9134,7 @@
 @@||www.mercedes-benz.com.cn^
 @@||www.mercedes-benz.com^
 @@||www.mhzd.net^
+@@||www.mi.com^
 @@||www.mini1.cn^
 @@||www.mousouzoku-av.com^
 @@||www.msftconnecttest.com^
@@ -9151,6 +9167,8 @@
 @@||www.taobao.com^
 @@||www.taptap.cn^
 @@||www.taptap.io^
+@@||www.tencent.com^
+@@||www.tencent.net.cn^
 @@||www.tiantiantiaosheng.com^
 @@||www.toutiao.com^
 @@||www.tudou.com^$important
@@ -9160,8 +9178,10 @@
 @@||www.xanimeporn.com^
 @@||www.xiachufang.com^
 @@||www.xiaohongshu.com^
+@@||www.xiaomiyoupin.com^
 @@||www.ximalaya.com^
 @@||www.xnxx.com^
+@@||www.xunlei.com^
 @@||www.xvideos.com^
 @@||www.xvideos.com^$important
 @@||www.yidianzixun.com^
@@ -9193,6 +9213,7 @@
 @@||x19.update.netease.com^
 @@||x6img.com^
 @@||xhslink.com^$important
+@@||xiaomiev.com^
 @@||xiaoshuo.wtzw.com^$important
 @@||xifuquan.com^
 @@||xj-n-tax.gov.cn^
