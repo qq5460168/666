@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-04 08:46:59（北京时间）
+! Version: 2025-06-04 11:10:57（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8577
+! Total count: 8633
 # AdClose 专用广告规则
 # 格式：domain, <域名>
 domain, *-*-*-lrycfv.vip
@@ -26,6 +26,10 @@ domain, *-launches.appsflyersdk.com
 domain, *.*-t0613.vip
 domain, *.01fwzb.com
 domain, *.1l036o.com
+domain, *.233leyuan.cn
+domain, *.233leyuan.com
+domain, *.233lyly.cn
+domain, *.233lyly.com
 domain, *.2b4dlx.com
 domain, *.2wa9vg.com
 domain, *.31xx958d.cc
@@ -79,6 +83,7 @@ domain, *.fohbgjv.com
 domain, *.fokm37.cn
 domain, *.ft33t3w.pro
 domain, *.g0d679.com
+domain, *.g9hc4.cn
 domain, *.gamecenter.qq.com
 domain, *.gdolr.cn
 domain, *.gdt.qq.com
@@ -333,6 +338,7 @@ domain, 190cf04368dc7ae46gg.ul2tos.cn
 domain, 1dfsdfg.com
 domain, 1fr1.t325omy.vip
 domain, 1hkv85.gdxlks.cn
+domain, 1hzopx6nz7.adobe.io
 domain, 1iuybpo.com
 domain, 1jc5t.xyz
 domain, 1kanz.cn
@@ -390,6 +396,7 @@ domain, 2cm.fullstack.vip
 domain, 2cursjb.com
 domain, 2dctkld.com
 domain, 2e7zgbpky6h.chinese.freecodecamp.org
+domain, 2ftem87osk.adobe.io
 domain, 2fzn4.xyz
 domain, 2g9x9uf.cn
 domain, 2jse6.icu
@@ -581,6 +588,7 @@ domain, 7kjiiu.cn
 domain, 7li0ohd.com
 domain, 7qo2met.com
 domain, 7r227ut.cn
+domain, 7sj9n87sls.adobe.io
 domain, 7xixi.site
 domain, 7zz3maneujdf.me
 domain, 8122888tp.com
@@ -755,6 +763,7 @@ domain, acsc10.com
 domain, acscdn.com
 domain, act.qq.com
 domain, actfile.cdn.pandora.xiaomi.com
+domain, activation.cyberlink.com
 domain, activeqq.3g.qq.com
 domain, activity-ag.awemeughun.com
 domain, activity.baidu.com
@@ -1334,6 +1343,7 @@ domain, akmh074.vip
 domain, akmh080.vip
 domain, aldkfsd.cn
 domain, alemu4s.com
+domain, alert.kuyun.com
 domain, alexanbelen.com
 domain, alfpair.com
 domain, ali-ad.a.yximgs.com
@@ -1513,6 +1523,7 @@ domain, api.fu.xcultur.com
 domain, api.globalphone.hismarttv.com
 domain, api.higame.hismarttv.com
 domain, api.hismarttv.com
+domain, api.hpplay.com.cn
 domain, api.htp.hubcloud.com.cn
 domain, api.hzsanjiaomao.com
 domain, api.iegadp.qq.com
@@ -1733,6 +1744,7 @@ domain, b269.photo.store.qq.com
 domain, b2xy4m.xyz
 domain, b4g7k9d2.com
 domain, b59.xyz
+domain, b5kbg2ggog.adobe.io
 domain, b5v0m3q8.com
 domain, b5zzr.cc
 domain, b9b2oe8720j.xyz
@@ -1860,6 +1872,7 @@ domain, bidtoolads.com
 domain, bieqpf.cn
 domain, biexsite.net
 domain, bifyeldv.top
+domain, bigcloud.cyou
 domain, bigcood.xyz
 domain, bigdatacloud.net
 domain, bihaipack.com
@@ -2015,6 +2028,7 @@ domain, c.sayhi.360.cn
 domain, c.sm.cn
 domain, c.ssp.qq.com
 domain, c.tobidad.cn
+domain, c.tpgjb.top
 domain, c.vserv.mobi
 domain, c.wkanx.com
 domain, c0.ifengimg.com
@@ -2032,6 +2046,8 @@ domain, cache.gaode.com
 domain, cache.wuji.qq.com
 domain, caclick.qq.com
 domain, cad.youku.com
+domain, cai-identity.adobe.io
+domain, cai-splunk-proxy.adobe.io
 domain, caider.fun
 domain, caimei.me
 domain, caimlkh.com
@@ -2049,6 +2065,7 @@ domain, canvas.gdt.qq.com
 domain, cao-gao.xyz
 domain, caomeixz7.xyz
 domain, caopanshou.top
+domain, cap.cyberlink.com
 domain, captivias.site
 domain, carbonads.com
 domain, cards-css.iqiyi.com
@@ -2069,18 +2086,21 @@ domain, cbu01.alicdn.com
 domain, cc-316.cc
 domain, cc-algo-cn.heytapimage.com
 domain, cc-api-data.adobe.io
+domain, cc-cdn.adobe.com
 domain, cc-img-cn.heytapimage.com
 domain, cc.m.jd.com
 domain, ccav.website
 domain, ccc-x.jd.com
 domain, ccc.x.jd.com
 domain, cchvc.net
+domain, cclibraries-defaults-cdn.adobe.com
 domain, ccmsupport-sz.tenpay.com
 domain, ccnim.xyz
 domain, ccportal.iad.apple.com
 domain, ccs.cdocker401.com
 domain, ccs.umeng.com
 domain, cctv.adsunion.com
+domain, cctypekit.adobe.io
 domain, cdbaidu.com
 domain, cdcqee.com
 domain, cddp-track.aligames.com
@@ -2206,6 +2226,7 @@ domain, ciwztm.memto18908.cc
 domain, cix0wk.com
 domain, cj.qidian.com
 domain, cjgdch.com
+domain, cjhd.mediav.com
 domain, ck.ads.heytapmobi.com
 domain, ck.ads.oppomobile.com
 domain, ck33.top
@@ -2344,6 +2365,7 @@ domain, criteo.net
 domain, crobotb.com
 domain, cross-ad-api.afunapp.com
 domain, crs.baidu.com
+domain, crs.cr.adobe.com
 domain, cryy.vip
 domain, cs-feige.iqiyi.com
 domain, cs.iadsdk.apple.com
@@ -2661,6 +2683,7 @@ domain, doiney.pandasone.com
 domain, dojyiu8.com
 domain, domain.aishengji.com
 domain, domcwlxin.360doc.cn
+domain, domob.cn
 domain, donchen501.cn
 domain, dong.aeimmmj.cn
 domain, dongya.org
@@ -2693,6 +2716,7 @@ domain, dq06u9lt5akr2.cloudfront.net
 domain, dqazwsxd.xyz
 domain, dqcgkpp.icu
 domain, dqjojx.xyz
+domain, dragonparking.com
 domain, drawfxk.com
 domain, drcn-weather.cloud.huawei.com
 domain, dreamlikeverse.com
@@ -2757,6 +2781,7 @@ domain, dxlxjvmo.icu
 domain, dxp.baidu.com
 domain, dxqck.com
 domain, dxwsty.cn
+domain, dxyeyf6ecy.adobe.io
 domain, dxzky.love
 domain, dy44.live
 domain, dy47.live
@@ -2769,6 +2794,7 @@ domain, dykeep.com
 domain, dyp2p-ali.douyucdn.cn
 domain, dyp2p-hw.douyucdn.cn
 domain, dysohvv.com
+domain, dyzt55url8.adobe.io
 domain, dzfzfv.xyz
 domain, dzkwj0y.xyz
 domain, dzzt-video.cbread.cn
@@ -2883,6 +2909,7 @@ domain, eqqi.cn
 domain, eraaoec.cn
 domain, ercnrxa.cn
 domain, erfskhnpter.xyz
+domain, ergodicitytech.com
 domain, erjiyouhuiquan.com
 domain, erlirscid.com
 domain, err.ifengcloud.ifeng.com
@@ -2963,6 +2990,7 @@ domain, eyunossw.tymcdn.com
 domain, ezlgszdb.icu
 domain, ezraahdn.icu
 domain, ezu6rd5.houge.in
+domain, f.8fenxiang.com
 domain, f1tfmxzg.icu
 domain, f23jjd8.xyz
 domain, f3.1cecn.icu
@@ -3219,6 +3247,7 @@ domain, gentags.net
 domain, geo.settings-win.data.microsoft.com.akadns.net
 domain, geo.vortex.data.microsoft.com.akadns.net
 domain, geo.yahoo.com
+domain, geo2.adobe.com
 domain, geoparker.net
 domain, gepush.com
 domain, gepvgv.icu
@@ -3362,11 +3391,13 @@ domain, guohexinxiang.com
 domain, guomob.com
 domain, guqsqfmi.com
 domain, gushi.network
+domain, guzg78logz.adobe.io
 domain, guzsjdl.cn
 domain, gvbhae0.com
 domain, gvideo.qpic.cn
 domain, gw-w.jiaoliuqu.com
 domain, gw1jvhs.com
+domain, gw8gfjbsO5.adobe.io
 domain, gwertyuadf.com
 domain, gwg51.com
 domain, gwmrb.cn
@@ -3730,6 +3761,7 @@ domain, ibqkjbw.com
 domain, ibreeno.com
 domain, ibrowser.feeds.heytapmobi.com
 domain, ibwqfpo.xyz
+domain, ic.adobe.io
 domain, ic.snssdk.com
 domain, ichannel.snssdk.com
 domain, iciclle.com
@@ -4408,6 +4440,8 @@ domain, lbprjdi.cn
 domain, lbs.netease.im
 domain, lc-push.zhihu.com
 domain, lccfjszp.cn
+domain, lcs-cops.adobe.io
+domain, lcs-robs.adobe.io
 domain, lcs.baidu.com
 domain, lcsdk.3g.qq.com
 domain, ldjhlqr.cn
@@ -4569,6 +4603,7 @@ domain, lmxxxz.com
 domain, lnaevr.fun
 domain, lni8ivfm.dzxxtdub.com
 domain, lnzjlr.xyz
+domain, local.info.g9hc4.cn
 domain, localads.chengzijianzhan.cn
 domain, localads.chengzijianzhan.cn.queniurc.com
 domain, log*-misc-lf.amemv.com
@@ -5519,6 +5554,8 @@ domain, p1-play.kgslb.com
 domain, p1.adkwai.com
 domain, p10528-ad-server.ejoy.com
 domain, p11q.cn
+domain, p13n-mr.adobe.io
+domain, p13n.adobe.io
 domain, p2-ad.adbkwai.com
 domain, p2-ad.adkwai.com
 domain, p2-ad.adukwai.com
@@ -5566,6 +5603,7 @@ domain, p6-ad.byteimg.com
 domain, p6-be-pack-sign.pglstatp-toutiao.com
 domain, p6-ecom-qualification-sign.ecombdimg.com
 domain, p66-ad.adkwai.com
+domain, p7uxzbht8h.adobe.io
 domain, p9-ad-sign.byteimg.com
 domain, p9-be-pack-sign.pglstatp-toutiao.com
 domain, p9-developer-sign.bytemaimg.com
@@ -5654,9 +5692,12 @@ domain, pglstatp-snssdk-toutiao.com
 domain, pglstatp-snssdk.com
 domain, pglstatp-toutiao.com
 domain, pgy.xiaohongshu.com
+domain, ph0f2h2csf.adobe.io
+domain, phef2h2csf.adobe.io
 domain, phfqumvi.xyz
 domain, phnpush.iqiyi.com
 domain, phoorned.com
+domain, photos.adobe.io
 domain, photovideo-circle.photo.qq.com
 domain, phputils.wc-os.com
 domain, piaochong.co
@@ -5667,6 +5708,7 @@ domain, pic640.weishi.qq.com
 domain, pic7.iqiyipic.com
 domain, pic8.iqiyipic.com
 domain, picgg.idti.cn
+domain, picnewsss.com
 domain, pig.pupuapi.com
 domain, pimlog.baidu.com
 domain, pin.hpplay.cn
@@ -6058,6 +6100,7 @@ domain, recommender-launcher.hismarttv.com
 domain, redbaby.hk
 domain, referee.xiaohongshu.com
 domain, register.app.jpy.jp
+domain, registeridm.com
 domain, reksaidnslog.security.mihoyo.com
 domain, relafp.xyz
 domain, remfebd.cn
@@ -6222,13 +6265,21 @@ domain, s.union.360.cn
 domain, s0n9app.com
 domain, s1.hapying.com
 domain, s1.ssl.qhres.com
+domain, s1m.mediav.com
 domain, s2dcm.com
+domain, s2m.mediav.com
 domain, s2rkge.vmgikpw.com
 domain, s2s.adjust.cn
 domain, s2s.adjust.com
 domain, s3-fe-scm.pglstatp-toutiao.com
 domain, s364-ad-canl5.nbjz.db9w.com
+domain, s3m.mediav.com
+domain, s3m1.fenxi.com
+domain, s3m2.fenxi.com
+domain, s3m3.fenxi.com
+domain, s3m4.fenxi.com
 domain, s3t3d2y8.afcdn.net
+domain, s4m.mediav.com
 domain, s4te24u.com
 domain, s4zqj3m.cn
 domain, s6.bfzycdn.com
@@ -6244,6 +6295,7 @@ domain, saccac11.com
 domain, sacfasv.com
 domain, sacre.cn
 domain, sacredperpetratorbasketball.com
+domain, sadbh-kye.com
 domain, sadsaxd.nlkmp.com
 domain, sahqoo.com
 domain, saitef.cn
@@ -6618,6 +6670,7 @@ domain, stat.youpin.mi.com
 domain, statcounter.com
 domain, static-d.iqiyi.com
 domain, static-s.iqiyi.com
+domain, static-ssl.mediav.com
 domain, static.ads-twitter.com
 domain, static.cdnativepush.com
 domain, static.dns.qiyipic.iqiyi.com
@@ -6625,6 +6678,7 @@ domain, static.doubleclick.net
 domain, static.gridsumdissector.com
 domain, static.hae123.cn
 domain, static.lm-a.zblb.sm.cn
+domain, static.mediav.com
 domain, static.ptoahaistais.com
 domain, static.ptqy.gitv.tv
 domain, static.qblv.qq.com
@@ -6667,6 +6721,7 @@ domain, sub.powerapple.com
 domain, subscribe.vivo.com.cn
 domain, success.ctobsnssdk.com
 domain, sugar.zhihu.com
+domain, sumatang.com
 domain, sun66387567606.online
 domain, sun66387567606.site
 domain, sunriseoutdoor.cn
@@ -6764,6 +6819,7 @@ domain, taobao.qq.com
 domain, taoguaji.com
 domain, taoyao.tech
 domain, tarqk5.com
+domain, tat.pandora.xiaomi.com
 domain, taxismaned.top
 domain, tbcgumkadc.xyz
 domain, tbl258ym4.cc
