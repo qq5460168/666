@@ -35,16 +35,13 @@ rules=(
   "https://github.com/entr0pia/fcm-hosts/raw/fcm/fcm-hosts" #FCM Hosts
   "https://raw.githubusercontent.com/790953214/qy-Ads-Rule/refs/heads/main/black.txt" #晴雅
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
-
-"https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts"#下一个ID见
+  "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts" #下一个ID见
   "https://raw.githubusercontent.com/tongxin0520/AdFilterForAdGuard/refs/heads/main/KR_DNS_Filter.txt" #tongxin0520
   "https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/blacklist.txt" #Zisbusy
-
-"https://oss.xlxbk.cn/allow.txt" #xlxbk
+  "https://oss.xlxbk.cn/allow.txt" #xlxbk
   "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt" #茯苓
   "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt" #茯苓白名单
-
-"https://raw.githubusercontent.com/twoone-3/AdGuardHomeForRoot/refs/heads/main/src/bin/data/filters/1732747955.txt" #twoone-3
+  "https://raw.githubusercontent.com/twoone-3/AdGuardHomeForRoot/refs/heads/main/src/bin/data/filters/1732747955.txt" #twoone-3
 )
 
 allow=(
@@ -58,30 +55,29 @@ allow=(
   "https://raw.githubusercontent.com/miaoermua/AdguardFilter/main/whitelist.txt" #喵二白名单
   "https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/whitelist.txt" #Zisbusy
   "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt" #茯苓
-
-                "https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt" #酷安cocieto
+  "https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt" #酷安cocieto
   ""
   ""
 )
 
-# 使用并发curl下载规则和白名单
+# 使用并发curl下载规则和白名单，并通过 iconv 转码后存入文件
 for i in "${!rules[@]}"; do
   url="${rules[$i]}"
   [ -z "$url" ] && continue
-  curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - -o "rules${i}.txt" --connect-timeout 60 -s "$url" | iconv -t utf-8 &
+  curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - --connect-timeout 60 -s "$url" | iconv -t utf-8 > "rules${i}.txt" &
 done
 
 for i in "${!allow[@]}"; do
   url="${allow[$i]}"
   [ -z "$url" ] && continue
-  curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - -o "allow${i}.txt" --connect-timeout 60 -s "$url" | iconv -t utf-8 &
+  curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - --connect-timeout 60 -s "$url" | iconv -t utf-8 > "allow${i}.txt" &
 done
 
 wait
 echo "规则下载完成"
 
 # 为下载的每个文件添加空行结束（防止因末尾无换行导致处理错误）
-for f in $(ls | sort -u *.txt); do
+for f in $(ls *.txt | sort -u); do
   echo "" >> "$f" &
 done
 wait
@@ -89,54 +85,20 @@ wait
 echo "开始处理规则"
 
 # 提取处理规则：过滤空行、注释、IP格式不符合要求的行，并转换部分地址格式，然后排序去重
-cat | sort -n | grep -v -E "^((#.*)|(\s*))$" \
+cat *.txt | sort -n | grep -v -E "^((#.*)|(\s*))$" \
   | grep -v -E "^[0-9f\.:]+\s+(ip6\-)|(localhost|local|loopback)$" \
   | grep -Ev "local.*\.local.*$" \
   | sed 's/127.0.0.1/0.0.0.0/g' | sed 's/::/0.0.0.0/g' \
   | grep '0.0.0.0' | grep -Ev '.0.0.0.0 ' \
-  | sort | uniq > base-src-hosts.txt &
+  | sort | uniq > base-src-hosts.txt
 wait
 
-# 过滤基础规则并转换为ABP格式
-cat base-src-hosts.txt | grep -Ev '#|\$|@|!|/|\\|\*' \
-  | grep -v -E "^((#.*)|(\s*))$" \
-  | grep -v -E "^[0-9f\.:]+\s+(ip6\-)|(localhost|loopback)$" \
-  | sed 's/127.0.0.1 //' | sed 's/0.0.0.0 //' \
-  | sed "s/^/||&/g" | sed "s/$/&^/g" | sed '/^$/d' \
-  | grep -v '^#' \
-  | sort -n | uniq | awk '!a[$0]++' \
-  | grep -E "^((\|\|)\S+\^)" > /dev/null &
-  
-# 将允许域名转换为ABP规则（两种写法均执行）
-cat | sed '/^$/d' | grep -v '#' \
-  | sed "s/^/@@||&/g" | sed "s/$/&^/g" \
-  | sort -n | uniq | awk '!a[$0]++' > /dev/null &
-  
-cat | sed '/^$/d' | grep -v "#" \
-  | sed "s/^/@@||&/g" | sed "s/$/&^/g" \
-  | sort -n | uniq | awk '!a[$0]++' > /dev/null &
-  
-cat | sed '/^$/d' | grep -v "#" \
-  | sed "s/^/0.0.0.0 &/g" | sort -n | uniq | awk '!a[$0]++' > /dev/null &
-  
-# 对部分特殊格式使用单独处理
-cat *.txt | sed '/^$/d' \
-  | grep -E "^\/[a-z]([a-z]|\.)*\.$" \
-  | sort -u > l.txt &
-  
-cat | sed "s/^/||&/g" | sed "s/$/&^/g" > /dev/null &
-cat | sed "s/^/0.0.0.0 &/g" > /dev/null &
-  
 echo "开始合并规则..."
 
 # 合并规则：过滤掉注释行、空行，并对 AdGuard 规则进行去重
 cat rules*.txt | grep -Ev "^(#|!|\[)" | sed '/^$/d' | sort -u > tmp-rules.txt &
 
-# 过滤格式符合的规则
-cat | grep -E "^((@@\|\|)|(\|\|))[^\/\^]+\^$" | grep -Ev "([0-9]{1,3}\.){3}[0-9]{1,3}" | sort | uniq > ll.txt &
-wait
-
-# 提取规则中允许的域名（以 @@|| 开头，分两种情况）
+# 从所有规则中提取允许域名（以 @@|| 开头，或以 || 开头的规则）
 cat *.txt | grep '^@@||.*\^$' | sort -u > allow_ends_with_caret.txt
 cat *.txt | grep '^@@||.*\^\$important$' | sort -u > allow_ends_with_important.txt
 
@@ -145,17 +107,17 @@ cat allow_ends_with_caret.txt allow_ends_with_important.txt | sort -u > tmp-allo
 wait
 
 # 移动合并后的规则到上级目录
-cp tmp-allow.txt .././allow.txt
-cp tmp-rules.txt .././rules.txt
+cp tmp-allow.txt ../allow.txt
+cp tmp-rules.txt ../rules.txt
 
 echo "规则合并完成"
 
 # 调用 Python 脚本进一步处理重复规则、过滤规则和添加标题
-python .././data/python/rule.py
-python .././data/python/filter-dns.py
+python ../data/python/rule.py
+python ../data/python/filter-dns.py
 
 # 添加标题和日期
-python .././data/python/title.py
+python ../data/python/title.py
 
 wait
 echo "更新成功"
