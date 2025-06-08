@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-08 14:13:37（北京时间）
+! Version: 2025-06-08 16:11:44（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3183
+! Total count: 3199
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -186,6 +186,7 @@
 @@||a1.qpic.cn^
 @@||abbott.iqiyi.com^$important
 @@||about.gitlab.cn^$important
+@@||about.gitlab.com^
 @@||abre-videos.cdn1122.com^
 @@||abs-0.twimg.com^
 @@||abs.twimg.com^
@@ -911,6 +912,7 @@
 @@||dnscheck.tools^
 @@||dockerstatic.com^
 @@||docrdsfx76ssb.cloudfront.net^
+@@||docs.doudou.fun^
 @@||docs.idqqimg.com^
 @@||docs.idqqimg.com^$important
 @@||docs.live.net^$important
@@ -1175,8 +1177,10 @@
 @@||gitee.com^
 @@||gitee.io^
 @@||github.com^
+@@||github.io^
 @@||github.site^
 @@||github.store^
+@@||gitlab.cn^
 @@||gitlab.com^
 @@||gitv.tv^$important
 @@||gjusp.alicdn.com^
@@ -1354,6 +1358,7 @@
 @@||image.quark.cn^
 @@||image.uc.cn^
 @@||image.uc.cn^$important
+@@||image.yijoys.com^
 @@||imagecdn.clips4sale.com^
 @@||images.google.cn^
 @@||images.google.com.hk^
@@ -1477,6 +1482,7 @@
 @@||jiazhang.gm.163.com^
 @@||jiazhang.qq.com^
 @@||jiguang.coc.10086.cn^$important
+@@||jihulab.com^
 @@||jikipedia.com^
 @@||jimdo.com^
 @@||jingfen.jd.com^$important
@@ -1888,6 +1894,7 @@
 @@||n*-lf-webcast-cdn-tos-ncdn.bytegecko.com^
 @@||n.163.com^
 @@||n.sinaimg.cn^
+@@||n0va-static.mihoyo.com^
 @@||n0va.mihoyo.com^
 @@||na1r.services.adobe.com^
 @@||na61-na62.wagbridge.alibaba.tanx.com^
@@ -2089,6 +2096,7 @@
 @@||pacaio.match.qq.com^
 @@||pack.google.com^$important
 @@||package.wallpaper.cdn.pandora.xiaomi.com.lan^$important
+@@||pages.github.com^
 @@||pan.quark.cn^
 @@||pan.quark.cn^$important
 @@||papegames.qiyukf.com^
@@ -2514,6 +2522,7 @@
 @@||static-s.iqiyi.com^$important
 @@||static-ss.xvideos-cdn.com^$important
 @@||static-tapad.tapdb.net^
+@@||static-web.mimikko.cn^
 @@||static.122.gov.cn^$important
 @@||static.360buyimg.com^
 @@||static.91haoka.cn^
@@ -2522,6 +2531,7 @@
 @@||static.clewm.net^
 @@||static.e.189.cn^
 @@||static.e.189.cn^$important
+@@||static.gitbook.com^
 @@||static.hdslb.com^
 @@||static.iask.cn^$important
 @@||static.inkuai.com^
@@ -2732,6 +2742,7 @@
 @@||txxx.com^
 @@||ty.163.com^
 @@||tybook.taoyuewenhua.net^
+@@||u.10010.cn^
 @@||u.163.com^
 @@||u.oppomobile.com^
 @@||u1.img.mobile.sina.cn^$important
@@ -2889,6 +2900,7 @@
 @@||weather-data.apple.com*^
 @@||weatherapi.market.xiaomi.com^
 @@||web.vip.miui.com^$important
+@@||webapps.mimikko.cn^
 @@||webcast-open.douyin.com^$important
 @@||webfiles.gamebanana.com^
 @@||webstatic.hoyoverse.com^
@@ -2981,6 +2993,7 @@
 @@||www.dianping.com^
 @@||www.digicert.com^$important
 @@||www.docker.com^
+@@||www.doudou.fun^
 @@||www.douyin.com^
 @@||www.dpfile.com^
 @@||www.dxmpay.com^$important
@@ -2993,6 +3006,7 @@
 @@||www.ero-labs.com^
 @@||www.ferrari.com^
 @@||www.ghproxy.cn^
+@@||www.gitbook.com^
 @@||www.goofish.com^
 @@||www.goofish.pro^
 @@||www.google.cn^
@@ -3038,6 +3052,7 @@
 @@||www.mi.com^
 @@||www.microsoft.com^$important
 @@||www.microsoft365.com^$important
+@@||www.mimikko.cn^
 @@||www.mini1.cn^
 @@||www.mousouzoku-av.com^
 @@||www.msftconnecttest.com^
@@ -3185,5 +3200,6 @@
 @@||ziyuan.guwendao.net^
 @@||zkres.myzaker.com^$important
 @@||zm.sm-tc.cn^$important
+@@||zmde.yijoys.com^
 @@||zodgame.xyz^
 @@||ztgame.com^
