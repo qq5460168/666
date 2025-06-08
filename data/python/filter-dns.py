@@ -9,7 +9,7 @@ TIME_STR = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '（北京时
 HOMEPAGE = "https://github.com/qq5460168/AD886"
 AUTHOR = "酷安@那个谁520"
 
-# 输出文件和规则格式定义（已取消 “Update Time:” 信息）
+# 输出文件和规则格式定义（部分规则头部增加了规则数量提示行）
 RULE_FORMATS = [
     {
         "name": "dns",
@@ -37,9 +37,11 @@ RULE_FORMATS = [
         "name": "qx",
         "file": ".././qx.list",
         "header": lambda total: [
-            f"# Title: Quantumult X Rules (Total: {total})",
+            f"# Title: Quantumult X Rules",
             f"# Homepage: {HOMEPAGE}",
-            f"# by: {AUTHOR}"
+            f"# by: {AUTHOR}",
+            f"Quantumult X规则数量: {total}",
+            f"! Total count: {total}"
         ],
         "line": lambda domain: f"HOST-SUFFIX,{domain},REJECT"
     },
@@ -47,9 +49,11 @@ RULE_FORMATS = [
         "name": "shadowrocket",
         "file": ".././Shadowrocket.list",
         "header": lambda total: [
-            f"# Title: Shadowrocket Rules (Total: {total})",
+            f"# Title: Shadowrocket Rules",
             f"# Homepage: {HOMEPAGE}",
-            f"# by: {AUTHOR}"
+            f"# by: {AUTHOR}",
+            f"Shadowrocket规则数量: {total}",
+            f"! Total count: {total}"
         ],
         "line": lambda domain: f"DOMAIN-SUFFIX,{domain},REJECT"
     },
@@ -66,23 +70,25 @@ RULE_FORMATS = [
         "name": "singbox_srs",
         "file": ".././singbox.srs",
         "header": lambda total: [
-            f"# Title: SingBox SRS Rules (Total: {total})",
+            f"# Title: SingBox SRS Rules",
             f"# Homepage: {HOMEPAGE}",
-            f"# by: {AUTHOR}"
+            f"# by: {AUTHOR}",
+            f"Singbox规则数量: {total}",
+            f"! Total count: {total}"
         ],
         "line": lambda domain: f"DOMAIN-SUFFIX,{domain},REJECT"
     },
     {
         "name": "singbox_json",
         "file": ".././Singbox.json",
-        "header": None,  # 特殊处理
+        "header": None,  # 特殊处理，不添加header
         "line": None
     },
     {
         "name": "invizible",
         "file": ".././invizible.txt",
         "header": lambda total: [
-            f"# Title: Invizible Pro Rules (Total: {total})",
+            f"# Title: Invizible Pro Rules",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}"
         ],
@@ -92,9 +98,11 @@ RULE_FORMATS = [
         "name": "clash",
         "file": ".././clash.yaml",
         "header": lambda total: [
-            f"# Title: Clash Rules (Total: {total})",
+            f"# Title: Clash Rules",
             f"# Homepage: {HOMEPAGE}",
-            f"# by: {AUTHOR}"
+            f"# by: {AUTHOR}",
+            f"Clash规则数量: {total}",
+            f"! Total count: {total}"
         ],
         "line": lambda domain: f"  - DOMAIN-SUFFIX,{domain},REJECT"
     },
@@ -102,7 +110,11 @@ RULE_FORMATS = [
         "name": "clash_meta",
         "file": ".././clash_meta.yaml",
         "header": lambda total: [
-            f"# Clash Meta 专用规则 (简化域名列表格式, Total: {total})",
+            f"# Title: Clash Meta规则",
+            f"# Homepage: {HOMEPAGE}",
+            f"# by: {AUTHOR}",
+            f"Clash Meta规则数量: {total}",
+            f"! Total count: {total}",
             "payload:"
         ],
         "line": lambda domain: f"  - '{domain}'"
