@@ -2,6 +2,7 @@
 # -*- coding:utf-8 -*-
 import datetime
 import os
+import re
 
 # ==== 配置区 ====
 INPUT_FILE = '.././rules.txt'
@@ -9,7 +10,7 @@ TIME_STR = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '（北京时
 HOMEPAGE = "https://github.com/qq5460168/AD886"
 AUTHOR = "酷安@那个谁520"
 
-# 输出文件和规则格式定义（部分规则头部增加了规则数量提示行）
+# 输出文件和规则格式定义（已取消 “Update Time:” 信息）
 RULE_FORMATS = [
     {
         "name": "dns",
@@ -81,7 +82,7 @@ RULE_FORMATS = [
     {
         "name": "singbox_json",
         "file": ".././Singbox.json",
-        "header": None,  # 特殊处理，不添加header
+        "header": None,  # 特殊处理
         "line": None
     },
     {
@@ -126,18 +127,62 @@ def log(msg):
     print(f"[{datetime.datetime.now():%Y-%m-%d %H:%M:%S}] {msg}")
 
 def is_valid_ad_line(line):
-    # 仅接受以 "||" 开头且以 "^" 结尾的规则
+    """
+    检查广告过滤规则是否符合格式：
+    规则必须以 "||" 开头，以 "^" 结尾，且长度大于 3。
+    """
     return line.startswith("||") and line.endswith("^") and len(line) > 3
 
+def is_valid_whitelist_rule(line):
+    """
+    检查白名单规则是否符合正确格式：
+    正确格式为：@@||域名^ 或 @@||域名^$options，不允许存在额外 "|" 符号。
+    """
+    pattern = r"^@@\|\|[^|]+\^(?:\$.*)?$"
+    return re.match(pattern, line) is not None
+
+def correct_whitelist_rule(line):
+    """
+    自动优化错误的白名单规则格式：
+    如果规则没有以 '@@||' 开头，则修正；
+    并去除规则中 '^' 前多余的 "|" 符号。
+    """
+    original = line
+    # 如果不以 @@|| 开头，则将 @@| 替换为 @@||，或直接添加 "||"
+    if not line.startswith("@@||"):
+        if line.startswith("@@|"):
+            line = line.replace("@@|", "@@||", 1)
+        else:
+            line = "@@||" + line[2:]
+    # 去除 "^" 前的多余 "|" (例如：@@||ads.adsterra.com^| 变成 @@||ads.adsterra.com^)
+    m = re.match(r'(@@\|\|.+?)(\|+)(\^.*)$', line)
+    if m:
+        line = m.group(1) + m.group(3)
+    return line
+
 def extract_domain(line):
-    # 提取 "||" 和 "^" 之间的域名部分
+    """
+    从规则中提取域名部分，假定规则格式为 "||域名^"
+    """
     return line[2:-1]
 
 def read_domains(input_path):
+    if not os.path.exists(input_path):
+        log(f"文件不存在: {input_path}")
+        return []
     domains = []
     with open(input_path, 'r', encoding="utf-8") as f:
         for line in f:
             line = line.strip()
+            # 检查白名单规则（以 @@ 开头）
+            if line.startswith("@@"):
+                corrected = correct_whitelist_rule(line)
+                if line != corrected:
+                    log(f"自动修正白名单规则: 原规则: {line} 修改为: {corrected}")
+                else:
+                    log(f"白名单规则格式正确: {line}")
+                # 白名单规则不用于生成广告过滤规则，跳过
+                continue
             if "m^$important" in line:
                 log(f"跳过错误规则: {line}")
                 continue
@@ -146,12 +191,11 @@ def read_domains(input_path):
                 domains.append(extract_domain(line))
             else:
                 log(f"无效规则: {line}")
-    return domains
+    return list(set(domains))
 
 def write_rule_file(format_conf, domains):
     fname = format_conf["file"]
     if format_conf["name"] == "singbox_json":
-        # 特殊JSON格式
         with open(fname, "w", encoding="utf-8") as f:
             f.write('{\n')
             f.write('  "name": "Singbox Ads Rule",\n')
@@ -185,7 +229,6 @@ def main():
     log(f"从 {INPUT_FILE} 读取到有效规则数量: {len(domains)}")
     for fmt in RULE_FORMATS:
         write_rule_file(fmt, domains)
-
     log("全部规则已生成。")
 
 if __name__ == "__main__":
