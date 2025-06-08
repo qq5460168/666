@@ -37,7 +37,7 @@ RULE_FORMATS = [
         "name": "qx",
         "file": ".././qx.list",
         "header": lambda total: [
-            f"# Title: Quantumult X Rules",
+            f"# Title: Quantumult X Rules (Total: {total})",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}"
         ],
@@ -47,7 +47,7 @@ RULE_FORMATS = [
         "name": "shadowrocket",
         "file": ".././Shadowrocket.list",
         "header": lambda total: [
-            f"# Title: Shadowrocket Rules",
+            f"# Title: Shadowrocket Rules (Total: {total})",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}"
         ],
@@ -66,7 +66,7 @@ RULE_FORMATS = [
         "name": "singbox_srs",
         "file": ".././singbox.srs",
         "header": lambda total: [
-            f"# Title: SingBox SRS Rules",
+            f"# Title: SingBox SRS Rules (Total: {total})",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}"
         ],
@@ -82,7 +82,7 @@ RULE_FORMATS = [
         "name": "invizible",
         "file": ".././invizible.txt",
         "header": lambda total: [
-            f"# Title: Invizible Pro Rules",
+            f"# Title: Invizible Pro Rules (Total: {total})",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}"
         ],
@@ -92,7 +92,7 @@ RULE_FORMATS = [
         "name": "clash",
         "file": ".././clash.yaml",
         "header": lambda total: [
-            f"# Title: Clash Rules",
+            f"# Title: Clash Rules (Total: {total})",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}"
         ],
@@ -102,7 +102,7 @@ RULE_FORMATS = [
         "name": "clash_meta",
         "file": ".././clash_meta.yaml",
         "header": lambda total: [
-            f"# Clash Meta 专用规则 (简化域名列表格式)",
+            f"# Clash Meta 专用规则 (简化域名列表格式, Total: {total})",
             "payload:"
         ],
         "line": lambda domain: f"  - '{domain}'"
@@ -114,12 +114,15 @@ def log(msg):
     print(f"[{datetime.datetime.now():%Y-%m-%d %H:%M:%S}] {msg}")
 
 def is_valid_ad_line(line):
+    # 仅接受以 "||" 开头且以 "^" 结尾的规则
     return line.startswith("||") and line.endswith("^") and len(line) > 3
 
 def extract_domain(line):
+    # 提取 "||" 和 "^" 之间的域名部分
     return line[2:-1]
 
 def read_domains(input_path):
+    domains = []
     with open(input_path, 'r', encoding="utf-8") as f:
         for line in f:
             line = line.strip()
@@ -127,7 +130,11 @@ def read_domains(input_path):
                 log(f"跳过错误规则: {line}")
                 continue
             if is_valid_ad_line(line):
-                yield extract_domain(line)
+                log(f"有效规则: {line}")
+                domains.append(extract_domain(line))
+            else:
+                log(f"无效规则: {line}")
+    return domains
 
 def write_rule_file(format_conf, domains):
     fname = format_conf["file"]
@@ -151,7 +158,7 @@ def write_rule_file(format_conf, domains):
             f.write(h + '\n')
         for domain in domains:
             f.write(format_conf["line"](domain) + '\n')
-    log(f"生成 {fname}")
+    log(f"生成 {fname}，规则数量: {len(domains)}")
 
 def main():
     if not os.path.exists(INPUT_FILE):
@@ -159,6 +166,11 @@ def main():
         return
 
     domains = sorted(set(read_domains(INPUT_FILE)))
+    if not domains:
+        log("未发现有效规则，请检查 INPUT_FILE 内容是否符合要求。")
+        return
+
+    log(f"从 {INPUT_FILE} 读取到有效规则数量: {len(domains)}")
     for fmt in RULE_FORMATS:
         write_rule_file(fmt, domains)
 
