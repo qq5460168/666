@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-09 22:09:37（北京时间）
+! Version: 2025-06-10 00:11:34（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 19367
+! Total count: 19347
 
  
 *.lijie.*/*_*?$third-party
@@ -6206,18 +6206,18 @@
 13.226.198.225 thetvdb.com
 13.226.254.58 image.tmdb.org
 13.35.0.128 api.themoviedb.org
+140.82.112.18                 github.community
 140.82.112.18 github.community
-140.82.112.22                 central.github.com
+140.82.112.22                 education.github.com
 140.82.112.25 live.github.com
-140.82.112.26                 alive.github.com
+140.82.113.21                 api.individual.githubcopilot.com
 140.82.113.21 collector.github.com
 140.82.113.22 central.github.com
 140.82.113.26 alive.github.com
-140.82.114.17                 github.community
 140.82.114.21                 collector.github.com
-140.82.114.22                 api.individual.githubcopilot.com
-140.82.114.22                 education.github.com
-140.82.114.25                 live.github.com
+140.82.114.22                 central.github.com
+140.82.114.25                 alive.github.com
+140.82.114.26                 live.github.com
 140.82.116.3 gist.github.com
 142.250.115.188     alt6-mtalk.google.com
 142.250.141.188     alt2-mtalk.google.com
@@ -6325,11 +6325,7 @@
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
-3.5.17.139                    github-production-release-asset-2e65be.s3.amazonaws.com
-3.5.2.0                       github-com.s3.amazonaws.com
-3.5.24.206                    github-cloud.s3.amazonaws.com
 3.5.28.146 github-com.s3.amazonaws.com
-3.5.8.118                     github-production-user-asset-6210df.s3.amazonaws.com
 31.216.145.5 mega.nz
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
@@ -6344,10 +6340,14 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
+52.216.52.97                  github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
-52.216.59.81                  github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.132.169                github-cloud.s3.amazonaws.com
+52.217.235.185                github-com.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.49.4                   github-production-user-asset-6210df.s3.amazonaws.com
+52.217.68.212                 github-production-release-asset-2e65be.s3.amazonaws.com
 52.84.166.68 api.themoviedb.org
 52.84.166.71 api.themoviedb.org
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
@@ -6403,41 +6403,27 @@
 @@-ds.metric.gstatic.com^|
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
 @@.com/o.js$domain=2biqu.com
-@@broadcastlv.chat.bilibili.com^
 @@down.360safe.com^
 @@googlesyndication.com$domain=bilinovel.com
 @@guokr.com/apis/flowingboard/item/guokrapp_download_source.json
 @@https://static.ws.126.net/163/frontend/libs/antanalysis.min.js
-@@llpbaccess.video.qq.com^$important
-@@m.video.xiaomi.com
-@@qlogo.cn^
-@@|abtest3-misc-lf.zijieapi.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
 @@|affiliates.adsterra.com^|
-@@|api.iplay.163.com
 @@|app.crazyegg.com^|
 @@|beta.affiliates.adsterra.com^|
 @@|beta.partners.adsterra.com^|
 @@|beta.publishers.adsterra.com^|
 @@|core.crazyegg.com^|
 @@|daraz.com^|
-@@|down.360safe.com^
 @@|ezodn.com^|
 @@|ftp.bmp.ovh^|
 @@|help-advertisers.adsterra.com^|
-@@|img.galaxyappstore.com^
-@@|img.samsungapps.com^
 @@|img.ssl.msdk.qq.com^
-@@|img1.360buyimg.com^
 @@|log5-applog-lf.fqnovel.com^
-@@|m.image.so.com^
 @@|partners.adsterra.com^|
 @@|publishers.adsterra.com^|
-@@|reading.snssdk.com^
 @@|statcounter.com^|
-@@|tnc3-aliec2.snssdk.com^
-@@|v*-fq-tts.fqnovelvod.com^
 @@|www.daraz.pk^|
 @@|www3.doubleclick.net^|
 @@||*-cf.xvideos-cdn.com^
@@ -6738,6 +6724,7 @@
 @@||appdl-1-drcn.dbankcdn.com^$important
 @@||appdl-2-drcn.dbankcdn.com^
 @@||appdownload.alicdn.com^
+@@||appdownload.alicdn.com^$important
 @@||appdownload.alicdn.com^$important
 @@||appgoad.189.cn^$important
 @@||appimg-drcn.dbankcdn.com^
@@ -7681,6 +7668,7 @@
 @@||img.client.10010.com^
 @@||img.cmvideo.cn^$important
 @@||img.funshion.com^
+@@||img.galaxyappstore.com^
 @@||img.gamecenter.qq.com^$important
 @@||img.idongde.com^$important
 @@||img.jbzj.com^$important
@@ -7691,6 +7679,7 @@
 @@||img.mp.itc.cn^$important
 @@||img.pddpic.com^
 @@||img.qidian.com^
+@@||img.samsungapps.com^
 @@||img.shouji.sogou.com^$important
 @@||img.siwazywimg.com^
 @@||img.sogoucdn.com^
@@ -7703,6 +7692,7 @@
 @@||img02.sogoucdn.com^
 @@||img03.sogoucdn.com^
 @@||img04.sogoucdn.com^
+@@||img1.360buyimg.com^
 @@||img1.qidian.com^
 @@||img10.360buyimg.com^
 @@||img12.360buyimg.com^
@@ -7972,6 +7962,7 @@
 @@||m.ds.163.com^
 @@||m.dxy.com^
 @@||m.facebook.com^
+@@||m.image.so.com^
 @@||m.intl.taobao.com^$important
 @@||m.ip138.com^
 @@||m.iqiyi.com^
@@ -8443,6 +8434,7 @@
 @@||pic.iask.cn^
 @@||pic.iask.com.cn^$important
 @@||pic.imgdb.cn
+@@||pic.imgdb.cn^
 @@||pic.mairuan.com^$important
 @@||pic.rmb.bdstatic.com^
 @@||pic.rmb.bdstatic.com^$important
@@ -8557,6 +8549,7 @@
 @@||qi.163.com^
 @@||qidian.gtimg.com^
 @@||qiye.163.com^
+@@||qlogo.cn^
 @@||qlogo.cn^$important
 @@||qm.qq.com^
 @@||qn-static-tap.tapimg.com^
@@ -8980,6 +8973,7 @@
 @@||tn.txxx.tube^
 @@||tnc11-bjlgy.zijieapi.com^
 @@||tnc16-platform-useast1a.tiktokv.com^$important
+@@||tnc3-aliec2.snssdk.com^
 @@||tnc3-aliec2.snssdk.com^$important
 @@||tnc3-bjlgy.zijieapi.com^
 @@||tom.163.com^
@@ -9092,6 +9086,7 @@
 @@||user1.game.qq.com^
 @@||uxip.meizu.com^
 @@||v*-dc-ad.ixigua.com^$important
+@@||v*-fq-tts.fqnovelvod.com^
 @@||v*.douyinvod.com^
 @@||v*.kwaicdn.com^
 @@||v*.onewsvod.com^$important
@@ -9220,7 +9215,7 @@
 @@||widget.intercom.io^
 @@||widget.mibbit.com^$important
 @@||wifi.vivo.com.cn^$important
-@@||wiki.ad-gone.com
+@@||wiki.ad-gone.com^
 @@||wiki.biligame.com^
 @@||wk.idey.cn^
 @@||wl.jd.com^
@@ -9897,7 +9892,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 zol.com.cn##A.dingtong.xianshiyouhui
 |wjz-cdn.baidu.com^
 ||*-*-*-lrycfv.vip^
-||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-northeast-2.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -10999,7 +10993,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ads*.papegames.com^
 ||ads*.xhscdn.com^
 ||ads*.zijieapi.com^
-||ads*kugou.com^
 ||ads-*.xhscdn.com^
 ||ads-acc.qqbrowser.qq.com^
 ||ads-api-o.api.leiniao.com^
@@ -15831,7 +15824,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||open.e.kuaishou.com^
 ||open.kuaishouzt.com^
 ||open.kwaizt.com^
-||open.kwaizt.com^^
 ||open.lalanuz.cn^$important
 ||open.lalanuz.cn^$important
 ||open.oneplus.net^
@@ -16181,7 +16173,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||poiqknfl.com^
 ||pojihfnkbllg.net^
 ||pojkhufef.xyz^
-||polaris*-normal-lf.zijieapi^
 ||polaris-sinfonlinea.zijieapi.com^
 ||polaris.zijieapi.com^
 ||polaris3-normal-hl.zijieapi.com^
@@ -19357,17 +19348,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 网页总体布局
 ﻿! Title: 广告白名单规则，反馈🐧群
 ﻿[个人维护]
-！  抖音系
-！  番茄系
-！  酷狗
-！ 360
-！ QQ系
-！ ↑ 百度系 ↑ 
-！ 优酷系
-！ 头条
-！ 微信系
-！ 快手系
-！ 爱奇艺系  
 ！↓ 百度系 ↓
 ！美团
 ＃去除丰巢新版取件码页面广告

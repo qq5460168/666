@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-09 22:09:37（北京时间）
+! Version: 2025-06-10 00:11:34（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3207
+! Total count: 3216
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -435,6 +435,7 @@
 @@||appdl-1-drcn.dbankcdn.com^$important
 @@||appdl-2-drcn.dbankcdn.com^
 @@||appdownload.alicdn.com^
+@@||appdownload.alicdn.com^$important
 @@||appgoad.189.cn^$important
 @@||appimg-drcn.dbankcdn.com^
 @@||appimg-drcn.dbankcdn.com^$important
@@ -1387,6 +1388,7 @@
 @@||img.client.10010.com^
 @@||img.cmvideo.cn^$important
 @@||img.funshion.com^
+@@||img.galaxyappstore.com^
 @@||img.jbzj.com^$important
 @@||img.jxdown.com^$important
 @@||img.kemono.su^
@@ -1394,6 +1396,7 @@
 @@||img.mp.itc.cn^$important
 @@||img.pddpic.com^
 @@||img.qidian.com^
+@@||img.samsungapps.com^
 @@||img.shouji.sogou.com^$important
 @@||img.siwazywimg.com^
 @@||img.sogoucdn.com^
@@ -1405,6 +1408,7 @@
 @@||img02.sogoucdn.com^
 @@||img03.sogoucdn.com^
 @@||img04.sogoucdn.com^
+@@||img1.360buyimg.com^
 @@||img1.qidian.com^
 @@||img10.360buyimg.com^
 @@||img12.360buyimg.com^
@@ -1670,6 +1674,7 @@
 @@||m.dxy.com^
 @@||m.facebook.com^
 @@||m.google.com^$important
+@@||m.image.so.com^
 @@||m.intl.taobao.com^$important
 @@||m.ip138.com^
 @@||m.iqiyi.com^
@@ -2149,6 +2154,7 @@
 @@||pic.baike.soso.com^
 @@||pic.iask.cn^
 @@||pic.iask.com.cn^$important
+@@||pic.imgdb.cn^
 @@||pic.mairuan.com^$important
 @@||pic.rmb.bdstatic.com^
 @@||pic.rmb.bdstatic.com^$important
@@ -2689,6 +2695,7 @@
 @@||tn.txxx.tube^
 @@||tnc11-bjlgy.zijieapi.com^
 @@||tnc16-platform-useast1a.tiktokv.com^$important
+@@||tnc3-aliec2.snssdk.com^
 @@||tnc3-aliec2.snssdk.com^$important
 @@||tnc3-bjlgy.zijieapi.com^
 @@||tom.163.com^
@@ -2800,6 +2807,7 @@
 @@||ut-public-service-prod10.ol.epicgames.com^$important
 @@||uxip.meizu.com^
 @@||v*-dc-ad.ixigua.com^$important
+@@||v*-fq-tts.fqnovelvod.com^
 @@||v*.douyinvod.com^
 @@||v*.kwaicdn.com^
 @@||v.douyin.com^
@@ -2921,6 +2929,7 @@
 @@||widget.intercom.io^
 @@||widget.mibbit.com^$important
 @@||wifi.vivo.com.cn^$important
+@@||wiki.ad-gone.com^
 @@||wiki.biligame.com^
 @@||wk.idey.cn^
 @@||wl.jd.com^
