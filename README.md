@@ -30,6 +30,11 @@
 
 </div>
 
+<div align="center">
+  <!-- 访客计数，点击跳转到仓库主页 -->
+  你是我 <a href="https://github.com/qq5460168/qq5460168/666"><img src="https://profile-counter.glitch.me/qq5460168/count.svg" alt="访客计数" /></a> 访客.
+</div>
+
 <h2 id="a">🎯 规则订阅</h2>
 
 ```
