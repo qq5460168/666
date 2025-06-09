@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-09 20:17:25（北京时间）
+! Version: 2025-06-09 22:09:37（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3199
+! Total count: 3207
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -468,6 +468,7 @@
 @@||assets.msn.com^
 @@||assets.onestore.ms^$important
 @@||assets.oneweb.mercedes-benz.com^
+@@||assets.papegames.com^
 @@||assets.sb-cd.com^
 @@||assets.youlai.cn^
 @@||assistant.miui.com^
@@ -1131,6 +1132,7 @@
 @@||future.biz.weibo.com^
 @@||fuxi.163.com^
 @@||g-acs.m.goofish.com^
+@@||g.alicdn.com^
 @@||g.alicdn.com^$important
 @@||g.csdnimg.cn^
 @@||g.live.com^
@@ -2100,6 +2102,8 @@
 @@||pan.quark.cn^
 @@||pan.quark.cn^$important
 @@||papegames.qiyukf.com^
+@@||papegames.qiyukf.net^
+@@||paperpay.papegames.com^
 @@||parked-content.godaddy.com^$important
 @@||parking.namesilo.com^
 @@||partner.googleadservices.com^$important
@@ -3024,6 +3028,7 @@
 @@||www.hoyoverse.com^
 @@||www.iconfont.cn^$important
 @@||www.ijinshan.com^
+@@||www.infoldgames.com^
 @@||www.internetdownloadmanager.com^
 @@||www.ip138.com^
 @@||www.iqiyi.com^
@@ -3059,6 +3064,7 @@
 @@||www.msftconnecttest.com^$important
 @@||www.msn.com^
 @@||www.myquark.cn^$important
+@@||www.nikkigames.cn^
 @@||www.nodeseek.com^
 @@||www.novelfm.com^
 @@||www.npmjs.com^
@@ -3067,6 +3073,8 @@
 @@||www.onedrive.com^$important
 @@||www.oreans.com^
 @@||www.outlook.com^$important
+@@||www.papegames.cn^
+@@||www.papegames.com^
 @@||www.patreon.com^
 @@||www.paypal.com^
 @@||www.paypalobjects.com^
