@@ -2,7 +2,7 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-10 00:11:34（北京时间）
+! Version: 2025-06-10 02:12:57（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 19347
 
@@ -503,6 +503,7 @@
 0.0.0.0 ad.363.in
 0.0.0.0 ad.51wnl-cq.com
 0.0.0.0 ad.51wnl.com
+0.0.0.0 ad.99jiasu.co
 0.0.0.0 ad.99jiasu.com
 0.0.0.0 ad.adhouyi.cn
 0.0.0.0 ad.admin.10010.com
@@ -6208,16 +6209,16 @@
 13.35.0.128 api.themoviedb.org
 140.82.112.18                 github.community
 140.82.112.18 github.community
-140.82.112.22                 education.github.com
+140.82.112.21                 api.individual.githubcopilot.com
 140.82.112.25 live.github.com
-140.82.113.21                 api.individual.githubcopilot.com
+140.82.113.21                 central.github.com
 140.82.113.21 collector.github.com
+140.82.113.22                 collector.github.com
+140.82.113.22                 education.github.com
 140.82.113.22 central.github.com
 140.82.113.26 alive.github.com
-140.82.114.21                 collector.github.com
-140.82.114.22                 central.github.com
-140.82.114.25                 alive.github.com
-140.82.114.26                 live.github.com
+140.82.114.25                 live.github.com
+140.82.114.26                 alive.github.com
 140.82.116.3 gist.github.com
 142.250.115.188     alt6-mtalk.google.com
 142.250.141.188     alt2-mtalk.google.com
@@ -6243,8 +6244,7 @@
 183.136.207.132 ultimateota.d.miui.com
 184.85.65.125 steamcommunity.com
 184.85.65.125 www.steamcommunity.com
-185.199.108.153               github.io
-185.199.108.153               githubstatus.com
+185.199.108.154               github.githubassets.com
 185.199.109.133               avatars.githubusercontent.com
 185.199.109.133               avatars0.githubusercontent.com
 185.199.109.133               avatars1.githubusercontent.com
@@ -6279,10 +6279,11 @@
 185.199.110.133 raw.github.com
 185.199.110.133 raw.githubusercontent.com
 185.199.110.133 user-images.githubusercontent.com
+185.199.110.153               github.io
+185.199.110.153               githubstatus.com
 185.199.110.153 githubstatus.com
 185.199.110.153 lsposed.github.io
 185.199.110.153 topjohnwu.github.io
-185.199.110.154               github.githubassets.com
 185.199.110.154 github.githubassets.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
@@ -6325,6 +6326,7 @@
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
+3.5.22.30                     github-cloud.s3.amazonaws.com
 3.5.28.146 github-com.s3.amazonaws.com
 31.216.145.5 mega.nz
 3dmgame.com##.alertad
@@ -6340,18 +6342,17 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.52.97                  github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
-52.217.132.169                github-cloud.s3.amazonaws.com
-52.217.235.185                github-com.s3.amazonaws.com
+52.217.173.249                github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.227.65                 github-production-user-asset-6210df.s3.amazonaws.com
+52.217.40.100                 github-com.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.49.4                   github-production-user-asset-6210df.s3.amazonaws.com
-52.217.68.212                 github-production-release-asset-2e65be.s3.amazonaws.com
 52.84.166.68 api.themoviedb.org
 52.84.166.71 api.themoviedb.org
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 54.192.73.28 image.tmdb.org
+54.231.203.25                 github-production-release-asset-2e65be.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 64.233.188.188 mtalk.google.com
@@ -19347,7 +19348,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 某些其他
 网页总体布局
 ﻿! Title: 广告白名单规则，反馈🐧群
-﻿[个人维护]
 ！↓ 百度系 ↓
 ！美团
 ＃去除丰巢新版取件码页面广告
