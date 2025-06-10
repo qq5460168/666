@@ -12,12 +12,12 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # 配置参数
 CONFIG = {
     "RULE_SOURCES_FILE": "sources.txt",       # 规则来源文件
-    "OUTPUT_FILE": "merged-filter.txt",      # 输出文件
-    "STATS_FILE": "rule_stats.json",         # 统计文件
+    "OUTPUT_FILE": "merged-filter.txt",         # 输出文件
+    "STATS_FILE": "rule_stats.json",            # 统计文件
     "USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "TITLE": "Merged Rules",                 # 标题
-    "VERSION": "1.0.0",                      # 版本号
-    "MAX_WORKERS": 5                         # 最大并发下载数
+    "TITLE": "Merged Rules",                    # 标题
+    "VERSION": "1.0.0",                         # 版本号
+    "MAX_WORKERS": 5                            # 最大并发下载数
 }
 
 # 正则表达式模块
@@ -49,6 +49,25 @@ def is_valid_rule(line):
     ])
 
 
+def fix_rule(rule):
+    """
+    修复错误规则语法，直接修复以下情况：
+    1. 移除规则首尾多余的竖线
+    2. 去除 HTTP/HTTPS 协议部分
+    3. 对于白名单规则，统一使用 @@|| 前缀
+    :param rule: 原始规则字符串
+    :return: 修复后的规则字符串
+    """
+    # 去除开头和结尾的空白以及多余的竖线
+    rule = rule.strip().strip('|')
+    # 去除协议部分
+    rule = rule.replace("https://", "").replace("http://", "")
+    # 对于@@规则，确保正确前缀@@||使用
+    if rule.startswith('@@') and not rule.startswith('@@||'):
+        rule = '@@||' + rule[2:]
+    return rule
+
+
 def fetch_rules(source):
     """
     从指定来源下载或读取规则
@@ -60,7 +79,7 @@ def fetch_rules(source):
 
     try:
         if source.startswith('file:'):
-            # 读取本地文件
+            # 读取本地文件（去除 "file:" 前缀）
             file_path = source.split('file:')[1].strip()
             with open(file_path, 'r', encoding='utf-8') as f:
                 lines = f.readlines()
@@ -119,7 +138,9 @@ def process_sources(sources):
             source = future_to_source[future]
             try:
                 valid_rules, invalid_rules = future.result()
-                merged_rules.update(valid_rules)
+                # 对每条有效规则进行修复后再合并
+                fixed_rules = {fix_rule(rule) for rule in valid_rules}
+                merged_rules.update(fixed_rules)
                 if invalid_rules:
                     error_reports[source] = invalid_rules
                     logging.warning(f"{source} 发现 {len(invalid_rules)} 条无效规则")
@@ -131,7 +152,7 @@ def process_sources(sources):
 
 def main():
     """
-    主函数：处理规则合并、验证和统计
+    主函数：处理规则合并、验证、修复和统计
     """
     logging.info("开始处理规则文件")
 
@@ -145,10 +166,10 @@ def main():
     with sources_file.open('r', encoding='utf-8') as f:
         sources = [line.strip() for line in f if line.strip()]
 
-    # 下载并验证规则
+    # 下载、验证、并修复规则
     merged_rules, error_reports = process_sources(sources)
 
-    # 排序规则
+    # 排序规则：先显示以 "||" 开头的规则，再显示以 "##" 开头的规则，然后按字母顺序排序
     sorted_rules = sorted(merged_rules, key=lambda x: (
         not x.startswith('||'),
         not x.startswith('##'),
