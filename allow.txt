@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-10 18:10:08（北京时间）
+! Version: 2025-06-10 20:18:04（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3216
+! Total count: 3188
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -186,7 +186,6 @@
 @@||a1.qpic.cn^
 @@||abbott.iqiyi.com^$important
 @@||about.gitlab.cn^$important
-@@||about.gitlab.com^
 @@||abre-videos.cdn1122.com^
 @@||abs-0.twimg.com^
 @@||abs.twimg.com^
@@ -199,7 +198,6 @@
 @@||access1.tpns.tencent.com^
 @@||account-public-service-prod03.ol.epicgames.com^$important
 @@||account.activedirectory.windowsazure.com^$important
-@@||account.agiso.com^
 @@||account.dianping.com^
 @@||account.live.com^$important
 @@||account.wps.cn^$important
@@ -469,7 +467,6 @@
 @@||assets.msn.com^
 @@||assets.onestore.ms^$important
 @@||assets.oneweb.mercedes-benz.com^
-@@||assets.papegames.com^
 @@||assets.sb-cd.com^
 @@||assets.youlai.cn^
 @@||assistant.miui.com^
@@ -914,7 +911,6 @@
 @@||dnscheck.tools^
 @@||dockerstatic.com^
 @@||docrdsfx76ssb.cloudfront.net^
-@@||docs.doudou.fun^
 @@||docs.idqqimg.com^
 @@||docs.idqqimg.com^$important
 @@||docs.live.net^$important
@@ -1133,7 +1129,6 @@
 @@||future.biz.weibo.com^
 @@||fuxi.163.com^
 @@||g-acs.m.goofish.com^
-@@||g.alicdn.com^
 @@||g.alicdn.com^$important
 @@||g.csdnimg.cn^
 @@||g.live.com^
@@ -1180,10 +1175,8 @@
 @@||gitee.com^
 @@||gitee.io^
 @@||github.com^
-@@||github.io^
 @@||github.site^
 @@||github.store^
-@@||gitlab.cn^
 @@||gitlab.com^
 @@||gitv.tv^$important
 @@||gjusp.alicdn.com^
@@ -1361,7 +1354,6 @@
 @@||image.quark.cn^
 @@||image.uc.cn^
 @@||image.uc.cn^$important
-@@||image.yijoys.com^
 @@||imagecdn.clips4sale.com^
 @@||images.google.cn^
 @@||images.google.com.hk^
@@ -1383,7 +1375,6 @@
 @@||img-l3.xvideos-cdn.com^
 @@||img.360kuai.com^$important
 @@||img.ads.tvb.com^
-@@||img.alicdn.com^
 @@||img.alicdn.com^$important
 @@||img.client.10010.com^
 @@||img.cmvideo.cn^$important
@@ -1488,7 +1479,6 @@
 @@||jiazhang.gm.163.com^
 @@||jiazhang.qq.com^
 @@||jiguang.coc.10086.cn^$important
-@@||jihulab.com^
 @@||jikipedia.com^
 @@||jimdo.com^
 @@||jingfen.jd.com^$important
@@ -1901,7 +1891,6 @@
 @@||n*-lf-webcast-cdn-tos-ncdn.bytegecko.com^
 @@||n.163.com^
 @@||n.sinaimg.cn^
-@@||n0va-static.mihoyo.com^
 @@||n0va.mihoyo.com^
 @@||na1r.services.adobe.com^
 @@||na61-na62.wagbridge.alibaba.tanx.com^
@@ -2103,12 +2092,9 @@
 @@||pacaio.match.qq.com^
 @@||pack.google.com^$important
 @@||package.wallpaper.cdn.pandora.xiaomi.com.lan^$important
-@@||pages.github.com^
 @@||pan.quark.cn^
 @@||pan.quark.cn^$important
 @@||papegames.qiyukf.com^
-@@||papegames.qiyukf.net^
-@@||paperpay.papegames.com^
 @@||parked-content.godaddy.com^$important
 @@||parking.namesilo.com^
 @@||partner.googleadservices.com^$important
@@ -2532,7 +2518,6 @@
 @@||static-s.iqiyi.com^$important
 @@||static-ss.xvideos-cdn.com^$important
 @@||static-tapad.tapdb.net^
-@@||static-web.mimikko.cn^
 @@||static.122.gov.cn^$important
 @@||static.360buyimg.com^
 @@||static.91haoka.cn^
@@ -2541,7 +2526,6 @@
 @@||static.clewm.net^
 @@||static.e.189.cn^
 @@||static.e.189.cn^$important
-@@||static.gitbook.com^
 @@||static.hdslb.com^
 @@||static.iask.cn^$important
 @@||static.inkuai.com^
@@ -2753,7 +2737,6 @@
 @@||txxx.com^
 @@||ty.163.com^
 @@||tybook.taoyuewenhua.net^
-@@||u.10010.cn^
 @@||u.163.com^
 @@||u.oppomobile.com^
 @@||u1.img.mobile.sina.cn^$important
@@ -2912,7 +2895,6 @@
 @@||weather-data.apple.com*^
 @@||weatherapi.market.xiaomi.com^
 @@||web.vip.miui.com^$important
-@@||webapps.mimikko.cn^
 @@||webcast-open.douyin.com^$important
 @@||webfiles.gamebanana.com^
 @@||webstatic.hoyoverse.com^
@@ -2969,7 +2951,6 @@
 @@||www.54647.io^
 @@||www.9game.cn^
 @@||www.acompli.com^$important
-@@||www.agiso.com^
 @@||www.ali213.net^
 @@||www.alidns.com^$important
 @@||www.anjuke.com^
@@ -3006,7 +2987,6 @@
 @@||www.dianping.com^
 @@||www.digicert.com^$important
 @@||www.docker.com^
-@@||www.doudou.fun^
 @@||www.douyin.com^
 @@||www.dpfile.com^
 @@||www.dxmpay.com^$important
@@ -3019,9 +2999,7 @@
 @@||www.ero-labs.com^
 @@||www.ferrari.com^
 @@||www.ghproxy.cn^
-@@||www.gitbook.com^
 @@||www.goofish.com^
-@@||www.goofish.pro^
 @@||www.google.cn^
 @@||www.google.com.hk^
 @@||www.google.com^
@@ -3037,7 +3015,6 @@
 @@||www.hoyoverse.com^
 @@||www.iconfont.cn^$important
 @@||www.ijinshan.com^
-@@||www.infoldgames.com^
 @@||www.internetdownloadmanager.com^
 @@||www.ip138.com^
 @@||www.iqiyi.com^
@@ -3066,14 +3043,12 @@
 @@||www.mi.com^
 @@||www.microsoft.com^$important
 @@||www.microsoft365.com^$important
-@@||www.mimikko.cn^
 @@||www.mini1.cn^
 @@||www.mousouzoku-av.com^
 @@||www.msftconnecttest.com^
 @@||www.msftconnecttest.com^$important
 @@||www.msn.com^
 @@||www.myquark.cn^$important
-@@||www.nikkigames.cn^
 @@||www.nodeseek.com^
 @@||www.novelfm.com^
 @@||www.npmjs.com^
@@ -3082,8 +3057,6 @@
 @@||www.onedrive.com^$important
 @@||www.oreans.com^
 @@||www.outlook.com^$important
-@@||www.papegames.cn^
-@@||www.papegames.com^
 @@||www.patreon.com^
 @@||www.paypal.com^
 @@||www.paypalobjects.com^
@@ -3217,6 +3190,5 @@
 @@||ziyuan.guwendao.net^
 @@||zkres.myzaker.com^$important
 @@||zm.sm-tc.cn^$important
-@@||zmde.yijoys.com^
 @@||zodgame.xyz^
 @@||ztgame.com^
