@@ -126,12 +126,14 @@ RULE_FORMATS = [
 def log(msg):
     print(f"[{datetime.datetime.now():%Y-%m-%d %H:%M:%S}] {msg}")
 
+
 def is_valid_ad_line(line):
     """
     检查广告过滤规则是否符合格式：
     规则必须以 "||" 开头，以 "^" 结尾，且长度大于 3。
     """
     return line.startswith("||") and line.endswith("^") and len(line) > 3
+
 
 def is_valid_whitelist_rule(line):
     """
@@ -141,30 +143,33 @@ def is_valid_whitelist_rule(line):
     pattern = r"^@@\|\|[^|]+\^(?:\$.*)?$"
     return re.match(pattern, line) is not None
 
+
 def correct_whitelist_rule(line):
     """
     自动优化错误的白名单规则格式：
-    如果规则没有以 '@@||' 开头，则修正；
-    并去除规则中 '^' 前多余的 "|" 符号。
+    1. 如果规则没有以 '@@||' 开头，则进行修正（例如将 '@@|' 替换为 '@@||' 或直接添加 '||'）。
+    2. 去除规则中 '^' 前多余的 "|" 符号。
     """
     original = line
-    # 如果不以 @@|| 开头，则将 @@| 替换为 @@||，或直接添加 "||"
+    # 确保以 @@|| 开头
     if not line.startswith("@@||"):
         if line.startswith("@@|"):
             line = line.replace("@@|", "@@||", 1)
         else:
             line = "@@||" + line[2:]
-    # 去除 "^" 前的多余 "|" (例如：@@||ads.adsterra.com^| 变成 @@||ads.adsterra.com^)
+    # 使用正则匹配并去除 '^' 前多余的 "|" 符号
     m = re.match(r'(@@\|\|.+?)(\|+)(\^.*)$', line)
     if m:
         line = m.group(1) + m.group(3)
     return line
+
 
 def extract_domain(line):
     """
     从规则中提取域名部分，假定规则格式为 "||域名^"
     """
     return line[2:-1]
+
 
 def read_domains(input_path):
     if not os.path.exists(input_path):
@@ -174,14 +179,13 @@ def read_domains(input_path):
     with open(input_path, 'r', encoding="utf-8") as f:
         for line in f:
             line = line.strip()
-            # 检查白名单规则（以 @@ 开头）
+            # 针对白名单规则（以 @@ 开头）进行检查和修正，但不用于生成广告过滤规则
             if line.startswith("@@"):
                 corrected = correct_whitelist_rule(line)
                 if line != corrected:
                     log(f"自动修正白名单规则: 原规则: {line} 修改为: {corrected}")
                 else:
                     log(f"白名单规则格式正确: {line}")
-                # 白名单规则不用于生成广告过滤规则，跳过
                 continue
             if "m^$important" in line:
                 log(f"跳过错误规则: {line}")
@@ -192,6 +196,7 @@ def read_domains(input_path):
             else:
                 log(f"无效规则: {line}")
     return list(set(domains))
+
 
 def write_rule_file(format_conf, domains):
     fname = format_conf["file"]
@@ -216,6 +221,7 @@ def write_rule_file(format_conf, domains):
             f.write(format_conf["line"](domain) + '\n')
     log(f"生成 {fname}，规则数量: {len(domains)}")
 
+
 def main():
     if not os.path.exists(INPUT_FILE):
         log(f"源规则文件不存在: {INPUT_FILE}")
@@ -230,6 +236,7 @@ def main():
     for fmt in RULE_FORMATS:
         write_rule_file(fmt, domains)
     log("全部规则已生成。")
+
 
 if __name__ == "__main__":
     main()
