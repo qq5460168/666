@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-11 16:13:12（北京时间）
+! Version: 2025-06-11 18:10:18（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9050
+! Total count: 9051
 # AdClose 专用广告规则
 # 格式：domain, <域名>
 domain, *-*-*-lrycfv.vip
@@ -6621,6 +6621,7 @@ domain, sdk-open-phone.getui.com
 domain, sdk.1rtb.net
 domain, sdk.ad.smaato.net
 domain, sdk.adtiming.com
+domain, sdk.adx.adwangmai.com
 domain, sdk.alibaba.com.ailbaba.me
 domain, sdk.api.oaid.wocloud.cn
 domain, sdk.beizi.biz
