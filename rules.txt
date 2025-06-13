@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-13 14:13:51（北京时间）
+! Version: 2025-06-13 16:13:02（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 19156
+! Total count: 19184
 
  
 *.lijie.*/*_*?$third-party
@@ -471,12 +471,14 @@
 0.0.0.0 activity.browser.intl.miui.com
 0.0.0.0 activity.umeng.com
 0.0.0.0 ad-asm.tianmu.mobi
+0.0.0.0 ad-cdn.qtfm.cn
 0.0.0.0 ad-channel.diwodiwo.xyz
 0.0.0.0 ad-clientlog.cn-shanghai.log.aliyuncs.com
 0.0.0.0 ad-clientlog.cn-shanghai.log.aliyuncs.com  #河马剧场
 0.0.0.0 ad-delivery.net
 0.0.0.0 ad-display.diwodiwo.xyz
 0.0.0.0 ad-dp-drcn.cloud.huawei.com.cn
+0.0.0.0 ad-drs-ipv6.52qumao.com
 0.0.0.0 ad-dsp-1251779293.file.myqcloud.com
 0.0.0.0 ad-dsp-1251779293.file.myqcloud.com  #丰巢首页下面的轮播横幅广告
 0.0.0.0 ad-emea.doubleclick.net
@@ -1008,7 +1010,7 @@
 0.0.0.0 adx-cn-req.anythinktech.com
 0.0.0.0 adx-cn.anythinktech.com
 0.0.0.0 adx-data.yfanads.com
-0.0.0.0 adx-data.yfanads.com  #酷友说是作业精灵的
+0.0.0.0 adx-data.yfanads.com  #酷友说是作业精灵的、步道乐跑的
 0.0.0.0 adx-drcn.op.dbankcloud.cn
 0.0.0.0 adx-event.ad.jiguang.cn
 0.0.0.0 adx-fb.wandoujia.com
@@ -1183,6 +1185,7 @@
 0.0.0.0 api-ad.kajicam.com
 0.0.0.0 api-ads.tiantianqutao.com
 0.0.0.0 api-adservices.apple.com
+0.0.0.0 api-adx.52qumao.com  #v7.73(可能更早)发现新增广告，新开屏广告见优比客思
 0.0.0.0 api-analytics-cn.huami.com
 0.0.0.0 api-auth.flysleep.cn
 0.0.0.0 api-auth.zztfly.com
@@ -2400,6 +2403,7 @@
 0.0.0.0 drd.hauchi.com.tw
 0.0.0.0 dsp-ad.yy.com
 0.0.0.0 dsp-cookie.adfarm1.adition.com
+0.0.0.0 dsp-creative.ubixioe.com
 0.0.0.0 dsp-idea.cdn.bcebos.com
 0.0.0.0 dsp-x.jd.com
 0.0.0.0 dsp.ads.umeng.com
@@ -2437,6 +2441,7 @@
 0.0.0.0 e-ad-monitor.huya.com
 0.0.0.0 e-ltvp.inmobi.com
 0.0.0.0 e-p4p.163.com
+0.0.0.0 e-u1.ubixioe.com
 0.0.0.0 e.ad.xiaomi.com
 0.0.0.0 e.ads.cn.miaozhen.com
 0.0.0.0 e.changyan.sohu.com
@@ -2487,7 +2492,6 @@
 0.0.0.0 engine.lvehaisen.com
 0.0.0.0 entry.baidu.com
 0.0.0.0 entry.ubixioe.com
-0.0.0.0 entry.ubixioe.com  #优比客思
 0.0.0.0 epai.cn.miaozhen.com
 0.0.0.0 epi.exc.mob.com
 0.0.0.0 epp.2polj.top
@@ -3017,6 +3021,7 @@
 0.0.0.0 ib.snssdk.com
 0.0.0.0 ib.snssdk.com  #部分头条系APP没网，比如懂车帝极速版，然而懂车帝的开屏广告又是这条…
 0.0.0.0 ib.snssdk.com.edgekey.net
+0.0.0.0 ibrowser.feeds.heytapmobi.com  #天气_精彩推荐
 0.0.0.0 ic.de.inmobi.com
 0.0.0.0 ic.snssdk.com
 0.0.0.0 ichannel.isnssdk.com
@@ -3027,7 +3032,7 @@
 0.0.0.0 iconpark.oceanengine.com
 0.0.0.0 icosa-service-in.allawnos.com
 0.0.0.0 icosa.coloros.com
-0.0.0.0 icosa.coloros.com  #Realme应用增强服务_安装软件后上传包名
+0.0.0.0 icosa.coloros.com  #据说是Realme应用增强服务_安装软件后上传包名
 0.0.0.0 id.aaa.mob.com
 0.0.0.0 idaa.shuzilm.cn
 0.0.0.0 idauth.xdrig.com
@@ -3571,6 +3576,7 @@
 0.0.0.0 mantis.bayescom.com
 0.0.0.0 map-mobile-opnimg.cdn.bcebos.com
 0.0.0.0 map-mobile-opnimg.cdn.bcebos.com  #主界面左上角贴图，会误伤公交&我的 的部分图标以及其他角落的营销图。
+0.0.0.0 mapdownload.autonavi.com  #高德地图更新弹窗
 0.0.0.0 mapi.m.jd.com
 0.0.0.0 mapiweb.babytree.com
 0.0.0.0 mapp.qzone.qq.com
@@ -3608,6 +3614,8 @@
 0.0.0.0 mcs.snssdk.com
 0.0.0.0 mcs.snssdk.com  #并非抖音验证码
 0.0.0.0 mcs.zijieapi.com
+0.0.0.0 md-cfg-u1.ubixioe.com
+0.0.0.0 md-data-u1.ubixioe.com
 0.0.0.0 mdevstat.qqlive.qq.com
 0.0.0.0 mdn1.phluantmobile.net
 0.0.0.0 mdn2.phluantmobile.net
@@ -4085,6 +4093,7 @@
 0.0.0.0 p1-be-endcard.pglstatp-toutiao.com
 0.0.0.0 p1-dpa.byteimg.com
 0.0.0.0 p1-dy.bytexservice.com
+0.0.0.0 p1-ff.adkwai.com
 0.0.0.0 p1-jx.adukwai.com
 0.0.0.0 p1-lm.adkwai.com
 0.0.0.0 p1-lm.adukwai.com
@@ -4107,25 +4116,33 @@
 0.0.0.0 p3-ad.adkwai.com
 0.0.0.0 p3-ad.adukwai.com
 0.0.0.0 p3-be-pack-sign.pglstatp-toutiao.com
+0.0.0.0 p3-lm.adkwai.com
 0.0.0.0 p3-novel.byteimg.com
 0.0.0.0 p3-novel.byteimg.com  #24.6.17测试
 0.0.0.0 p3-tt.byteimg.com
 0.0.0.0 p3-webcast.douyinpic.com
+0.0.0.0 p3-yx.adkwai.com
 0.0.0.0 p3.adkwai.com
 0.0.0.0 p3.dcarimg.com
 0.0.0.0 p3.l.qq.com
 0.0.0.0 p4-ad.adkwai.com
 0.0.0.0 p4-ad.adukwai.com
+0.0.0.0 p4-lm.adkwai.com
+0.0.0.0 p4-yx.adkwai.com
 0.0.0.0 p4.adkwai.com
 0.0.0.0 p5-ad.adkwai.com
 0.0.0.0 p5-ad.adukwai.com
+0.0.0.0 p5-lm.adkwai.com
+0.0.0.0 p5-yx.adkwai.com
 0.0.0.0 p5.adkwai.com
 0.0.0.0 p6-ad-sign.byteimg.com
 0.0.0.0 p6-ad.adkwai.com
 0.0.0.0 p6-be-pack-sign.pglstatp-toutiao.com
+0.0.0.0 p6-lm.adkwai.com
 0.0.0.0 p6-novel.byteimg.com
 0.0.0.0 p6-reading-sign.fqnovelpic.com
 0.0.0.0 p6-webcast.douyinpic.com
+0.0.0.0 p6-yx.adkwai.com
 0.0.0.0 p6.adkwai.com
 0.0.0.0 p66-ad.adkwai.com
 0.0.0.0 p9-ad-sign.byteimg.com
@@ -5489,6 +5506,8 @@
 0.0.0.0 tw13b093.sandai.net
 0.0.0.0 twqwq.z74d.com
 0.0.0.0 tx-ad.a.yximgs.com
+0.0.0.0 tx-cfg-u1.ubixioe.com
+0.0.0.0 tx-data-u1.ubixioe.com
 0.0.0.0 tx-kmpaudio.pull.yximgs.com
 0.0.0.0 tx.a.kspkg.com
 0.0.0.0 tx.a.kspkg.com  #250326测试
@@ -6189,6 +6208,7 @@
 108.138.246.125 api.themoviedb.org
 108.177.104.188     alt7-mtalk.google.com
 108.177.125.188 alt4-mtalk.google.com
+108.177.125.188 alt8-mtalk.google.com  #台湾
 108.177.97.188 alt2-mtalk.google.com
 110.43.121.13 bigota.d.miui.com
 110.43.121.13 hugeota.d.miui.com
@@ -6207,25 +6227,31 @@
 13.226.198.225 thetvdb.com
 13.226.254.58 image.tmdb.org
 13.35.0.128 api.themoviedb.org
-140.82.112.17                 github.community
 140.82.112.18 github.community
-140.82.112.22                 api.individual.githubcopilot.com
 140.82.112.25 live.github.com
+140.82.112.26                 live.github.com
+140.82.113.21                 education.github.com
 140.82.113.21 collector.github.com
-140.82.113.22                 central.github.com
 140.82.113.22                 collector.github.com
-140.82.113.22                 education.github.com
 140.82.113.22 central.github.com
 140.82.113.25                 alive.github.com
 140.82.113.26 alive.github.com
-140.82.114.25                 live.github.com
+140.82.114.18                 github.community
+140.82.114.22                 api.individual.githubcopilot.com
+140.82.114.22                 central.github.com
 140.82.116.3 gist.github.com
+142.250.107.188 mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
+142.250.115.188 alt3-mtalk.google.com #US
 142.250.141.188     alt2-mtalk.google.com
 142.250.152.188     alt8-mtalk.google.com
+142.250.152.188 alt2-mtalk.google.com #US
 142.250.157.188     mtalk.google.com
 142.250.157.188 alt5-mtalk.google.com
+142.251.10.188 alt5-mtalk.google.com #JP
 142.251.10.188 alt7-mtalk.google.com
+142.251.12.188 alt4-mtalk.google.com #JP
+142.251.170.188 alt7-mtalk.google.com #TW
 142.251.8.188 alt6-mtalk.google.com
 146.75.121.194 github.global.ssl.fastly.net
 151.101.193.194               github.global.ssl.fastly.net
@@ -6244,24 +6270,25 @@
 183.136.207.132 ultimateota.d.miui.com
 184.85.65.125 steamcommunity.com
 184.85.65.125 www.steamcommunity.com
-185.199.108.133               avatars.githubusercontent.com
-185.199.108.133               avatars0.githubusercontent.com
-185.199.108.133               avatars1.githubusercontent.com
-185.199.108.133               avatars2.githubusercontent.com
-185.199.108.133               avatars3.githubusercontent.com
-185.199.108.133               avatars4.githubusercontent.com
-185.199.108.133               avatars5.githubusercontent.com
-185.199.108.133               camo.githubusercontent.com
-185.199.108.133               cloud.githubusercontent.com
-185.199.108.133               desktop.githubusercontent.com
-185.199.108.133               favicons.githubusercontent.com
-185.199.108.133               github.map.fastly.net
-185.199.108.133               media.githubusercontent.com
-185.199.108.133               objects.githubusercontent.com
-185.199.108.133               private-user-images.githubusercontent.com
-185.199.108.133               raw.githubusercontent.com
-185.199.108.133               user-images.githubusercontent.com
-185.199.109.154               github.githubassets.com
+185.199.109.133               avatars.githubusercontent.com
+185.199.109.133               avatars0.githubusercontent.com
+185.199.109.133               avatars1.githubusercontent.com
+185.199.109.133               avatars2.githubusercontent.com
+185.199.109.133               avatars3.githubusercontent.com
+185.199.109.133               avatars4.githubusercontent.com
+185.199.109.133               avatars5.githubusercontent.com
+185.199.109.133               camo.githubusercontent.com
+185.199.109.133               cloud.githubusercontent.com
+185.199.109.133               desktop.githubusercontent.com
+185.199.109.133               favicons.githubusercontent.com
+185.199.109.133               github.map.fastly.net
+185.199.109.133               media.githubusercontent.com
+185.199.109.133               objects.githubusercontent.com
+185.199.109.133               private-user-images.githubusercontent.com
+185.199.109.133               raw.githubusercontent.com
+185.199.109.133               user-images.githubusercontent.com
+185.199.109.153               github.io
+185.199.109.153               githubstatus.com
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars1.githubusercontent.com
@@ -6283,8 +6310,7 @@
 185.199.110.153 lsposed.github.io
 185.199.110.153 topjohnwu.github.io
 185.199.110.154 github.githubassets.com
-185.199.111.153               github.io
-185.199.111.153               githubstatus.com
+185.199.111.154               github.githubassets.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -6299,6 +6325,7 @@
 192.0.80.242 s.gravatar.com
 192.0.80.242 secure.gravatar.com
 192.0.80.242 www.gravatar.com
+192.178.131.188 alt1-mtalk.google.com #US
 20.205.243.165                codeload.github.com
 20.205.243.166                gist.github.com
 20.205.243.166                github.com
@@ -6327,6 +6354,7 @@
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
 3.5.28.146 github-com.s3.amazonaws.com
+3.5.28.252                    github-production-release-asset-2e65be.s3.amazonaws.com
 31.216.145.5 mega.nz
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
@@ -6341,14 +6369,13 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.41.121                 github-com.s3.amazonaws.com
+52.216.200.35                 github-production-user-asset-6210df.s3.amazonaws.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
-52.217.12.76                  github-cloud.s3.amazonaws.com
-52.217.138.217                github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.217.235.33                 github-production-user-asset-6210df.s3.amazonaws.com
+52.217.136.41                 github-com.s3.amazonaws.com
+52.217.174.97                 github-cloud.s3.amazonaws.com
+52.217.199.17                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.83.44                  github-production-release-asset-2e65be.s3.amazonaws.com
 52.84.166.68 api.themoviedb.org
 52.84.166.71 api.themoviedb.org
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
@@ -6379,6 +6406,7 @@
 72.247.96.248 www.pinterest.com
 74.125.126.188      alt5-mtalk.google.com
 74.125.200.188      alt1-mtalk.google.com
+74.125.200.188 alt6-mtalk.google.com #SG
 74.125.200.188 alt8-mtalk.google.com
 74.125.204.188 alt3-mtalk.google.com
 90mh.org##[style$='background-size: 393px 125px !important;']
