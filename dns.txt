@@ -2,14 +2,14 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-15 02:10:45（北京时间）
+! Version: 2025-06-15 04:08:50（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9054
+! Total count: 9068
 [Adblock Plus 2.0]
 ! Title: 酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Total Count: 9048
+! Total Count: 9062
 ||*-*-*-lrycfv.vip^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-northeast-2.elb.amazonaws.com^
@@ -1227,6 +1227,7 @@
 ||adslvseed.qq.com^
 ||adsmart.konka.com^
 ||adsmartget.datads.cn^
+||adsmartget.guangtuikeji.com^
 ||adsmartgetbes.datads.cn^
 ||adsmartgetqtt.guangtuikeji.com^
 ||adsmind.apdcdn.tc.qq.com^
@@ -1266,6 +1267,7 @@
 ||adtrack.quark.cn^
 ||adtrack.uc.cn^
 ||adtrack.ucweb.com^
+||adtracker.adfunlink.com^
 ||adtracker.medproad.com^
 ||adtx2.cn^
 ||adui.tg.meitu.com^
@@ -1658,6 +1660,7 @@
 ||apijsv6.gifshow.com^
 ||apijsv6.ksapisrv.com^
 ||apilog.mytvnet.vn^
+||apis.xayabx.com^
 ||apisix-test.iqiyi.com^
 ||apiyd.my91app.com^
 ||apk-lb-json.fodexin.com^
@@ -1729,6 +1732,7 @@
 ||aquvg.com^
 ||aqvwn18102h.com^
 ||ar.umeng.com^
+||ar2.dcloud.net.cn^
 ||ards.iqiyi.com^
 ||areyoutherenow.com^
 ||arkn81.com^
@@ -1742,6 +1746,8 @@
 ||arwh4scr.xyz^
 ||as.weixin.qq.com^
 ||as.yyymvp.com^
+||as1.dcloud.net.cn^
+||as2.dcloud.net.cn^
 ||as69d5.ailianna.cn^
 ||as89de.top^
 ||asdffe22.com^
@@ -1839,6 +1845,7 @@
 ||b7h.top^
 ||b8.xn--w9qw2i396a4i5a.xn--fiqs8s^
 ||b9b2oe8720j.xyz^
+||bac1.dcloud.net.cn^
 ||bacder.fun^
 ||bace10.top^
 ||badjs.qq.com^
@@ -1868,7 +1875,9 @@
 ||banhui.xyz^
 ||banners-cdn77.trafficfactory.biz^
 ||bar-i.iqiyi.com^
+||bar2.dcloud.net.cn^
 ||barscreative1.com^
+||bas1.dcloud.net.cn^
 ||bat.r.msn.com^
 ||battlekun.com^
 ||bavde1.icu^
@@ -1985,6 +1994,7 @@
 ||bk23de3dgd.cc^
 ||bkcommdata.v.qq.com^
 ||bkhblj.xyz^
+||bkimg.cdn.bcebos.com^
 ||bkjlf58.com^
 ||bksoup.v.qq.com^
 ||bl.emotionalworld.cn^
@@ -3041,6 +3051,7 @@
 ||eqghuu.com^
 ||eqlidke.cn^
 ||eqqi.cn^
+||er.dcloud.net.cn^
 ||eraaoec.cn^
 ||ercnrxa.cn^
 ||erfskhnpter.xyz^
@@ -3846,6 +3857,7 @@
 ||hubiazhi.com^
 ||hudiecaifu.com^
 ||hugelog.fcbox.com^
+||huichuan-mc.sm.cn^
 ||huichuan.sm.cn^
 ||huicpu.com^
 ||huifangwen.com^
@@ -5957,6 +5969,7 @@
 ||pic640.weishi.qq.com^
 ||pic7.iqiyipic.com^
 ||pic8.iqiyipic.com^
+||pic9.iqiyipic.com^
 ||picgg.idti.cn^
 ||picnewsss.com^
 ||pig.pupuapi.com^
@@ -7332,6 +7345,7 @@
 ||tr.aoxinshangmao.xyz^
 ||tr.byteurl.cn^
 ||tr.iadsdk.apple.com^
+||tr.medproad.com^
 ||trace.qq.com^
 ||trace.seeyouyima.com^
 ||tracelog-debug.aiclk.com^

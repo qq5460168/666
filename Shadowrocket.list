@@ -1,8 +1,8 @@
 # Title: Shadowrocket Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-Shadowrocket规则数量: 9048
-! Total count: 9048
+Shadowrocket规则数量: 9062
+! Total count: 9062
 DOMAIN-SUFFIX,*-*-*-lrycfv.vip,REJECT
 DOMAIN-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
 DOMAIN-SUFFIX,*-*.ap-northeast-2.elb.amazonaws.com,REJECT
@@ -1220,6 +1220,7 @@ DOMAIN-SUFFIX,adslvfile.qq.com,REJECT
 DOMAIN-SUFFIX,adslvseed.qq.com,REJECT
 DOMAIN-SUFFIX,adsmart.konka.com,REJECT
 DOMAIN-SUFFIX,adsmartget.datads.cn,REJECT
+DOMAIN-SUFFIX,adsmartget.guangtuikeji.com,REJECT
 DOMAIN-SUFFIX,adsmartgetbes.datads.cn,REJECT
 DOMAIN-SUFFIX,adsmartgetqtt.guangtuikeji.com,REJECT
 DOMAIN-SUFFIX,adsmind.apdcdn.tc.qq.com,REJECT
@@ -1259,6 +1260,7 @@ DOMAIN-SUFFIX,adtrack.e.kuaishou.com,REJECT
 DOMAIN-SUFFIX,adtrack.quark.cn,REJECT
 DOMAIN-SUFFIX,adtrack.uc.cn,REJECT
 DOMAIN-SUFFIX,adtrack.ucweb.com,REJECT
+DOMAIN-SUFFIX,adtracker.adfunlink.com,REJECT
 DOMAIN-SUFFIX,adtracker.medproad.com,REJECT
 DOMAIN-SUFFIX,adtx2.cn,REJECT
 DOMAIN-SUFFIX,adui.tg.meitu.com,REJECT
@@ -1651,6 +1653,7 @@ DOMAIN-SUFFIX,apihb6.ksapisrv.com,REJECT
 DOMAIN-SUFFIX,apijsv6.gifshow.com,REJECT
 DOMAIN-SUFFIX,apijsv6.ksapisrv.com,REJECT
 DOMAIN-SUFFIX,apilog.mytvnet.vn,REJECT
+DOMAIN-SUFFIX,apis.xayabx.com,REJECT
 DOMAIN-SUFFIX,apisix-test.iqiyi.com,REJECT
 DOMAIN-SUFFIX,apiyd.my91app.com,REJECT
 DOMAIN-SUFFIX,apk-lb-json.fodexin.com,REJECT
@@ -1722,6 +1725,7 @@ DOMAIN-SUFFIX,aqilk66444a.xyz,REJECT
 DOMAIN-SUFFIX,aquvg.com,REJECT
 DOMAIN-SUFFIX,aqvwn18102h.com,REJECT
 DOMAIN-SUFFIX,ar.umeng.com,REJECT
+DOMAIN-SUFFIX,ar2.dcloud.net.cn,REJECT
 DOMAIN-SUFFIX,ards.iqiyi.com,REJECT
 DOMAIN-SUFFIX,areyoutherenow.com,REJECT
 DOMAIN-SUFFIX,arkn81.com,REJECT
@@ -1735,6 +1739,8 @@ DOMAIN-SUFFIX,arwh3scr.world,REJECT
 DOMAIN-SUFFIX,arwh4scr.xyz,REJECT
 DOMAIN-SUFFIX,as.weixin.qq.com,REJECT
 DOMAIN-SUFFIX,as.yyymvp.com,REJECT
+DOMAIN-SUFFIX,as1.dcloud.net.cn,REJECT
+DOMAIN-SUFFIX,as2.dcloud.net.cn,REJECT
 DOMAIN-SUFFIX,as69d5.ailianna.cn,REJECT
 DOMAIN-SUFFIX,as89de.top,REJECT
 DOMAIN-SUFFIX,asdffe22.com,REJECT
@@ -1832,6 +1838,7 @@ DOMAIN-SUFFIX,b5zzr.cc,REJECT
 DOMAIN-SUFFIX,b7h.top,REJECT
 DOMAIN-SUFFIX,b8.xn--w9qw2i396a4i5a.xn--fiqs8s,REJECT
 DOMAIN-SUFFIX,b9b2oe8720j.xyz,REJECT
+DOMAIN-SUFFIX,bac1.dcloud.net.cn,REJECT
 DOMAIN-SUFFIX,bacder.fun,REJECT
 DOMAIN-SUFFIX,bace10.top,REJECT
 DOMAIN-SUFFIX,badjs.qq.com,REJECT
@@ -1861,7 +1868,9 @@ DOMAIN-SUFFIX,bangyuandianzi.top,REJECT
 DOMAIN-SUFFIX,banhui.xyz,REJECT
 DOMAIN-SUFFIX,banners-cdn77.trafficfactory.biz,REJECT
 DOMAIN-SUFFIX,bar-i.iqiyi.com,REJECT
+DOMAIN-SUFFIX,bar2.dcloud.net.cn,REJECT
 DOMAIN-SUFFIX,barscreative1.com,REJECT
+DOMAIN-SUFFIX,bas1.dcloud.net.cn,REJECT
 DOMAIN-SUFFIX,bat.r.msn.com,REJECT
 DOMAIN-SUFFIX,battlekun.com,REJECT
 DOMAIN-SUFFIX,bavde1.icu,REJECT
@@ -1978,6 +1987,7 @@ DOMAIN-SUFFIX,bk.info.zb.qq.com,REJECT
 DOMAIN-SUFFIX,bk23de3dgd.cc,REJECT
 DOMAIN-SUFFIX,bkcommdata.v.qq.com,REJECT
 DOMAIN-SUFFIX,bkhblj.xyz,REJECT
+DOMAIN-SUFFIX,bkimg.cdn.bcebos.com,REJECT
 DOMAIN-SUFFIX,bkjlf58.com,REJECT
 DOMAIN-SUFFIX,bksoup.v.qq.com,REJECT
 DOMAIN-SUFFIX,bl.emotionalworld.cn,REJECT
@@ -3034,6 +3044,7 @@ DOMAIN-SUFFIX,epxlt.xyz,REJECT
 DOMAIN-SUFFIX,eqghuu.com,REJECT
 DOMAIN-SUFFIX,eqlidke.cn,REJECT
 DOMAIN-SUFFIX,eqqi.cn,REJECT
+DOMAIN-SUFFIX,er.dcloud.net.cn,REJECT
 DOMAIN-SUFFIX,eraaoec.cn,REJECT
 DOMAIN-SUFFIX,ercnrxa.cn,REJECT
 DOMAIN-SUFFIX,erfskhnpter.xyz,REJECT
@@ -3839,6 +3850,7 @@ DOMAIN-SUFFIX,hubcloud.com.cn,REJECT
 DOMAIN-SUFFIX,hubiazhi.com,REJECT
 DOMAIN-SUFFIX,hudiecaifu.com,REJECT
 DOMAIN-SUFFIX,hugelog.fcbox.com,REJECT
+DOMAIN-SUFFIX,huichuan-mc.sm.cn,REJECT
 DOMAIN-SUFFIX,huichuan.sm.cn,REJECT
 DOMAIN-SUFFIX,huicpu.com,REJECT
 DOMAIN-SUFFIX,huifangwen.com,REJECT
@@ -5950,6 +5962,7 @@ DOMAIN-SUFFIX,pic22222.com,REJECT
 DOMAIN-SUFFIX,pic640.weishi.qq.com,REJECT
 DOMAIN-SUFFIX,pic7.iqiyipic.com,REJECT
 DOMAIN-SUFFIX,pic8.iqiyipic.com,REJECT
+DOMAIN-SUFFIX,pic9.iqiyipic.com,REJECT
 DOMAIN-SUFFIX,picgg.idti.cn,REJECT
 DOMAIN-SUFFIX,picnewsss.com,REJECT
 DOMAIN-SUFFIX,pig.pupuapi.com,REJECT
@@ -7325,6 +7338,7 @@ DOMAIN-SUFFIX,tr-asia.adsmoloco.com,REJECT
 DOMAIN-SUFFIX,tr.aoxinshangmao.xyz,REJECT
 DOMAIN-SUFFIX,tr.byteurl.cn,REJECT
 DOMAIN-SUFFIX,tr.iadsdk.apple.com,REJECT
+DOMAIN-SUFFIX,tr.medproad.com,REJECT
 DOMAIN-SUFFIX,trace.qq.com,REJECT
 DOMAIN-SUFFIX,trace.seeyouyima.com,REJECT
 DOMAIN-SUFFIX,tracelog-debug.aiclk.com,REJECT

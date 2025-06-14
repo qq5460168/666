@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-15 02:10:45（北京时间）
+! Version: 2025-06-15 04:08:50（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9051
+! Total count: 9065
 # AdClose 专用广告规则
 # 格式：domain, <域名>
 domain, *-*-*-lrycfv.vip
@@ -1224,6 +1224,7 @@ domain, adslvfile.qq.com
 domain, adslvseed.qq.com
 domain, adsmart.konka.com
 domain, adsmartget.datads.cn
+domain, adsmartget.guangtuikeji.com
 domain, adsmartgetbes.datads.cn
 domain, adsmartgetqtt.guangtuikeji.com
 domain, adsmind.apdcdn.tc.qq.com
@@ -1263,6 +1264,7 @@ domain, adtrack.e.kuaishou.com
 domain, adtrack.quark.cn
 domain, adtrack.uc.cn
 domain, adtrack.ucweb.com
+domain, adtracker.adfunlink.com
 domain, adtracker.medproad.com
 domain, adtx2.cn
 domain, adui.tg.meitu.com
@@ -1655,6 +1657,7 @@ domain, apihb6.ksapisrv.com
 domain, apijsv6.gifshow.com
 domain, apijsv6.ksapisrv.com
 domain, apilog.mytvnet.vn
+domain, apis.xayabx.com
 domain, apisix-test.iqiyi.com
 domain, apiyd.my91app.com
 domain, apk-lb-json.fodexin.com
@@ -1726,6 +1729,7 @@ domain, aqilk66444a.xyz
 domain, aquvg.com
 domain, aqvwn18102h.com
 domain, ar.umeng.com
+domain, ar2.dcloud.net.cn
 domain, ards.iqiyi.com
 domain, areyoutherenow.com
 domain, arkn81.com
@@ -1739,6 +1743,8 @@ domain, arwh3scr.world
 domain, arwh4scr.xyz
 domain, as.weixin.qq.com
 domain, as.yyymvp.com
+domain, as1.dcloud.net.cn
+domain, as2.dcloud.net.cn
 domain, as69d5.ailianna.cn
 domain, as89de.top
 domain, asdffe22.com
@@ -1836,6 +1842,7 @@ domain, b5zzr.cc
 domain, b7h.top
 domain, b8.xn--w9qw2i396a4i5a.xn--fiqs8s
 domain, b9b2oe8720j.xyz
+domain, bac1.dcloud.net.cn
 domain, bacder.fun
 domain, bace10.top
 domain, badjs.qq.com
@@ -1865,7 +1872,9 @@ domain, bangyuandianzi.top
 domain, banhui.xyz
 domain, banners-cdn77.trafficfactory.biz
 domain, bar-i.iqiyi.com
+domain, bar2.dcloud.net.cn
 domain, barscreative1.com
+domain, bas1.dcloud.net.cn
 domain, bat.r.msn.com
 domain, battlekun.com
 domain, bavde1.icu
@@ -1982,6 +1991,7 @@ domain, bk.info.zb.qq.com
 domain, bk23de3dgd.cc
 domain, bkcommdata.v.qq.com
 domain, bkhblj.xyz
+domain, bkimg.cdn.bcebos.com
 domain, bkjlf58.com
 domain, bksoup.v.qq.com
 domain, bl.emotionalworld.cn
@@ -3038,6 +3048,7 @@ domain, epxlt.xyz
 domain, eqghuu.com
 domain, eqlidke.cn
 domain, eqqi.cn
+domain, er.dcloud.net.cn
 domain, eraaoec.cn
 domain, ercnrxa.cn
 domain, erfskhnpter.xyz
@@ -3843,6 +3854,7 @@ domain, hubcloud.com.cn
 domain, hubiazhi.com
 domain, hudiecaifu.com
 domain, hugelog.fcbox.com
+domain, huichuan-mc.sm.cn
 domain, huichuan.sm.cn
 domain, huicpu.com
 domain, huifangwen.com
@@ -5954,6 +5966,7 @@ domain, pic22222.com
 domain, pic640.weishi.qq.com
 domain, pic7.iqiyipic.com
 domain, pic8.iqiyipic.com
+domain, pic9.iqiyipic.com
 domain, picgg.idti.cn
 domain, picnewsss.com
 domain, pig.pupuapi.com
@@ -7329,6 +7342,7 @@ domain, tr-asia.adsmoloco.com
 domain, tr.aoxinshangmao.xyz
 domain, tr.byteurl.cn
 domain, tr.iadsdk.apple.com
+domain, tr.medproad.com
 domain, trace.qq.com
 domain, trace.seeyouyima.com
 domain, tracelog-debug.aiclk.com

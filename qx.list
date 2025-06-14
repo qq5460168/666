@@ -1,8 +1,8 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-Quantumult X规则数量: 9048
-! Total count: 9048
+Quantumult X规则数量: 9062
+! Total count: 9062
 HOST-SUFFIX,*-*-*-lrycfv.vip,REJECT
 HOST-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
 HOST-SUFFIX,*-*.ap-northeast-2.elb.amazonaws.com,REJECT
@@ -1220,6 +1220,7 @@ HOST-SUFFIX,adslvfile.qq.com,REJECT
 HOST-SUFFIX,adslvseed.qq.com,REJECT
 HOST-SUFFIX,adsmart.konka.com,REJECT
 HOST-SUFFIX,adsmartget.datads.cn,REJECT
+HOST-SUFFIX,adsmartget.guangtuikeji.com,REJECT
 HOST-SUFFIX,adsmartgetbes.datads.cn,REJECT
 HOST-SUFFIX,adsmartgetqtt.guangtuikeji.com,REJECT
 HOST-SUFFIX,adsmind.apdcdn.tc.qq.com,REJECT
@@ -1259,6 +1260,7 @@ HOST-SUFFIX,adtrack.e.kuaishou.com,REJECT
 HOST-SUFFIX,adtrack.quark.cn,REJECT
 HOST-SUFFIX,adtrack.uc.cn,REJECT
 HOST-SUFFIX,adtrack.ucweb.com,REJECT
+HOST-SUFFIX,adtracker.adfunlink.com,REJECT
 HOST-SUFFIX,adtracker.medproad.com,REJECT
 HOST-SUFFIX,adtx2.cn,REJECT
 HOST-SUFFIX,adui.tg.meitu.com,REJECT
@@ -1651,6 +1653,7 @@ HOST-SUFFIX,apihb6.ksapisrv.com,REJECT
 HOST-SUFFIX,apijsv6.gifshow.com,REJECT
 HOST-SUFFIX,apijsv6.ksapisrv.com,REJECT
 HOST-SUFFIX,apilog.mytvnet.vn,REJECT
+HOST-SUFFIX,apis.xayabx.com,REJECT
 HOST-SUFFIX,apisix-test.iqiyi.com,REJECT
 HOST-SUFFIX,apiyd.my91app.com,REJECT
 HOST-SUFFIX,apk-lb-json.fodexin.com,REJECT
@@ -1722,6 +1725,7 @@ HOST-SUFFIX,aqilk66444a.xyz,REJECT
 HOST-SUFFIX,aquvg.com,REJECT
 HOST-SUFFIX,aqvwn18102h.com,REJECT
 HOST-SUFFIX,ar.umeng.com,REJECT
+HOST-SUFFIX,ar2.dcloud.net.cn,REJECT
 HOST-SUFFIX,ards.iqiyi.com,REJECT
 HOST-SUFFIX,areyoutherenow.com,REJECT
 HOST-SUFFIX,arkn81.com,REJECT
@@ -1735,6 +1739,8 @@ HOST-SUFFIX,arwh3scr.world,REJECT
 HOST-SUFFIX,arwh4scr.xyz,REJECT
 HOST-SUFFIX,as.weixin.qq.com,REJECT
 HOST-SUFFIX,as.yyymvp.com,REJECT
+HOST-SUFFIX,as1.dcloud.net.cn,REJECT
+HOST-SUFFIX,as2.dcloud.net.cn,REJECT
 HOST-SUFFIX,as69d5.ailianna.cn,REJECT
 HOST-SUFFIX,as89de.top,REJECT
 HOST-SUFFIX,asdffe22.com,REJECT
@@ -1832,6 +1838,7 @@ HOST-SUFFIX,b5zzr.cc,REJECT
 HOST-SUFFIX,b7h.top,REJECT
 HOST-SUFFIX,b8.xn--w9qw2i396a4i5a.xn--fiqs8s,REJECT
 HOST-SUFFIX,b9b2oe8720j.xyz,REJECT
+HOST-SUFFIX,bac1.dcloud.net.cn,REJECT
 HOST-SUFFIX,bacder.fun,REJECT
 HOST-SUFFIX,bace10.top,REJECT
 HOST-SUFFIX,badjs.qq.com,REJECT
@@ -1861,7 +1868,9 @@ HOST-SUFFIX,bangyuandianzi.top,REJECT
 HOST-SUFFIX,banhui.xyz,REJECT
 HOST-SUFFIX,banners-cdn77.trafficfactory.biz,REJECT
 HOST-SUFFIX,bar-i.iqiyi.com,REJECT
+HOST-SUFFIX,bar2.dcloud.net.cn,REJECT
 HOST-SUFFIX,barscreative1.com,REJECT
+HOST-SUFFIX,bas1.dcloud.net.cn,REJECT
 HOST-SUFFIX,bat.r.msn.com,REJECT
 HOST-SUFFIX,battlekun.com,REJECT
 HOST-SUFFIX,bavde1.icu,REJECT
@@ -1978,6 +1987,7 @@ HOST-SUFFIX,bk.info.zb.qq.com,REJECT
 HOST-SUFFIX,bk23de3dgd.cc,REJECT
 HOST-SUFFIX,bkcommdata.v.qq.com,REJECT
 HOST-SUFFIX,bkhblj.xyz,REJECT
+HOST-SUFFIX,bkimg.cdn.bcebos.com,REJECT
 HOST-SUFFIX,bkjlf58.com,REJECT
 HOST-SUFFIX,bksoup.v.qq.com,REJECT
 HOST-SUFFIX,bl.emotionalworld.cn,REJECT
@@ -3034,6 +3044,7 @@ HOST-SUFFIX,epxlt.xyz,REJECT
 HOST-SUFFIX,eqghuu.com,REJECT
 HOST-SUFFIX,eqlidke.cn,REJECT
 HOST-SUFFIX,eqqi.cn,REJECT
+HOST-SUFFIX,er.dcloud.net.cn,REJECT
 HOST-SUFFIX,eraaoec.cn,REJECT
 HOST-SUFFIX,ercnrxa.cn,REJECT
 HOST-SUFFIX,erfskhnpter.xyz,REJECT
@@ -3839,6 +3850,7 @@ HOST-SUFFIX,hubcloud.com.cn,REJECT
 HOST-SUFFIX,hubiazhi.com,REJECT
 HOST-SUFFIX,hudiecaifu.com,REJECT
 HOST-SUFFIX,hugelog.fcbox.com,REJECT
+HOST-SUFFIX,huichuan-mc.sm.cn,REJECT
 HOST-SUFFIX,huichuan.sm.cn,REJECT
 HOST-SUFFIX,huicpu.com,REJECT
 HOST-SUFFIX,huifangwen.com,REJECT
@@ -5950,6 +5962,7 @@ HOST-SUFFIX,pic22222.com,REJECT
 HOST-SUFFIX,pic640.weishi.qq.com,REJECT
 HOST-SUFFIX,pic7.iqiyipic.com,REJECT
 HOST-SUFFIX,pic8.iqiyipic.com,REJECT
+HOST-SUFFIX,pic9.iqiyipic.com,REJECT
 HOST-SUFFIX,picgg.idti.cn,REJECT
 HOST-SUFFIX,picnewsss.com,REJECT
 HOST-SUFFIX,pig.pupuapi.com,REJECT
@@ -7325,6 +7338,7 @@ HOST-SUFFIX,tr-asia.adsmoloco.com,REJECT
 HOST-SUFFIX,tr.aoxinshangmao.xyz,REJECT
 HOST-SUFFIX,tr.byteurl.cn,REJECT
 HOST-SUFFIX,tr.iadsdk.apple.com,REJECT
+HOST-SUFFIX,tr.medproad.com,REJECT
 HOST-SUFFIX,trace.qq.com,REJECT
 HOST-SUFFIX,trace.seeyouyima.com,REJECT
 HOST-SUFFIX,tracelog-debug.aiclk.com,REJECT
