@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-15 20:15:17（北京时间）
+! Version: 2025-06-15 22:07:26（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3050
+! Total count: 3062
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -19,6 +19,7 @@
 @@||*.activity.windows.com^
 @@||*.akamai-cdn-content.com^
 @@||*.alipay.com^
+@@||*.anjuke.com^
 @@||*.appex-rf.msn.com^
 @@||*.appex.bing.com^
 @@||*.aria.microsoft.com^
@@ -392,6 +393,7 @@
 @@||api2-album.quark.cn^$important
 @@||api3-normal-sinfonlineb.fqnovel.com^
 @@||api5-normal-sinfonlineb.fqnovel.com^
+@@||apis.google.com^
 @@||apis.live.net^$important
 @@||apischedule.ksyungslb.com^
 @@||apissl.ksapisrv.com^
@@ -701,6 +703,8 @@
 @@||clientconfig.microsoftonline-p.net^$important
 @@||clientlog*music.163.com^
 @@||clientlog3.music.163.com^
+@@||clients.l.google.com^
+@@||clients1.google.com^
 @@||clients1.google.com^$important
 @@||clients2.google.com^$important
 @@||clients2.googleusercontent.com^$important
@@ -1047,6 +1051,7 @@
 @@||fga0.market.xiaomi.com^
 @@||fgc0.market.xiaomi.com^
 @@||file.40017.cn^
+@@||file.market.xiaomi.com^
 @@||file.neixin.cn^
 @@||file.xiaomi.com^
 @@||file.xmpush.xiaomi.com^
@@ -1152,6 +1157,7 @@
 @@||gsp0.baidu.com^
 @@||gsp1.baidu.com^
 @@||gspe*.apple.com*^
+@@||gstatic.com^
 @@||gtms03.alicdn.com^
 @@||guanjia.qq.com^
 @@||guid.tpns.tencent.com^
@@ -1253,6 +1259,7 @@
 @@||i.tancdn.com^
 @@||i.tantanapp.com^
 @@||i.tianqi.com^
+@@||i.ytimg.com^
 @@||i0.hdslb.com^
 @@||i1.hdslb.com^
 @@||i2.api.io.mi.com^$important
@@ -1554,6 +1561,7 @@
 @@||log.mmstat.com^
 @@||log.snssdk.com^
 @@||log1.cmpassport.com^
+@@||log5-applog-lf.fqnovel.com^
 @@||log5-applog.fqnovel.com^
 @@||login-ishare.iask.com.cn^
 @@||login-us.microsoftonline.com^$important
@@ -1658,6 +1666,7 @@
 @@||mangabz.com^
 @@||mangacopy.com^
 @@||manhuapica.com^
+@@||manifest.googlevideo.com^
 @@||manus.im^
 @@||manus.monica.cn^
 @@||manwa.fun^
@@ -1835,6 +1844,7 @@
 @@||nexus.microsoftonline-p.com^$important
 @@||nhentai.com^
 @@||nhentai.net^
+@@||nileapi.market.xiaomi.com^
 @@||nimg.ws.126.net^
 @@||nishub1.10010.com^
 @@||njavtv.com^
@@ -2969,6 +2979,7 @@
 @@||www.yjwujian.cn^
 @@||www.youku.com^
 @@||www.youlai.cn^
+@@||www.youtube-nocookie.com^
 @@||www.youtube.com^
 @@||www.yuewen.com^
 @@||www.yuketang.cn^
@@ -3025,6 +3036,7 @@
 @@||youdata.163.com^
 @@||young.duba.net^
 @@||youtu.be^
+@@||youtube-nocookie.com^
 @@||youtubeeducation.com^$important
 @@||youtubei.googleapis.com^
 @@||yoyodadada.lanzouw.com^
