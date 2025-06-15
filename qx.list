@@ -1,8 +1,8 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-Quantumult X规则数量: 9062
-! Total count: 9062
+Quantumult X规则数量: 9061
+! Total count: 9061
 HOST-SUFFIX,*-*-*-lrycfv.vip,REJECT
 HOST-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
 HOST-SUFFIX,*-*.ap-northeast-2.elb.amazonaws.com,REJECT
@@ -5962,7 +5962,6 @@ HOST-SUFFIX,pic22222.com,REJECT
 HOST-SUFFIX,pic640.weishi.qq.com,REJECT
 HOST-SUFFIX,pic7.iqiyipic.com,REJECT
 HOST-SUFFIX,pic8.iqiyipic.com,REJECT
-HOST-SUFFIX,pic9.iqiyipic.com,REJECT
 HOST-SUFFIX,picgg.idti.cn,REJECT
 HOST-SUFFIX,picnewsss.com,REJECT
 HOST-SUFFIX,pig.pupuapi.com,REJECT
