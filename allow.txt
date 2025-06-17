@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-17 16:13:27（北京时间）
+! Version: 2025-06-17 18:10:27（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3063
+! Total count: 3078
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -803,6 +803,7 @@
 @@||d.bmcx.com^
 @@||d.docs.live.net^$important
 @@||d.ifengimg.com^
+@@||d.sinaimg.cn^
 @@||d.toutiao.com^
 @@||d1ayxb9ooonjts.cloudfront.net^
 @@||d1z2jf7jlzjs58.cloudfront.net^
@@ -1095,6 +1096,7 @@
 @@||g.live.com^$important
 @@||g.msn.com^
 @@||g.shumafen.cn^
+@@||g.us.sinaimg.cn^
 @@||g58.update.netease.com^
 @@||g79.update.netease.com^
 @@||galaxyappstore.com^
@@ -1183,6 +1185,7 @@
 @@||h5.m.goofish.com^
 @@||h5.m.taobao.com^
 @@||h5.mse.360.cn^
+@@||h5.sinaimg.cn^
 @@||h5.sm.cn^$important
 @@||h5api.m.goofish.com^
 @@||h5api.m.taobao.com^
@@ -1549,6 +1552,7 @@
 @@||live.douyin.com^
 @@||live.kuaishou.com^
 @@||live.simcitybuildit.com^
+@@||livephoto.us.sinaimg.cn^
 @@||livere.com^
 @@||livew.l.qq.com^
 @@||lmlicenses.wip4.adobe.com^
@@ -1635,6 +1639,7 @@
 @@||m.video.9ddm.com^
 @@||m.video.xiaomi.com^
 @@||m.vmall.com^
+@@||m.weibo.cn^
 @@||m.xiachufang.com^
 @@||m.xunlei.com^
 @@||m.yjwujian.cn^
@@ -2613,7 +2618,12 @@
 @@||tv.2345.com^
 @@||tv.sohu.com^
 @@||tv.xunlei.com^
+@@||tva1.sinaimg.cn^
 @@||tvapp.hpplay.cn^
+@@||tvax1.sinaimg.cn^
+@@||tvax2.sinaimg.cn^
+@@||tvax3.sinaimg.cn^
+@@||tvax4.sinaimg.cn^
 @@||tvepg.pandora.xiaomi.com^
 @@||twitter.com^
 @@||tx.163.com^
@@ -2773,6 +2783,7 @@
 @@||wappass.baidu.com^
 @@||wb.amap.com^
 @@||wbapp.mobile.sina.cn^
+@@||wbox.sinaimg.cn^
 @@||we.tl^
 @@||weather-data.apple.com*^
 @@||weatherapi.market.xiaomi.com^
@@ -2783,6 +2794,7 @@
 @@||webtor.io^
 @@||webzjcaptcha.reg.163.com^
 @@||wechat.ishare.iask.com.cn^
+@@||weibo.com^
 @@||weidian.com^
 @@||weishi.360.cn^
 @@||weixin.qq.com^
@@ -2991,7 +3003,10 @@
 @@||www1.pconline.com.cn^
 @@||wx.17u.cn^
 @@||wx.qlogo.cn^
+@@||wx1.sinaimg.cn^
 @@||wx2.sinaimg.cn^
+@@||wx3.sinaimg.cn^
+@@||wx4.sinaimg.cn^
 @@||wxapp.lvyadx.cn^
 @@||wxapp.tc.qq.com^
 @@||wxapp.tc.qq.com^$important
