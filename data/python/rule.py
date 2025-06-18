@@ -25,7 +25,7 @@ REGEX_PATTERNS = {
     "blank": re.compile(r'^\s*$'),  # 空行
     # 域名规则支持可选的@@或||前缀，匹配字母、数字、连字符、下划线、点和星号
     "domain": re.compile(r'^(@@)?(\|\|)?([a-zA-Z0-9-*_.]+)(\^|\$|/)?'),
-    # "element": re.compile(r'##.+'),  # 元素规则（已移除）
+    "element": re.compile(r'##.+'),  # 元素规则，如 CSS 过滤器
     "regex_rule": re.compile(r'^/.*/$'),          # 正则规则，要求以 / 开始并以 / 结束
     "modifier": re.compile(r'\$(~?[\w-]+(=[^,\s]+)?(,~?[\w-]+(=[^,\s]+)?)*)$')  # 修饰符规则
 }
@@ -40,8 +40,8 @@ def is_valid_rule(line):
     1. 以 '!' 或 '#' 开头的（备注信息），其中备注中一般包含中文信息，不参与规则合并；
     2. 空行；
     3. 不匹配任何已知规则格式的规则。
-    
-    已移除对元素规则（如“##”开头）的判断，不再将此类规则视为有效规则。
+
+    现在已还原元素规则的判断。
     
     :param line: 规则行字符串
     :return: True 表示规则有效，False 表示无效
@@ -50,7 +50,7 @@ def is_valid_rule(line):
         return False
     return any([
         REGEX_PATTERNS["domain"].match(line),
-        # 元素规则已移除，不再做处理
+        REGEX_PATTERNS["element"].search(line),
         REGEX_PATTERNS["regex_rule"].match(line),
         REGEX_PATTERNS["modifier"].search(line)
     ])
@@ -182,7 +182,6 @@ def main():
     merged_rules, error_reports = process_sources(sources)
 
     # 排序规则：先显示以 "||" 开头的规则，再显示以 "##" 开头的规则，然后按字母顺序排序
-    # （由于已移除元素规则，所以规则排序中 "##" 部分不会生效）
     sorted_rules = sorted(merged_rules, key=lambda x: (
         not x.startswith('||'),
         not x.startswith('##'),
