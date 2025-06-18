@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-18 12:18:25（北京时间）
+! Version: 2025-06-18 14:13:59（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9068
+! Total count: 9071
 # Title: Invizible Pro Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
@@ -3614,6 +3614,7 @@ h2tcbox.baidu.com
 h35.ynodd.cn
 h45pmx1.cn
 h4b0srs.cn
+h5.analytics.126.net
 h5.dzgsdswh5.xyz
 h5.gdt.qq.com
 h5.hpplay.com.cn
@@ -4876,6 +4877,7 @@ log.avlyun.sec.intl.miui.com
 log.byteoversea.com
 log.daqi.com
 log.fc.yahoo.com
+log.iflytek.com
 log.jd.com
 log.kuwo.cn
 log.m.sm.cn
@@ -6707,6 +6709,7 @@ sentry.d.xiaomi.net
 sentry.fintopia.tech
 sentry.io
 sentry.kuaishou.com
+sentry.music.163.com
 senxiaopang.top
 seordl.cn
 sephreoqy.com

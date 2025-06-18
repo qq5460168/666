@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-18 12:18:25（北京时间）
+! Version: 2025-06-18 14:13:59（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9068
+! Total count: 9071
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
@@ -3614,6 +3614,7 @@
 0.0.0.0 h35.ynodd.cn
 0.0.0.0 h45pmx1.cn
 0.0.0.0 h4b0srs.cn
+0.0.0.0 h5.analytics.126.net
 0.0.0.0 h5.dzgsdswh5.xyz
 0.0.0.0 h5.gdt.qq.com
 0.0.0.0 h5.hpplay.com.cn
@@ -4876,6 +4877,7 @@
 0.0.0.0 log.byteoversea.com
 0.0.0.0 log.daqi.com
 0.0.0.0 log.fc.yahoo.com
+0.0.0.0 log.iflytek.com
 0.0.0.0 log.jd.com
 0.0.0.0 log.kuwo.cn
 0.0.0.0 log.m.sm.cn
@@ -6707,6 +6709,7 @@
 0.0.0.0 sentry.fintopia.tech
 0.0.0.0 sentry.io
 0.0.0.0 sentry.kuaishou.com
+0.0.0.0 sentry.music.163.com
 0.0.0.0 senxiaopang.top
 0.0.0.0 seordl.cn
 0.0.0.0 sephreoqy.com

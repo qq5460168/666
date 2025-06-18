@@ -1,8 +1,8 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-Quantumult X规则数量: 9064
-! Total count: 9064
+Quantumult X规则数量: 9067
+! Total count: 9067
 HOST-SUFFIX,*-*-*-lrycfv.vip,REJECT
 HOST-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
 HOST-SUFFIX,*-*.ap-northeast-2.elb.amazonaws.com,REJECT
@@ -3609,6 +3609,7 @@ HOST-SUFFIX,h2tcbox.baidu.com,REJECT
 HOST-SUFFIX,h35.ynodd.cn,REJECT
 HOST-SUFFIX,h45pmx1.cn,REJECT
 HOST-SUFFIX,h4b0srs.cn,REJECT
+HOST-SUFFIX,h5.analytics.126.net,REJECT
 HOST-SUFFIX,h5.dzgsdswh5.xyz,REJECT
 HOST-SUFFIX,h5.gdt.qq.com,REJECT
 HOST-SUFFIX,h5.hpplay.com.cn,REJECT
@@ -4871,6 +4872,7 @@ HOST-SUFFIX,log.avlyun.sec.intl.miui.com,REJECT
 HOST-SUFFIX,log.byteoversea.com,REJECT
 HOST-SUFFIX,log.daqi.com,REJECT
 HOST-SUFFIX,log.fc.yahoo.com,REJECT
+HOST-SUFFIX,log.iflytek.com,REJECT
 HOST-SUFFIX,log.jd.com,REJECT
 HOST-SUFFIX,log.kuwo.cn,REJECT
 HOST-SUFFIX,log.m.sm.cn,REJECT
@@ -6702,6 +6704,7 @@ HOST-SUFFIX,sentry.d.xiaomi.net,REJECT
 HOST-SUFFIX,sentry.fintopia.tech,REJECT
 HOST-SUFFIX,sentry.io,REJECT
 HOST-SUFFIX,sentry.kuaishou.com,REJECT
+HOST-SUFFIX,sentry.music.163.com,REJECT
 HOST-SUFFIX,senxiaopang.top,REJECT
 HOST-SUFFIX,seordl.cn,REJECT
 HOST-SUFFIX,sephreoqy.com,REJECT

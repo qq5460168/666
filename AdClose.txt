@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-18 12:18:25（北京时间）
+! Version: 2025-06-18 14:13:59（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9067
+! Total count: 9070
 # AdClose 专用广告规则
 # 格式：domain, <域名>
 domain, *-*-*-lrycfv.vip
@@ -3613,6 +3613,7 @@ domain, h2tcbox.baidu.com
 domain, h35.ynodd.cn
 domain, h45pmx1.cn
 domain, h4b0srs.cn
+domain, h5.analytics.126.net
 domain, h5.dzgsdswh5.xyz
 domain, h5.gdt.qq.com
 domain, h5.hpplay.com.cn
@@ -4875,6 +4876,7 @@ domain, log.avlyun.sec.intl.miui.com
 domain, log.byteoversea.com
 domain, log.daqi.com
 domain, log.fc.yahoo.com
+domain, log.iflytek.com
 domain, log.jd.com
 domain, log.kuwo.cn
 domain, log.m.sm.cn
@@ -6706,6 +6708,7 @@ domain, sentry.d.xiaomi.net
 domain, sentry.fintopia.tech
 domain, sentry.io
 domain, sentry.kuaishou.com
+domain, sentry.music.163.com
 domain, senxiaopang.top
 domain, seordl.cn
 domain, sephreoqy.com

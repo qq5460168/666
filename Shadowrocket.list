@@ -1,8 +1,8 @@
 # Title: Shadowrocket Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-Shadowrocket规则数量: 9064
-! Total count: 9064
+Shadowrocket规则数量: 9067
+! Total count: 9067
 DOMAIN-SUFFIX,*-*-*-lrycfv.vip,REJECT
 DOMAIN-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
 DOMAIN-SUFFIX,*-*.ap-northeast-2.elb.amazonaws.com,REJECT
@@ -3609,6 +3609,7 @@ DOMAIN-SUFFIX,h2tcbox.baidu.com,REJECT
 DOMAIN-SUFFIX,h35.ynodd.cn,REJECT
 DOMAIN-SUFFIX,h45pmx1.cn,REJECT
 DOMAIN-SUFFIX,h4b0srs.cn,REJECT
+DOMAIN-SUFFIX,h5.analytics.126.net,REJECT
 DOMAIN-SUFFIX,h5.dzgsdswh5.xyz,REJECT
 DOMAIN-SUFFIX,h5.gdt.qq.com,REJECT
 DOMAIN-SUFFIX,h5.hpplay.com.cn,REJECT
@@ -4871,6 +4872,7 @@ DOMAIN-SUFFIX,log.avlyun.sec.intl.miui.com,REJECT
 DOMAIN-SUFFIX,log.byteoversea.com,REJECT
 DOMAIN-SUFFIX,log.daqi.com,REJECT
 DOMAIN-SUFFIX,log.fc.yahoo.com,REJECT
+DOMAIN-SUFFIX,log.iflytek.com,REJECT
 DOMAIN-SUFFIX,log.jd.com,REJECT
 DOMAIN-SUFFIX,log.kuwo.cn,REJECT
 DOMAIN-SUFFIX,log.m.sm.cn,REJECT
@@ -6702,6 +6704,7 @@ DOMAIN-SUFFIX,sentry.d.xiaomi.net,REJECT
 DOMAIN-SUFFIX,sentry.fintopia.tech,REJECT
 DOMAIN-SUFFIX,sentry.io,REJECT
 DOMAIN-SUFFIX,sentry.kuaishou.com,REJECT
+DOMAIN-SUFFIX,sentry.music.163.com,REJECT
 DOMAIN-SUFFIX,senxiaopang.top,REJECT
 DOMAIN-SUFFIX,seordl.cn,REJECT
 DOMAIN-SUFFIX,sephreoqy.com,REJECT

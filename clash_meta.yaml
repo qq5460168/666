@@ -1,8 +1,8 @@
 # Title: Clash Meta规则
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-Clash Meta规则数量: 9064
-! Total count: 9064
+Clash Meta规则数量: 9067
+! Total count: 9067
 payload:
   - '*-*-*-lrycfv.vip'
   - '*-*.ap-east-1.elb.amazonaws.com'
@@ -3610,6 +3610,7 @@ payload:
   - 'h35.ynodd.cn'
   - 'h45pmx1.cn'
   - 'h4b0srs.cn'
+  - 'h5.analytics.126.net'
   - 'h5.dzgsdswh5.xyz'
   - 'h5.gdt.qq.com'
   - 'h5.hpplay.com.cn'
@@ -4872,6 +4873,7 @@ payload:
   - 'log.byteoversea.com'
   - 'log.daqi.com'
   - 'log.fc.yahoo.com'
+  - 'log.iflytek.com'
   - 'log.jd.com'
   - 'log.kuwo.cn'
   - 'log.m.sm.cn'
@@ -6703,6 +6705,7 @@ payload:
   - 'sentry.fintopia.tech'
   - 'sentry.io'
   - 'sentry.kuaishou.com'
+  - 'sentry.music.163.com'
   - 'senxiaopang.top'
   - 'seordl.cn'
   - 'sephreoqy.com'
