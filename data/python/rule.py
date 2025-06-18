@@ -22,10 +22,10 @@ CONFIG = {
 # 正则表达式模块：恢复了元素规则的判断
 REGEX_PATTERNS = {
     "blank": re.compile(r'^\s*$'),                  # 空行
-    "domain": re.compile(r'^(@@)?(\-*_.]+)(\^|\$|/)?'),
+    "domain": re.compile(r'^(@@)?(\|\|)?([a-zA-Z0-9-*_.]+)(\^|\$|/)?'),
     "element": re.compile(r'##.+'),                  # 元素规则，例如 CSS 过滤器
     "regex_rule": re.compile(r'^/.*/$'),             # 正则规则：必须以 / 开始、以 / 结束
-    "modifier": re.compile(r'\$(]+(=[^,\s]+)?(,~?[\w-]+(=[^,\s]+)?)*)$')
+    "modifier": re.compile(r'\$(~?[\w-]+(=[^,\s]+)?(,~?[\w-]+(=[^,\s]+)?)*)$')
 }
 
 # 配置日志
@@ -154,7 +154,8 @@ def write_stats(rule_count, total_count):
         "version": CONFIG["VERSION"],
         "last_update": datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
     }
-    with open(CONFIG["STATS_FILE"], 'w', encoding='utf-8'), indent=4)
+    with open(CONFIG["STATS_FILE"], 'w', encoding='utf-8') as f:
+        json.dump(stats, f, indent=4)
     logging.info(f"已更新统计信息: {CONFIG['STATS_FILE']}")
 
 def process_sources(sources):
