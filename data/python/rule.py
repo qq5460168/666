@@ -23,10 +23,11 @@ CONFIG = {
 # 正则表达式模块
 REGEX_PATTERNS = {
     "blank": re.compile(r'^\s*$'),  # 空行
-    "domain": re.compile(r'^(@@)?(\|\|)?([a-zA-Z0-9-*_.]+)(\^|\$|/)?'),  # 域名规则
-    "element": re.compile(r'##.+'),  # 元素规则
-    "regex_rule": re.compile(r'^/.*/$'),  # 正则规则
-    "modifier": re.compile(r'\$(~?[\w-]+(=[^,\s]+)?(,~?[\w-]+(=[^,\s]+)?)*)$')  # 修饰符
+    # 域名规则支持可选的@@或||前缀，匹配字母、数字、连字符、下划线、点和星号
+    "domain": re.compile(r'^(@@)?(\|\|)?([a-zA-Z0-9-*_.]+)(\^|\$|/)?'),
+    "element": re.compile(r'##.+'),             # 元素规则，如 CSS 过滤器
+    "regex_rule": re.compile(r'^/.*/$'),          # 正则规则，要求以 / 开始并以 / 结束
+    "modifier": re.compile(r'\$(~?[\w-]+(=[^,\s]+)?(,~?[\w-]+(=[^,\s]+)?)*)$')  # 修饰符规则
 }
 
 # 配置日志
@@ -35,9 +36,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 def is_valid_rule(line):
     """
-    验证规则有效性
-    :param line: 规则行
-    :return: 是否有效
+    验证规则有效性。过滤以下情况：
+    1. 以 '!' 或 '#' 开头的（备注信息），其中备注中一般包含中文行字符串
+    :return: True 表示规则有效，False 表示无效
     """
     if line.startswith('!') or line.startswith('#') or REGEX_PATTERNS["blank"].match(line):
         return False
@@ -51,18 +52,19 @@ def is_valid_rule(line):
 
 def fix_rule(rule):
     """
-    修复错误规则语法，直接修复以下情况：
-    1. 移除规则首尾多余的竖线
-    2. 去除 HTTP/HTTPS 协议部分
-    3. 对于白名单规则，统一使用 @@|| 前缀
+    修复错误规则语法，处理以下情况：
+    1. 移除规则首尾多余的竖线；
+    2. 去除 HTTP/HTTPS 协议部分；
+    3. 对于白名单规则（以 @@ 开头），统一使用 @@|| 前缀。
+    
     :param rule: 原始规则字符串
-    :return: 修复后的规则字符串
+    :return: 修正后的规则字符串
     """
     # 去除开头和结尾的空白以及多余的竖线
     rule = rule.strip().strip('|')
     # 去除协议部分
     rule = rule.replace("https://", "").replace("http://", "")
-    # 对于@@规则，确保正确前缀@@||使用
+    # 对于@@规则，确保正确的前缀@@||
     if rule.startswith('@@') and not rule.startswith('@@||'):
         rule = '@@||' + rule[2:]
     return rule
@@ -70,8 +72,10 @@ def fix_rule(rule):
 
 def fetch_rules(source):
     """
-    从指定来源下载或读取规则
-    :param source: URL 或本地文件路径
+    从指定来源下载或读取规则。
+    如果 source 以 "file:" 开头，则从本地文件读取；否则视为 URL 下载规则。
+    
+    :param source: 规则来源（URL 或本地文件路径，前者需为 file:开头格式）
     :return: (有效规则列表, 无效规则列表)
     """
     valid_rules = []
@@ -79,7 +83,7 @@ def fetch_rules(source):
 
     try:
         if source.startswith('file:'):
-            # 读取本地文件（去除 "file:" 前缀）
+            # 从本地文件读取（去除 "file:" 前缀）
             file_path = source.split('file:')[1].strip()
             with open(file_path, 'r', encoding='utf-8') as f:
                 lines = f.readlines()
@@ -92,7 +96,7 @@ def fetch_rules(source):
         for line in map(str.strip, lines):
             if is_valid_rule(line):
                 valid_rules.append(line)
-            elif line:  # 非空行但无效
+            elif line:  # 非空行但不合法的规则保留用于错误报告
                 invalid_rules.append(line)
 
     except requests.RequestException as e:
@@ -107,9 +111,10 @@ def fetch_rules(source):
 
 def write_stats(rule_count, total_count):
     """
-    写入规则统计信息到 JSON 文件
-    :param rule_count: 有效规则数
-    :param total_count: 总规则数
+    将规则统计信息写入 JSON 文件。
+    
+    :param rule_count: 有效规则数量
+    :param total_count: 合并后的总规则数
     """
     stats = {
         "rule_count": rule_count,
@@ -125,9 +130,10 @@ def write_stats(rule_count, total_count):
 
 def process_sources(sources):
     """
-    并发处理所有规则来源
+    并发处理所有规则来源，下载、验证并修复规则，同时记录错误报告。
+    
     :param sources: 规则来源列表
-    :return: 合并后的有效规则集合和错误报告
+    :return: 合并后的有效规则集合和错误报告字典
     """
     merged_rules = set()
     error_reports = {}
@@ -152,7 +158,7 @@ def process_sources(sources):
 
 def main():
     """
-    主函数：处理规则合并、验证、修复和统计
+    主函数：从所有来源加载规则，合并、修正、排序并写入输出文件，同时生成统计信息。
     """
     logging.info("开始处理规则文件")
 
@@ -166,7 +172,7 @@ def main():
     with sources_file.open('r', encoding='utf-8') as f:
         sources = [line.strip() for line in f if line.strip()]
 
-    # 下载、验证、并修复规则
+    # 下载、验证并修复规则
     merged_rules, error_reports = process_sources(sources)
 
     # 排序规则：先显示以 "||" 开头的规则，再显示以 "##" 开头的规则，然后按字母顺序排序
@@ -176,7 +182,7 @@ def main():
         x
     ))
 
-    # 写入到输出文件
+    # 写入到输出文件，并附加统计备注信息（这些备注信息行以 # 开头，但仅作为文件末尾统计信息，不参与规则合并）
     with open(CONFIG["OUTPUT_FILE"], 'w', encoding='utf-8') as f:
         f.write('\n'.join(sorted_rules))
         f.write(f"\n\n# Total count: {len(sorted_rules)}\n")
@@ -184,7 +190,7 @@ def main():
         f.write(f"# Version: {CONFIG['VERSION']}\n")
     logging.info(f"规则合并完成，输出到 {CONFIG['OUTPUT_FILE']}")
 
-    # 写入统计信息
+    # 写入规则统计文件
     write_stats(len(sorted_rules), len(merged_rules))
 
     # 输出错误报告
