@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import os
 import re
 import requests
@@ -20,13 +19,13 @@ CONFIG = {
     "MAX_WORKERS": 5                            # 最大并发下载数
 }
 
-# 正则表达式模块
+# 正则表达式模块：恢复了元素规则的判断
 REGEX_PATTERNS = {
-    "blank": re.compile(r'^\s*$'),  # 空行
-    "domain": re.compile(r'^(@@)?(\|\|)?([a-zA-Z0-9-*_.]+)(\^|\$|/)?'),
-    "element": re.compile(r'##.+'),  # 元素规则，如 CSS 过滤器
-    "regex_rule": re.compile(r'^/.*/$'),          # 正则规则，要求以 / 开始并以 / 结束
-    "modifier": re.compile(r'\$(~?[\w-]+(=[^,\s]+)?(,~?[\w-]+(=[^,\s]+)?)*)$')  # 修饰符规则
+    "blank": re.compile(r'^\s*$'),                  # 空行
+    "domain": re.compile(r'^(@@)?(\-*_.]+)(\^|\$|/)?'),
+    "element": re.compile(r'##.+'),                  # 元素规则，例如 CSS 过滤器
+    "regex_rule": re.compile(r'^/.*/$'),             # 正则规则：必须以 / 开始、以 / 结束
+    "modifier": re.compile(r'\$(]+(=[^,\s]+)?(,~?[\w-]+(=[^,\s]+)?)*)$')
 }
 
 # 配置日志
@@ -35,7 +34,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 def is_comment_line(line):
     """
     判断是否为备注信息：
-    如果规则以 "#" 或 "!" 开头，并且后续包含中文字符，则视为备注信息。
+    如果规则以 "#" 或 "!" 开头并且包含中文字符，则视为备注，不进行后续合并。
     """
     line = line.strip()
     if (line.startswith('#') or line.startswith('!')) and re.search(r'[\u4e00-\u9fff]', line):
@@ -44,28 +43,28 @@ def is_comment_line(line):
 
 def is_valid_rule(line):
     """
-    验证规则有效性，过滤以下情况：
-    1. 备注信息（以 "#" 或 "!" 开头且包含中文）；
-    2. 空行；
-    3. 不匹配任何规则格式。
-    
-    同时支持域名规则、元素规则、正则规则和修饰符规则。
+    验证规则有效性，恢复了对元素规则的判断：
+    过滤情况：
+      1. 备注信息（以 "#" 或 "!" 开头且包含中文）
+      2. 空行
+      3. 如果不匹配任何规则格式，则视为无效
+    支持域名规则、元素规则、正则规则和修饰符规则。
     """
     if is_comment_line(line) or REGEX_PATTERNS["blank"].match(line):
         return False
     return any([
         REGEX_PATTERNS["domain"].match(line),
-        REGEX_PATTERNS["element"].search(line),
+        REGEX_PATTERNS["element"].search(line),   # 恢复判断元素规则
         REGEX_PATTERNS["regex_rule"].match(line),
         REGEX_PATTERNS["modifier"].search(line)
     ])
 
 def fix_rule(rule):
     """
-    修复错误规则语法：
-    1. 移除规则首尾多余的竖线以及空白；
-    2. 去除 HTTP/HTTPS 协议部分；
-    3. 对于白名单规则（以 @@ 开头），统一使用 @@|| 前缀。
+    修复规则语法：
+      1. 去除规则首尾多余的空白和竖线
+      2. 去除协议部分（http://或https://）
+      3. 对于白名单规则（以 @@ 开头），统一使用 @@|| 前缀
     """
     rule = rule.strip().strip('|')
     rule = rule.replace("https://", "").replace("http://", "")
@@ -76,9 +75,7 @@ def fix_rule(rule):
 def fetch_rules(source):
     """
     从指定来源（URL 或本地文件）下载或读取规则。
-    
-    :param source: 规则来源信息（URL 或 "file:" 开头的本地路径）
-    :return: 有效规则列表与无效规则列表的元组
+    返回值为 (有效规则列表, 无效规则列表)
     """
     valid_rules = []
     invalid_rules = []
@@ -91,7 +88,6 @@ def fetch_rules(source):
             response = requests.get(source, headers={'User-Agent': CONFIG["USER_AGENT"]}, timeout=15)
             response.raise_for_status()
             lines = response.text.splitlines()
-        
         for line in map(str.strip, lines):
             if is_valid_rule(line):
                 valid_rules.append(line)
@@ -107,9 +103,9 @@ def fetch_rules(source):
 
 def extract_domain(rule):
     """
-    从规则字符串中提取域名部分：
-    对于白名单规则（以 @@|| 开头）和黑名单规则（以 || 开头），
-    提取前缀之后，直到遇到 '/'、'^' 或空白符的部分作为域名。
+    从规则中提取域名部分：
+      对于白名单和黑名单规则，如果规则以 @@|| 或 || 开头，
+      则去除前缀后提取连续的非 '/'、'^' 或空白字符部分作为域名。
     """
     if rule.startswith('@@||'):
         rule = rule[4:]
@@ -123,9 +119,8 @@ def extract_domain(rule):
 def filter_blacklist(rules):
     """
     自动过滤：如果某个黑名单规则的域名在白名单规则中已存在，则移除该黑名单规则。
-    
-    :param rules: 包含白名单和黑名单的所有规则集合
-    :return: 过滤后的最终规则集合
+    输入: 同时包含白名单与黑名单的规则集合。
+    输出: 返回过滤后的最终规则集合。
     """
     whitelist_domains = set()
     blacklist_rules = []
@@ -159,18 +154,16 @@ def write_stats(rule_count, total_count):
         "version": CONFIG["VERSION"],
         "last_update": datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
     }
-    with open(CONFIG["STATS_FILE"], 'w', encoding='utf-8') as f:
-        json.dump(stats, f, indent=4)
+    with open(CONFIG["STATS_FILE"], 'w', encoding='utf-8'), indent=4)
     logging.info(f"已更新统计信息: {CONFIG['STATS_FILE']}")
 
 def process_sources(sources):
     """
-    并发处理所有规则来源，下载、校验并修正规则，同时记录错误报告。
+    并发处理所有规则来源，下载、校验并修正规则，并记录错误报告。
     返回合并后的规则集合与错误报告字典。
     """
     merged_rules = set()
     error_reports = {}
-
     with ThreadPoolExecutor(max_workers=CONFIG["MAX_WORKERS"]) as executor:
         future_to_source = {executor.submit(fetch_rules, source): source for source in sources}
         for future in as_completed(future_to_source):
@@ -189,9 +182,9 @@ def process_sources(sources):
 def main():
     """
     主函数：
-    1. 读取规则来源文件，下载、校验并修正各规则；
-    2. 自动过滤：如果黑名单规则的域名在白名单中存在，则该黑名单规则将不会被合并；
-    3. 排序合并后的规则，并一起写入输出文件及统计信息文件。
+      1. 读取规则来源文件，下载、校验并修正各类规则（包括元素规则）。
+      2. 自动过滤：如果某个黑名单规则的域名在白名单规则中已存在，则过滤该黑名单规则。
+      3. 对合并后的规则进行排序，并写入输出文件及统计信息文件。
     """
     logging.info("开始处理规则文件")
     sources_file = Path(CONFIG["RULE_SOURCES_FILE"])
@@ -204,7 +197,8 @@ def main():
 
     merged_rules, error_reports = process_sources(sources)
     final_rules = filter_blacklist(merged_rules)
-    
+
+    # 排序规则：先显示黑名单规则（以 "||" 开头），再显示白名单规则（以 "@@" 开头），最后按字母排序
     sorted_rules = sorted(final_rules, key=lambda x: (
         not x.startswith('||'),
         not x.startswith('@@'),
