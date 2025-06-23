@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-23 18:10:43（北京时间）
+! Version: 2025-06-23 20:18:19（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2420
+! Total count: 2426
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-www.sway-cdn.com^
@@ -348,10 +348,12 @@
 @@||api.vc.bilibili.com^
 @@||api.video.xiaomi.com^
 @@||api.vip.miui.com^
+@@||api.weathercn.com^
 @@||api.zhihu.com^
 @@||api.zhuti.xiaomi.com^
 @@||api2-album.quark.cn^
 @@||api2-album.quark.cn^$important
+@@||apimobile.meituan.com^
 @@||apis.google.com^
 @@||apis.live.net^$important
 @@||apischedule.ksyungslb.com^
@@ -417,6 +419,7 @@
 @@||audid-api.taobao.com^
 @@||audio-cdn.shuqireader.com^
 @@||audiocontentdownload.apple.com^$important
+@@||audiopay.pcdn.xmcdn.com^
 @@||audiopaydl.pcdn.xmcdn.com^
 @@||auditude.com^
 @@||auth.gfx.ms^$important
@@ -986,6 +989,7 @@
 @@||gsp1.baidu.com^
 @@||gspe*.apple.com*^
 @@||gstatic.com^
+@@||gtimg.wechatpay.cn^
 @@||guanjia.qq.com^
 @@||guid.tpns.tencent.com^
 @@||guzzoni.apple.com^$important
@@ -2253,6 +2257,7 @@
 @@||wk.idey.cn^
 @@||wl.jd.com^
 @@||wm.makeding.com^
+@@||wmapi-mt.meituan.com^
 @@||wmflabs.org^
 @@||wodenongtian.com^
 @@||woniu.com^
@@ -2367,6 +2372,7 @@
 @@||wxapp.tc.qq.com^
 @@||wxapp.tc.qq.com^$important
 @@||wxmini-api.uyouqu.com^
+@@||wxpay.qpic.cn^
 @@||wxsnsdy.wxs.qq.com^
 @@||wxsnsencsvp.wxs.qq.com^
 @@||x0.ifengimg.com^
