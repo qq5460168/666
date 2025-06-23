@@ -2,7 +2,7 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-23 14:14:59（北京时间）
+! Version: 2025-06-23 16:14:20（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 18406
 
@@ -6217,18 +6217,18 @@
 13.226.198.225 thetvdb.com
 13.226.254.58 image.tmdb.org
 13.35.0.128 api.themoviedb.org
+140.82.112.18                 github.community
 140.82.112.18 github.community
+140.82.112.21                 central.github.com
+140.82.112.22                 education.github.com
 140.82.112.25 live.github.com
-140.82.113.18                 github.community
-140.82.113.21                 central.github.com
 140.82.113.21 collector.github.com
 140.82.113.22                 collector.github.com
-140.82.113.22                 education.github.com
 140.82.113.22 central.github.com
-140.82.113.26                 alive.github.com
 140.82.113.26 alive.github.com
-140.82.114.22                 api.individual.githubcopilot.com
-140.82.114.25                 live.github.com
+140.82.114.21                 api.individual.githubcopilot.com
+140.82.114.25                 alive.github.com
+140.82.114.26                 live.github.com
 140.82.116.3 gist.github.com
 142.250.107.188 mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
@@ -6246,8 +6246,8 @@
 146.75.121.194 github.global.ssl.fastly.net
 151.101.193.194               github.global.ssl.fastly.net
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.182.109.97                 github-com.s3.amazonaws.com
-16.182.38.209                 github-production-release-asset-2e65be.s3.amazonaws.com
+16.15.185.17                  github-com.s3.amazonaws.com
+16.182.106.89                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6263,23 +6263,23 @@
 184.85.65.125 steamcommunity.com
 184.85.65.125 www.steamcommunity.com
 185.199.108.154               github.githubassets.com
-185.199.109.133               avatars.githubusercontent.com
-185.199.109.133               avatars0.githubusercontent.com
-185.199.109.133               avatars1.githubusercontent.com
-185.199.109.133               avatars2.githubusercontent.com
-185.199.109.133               avatars3.githubusercontent.com
-185.199.109.133               avatars4.githubusercontent.com
-185.199.109.133               avatars5.githubusercontent.com
-185.199.109.133               camo.githubusercontent.com
-185.199.109.133               cloud.githubusercontent.com
-185.199.109.133               desktop.githubusercontent.com
-185.199.109.133               favicons.githubusercontent.com
-185.199.109.133               github.map.fastly.net
-185.199.109.133               media.githubusercontent.com
-185.199.109.133               objects.githubusercontent.com
-185.199.109.133               private-user-images.githubusercontent.com
-185.199.109.133               raw.githubusercontent.com
-185.199.109.133               user-images.githubusercontent.com
+185.199.110.133               avatars.githubusercontent.com
+185.199.110.133               avatars0.githubusercontent.com
+185.199.110.133               avatars1.githubusercontent.com
+185.199.110.133               avatars2.githubusercontent.com
+185.199.110.133               avatars3.githubusercontent.com
+185.199.110.133               avatars4.githubusercontent.com
+185.199.110.133               avatars5.githubusercontent.com
+185.199.110.133               camo.githubusercontent.com
+185.199.110.133               cloud.githubusercontent.com
+185.199.110.133               desktop.githubusercontent.com
+185.199.110.133               favicons.githubusercontent.com
+185.199.110.133               github.map.fastly.net
+185.199.110.133               media.githubusercontent.com
+185.199.110.133               objects.githubusercontent.com
+185.199.110.133               private-user-images.githubusercontent.com
+185.199.110.133               raw.githubusercontent.com
+185.199.110.133               user-images.githubusercontent.com
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars1.githubusercontent.com
@@ -6345,8 +6345,9 @@
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
+3.5.12.218                    github-production-user-asset-6210df.s3.amazonaws.com
+3.5.25.200                    github-cloud.s3.amazonaws.com
 3.5.28.146 github-com.s3.amazonaws.com
-3.5.7.153                     github-production-user-asset-6210df.s3.amazonaws.com
 31.216.145.5 mega.nz
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
@@ -6362,10 +6363,9 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.208.41                 github-cloud.s3.amazonaws.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
-52.217.140.97                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.170.17                 github-production-release-asset-2e65be.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
 52.84.166.68 api.themoviedb.org
 52.84.166.71 api.themoviedb.org
