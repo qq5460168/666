@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-27 11:13:04（北京时间）
+! Version: 2025-06-27 12:18:56（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3087
+! Total count: 3143
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -240,27 +240,55 @@
 @@||ad.azure.com^
 @@||ad.cityu.edu.hk^
 @@||ad.doubleclick.net^
+@@||ad.ext.azure.cn^
+@@||ad.ext.azure.com^
+@@||ad.jp^
 @@||ad.kazakinfo.com^
 @@||ad.mcloud.139.com^
 @@||ad.mcloud.139.com^$important
+@@||ad.nl^
 @@||ad.ourgame.com^
 @@||ad.siemens.com.cn^
+@@||ad.vivo.com.cn^
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
 @@||adashbc.ut.taobao.com^$important
 @@||adashx.m.taobao.com^$important
+@@||adashx.ut.dingtalk.com^
 @@||adcdn.pingan.com^
 @@||adidasapp.api.adidas.com.cn^
 @@||adl.windows.com^$important
+@@||adm.10jqka.com.cn^
+@@||adm.crowdicity.com^
 @@||admin.microsoft.com^$important
 @@||admin.onedrive.com^$important
 @@||adminwebservice.microsoftonline.com^$important
 @@||adnmb3.com^
+@@||ads.95516.com^
+@@||ads.alafish.cn^
+@@||ads.atmosphere.copernicus.eu^
+@@||ads.cdn.tvb.com^
+@@||ads.console.aliyun.com^
+@@||ads.doordash.com^
+@@||ads.elevateplatform.co.uk^
+@@||ads.google.com^
+@@||ads.lingxing.com^
+@@||ads.listonic.com^
+@@||ads.microsoft.com^
+@@||ads.midwayusa.com^
+@@||ads.pinterest.com^
 @@||ads.privacy.qq.com^
+@@||ads.smartmidea.net^
+@@||ads.snapchat.com^
+@@||ads.spotify.com^
 @@||ads.taboola.com^
+@@||ads.twitter.com^
+@@||ads.vk.com^
+@@||ads.x.com^
 @@||adv.ccb.com^
 @@||adv.sec.miui.com^
 @@||advert.kf5.com^
 @@||advertisement.taobao.com^
+@@||adverts.1foo.com^
 @@||aegis.qq.com^
 @@||aeventlog.beacon.qq.com^$important
 @@||afdian.com^
@@ -297,6 +325,7 @@
 @@||amp-api.music.apple.com^
 @@||amp.azure.net^$important
 @@||analysis.chatglm.cn^
+@@||analytics.itunes.apple.com^
 @@||analytics.yinxiang.com^
 @@||android-apps.pp.cn^
 @@||android-apps.pp.cn^$important
@@ -334,6 +363,7 @@
 @@||api.airpush.com^
 @@||api.amemv.com^
 @@||api.apple-cloudkit.com^$important
+@@||api.browser.miui.com^
 @@||api.cc.163.com^
 @@||api.comm.miui.com^
 @@||api.coolapk.com^
@@ -365,6 +395,7 @@
 @@||api.miui.security.xiaomi.com^$important
 @@||api.miwifi.com^
 @@||api.neixin.cn^
+@@||api.onedrive.com^
 @@||api.open.uc.cn^
 @@||api.passwordreset.microsoftonline.com^$important
 @@||api.pxb7.com^
@@ -376,6 +407,7 @@
 @@||api.sec.intl.miui.com^
 @@||api.sec.miui.com^
 @@||api.sec.miui.com^$important
+@@||api.slightcommunicativeinterconnectedness.xyz^
 @@||api.tiantiantiaosheng.com^
 @@||api.ts.feedback.qy.net^
 @@||api.tuisong.baidu.com^
@@ -742,6 +774,7 @@
 @@||cnbj1.fds.api.xiaomi.com^$important
 @@||cnlogin.cainiao.com^
 @@||cnnic.net.cn^
+@@||code.sms.mob.com^
 @@||collect.hupu.com^
 @@||commimg.pddpic.com^
 @@||common.jbzj.com^
@@ -1061,6 +1094,7 @@
 @@||file.xiaomi.com^
 @@||file.xmpush.xiaomi.com^
 @@||file2.speedtest.cn^
+@@||files.1drv.com^
 @@||find.api.micloud.xiaomi.net^
 @@||find.api.micloud.xiaomi.net^$important
 @@||finderpdd.video.qq.com^
@@ -1177,6 +1211,7 @@
 @@||gw.shouji.360.cn^
 @@||gweb-gettingstartedguide.appspot.com^$important
 @@||gx-target-experiments-frontend-api.gx.nvidia.com^
+@@||h-adashx.ut.dingtalk.com^
 @@||h-adashx.ut.taobao.com^
 @@||h.163.com^
 @@||h.trace.qq.com^
@@ -1423,6 +1458,7 @@
 @@||itop.qq.com^
 @@||itunes.apple.com^$important
 @@||itunes.com^$important
+@@||iufostworldcongress-singapore.com^
 @@||iv-h.phncdn.com^
 @@||iwork.apple.com^$important
 @@||iwx.mail.qq.com^
@@ -1473,6 +1509,7 @@
 @@||knet.cn^
 @@||knowsex.net^
 @@||konachan.com^
+@@||ku.dk^
 @@||kubernetes.io^
 @@||kwimgs.com^
 @@||kyaru-concat.now.sh^
@@ -1573,6 +1610,7 @@
 @@||log5-applog-lf.fqnovel.com^
 @@||log5-applog.fqnovel.com^
 @@||login-ishare.iask.com.cn^
+@@||login-sh.aki-game.com^
 @@||login-us.microsoftonline.com^$important
 @@||login.live.com^
 @@||login.live.com^$important
@@ -1731,10 +1769,13 @@
 @@||message.bilibili.com^
 @@||mesu.apple.com^$important
 @@||metok.sys.miui.com^
+@@||metrics.icloud.com^
+@@||metrics.vrch.at^
 @@||mgbsdk.matrix.netease.com^
 @@||mi-img.com^
 @@||mibi.api.xiaomi.com^
 @@||micloud.xiaomi.net^
+@@||microsoftazuresponsorships.com^
 @@||midas.gtimg.cn^
 @@||migrate.driveapi.micloud.xiaomi.net^
 @@||mime.baidu.com^
@@ -1908,6 +1949,7 @@
 @@||openap-alps.51y5.net^
 @@||openapi.vmall.com^
 @@||opencloud.wostore.cn^
+@@||openxlab.org.cn^
 @@||oppo.yidianzixun.com^
 @@||orange-dc.alibaba.com^
 @@||orbit.jd.com^
@@ -2099,6 +2141,7 @@
 @@||pingtas.qq.com^
 @@||pingtcss.qq.com^
 @@||pitaya.bytedance.com^
+@@||pixel.prime.amazon.dev^
 @@||pkg.biligame.com^
 @@||pkg.sinaimg.cn^
 @@||pl.taptap.cn^
@@ -2358,6 +2401,7 @@
 @@||sjh.baidu.com^
 @@||sjws.ssl.qihucdn.com^
 @@||skl.apple.com^$important
+@@||skyapi.live.net^
 @@||skyapi.onedrive.live.com^
 @@||skydrivesync.policies.live.net^
 @@||sl.hpplay.cn^
@@ -2416,6 +2460,8 @@
 @@||st.todesk.com^
 @@||staffhub.ms^$important
 @@||staging.flash.sec.miui.com^
+@@||star.c10r.facebook.com^
+@@||star.fallback.c10r.facebook.com^
 @@||starlusts.com^
 @@||stars.shuqireader.com^
 @@||stat.api.4399.com^
@@ -2588,14 +2634,17 @@
 @@||tnc3-aliec2.snssdk.com^
 @@||tnc3-bjlgy.zijieapi.com^
 @@||tom.163.com^
+@@||tongji.*kuwo.cn^
 @@||tongji.cn^
 @@||tongji.edu.cn^
 @@||tongji.flash.cn^
+@@||tongji.koowo.cn^
 @@||tool.lu^
 @@||tools.google.com^$important
 @@||toonily.com^
 @@||toonily.me^
 @@||top.17173.com^
+@@||torproject.org^
 @@||tot.hoyoverse.com^
 @@||tousu.sina.cn^
 @@||tousu.sina.com.cn^
@@ -2656,6 +2705,7 @@
 @@||uee.me^
 @@||ugame.9game.cn^
 @@||ugurl.cn^
+@@||ui.ads.microsoft.com^
 @@||uland.taobao.com^
 @@||ulive-interact.uc.cn^
 @@||ulive-sc.uc.cn^
@@ -2808,9 +2858,14 @@
 @@||wgo.mmstat.com^
 @@||white-plus.net^
 @@||whois.cloud.tencent.com^
+@@||widget.1688.com^
+@@||widget.ezidebit.com.au^
 @@||widget.gleamjs.io^
 @@||widget.intercom.io^
 @@||widget.mibbit.com^
+@@||widget.rave.office.net^
+@@||widget.sndcdn.com^
+@@||widget.weibo.com^
 @@||wifi.vivo.com.cn^
 @@||wiki.ad-gone.com^
 @@||wiki.biligame.com^
@@ -2899,6 +2954,7 @@
 @@||www.epicgames.com^
 @@||www.epicgames.com^$important
 @@||www.ero-labs.com^
+@@||www.fbsbx.com^
 @@||www.ferrari.com^
 @@||www.ghproxy.cn^
 @@||www.goofish.com^
