@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-06-30 08:50:58（北京时间）
+! Version: 2025-06-30 11:18:04（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3134
+! Total count: 3145
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -235,21 +235,26 @@
 @@||ad-gone.com^
 @@||ad-log-upload.mihoyo.com^
 @@||ad-putting.gw.zt-express.com^
+@@||ad.10010.com^
+@@||ad.abchina.com^
 @@||ad.azure.com^
 @@||ad.cityu.edu.hk^
 @@||ad.doubleclick.net^
 @@||ad.ext.azure.cn^
 @@||ad.ext.azure.com^
 @@||ad.jp^
+@@||ad.kazakinfo.com^
 @@||ad.mcloud.139.com^
 @@||ad.mcloud.139.com^$important
 @@||ad.nl^
+@@||ad.ourgame.com^
 @@||ad.siemens.com.cn^
 @@||ad.vivo.com.cn^
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
 @@||adashbc.ut.taobao.com^$important
 @@||adashx.m.taobao.com^$important
 @@||adashx.ut.dingtalk.com^
+@@||adcdn.pingan.com^
 @@||adidasapp.api.adidas.com.cn^
 @@||adl.windows.com^$important
 @@||adm.10jqka.com.cn^
@@ -281,6 +286,7 @@
 @@||ads.x.com^
 @@||adv.ccb.com^
 @@||adv.sec.miui.com^
+@@||advert.kf5.com^
 @@||advertisement.taobao.com^
 @@||adverts.1foo.com^
 @@||aegis.qq.com^
@@ -353,6 +359,7 @@
 @@||api-unionid.meituan.com^
 @@||api.account.xiaomi.com^
 @@||api.account.xiaomi.com^$important
+@@||api.ads.tvb.com^
 @@||api.airpush.com^
 @@||api.amemv.com^
 @@||api.apple-cloudkit.com^$important
@@ -428,6 +435,7 @@
 @@||apk-packaging.tapimg.com^
 @@||apm.zhihu.com^
 @@||apmfront.17u.cn^
+@@||app-advertise.zhihuishu.com^
 @@||app-api.pixiv.net^
 @@||app-api.smzdm.com^
 @@||app-measurement.com^
@@ -569,6 +577,7 @@
 @@||btrace.qq.com^
 @@||bucket-ynote-online-cdn.note.youdao.com^
 @@||business.apple.com^$important
+@@||buyad.bi-xenon.cn^
 @@||bytedanceapi.com^
 @@||byteimg.com.queniusy.com^
 @@||c.58cdn.com.cn^
@@ -594,6 +603,7 @@
 @@||callback.58.com^
 @@||campus.163.com^
 @@||captcha-gray.zt.kuaishou.com^
+@@||captcha.su.baidu.com^
 @@||captcha.zt.kuaishou.com^
 @@||captive.apple.com^
 @@||captive.apple.com^$important
@@ -1359,6 +1369,7 @@
 @@||img-l3.xnxx-cdn.com^
 @@||img-l3.xvideos-cdn.com^
 @@||img.360kuai.com^
+@@||img.ads.tvb.com^
 @@||img.alicdn.com^
 @@||img.client.10010.com^
 @@||img.cmvideo.cn^
