@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-02 16:13:32（北京时间）
+! Version: 2025-07-02 18:10:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 18990
+! Total count: 19070
 
  
 *.lijie.*/*_*?$third-party
@@ -374,6 +374,7 @@
 0.0.0.0 a.appjiagu.com
 0.0.0.0 a.applovin.com
 0.0.0.0 a.baidu.com
+0.0.0.0 a.breaktime.com.tw
 0.0.0.0 a.cnzz.com
 0.0.0.0 a.dounanhuahui.com
 0.0.0.0 a.game.qidian.com
@@ -387,6 +388,7 @@
 0.0.0.0 a.qchannel03.cn
 0.0.0.0 a.ssl.msdk.qq.com
 0.0.0.0 a.stat.xiaomi.com
+0.0.0.0 a.teads.tv
 0.0.0.0 a.tn.token-ad.com
 0.0.0.0 a.tradplusad.com
 0.0.0.0 a.vlion.cn
@@ -403,6 +405,7 @@
 0.0.0.0 a6-remad.qm989.com  #底部横幅？
 0.0.0.0 a751.oadz.com
 0.0.0.0 a850839db60d84c256fd0060cad98f2c9.z.irs01.com
+0.0.0.0 aa.birdgesdk.com
 0.0.0.0 aa.toponad.com
 0.0.0.0 aads.shuzilm.cn
 0.0.0.0 aaid.umeng.com
@@ -454,6 +457,7 @@
 0.0.0.0 acs4baichuan.m.taobao.com
 0.0.0.0 acs4baichuan.m.taobao.com  #据说是淘宝授权，可我也没发现APP不能调用登录
 0.0.0.0 acs4public.m.taobao.com
+0.0.0.0 act.adintl.cn
 0.0.0.0 act.qq.com
 0.0.0.0 act.umeng.com
 0.0.0.0 act.vip.iqiyi.com
@@ -478,6 +482,7 @@
 0.0.0.0 ad-display.diwodiwo.xyz
 0.0.0.0 ad-dp-drcn.cloud.huawei.com.cn
 0.0.0.0 ad-drs-ipv6.52qumao.com
+0.0.0.0 ad-drs.52qumao.com
 0.0.0.0 ad-dsp-1251779293.file.myqcloud.com
 0.0.0.0 ad-dsp-1251779293.file.myqcloud.com  #丰巢首页下面的轮播横幅广告
 0.0.0.0 ad-emea.doubleclick.net
@@ -533,10 +538,12 @@
 0.0.0.0 ad.flurry.com
 0.0.0.0 ad.funp.com
 0.0.0.0 ad.gamebox.360.cn
+0.0.0.0 ad.gameley.com
 0.0.0.0 ad.googleanalysis.mobi
 0.0.0.0 ad.greedland.net
 0.0.0.0 ad.gtbrowser.com
 0.0.0.0 ad.hiiir.com
+0.0.0.0 ad.holmesmind.com
 0.0.0.0 ad.hpplay.cn
 0.0.0.0 ad.huajiao.com
 0.0.0.0 ad.huazirc.com
@@ -614,6 +621,7 @@
 0.0.0.0 ad.zuimeitianqi.com
 0.0.0.0 ad1.greedland.net
 0.0.0.0 ad1.xiaomi.com
+0.0.0.0 ad2.apx.appier.net
 0.0.0.0 ad2.gridsumdissector.com
 0.0.0.0 ad2.yam.com
 0.0.0.0 ada.baidu.com
@@ -767,12 +775,12 @@
 0.0.0.0 ads.api.fakeloc.cc  #从fake location
 0.0.0.0 ads.api.vungle.com
 0.0.0.0 ads.aplus.pptv.com
+0.0.0.0 ads.aralego.com
 0.0.0.0 ads.betweendigital.com
 0.0.0.0 ads.bssdl.kugou.com
 0.0.0.0 ads.celtra.com
 0.0.0.0 ads.creative-serving.com
 0.0.0.0 ads.cup.com.cn
-0.0.0.0 ads.cup.com.cn  #云闪付，误杀本地生活(抢石化加油券用)专属精彩等
 0.0.0.0 ads.data.pplive.com
 0.0.0.0 ads.eu.msn.com
 0.0.0.0 ads.fetnet.net
@@ -794,6 +802,7 @@
 0.0.0.0 ads.mobgold.com
 0.0.0.0 ads.msn.com
 0.0.0.0 ads.music.126.net
+0.0.0.0 ads.mykudou.com
 0.0.0.0 ads.ninemsn.com.au
 0.0.0.0 ads.oneway.mobi
 0.0.0.0 ads.oppomobile.com
@@ -931,6 +940,8 @@
 0.0.0.0 adslvfile.qq.com
 0.0.0.0 adslvseed.qq.com
 0.0.0.0 adsmart.konka.com
+0.0.0.0 adsmartget.guangtuikeji.com
+0.0.0.0 adsmartgetbes.pinyuconn.cn
 0.0.0.0 adsmind.apdcdn.tc.qq.com
 0.0.0.0 adsmind.gdtimg.com
 0.0.0.0 adsmind.tc.qq.com
@@ -943,6 +954,7 @@
 0.0.0.0 adsrich.qq.com
 0.0.0.0 adss.video.qq.com
 0.0.0.0 adss.yahoo.com
+0.0.0.0 adstage.sigmob.cn
 0.0.0.0 adstat.izuiyou.com
 0.0.0.0 adstat.izuiyou.com  #皮皮虾
 0.0.0.0 adstatic.peopleapp.com
@@ -1031,6 +1043,7 @@
 0.0.0.0 adx.babytree.com
 0.0.0.0 adx.doumpaq.com
 0.0.0.0 adx.g.doubleclick.net
+0.0.0.0 adx.halomobi.com  #嗨量科技
 0.0.0.0 adx.hupu.com
 0.0.0.0 adx.hzbxm.com
 0.0.0.0 adx.kuaiyiad.com
@@ -1097,6 +1110,7 @@
 0.0.0.0 alissl.ucdl.pp.uc.cn
 0.0.0.0 all.cnzz.com
 0.0.0.0 allawntech.com
+0.0.0.0 alliance.breaktime.com.tw
 0.0.0.0 allnews.uodoo.com
 0.0.0.0 alog-default.umeng.com
 0.0.0.0 alog.umeng.co
@@ -1190,6 +1204,7 @@
 0.0.0.0 api-auth.zztfly.com
 0.0.0.0 api-c.dutils.com
 0.0.0.0 api-c.hiaiabc.com
+0.0.0.0 api-cfg.52qumao.com
 0.0.0.0 api-cn.store.heytapmobi.com
 0.0.0.0 api-cn.theme.heytapmobi.com
 0.0.0.0 api-d.dutils.com
@@ -1340,6 +1355,7 @@
 0.0.0.0 api.openinstall.io
 0.0.0.0 api.poll.aiseet.atianqi.com
 0.0.0.0 api.poll.video.qq.com
+0.0.0.0 api.popin.cc
 0.0.0.0 api.push.mob.com
 0.0.0.0 api.qttunion.com
 0.0.0.0 api.qttunion.com  #趣盟广告
@@ -1354,6 +1370,7 @@
 0.0.0.0 api.so.lianmeng.360.cn
 0.0.0.0 api.srv.jpush.cn
 0.0.0.0 api.ssp.admobile.top
+0.0.0.0 api.ssp.sigmob.cn
 0.0.0.0 api.statsig.com
 0.0.0.0 api.supersonicads.com
 0.0.0.0 api.taboola.com
@@ -1523,6 +1540,7 @@
 0.0.0.0 assets.gunosy.com
 0.0.0.0 assets.gunosy.com  #↑P站
 0.0.0.0 assets.iredwhale.com
+0.0.0.0 assets.mailerlite.com  #邮箱营销
 0.0.0.0 assistant.pandora.xiaomi.com
 0.0.0.0 astat.bugly.qq.com
 0.0.0.0 astrategy.beacon.qq.com
@@ -1537,7 +1555,9 @@
 0.0.0.0 atom.adjust.com
 0.0.0.0 atrace.chelaile.net.cn
 0.0.0.0 attr.appsflyer.com
+0.0.0.0 au.adhacker.online
 0.0.0.0 au.apk.umeng.com
+0.0.0.0 au.breaktime.com.tw
 0.0.0.0 au.qq.com
 0.0.0.0 au.qq.com  #开屏？240813测试
 0.0.0.0 au.umeng.co
@@ -1552,6 +1572,7 @@
 0.0.0.0 audid-api.taobao.com
 0.0.0.0 audid.umeng.com
 0.0.0.0 audience-164723144.us-east-1.elb.amazonaws.com
+0.0.0.0 audio-ad.spotify.com
 0.0.0.0 auth.api.gitv.tv
 0.0.0.0 auth.dlb.mob.com
 0.0.0.0 auth.irs01.com
@@ -1622,6 +1643,7 @@
 0.0.0.0 bce.bj.ad.track.66mobi.com
 0.0.0.0 bcelive.com
 0.0.0.0 bcp.crwdcntrl.net
+0.0.0.0 bd-cdn.halomobi.com
 0.0.0.0 bd-livemate.pull.yximgs.com
 0.0.0.0 bd.a.yximgs.com
 0.0.0.0 bd.a.yximgs.com  #↑A站
@@ -1646,6 +1668,7 @@
 0.0.0.0 beacon.qq.com
 0.0.0.0 beacon.sina.com.cn
 0.0.0.0 beacon.tingyun.com
+0.0.0.0 beaconcdn.qq.com
 0.0.0.0 beacons*.gvt3.com
 0.0.0.0 beacons.gvt2.com
 0.0.0.0 beaconserver-ce-vpc0-1537565064.eu-west-1.elb.amazonaws.com
@@ -1658,6 +1681,7 @@
 0.0.0.0 bes-mtj.baidu.com  #250326
 0.0.0.0 beta.umeng.com
 0.0.0.0 bi-sensors.duxiaoman.com
+0.0.0.0 bi.gameley.com
 0.0.0.0 bi.inmobi.cn
 0.0.0.0 bid-adx.vlion.cn
 0.0.0.0 bid.g.doubleclick.net
@@ -1712,6 +1736,7 @@
 0.0.0.0 bossaudioandcomic-1252317822.image.myqcloud.com
 0.0.0.0 bottle.irs01.com
 0.0.0.0 brandshow.58.com
+0.0.0.0 breaktime.tw  #富盈数据
 0.0.0.0 bro.flyme.cn
 0.0.0.0 broker.mqtt.pandora.xiaomi.com
 0.0.0.0 bronrt.stsdk.vivo.com.cn
@@ -1784,6 +1809,7 @@
 0.0.0.0 c.gdt.qq.com
 0.0.0.0 c.gj.qq.com
 0.0.0.0 c.greystripe.com
+0.0.0.0 c.holmesmind.com
 0.0.0.0 c.isdspeed.qq.com
 0.0.0.0 c.kuaiduizuoye.com
 0.0.0.0 c.l.qq.com
@@ -2096,6 +2122,7 @@
 0.0.0.0 commercial.iem.taptap.cn
 0.0.0.0 commercial.shouji.360.cn
 0.0.0.0 commercial.shouji.360.cn  #360浏览器开屏广告
+0.0.0.0 common.shuhonggz.com
 0.0.0.0 community.bz.mgtv.com
 0.0.0.0 community.image.video.qpic.cn
 0.0.0.0 community.jiguang.cn
@@ -2203,6 +2230,7 @@
 0.0.0.0 das.api.youku.com
 0.0.0.0 das.mobile.youku.com
 0.0.0.0 dash.applovin.com
+0.0.0.0 dash.sigmob.com
 0.0.0.0 dashboard.branch.io
 0.0.0.0 data-collector.soulapp.cn
 0.0.0.0 data-connector-server.soulapp.cn
@@ -2235,12 +2263,14 @@
 0.0.0.0 datax.baidu.com
 0.0.0.0 datk.anythinktech.com
 0.0.0.0 datk.toponadss.com
+0.0.0.0 dc.adintl.cn
 0.0.0.0 dc.admobile.top
 0.0.0.0 dc.ads.linkedin.com
 0.0.0.0 dc.ads.linkedin.com  #领英
 0.0.0.0 dc.bz.mgtv.com
 0.0.0.0 dc.letv.com
 0.0.0.0 dc.sigmob.cn
+0.0.0.0 dc.sigmob.com
 0.0.0.0 dc11.tingyun.com
 0.0.0.0 dcc.shuzilm.cn
 0.0.0.0 dcc2.shuzilm.cn
@@ -2256,6 +2286,7 @@
 0.0.0.0 de-mi-nis-ner2.info
 0.0.0.0 de-ner-mi-nis4.info
 0.0.0.0 de-nis-ner-mi-5.info
+0.0.0.0 de.ad.gameley.com
 0.0.0.0 de.as.pptv.com
 0.0.0.0 de.pandora.xiaomi.com
 0.0.0.0 deeplink.umeng.com
@@ -2307,6 +2338,7 @@
 0.0.0.0 dimg04.c-ctrip.com
 0.0.0.0 dip.umeng.com
 0.0.0.0 dir.minigame.qq.com
+0.0.0.0 dis.criteo.com
 0.0.0.0 discuz.gtimg.cn
 0.0.0.0 disp.titan.mgtv.com
 0.0.0.0 dispatcher.upmc.uc.cn
@@ -2358,6 +2390,7 @@
 0.0.0.0 dnstest.weixin.qq.com
 0.0.0.0 doc.admobile.top
 0.0.0.0 doc.cnzz.com
+0.0.0.0 doc.sigmob.com
 0.0.0.0 doc.tingyun.com
 0.0.0.0 docerad.wps.cn
 0.0.0.0 docs.getui.com
@@ -2406,6 +2439,7 @@
 0.0.0.0 dsp-idea.cdn.bcebos.com
 0.0.0.0 dsp-x.jd.com
 0.0.0.0 dsp.ads.umeng.com
+0.0.0.0 dsp.cdn.gameley.com
 0.0.0.0 dsp.fcbox.com
 0.0.0.0 dsp.iredwhale.com
 0.0.0.0 dsp.maplehaze.cn
@@ -2475,6 +2509,7 @@
 0.0.0.0 effect.snssdk.com
 0.0.0.0 ei.cnzz.com
 0.0.0.0 eiv.baidu.com
+0.0.0.0 elads.kocpc.com.tw
 0.0.0.0 elc-dforce.miaozhen.com
 0.0.0.0 elemecdn.com
 0.0.0.0 email.appsflyer.com
@@ -2546,6 +2581,7 @@
 0.0.0.0 fac2.oadz.com
 0.0.0.0 fans.bestvogue.com
 0.0.0.0 fanxing.kugou.com
+0.0.0.0 fasthuyitool.jidiandian.cn
 0.0.0.0 fastimage.uve.weibo.com
 0.0.0.0 fastimage.uve.weibo.com #开屏?
 0.0.0.0 fb.umeng.com
@@ -2640,6 +2676,7 @@
 0.0.0.0 g-staic.ganjingworld.com
 0.0.0.0 g.163.com
 0.0.0.0 g.ads.cn.miaozhen.com
+0.0.0.0 g.baidu.com  #250615
 0.0.0.0 g.cn.miaozhen.com
 0.0.0.0 g.doubleclick.com
 0.0.0.0 g.doubleclick.net
@@ -2947,6 +2984,7 @@
 0.0.0.0 huq-query-loggers-california-3cec807da3e9dc0d.elb.us-west-1.amazonaws.com
 0.0.0.0 huq-query-loggers-europe-west1-32ef7f4bbf54ce27.elb.eu-west-1.amazonaws.com
 0.0.0.0 huskieaccess.bugly.qq.com
+0.0.0.0 huyitool.jidiandian.cn
 0.0.0.0 hw-ot-ad.a.yximgs.com
 0.0.0.0 hw.zuimeitianqi.com
 0.0.0.0 hwapi.jpush.cn
@@ -3261,7 +3299,9 @@
 0.0.0.0 jp-api-fc.dutils.com
 0.0.0.0 jp-api-fd.dutils.com
 0.0.0.0 jp-devs-data.dutils.com
+0.0.0.0 jp.ad.gameley.com
 0.0.0.0 jp.as.pptv.com
+0.0.0.0 jp.youtui.gameley.com
 0.0.0.0 jpg.mengbingyuan.com
 0.0.0.0 jpush.cn
 0.0.0.0 jpush.html5.qq.com
@@ -3304,10 +3344,11 @@
 0.0.0.0 kad.gotokeep.com
 0.0.0.0 kadmimage.biz.weibo.com
 0.0.0.0 kde.qq.com
-0.0.0.0 kde.qq.com  #小说的广告？
+0.0.0.0 kde.qq.com  #小说的广告
 0.0.0.0 kepler-pick.jiguang.cn
 0.0.0.0 kepler.jd.com
 0.0.0.0 keybut.com
+0.0.0.0 kgb-ifs.tanx.com
 0.0.0.0 kgmobilestat.kugou.com
 0.0.0.0 kjstorage.360buyimg.com
 0.0.0.0 kl.67it.com
@@ -3355,6 +3396,7 @@
 0.0.0.0 league1.maoyuncloud.cn
 0.0.0.0 learn.appsflyer.com
 0.0.0.0 learn.chaoxing.com
+0.0.0.0 lemon.gameley.com
 0.0.0.0 letv-mipdx.cn.miaozhen.com
 0.0.0.0 letv.axp.admaster.com.cn
 0.0.0.0 letv.ipdx.cn.miaozhen.com
@@ -3491,6 +3533,7 @@
 0.0.0.0 logservice1.hicloud.com
 0.0.0.0 logstat.caixin.com
 0.0.0.0 logtj.kugou.com
+0.0.0.0 lp.pinduoduo.com
 0.0.0.0 ls.l.qq.com
 0.0.0.0 lstat.youku.com
 0.0.0.0 lupic.cdn.bcebos.com
@@ -3575,7 +3618,7 @@
 0.0.0.0 mantis.bayescom.com
 0.0.0.0 map-mobile-opnimg.cdn.bcebos.com
 0.0.0.0 map-mobile-opnimg.cdn.bcebos.com  #主界面左上角贴图，会误伤公交&我的 的部分图标以及其他角落的营销图。
-0.0.0.0 mapdownload.autonavi.com  #高德地图更新弹窗
+0.0.0.0 mapdownload.autonavi.com  #高德地图更新弹窗，误杀未知
 0.0.0.0 mapi.m.jd.com
 0.0.0.0 mapiweb.babytree.com
 0.0.0.0 mapp.qzone.qq.com
@@ -3662,6 +3705,7 @@
 0.0.0.0 mi.btmods.net
 0.0.0.0 mi.eulerian.net
 0.0.0.0 mi.gdt.qq.com
+0.0.0.0 mi.gdt.qq.com  #旧版微博国际版开屏
 0.0.0.0 mi.miliboo.be
 0.0.0.0 mi.miliboo.ch
 0.0.0.0 mi.miliboo.co.uk
@@ -3672,6 +3716,7 @@
 0.0.0.0 mi.miliboo.lu
 0.0.0.0 mi.speee.jp
 0.0.0.0 mi.tvzhe.com
+0.0.0.0 miao.baidu.com
 0.0.0.0 midas-tracker.hellay.net
 0.0.0.0 mig.str.mdt.qq.com
 0.0.0.0 migu-mipdx.cn.miaozhen.com
@@ -3776,6 +3821,8 @@
 0.0.0.0 monitor.uu.qq.com
 0.0.0.0 monitorsdk.appsflyer.com
 0.0.0.0 monsetting.toutiao.com
+0.0.0.0 mores.anythinktech.com
+0.0.0.0 mores.motowoo.com  #塔库信息
 0.0.0.0 mores.toponad.com
 0.0.0.0 mos.adubest.com
 0.0.0.0 mos.adubest.com  #↑从新浪新闻
@@ -3875,6 +3922,7 @@
 0.0.0.0 n.mark.le.com  #片头视频广告
 0.0.0.0 n.mark.letv.com
 0.0.0.0 n.qchannel03.cn
+0.0.0.0 n.sigmob.cn
 0.0.0.0 n.ssp.qq.com
 0.0.0.0 n.wifi188.com
 0.0.0.0 nadvideo2.baidu.com
@@ -3908,6 +3956,7 @@
 0.0.0.0 news.mpush.qq.com
 0.0.0.0 news.push.126.net
 0.0.0.0 news.ssp.qq.com
+0.0.0.0 newsad.ssp.qq.com
 0.0.0.0 newspush.sinajs.cn
 0.0.0.0 newswifiapi.dftoutiao.com
 0.0.0.0 nex.163.com
@@ -4035,6 +4084,7 @@
 0.0.0.0 osa.xdplt.com
 0.0.0.0 oss-private.getui.com
 0.0.0.0 oss-public.getui.com
+0.0.0.0 oss.cdn.adintl.cn
 0.0.0.0 oss.cdn.aiclk.com
 0.0.0.0 oss.chanct.cn
 0.0.0.0 oss.gjfzpt.cn
@@ -4230,6 +4280,7 @@
 0.0.0.0 pingtcss.qq.com
 0.0.0.0 pis-pcdn.youku.com
 0.0.0.0 pitaya.bytedance.com
+0.0.0.0 pitk.birdgesdk.com
 0.0.0.0 pixel.adsafeprotected.com
 0.0.0.0 pixel.facebook.com
 0.0.0.0 pixel.tapad.com
@@ -4278,6 +4329,8 @@
 0.0.0.0 post-1254361794.file.myqcloud.com  #埋堆堆(看TVB的)开屏
 0.0.0.0 post.mmstat.com
 0.0.0.0 post1.voiceads.cn
+0.0.0.0 power.adhacker.online
+0.0.0.0 powerads.breaktime.com.tw
 0.0.0.0 powerful.xdplt.com
 0.0.0.0 pp.myapp.com
 0.0.0.0 pp.myapp.comimage.9game.cn
@@ -4433,6 +4486,7 @@
 0.0.0.0 qtsftl.m.cn.miaozhen.com
 0.0.0.0 qtt.ads.8le8le.com
 0.0.0.0 quanjing.cnzz.com
+0.0.0.0 qutoutiao.adintl.cn
 0.0.0.0 qwapi.apple.com
 0.0.0.0 qy.qchannel03.cn
 0.0.0.0 qzpb.qq.com
@@ -4573,6 +4627,7 @@
 0.0.0.0 rtb.voiceads.cn
 0.0.0.0 rtbapi.douyucdn.cn
 0.0.0.0 rtbapi.douyucdn.cn  #斗鱼开屏配置文件？非图，但禁了就不展示广告。
+0.0.0.0 rtbcallback.sigmob.cn
 0.0.0.0 rtlog3-applog-hl.fqnovel.com
 0.0.0.0 rtlog5-applog-hl.fqnovel.com
 0.0.0.0 rtlog5-applog-lf.fqnovel.com
@@ -4769,6 +4824,7 @@
 0.0.0.0 sax.sina.cn
 0.0.0.0 sax.sina.com.cn
 0.0.0.0 saxn.sina.com.cn
+0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 sbeacon.sina.com.cn
 0.0.0.0 sbkh5.z74d.com
 0.0.0.0 sc.ads.sohu.com
@@ -4811,6 +4867,7 @@
 0.0.0.0 sdk.api.gamex.mobile.youku.com
 0.0.0.0 sdk.api.oaid.wocloud.cn
 0.0.0.0 sdk.appsflyer.com
+0.0.0.0 sdk.aqyad.com
 0.0.0.0 sdk.beizi.biz
 0.0.0.0 sdk.conf.getui.com
 0.0.0.0 sdk.conf.igexin.com
@@ -4836,6 +4893,7 @@
 0.0.0.0 sdk.open.talk.igexin.com
 0.0.0.0 sdk.push.mob.com
 0.0.0.0 sdk.s.360.cn
+0.0.0.0 sdk.shuhonggz.com
 0.0.0.0 sdk.ssp.admobile.top
 0.0.0.0 sdk.tf.360.cn
 0.0.0.0 sdk.tianmu.mobi
@@ -4851,6 +4909,7 @@
 0.0.0.0 sdkapp.mobile.sina.cn
 0.0.0.0 sdkapp.uve.weibo.com
 0.0.0.0 sdkcfg.adintl.cn
+0.0.0.0 sdkci.sigmob.com
 0.0.0.0 sdkclick.mobile.sina.cn
 0.0.0.0 sdkconf.avlyun.com
 0.0.0.0 sdkconfig.ad.india.xiaomi.com
@@ -4859,7 +4918,9 @@
 0.0.0.0 sdkconfig.play.aiseet.atianqi.com
 0.0.0.0 sdkconfig.video.qq.com
 0.0.0.0 sdkconfig.voiceads.cn
+0.0.0.0 sdkdoc.adintl.cn
 0.0.0.0 sdkfiledl.jiguang.cn
+0.0.0.0 sdklog.adintl.cn
 0.0.0.0 sdkm.w.inmobi.cn
 0.0.0.0 sdkm.w.inmobi.com
 0.0.0.0 sdkoptedge.chinanetcenter.com
@@ -4934,6 +4995,7 @@
 0.0.0.0 sg.mmstat.com
 0.0.0.0 sgm-dbei.miaozhen.com
 0.0.0.0 sgp.o2o.api.xiaomi.com
+0.0.0.0 sh-adx.adintl.cn
 0.0.0.0 sh.adingo.jp
 0.0.0.0 sh.adingo.jp  #↓P站
 0.0.0.0 share-jmlink.jpush.cn
@@ -5058,6 +5120,7 @@
 0.0.0.0 ssp-res.flyme.cn
 0.0.0.0 ssp-sdk-api.jiguang.cn
 0.0.0.0 ssp-sdk-status.jiguang.cn
+0.0.0.0 ssp-sync.criteo.com
 0.0.0.0 ssp.1nmob.com
 0.0.0.0 ssp.1rtb.com
 0.0.0.0 ssp.dzh.com.cn
@@ -5088,6 +5151,7 @@
 0.0.0.0 stat.10jqka.com.cn
 0.0.0.0 stat.10jqka.com.cn  #同花顺
 0.0.0.0 stat.58.xgo.com.cn
+0.0.0.0 stat.adintl.cn
 0.0.0.0 stat.funshion.net
 0.0.0.0 stat.gamedl.qq.com
 0.0.0.0 stat.googleanalysis.mobi
@@ -5096,6 +5160,7 @@
 0.0.0.0 stat.m.jd.com
 0.0.0.0 stat.pandora.xiaomi.com
 0.0.0.0 stat.sd.360.cn
+0.0.0.0 stat.shuhonggz.com
 0.0.0.0 stat.tf.360.cn
 0.0.0.0 stat.titan.imgo.tv
 0.0.0.0 stat.tpns.tencent.com
@@ -5167,6 +5232,7 @@
 0.0.0.0 stdl.qq.com
 0.0.0.0 stg-data.ads.heytapmobi.com
 0.0.0.0 stg-data.ads.heytapmobi.com  #安装界面广告
+0.0.0.0 stg.shuhonggz.com
 0.0.0.0 stm-cdn.cn.miaozhen.com
 0.0.0.0 stm-collect.cn.miaozhen.com
 0.0.0.0 stm.cn.miaozhen.com
@@ -5226,6 +5292,7 @@
 0.0.0.0 t-e.flyme.cn
 0.0.0.0 t-flow.flyme.cn
 0.0.0.0 t-l.play.aiseet.atianqi.com
+0.0.0.0 t-remad.qm989.com
 0.0.0.0 t.adbxb.com
 0.0.0.0 t.ads.sohu.com
 0.0.0.0 t.apkpure.net
@@ -5426,6 +5493,7 @@
 0.0.0.0 tr.snapchat.com
 0.0.0.0 tr6.snapchat.com
 0.0.0.0 trace-api.aiclk.com
+0.0.0.0 trace.aqyad.com
 0.0.0.0 trace.m1905.cn
 0.0.0.0 trace.mediago.io
 0.0.0.0 trace.popin.cc
@@ -5449,6 +5517,7 @@
 0.0.0.0 track.mediav.com
 0.0.0.0 track.mituo.cn
 0.0.0.0 track.ra.icast.cn
+0.0.0.0 track.sigmob.cn
 0.0.0.0 track.sohu.com
 0.0.0.0 track.uc.cn
 0.0.0.0 track.ucdns.uc.cn
@@ -5470,6 +5539,7 @@
 0.0.0.0 tracking.v.tf.360.cn
 0.0.0.0 trackingprd.hwwt8.com
 0.0.0.0 tracklog.58.com
+0.0.0.0 tracktp.sigmob.cn
 0.0.0.0 tran.mediav.com
 0.0.0.0 trc-events.taboola.com
 0.0.0.0 trc.taboola.com
@@ -5552,6 +5622,7 @@
 0.0.0.0 ugc.map.baidu.com
 0.0.0.0 ugcup.music.qq.com
 0.0.0.0 ugd.gtimg.com
+0.0.0.0 ujoy.anythinktech.com
 0.0.0.0 uk.umengcloud.com
 0.0.0.0 ulike-api3.faceu.mobi
 0.0.0.0 ulike-api3.faceu.mobi #轻颜相机
@@ -5651,6 +5722,7 @@
 0.0.0.0 us-devs-data.dutils.com
 0.0.0.0 us.adserver.yahoo.com
 0.0.0.0 us.l.qq.com
+0.0.0.0 us.l.qq.com  #QQ阅读开屏广告
 0.0.0.0 usc.adserver.snapads.com
 0.0.0.0 usdtop.58.com
 0.0.0.0 user.jpush.cn
@@ -5782,6 +5854,7 @@
 0.0.0.0 vcs.snssdk.com  #并非抖音验证码
 0.0.0.0 vcs.zijieapi.com
 0.0.0.0 vd.l.qq.com
+0.0.0.0 vd6.l.qq.com
 0.0.0.0 vdn6.vzuu.com
 0.0.0.0 veim.lrswl.com
 0.0.0.0 verify.snssdk.com
@@ -5822,6 +5895,7 @@
 0.0.0.0 vodlog.m1905.cn
 0.0.0.0 vol.bczcdn.com
 0.0.0.0 volc-track-dsp.66mobi.com
+0.0.0.0 volc.bj.ad.track.66mobi.com
 0.0.0.0 vortex-sandbox.data.microsoft.com
 0.0.0.0 vortex-win.data.microsoft.com
 0.0.0.0 vortex.data.microsoft.com
@@ -5846,6 +5920,7 @@
 0.0.0.0 vulcan1.branch.io
 0.0.0.0 vulcan5.branch.io
 0.0.0.0 vungle.com
+0.0.0.0 vv.adintl.cn
 0.0.0.0 vv.play.aiseet.atianqi.com
 0.0.0.0 vv6.video.qq.com
 0.0.0.0 vv6.video.qq.com  #腾讯视频9.0之后的开屏广告
@@ -5985,6 +6060,7 @@
 0.0.0.0 www-ads.huolala.co
 0.0.0.0 www.8le8le.com
 0.0.0.0 www.ad5lm.net
+0.0.0.0 www.adintl.cn
 0.0.0.0 www.admaji.com
 0.0.0.0 www.admobile.top
 0.0.0.0 www.adnxs.com
@@ -6009,6 +6085,7 @@
 0.0.0.0 www.eltrafiko.com
 0.0.0.0 www.find.my-xiaomi.live
 0.0.0.0 www.flurry.com
+0.0.0.0 www.gameley.com
 0.0.0.0 www.gepush.com
 0.0.0.0 www.getui.com
 0.0.0.0 www.google-analytics.com
@@ -6117,6 +6194,7 @@
 0.0.0.0 xnet.da.mgtv.com  #小米视频的芒果TV片头广告
 0.0.0.0 xreach.miaozhen.com
 0.0.0.0 xs.gdt.qq.com
+0.0.0.0 xsweb.gdt.qq.com  #QQ阅读抓出
 0.0.0.0 xtc.xdplt.com
 0.0.0.0 xunlei.ipdx.cn.miaozhen.com
 0.0.0.0 xy.phone.igexin.com
@@ -6124,6 +6202,7 @@
 0.0.0.0 y.da.hunantv.com
 0.0.0.0 y.one.impact-ad.jp
 0.0.0.0 y76.ylems.club
+0.0.0.0 yads.c.yimg.jp
 0.0.0.0 yandex.ru
 0.0.0.0 yaolu.mh.163.com
 0.0.0.0 yaolu.yuedu.163.com
@@ -6226,17 +6305,17 @@
 13.226.254.58 image.tmdb.org
 13.35.0.128 api.themoviedb.org
 140.82.112.18 github.community
-140.82.112.21                 api.individual.githubcopilot.com
+140.82.112.22                 api.individual.githubcopilot.com
 140.82.112.25 live.github.com
 140.82.113.18                 github.community
-140.82.113.21                 collector.github.com
-140.82.113.21                 education.github.com
 140.82.113.21 collector.github.com
 140.82.113.22                 central.github.com
+140.82.113.22                 collector.github.com
 140.82.113.22 central.github.com
-140.82.113.25                 alive.github.com
-140.82.113.26                 live.github.com
+140.82.113.25                 live.github.com
+140.82.113.26                 alive.github.com
 140.82.113.26 alive.github.com
+140.82.114.21                 education.github.com
 140.82.116.3 gist.github.com
 142.250.107.188 mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
@@ -6254,7 +6333,6 @@
 146.75.121.194 github.global.ssl.fastly.net
 151.101.193.194               github.global.ssl.fastly.net
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.182.105.161                github-cloud.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6269,24 +6347,23 @@
 183.136.207.132 ultimateota.d.miui.com
 184.85.65.125 steamcommunity.com
 184.85.65.125 www.steamcommunity.com
-185.199.108.133               avatars.githubusercontent.com
-185.199.108.133               avatars0.githubusercontent.com
-185.199.108.133               avatars1.githubusercontent.com
-185.199.108.133               avatars2.githubusercontent.com
-185.199.108.133               avatars3.githubusercontent.com
-185.199.108.133               avatars4.githubusercontent.com
-185.199.108.133               avatars5.githubusercontent.com
-185.199.108.133               camo.githubusercontent.com
-185.199.108.133               cloud.githubusercontent.com
-185.199.108.133               desktop.githubusercontent.com
-185.199.108.133               favicons.githubusercontent.com
-185.199.108.133               github.map.fastly.net
-185.199.108.133               media.githubusercontent.com
-185.199.108.133               objects.githubusercontent.com
-185.199.108.133               private-user-images.githubusercontent.com
-185.199.108.133               raw.githubusercontent.com
-185.199.108.133               user-images.githubusercontent.com
-185.199.108.154               github.githubassets.com
+185.199.109.133               avatars.githubusercontent.com
+185.199.109.133               avatars0.githubusercontent.com
+185.199.109.133               avatars1.githubusercontent.com
+185.199.109.133               avatars2.githubusercontent.com
+185.199.109.133               avatars3.githubusercontent.com
+185.199.109.133               avatars4.githubusercontent.com
+185.199.109.133               avatars5.githubusercontent.com
+185.199.109.133               camo.githubusercontent.com
+185.199.109.133               cloud.githubusercontent.com
+185.199.109.133               desktop.githubusercontent.com
+185.199.109.133               favicons.githubusercontent.com
+185.199.109.133               github.map.fastly.net
+185.199.109.133               media.githubusercontent.com
+185.199.109.133               objects.githubusercontent.com
+185.199.109.133               private-user-images.githubusercontent.com
+185.199.109.133               raw.githubusercontent.com
+185.199.109.133               user-images.githubusercontent.com
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars1.githubusercontent.com
@@ -6310,6 +6387,7 @@
 185.199.110.154 github.githubassets.com
 185.199.111.153               github.io
 185.199.111.153               githubstatus.com
+185.199.111.154               github.githubassets.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -6332,6 +6410,7 @@
 20.27.177.113 github.com
 20.27.177.116 api.github.com
 20.43.185.14 github.dev
+203.107.60.254 web-pro2.123952.com  #123云盘下载解析(临时用)
 208.80.154.224 zh.wikipedia.org
 216.239.32.40 translate-pa.googleapis.com
 216.239.32.40 translate.google.com
@@ -6352,9 +6431,9 @@
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
-3.5.17.197                    github-com.s3.amazonaws.com
+3.5.20.136                    github-production-repository-file-5c1aeb.s3.amazonaws.com
 3.5.28.146 github-com.s3.amazonaws.com
-3.5.28.76                     github-production-repository-file-5c1aeb.s3.amazonaws.com
+3.5.6.11                      github-com.s3.amazonaws.com
 31.216.145.5 mega.nz
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
@@ -6371,13 +6450,14 @@
 47.246.37.220 hugeota.d.miui.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
-52.217.0.75                   github-production-user-asset-6210df.s3.amazonaws.com
+52.217.232.1                  github-production-user-asset-6210df.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.68.124                 github-cloud.s3.amazonaws.com
 52.84.166.68 api.themoviedb.org
 52.84.166.71 api.themoviedb.org
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 54.192.73.28 image.tmdb.org
-54.231.233.209                github-production-release-asset-2e65be.s3.amazonaws.com
+54.231.197.9                  github-production-release-asset-2e65be.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 64.233.188.188 mtalk.google.com
