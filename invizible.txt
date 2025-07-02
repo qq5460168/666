@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-02 12:19:54（北京时间）
+! Version: 2025-07-02 14:14:42（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9076
+! Total count: 9085
 # Title: Invizible Pro Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
@@ -1537,6 +1537,7 @@ api-adservices.apple.com
 api-adx.52qumao.com
 api-c.dutils.com
 api-cfg.52qumao.com
+api-cfg.wtzw.com
 api-cloudfalcon.hismarttv.com
 api-cn.open.heytapmobi.com
 api-dynhost.hismarttv.com
@@ -1549,6 +1550,8 @@ api-gd.hiaiabc.com
 api-gps.hismarttv.com
 api-gw.wtzw.com
 api-htp.beizi.biz
+api-ks.wtzw.com
+api-nps.wtzw.com
 api-p*.mobsurl.com
 api-p*.yksdks.com
 api-p1.yksdks.com
@@ -2712,6 +2715,7 @@ df101.vxfedm.cn
 df101.yblar.cn
 dfadas13.com
 dfaikhkm.xyz
+dfe-mic.mob.com
 dfec2.com
 dffrahax.com
 dfghaqea.xyz
@@ -3345,6 +3349,7 @@ fy.1sapp.com
 fy14.cn
 fz7erebwy.vip
 g-adnet.hiaiabc.com
+g-api.kwai.com
 g-staic.ganjingworld.com
 g-zt.kwai-pro.com
 g.cn.miaozhen.com
@@ -4129,6 +4134,7 @@ iqid.iqiyi.com
 iqiyi-mipdx.cn.miaozhen.com
 iqiyim.adtrack.enlightent.cn
 ir-sdk.dun.163.com
+ir-sdk.dun.163yun.com
 irc.qubiankeji.com
 iris.iad.apple.com
 irs03.com
@@ -5238,6 +5244,7 @@ mkjnbg.com
 mkjnha.com
 mkqdj.cn
 mkt-advertisement.tuhu.cn
+mkt.wtzw.com
 mktadsodr.ppdai.com
 ml102.whpnd.cn
 ml2007.com
@@ -6793,6 +6800,7 @@ shouji.sogou.com
 shouzhi.biz
 show-msgch.qq.com
 show.aklm.cc
+show.bilibili.com
 show.meituangov.cn
 show.pinyoux.com
 show.worldcrm.cn
@@ -7085,6 +7093,7 @@ szhszxfw.cn
 szipkp.com
 szlong.weixin.qq.com
 t*-m.dewu.net
+t-cfg.wtzw.com
 t-dsp.pinduoduo.com
 t-qmad.qimao.com
 t-remad.qm989.com

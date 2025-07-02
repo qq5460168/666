@@ -1,8 +1,8 @@
 # Title: Shadowrocket Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-Shadowrocket规则数量: 9072
-! Total count: 9072
+Shadowrocket规则数量: 9081
+! Total count: 9081
 DOMAIN-SUFFIX,*-*-*-lrycfv.vip,REJECT
 DOMAIN-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
 DOMAIN-SUFFIX,*-*.ap-northeast-2.elb.amazonaws.com,REJECT
@@ -1532,6 +1532,7 @@ DOMAIN-SUFFIX,api-adservices.apple.com,REJECT
 DOMAIN-SUFFIX,api-adx.52qumao.com,REJECT
 DOMAIN-SUFFIX,api-c.dutils.com,REJECT
 DOMAIN-SUFFIX,api-cfg.52qumao.com,REJECT
+DOMAIN-SUFFIX,api-cfg.wtzw.com,REJECT
 DOMAIN-SUFFIX,api-cloudfalcon.hismarttv.com,REJECT
 DOMAIN-SUFFIX,api-cn.open.heytapmobi.com,REJECT
 DOMAIN-SUFFIX,api-dynhost.hismarttv.com,REJECT
@@ -1544,6 +1545,8 @@ DOMAIN-SUFFIX,api-gd.hiaiabc.com,REJECT
 DOMAIN-SUFFIX,api-gps.hismarttv.com,REJECT
 DOMAIN-SUFFIX,api-gw.wtzw.com,REJECT
 DOMAIN-SUFFIX,api-htp.beizi.biz,REJECT
+DOMAIN-SUFFIX,api-ks.wtzw.com,REJECT
+DOMAIN-SUFFIX,api-nps.wtzw.com,REJECT
 DOMAIN-SUFFIX,api-p*.mobsurl.com,REJECT
 DOMAIN-SUFFIX,api-p*.yksdks.com,REJECT
 DOMAIN-SUFFIX,api-p1.yksdks.com,REJECT
@@ -2707,6 +2710,7 @@ DOMAIN-SUFFIX,df101.vxfedm.cn,REJECT
 DOMAIN-SUFFIX,df101.yblar.cn,REJECT
 DOMAIN-SUFFIX,dfadas13.com,REJECT
 DOMAIN-SUFFIX,dfaikhkm.xyz,REJECT
+DOMAIN-SUFFIX,dfe-mic.mob.com,REJECT
 DOMAIN-SUFFIX,dfec2.com,REJECT
 DOMAIN-SUFFIX,dffrahax.com,REJECT
 DOMAIN-SUFFIX,dfghaqea.xyz,REJECT
@@ -3340,6 +3344,7 @@ DOMAIN-SUFFIX,fy.1sapp.com,REJECT
 DOMAIN-SUFFIX,fy14.cn,REJECT
 DOMAIN-SUFFIX,fz7erebwy.vip,REJECT
 DOMAIN-SUFFIX,g-adnet.hiaiabc.com,REJECT
+DOMAIN-SUFFIX,g-api.kwai.com,REJECT
 DOMAIN-SUFFIX,g-staic.ganjingworld.com,REJECT
 DOMAIN-SUFFIX,g-zt.kwai-pro.com,REJECT
 DOMAIN-SUFFIX,g.cn.miaozhen.com,REJECT
@@ -4124,6 +4129,7 @@ DOMAIN-SUFFIX,iqid.iqiyi.com,REJECT
 DOMAIN-SUFFIX,iqiyi-mipdx.cn.miaozhen.com,REJECT
 DOMAIN-SUFFIX,iqiyim.adtrack.enlightent.cn,REJECT
 DOMAIN-SUFFIX,ir-sdk.dun.163.com,REJECT
+DOMAIN-SUFFIX,ir-sdk.dun.163yun.com,REJECT
 DOMAIN-SUFFIX,irc.qubiankeji.com,REJECT
 DOMAIN-SUFFIX,iris.iad.apple.com,REJECT
 DOMAIN-SUFFIX,irs03.com,REJECT
@@ -5233,6 +5239,7 @@ DOMAIN-SUFFIX,mkjnbg.com,REJECT
 DOMAIN-SUFFIX,mkjnha.com,REJECT
 DOMAIN-SUFFIX,mkqdj.cn,REJECT
 DOMAIN-SUFFIX,mkt-advertisement.tuhu.cn,REJECT
+DOMAIN-SUFFIX,mkt.wtzw.com,REJECT
 DOMAIN-SUFFIX,mktadsodr.ppdai.com,REJECT
 DOMAIN-SUFFIX,ml102.whpnd.cn,REJECT
 DOMAIN-SUFFIX,ml2007.com,REJECT
@@ -6788,6 +6795,7 @@ DOMAIN-SUFFIX,shouji.sogou.com,REJECT
 DOMAIN-SUFFIX,shouzhi.biz,REJECT
 DOMAIN-SUFFIX,show-msgch.qq.com,REJECT
 DOMAIN-SUFFIX,show.aklm.cc,REJECT
+DOMAIN-SUFFIX,show.bilibili.com,REJECT
 DOMAIN-SUFFIX,show.meituangov.cn,REJECT
 DOMAIN-SUFFIX,show.pinyoux.com,REJECT
 DOMAIN-SUFFIX,show.worldcrm.cn,REJECT
@@ -7080,6 +7088,7 @@ DOMAIN-SUFFIX,szhszxfw.cn,REJECT
 DOMAIN-SUFFIX,szipkp.com,REJECT
 DOMAIN-SUFFIX,szlong.weixin.qq.com,REJECT
 DOMAIN-SUFFIX,t*-m.dewu.net,REJECT
+DOMAIN-SUFFIX,t-cfg.wtzw.com,REJECT
 DOMAIN-SUFFIX,t-dsp.pinduoduo.com,REJECT
 DOMAIN-SUFFIX,t-qmad.qimao.com,REJECT
 DOMAIN-SUFFIX,t-remad.qm989.com,REJECT

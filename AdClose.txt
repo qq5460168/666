@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-02 12:19:54（北京时间）
+! Version: 2025-07-02 14:14:42（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9075
+! Total count: 9084
 # AdClose 专用广告规则
 # 格式：domain, <域名>
 domain, *-*-*-lrycfv.vip
@@ -1536,6 +1536,7 @@ domain, api-adservices.apple.com
 domain, api-adx.52qumao.com
 domain, api-c.dutils.com
 domain, api-cfg.52qumao.com
+domain, api-cfg.wtzw.com
 domain, api-cloudfalcon.hismarttv.com
 domain, api-cn.open.heytapmobi.com
 domain, api-dynhost.hismarttv.com
@@ -1548,6 +1549,8 @@ domain, api-gd.hiaiabc.com
 domain, api-gps.hismarttv.com
 domain, api-gw.wtzw.com
 domain, api-htp.beizi.biz
+domain, api-ks.wtzw.com
+domain, api-nps.wtzw.com
 domain, api-p*.mobsurl.com
 domain, api-p*.yksdks.com
 domain, api-p1.yksdks.com
@@ -2711,6 +2714,7 @@ domain, df101.vxfedm.cn
 domain, df101.yblar.cn
 domain, dfadas13.com
 domain, dfaikhkm.xyz
+domain, dfe-mic.mob.com
 domain, dfec2.com
 domain, dffrahax.com
 domain, dfghaqea.xyz
@@ -3344,6 +3348,7 @@ domain, fy.1sapp.com
 domain, fy14.cn
 domain, fz7erebwy.vip
 domain, g-adnet.hiaiabc.com
+domain, g-api.kwai.com
 domain, g-staic.ganjingworld.com
 domain, g-zt.kwai-pro.com
 domain, g.cn.miaozhen.com
@@ -4128,6 +4133,7 @@ domain, iqid.iqiyi.com
 domain, iqiyi-mipdx.cn.miaozhen.com
 domain, iqiyim.adtrack.enlightent.cn
 domain, ir-sdk.dun.163.com
+domain, ir-sdk.dun.163yun.com
 domain, irc.qubiankeji.com
 domain, iris.iad.apple.com
 domain, irs03.com
@@ -5237,6 +5243,7 @@ domain, mkjnbg.com
 domain, mkjnha.com
 domain, mkqdj.cn
 domain, mkt-advertisement.tuhu.cn
+domain, mkt.wtzw.com
 domain, mktadsodr.ppdai.com
 domain, ml102.whpnd.cn
 domain, ml2007.com
@@ -6792,6 +6799,7 @@ domain, shouji.sogou.com
 domain, shouzhi.biz
 domain, show-msgch.qq.com
 domain, show.aklm.cc
+domain, show.bilibili.com
 domain, show.meituangov.cn
 domain, show.pinyoux.com
 domain, show.worldcrm.cn
@@ -7084,6 +7092,7 @@ domain, szhszxfw.cn
 domain, szipkp.com
 domain, szlong.weixin.qq.com
 domain, t*-m.dewu.net
+domain, t-cfg.wtzw.com
 domain, t-dsp.pinduoduo.com
 domain, t-qmad.qimao.com
 domain, t-remad.qm989.com

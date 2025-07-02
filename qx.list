@@ -1,8 +1,8 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-Quantumult X规则数量: 9072
-! Total count: 9072
+Quantumult X规则数量: 9081
+! Total count: 9081
 HOST-SUFFIX,*-*-*-lrycfv.vip,REJECT
 HOST-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
 HOST-SUFFIX,*-*.ap-northeast-2.elb.amazonaws.com,REJECT
@@ -1532,6 +1532,7 @@ HOST-SUFFIX,api-adservices.apple.com,REJECT
 HOST-SUFFIX,api-adx.52qumao.com,REJECT
 HOST-SUFFIX,api-c.dutils.com,REJECT
 HOST-SUFFIX,api-cfg.52qumao.com,REJECT
+HOST-SUFFIX,api-cfg.wtzw.com,REJECT
 HOST-SUFFIX,api-cloudfalcon.hismarttv.com,REJECT
 HOST-SUFFIX,api-cn.open.heytapmobi.com,REJECT
 HOST-SUFFIX,api-dynhost.hismarttv.com,REJECT
@@ -1544,6 +1545,8 @@ HOST-SUFFIX,api-gd.hiaiabc.com,REJECT
 HOST-SUFFIX,api-gps.hismarttv.com,REJECT
 HOST-SUFFIX,api-gw.wtzw.com,REJECT
 HOST-SUFFIX,api-htp.beizi.biz,REJECT
+HOST-SUFFIX,api-ks.wtzw.com,REJECT
+HOST-SUFFIX,api-nps.wtzw.com,REJECT
 HOST-SUFFIX,api-p*.mobsurl.com,REJECT
 HOST-SUFFIX,api-p*.yksdks.com,REJECT
 HOST-SUFFIX,api-p1.yksdks.com,REJECT
@@ -2707,6 +2710,7 @@ HOST-SUFFIX,df101.vxfedm.cn,REJECT
 HOST-SUFFIX,df101.yblar.cn,REJECT
 HOST-SUFFIX,dfadas13.com,REJECT
 HOST-SUFFIX,dfaikhkm.xyz,REJECT
+HOST-SUFFIX,dfe-mic.mob.com,REJECT
 HOST-SUFFIX,dfec2.com,REJECT
 HOST-SUFFIX,dffrahax.com,REJECT
 HOST-SUFFIX,dfghaqea.xyz,REJECT
@@ -3340,6 +3344,7 @@ HOST-SUFFIX,fy.1sapp.com,REJECT
 HOST-SUFFIX,fy14.cn,REJECT
 HOST-SUFFIX,fz7erebwy.vip,REJECT
 HOST-SUFFIX,g-adnet.hiaiabc.com,REJECT
+HOST-SUFFIX,g-api.kwai.com,REJECT
 HOST-SUFFIX,g-staic.ganjingworld.com,REJECT
 HOST-SUFFIX,g-zt.kwai-pro.com,REJECT
 HOST-SUFFIX,g.cn.miaozhen.com,REJECT
@@ -4124,6 +4129,7 @@ HOST-SUFFIX,iqid.iqiyi.com,REJECT
 HOST-SUFFIX,iqiyi-mipdx.cn.miaozhen.com,REJECT
 HOST-SUFFIX,iqiyim.adtrack.enlightent.cn,REJECT
 HOST-SUFFIX,ir-sdk.dun.163.com,REJECT
+HOST-SUFFIX,ir-sdk.dun.163yun.com,REJECT
 HOST-SUFFIX,irc.qubiankeji.com,REJECT
 HOST-SUFFIX,iris.iad.apple.com,REJECT
 HOST-SUFFIX,irs03.com,REJECT
@@ -5233,6 +5239,7 @@ HOST-SUFFIX,mkjnbg.com,REJECT
 HOST-SUFFIX,mkjnha.com,REJECT
 HOST-SUFFIX,mkqdj.cn,REJECT
 HOST-SUFFIX,mkt-advertisement.tuhu.cn,REJECT
+HOST-SUFFIX,mkt.wtzw.com,REJECT
 HOST-SUFFIX,mktadsodr.ppdai.com,REJECT
 HOST-SUFFIX,ml102.whpnd.cn,REJECT
 HOST-SUFFIX,ml2007.com,REJECT
@@ -6788,6 +6795,7 @@ HOST-SUFFIX,shouji.sogou.com,REJECT
 HOST-SUFFIX,shouzhi.biz,REJECT
 HOST-SUFFIX,show-msgch.qq.com,REJECT
 HOST-SUFFIX,show.aklm.cc,REJECT
+HOST-SUFFIX,show.bilibili.com,REJECT
 HOST-SUFFIX,show.meituangov.cn,REJECT
 HOST-SUFFIX,show.pinyoux.com,REJECT
 HOST-SUFFIX,show.worldcrm.cn,REJECT
@@ -7080,6 +7088,7 @@ HOST-SUFFIX,szhszxfw.cn,REJECT
 HOST-SUFFIX,szipkp.com,REJECT
 HOST-SUFFIX,szlong.weixin.qq.com,REJECT
 HOST-SUFFIX,t*-m.dewu.net,REJECT
+HOST-SUFFIX,t-cfg.wtzw.com,REJECT
 HOST-SUFFIX,t-dsp.pinduoduo.com,REJECT
 HOST-SUFFIX,t-qmad.qimao.com,REJECT
 HOST-SUFFIX,t-remad.qm989.com,REJECT

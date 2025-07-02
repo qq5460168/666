@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-02 12:19:54（北京时间）
+! Version: 2025-07-02 14:14:42（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9076
+! Total count: 9085
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
@@ -1537,6 +1537,7 @@
 0.0.0.0 api-adx.52qumao.com
 0.0.0.0 api-c.dutils.com
 0.0.0.0 api-cfg.52qumao.com
+0.0.0.0 api-cfg.wtzw.com
 0.0.0.0 api-cloudfalcon.hismarttv.com
 0.0.0.0 api-cn.open.heytapmobi.com
 0.0.0.0 api-dynhost.hismarttv.com
@@ -1549,6 +1550,8 @@
 0.0.0.0 api-gps.hismarttv.com
 0.0.0.0 api-gw.wtzw.com
 0.0.0.0 api-htp.beizi.biz
+0.0.0.0 api-ks.wtzw.com
+0.0.0.0 api-nps.wtzw.com
 0.0.0.0 api-p*.mobsurl.com
 0.0.0.0 api-p*.yksdks.com
 0.0.0.0 api-p1.yksdks.com
@@ -2712,6 +2715,7 @@
 0.0.0.0 df101.yblar.cn
 0.0.0.0 dfadas13.com
 0.0.0.0 dfaikhkm.xyz
+0.0.0.0 dfe-mic.mob.com
 0.0.0.0 dfec2.com
 0.0.0.0 dffrahax.com
 0.0.0.0 dfghaqea.xyz
@@ -3345,6 +3349,7 @@
 0.0.0.0 fy14.cn
 0.0.0.0 fz7erebwy.vip
 0.0.0.0 g-adnet.hiaiabc.com
+0.0.0.0 g-api.kwai.com
 0.0.0.0 g-staic.ganjingworld.com
 0.0.0.0 g-zt.kwai-pro.com
 0.0.0.0 g.cn.miaozhen.com
@@ -4129,6 +4134,7 @@
 0.0.0.0 iqiyi-mipdx.cn.miaozhen.com
 0.0.0.0 iqiyim.adtrack.enlightent.cn
 0.0.0.0 ir-sdk.dun.163.com
+0.0.0.0 ir-sdk.dun.163yun.com
 0.0.0.0 irc.qubiankeji.com
 0.0.0.0 iris.iad.apple.com
 0.0.0.0 irs03.com
@@ -5238,6 +5244,7 @@
 0.0.0.0 mkjnha.com
 0.0.0.0 mkqdj.cn
 0.0.0.0 mkt-advertisement.tuhu.cn
+0.0.0.0 mkt.wtzw.com
 0.0.0.0 mktadsodr.ppdai.com
 0.0.0.0 ml102.whpnd.cn
 0.0.0.0 ml2007.com
@@ -6793,6 +6800,7 @@
 0.0.0.0 shouzhi.biz
 0.0.0.0 show-msgch.qq.com
 0.0.0.0 show.aklm.cc
+0.0.0.0 show.bilibili.com
 0.0.0.0 show.meituangov.cn
 0.0.0.0 show.pinyoux.com
 0.0.0.0 show.worldcrm.cn
@@ -7085,6 +7093,7 @@
 0.0.0.0 szipkp.com
 0.0.0.0 szlong.weixin.qq.com
 0.0.0.0 t*-m.dewu.net
+0.0.0.0 t-cfg.wtzw.com
 0.0.0.0 t-dsp.pinduoduo.com
 0.0.0.0 t-qmad.qimao.com
 0.0.0.0 t-remad.qm989.com
