@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-02 18:10:10（北京时间）
+! Version: 2025-07-02 20:17:19（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9084
+! Total count: 9087
 # AdClose 专用广告规则
 # 格式：domain, <域名>
 domain, *-*-*-lrycfv.vip
@@ -1829,6 +1829,7 @@ domain, b.1th.app
 domain, b.bdstatic.com
 domain, b.qchannel03.cn
 domain, b05.asia-sdbq.com
+domain, b08.fit
 domain, b0rbgroup.xyz
 domain, b0ufmrzl.icu
 domain, b1-data.ads.heytapmobi.com
@@ -2635,6 +2636,7 @@ domain, dataflow.biliapi.com
 domain, datagw-edge.alipay.com
 domain, datahub.haohuan.com
 domain, datahub.zhihu.com
+domain, datakkko.top
 domain, datasink-sensorsdata.gomefinance.com.cn
 domain, datasync-dev-prod-drcn.cloud.dbankcloud.cn
 domain, datasync-drcn.cloud.dbankcloud.cn
@@ -7697,6 +7699,7 @@ domain, uu5512uu.com
 domain, uuiaoq.top
 domain, uujhveglpo.xyz
 domain, uuumml.cn
+domain, uuyeghhbdhyetghuj.top
 domain, uuysiaq.com
 domain, uuzwvqc.cn
 domain, uve.weibo.com
