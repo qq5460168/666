@@ -41,7 +41,7 @@ RULE_FORMATS = [
             f"# Title: Quantumult X Rules",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}",
-            f"Quantumult X规则数量: {total}",
+            f"# Quantumult X规则数量: {total}",  # 这里已加上#号
             f"! Total count: {total}"
         ],
         "line": lambda domain: f"HOST-SUFFIX,{domain},REJECT"
