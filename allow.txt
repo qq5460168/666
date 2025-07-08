@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-08 20:17:57（北京时间）
+! Version: 2025-07-08 22:09:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3147
+! Total count: 3151
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -363,6 +363,7 @@
 @@||api.airpush.com^
 @@||api.amemv.com^
 @@||api.apple-cloudkit.com^$important
+@@||api.bilibili.com^
 @@||api.browser.miui.com^
 @@||api.cc.163.com^
 @@||api.cloud.huawei.com^
@@ -391,6 +392,7 @@
 @@||api.live.bilibili.com^$important
 @@||api.look.163.com^$important
 @@||api.m.jd.com^
+@@||api.meituan.com^
 @@||api.micloud.xiaomi.net^
 @@||api.miui.security.xiaomi.com^
 @@||api.miui.security.xiaomi.com^$important
@@ -1422,6 +1424,7 @@
 @@||ingest.sentry.io^
 @@||inporn.com^
 @@||input.shouji.sogou.com^
+@@||inr-op.elemecdn.com^
 @@||insideruser.microsoft.com^
 @@||instagram.com^
 @@||instant.io^
@@ -2092,6 +2095,7 @@
 @@||pay.openspeech.cn^
 @@||pay.weixin.qq.com^
 @@||payapp.weixin.qq.com^
+@@||paydns.wechatpay.cn^
 @@||pbaccess.video.qq.com^
 @@||pbs.twimg.com^
 @@||pc.xunlei.com^
