@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-12 02:12:56（北京时间）
+! Version: 2025-07-12 04:10:31（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9087
+! Total count: 9088
 # AdClose 专用广告规则
 # 格式：domain, <域名>
 domain, *-*-*-lrycfv.vip
@@ -2627,6 +2627,7 @@ domain, data.xmseeyouyima.com.lan
 domain, data.zhongquanjy.com
 domain, data6.video.iqiyi.com
 domain, databyterangers.com.cn
+domain, datacollection.uve.weibo.com
 domain, datacollector-drcn.dt.dbankcloud.cn
 domain, datacollector-drcn.dt.hicloud.com
 domain, datacollector-dre.dt.hicloud.com
