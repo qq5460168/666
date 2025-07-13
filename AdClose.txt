@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-13 08:54:11（北京时间）
+! Version: 2025-07-13 11:24:41（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9088
+! Total count: 9095
 # AdClose 专用广告规则
 # 格式：domain, <域名>
 domain, *-*-*-lrycfv.vip
@@ -404,6 +404,8 @@ domain, 23.231.151.252
 domain, 23dhj4q.com
 domain, 23jgiy.com
 domain, 2404mc.2tsfdcp.com
+domain, 2407:c080:1200:3ce:e607:8583:110e:6bf9
+domain, 2407:c080:1200:53d:b686:5a14:b3a7:22e4
 domain, 2409-8754-8310-35--3.volcsirius.com
 domain, 2431.vainews.cn
 domain, 24441mcsjcc.wcald72.xyz
@@ -796,6 +798,7 @@ domain, absorbingconstitution.com
 domain, abtest*-misc-lf.zijieapi.com
 domain, abtest-ch.snssdk.com
 domain, abtest.alibaba.com
+domain, abtest.wtzw.com
 domain, abtest3-misc-hl.zijieapi.com
 domain, abtest3-misc-lf.zijieapi.com
 domain, abtest3-misc-lq.zijieapi.com
@@ -842,6 +845,7 @@ domain, ad-cmp.hismarttv.com
 domain, ad-display.diwodiwo.xyz
 domain, ad-display.wikawika.xyz
 domain, ad-download.hismarttv.com
+domain, ad-drs-ipv6.52qumao.com
 domain, ad-drs.52qumao.com
 domain, ad-ga.nocode.com
 domain, ad-ggtg-api.37.com.cn
@@ -1520,6 +1524,7 @@ domain, apd-vodp2plogin.teg.tencent-cloud.net
 domain, apd-vodp2pnat.teg.tencent-cloud.net
 domain, apdfmhp.cn
 domain, apfobmfr.cn
+domain, api*.toutiaoapi.com
 domain, api-access.pangolin-sdk-toutiao*.com
 domain, api-access.pangolin-sdk-toutiao-*.com
 domain, api-access.pangolin-sdk-toutiao-b.com
@@ -5804,6 +5809,7 @@ domain, p*-lm.adukwai.com
 domain, p*-local-ads.byteimg.com
 domain, p*-local-ads.byteimg.com.queniuso.com
 domain, p*-pro.a.yximgs.com
+domain, p*-sign.douyinpic.com
 domain, p*-webcast-sign.douyinpic.com
 domain, p*-yx.adkwai.com
 domain, p*.bdxiguaimg.com
@@ -6698,6 +6704,7 @@ domain, sdvfvgj.cn
 domain, sdvsv.com
 domain, sdzhongke.cn
 domain, sealine.youku.com
+domain, search*.toutiaoapi.com
 domain, search.ixigua.com
 domain, search.video.iqiyi.com
 domain, search1.kuaihuoapi.com
