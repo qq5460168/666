@@ -2,14 +2,14 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-14 02:11:37（北京时间）
+! Version: 2025-07-14 04:09:28（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9098
+! Total count: 9103
 [Adblock Plus 2.0]
 ! Title: 酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Total Count: 9092
+! Total Count: 9097
 ||*-*-*-lrycfv.vip^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-northeast-2.elb.amazonaws.com^
@@ -1583,6 +1583,7 @@
 ||api.ads66.com^
 ||api.adserver.jvmai.com^
 ||api.afdback.ppsimg.com^
+||api.anythinktech.com^
 ||api.aoao11190iis.top^
 ||api.aoao11191iis.top^
 ||api.aoao11221iis.top^
@@ -2571,6 +2572,7 @@
 ||d4-ks.a.kwimgs.com^
 ||d5vegqovvvewn.cloudfront.net^
 ||d8962a.xyz^
+||da.anythinktech.com^
 ||da.mgtv.com^
 ||da5.adfsda005.xyz^
 ||daadr.cn^
@@ -3947,6 +3949,7 @@
 ||i8.xn--0trp01f.xn--fiqs8s^
 ||iad.*.163.com^
 ||iad.apple.com^
+||iad.g.163.com^
 ||iadctest.qwapi.com^
 ||iadfeed.iad.apple.com^
 ||iadmatapk.nosdn.127.net^
@@ -5506,6 +5509,7 @@
 ||newton5194sctf.xyz^
 ||newvoice.chiq5.smart-tv.cn^
 ||newwcrsed.com^
+||nex.163.com^
 ||nezqmud.com^
 ||nf2y.yt-twbg1523.vip^
 ||nfgnxkd.top^
@@ -9077,6 +9081,7 @@
 ||zxcfgilkjouow.xima.run^
 ||zxcrr.com^
 ||zxcv1.com^
+||zxid-m.mobileservice.cn^
 ||zxrcfw.com^
 ||zxsnllo.cn^
 ||zxwstong.com^

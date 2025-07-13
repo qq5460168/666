@@ -1,8 +1,8 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Quantumult X规则数量: 9092
-! Total count: 9092
+# Quantumult X规则数量: 9097
+! Total count: 9097
 HOST-SUFFIX,*-*-*-lrycfv.vip,REJECT
 HOST-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
 HOST-SUFFIX,*-*.ap-northeast-2.elb.amazonaws.com,REJECT
@@ -1576,6 +1576,7 @@ HOST-SUFFIX,api.admange.com,REJECT
 HOST-SUFFIX,api.ads66.com,REJECT
 HOST-SUFFIX,api.adserver.jvmai.com,REJECT
 HOST-SUFFIX,api.afdback.ppsimg.com,REJECT
+HOST-SUFFIX,api.anythinktech.com,REJECT
 HOST-SUFFIX,api.aoao11190iis.top,REJECT
 HOST-SUFFIX,api.aoao11191iis.top,REJECT
 HOST-SUFFIX,api.aoao11221iis.top,REJECT
@@ -2564,6 +2565,7 @@ HOST-SUFFIX,d3nfknbv.icu,REJECT
 HOST-SUFFIX,d4-ks.a.kwimgs.com,REJECT
 HOST-SUFFIX,d5vegqovvvewn.cloudfront.net,REJECT
 HOST-SUFFIX,d8962a.xyz,REJECT
+HOST-SUFFIX,da.anythinktech.com,REJECT
 HOST-SUFFIX,da.mgtv.com,REJECT
 HOST-SUFFIX,da5.adfsda005.xyz,REJECT
 HOST-SUFFIX,daadr.cn,REJECT
@@ -3940,6 +3942,7 @@ HOST-SUFFIX,i7pnx0t.cn,REJECT
 HOST-SUFFIX,i8.xn--0trp01f.xn--fiqs8s,REJECT
 HOST-SUFFIX,iad.*.163.com,REJECT
 HOST-SUFFIX,iad.apple.com,REJECT
+HOST-SUFFIX,iad.g.163.com,REJECT
 HOST-SUFFIX,iadctest.qwapi.com,REJECT
 HOST-SUFFIX,iadfeed.iad.apple.com,REJECT
 HOST-SUFFIX,iadmatapk.nosdn.127.net,REJECT
@@ -5499,6 +5502,7 @@ HOST-SUFFIX,newstreamcdncmnet.inter.iqiyi.com,REJECT
 HOST-SUFFIX,newton5194sctf.xyz,REJECT
 HOST-SUFFIX,newvoice.chiq5.smart-tv.cn,REJECT
 HOST-SUFFIX,newwcrsed.com,REJECT
+HOST-SUFFIX,nex.163.com,REJECT
 HOST-SUFFIX,nezqmud.com,REJECT
 HOST-SUFFIX,nf2y.yt-twbg1523.vip,REJECT
 HOST-SUFFIX,nfgnxkd.top,REJECT
@@ -9070,6 +9074,7 @@ HOST-SUFFIX,zwlikv.cn,REJECT
 HOST-SUFFIX,zxcfgilkjouow.xima.run,REJECT
 HOST-SUFFIX,zxcrr.com,REJECT
 HOST-SUFFIX,zxcv1.com,REJECT
+HOST-SUFFIX,zxid-m.mobileservice.cn,REJECT
 HOST-SUFFIX,zxrcfw.com,REJECT
 HOST-SUFFIX,zxsnllo.cn,REJECT
 HOST-SUFFIX,zxwstong.com,REJECT

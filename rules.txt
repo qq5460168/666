@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-14 02:11:37（北京时间）
+! Version: 2025-07-14 04:09:28（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 19372
+! Total count: 19377
 
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
@@ -6303,18 +6303,18 @@
 13.226.198.225 thetvdb.com
 13.226.254.58 image.tmdb.org
 13.35.0.128 api.themoviedb.org
-140.82.112.18                 github.community
 140.82.112.18 github.community
+140.82.112.21                 central.github.com
 140.82.112.22                 api.individual.githubcopilot.com
-140.82.112.22                 central.github.com
+140.82.112.25                 live.github.com
 140.82.112.25 live.github.com
+140.82.113.17                 github.community
+140.82.113.21                 education.github.com
 140.82.113.21 collector.github.com
-140.82.113.22                 education.github.com
 140.82.113.22 central.github.com
 140.82.113.26                 alive.github.com
 140.82.113.26 alive.github.com
-140.82.114.22                 collector.github.com
-140.82.114.25                 live.github.com
+140.82.114.21                 collector.github.com
 140.82.116.3 gist.github.com
 142.250.107.188 alt6-mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
@@ -6336,7 +6336,7 @@
 151.101.40.133 raw.github.com
 151.101.40.133 raw.githubusercontent.com
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.15.192.51                  github-com.s3.amazonaws.com
+16.182.64.65                  github-com.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6436,8 +6436,7 @@
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
-3.5.12.205                    github-production-release-asset-2e65be.s3.amazonaws.com
-3.5.20.195                    github-production-repository-file-5c1aeb.s3.amazonaws.com
+3.5.27.16                     github-cloud.s3.amazonaws.com
 3.5.28.146 github-com.s3.amazonaws.com
 31.216.145.5 mega.nz
 3dmgame.com##.alertad
@@ -6453,8 +6452,8 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.110.243                github-cloud.s3.amazonaws.com
-52.216.48.129                 github-production-user-asset-6210df.s3.amazonaws.com
+52.216.142.148                github-production-release-asset-2e65be.s3.amazonaws.com
+52.216.24.148                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
@@ -6462,6 +6461,7 @@
 52.84.166.71 api.themoviedb.org
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 54.192.73.28 image.tmdb.org
+54.231.160.241                github-production-user-asset-6210df.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 64.233.188.188 mtalk.google.com
@@ -11523,6 +11523,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||api.ads66.com^
 ||api.adserver.jvmai.com^
 ||api.afdback.ppsimg.com^
+||api.anythinktech.com^
 ||api.aoao11190iis.top^
 ||api.aoao11191iis.top^
 ||api.aoao11221iis.top^
@@ -12568,6 +12569,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||d4-ks.a.kwimgs.com^
 ||d5vegqovvvewn.cloudfront.net^
 ||d8962a.xyz^
+||da.anythinktech.com^
 ||da.mgtv.com^
 ||da5.adfsda005.xyz^
 ||daadr.cn^
@@ -14001,6 +14003,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||i8.xn--0trp01f.xn--fiqs8s^
 ||iad.*.163.com^
 ||iad.apple.com^
+||iad.g.163.com^
 ||iadctest.qwapi.com^
 ||iadfeed.iad.apple.com^
 ||iadmatapk.nosdn.127.net^
@@ -15632,6 +15635,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||newvoice.chiq5.smart-tv.cn^
 ||newwcrsed.com^
 ||nex.163.com/q?
+||nex.163.com^
 ||nezqmud.com^
 ||nf2y.yt-twbg1523.vip^
 ||nfgnxkd.top^
@@ -19347,6 +19351,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||zxcfgilkjouow.xima.run^
 ||zxcrr.com^
 ||zxcv1.com^
+||zxid-m.mobileservice.cn^
 ||zxrcfw.com^
 ||zxsnllo.cn^
 ||zxwstong.com^

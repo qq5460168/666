@@ -1,8 +1,8 @@
 # Title: Clash Meta规则
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-Clash Meta规则数量: 9092
-! Total count: 9092
+Clash Meta规则数量: 9097
+! Total count: 9097
 payload:
   - '*-*-*-lrycfv.vip'
   - '*-*.ap-east-1.elb.amazonaws.com'
@@ -1577,6 +1577,7 @@ payload:
   - 'api.ads66.com'
   - 'api.adserver.jvmai.com'
   - 'api.afdback.ppsimg.com'
+  - 'api.anythinktech.com'
   - 'api.aoao11190iis.top'
   - 'api.aoao11191iis.top'
   - 'api.aoao11221iis.top'
@@ -2565,6 +2566,7 @@ payload:
   - 'd4-ks.a.kwimgs.com'
   - 'd5vegqovvvewn.cloudfront.net'
   - 'd8962a.xyz'
+  - 'da.anythinktech.com'
   - 'da.mgtv.com'
   - 'da5.adfsda005.xyz'
   - 'daadr.cn'
@@ -3941,6 +3943,7 @@ payload:
   - 'i8.xn--0trp01f.xn--fiqs8s'
   - 'iad.*.163.com'
   - 'iad.apple.com'
+  - 'iad.g.163.com'
   - 'iadctest.qwapi.com'
   - 'iadfeed.iad.apple.com'
   - 'iadmatapk.nosdn.127.net'
@@ -5500,6 +5503,7 @@ payload:
   - 'newton5194sctf.xyz'
   - 'newvoice.chiq5.smart-tv.cn'
   - 'newwcrsed.com'
+  - 'nex.163.com'
   - 'nezqmud.com'
   - 'nf2y.yt-twbg1523.vip'
   - 'nfgnxkd.top'
@@ -9071,6 +9075,7 @@ payload:
   - 'zxcfgilkjouow.xima.run'
   - 'zxcrr.com'
   - 'zxcv1.com'
+  - 'zxid-m.mobileservice.cn'
   - 'zxrcfw.com'
   - 'zxsnllo.cn'
   - 'zxwstong.com'

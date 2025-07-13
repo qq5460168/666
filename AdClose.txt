@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-14 02:11:37（北京时间）
+! Version: 2025-07-14 04:09:28（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9095
+! Total count: 9100
 # AdClose 专用广告规则
 # 格式：domain, <域名>
 domain, *-*-*-lrycfv.vip
@@ -1580,6 +1580,7 @@ domain, api.admange.com
 domain, api.ads66.com
 domain, api.adserver.jvmai.com
 domain, api.afdback.ppsimg.com
+domain, api.anythinktech.com
 domain, api.aoao11190iis.top
 domain, api.aoao11191iis.top
 domain, api.aoao11221iis.top
@@ -2568,6 +2569,7 @@ domain, d3nfknbv.icu
 domain, d4-ks.a.kwimgs.com
 domain, d5vegqovvvewn.cloudfront.net
 domain, d8962a.xyz
+domain, da.anythinktech.com
 domain, da.mgtv.com
 domain, da5.adfsda005.xyz
 domain, daadr.cn
@@ -3944,6 +3946,7 @@ domain, i7pnx0t.cn
 domain, i8.xn--0trp01f.xn--fiqs8s
 domain, iad.*.163.com
 domain, iad.apple.com
+domain, iad.g.163.com
 domain, iadctest.qwapi.com
 domain, iadfeed.iad.apple.com
 domain, iadmatapk.nosdn.127.net
@@ -5503,6 +5506,7 @@ domain, newstreamcdncmnet.inter.iqiyi.com
 domain, newton5194sctf.xyz
 domain, newvoice.chiq5.smart-tv.cn
 domain, newwcrsed.com
+domain, nex.163.com
 domain, nezqmud.com
 domain, nf2y.yt-twbg1523.vip
 domain, nfgnxkd.top
@@ -9074,6 +9078,7 @@ domain, zwlikv.cn
 domain, zxcfgilkjouow.xima.run
 domain, zxcrr.com
 domain, zxcv1.com
+domain, zxid-m.mobileservice.cn
 domain, zxrcfw.com
 domain, zxsnllo.cn
 domain, zxwstong.com

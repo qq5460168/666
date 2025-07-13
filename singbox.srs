@@ -1,8 +1,8 @@
 # Title: SingBox SRS Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-Singbox规则数量: 9092
-! Total count: 9092
+Singbox规则数量: 9097
+! Total count: 9097
 DOMAIN-SUFFIX,*-*-*-lrycfv.vip,REJECT
 DOMAIN-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
 DOMAIN-SUFFIX,*-*.ap-northeast-2.elb.amazonaws.com,REJECT
@@ -1576,6 +1576,7 @@ DOMAIN-SUFFIX,api.admange.com,REJECT
 DOMAIN-SUFFIX,api.ads66.com,REJECT
 DOMAIN-SUFFIX,api.adserver.jvmai.com,REJECT
 DOMAIN-SUFFIX,api.afdback.ppsimg.com,REJECT
+DOMAIN-SUFFIX,api.anythinktech.com,REJECT
 DOMAIN-SUFFIX,api.aoao11190iis.top,REJECT
 DOMAIN-SUFFIX,api.aoao11191iis.top,REJECT
 DOMAIN-SUFFIX,api.aoao11221iis.top,REJECT
@@ -2564,6 +2565,7 @@ DOMAIN-SUFFIX,d3nfknbv.icu,REJECT
 DOMAIN-SUFFIX,d4-ks.a.kwimgs.com,REJECT
 DOMAIN-SUFFIX,d5vegqovvvewn.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d8962a.xyz,REJECT
+DOMAIN-SUFFIX,da.anythinktech.com,REJECT
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
 DOMAIN-SUFFIX,da5.adfsda005.xyz,REJECT
 DOMAIN-SUFFIX,daadr.cn,REJECT
@@ -3940,6 +3942,7 @@ DOMAIN-SUFFIX,i7pnx0t.cn,REJECT
 DOMAIN-SUFFIX,i8.xn--0trp01f.xn--fiqs8s,REJECT
 DOMAIN-SUFFIX,iad.*.163.com,REJECT
 DOMAIN-SUFFIX,iad.apple.com,REJECT
+DOMAIN-SUFFIX,iad.g.163.com,REJECT
 DOMAIN-SUFFIX,iadctest.qwapi.com,REJECT
 DOMAIN-SUFFIX,iadfeed.iad.apple.com,REJECT
 DOMAIN-SUFFIX,iadmatapk.nosdn.127.net,REJECT
@@ -5499,6 +5502,7 @@ DOMAIN-SUFFIX,newstreamcdncmnet.inter.iqiyi.com,REJECT
 DOMAIN-SUFFIX,newton5194sctf.xyz,REJECT
 DOMAIN-SUFFIX,newvoice.chiq5.smart-tv.cn,REJECT
 DOMAIN-SUFFIX,newwcrsed.com,REJECT
+DOMAIN-SUFFIX,nex.163.com,REJECT
 DOMAIN-SUFFIX,nezqmud.com,REJECT
 DOMAIN-SUFFIX,nf2y.yt-twbg1523.vip,REJECT
 DOMAIN-SUFFIX,nfgnxkd.top,REJECT
@@ -9070,6 +9074,7 @@ DOMAIN-SUFFIX,zwlikv.cn,REJECT
 DOMAIN-SUFFIX,zxcfgilkjouow.xima.run,REJECT
 DOMAIN-SUFFIX,zxcrr.com,REJECT
 DOMAIN-SUFFIX,zxcv1.com,REJECT
+DOMAIN-SUFFIX,zxid-m.mobileservice.cn,REJECT
 DOMAIN-SUFFIX,zxrcfw.com,REJECT
 DOMAIN-SUFFIX,zxsnllo.cn,REJECT
 DOMAIN-SUFFIX,zxwstong.com,REJECT
