@@ -2,7 +2,7 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-13 22:07:27（北京时间）
+! Version: 2025-07-14 00:10:03（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 19372
 
@@ -6297,24 +6297,24 @@
 123pan.com##.adv-container-pc
 123pan.com##.banner_all_wrap
 123pan.com##.slick-slider, .slick-initialized
-13.107.246.73                 vscode.dev
+13.107.246.73                 vscode.dev  # Timeout
 13.107.42.16                  pipelines.actions.githubusercontent.com
 13.107.42.16 pipelines.actions.githubusercontent.com
 13.226.198.225 thetvdb.com
 13.226.254.58 image.tmdb.org
 13.35.0.128 api.themoviedb.org
+140.82.112.18                 github.community
 140.82.112.18 github.community
-140.82.112.21                 central.github.com
-140.82.112.21                 education.github.com
+140.82.112.22                 collector.github.com
 140.82.112.25 live.github.com
-140.82.112.26                 alive.github.com
-140.82.113.21                 collector.github.com
+140.82.112.26                 live.github.com
 140.82.113.21 collector.github.com
+140.82.113.22                 central.github.com
 140.82.113.22 central.github.com
+140.82.113.25                 alive.github.com
 140.82.113.26 alive.github.com
-140.82.114.17                 github.community
 140.82.114.22                 api.individual.githubcopilot.com
-140.82.114.26                 live.github.com
+140.82.114.22                 education.github.com
 140.82.116.3 gist.github.com
 142.250.107.188 alt6-mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
@@ -6336,6 +6336,7 @@
 151.101.40.133 raw.github.com
 151.101.40.133 raw.githubusercontent.com
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
+16.15.185.64                  github-cloud.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6435,8 +6436,10 @@
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
+3.5.13.153                    github-production-repository-file-5c1aeb.s3.amazonaws.com
+3.5.17.191                    github-com.s3.amazonaws.com
 3.5.28.146 github-com.s3.amazonaws.com
-3.5.31.47                     github-production-release-asset-2e65be.s3.amazonaws.com
+3.5.9.197                     github-production-release-asset-2e65be.s3.amazonaws.com
 31.216.145.5 mega.nz
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
@@ -6451,12 +6454,9 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.51.49                  github-production-user-asset-6210df.s3.amazonaws.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
-52.217.14.180                 github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.217.163.49                 github-cloud.s3.amazonaws.com
-52.217.225.209                github-com.s3.amazonaws.com
+52.217.120.33                 github-production-user-asset-6210df.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
 52.84.166.68 api.themoviedb.org
 52.84.166.71 api.themoviedb.org
