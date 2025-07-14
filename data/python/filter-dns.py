@@ -41,8 +41,8 @@ RULE_FORMATS = [
             f"# Title: Quantumult X Rules",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}",
-            f"# Quantumult X规则数量: {total}",  # 这里已加上#号
-            f"! Total count: {total}"
+            f"# Quantumult X规则数量: {total}",
+            f"# ! Total count: {total}"  # 在这里添加了 #，将其作为注释
         ],
         "line": lambda domain: f"HOST-SUFFIX,{domain},REJECT"
     },
@@ -145,7 +145,7 @@ def is_valid_whitelist_rule(line):
 def correct_whitelist_rule(line):
     """
     自动优化白名单规则格式：
-      1. 如果规则未以 '@@||' 开头，则修正（例如将 '@@|' 替换为 '@@||'）。
+      1. 如果规则未以 '@@||' 开头，则修正。
       2. 去除规则中 '^' 前多余的 "|" 符号。
     """
     original = line
@@ -164,17 +164,11 @@ def correct_whitelist_rule(line):
     return line
 
 def extract_domain(line):
-    """
-    从规则中提取域名部分，假定规则格式为 "||域名^"
-    """
+    """从规则中提取域名部分，假定规则格式为 '||域名^'"""
     return line[2:-1]
 
 def read_domains(input_path):
-    """
-    读取 INPUT_FILE 文件，提取所有有效的广告过滤规则所对应的域名，
-    对白名单规则进行格式修正（但不提取至域名列表），
-    跳过包含特定错误关键字的规则行，并返回去重后的域名列表。
-    """
+    """读取 INPUT_FILE 文件，提取所有有效的广告过滤规则所对应的域名"""
     if not os.path.exists(input_path):
         log(f"文件不存在: {input_path}")
         return []
@@ -182,11 +176,9 @@ def read_domains(input_path):
     with open(input_path, 'r', encoding="utf-8") as f:
         for line in f:
             line = line.strip()
-            # 针对白名单规则进行格式检查和自动修正，跳过后续处理
             if line.startswith("@@"):
                 correct_whitelist_rule(line)
                 continue
-            # 跳过包含指定错误标记的规则
             if "m^$important" in line:
                 log(f"跳过错误规则: {line}")
                 continue
@@ -198,10 +190,7 @@ def read_domains(input_path):
     return list(set(domains))
 
 def write_rule_file(format_conf, domains):
-    """
-    根据给定的格式配置生成输出规则文件
-    对于 singbox_json 格式，生成 JSON 文件；其他格式生成文本规则文件。
-    """
+    """根据给定的格式配置生成输出规则文件"""
     fname = format_conf["file"]
     if format_conf["name"] == "singbox_json":
         with open(fname, "w", encoding="utf-8") as f:
@@ -225,12 +214,7 @@ def write_rule_file(format_conf, domains):
     log(f"生成 {fname}，规则数量: {len(domains)}")
 
 def main():
-    """
-    主程序：
-      1. 检查源规则文件是否存在。
-      2. 读取并过滤有效规则，去重后生成域名列表。
-      3. 遍历各规则格式配置，生成对应输出文件。
-    """
+    """主程序"""
     if not os.path.exists(INPUT_FILE):
         log(f"源规则文件不存在: {INPUT_FILE}")
         return
