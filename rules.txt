@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-15 20:18:49（北京时间）
+! Version: 2025-07-15 22:11:19（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 19377
+! Total count: 19376
 
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
@@ -5283,7 +5283,6 @@
 0.0.0.0 syrs.z74d.com
 0.0.0.0 sysdk.cl2009.com
 0.0.0.0 sz.gafz.chanct.cn
-0.0.0.0 szextshort.weixin.qq.com
 0.0.0.0 szlong.weixin.qq.com
 0.0.0.0 szxy.getui.com
 0.0.0.0 t-dsp.pinduoduo.com
@@ -6304,17 +6303,17 @@
 13.226.254.58 image.tmdb.org
 13.35.0.128 api.themoviedb.org
 140.82.112.18 github.community
-140.82.112.21                 central.github.com
-140.82.112.22                 collector.github.com
+140.82.112.21                 api.individual.githubcopilot.com
 140.82.112.25 live.github.com
-140.82.113.21                 api.individual.githubcopilot.com
+140.82.112.26                 alive.github.com
+140.82.112.26                 live.github.com
+140.82.113.17                 github.community
+140.82.113.21                 central.github.com
 140.82.113.21 collector.github.com
+140.82.113.22                 collector.github.com
 140.82.113.22 central.github.com
-140.82.113.26                 live.github.com
 140.82.113.26 alive.github.com
-140.82.114.18                 github.community
-140.82.114.22                 education.github.com
-140.82.114.25                 alive.github.com
+140.82.114.21                 education.github.com
 140.82.116.3 gist.github.com
 142.250.107.188 alt6-mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
@@ -6336,7 +6335,6 @@
 151.101.40.133 raw.github.com
 151.101.40.133 raw.githubusercontent.com
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.182.101.57                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6436,7 +6434,7 @@
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
-3.5.2.122                     github-cloud.s3.amazonaws.com
+3.5.25.114                    github-production-release-asset-2e65be.s3.amazonaws.com
 3.5.28.146 github-com.s3.amazonaws.com
 31.216.145.5 mega.nz
 3dmgame.com##.alertad
@@ -6453,15 +6451,16 @@
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.216.56.49                  github-production-user-asset-6210df.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
-52.217.229.9                  github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.231.33                 github-com.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.74.84                  github-cloud.s3.amazonaws.com
+52.217.92.228                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.93.140                 github-production-user-asset-6210df.s3.amazonaws.com
 52.84.166.68 api.themoviedb.org
 52.84.166.71 api.themoviedb.org
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 54.192.73.28 image.tmdb.org
-54.231.129.65                 github-com.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 64.233.188.188 mtalk.google.com
