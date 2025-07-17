@@ -1,8 +1,8 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Quantumult X规则数量: 9097
-# ! Total count: 9097
+# Quantumult X规则数量: 9098
+# ! Total count: 9098
 HOST-SUFFIX,*-*-*-lrycfv.vip,REJECT
 HOST-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
 HOST-SUFFIX,*-*.ap-northeast-2.elb.amazonaws.com,REJECT
@@ -7093,6 +7093,7 @@ HOST-SUFFIX,sysdk.cl2009.com,REJECT
 HOST-SUFFIX,sysupgrade.vivo.com.cn,REJECT
 HOST-SUFFIX,sytclsb.cyou,REJECT
 HOST-SUFFIX,syzbd57.com,REJECT
+HOST-SUFFIX,szaction.cc,REJECT
 HOST-SUFFIX,szafvjdd.icu,REJECT
 HOST-SUFFIX,szbdyd.com,REJECT
 HOST-SUFFIX,szdaqi88.com,REJECT
