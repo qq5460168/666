@@ -1,9 +1,9 @@
 # Title: Clash Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-07-19 18:04:52（北京时间）
-# Clash规则数量: 8665
-! Total count: 8665
+# Last Updated: 2025-07-19 18:11:33（北京时间）
+# Clash规则数量: 8661
+! Total count: 8661
 rules:
   - DOMAIN-SUFFIX,000123456789.online,REJECT
   - DOMAIN-SUFFIX,000123456789.site,REJECT
@@ -4718,7 +4718,6 @@ rules:
   - DOMAIN-SUFFIX,m.slshiye.cn,REJECT
   - DOMAIN-SUFFIX,m.toutiao13.com,REJECT
   - DOMAIN-SUFFIX,m.uscdn.top,REJECT
-  - DOMAIN-SUFFIX,m.v.qq.com/activity/qqvideo/interact/gift.html,REJECT
   - DOMAIN-SUFFIX,m.vcsoat.cn,REJECT
   - DOMAIN-SUFFIX,m.wantemachine.com.cn,REJECT
   - DOMAIN-SUFFIX,m.xylmdm.top,REJECT
@@ -4987,8 +4986,6 @@ rules:
   - DOMAIN-SUFFIX,mouseflow.com,REJECT
   - DOMAIN-SUFFIX,moviets.tc.qq.com,REJECT
   - DOMAIN-SUFFIX,moxiaoqihuoguo.com,REJECT
-  - DOMAIN-SUFFIX,mp.weixin.qq.com/mp/advertisement,REJECT
-  - DOMAIN-SUFFIX,mp.weixin.qq.com/mp/getappmsgad,REJECT
   - DOMAIN-SUFFIX,mqqad.cs0309.html5.qq.com,REJECT
   - DOMAIN-SUFFIX,mqqad.html5.qq.com,REJECT
   - DOMAIN-SUFFIX,mqqadr.reader.qq.com,REJECT
@@ -5490,7 +5487,6 @@ rules:
   - DOMAIN-SUFFIX,p2pupdate.gamedl.qq.com,REJECT
   - DOMAIN-SUFFIX,p2pupgrade.gamedl.qq.com,REJECT
   - DOMAIN-SUFFIX,p3-ad-sign.byteimg.com,REJECT
-  - DOMAIN-SUFFIX,p3-ad-sign.byteimg.com/web.business.image,REJECT
   - DOMAIN-SUFFIX,p3-ad.adbkwai.com,REJECT
   - DOMAIN-SUFFIX,p3-ad.adkwai.com,REJECT
   - DOMAIN-SUFFIX,p3-ad.adukwai.com,REJECT
