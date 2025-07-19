@@ -8,6 +8,7 @@ import json
 # ==== 配置区 ====
 INPUT_FILE = '.././rules.txt'
 EXCLUDE_FILE = '../data/rules/exclude.txt'  # 更新排除文件路径
+ALLOW_FILE = '../data/rules/allow.txt'     # 新增白名单文件路径
 TIME_STR = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '（北京时间）'
 HOMEPAGE = "https://github.com/qq5460168/AD886"
 AUTHOR = "酷安@那个谁520"
@@ -146,26 +147,6 @@ def is_valid_ad_line(line):
         '/' not in line[2:-1]
     )
 
-def is_valid_whitelist_rule(line):
-    pattern = r"^@@\|\|[^|]+\^(?:\$.*)?$"
-    return re.match(pattern, line) is not None
-
-def correct_whitelist_rule(line):
-    original = line
-    if not line.startswith("@@||"):
-        if line.startswith("@@|"):
-            line = line.replace("@@|", "@@||", 1)
-        else:
-            line = "@@||" + line[2:]
-    m = re.match(r'(@@\|\|.+?)(\|+)(\^.*)$', line)
-    if m:
-        line = m.group(1) + m.group(3)
-    if line != original:
-        log(f"自动修正白名单规则: 原规则: {original} 修改为: {line}")
-    else:
-        log(f"白名单规则格式正确: {line}")
-    return line
-
 def extract_domain(line):
     domain = line[2:-1].lower().strip()
     
@@ -211,7 +192,7 @@ def read_domains(input_path):
                 continue
                 
             if line.startswith("@@"):
-                correct_whitelist_rule(line)
+                # 跳过白名单规则，它们将在后续处理中排除
                 continue
                 
             if "m^$important" in line:
@@ -241,7 +222,7 @@ def read_domains(input_path):
                     log(f"跳过纯IP地址: {domain}")
                     continue
                     
-                # 检查是否包含路径（新增）
+                # 检查是否包含路径
                 if has_path(domain):
                     log(f"跳过带路径的域名: {domain}")
                     continue
@@ -265,6 +246,55 @@ def read_exclude_domains(path):
                 exclude.add(line.lower())
     log(f"从排除文件读取 {len(exclude)} 个域名")
     return exclude
+
+def read_allow_domains(path):
+    """读取白名单文件，提取不带通配符的域名"""
+    allow = set()
+    if not os.path.exists(path):
+        log(f"白名单文件不存在: {path}")
+        return allow
+        
+    log(f"开始读取白名单文件: {path}")
+    
+    with open(path, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith(('!', '#')):
+                continue
+                
+            # 处理以@@开头的规则
+            if line.startswith("@@"):
+                # 提取域名部分
+                domain = line[2:]  # 去掉开头的@@
+                
+                # 移除可能的后缀修饰符
+                domain = domain.split('^', 1)[0]
+                domain = domain.split('$', 1)[0]
+                
+                # 移除开头的||（如果存在）
+                if domain.startswith('||'):
+                    domain = domain[2:]
+                
+                # 移除路径部分
+                if '/' in domain:
+                    domain = domain.split('/')[0]
+                
+                # 检查是否为有效域名
+                if '.' in domain and not contains_wildcard(domain):
+                    log(f"从白名单规则提取域名: {line} -> {domain}")
+                    allow.add(domain.lower())
+                else:
+                    log(f"跳过无效白名单规则: {line}")
+            else:
+                # 处理纯域名格式
+                if '.' in line and not contains_wildcard(line):
+                    log(f"添加白名单域名: {line}")
+                    allow.add(line.lower())
+                else:
+                    log(f"跳过无效白名单条目: {line}")
+    
+    log(f"从白名单文件读取 {len(allow)} 个域名")
+    return allow
 
 def write_rule_file(format_conf, domains):
     fname = format_conf["file"]
@@ -309,11 +339,17 @@ def main():
     # 读取排除域名
     exclude_domains = read_exclude_domains(EXCLUDE_FILE)
     
+    # 读取白名单域名
+    allow_domains = read_allow_domains(ALLOW_FILE)
+    
+    # 合并排除列表
+    all_exclude = exclude_domains | allow_domains
+    
     # 应用排除
     initial_count = len(domains)
-    domains = [d for d in domains if d not in exclude_domains]
+    domains = [d for d in domains if d not in all_exclude]
     excluded_count = initial_count - len(domains)
-    log(f"排除 {excluded_count} 个域名，剩余 {len(domains)} 个域名")
+    log(f"排除 {excluded_count} 个域名（排除列表: {len(exclude_domains)}，白名单: {len(allow_domains)}），剩余 {len(domains)} 个域名")
     
     # 排序并去重
     domains = sorted(set(domains))
