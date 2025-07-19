@@ -188,6 +188,10 @@ def is_ip_address(domain):
         return True
     return False
 
+# 新增：检查是否包含路径（包含斜杠/）
+def has_path(domain):
+    return '/' in domain
+
 def read_domains(input_path):
     if not os.path.exists(input_path):
         log(f"文件不存在: {input_path}")
@@ -228,6 +232,11 @@ def read_domains(input_path):
                 # 检查纯IP地址
                 if is_ip_address(domain):
                     log(f"跳过纯IP地址: {domain}")
+                    continue
+                    
+                # 检查是否包含路径（新增）
+                if has_path(domain):
+                    log(f"跳过带路径的域名: {domain}")
                     continue
                     
                 log(f"有效规则: {line}")
