@@ -3,13 +3,16 @@ name: Update Rules
 on:
   # 手动触发
   workflow_dispatch:
+  
   # 定时任务，每两小时一次
   schedule:
     - cron: '0 */2 * * *'
+  
   # 检测到配置文件变动自动触发
   push:
     paths:
-      - .github/workflows/Update-Rules.yml
+      - '.github/workflows/Update-Rules.yml'
+      - 'data/**'       # 仅监控data目录下所有文件变动
 
 jobs:
   update-rules:
@@ -19,34 +22,64 @@ jobs:
       # 拉取仓库最新代码
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取所有历史记录，便于后续操作
 
       # 更新广告过滤规则
       - name: Update Rules
         continue-on-error: true
         run: |
-          bash ./data/script/update-rules.sh
+          # 确保脚本有执行权限
+          chmod +x ./data/script/*.sh 2>/dev/null || true
+          
+          # 如果存在更新脚本则执行
+          if [ -f "./data/script/update-rules.sh" ]; then
+            bash ./data/script/update-rules.sh
+          else
+            echo "未找到更新脚本: ./data/script/update-rules.sh"
+          fi
+          
+          # 如果存在Python脚本则执行
+          if [ -f "./data/script/update_rules.py" ]; then
+            python3 ./data/script/update_rules.py
+          fi
 
       # 更新并整理 ReadMe
       - name: Update ReadMe
         run: |
-          bash ./data/script/clean-readme.sh
+          # 如果存在README清理脚本则执行
+          if [ -f "./data/script/clean-readme.sh" ]; then
+            bash ./data/script/clean-readme.sh
+          else
+            echo "未找到README清理脚本: ./data/script/clean-readme.sh"
+          fi
 
       # 提交并推送更改到仓库
-      - name: Git push assets to Github
+      - name: Commit and push changes
         run: |
-          git init
+          # 配置Git用户信息
           git config --global user.name "AutoUpdater[Bot]"
           git config --global user.email "916899380+autoupdater[bot]@users.noreply.github.com"
-          git branch -m master
+          
+          # 添加所有更改
           git add --all
-          git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
-          git push -u origin -f
+          
+          # 检查是否有更改需要提交
+          if git diff-index --quiet HEAD --; then
+            echo "没有检测到更改，无需提交"
+          else
+            # 提交更改
+            git commit -m "自动更新: $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
+            
+            # 推送更改
+            git push origin HEAD:${{ github.ref }}
+          fi
 
       # 清理旧的 workflow 运行记录，节省空间
-      - name: Delete workflow runs 
+      - name: Cleanup old workflow runs
         uses: Mattraks/delete-workflow-runs@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
           retain_days: 0
-          keep_minimum_runs: 0
+          keep_minimum_runs: 5  # 保留最近的5次运行记录
