@@ -3,10 +3,11 @@
 import datetime
 import os
 import re
+import json
 
 # ==== 配置区 ====
 INPUT_FILE = '.././rules.txt'
-EXCLUDE_FILE = '../rules/exclude.txt'  # 新增：排除文件路径
+EXCLUDE_FILE = '../data/rules/exclude.txt'  # 更新排除文件路径
 TIME_STR = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '（北京时间）'
 HOMEPAGE = "https://github.com/qq5460168/AD886"
 AUTHOR = "酷安@那个谁520"
@@ -18,9 +19,10 @@ RULE_FORMATS = [
         "file": ".././dns.txt",
         "header": lambda total: [
             "[Adblock Plus 2.0]",
-            f"! Title: 酷安反馈反馈",
+            f"! Title: 酷安广告规则",
             f"! Homepage: {HOMEPAGE}",
             f"! by: {AUTHOR}",
+            f"! Last Updated: {TIME_STR}",
             f"! Total Count: {total}"
         ],
         "line": lambda domain: f"||{domain}^"
@@ -31,7 +33,8 @@ RULE_FORMATS = [
         "header": lambda total: [
             f"# Title: Hosts Rules",
             f"# Homepage: {HOMEPAGE}",
-            f"# by: {AUTHOR}"
+            f"# by: {AUTHOR}",
+            f"# Last Updated: {TIME_STR}"
         ],
         "line": lambda domain: f"0.0.0.0 {domain}"
     },
@@ -42,8 +45,9 @@ RULE_FORMATS = [
             f"# Title: Quantumult X Rules",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}",
+            f"# Last Updated: {TIME_STR}",
             f"# Quantumult X规则数量: {total}",
-            f"# ! Total count: {total}"  # 在这里添加了 #，将其作为注释
+            f"# ! Total count: {total}"
         ],
         "line": lambda domain: f"HOST-SUFFIX,{domain},REJECT"
     },
@@ -54,7 +58,8 @@ RULE_FORMATS = [
             f"# Title: Shadowrocket Rules",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}",
-            f"Shadowrocket规则数量: {total}",
+            f"# Last Updated: {TIME_STR}",
+            f"# Shadowrocket规则数量: {total}",
             f"! Total count: {total}"
         ],
         "line": lambda domain: f"DOMAIN-SUFFIX,{domain},REJECT"
@@ -64,6 +69,7 @@ RULE_FORMATS = [
         "file": ".././AdClose.txt",
         "header": lambda total: [
             f"# AdClose 专用广告规则",
+            f"# 生成时间: {TIME_STR}",
             f"# 格式：domain, <域名>"
         ],
         "line": lambda domain: f"domain, {domain}"
@@ -75,7 +81,8 @@ RULE_FORMATS = [
             f"# Title: SingBox SRS Rules",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}",
-            f"Singbox规则数量: {total}",
+            f"# Last Updated: {TIME_STR}",
+            f"# Singbox规则数量: {total}",
             f"! Total count: {total}"
         ],
         "line": lambda domain: f"DOMAIN-SUFFIX,{domain},REJECT"
@@ -92,7 +99,8 @@ RULE_FORMATS = [
         "header": lambda total: [
             f"# Title: Invizible Pro Rules",
             f"# Homepage: {HOMEPAGE}",
-            f"# by: {AUTHOR}"
+            f"# by: {AUTHOR}",
+            f"# Last Updated: {TIME_STR}"
         ],
         "line": lambda domain: f"{domain}"
     },
@@ -103,8 +111,10 @@ RULE_FORMATS = [
             f"# Title: Clash Rules",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}",
-            f"Clash规则数量: {total}",
-            f"! Total count: {total}"
+            f"# Last Updated: {TIME_STR}",
+            f"# Clash规则数量: {total}",
+            f"! Total count: {total}",
+            "rules:"
         ],
         "line": lambda domain: f"  - DOMAIN-SUFFIX,{domain},REJECT"
     },
@@ -115,7 +125,8 @@ RULE_FORMATS = [
             f"# Title: Clash Meta规则",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}",
-            f"Clash Meta规则数量: {total}",
+            f"# Last Updated: {TIME_STR}",
+            f"# Clash Meta规则数量: {total}",
             f"! Total count: {total}",
             "payload:"
         ],
@@ -150,7 +161,7 @@ def correct_whitelist_rule(line):
     return line
 
 def extract_domain(line):
-    return line[2:-1]
+    return line[2:-1].lower().strip()
 
 def contains_wildcard(domain):
     return '*' in domain or '?' in domain
@@ -163,12 +174,17 @@ def read_domains(input_path):
     with open(input_path, 'r', encoding="utf-8") as f:
         for line in f:
             line = line.strip()
+            if not line or line.startswith('!'):
+                continue
+                
             if line.startswith("@@"):
                 correct_whitelist_rule(line)
                 continue
+                
             if "m^$important" in line:
                 log(f"跳过错误规则: {line}")
                 continue
+                
             if is_valid_ad_line(line):
                 domain = extract_domain(line)
                 if contains_wildcard(domain):
@@ -180,57 +196,79 @@ def read_domains(input_path):
                 log(f"无效规则: {line}")
     return list(set(domains))
 
-# === 新增：读取排除域名 ===
 def read_exclude_domains(path):
     exclude = set()
-    if os.path.exists(path):
-        with open(path, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith('#'):
-                    exclude.add(line)
+    if not os.path.exists(path):
+        log(f"排除文件不存在: {path}")
+        return exclude
+        
+    with open(path, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith('#'):
+                exclude.add(line.lower())
+    log(f"从排除文件读取 {len(exclude)} 个域名")
     return exclude
 
 def write_rule_file(format_conf, domains):
     fname = format_conf["file"]
+    log(f"开始生成: {fname}")
+    
     if format_conf["name"] == "singbox_json":
         with open(fname, "w", encoding="utf-8") as f:
-            f.write('{\n')
-            f.write('  "name": "Singbox Ads Rule",\n')
-            f.write('  "type": "domain",\n')
-            f.write('  "payload": [\n')
-            for i, domain in enumerate(domains):
-                comma = ',' if i < len(domains) - 1 else ''
-                f.write(f'    "{domain}"{comma}\n')
-            f.write('  ]\n}')
-        log(f"生成 {fname} (Singbox JSON)")
+            json_data = {
+                "version": 1,
+                "rules": [
+                    {"domain_suffix": domain} for domain in domains
+                ]
+            }
+            json.dump(json_data, f, indent=2, ensure_ascii=False)
+        log(f"生成 {fname} (Singbox JSON), 规则数量: {len(domains)}")
         return
 
     with open(fname, "w", encoding="utf-8") as f:
-        header = format_conf["header"](len(domains))
-        for h in header:
-            f.write(h + '\n')
+        if format_conf["header"]:
+            header_lines = format_conf["header"](len(domains))
+            for h in header_lines:
+                f.write(h + '\n')
+                
         for domain in domains:
             f.write(format_conf["line"](domain) + '\n')
+            
     log(f"生成 {fname}，规则数量: {len(domains)}")
 
 def main():
+    log("=" * 50)
+    log("开始生成广告规则")
+    log("=" * 50)
+    
     if not os.path.exists(INPUT_FILE):
-        log(f"源规则文件不存在: {INPUT_FILE}")
+        log(f"错误: 源规则文件不存在: {INPUT_FILE}")
         return
-    domains = sorted(set(read_domains(INPUT_FILE)))
-
-    # ==== 新增：自动排除 exclude.txt 里的域名 ====
+        
+    # 读取源规则
+    domains = read_domains(INPUT_FILE)
+    log(f"从源文件读取到有效规则数量: {len(domains)}")
+    
+    # 读取排除域名
     exclude_domains = read_exclude_domains(EXCLUDE_FILE)
+    
+    # 应用排除
+    initial_count = len(domains)
     domains = [d for d in domains if d not in exclude_domains]
-
-    if not domains:
-        log("未发现有效规则，请检查 INPUT_FILE 内容是否符合要求。")
-        return
-    log(f"从 {INPUT_FILE} 读取到有效规则数量: {len(domains)}")
+    excluded_count = initial_count - len(domains)
+    log(f"排除 {excluded_count} 个域名，剩余 {len(domains)} 个域名")
+    
+    # 排序并去重
+    domains = sorted(set(domains))
+    
+    # 生成所有规则格式
     for fmt in RULE_FORMATS:
         write_rule_file(fmt, domains)
-    log("全部规则已生成。")
+        
+    log("=" * 50)
+    log(f"全部规则生成完成! 共生成 {len(domains)} 个域名")
+    log("=" * 50)
 
 if __name__ == "__main__":
     main()
