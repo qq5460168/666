@@ -1,24 +1,37 @@
 name: Update Rules
-on: 
+
+on:
+  # 手动触发
   workflow_dispatch:
+  # 定时任务，每两小时一次
   schedule:
     - cron: '0 */2 * * *'
-    
+  # 检测到配置文件变动自动触发
+  push:
+    paths:
+      - .github/workflows/Update-Rules.yml
+
 jobs:
-  update:
+  update-rules:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-          
+      # 拉取仓库最新代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 更新广告过滤规则
       - name: Update Rules
         continue-on-error: true
         run: |
           bash ./data/script/update-rules.sh
-          
+
+      # 更新并整理 ReadMe
       - name: Update ReadMe
         run: |
           bash ./data/script/clean-readme.sh
 
+      # 提交并推送更改到仓库
       - name: Git push assets to Github
         run: |
           git init
@@ -29,6 +42,7 @@ jobs:
           git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
           git push -u origin -f
 
+      # 清理旧的 workflow 运行记录，节省空间
       - name: Delete workflow runs 
         uses: Mattraks/delete-workflow-runs@main
         with:
