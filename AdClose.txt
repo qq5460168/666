@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-20 01:41:29（北京时间）
+! Version: 2025-07-20 01:50:08（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8711
+! Total count: 8671
 # AdClose 专用广告规则
-# 生成时间: 2025-07-19 17:41:28（北京时间）
+# 生成时间: 2025-07-19 17:50:07（北京时间）
 # 格式：domain, <域名>
 domain, 000123456789.online
 domain, 000123456789.site
@@ -57,47 +57,27 @@ domain, 1.11130.com.cn
 domain, 1.bmkjku09.cc
 domain, 1.feihua.com
 domain, 1.olybvun.cc
-domain, 10.130.208.223
 domain, 10090dfs.com
 domain, 1017facai8.xyz
 domain, 101kyty.com
-domain, 103.192.211.66
-domain, 104.192.83.74
-domain, 106.11.23.107
-domain, 107.148.161.253
 domain, 109218er.xyz
 domain, 10mi.t5130pp.vip
 domain, 1104piaoba2022.xyz
 domain, 1105yh.com
 domain, 1106yh.com
 domain, 1107piaoliang2022.xyz
-domain, 111.51.128.172
 domain, 1113dage2022.xyz
 domain, 1116yitiao2022.xyz
 domain, 1117liangtiao2022.xyz
-domain, 114.132.216.51
 domain, 118.pkvgbk.com
-domain, 119.28.83.28:8099
 domain, 11jianzhan.com
-domain, 120.232.202.5
-domain, 120.232.202.6
-domain, 120.232.202.7
-domain, 120.232.207.80
-domain, 120.232.210.151
-domain, 120.232.210.153
-domain, 120.232.210.155
-domain, 120.26.63.182
 domain, 1205qitiao2022.xyz
 domain, 1206q3-giqvvwa1jie9-017.cbhdmir.cn
-domain, 121.41.7.167
-domain, 121.43.235.135
 domain, 1212.ehgssdg.cn
 domain, 1222dfm3l.cc
 domain, 1224.zg-babyroo.com
-domain, 123.184.198.22
 domain, 123.tk029.click
 domain, 1233azpupg05.com
-domain, 125.124.158.40
 domain, 12551-1311572332.cos.ap-shanghai.myqcloud.com
 domain, 1267a.xyz
 domain, 126ccb.xyz
@@ -111,21 +91,16 @@ domain, 13hangpifa.com
 domain, 1500020991.vodplayer.wxamedia.com
 domain, 1500022744.vodplayer.wxamedia.com
 domain, 1500026601.vodplayer.wxamedia.com
-domain, 154.22.214.2
 domain, 155tl.com
 domain, 155zn.com
-domain, 156.238.246.232
 domain, 1622.5w8eho.com
 domain, 1640831964042.se-life.cn
-domain, 172.247.38.153
 domain, 17282.org
 domain, 177638.com
 domain, 180rgwee.com
 domain, 180zhengkkl.com
 domain, 1813dc.wifwroi.com
 domain, 1814.dkhwyzv.com
-domain, 183.232.114.245
-domain, 183.240.223.132
 domain, 18479.pw
 domain, 186tl.com
 domain, 187388.com
@@ -162,7 +137,6 @@ domain, 2020mustang.com
 domain, 2022facaiabc9.xyz
 domain, 2023musk.net
 domain, 2024111518.xiaoyaoge25.top
-domain, 203.107.1.34
 domain, 2034kp.vip
 domain, 2052.flash2-http.qq.com
 domain, 208622.top
@@ -177,7 +151,6 @@ domain, 2235c106d6484fb30gcc.fokm37.cn
 domain, 226910mg.obj23q.com
 domain, 22cdocker402.com
 domain, 22wap.jiezibook.cn
-domain, 23.231.151.252
 domain, 23dhj4q.com
 domain, 23jgiy.com
 domain, 2404mc.2tsfdcp.com
@@ -232,15 +205,12 @@ domain, 34e278e.ed4d3uu.nl
 domain, 35072.net
 domain, 3562wsgkbcm.xyz
 domain, 35vc.com
-domain, 36.102.218.149:4482/image.uczzd.cn
 domain, 360114.xyz
 domain, 360shuke.com
 domain, 361.trafficmanager.net
 domain, 36htg.fun
 domain, 36mghtd.xyz
-domain, 37.1.213.100
 domain, 37bhof.com
-domain, 38.63.62.221
 domain, 387635.com
 domain, 38kmute.xyz
 domain, 3939.mvktvm.cn
@@ -266,11 +236,7 @@ domain, 40fenzhong.com
 domain, 4199tv.com
 domain, 41grk.icu
 domain, 42yenxh.cn
-domain, 43.159.198.195
 domain, 44r9fl.xyz
-domain, 47.243.82.91
-domain, 47.252.15.122
-domain, 47.57.3.161
 domain, 495qp188.com
 domain, 49789c.com
 domain, 49lq.mm51-t0403.cc
@@ -287,7 +253,6 @@ domain, 4pn.cn
 domain, 4po6iqp9.cn
 domain, 4sexmail.com
 domain, 4vgyjja.cn
-domain, 5.61.55.143
 domain, 50aqzb.com
 domain, 51-tour.net
 domain, 51.la
@@ -417,8 +382,6 @@ domain, 7r227ut.cn
 domain, 7sj9n87sls.adobe.io
 domain, 7xixi.site
 domain, 7zz3maneujdf.me
-domain, 8.210.20.157
-domain, 8.210.61.119
 domain, 8122888tp.com
 domain, 8181zx.com
 domain, 81wx.info
@@ -481,7 +444,6 @@ domain, 98tl.net
 domain, 99.gn5m0bnwzvkndnoygn.com
 domain, 99.o2in8un5qlkj533twx.com
 domain, 990215.xyz
-domain, 9983x.com:8055
 domain, 99999999.club
 domain, 999gg.net
 domain, 999pro.top
@@ -713,7 +675,6 @@ domain, ad.weixin.qq.com
 domain, ad.winrar.com.cn
 domain, ad.wtzw.com
 domain, ad.wx.com
-domain, ad.wx.com:12638
 domain, ad.xiaohongshu.com
 domain, ad.xiaomi.com
 domain, ad.ximalaya.com
@@ -3563,7 +3524,6 @@ domain, hthvip1902.com
 domain, htienlu.top
 domain, htjrlm.com
 domain, htseca.top
-domain, http://vibeaconstr.onezapp.com:8080/analytics/upload
 domain, httpdns-browser.platform.dbankcloud.cn
 domain, httpdns.alicdn.com
 domain, httpdns.bcelive.com
