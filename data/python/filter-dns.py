@@ -166,6 +166,28 @@ def extract_domain(line):
 def contains_wildcard(domain):
     return '*' in domain or '?' in domain
 
+# 新增：检查是否为带端口的域名
+def has_port(domain):
+    return ':' in domain
+
+# 新增：检查是否为IPv6地址
+def is_ipv6(domain):
+    # IPv6地址通常包含冒号(:)和方括号([])
+    return ':' in domain or ('[' in domain and ']' in domain)
+
+# 新增：检查是否为纯IP地址
+def is_ip_address(domain):
+    # IPv4地址模式 (如 192.168.1.1)
+    ipv4_pattern = r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$'
+    # IPv6地址模式 (简化的检查)
+    ipv6_pattern = r'^([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}$|^::([0-9a-fA-F]{1,4}:){0,6}[0-9a-fA-F]{1,4}$|^[0-9a-fA-F]{1,4}::([0-9a-fA-F]{1,4}:){0,5}[0-9a-fA-F]{1,4}$'
+    
+    if re.match(ipv4_pattern, domain):
+        return True
+    if re.match(ipv6_pattern, domain.replace('[', '').replace(']', '')):
+        return True
+    return False
+
 def read_domains(input_path):
     if not os.path.exists(input_path):
         log(f"文件不存在: {input_path}")
@@ -187,9 +209,27 @@ def read_domains(input_path):
                 
             if is_valid_ad_line(line):
                 domain = extract_domain(line)
+                
+                # 检查通配符
                 if contains_wildcard(domain):
                     log(f"跳过通配符域名: {domain}")
                     continue
+                    
+                # 检查带端口的域名
+                if has_port(domain):
+                    log(f"跳过带端口的域名: {domain}")
+                    continue
+                    
+                # 检查IPv6地址
+                if is_ipv6(domain):
+                    log(f"跳过IPv6地址: {domain}")
+                    continue
+                    
+                # 检查纯IP地址
+                if is_ip_address(domain):
+                    log(f"跳过纯IP地址: {domain}")
+                    continue
+                    
                 log(f"有效规则: {line}")
                 domains.append(domain)
             else:
