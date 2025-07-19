@@ -8,21 +8,138 @@ import json
 # ==== 配置区 ====
 INPUT_FILE = '.././rules.txt'
 EXCLUDE_FILE = '../data/rules/exclude.txt'  # 排除文件路径
-ALLOW_FILE = '../allow.txt'                # 修正：白名单文件在根目录
+ALLOW_FILE = '../allow.txt'                # 白名单文件在根目录
 TIME_STR = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '（北京时间）'
 HOMEPAGE = "https://github.com/qq5460168/AD886"
 AUTHOR = "酷安@那个谁520"
 
 # 输出文件和规则格式定义
 RULE_FORMATS = [
-    # ... 保持不变 ...
+    {
+        "name": "dns",
+        "file": ".././dns.txt",
+        "header": lambda total: [
+            "[Adblock Plus 2.0]",
+            f"! Title: 酷安广告规则",
+            f"! Homepage: {HOMEPAGE}",
+            f"! by: {AUTHOR}",
+            f"! Last Updated: {TIME_STR}",
+            f"! Total Count: {total}"
+        ],
+        "line": lambda domain: f"||{domain}^"
+    },
+    {
+        "name": "hosts",
+        "file": ".././hosts.txt",
+        "header": lambda total: [
+            f"# Title: Hosts Rules",
+            f"# Homepage: {HOMEPAGE}",
+            f"# by: {AUTHOR}",
+            f"# Last Updated: {TIME_STR}"
+        ],
+        "line": lambda domain: f"0.0.0.0 {domain}"
+    },
+    {
+        "name": "qx",
+        "file": ".././qx.list",
+        "header": lambda total: [
+            f"# Title: Quantumult X Rules",
+            f"# Homepage: {HOMEPAGE}",
+            f"# by: {AUTHOR}",
+            f"# Last Updated: {TIME_STR}",
+            f"# Quantumult X规则数量: {total}",
+            f"# ! Total count: {total}"
+        ],
+        "line": lambda domain: f"HOST-SUFFIX,{domain},REJECT"
+    },
+    {
+        "name": "shadowrocket",
+        "file": ".././Shadowrocket.list",
+        "header": lambda total: [
+            f"# Title: Shadowrocket Rules",
+            f"# Homepage: {HOMEPAGE}",
+            f"# by: {AUTHOR}",
+            f"# Last Updated: {TIME_STR}",
+            f"# Shadowrocket规则数量: {total}",
+            f"! Total count: {total}"
+        ],
+        "line": lambda domain: f"DOMAIN-SUFFIX,{domain},REJECT"
+    },
+    {
+        "name": "adclose",
+        "file": ".././AdClose.txt",
+        "header": lambda total: [
+            f"# AdClose 专用广告规则",
+            f"# 生成时间: {TIME_STR}",
+            f"# 格式：domain, <域名>"
+        ],
+        "line": lambda domain: f"domain, {domain}"
+    },
+    {
+        "name": "singbox_srs",
+        "file": ".././singbox.srs",
+        "header": lambda total: [
+            f"# Title: SingBox SRS Rules",
+            f"# Homepage: {HOMEPAGE}",
+            f"# by: {AUTHOR}",
+            f"# Last Updated: {TIME_STR}",
+            f"# Singbox规则数量: {total}",
+            f"! Total count: {total}"
+        ],
+        "line": lambda domain: f"DOMAIN-SUFFIX,{domain},REJECT"
+    },
+    {
+        "name": "singbox_json",
+        "file": ".././Singbox.json",
+        "header": None,
+        "line": None
+    },
+    {
+        "name": "invizible",
+        "file": ".././invizible.txt",
+        "header": lambda total: [
+            f"# Title: Invizible Pro Rules",
+            f"# Homepage: {HOMEPAGE}",
+            f"# by: {AUTHOR}",
+            f"# Last Updated: {TIME_STR}"
+        ],
+        "line": lambda domain: f"{domain}"
+    },
+    {
+        "name": "clash",
+        "file": ".././clash.yaml",
+        "header": lambda total: [
+            f"# Title: Clash Rules",
+            f"# Homepage: {HOMEPAGE}",
+            f"# by: {AUTHOR}",
+            f"# Last Updated: {TIME_STR}",
+            f"# Clash规则数量: {total}",
+            f"! Total count: {total}",
+            "rules:"
+        ],
+        "line": lambda domain: f"  - DOMAIN-SUFFIX,{domain},REJECT"
+    },
+    {
+        "name": "clash_meta",
+        "file": ".././clash_meta.yaml",
+        "header": lambda total: [
+            f"# Title: Clash Meta规则",
+            f"# Homepage: {HOMEPAGE}",
+            f"# by: {AUTHOR}",
+            f"# Last Updated: {TIME_STR}",
+            f"# Clash Meta规则数量: {total}",
+            f"! Total count: {total}",
+            "payload:"
+        ],
+        "line": lambda domain: f"  - '{domain}'"
+    }
 ]
 
 def log(msg):
     print(f"[{datetime.datetime.now():%Y-%m-%d %H:%M:%S}] {msg}")
 
 def is_valid_ad_line(line):
-    # 修复：确保规则没有路径部分和额外分隔符
+    # 确保规则没有路径部分和额外分隔符
     return (
         line.startswith("||") and 
         line.endswith("^") and 
@@ -33,7 +150,7 @@ def is_valid_ad_line(line):
 def extract_domain(line):
     domain = line[2:-1].lower().strip()
     
-    # 修复：移除路径部分（如果存在）
+    # 移除路径部分（如果存在）
     if '/' in domain:
         domain = domain.split('/')[0]
     
@@ -65,9 +182,12 @@ def has_path(domain):
 
 def read_domains(input_path):
     if not os.path.exists(input_path):
-        log(f"文件不存在: {input_path}")
+        log(f"错误: 源规则文件不存在: {input_path}")
         return []
+        
     domains = []
+    log(f"开始读取源规则文件: {input_path}")
+    
     with open(input_path, 'r', encoding="utf-8") as f:
         for line in f:
             line = line.strip()
@@ -114,19 +234,24 @@ def read_domains(input_path):
                 domains.append(domain)
             else:
                 log(f"无效规则: {line}")
+                
+    log(f"从源文件读取到 {len(domains)} 个有效域名")
     return list(set(domains))
 
 def read_exclude_domains(path):
     exclude = set()
     if not os.path.exists(path):
-        log(f"排除文件不存在: {path}")
+        log(f"警告: 排除文件不存在: {path}")
         return exclude
         
+    log(f"开始读取排除文件: {path}")
+    
     with open(path, 'r', encoding='utf-8') as f:
         for line in f:
             line = line.strip()
             if line and not line.startswith('#'):
                 exclude.add(line.lower())
+                
     log(f"从排除文件读取 {len(exclude)} 个域名")
     return exclude
 
@@ -134,7 +259,7 @@ def read_allow_domains(path):
     """读取白名单文件，提取不带通配符的域名"""
     allow = set()
     if not os.path.exists(path):
-        log(f"白名单文件不存在: {path}")
+        log(f"警告: 白名单文件不存在: {path}")
         return allow
         
     log(f"开始读取白名单文件: {path}")
@@ -183,12 +308,15 @@ def read_allow_domains(path):
                 else:
                     log(f"跳过无效白名单条目: {line}")
     
-    log(f"从白名单文件读取 {len(allow)} 个域名: {', '.join(sorted(allow)[:5])}{'...' if len(allow) > 5 else ''}")
+    # 记录前5个白名单域名作为示例
+    sample_domains = list(allow)[:5]
+    sample_text = ", ".join(sample_domains) + ("..." if len(allow) > 5 else "")
+    log(f"从白名单文件读取 {len(allow)} 个域名: {sample_text}")
     return allow
 
 def write_rule_file(format_conf, domains):
     fname = format_conf["file"]
-    log(f"开始生成: {fname}")
+    log(f"开始生成规则文件: {fname}")
     
     if format_conf["name"] == "singbox_json":
         with open(fname, "w", encoding="utf-8") as f:
@@ -218,13 +346,13 @@ def main():
     log("开始生成广告规则")
     log("=" * 50)
     
+    # 确保输入文件存在
     if not os.path.exists(INPUT_FILE):
         log(f"错误: 源规则文件不存在: {INPUT_FILE}")
         return
         
     # 读取源规则
     domains = read_domains(INPUT_FILE)
-    log(f"从源文件读取到有效规则数量: {len(domains)}")
     
     # 读取排除域名
     exclude_domains = read_exclude_domains(EXCLUDE_FILE)
