@@ -6,11 +6,12 @@ import re
 
 # ==== 配置区 ====
 INPUT_FILE = '.././rules.txt'
+EXCLUDE_FILE = '../rules/exclude.txt'  # 新增：排除文件路径
 TIME_STR = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '（北京时间）'
 HOMEPAGE = "https://github.com/qq5460168/AD886"
 AUTHOR = "酷安@那个谁520"
 
-# 输出文件和规则格式定义（已取消 “Update Time:” 信息）
+# 输出文件和规则格式定义
 RULE_FORMATS = [
     {
         "name": "dns",
@@ -82,7 +83,7 @@ RULE_FORMATS = [
     {
         "name": "singbox_json",
         "file": ".././Singbox.json",
-        "header": None,  # 特殊处理，生成 JSON 格式
+        "header": None,
         "line": None
     },
     {
@@ -122,32 +123,17 @@ RULE_FORMATS = [
     }
 ]
 
-# ==== 主要逻辑 ====
 def log(msg):
-    """统一打印日志，包含当前时间戳"""
     print(f"[{datetime.datetime.now():%Y-%m-%d %H:%M:%S}] {msg}")
 
 def is_valid_ad_line(line):
-    """
-    检查广告过滤规则是否符合格式：
-    规则必须以 "||" 开头，以 "^" 结尾，且长度大于 3。
-    """
     return line.startswith("||") and line.endswith("^") and len(line) > 3
 
 def is_valid_whitelist_rule(line):
-    """
-    检查白名单规则是否符合正确格式：
-    正确格式为：@@||域名^ 或 @@||域名^$options，不允许存在额外 "|" 符号。
-    """
     pattern = r"^@@\|\|[^|]+\^(?:\$.*)?$"
     return re.match(pattern, line) is not None
 
 def correct_whitelist_rule(line):
-    """
-    自动优化白名单规则格式：
-      1. 如果规则未以 '@@||' 开头，则修正。
-      2. 去除规则中 '^' 前多余的 "|" 符号。
-    """
     original = line
     if not line.startswith("@@||"):
         if line.startswith("@@|"):
@@ -164,15 +150,12 @@ def correct_whitelist_rule(line):
     return line
 
 def extract_domain(line):
-    """从规则中提取域名部分，假定规则格式为 '||域名^'"""
     return line[2:-1]
 
 def contains_wildcard(domain):
-    """判断域名是否包含通配符，如 * 或 ? 等"""
     return '*' in domain or '?' in domain
 
 def read_domains(input_path):
-    """读取 INPUT_FILE 文件，提取所有有效且不含通配符的广告过滤规则所对应的域名"""
     if not os.path.exists(input_path):
         log(f"文件不存在: {input_path}")
         return []
@@ -197,8 +180,18 @@ def read_domains(input_path):
                 log(f"无效规则: {line}")
     return list(set(domains))
 
+# === 新增：读取排除域名 ===
+def read_exclude_domains(path):
+    exclude = set()
+    if os.path.exists(path):
+        with open(path, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#'):
+                    exclude.add(line)
+    return exclude
+
 def write_rule_file(format_conf, domains):
-    """根据给定的格式配置生成输出规则文件"""
     fname = format_conf["file"]
     if format_conf["name"] == "singbox_json":
         with open(fname, "w", encoding="utf-8") as f:
@@ -222,11 +215,15 @@ def write_rule_file(format_conf, domains):
     log(f"生成 {fname}，规则数量: {len(domains)}")
 
 def main():
-    """主程序"""
     if not os.path.exists(INPUT_FILE):
         log(f"源规则文件不存在: {INPUT_FILE}")
         return
     domains = sorted(set(read_domains(INPUT_FILE)))
+
+    # ==== 新增：自动排除 exclude.txt 里的域名 ====
+    exclude_domains = read_exclude_domains(EXCLUDE_FILE)
+    domains = [d for d in domains if d not in exclude_domains]
+
     if not domains:
         log("未发现有效规则，请检查 INPUT_FILE 内容是否符合要求。")
         return
