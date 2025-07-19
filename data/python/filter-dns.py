@@ -167,8 +167,12 @@ def extract_domain(line):
     """从规则中提取域名部分，假定规则格式为 '||域名^'"""
     return line[2:-1]
 
+def contains_wildcard(domain):
+    """判断域名是否包含通配符，如 * 或 ? 等"""
+    return '*' in domain or '?' in domain
+
 def read_domains(input_path):
-    """读取 INPUT_FILE 文件，提取所有有效的广告过滤规则所对应的域名"""
+    """读取 INPUT_FILE 文件，提取所有有效且不含通配符的广告过滤规则所对应的域名"""
     if not os.path.exists(input_path):
         log(f"文件不存在: {input_path}")
         return []
@@ -183,8 +187,12 @@ def read_domains(input_path):
                 log(f"跳过错误规则: {line}")
                 continue
             if is_valid_ad_line(line):
+                domain = extract_domain(line)
+                if contains_wildcard(domain):
+                    log(f"跳过通配符域名: {domain}")
+                    continue
                 log(f"有效规则: {line}")
-                domains.append(extract_domain(line))
+                domains.append(domain)
             else:
                 log(f"无效规则: {line}")
     return list(set(domains))
