@@ -138,7 +138,13 @@ def log(msg):
     print(f"[{datetime.datetime.now():%Y-%m-%d %H:%M:%S}] {msg}")
 
 def is_valid_ad_line(line):
-    return line.startswith("||") and line.endswith("^") and len(line) > 3
+    # 修复：确保规则没有路径部分和额外分隔符
+    return (
+        line.startswith("||") and 
+        line.endswith("^") and 
+        '^' not in line[2:-1] and 
+        '/' not in line[2:-1]
+    )
 
 def is_valid_whitelist_rule(line):
     pattern = r"^@@\|\|[^|]+\^(?:\$.*)?$"
@@ -161,21 +167,23 @@ def correct_whitelist_rule(line):
     return line
 
 def extract_domain(line):
-    return line[2:-1].lower().strip()
+    domain = line[2:-1].lower().strip()
+    
+    # 修复：移除路径部分（如果存在）
+    if '/' in domain:
+        domain = domain.split('/')[0]
+    
+    return domain
 
 def contains_wildcard(domain):
     return '*' in domain or '?' in domain
 
-# 新增：检查是否为带端口的域名
 def has_port(domain):
     return ':' in domain
 
-# 新增：检查是否为IPv6地址
 def is_ipv6(domain):
-    # IPv6地址通常包含冒号(:)和方括号([])
     return ':' in domain or ('[' in domain and ']' in domain)
 
-# 新增：检查是否为纯IP地址
 def is_ip_address(domain):
     # IPv4地址模式 (如 192.168.1.1)
     ipv4_pattern = r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$'
@@ -188,7 +196,6 @@ def is_ip_address(domain):
         return True
     return False
 
-# 新增：检查是否包含路径（包含斜杠/）
 def has_path(domain):
     return '/' in domain
 
@@ -239,7 +246,7 @@ def read_domains(input_path):
                     log(f"跳过带路径的域名: {domain}")
                     continue
                     
-                log(f"有效规则: {line}")
+                log(f"有效规则: {line} -> {domain}")
                 domains.append(domain)
             else:
                 log(f"无效规则: {line}")
