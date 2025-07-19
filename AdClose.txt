@@ -2,10 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-20 01:32:06（北京时间）
+! Version: 2025-07-20 01:41:29（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8713
+! Total count: 8711
 # AdClose 专用广告规则
+# 生成时间: 2025-07-19 17:41:28（北京时间）
 # 格式：domain, <域名>
 domain, 000123456789.online
 domain, 000123456789.site
@@ -74,7 +75,6 @@ domain, 111.51.128.172
 domain, 1113dage2022.xyz
 domain, 1116yitiao2022.xyz
 domain, 1117liangtiao2022.xyz
-domain, 113-116-50-196-yf81c2bb.nodeedge.cn:9512
 domain, 114.132.216.51
 domain, 118.pkvgbk.com
 domain, 119.28.83.28:8099
@@ -114,7 +114,7 @@ domain, 1500026601.vodplayer.wxamedia.com
 domain, 154.22.214.2
 domain, 155tl.com
 domain, 155zn.com
-domain, 156.238.246.232 
+domain, 156.238.246.232
 domain, 1622.5w8eho.com
 domain, 1640831964042.se-life.cn
 domain, 172.247.38.153
@@ -181,8 +181,6 @@ domain, 23.231.151.252
 domain, 23dhj4q.com
 domain, 23jgiy.com
 domain, 2404mc.2tsfdcp.com
-domain, 2407:c080:1200:3ce:e607:8583:110e:6bf9
-domain, 2407:c080:1200:53d:b686:5a14:b3a7:22e4
 domain, 2409-8754-8310-35--3.volcsirius.com
 domain, 2431.vainews.cn
 domain, 24441mcsjcc.wcald72.xyz
@@ -502,7 +500,6 @@ domain, 9pyfqzkqqwiy.me
 domain, 9xf9qkz5.com
 domain, 9xpi49.tnhkwrs.com
 domain, @adsmogo.com
-domain, Media.net
 domain, a-mo.net
 domain, a-qmad.qimao.com
 domain, a-qmad.qm989.com
@@ -3304,7 +3301,7 @@ domain, gw-w.jiaoliuqu.com
 domain, gw.xinfei.cn
 domain, gw.yoccj.cn
 domain, gw1jvhs.com
-domain, gw8gfjbsO5.adobe.io
+domain, gw8gfjbso5.adobe.io
 domain, gwertyuadf.com
 domain, gwg51.com
 domain, gwgp-mfx29upvtet.n.bdcloudapi.com
@@ -4350,7 +4347,7 @@ domain, kytesconge.com
 domain, kyxw9itc.xyz
 domain, kyxw9itv.club
 domain, kyy-dl.dzhread.cn
-domain, kyzx.xyZ
+domain, kyzx.xyz
 domain, kzaawga.icu
 domain, kzchyhr.cn
 domain, kzgmpu.com
@@ -4858,6 +4855,7 @@ domain, media-gdgz-fy-person.gd5oss.ctyunxs.cn
 domain, media-ynkm-fy-home.yn7oss.ctyunxs.cn
 domain, media-ynkm-fy-person.yn7oss.ctyunxs.cn
 domain, media.mobpartner.mobi
+domain, media.net
 domain, mediaad.tadu.com
 domain, meethanshi.com
 domain, meetsourhig.biz
