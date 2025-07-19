@@ -1,8 +1,8 @@
 # Title: Clash Meta规则
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-Clash Meta规则数量: 9098
-! Total count: 9098
+Clash Meta规则数量: 9102
+! Total count: 9102
 payload:
   - '*-*-*-lrycfv.vip'
   - '*-*.ap-east-1.elb.amazonaws.com'
@@ -309,12 +309,15 @@ payload:
   - '120.232.210.151'
   - '120.232.210.153'
   - '120.232.210.155'
+  - '120.26.63.182'
   - '1205qitiao2022.xyz'
   - '1206q3-giqvvwa1jie9-017.cbhdmir.cn'
+  - '121.41.7.167'
   - '121.43.235.135'
   - '1212.ehgssdg.cn'
   - '1222dfm3l.cc'
   - '1224.zg-babyroo.com'
+  - '123.184.198.22'
   - '123.tk029.click'
   - '1233azpupg05.com'
   - '125.124.158.40'
@@ -383,6 +386,7 @@ payload:
   - '2022facaiabc9.xyz'
   - '2023musk.net'
   - '2024111518.xiaoyaoge25.top'
+  - '203.107.1.34'
   - '2034kp.vip'
   - '2052.flash2-http.qq.com'
   - '208622.top'

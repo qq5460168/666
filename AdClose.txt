@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-19 22:08:13（北京时间）
+! Version: 2025-07-20 00:10:08（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 9101
+! Total count: 9105
 # AdClose 专用广告规则
 # 格式：domain, <域名>
 domain, *-*-*-lrycfv.vip
@@ -312,12 +312,15 @@ domain, 120.232.207.80
 domain, 120.232.210.151
 domain, 120.232.210.153
 domain, 120.232.210.155
+domain, 120.26.63.182
 domain, 1205qitiao2022.xyz
 domain, 1206q3-giqvvwa1jie9-017.cbhdmir.cn
+domain, 121.41.7.167
 domain, 121.43.235.135
 domain, 1212.ehgssdg.cn
 domain, 1222dfm3l.cc
 domain, 1224.zg-babyroo.com
+domain, 123.184.198.22
 domain, 123.tk029.click
 domain, 1233azpupg05.com
 domain, 125.124.158.40
@@ -386,6 +389,7 @@ domain, 2020mustang.com
 domain, 2022facaiabc9.xyz
 domain, 2023musk.net
 domain, 2024111518.xiaoyaoge25.top
+domain, 203.107.1.34
 domain, 2034kp.vip
 domain, 2052.flash2-http.qq.com
 domain, 208622.top
