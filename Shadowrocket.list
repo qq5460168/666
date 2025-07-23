@@ -1,9 +1,9 @@
 # Title: Shadowrocket Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-07-23 12:18:53（北京时间）
-# Shadowrocket规则数量: 8441
-! Total count: 8441
+# Last Updated: 2025-07-23 14:12:23（北京时间）
+# Shadowrocket规则数量: 8443
+! Total count: 8443
 DOMAIN-SUFFIX,000123456789.online,REJECT
 DOMAIN-SUFFIX,000123456789.site,REJECT
 DOMAIN-SUFFIX,00xvppy.cn,REJECT
@@ -597,6 +597,7 @@ DOMAIN-SUFFIX,ad-survey.com,REJECT
 DOMAIN-SUFFIX,ad-test6.sm.cn,REJECT
 DOMAIN-SUFFIX,ad-trace.lenovomm.com,REJECT
 DOMAIN-SUFFIX,ad-union-e.ssread.cn,REJECT
+DOMAIN-SUFFIX,ad.10010.com,REJECT
 DOMAIN-SUFFIX,ad.12306.cn,REJECT
 DOMAIN-SUFFIX,ad.163.com,REJECT
 DOMAIN-SUFFIX,ad.51wnl.com,REJECT
@@ -1346,6 +1347,7 @@ DOMAIN-SUFFIX,apk2.jingpengpeixun.xyz,REJECT
 DOMAIN-SUFFIX,apm-log-upload-os.hoyoverse.com,REJECT
 DOMAIN-SUFFIX,apmplus.volces.com,REJECT
 DOMAIN-SUFFIX,apollo.map.qq.com,REJECT
+DOMAIN-SUFFIX,app-advertise.zhihuishu.com,REJECT
 DOMAIN-SUFFIX,app-iq6elgdk.joxx.cn,REJECT
 DOMAIN-SUFFIX,app-log.dewu.com,REJECT
 DOMAIN-SUFFIX,app-preload.iqiyi.com,REJECT
