@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-23 18:10:54（北京时间）
+! Version: 2025-07-23 20:18:53（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8441
+! Total count: 8445
 # AdClose 专用广告规则
-# 生成时间: 2025-07-23 10:10:53（北京时间）
+# 生成时间: 2025-07-23 12:18:53（北京时间）
 # 格式：domain, <域名>
 domain, 000123456789.online
 domain, 000123456789.site
@@ -1104,6 +1104,8 @@ domain, alfpair.com
 domain, ali-ad.a.yximgs.com
 domain, ali-p2p-v2.pull.yximgs.com
 domain, ali-stats.jpush.cn
+domain, alicoccdncnc-xn.inter.71edge.com
+domain, alicoccdnct-xn.inter.71edge.com
 domain, alictibet.com
 domain, aliyun.cdn.chengzilte.top
 domain, aliyunapi.org
@@ -1578,6 +1580,7 @@ domain, bdapi.ads.heytapmobi.com
 domain, bdapi.ads.oppomobile.com
 domain, bdates.fun
 domain, bdbus-turbonet.baidu.com
+domain, bdcdncnc.inter.71edge.com
 domain, bdd.058www11w.top
 domain, bddwm.com
 domain, bdfg9a.icu
@@ -4590,6 +4593,7 @@ domain, m.do.downcdn.top
 domain, m.ffowo.com
 domain, m.gdt.qq.com
 domain, m.gz-bz.cn
+domain, m.iqiyipic.com
 domain, m.kubiqq.com
 domain, m.l.qq.com
 domain, m.nereus.live

@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-07-23 10:10:53（北京时间）
-# Quantumult X规则数量: 8437
-# ! Total count: 8437
+# Last Updated: 2025-07-23 12:18:53（北京时间）
+# Quantumult X规则数量: 8441
+# ! Total count: 8441
 HOST-SUFFIX,000123456789.online,REJECT
 HOST-SUFFIX,000123456789.site,REJECT
 HOST-SUFFIX,00xvppy.cn,REJECT
@@ -1100,6 +1100,8 @@ HOST-SUFFIX,alfpair.com,REJECT
 HOST-SUFFIX,ali-ad.a.yximgs.com,REJECT
 HOST-SUFFIX,ali-p2p-v2.pull.yximgs.com,REJECT
 HOST-SUFFIX,ali-stats.jpush.cn,REJECT
+HOST-SUFFIX,alicoccdncnc-xn.inter.71edge.com,REJECT
+HOST-SUFFIX,alicoccdnct-xn.inter.71edge.com,REJECT
 HOST-SUFFIX,alictibet.com,REJECT
 HOST-SUFFIX,aliyun.cdn.chengzilte.top,REJECT
 HOST-SUFFIX,aliyunapi.org,REJECT
@@ -1574,6 +1576,7 @@ HOST-SUFFIX,bdapi.ads.heytapmobi.com,REJECT
 HOST-SUFFIX,bdapi.ads.oppomobile.com,REJECT
 HOST-SUFFIX,bdates.fun,REJECT
 HOST-SUFFIX,bdbus-turbonet.baidu.com,REJECT
+HOST-SUFFIX,bdcdncnc.inter.71edge.com,REJECT
 HOST-SUFFIX,bdd.058www11w.top,REJECT
 HOST-SUFFIX,bddwm.com,REJECT
 HOST-SUFFIX,bdfg9a.icu,REJECT
@@ -4586,6 +4589,7 @@ HOST-SUFFIX,m.do.downcdn.top,REJECT
 HOST-SUFFIX,m.ffowo.com,REJECT
 HOST-SUFFIX,m.gdt.qq.com,REJECT
 HOST-SUFFIX,m.gz-bz.cn,REJECT
+HOST-SUFFIX,m.iqiyipic.com,REJECT
 HOST-SUFFIX,m.kubiqq.com,REJECT
 HOST-SUFFIX,m.l.qq.com,REJECT
 HOST-SUFFIX,m.nereus.live,REJECT
