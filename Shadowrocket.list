@@ -1,9 +1,9 @@
 # Title: Shadowrocket Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-07-25 00:49:50（北京时间）
-# Shadowrocket规则数量: 8441
-! Total count: 8441
+# Last Updated: 2025-07-25 03:22:14（北京时间）
+# Shadowrocket规则数量: 8430
+! Total count: 8430
 DOMAIN-SUFFIX,000123456789.online,REJECT
 DOMAIN-SUFFIX,000123456789.site,REJECT
 DOMAIN-SUFFIX,00xvppy.cn,REJECT
@@ -1379,7 +1379,6 @@ DOMAIN-SUFFIX,applog.uc.cn,REJECT
 DOMAIN-SUFFIX,applog.ucdns.uc.cn,REJECT
 DOMAIN-SUFFIX,applog.zijieapi.com,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
-DOMAIN-SUFFIX,applvn.com,REJECT
 DOMAIN-SUFFIX,appmetrica.yandex.ru,REJECT
 DOMAIN-SUFFIX,appmobile.cn,REJECT
 DOMAIN-SUFFIX,apppush.xiaohongshu.com,REJECT
@@ -1878,7 +1877,6 @@ DOMAIN-SUFFIX,cdn.004999.xyz,REJECT
 DOMAIN-SUFFIX,cdn.51img3.com,REJECT
 DOMAIN-SUFFIX,cdn.7nsc.cn,REJECT
 DOMAIN-SUFFIX,cdn.9823df.com,REJECT
-DOMAIN-SUFFIX,cdn.ad.xiaomi.com,REJECT
 DOMAIN-SUFFIX,cdn.aiclk.com,REJECT
 DOMAIN-SUFFIX,cdn.anyshare.icu,REJECT
 DOMAIN-SUFFIX,cdn.chinaliftoff-creatives.io,REJECT
@@ -3588,8 +3586,6 @@ DOMAIN-SUFFIX,ildopxge.com,REJECT
 DOMAIN-SUFFIX,ilyf4amifh.com,REJECT
 DOMAIN-SUFFIX,im58log.58.com,REJECT
 DOMAIN-SUFFIX,im64.jpush.cn,REJECT
-DOMAIN-SUFFIX,imag8.pubmatic.com,REJECT
-DOMAIN-SUFFIX,imag86.pubmatic.com,REJECT
 DOMAIN-SUFFIX,image-ad.sm.cn,REJECT
 DOMAIN-SUFFIX,image.cnamedomain.com,REJECT
 DOMAIN-SUFFIX,image.csslcloud.net,REJECT
@@ -3599,7 +3595,6 @@ DOMAIN-SUFFIX,image.uczzd.cn,REJECT
 DOMAIN-SUFFIX,image.yafytg.cn,REJECT
 DOMAIN-SUFFIX,image2.printstation8.com,REJECT
 DOMAIN-SUFFIX,imagecloub.com,REJECT
-DOMAIN-SUFFIX,imageplus.baidu.com,REJECT
 DOMAIN-SUFFIX,images.kxuexue.com,REJECT
 DOMAIN-SUFFIX,images.outbrainimg.com,REJECT
 DOMAIN-SUFFIX,images.pinduoduo.com,REJECT
@@ -3615,7 +3610,6 @@ DOMAIN-SUFFIX,img.3333333333333.xyz,REJECT
 DOMAIN-SUFFIX,img.44444444444.xyz,REJECT
 DOMAIN-SUFFIX,img.55555555555.online,REJECT
 DOMAIN-SUFFIX,img.91p51.com,REJECT
-DOMAIN-SUFFIX,img.adnyg.com,REJECT
 DOMAIN-SUFFIX,img.adnyg.com.w.kunlungr.com,REJECT
 DOMAIN-SUFFIX,img.ayghbngnazh.xyz,REJECT
 DOMAIN-SUFFIX,img.ckcgsy.cn,REJECT
@@ -4432,7 +4426,6 @@ DOMAIN-SUFFIX,log.aispeech.com,REJECT
 DOMAIN-SUFFIX,log.amemv.com,REJECT
 DOMAIN-SUFFIX,log.appstore3.huan.tv,REJECT
 DOMAIN-SUFFIX,log.avlyun.com,REJECT
-DOMAIN-SUFFIX,log.avlyun.sec.intl.miui.com,REJECT
 DOMAIN-SUFFIX,log.byteoversea.com,REJECT
 DOMAIN-SUFFIX,log.daqi.com,REJECT
 DOMAIN-SUFFIX,log.fc.yahoo.com,REJECT
@@ -4590,7 +4583,6 @@ DOMAIN-SUFFIX,m.ffowo.com,REJECT
 DOMAIN-SUFFIX,m.gdt.qq.com,REJECT
 DOMAIN-SUFFIX,m.gz-bz.cn,REJECT
 DOMAIN-SUFFIX,m.iqiyipic.com,REJECT
-DOMAIN-SUFFIX,m.kubiqq.com,REJECT
 DOMAIN-SUFFIX,m.l.qq.com,REJECT
 DOMAIN-SUFFIX,m.nereus.live,REJECT
 DOMAIN-SUFFIX,m.nnhtf.cn,REJECT
@@ -4754,7 +4746,6 @@ DOMAIN-SUFFIX,mig.str.mdt.qq.com,REJECT
 DOMAIN-SUFFIX,mikongdd.top,REJECT
 DOMAIN-SUFFIX,milan.ky,REJECT
 DOMAIN-SUFFIX,mindopu.com,REJECT
-DOMAIN-SUFFIX,mine.baidu.com,REJECT
 DOMAIN-SUFFIX,mine.z74d.com,REJECT
 DOMAIN-SUFFIX,mingtians.top,REJECT
 DOMAIN-SUFFIX,mini-prog-drm.vodplayvideo.net,REJECT
@@ -7761,7 +7752,6 @@ DOMAIN-SUFFIX,www.zhangjiyi.top,REJECT
 DOMAIN-SUFFIX,www.zhaohainan.cn,REJECT
 DOMAIN-SUFFIX,www.zubo1139.com,REJECT
 DOMAIN-SUFFIX,www.zzztl.com,REJECT
-DOMAIN-SUFFIX,www42.zskwai.com,REJECT
 DOMAIN-SUFFIX,wwxufo.com,REJECT
 DOMAIN-SUFFIX,wx.uc.downcdn.top,REJECT
 DOMAIN-SUFFIX,wxa.wxs.qq.com,REJECT
@@ -7807,7 +7797,6 @@ DOMAIN-SUFFIX,xcisleoa.cn,REJECT
 DOMAIN-SUFFIX,xckj0623.com,REJECT
 DOMAIN-SUFFIX,xckyqq.com,REJECT
 DOMAIN-SUFFIX,xcmz999.com,REJECT
-DOMAIN-SUFFIX,xcultur.com,REJECT
 DOMAIN-SUFFIX,xcvwrj.xyz,REJECT
 DOMAIN-SUFFIX,xcwl.tech,REJECT
 DOMAIN-SUFFIX,xcwzq.xyz,REJECT

@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-25 08:49:51（北京时间）
+! Version: 2025-07-25 11:22:15（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8446
+! Total count: 8435
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-07-25 00:49:50（北京时间）
+# Last Updated: 2025-07-25 03:22:14（北京时间）
 0.0.0.0 000123456789.online
 0.0.0.0 000123456789.site
 0.0.0.0 00xvppy.cn
@@ -1384,7 +1384,6 @@
 0.0.0.0 applog.ucdns.uc.cn
 0.0.0.0 applog.zijieapi.com
 0.0.0.0 applovin.com
-0.0.0.0 applvn.com
 0.0.0.0 appmetrica.yandex.ru
 0.0.0.0 appmobile.cn
 0.0.0.0 apppush.xiaohongshu.com
@@ -1883,7 +1882,6 @@
 0.0.0.0 cdn.51img3.com
 0.0.0.0 cdn.7nsc.cn
 0.0.0.0 cdn.9823df.com
-0.0.0.0 cdn.ad.xiaomi.com
 0.0.0.0 cdn.aiclk.com
 0.0.0.0 cdn.anyshare.icu
 0.0.0.0 cdn.chinaliftoff-creatives.io
@@ -3593,8 +3591,6 @@
 0.0.0.0 ilyf4amifh.com
 0.0.0.0 im58log.58.com
 0.0.0.0 im64.jpush.cn
-0.0.0.0 imag8.pubmatic.com
-0.0.0.0 imag86.pubmatic.com
 0.0.0.0 image-ad.sm.cn
 0.0.0.0 image.cnamedomain.com
 0.0.0.0 image.csslcloud.net
@@ -3604,7 +3600,6 @@
 0.0.0.0 image.yafytg.cn
 0.0.0.0 image2.printstation8.com
 0.0.0.0 imagecloub.com
-0.0.0.0 imageplus.baidu.com
 0.0.0.0 images.kxuexue.com
 0.0.0.0 images.outbrainimg.com
 0.0.0.0 images.pinduoduo.com
@@ -3620,7 +3615,6 @@
 0.0.0.0 img.44444444444.xyz
 0.0.0.0 img.55555555555.online
 0.0.0.0 img.91p51.com
-0.0.0.0 img.adnyg.com
 0.0.0.0 img.adnyg.com.w.kunlungr.com
 0.0.0.0 img.ayghbngnazh.xyz
 0.0.0.0 img.ckcgsy.cn
@@ -4437,7 +4431,6 @@
 0.0.0.0 log.amemv.com
 0.0.0.0 log.appstore3.huan.tv
 0.0.0.0 log.avlyun.com
-0.0.0.0 log.avlyun.sec.intl.miui.com
 0.0.0.0 log.byteoversea.com
 0.0.0.0 log.daqi.com
 0.0.0.0 log.fc.yahoo.com
@@ -4595,7 +4588,6 @@
 0.0.0.0 m.gdt.qq.com
 0.0.0.0 m.gz-bz.cn
 0.0.0.0 m.iqiyipic.com
-0.0.0.0 m.kubiqq.com
 0.0.0.0 m.l.qq.com
 0.0.0.0 m.nereus.live
 0.0.0.0 m.nnhtf.cn
@@ -4759,7 +4751,6 @@
 0.0.0.0 mikongdd.top
 0.0.0.0 milan.ky
 0.0.0.0 mindopu.com
-0.0.0.0 mine.baidu.com
 0.0.0.0 mine.z74d.com
 0.0.0.0 mingtians.top
 0.0.0.0 mini-prog-drm.vodplayvideo.net
@@ -7766,7 +7757,6 @@
 0.0.0.0 www.zhaohainan.cn
 0.0.0.0 www.zubo1139.com
 0.0.0.0 www.zzztl.com
-0.0.0.0 www42.zskwai.com
 0.0.0.0 wwxufo.com
 0.0.0.0 wx.uc.downcdn.top
 0.0.0.0 wxa.wxs.qq.com
@@ -7812,7 +7802,6 @@
 0.0.0.0 xckj0623.com
 0.0.0.0 xckyqq.com
 0.0.0.0 xcmz999.com
-0.0.0.0 xcultur.com
 0.0.0.0 xcvwrj.xyz
 0.0.0.0 xcwl.tech
 0.0.0.0 xcwzq.xyz

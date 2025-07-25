@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-25 08:49:51（北京时间）
+! Version: 2025-07-25 11:22:15（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 19390
+! Total count: 19382
 
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
@@ -6293,24 +6293,24 @@
 123pan.com##.adv-container-pc
 123pan.com##.banner_all_wrap
 123pan.com##.slick-slider, .slick-initialized
-13.107.246.73                 vscode.dev
+13.107.246.73                 vscode.dev  # Timeout
 13.107.42.16                  pipelines.actions.githubusercontent.com
 13.107.42.16 pipelines.actions.githubusercontent.com
 13.226.198.225 thetvdb.com
 13.226.254.58 image.tmdb.org
 13.35.0.128 api.themoviedb.org
-140.82.112.17                 github.community
+140.82.112.18                 github.community
 140.82.112.18 github.community
-140.82.112.21                 central.github.com
-140.82.112.25                 live.github.com
+140.82.112.21                 education.github.com
+140.82.112.25                 alive.github.com
 140.82.112.25 live.github.com
-140.82.113.21                 education.github.com
+140.82.112.26                 live.github.com
+140.82.113.21                 api.individual.githubcopilot.com
 140.82.113.21 collector.github.com
-140.82.113.22                 api.individual.githubcopilot.com
 140.82.113.22 central.github.com
 140.82.113.26 alive.github.com
-140.82.114.21                 collector.github.com
-140.82.114.25                 alive.github.com
+140.82.114.21                 central.github.com
+140.82.114.22                 collector.github.com
 140.82.116.3 gist.github.com
 142.250.107.188 alt6-mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
@@ -6332,7 +6332,7 @@
 151.101.40.133 raw.github.com
 151.101.40.133 raw.githubusercontent.com
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.182.68.9                   github-com.s3.amazonaws.com
+16.15.200.191                 github-cloud.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6432,7 +6432,9 @@
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
+3.5.20.180                    github-production-release-asset-2e65be.s3.amazonaws.com
 3.5.28.146 github-com.s3.amazonaws.com
+3.5.3.90                      github-com.s3.amazonaws.com
 31.216.145.5 mega.nz
 35.181.164.242 community.oneplus.com
 35.181.220.27 community.oneplus.com
@@ -6451,15 +6453,13 @@
 47.246.37.220 hugeota.d.miui.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
-52.217.120.129                github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.217.198.33                 github-production-release-asset-2e65be.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
 52.84.166.68 api.themoviedb.org
 52.84.166.71 api.themoviedb.org
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 54.192.73.28 image.tmdb.org
-54.231.128.9                  github-cloud.s3.amazonaws.com
-54.231.160.225                github-production-user-asset-6210df.s3.amazonaws.com
+54.231.129.233                github-production-repository-file-5c1aeb.s3.amazonaws.com
+54.231.204.65                 github-production-user-asset-6210df.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 64.233.188.188 mtalk.google.com
@@ -9763,7 +9763,10 @@ so.toutiao.com##.relative.pointer-events-none
 so.toutiao.com##DIV[id^='ad_']
 so.toutiao.com##section.commonbox.hasfooter
 sogou.com##.ad_result
-sogou.com##DIV.banner-container
+sogou.com##.banner-container
+sogou.com##.ips-overwrite-width
+sogou.com##.pc-brand-wrapper
+sogou.com##.qb-download-banner-non-share
 sohu.com###bottomBanner[data-spm='b-mb'][data-spm-stop='init']
 sohu.com###middleBanner[data-spm='a-mb'][data-spm-stop='init']
 sohu.com###recommendSearch
@@ -11683,7 +11686,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||applog.ucdns.uc.cn^
 ||applog.zijieapi.com^
 ||applovin.com^
-||applvn.com^
 ||appmetrica.yandex.ru^
 ||appmobile.cn^
 ||apppush.xiaohongshu.com^
@@ -12226,7 +12228,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||cdn.51img3.com^
 ||cdn.7nsc.cn^
 ||cdn.9823df.com^
-||cdn.ad.xiaomi.com^
 ||cdn.aiclk.com^
 ||cdn.anyshare.icu^
 ||cdn.chinaliftoff-creatives.io^
@@ -14086,8 +14087,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||im-x.jd.com^
 ||im58log.58.com^
 ||im64.jpush.cn^
-||imag8.pubmatic.com^
-||imag86.pubmatic.com^
 ||image-ad.sm.cn^
 ||image.cnamedomain.com^
 ||image.csslcloud.net^
@@ -14097,7 +14096,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||image.yafytg.cn^
 ||image2.printstation8.com^
 ||imagecloub.com^
-||imageplus.baidu.com^
 ||images.kxuexue.com^
 ||images.outbrainimg.com^
 ||images.pinduoduo.com^
@@ -14121,7 +14119,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||img.55555555555.online^$important
 ||img.91p51.com^
 ||img.adnyg.com.w.kunlungr.com^
-||img.adnyg.com^
 ||img.ayghbngnazh.xyz^
 ||img.bzzyx.cn/dipiao.js
 ||img.ckcgsy.cn^
@@ -15001,7 +14998,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||log.amemv.com^
 ||log.appstore3.huan.tv^
 ||log.avlyun.com^
-||log.avlyun.sec.intl.miui.com^
 ||log.byteoversea.com^
 ||log.daqi.com^
 ||log.fc.yahoo.com^
@@ -15169,7 +15165,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||m.iqiyipic.com^
 ||m.jd.watbc.top^
 ||m.jd.watbe.top^
-||m.kubiqq.com^
 ||m.l.qq.com^
 ||m.nereus.live^
 ||m.nnhtf.cn^
@@ -15352,7 +15347,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||milimili.tv/js/loadjs/jquery10.8.js
 ||mime.baidu.com^
 ||mindopu.com^
-||mine.baidu.com^
 ||mine.z74d.com^
 ||mingtians.top^
 ||mini-prog-drm.vodplayvideo.net^
@@ -18666,7 +18660,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||www.zhaohainan.cn^
 ||www.zubo1139.com^
 ||www.zzztl.com^
-||www42.zskwai.com^
 ||wwxufo.com^
 ||wx.uc.downcdn.top^
 ||wxa.wxs.qq.com^
@@ -18717,7 +18710,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||xckj0623.com^
 ||xckyqq.com^
 ||xcmz999.com^
-||xcultur.com^
 ||xcvwrj.xyz^
 ||xcwl.tech^
 ||xcwzq.xyz^

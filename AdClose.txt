@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-25 08:49:51（北京时间）
+! Version: 2025-07-25 11:22:15（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8445
+! Total count: 8434
 # AdClose 专用广告规则
-# 生成时间: 2025-07-25 00:49:50（北京时间）
+# 生成时间: 2025-07-25 03:22:14（北京时间）
 # 格式：domain, <域名>
 domain, 000123456789.online
 domain, 000123456789.site
@@ -1383,7 +1383,6 @@ domain, applog.uc.cn
 domain, applog.ucdns.uc.cn
 domain, applog.zijieapi.com
 domain, applovin.com
-domain, applvn.com
 domain, appmetrica.yandex.ru
 domain, appmobile.cn
 domain, apppush.xiaohongshu.com
@@ -1882,7 +1881,6 @@ domain, cdn.004999.xyz
 domain, cdn.51img3.com
 domain, cdn.7nsc.cn
 domain, cdn.9823df.com
-domain, cdn.ad.xiaomi.com
 domain, cdn.aiclk.com
 domain, cdn.anyshare.icu
 domain, cdn.chinaliftoff-creatives.io
@@ -3592,8 +3590,6 @@ domain, ildopxge.com
 domain, ilyf4amifh.com
 domain, im58log.58.com
 domain, im64.jpush.cn
-domain, imag8.pubmatic.com
-domain, imag86.pubmatic.com
 domain, image-ad.sm.cn
 domain, image.cnamedomain.com
 domain, image.csslcloud.net
@@ -3603,7 +3599,6 @@ domain, image.uczzd.cn
 domain, image.yafytg.cn
 domain, image2.printstation8.com
 domain, imagecloub.com
-domain, imageplus.baidu.com
 domain, images.kxuexue.com
 domain, images.outbrainimg.com
 domain, images.pinduoduo.com
@@ -3619,7 +3614,6 @@ domain, img.3333333333333.xyz
 domain, img.44444444444.xyz
 domain, img.55555555555.online
 domain, img.91p51.com
-domain, img.adnyg.com
 domain, img.adnyg.com.w.kunlungr.com
 domain, img.ayghbngnazh.xyz
 domain, img.ckcgsy.cn
@@ -4436,7 +4430,6 @@ domain, log.aispeech.com
 domain, log.amemv.com
 domain, log.appstore3.huan.tv
 domain, log.avlyun.com
-domain, log.avlyun.sec.intl.miui.com
 domain, log.byteoversea.com
 domain, log.daqi.com
 domain, log.fc.yahoo.com
@@ -4594,7 +4587,6 @@ domain, m.ffowo.com
 domain, m.gdt.qq.com
 domain, m.gz-bz.cn
 domain, m.iqiyipic.com
-domain, m.kubiqq.com
 domain, m.l.qq.com
 domain, m.nereus.live
 domain, m.nnhtf.cn
@@ -4758,7 +4750,6 @@ domain, mig.str.mdt.qq.com
 domain, mikongdd.top
 domain, milan.ky
 domain, mindopu.com
-domain, mine.baidu.com
 domain, mine.z74d.com
 domain, mingtians.top
 domain, mini-prog-drm.vodplayvideo.net
@@ -7765,7 +7756,6 @@ domain, www.zhangjiyi.top
 domain, www.zhaohainan.cn
 domain, www.zubo1139.com
 domain, www.zzztl.com
-domain, www42.zskwai.com
 domain, wwxufo.com
 domain, wx.uc.downcdn.top
 domain, wxa.wxs.qq.com
@@ -7811,7 +7801,6 @@ domain, xcisleoa.cn
 domain, xckj0623.com
 domain, xckyqq.com
 domain, xcmz999.com
-domain, xcultur.com
 domain, xcvwrj.xyz
 domain, xcwl.tech
 domain, xcwzq.xyz

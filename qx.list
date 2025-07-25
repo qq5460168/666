@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-07-25 00:49:50（北京时间）
-# Quantumult X规则数量: 8441
-# ! Total count: 8441
+# Last Updated: 2025-07-25 03:22:14（北京时间）
+# Quantumult X规则数量: 8430
+# ! Total count: 8430
 HOST-SUFFIX,000123456789.online,REJECT
 HOST-SUFFIX,000123456789.site,REJECT
 HOST-SUFFIX,00xvppy.cn,REJECT
@@ -1379,7 +1379,6 @@ HOST-SUFFIX,applog.uc.cn,REJECT
 HOST-SUFFIX,applog.ucdns.uc.cn,REJECT
 HOST-SUFFIX,applog.zijieapi.com,REJECT
 HOST-SUFFIX,applovin.com,REJECT
-HOST-SUFFIX,applvn.com,REJECT
 HOST-SUFFIX,appmetrica.yandex.ru,REJECT
 HOST-SUFFIX,appmobile.cn,REJECT
 HOST-SUFFIX,apppush.xiaohongshu.com,REJECT
@@ -1878,7 +1877,6 @@ HOST-SUFFIX,cdn.004999.xyz,REJECT
 HOST-SUFFIX,cdn.51img3.com,REJECT
 HOST-SUFFIX,cdn.7nsc.cn,REJECT
 HOST-SUFFIX,cdn.9823df.com,REJECT
-HOST-SUFFIX,cdn.ad.xiaomi.com,REJECT
 HOST-SUFFIX,cdn.aiclk.com,REJECT
 HOST-SUFFIX,cdn.anyshare.icu,REJECT
 HOST-SUFFIX,cdn.chinaliftoff-creatives.io,REJECT
@@ -3588,8 +3586,6 @@ HOST-SUFFIX,ildopxge.com,REJECT
 HOST-SUFFIX,ilyf4amifh.com,REJECT
 HOST-SUFFIX,im58log.58.com,REJECT
 HOST-SUFFIX,im64.jpush.cn,REJECT
-HOST-SUFFIX,imag8.pubmatic.com,REJECT
-HOST-SUFFIX,imag86.pubmatic.com,REJECT
 HOST-SUFFIX,image-ad.sm.cn,REJECT
 HOST-SUFFIX,image.cnamedomain.com,REJECT
 HOST-SUFFIX,image.csslcloud.net,REJECT
@@ -3599,7 +3595,6 @@ HOST-SUFFIX,image.uczzd.cn,REJECT
 HOST-SUFFIX,image.yafytg.cn,REJECT
 HOST-SUFFIX,image2.printstation8.com,REJECT
 HOST-SUFFIX,imagecloub.com,REJECT
-HOST-SUFFIX,imageplus.baidu.com,REJECT
 HOST-SUFFIX,images.kxuexue.com,REJECT
 HOST-SUFFIX,images.outbrainimg.com,REJECT
 HOST-SUFFIX,images.pinduoduo.com,REJECT
@@ -3615,7 +3610,6 @@ HOST-SUFFIX,img.3333333333333.xyz,REJECT
 HOST-SUFFIX,img.44444444444.xyz,REJECT
 HOST-SUFFIX,img.55555555555.online,REJECT
 HOST-SUFFIX,img.91p51.com,REJECT
-HOST-SUFFIX,img.adnyg.com,REJECT
 HOST-SUFFIX,img.adnyg.com.w.kunlungr.com,REJECT
 HOST-SUFFIX,img.ayghbngnazh.xyz,REJECT
 HOST-SUFFIX,img.ckcgsy.cn,REJECT
@@ -4432,7 +4426,6 @@ HOST-SUFFIX,log.aispeech.com,REJECT
 HOST-SUFFIX,log.amemv.com,REJECT
 HOST-SUFFIX,log.appstore3.huan.tv,REJECT
 HOST-SUFFIX,log.avlyun.com,REJECT
-HOST-SUFFIX,log.avlyun.sec.intl.miui.com,REJECT
 HOST-SUFFIX,log.byteoversea.com,REJECT
 HOST-SUFFIX,log.daqi.com,REJECT
 HOST-SUFFIX,log.fc.yahoo.com,REJECT
@@ -4590,7 +4583,6 @@ HOST-SUFFIX,m.ffowo.com,REJECT
 HOST-SUFFIX,m.gdt.qq.com,REJECT
 HOST-SUFFIX,m.gz-bz.cn,REJECT
 HOST-SUFFIX,m.iqiyipic.com,REJECT
-HOST-SUFFIX,m.kubiqq.com,REJECT
 HOST-SUFFIX,m.l.qq.com,REJECT
 HOST-SUFFIX,m.nereus.live,REJECT
 HOST-SUFFIX,m.nnhtf.cn,REJECT
@@ -4754,7 +4746,6 @@ HOST-SUFFIX,mig.str.mdt.qq.com,REJECT
 HOST-SUFFIX,mikongdd.top,REJECT
 HOST-SUFFIX,milan.ky,REJECT
 HOST-SUFFIX,mindopu.com,REJECT
-HOST-SUFFIX,mine.baidu.com,REJECT
 HOST-SUFFIX,mine.z74d.com,REJECT
 HOST-SUFFIX,mingtians.top,REJECT
 HOST-SUFFIX,mini-prog-drm.vodplayvideo.net,REJECT
@@ -7761,7 +7752,6 @@ HOST-SUFFIX,www.zhangjiyi.top,REJECT
 HOST-SUFFIX,www.zhaohainan.cn,REJECT
 HOST-SUFFIX,www.zubo1139.com,REJECT
 HOST-SUFFIX,www.zzztl.com,REJECT
-HOST-SUFFIX,www42.zskwai.com,REJECT
 HOST-SUFFIX,wwxufo.com,REJECT
 HOST-SUFFIX,wx.uc.downcdn.top,REJECT
 HOST-SUFFIX,wxa.wxs.qq.com,REJECT
@@ -7807,7 +7797,6 @@ HOST-SUFFIX,xcisleoa.cn,REJECT
 HOST-SUFFIX,xckj0623.com,REJECT
 HOST-SUFFIX,xckyqq.com,REJECT
 HOST-SUFFIX,xcmz999.com,REJECT
-HOST-SUFFIX,xcultur.com,REJECT
 HOST-SUFFIX,xcvwrj.xyz,REJECT
 HOST-SUFFIX,xcwl.tech,REJECT
 HOST-SUFFIX,xcwzq.xyz,REJECT
