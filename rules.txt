@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-26 00:12:01（北京时间）
+! Version: 2025-07-26 02:13:54（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27768
+! Total count: 27754
 
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
@@ -828,7 +828,6 @@
 0.0.0.0 ads.mobgold.com
 0.0.0.0 ads.mojicdn.com
 0.0.0.0 ads.msn.com
-0.0.0.0 ads.music.126.net
 0.0.0.0 ads.mykudou.com
 0.0.0.0 ads.nicovideo.jp
 0.0.0.0 ads.ninemsn.com.au
@@ -1137,12 +1136,10 @@
 0.0.0.0 ali-ad.a.yximgs.com
 0.0.0.0 ali-stats.jpush.cn
 0.0.0.0 ali.irs01.com
-0.0.0.0 ali2.a.yximgs.com
 0.0.0.0 alibaba.cnzz.com
 0.0.0.0 alicmmov.a.etoote.com
 0.0.0.0 aligtr026.mmstat.com
 0.0.0.0 aligtr072.mmstat.com
-0.0.0.0 aliimg.a.yximgs.com
 0.0.0.0 alimov2.a.yximgs.com
 0.0.0.0 alissl.ucdl.pp.uc.cn
 0.0.0.0 all.cnzz.com
@@ -1357,7 +1354,6 @@
 0.0.0.0 api.exv.mob.com
 0.0.0.0 api.fc.mob.com
 0.0.0.0 api.fd.mob.com
-0.0.0.0 api.g.micloud.xiaomi.net
 0.0.0.0 api.game.letvstore.com
 0.0.0.0 api.getui.cn
 0.0.0.0 api.getui.com
@@ -1698,7 +1694,6 @@
 0.0.0.0 bcp.crwdcntrl.net
 0.0.0.0 bd-cdn.halomobi.com
 0.0.0.0 bd-livemate.pull.yximgs.com
-0.0.0.0 bd.a.yximgs.com
 0.0.0.0 bd.a.yximgs.com  #↑A站
 0.0.0.0 bd.pull.yximgs.com
 0.0.0.0 bdapi-ads.realmemobile.com
@@ -3067,7 +3062,6 @@
 0.0.0.0 huskieaccess.bugly.qq.com
 0.0.0.0 huyafile.msstatic.com
 0.0.0.0 huyitool.jidiandian.cn
-0.0.0.0 hw-ot-ad.a.yximgs.com
 0.0.0.0 hw.zuimeitianqi.com
 0.0.0.0 hwapi.jpush.cn
 0.0.0.0 hwpub-s01-drcn.cloud.dbankcloud.cn
@@ -3412,12 +3406,10 @@
 0.0.0.0 js.mtburn.com
 0.0.0.0 js.users.51.la
 0.0.0.0 js.w.inmobi.com
-0.0.0.0 js2.a.yximgs.com
 0.0.0.0 jsapi.html5.qq.com
 0.0.0.0 jsapi.qq.com
 0.0.0.0 jscmmov.a.etoote.com
 0.0.0.0 jserr.cnzz.com
-0.0.0.0 jsmov2.a.yximgs.com
 0.0.0.0 jsqmt.qq.c
 0.0.0.0 jsqmt.qq.com
 0.0.0.0 jssdk.cnzz.com
@@ -3533,7 +3525,6 @@
 0.0.0.0 life.html5.qq.com
 0.0.0.0 line1-log.biligame.net
 0.0.0.0 link.1905.com
-0.0.0.0 lite.a.market.xiaomi.com
 0.0.0.0 live-ads.huya.com
 0.0.0.0 live-s3m.mediav.com
 0.0.0.0 liveats-vod.video.ptqy.gitv.tv
@@ -4578,8 +4569,6 @@
 0.0.0.0 qiye11.ejunshi.net
 0.0.0.0 qm-ab.wtzw.com
 0.0.0.0 qm-ab.wtzw.com  #开屏，这两条都能干掉空白的摇一摇界面。
-0.0.0.0 qn.a.yximgs.com
-0.0.0.0 qnmov.a.yximgs.com
 0.0.0.0 qos.report.qq.com
 0.0.0.0 qpb1.sohu.com
 0.0.0.0 qpb1.sohu.com  #手机搜狐网网页主页信息流的广告
@@ -5453,7 +5442,6 @@
 0.0.0.0 t.track.ad.xiaomi.com
 0.0.0.0 t03-api.xlmc.xunlei.com
 0.0.0.0 t5.taboola.com
-0.0.0.0 t6.a.market.xiaomi.com
 0.0.0.0 t7z.cupid.iqiyi.com
 0.0.0.0 t7z.cupid.iqiyi.com  #客户端片头广告，手机网页会加载不了片头广告而无法播放视频，电脑网页配合插件就没影响。
 0.0.0.0 t7z.cupid.ptqy.gitv.tv
@@ -5734,7 +5722,6 @@
 0.0.0.0 tx-kmpaudio.pull.yximgs.com
 0.0.0.0 tx.a.kspkg.com
 0.0.0.0 tx.a.kspkg.com  #250326测试
-0.0.0.0 txmov2.a.yximgs.com
 0.0.0.0 txt.go.sohu.com
 0.0.0.0 tyaqy.m.cn.miaozhen.com
 0.0.0.0 tyrd1.tingyun.com
@@ -6483,18 +6470,18 @@
 13.226.198.225 thetvdb.com
 13.226.254.58 image.tmdb.org
 13.35.0.128 api.themoviedb.org
-140.82.112.18                 github.community
 140.82.112.18 github.community
+140.82.112.22                 api.individual.githubcopilot.com
 140.82.112.25 live.github.com
-140.82.112.26                 live.github.com
+140.82.113.17                 github.community
+140.82.113.21                 central.github.com
 140.82.113.21 collector.github.com
-140.82.113.22                 api.individual.githubcopilot.com
+140.82.113.22                 collector.github.com
 140.82.113.22 central.github.com
+140.82.113.26                 alive.github.com
 140.82.113.26 alive.github.com
-140.82.114.21                 central.github.com
-140.82.114.21                 collector.github.com
 140.82.114.22                 education.github.com
-140.82.114.25                 alive.github.com
+140.82.114.26                 live.github.com
 140.82.116.3 gist.github.com
 142.250.107.188 alt6-mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
@@ -6516,6 +6503,7 @@
 151.101.40.133 raw.github.com
 151.101.40.133 raw.githubusercontent.com
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
+16.15.193.253                 github-production-release-asset-2e65be.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6567,10 +6555,10 @@
 185.199.110.153 githubstatus.com
 185.199.110.153 lsposed.github.io
 185.199.110.153 topjohnwu.github.io
-185.199.110.154               github.githubassets.com
 185.199.110.154 github.githubassets.com
 185.199.111.153               github.io
 185.199.111.153               githubstatus.com
+185.199.111.154               github.githubassets.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -6615,6 +6603,7 @@
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
+3.5.11.212                    github-cloud.s3.amazonaws.com
 3.5.28.146 github-com.s3.amazonaws.com
 31.216.145.5 mega.nz
 35.181.164.242 community.oneplus.com
@@ -6632,18 +6621,16 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.216.41                 github-com.s3.amazonaws.com
+52.216.214.153                github-com.s3.amazonaws.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
-52.217.169.241                github-cloud.s3.amazonaws.com
-52.217.205.73                 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.233.241                github-production-user-asset-6210df.s3.amazonaws.com
+52.217.234.153                github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
 52.84.166.68 api.themoviedb.org
 52.84.166.71 api.themoviedb.org
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 54.192.73.28 image.tmdb.org
-54.231.165.89                 github-production-repository-file-5c1aeb.s3.amazonaws.com
-54.231.197.81                 github-production-user-asset-6210df.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 64.233.188.188 mtalk.google.com
@@ -21267,7 +21254,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||news.mpush.qq.com^
 ||news.push.126.net^
 ||news.s9377.com^
-||news.ssp.qq.com^
 ||news.xueyanshan.com^
 ||newsapi.sina.cn^
 ||newsc.html5.qq.com^
