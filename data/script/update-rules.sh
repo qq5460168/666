@@ -28,7 +28,7 @@ rules=(
   "https://raw.hellogithub.com/hosts" #GitHub加速
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/adhosts.txt" #测试hosts
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt" #白名单
-  ""
+  "https://raw.githubusercontent.com/qq5460168/Who520/refs/heads/main/Other%20rules/Replenish.txt"#补充
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Blacklist.txt" #mphin
   "https://gitee.com/zjqz/ad-guard-home-dns/raw/master/black-list" #周木木
   "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/black.txt" #liwenjie119
