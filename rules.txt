@@ -2,7 +2,7 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-26 18:09:20（北京时间）
+! Version: 2025-07-26 20:16:13（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 27754
 
@@ -6472,16 +6472,16 @@
 13.35.0.128 api.themoviedb.org
 140.82.112.18                 github.community
 140.82.112.18 github.community
-140.82.112.21                 api.individual.githubcopilot.com
 140.82.112.21                 central.github.com
-140.82.112.22                 collector.github.com
 140.82.112.25 live.github.com
 140.82.112.26                 alive.github.com
+140.82.112.26                 live.github.com
 140.82.113.21 collector.github.com
+140.82.113.22                 education.github.com
 140.82.113.22 central.github.com
 140.82.113.26 alive.github.com
-140.82.114.21                 education.github.com
-140.82.114.26                 live.github.com
+140.82.114.22                 api.individual.githubcopilot.com
+140.82.114.22                 collector.github.com
 140.82.116.3 gist.github.com
 142.250.107.188 alt6-mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
@@ -6503,9 +6503,6 @@
 151.101.40.133 raw.github.com
 151.101.40.133 raw.githubusercontent.com
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.15.201.141                 github-com.s3.amazonaws.com
-16.15.216.0                   github-production-repository-file-5c1aeb.s3.amazonaws.com
-16.182.37.73                  github-production-user-asset-6210df.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6557,10 +6554,10 @@
 185.199.110.153 githubstatus.com
 185.199.110.153 lsposed.github.io
 185.199.110.153 topjohnwu.github.io
+185.199.110.154               github.githubassets.com
 185.199.110.154 github.githubassets.com
 185.199.111.153               github.io
 185.199.111.153               githubstatus.com
-185.199.111.154               github.githubassets.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -6605,9 +6602,10 @@
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
-3.5.27.201                    github-cloud.s3.amazonaws.com
+3.5.0.34                      github-production-repository-file-5c1aeb.s3.amazonaws.com
+3.5.11.147                    github-production-release-asset-2e65be.s3.amazonaws.com
+3.5.22.0                      github-production-user-asset-6210df.s3.amazonaws.com
 3.5.28.146 github-com.s3.amazonaws.com
-3.5.30.80                     github-production-release-asset-2e65be.s3.amazonaws.com
 31.216.145.5 mega.nz
 35.181.164.242 community.oneplus.com
 35.181.220.27 community.oneplus.com
@@ -6631,6 +6629,8 @@
 52.84.166.71 api.themoviedb.org
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 54.192.73.28 image.tmdb.org
+54.231.135.105                github-cloud.s3.amazonaws.com
+54.231.204.145                github-com.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 64.233.188.188 mtalk.google.com
