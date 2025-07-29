@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-07-29 21:23:14（北京时间）
+! Version: 2025-07-29 21:30:43（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16635
+! Total count: 16661
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-07-29 13:23:14（北京时间）
+# Last Updated: 2025-07-29 13:30:43（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -161,6 +161,7 @@
 0.0.0.0 12365chia.com
 0.0.0.0 123hala.com
 0.0.0.0 123juzi.net
+0.0.0.0 124124fgh56u34.e2y4h7.com
 0.0.0.0 12551-1311572332.cos.ap-shanghai.myqcloud.com
 0.0.0.0 1267a.xyz
 0.0.0.0 126ccb.xyz
@@ -1111,6 +1112,7 @@
 0.0.0.0 abtest-ch.snssdk.com
 0.0.0.0 abtest.alibaba.com
 0.0.0.0 abtest.wtzw.com
+0.0.0.0 abtest.ytkjsh.com
 0.0.0.0 abtest3-misc-hl.zijieapi.com
 0.0.0.0 abtest3-misc-lq.zijieapi.com
 0.0.0.0 abtt.pufenchuanmu.com
@@ -1428,6 +1430,7 @@
 0.0.0.0 ad.wretch.cc
 0.0.0.0 ad.wtzw.com
 0.0.0.0 ad.wx.com
+0.0.0.0 ad.xelements.cn
 0.0.0.0 ad.xiaohongshu.com
 0.0.0.0 ad.xiaomi.com
 0.0.0.0 ad.ximalaya.com
@@ -1675,6 +1678,7 @@
 0.0.0.0 admob.xiaomi.com
 0.0.0.0 admobile.top
 0.0.0.0 admon.cn
+0.0.0.0 admonitor-feedback.cn-hangzhou.log.aliyuncs.com
 0.0.0.0 admonitor.thepaper.cn
 0.0.0.0 admore.cps.zaibiao.cn
 0.0.0.0 admtpmp124.com
@@ -1950,6 +1954,7 @@
 0.0.0.0 adsqqclick.qq.com
 0.0.0.0 adsremote.scrippsnetworks.com
 0.0.0.0 adsrich.qq.com
+0.0.0.0 adsrv.kurogames.com
 0.0.0.0 adsrv.lua.pl
 0.0.0.0 adsrvr.org
 0.0.0.0 adss.dotdo.net
@@ -3691,6 +3696,7 @@
 0.0.0.0 caider.fun
 0.0.0.0 caimei.me
 0.0.0.0 caimlkh.com
+0.0.0.0 cainiao-app-logs.cn-zhangjiakou.dualstack.log.aliyuncs.com
 0.0.0.0 caishuitonghr.com
 0.0.0.0 caiyifz.com
 0.0.0.0 cal.meizu.com
@@ -4209,6 +4215,7 @@
 0.0.0.0 cnzz.net
 0.0.0.0 cnzz.trafficmanager.net
 0.0.0.0 co.dtech.baofeng.com
+0.0.0.0 coc-ws.broker.tplay.qq.com
 0.0.0.0 cocloud.site
 0.0.0.0 cocounion.com
 0.0.0.0 cod.southmoney.com
@@ -4264,6 +4271,7 @@
 0.0.0.0 conf.funshion.com
 0.0.0.0 conf.vidown.cn
 0.0.0.0 conf.xiniuz.com
+0.0.0.0 config.ab.qq.com
 0.0.0.0 config.ads.vungle.com
 0.0.0.0 config.baofeng.net
 0.0.0.0 config.chsmarttv.com
@@ -4610,6 +4618,7 @@
 0.0.0.0 d3g.qq.com
 0.0.0.0 d3mshiiq22wqhz.cloudfront.net
 0.0.0.0 d3nfknbv.icu
+0.0.0.0 d3upkyrv5jl3rn.cloudfront.net
 0.0.0.0 d3v1lb83psg9di.cloudfront.net
 0.0.0.0 d4-ks.a.kwimgs.com
 0.0.0.0 d4.sina.com.cn
@@ -4981,6 +4990,7 @@
 0.0.0.0 discuz.gtimg.cn
 0.0.0.0 dismantlepenantiterrorist.com
 0.0.0.0 disp.titan.mgtv.com
+0.0.0.0 dispatch-api-online.vemarsdev.com
 0.0.0.0 dispatcher.upmc.uc.cn
 0.0.0.0 dispenser-rtb.sape.ru
 0.0.0.0 display-apps-ui-soak.iad.apple.com
@@ -5000,6 +5010,7 @@
 0.0.0.0 djbgfit.com
 0.0.0.0 djs.baomihua.com
 0.0.0.0 djv99sxoqpv11.cloudfront.net
+0.0.0.0 djvod.ndcimgs.com
 0.0.0.0 dkdlsj.com
 0.0.0.0 dkeyn.com
 0.0.0.0 dklwddl.cn
@@ -5957,6 +5968,7 @@
 0.0.0.0 fakeurl.virtual.baidu.com
 0.0.0.0 fakjkwp.cn
 0.0.0.0 falal.cn
+0.0.0.0 fall.faj135.com
 0.0.0.0 falsarywaybung.com
 0.0.0.0 falundata.com
 0.0.0.0 falundata.org
@@ -5998,6 +6010,7 @@
 0.0.0.0 fc.gaizong.cn
 0.0.0.0 fc.tiepan.cn
 0.0.0.0 fc.zuixinchao.com
+0.0.0.0 fcapi.jpush.cn
 0.0.0.0 fcbqxt.xyz
 0.0.0.0 fccxgjg.com
 0.0.0.0 fcgztan.cn
@@ -7271,6 +7284,7 @@
 0.0.0.0 hzyuw.com
 0.0.0.0 i-fk.cn
 0.0.0.0 i-game.book.qq.com
+0.0.0.0 i-hl.snssdk.com
 0.0.0.0 i-mobile.co.jp
 0.0.0.0 i.bigmir.net
 0.0.0.0 i.cidianwang.com
@@ -7661,6 +7675,7 @@
 0.0.0.0 in1.secure.uu.cc
 0.0.0.0 inad.com
 0.0.0.0 inapp.1sapp.com
+0.0.0.0 inbox.clashofclans.cn
 0.0.0.0 inccnd.com
 0.0.0.0 inclk.com
 0.0.0.0 include.xs2345.com
@@ -8319,6 +8334,7 @@
 0.0.0.0 jsnp.golden1.sogou.com
 0.0.0.0 jsnywl.kfi8.com
 0.0.0.0 json.gewuwen.com
+0.0.0.0 jsonatm-wss.broker.tplay.qq.com
 0.0.0.0 jspg.cc
 0.0.0.0 jsqmt.qq.c
 0.0.0.0 jsqmt.qq.com
@@ -8415,6 +8431,7 @@
 0.0.0.0 k.85wa.cn
 0.0.0.0 k.ctsywy.com
 0.0.0.0 k.ssp.qq.com
+0.0.0.0 k0ub7yecy34y98z.djvod.ndcimgs.com
 0.0.0.0 k16e9b.com
 0.0.0.0 k1w5.me
 0.0.0.0 k2-dy-icy-ml-fclouddns.gslb.new.fclouddns.net
@@ -9732,6 +9749,7 @@
 0.0.0.0 maoskk.com
 0.0.0.0 map.dxpmedia.com
 0.0.0.0 map.media6degrees.com
+0.0.0.0 map.thb205.com
 0.0.0.0 maphuahin.com
 0.0.0.0 maplehaze.cn
 0.0.0.0 maplocatesdksnapshot.d.meituan.net
@@ -10979,6 +10997,7 @@
 0.0.0.0 p2-lm.adkwai.com
 0.0.0.0 p2-play.edge4k.com
 0.0.0.0 p2.adkwai.com
+0.0.0.0 p2.eckwai.com
 0.0.0.0 p2.hyz86.com
 0.0.0.0 p2.l.qq.com
 0.0.0.0 p2.qinsx.cn
@@ -11261,6 +11280,7 @@
 0.0.0.0 pic8.onetad.com
 0.0.0.0 pic837013.images9999.com
 0.0.0.0 picgg.idti.cn
+0.0.0.0 pick.isxyrzo.com
 0.0.0.0 picnewsss.com
 0.0.0.0 picsinfog.com
 0.0.0.0 picture.duokan.com
@@ -11380,6 +11400,7 @@
 0.0.0.0 polaris3-normal-hl.zijieapi.com
 0.0.0.0 polaris3-normal-lf.zijieapi.com
 0.0.0.0 polaris3-normal-lq.zijieapi.com
+0.0.0.0 polaris5-normal-hl.zijieapi.com
 0.0.0.0 polaris5-normal-lq.zijieapi.com
 0.0.0.0 polfaqgvsd.net
 0.0.0.0 policy.video.iqiyi.com
@@ -11987,6 +12008,7 @@
 0.0.0.0 reader.res.meizu.com
 0.0.0.0 reader.sh.vip.qq.com
 0.0.0.0 readfar.com
+0.0.0.0 reading-hl.snssdk.com
 0.0.0.0 reading-lq.snssdk.com
 0.0.0.0 readme.red
 0.0.0.0 realsrv.com
@@ -12522,6 +12544,7 @@
 0.0.0.0 sdb.amazonaws.com
 0.0.0.0 sdchb2.com
 0.0.0.0 sdcuo.com
+0.0.0.0 sdefm2ikfmn2i34n2.ser023.com
 0.0.0.0 sdfgbuy.com
 0.0.0.0 sdfp.snssdk.com
 0.0.0.0 sdfyiu.com
@@ -12817,6 +12840,7 @@
 0.0.0.0 shuyu2001.cn
 0.0.0.0 shuzilm.cn
 0.0.0.0 shxinjie.cn
+0.0.0.0 shytkjgs.com
 0.0.0.0 shzyjbr.wtdtjs.rocks
 0.0.0.0 si9377.com
 0.0.0.0 sicentlife.com
@@ -15184,6 +15208,7 @@
 0.0.0.0 wuqdebjfhjas.bid
 0.0.0.0 wuwho.cn
 0.0.0.0 wv.inner-active.mobi
+0.0.0.0 wvcwop.zbbznk.xyz
 0.0.0.0 wvyqks.xyz
 0.0.0.0 ww-7o1-0h.os.23v7m9.cc
 0.0.0.0 ww.wcav495.vip
@@ -15844,6 +15869,7 @@
 0.0.0.0 xulizui6.com
 0.0.0.0 xutmnla.cn
 0.0.0.0 xuwfmhh.icu
+0.0.0.0 xvadtrack.xingya.com.cn
 0.0.0.0 xwbspx.xyz
 0.0.0.0 xwlyfl.xyz
 0.0.0.0 xwqtatnw.icu
