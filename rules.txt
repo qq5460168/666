@@ -2,7 +2,7 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-08-01 00:12:46（北京时间）
+! Version: 2025-08-01 02:14:29（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 27788
 
@@ -6471,17 +6471,17 @@
 13.226.254.58 image.tmdb.org
 13.35.0.128 api.themoviedb.org
 140.82.112.18 github.community
-140.82.112.25                 live.github.com  # Timeout
 140.82.112.25 live.github.com
-140.82.113.17                 github.community  # Timeout
 140.82.113.21 collector.github.com
-140.82.113.22                 collector.github.com
-140.82.113.22                 education.github.com
+140.82.113.22                 api.individual.githubcopilot.com
 140.82.113.22 central.github.com
-140.82.113.26                 alive.github.com
+140.82.113.25                 live.github.com  # Timeout
 140.82.113.26 alive.github.com
+140.82.114.18                 github.community
 140.82.114.21                 central.github.com  # Timeout
-140.82.114.22                 api.individual.githubcopilot.com
+140.82.114.21                 collector.github.com  # Timeout
+140.82.114.22                 education.github.com  # Timeout
+140.82.114.25                 alive.github.com  # Timeout
 140.82.116.3 gist.github.com
 142.250.107.188 alt6-mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
@@ -6497,17 +6497,16 @@
 142.251.170.188 alt7-mtalk.google.com #TW
 142.251.8.188 alt6-mtalk.google.com
 146.75.121.194 github.global.ssl.fastly.net
-151.101.129.194               github.global.ssl.fastly.net
+151.101.193.194               github.global.ssl.fastly.net
 151.101.40.133 media.githubusercontent.com
 151.101.40.133 objects.githubusercontent.com
 151.101.40.133 raw.github.com
 151.101.40.133 raw.githubusercontent.com
-16.15.176.73                  github-com.s3.amazonaws.com  # Timeout
-16.15.177.233                 github-production-user-asset-6210df.s3.amazonaws.com  # Timeout
-16.15.184.108                 github-production-repository-file-5c1aeb.s3.amazonaws.com  # Timeout
+16.15.176.137                 github-cloud.s3.amazonaws.com  # Timeout
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.15.216.139                 github-production-release-asset-2e65be.s3.amazonaws.com  # Timeout
-16.182.40.161                 github-cloud.s3.amazonaws.com  # Timeout
+16.15.186.18                  github-production-release-asset-2e65be.s3.amazonaws.com  # Timeout
+16.15.192.148                 github-production-repository-file-5c1aeb.s3.amazonaws.com  # Timeout
+16.182.33.129                 github-com.s3.amazonaws.com  # Timeout
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6522,6 +6521,8 @@
 183.136.207.132 ultimateota.d.miui.com
 184.85.65.125 steamcommunity.com
 184.85.65.125 www.steamcommunity.com
+185.199.109.153               github.io
+185.199.109.153               githubstatus.com
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars1.githubusercontent.com
@@ -6539,8 +6540,6 @@
 185.199.110.133 raw.github.com
 185.199.110.133 raw.githubusercontent.com
 185.199.110.133 user-images.githubusercontent.com
-185.199.110.153               github.io
-185.199.110.153               githubstatus.com
 185.199.110.153 githubstatus.com
 185.199.110.153 lsposed.github.io
 185.199.110.153 topjohnwu.github.io
@@ -6607,6 +6606,7 @@
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
+3.5.13.149                    github-production-user-asset-6210df.s3.amazonaws.com  # Timeout
 3.5.28.146 github-com.s3.amazonaws.com
 31.216.145.5 mega.nz
 35.181.164.242 community.oneplus.com
