@@ -1,9 +1,9 @@
 # Title: Shadowrocket Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-08-02 12:16:33（北京时间）
-# Shadowrocket规则数量: 16656
-! Total count: 16656
+# Last Updated: 2025-08-02 14:08:44（北京时间）
+# Shadowrocket规则数量: 16661
+! Total count: 16661
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -231,6 +231,7 @@ DOMAIN-SUFFIX,1l1.cc,REJECT
 DOMAIN-SUFFIX,1lib.cn,REJECT
 DOMAIN-SUFFIX,1o26.com,REJECT
 DOMAIN-SUFFIX,1qwe3r.com,REJECT
+DOMAIN-SUFFIX,1rtb.com,REJECT
 DOMAIN-SUFFIX,1rtb.net,REJECT
 DOMAIN-SUFFIX,1tlm.cn,REJECT
 DOMAIN-SUFFIX,1u5gy.xyz,REJECT
@@ -2060,6 +2061,7 @@ DOMAIN-SUFFIX,adx-static.ksosoft.com,REJECT
 DOMAIN-SUFFIX,adx-track.domob.cn,REJECT
 DOMAIN-SUFFIX,adx.ads.heytapmobi.com,REJECT
 DOMAIN-SUFFIX,adx.ads.oppomobile.com,REJECT
+DOMAIN-SUFFIX,adx.adwangmai.com,REJECT
 DOMAIN-SUFFIX,adx.adxglobal.com,REJECT
 DOMAIN-SUFFIX,adx.apiok.net,REJECT
 DOMAIN-SUFFIX,adx.appsdk.com.cn,REJECT
@@ -4735,6 +4737,7 @@ DOMAIN-SUFFIX,data.doodlemobile.com,REJECT
 DOMAIN-SUFFIX,data.feidee.net,REJECT
 DOMAIN-SUFFIX,data.gosquared.com,REJECT
 DOMAIN-SUFFIX,data.gzuzfa.cn,REJECT
+DOMAIN-SUFFIX,data.hicloud.com,REJECT
 DOMAIN-SUFFIX,data.lichenqx.com,REJECT
 DOMAIN-SUFFIX,data.mistat.india.xiaomi.com,REJECT
 DOMAIN-SUFFIX,data.mistat.rus.xiaomi.com,REJECT
@@ -14721,6 +14724,7 @@ DOMAIN-SUFFIX,vkjsnvk.com,REJECT
 DOMAIN-SUFFIX,vktztp.xyz,REJECT
 DOMAIN-SUFFIX,vl8c4g7tmo.me,REJECT
 DOMAIN-SUFFIX,vlgkotr.cn,REJECT
+DOMAIN-SUFFIX,vlion.cn,REJECT
 DOMAIN-SUFFIX,vlive.qqvideo.tc.qq.com,REJECT
 DOMAIN-SUFFIX,vlujojf.icu,REJECT
 DOMAIN-SUFFIX,vm0c.tbl1444klf.cc,REJECT
@@ -16461,6 +16465,7 @@ DOMAIN-SUFFIX,zhangchi.work,REJECT
 DOMAIN-SUFFIX,zhangfeiyijuepifa.com,REJECT
 DOMAIN-SUFFIX,zhangjiaqi.top,REJECT
 DOMAIN-SUFFIX,zhangyumo.top,REJECT
+DOMAIN-SUFFIX,zhangyuyidong.cn,REJECT
 DOMAIN-SUFFIX,zhanzhang.net,REJECT
 DOMAIN-SUFFIX,zhanzhang.toutiao.com,REJECT
 DOMAIN-SUFFIX,zhao258.com,REJECT

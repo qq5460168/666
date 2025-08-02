@@ -1,9 +1,9 @@
 # Title: Clash Meta规则
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-08-02 12:16:33（北京时间）
-# Clash Meta规则数量: 16656
-! Total count: 16656
+# Last Updated: 2025-08-02 14:08:44（北京时间）
+# Clash Meta规则数量: 16661
+! Total count: 16661
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -232,6 +232,7 @@ payload:
   - '1lib.cn'
   - '1o26.com'
   - '1qwe3r.com'
+  - '1rtb.com'
   - '1rtb.net'
   - '1tlm.cn'
   - '1u5gy.xyz'
@@ -2061,6 +2062,7 @@ payload:
   - 'adx-track.domob.cn'
   - 'adx.ads.heytapmobi.com'
   - 'adx.ads.oppomobile.com'
+  - 'adx.adwangmai.com'
   - 'adx.adxglobal.com'
   - 'adx.apiok.net'
   - 'adx.appsdk.com.cn'
@@ -4736,6 +4738,7 @@ payload:
   - 'data.feidee.net'
   - 'data.gosquared.com'
   - 'data.gzuzfa.cn'
+  - 'data.hicloud.com'
   - 'data.lichenqx.com'
   - 'data.mistat.india.xiaomi.com'
   - 'data.mistat.rus.xiaomi.com'
@@ -14722,6 +14725,7 @@ payload:
   - 'vktztp.xyz'
   - 'vl8c4g7tmo.me'
   - 'vlgkotr.cn'
+  - 'vlion.cn'
   - 'vlive.qqvideo.tc.qq.com'
   - 'vlujojf.icu'
   - 'vm0c.tbl1444klf.cc'
@@ -16462,6 +16466,7 @@ payload:
   - 'zhangfeiyijuepifa.com'
   - 'zhangjiaqi.top'
   - 'zhangyumo.top'
+  - 'zhangyuyidong.cn'
   - 'zhanzhang.net'
   - 'zhanzhang.toutiao.com'
   - 'zhao258.com'

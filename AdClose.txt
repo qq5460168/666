@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-08-02 20:16:34（北京时间）
+! Version: 2025-08-02 22:08:44（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16660
+! Total count: 16665
 # AdClose 专用广告规则
-# 生成时间: 2025-08-02 12:16:33（北京时间）
+# 生成时间: 2025-08-02 14:08:44（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -235,6 +235,7 @@ domain, 1l1.cc
 domain, 1lib.cn
 domain, 1o26.com
 domain, 1qwe3r.com
+domain, 1rtb.com
 domain, 1rtb.net
 domain, 1tlm.cn
 domain, 1u5gy.xyz
@@ -2064,6 +2065,7 @@ domain, adx-static.ksosoft.com
 domain, adx-track.domob.cn
 domain, adx.ads.heytapmobi.com
 domain, adx.ads.oppomobile.com
+domain, adx.adwangmai.com
 domain, adx.adxglobal.com
 domain, adx.apiok.net
 domain, adx.appsdk.com.cn
@@ -4739,6 +4741,7 @@ domain, data.doodlemobile.com
 domain, data.feidee.net
 domain, data.gosquared.com
 domain, data.gzuzfa.cn
+domain, data.hicloud.com
 domain, data.lichenqx.com
 domain, data.mistat.india.xiaomi.com
 domain, data.mistat.rus.xiaomi.com
@@ -14725,6 +14728,7 @@ domain, vkjsnvk.com
 domain, vktztp.xyz
 domain, vl8c4g7tmo.me
 domain, vlgkotr.cn
+domain, vlion.cn
 domain, vlive.qqvideo.tc.qq.com
 domain, vlujojf.icu
 domain, vm0c.tbl1444klf.cc
@@ -16465,6 +16469,7 @@ domain, zhangchi.work
 domain, zhangfeiyijuepifa.com
 domain, zhangjiaqi.top
 domain, zhangyumo.top
+domain, zhangyuyidong.cn
 domain, zhanzhang.net
 domain, zhanzhang.toutiao.com
 domain, zhao258.com
