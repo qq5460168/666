@@ -51,7 +51,7 @@ allow=(
   "https://raw.githubusercontent.com/user001235/112/main/white.txt" #浅笑
   "https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt" #jhsvip
   "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt" #liwenjie119
-  "https://oss.xlxbk.cn/allow.txt" #xlxbk
+  #"https://oss.xlxbk.cn/allow.txt" #xlxbk
   "https://raw.githubusercontent.com/miaoermua/AdguardFilter/main/whitelist.txt" #喵二白名单
   "https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/whitelist.txt" #Zisbusy
   "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/refs/heads/main/FuLingRules/FuLingAllowList.txt" #茯苓
