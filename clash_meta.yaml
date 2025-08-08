@@ -1,9 +1,9 @@
 # Title: Clash Meta规则
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-08-08 02:07:00（北京时间）
-# Clash Meta规则数量: 16660
-! Total count: 16660
+# Last Updated: 2025-08-08 02:18:36（北京时间）
+# Clash Meta规则数量: 16671
+! Total count: 16671
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -1224,6 +1224,7 @@ payload:
   - 'ad-test6.sm.cn'
   - 'ad-trace.lenovomm.com'
   - 'ad-union-e.ssread.cn'
+  - 'ad.10010.com'
   - 'ad.1111cpc.com'
   - 'ad.12306.cn'
   - 'ad.163.com'
@@ -1492,6 +1493,7 @@ payload:
   - 'adashx.m.taobao.com.w.kunlunhuf.com'
   - 'adashx.ut.amap.com'
   - 'adashx.ut.cainiao.com'
+  - 'adashx.ut.dingtalk.com'
   - 'adashx.ut.hzshudian.com'
   - 'adashx.ut.shuqi.com'
   - 'adashx.ut.uc.cn'
@@ -1753,6 +1755,7 @@ payload:
   - 'ads-video-1251524319.cos.ap-shanghai.myqcloud.com'
   - 'ads-video-al.xhscdn.com'
   - 'ads-video-qc.xhscdn.com'
+  - 'ads.95516.com'
   - 'ads.adadapted.com'
   - 'ads.adfox.ru'
   - 'ads.api.fakeloc.cc'
@@ -1773,6 +1776,7 @@ payload:
   - 'ads.game.iqiyi.com'
   - 'ads.games.laohu.com'
   - 'ads.google.cn'
+  - 'ads.google.com'
   - 'ads.heytapmobi.com'
   - 'ads.heytapmobile.com'
   - 'ads.huan.tv'
@@ -1793,6 +1797,7 @@ payload:
   - 'ads.music.126.net'
   - 'ads.oneway.mobi'
   - 'ads.oppomobile.com'
+  - 'ads.pinterest.com'
   - 'ads.pubmatic.com'
   - 'ads.raidrive.com'
   - 'ads.reader.yueyouxs.com'
@@ -1817,6 +1822,7 @@ payload:
   - 'ads.viber.com'
   - 'ads.vserv.mobi'
   - 'ads.weilitoutiao.net'
+  - 'ads.x.com'
   - 'ads.yahoo.com'
   - 'ads.yap.yahoo.com'
   - 'ads.yieldmo.com'
@@ -2633,6 +2639,7 @@ payload:
   - 'apollo.map.qq.com'
   - 'app-ad.variflight.com'
   - 'app-adforce.jp'
+  - 'app-advertise.zhihuishu.com'
   - 'app-g.39.net'
   - 'app-iq6elgdk.joxx.cn'
   - 'app-log.dewu.com'
@@ -6785,6 +6792,7 @@ payload:
   - 'gzxnlk.com'
   - 'h-adashx.ut.amap.com'
   - 'h-adashx.ut.cainiao.com'
+  - 'h-adashx.ut.dingtalk.com'
   - 'h-adashx.ut.hzshudian.com'
   - 'h-adashx.ut.uc.cn'
   - 'h-adashx.ut.youku.com'
@@ -9091,6 +9099,7 @@ payload:
   - 'log.kuwo.cn'
   - 'log.m.sm.cn'
   - 'log.mgtv.com'
+  - 'log.mmstat.com'
   - 'log.music.baidu.com'
   - 'log.pinterest.com'
   - 'log.popin.cc'
@@ -9924,6 +9933,7 @@ payload:
   - 'metrics.data.hicloud.com'
   - 'metrics.dt.dbankcloud.cn'
   - 'metrics.dt.hihonorcloud.com'
+  - 'metrics.icloud.com'
   - 'metrics.mzstatic.com'
   - 'metrics1-drcn.dt.dbankcloud.cn'
   - 'metrics1.data.hicloud.com'
@@ -12713,6 +12723,7 @@ payload:
   - 'setting.crashlytics.com'
   - 'setting.rayjump.com'
   - 'setting.snswin.qq.com'
+  - 'settings-win.data.microsoft.com'
   - 'settings.crashlytics.com'
   - 'settings.luckyorange.net'
   - 'settings.ttwebview.com'

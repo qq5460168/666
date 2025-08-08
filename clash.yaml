@@ -1,9 +1,9 @@
 # Title: Clash Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-08-08 02:07:00（北京时间）
-# Clash规则数量: 16660
-! Total count: 16660
+# Last Updated: 2025-08-08 02:18:36（北京时间）
+# Clash规则数量: 16671
+! Total count: 16671
 rules:
   - DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
   - DOMAIN-SUFFIX,0.r.msn.com,REJECT
@@ -1224,6 +1224,7 @@ rules:
   - DOMAIN-SUFFIX,ad-test6.sm.cn,REJECT
   - DOMAIN-SUFFIX,ad-trace.lenovomm.com,REJECT
   - DOMAIN-SUFFIX,ad-union-e.ssread.cn,REJECT
+  - DOMAIN-SUFFIX,ad.10010.com,REJECT
   - DOMAIN-SUFFIX,ad.1111cpc.com,REJECT
   - DOMAIN-SUFFIX,ad.12306.cn,REJECT
   - DOMAIN-SUFFIX,ad.163.com,REJECT
@@ -1492,6 +1493,7 @@ rules:
   - DOMAIN-SUFFIX,adashx.m.taobao.com.w.kunlunhuf.com,REJECT
   - DOMAIN-SUFFIX,adashx.ut.amap.com,REJECT
   - DOMAIN-SUFFIX,adashx.ut.cainiao.com,REJECT
+  - DOMAIN-SUFFIX,adashx.ut.dingtalk.com,REJECT
   - DOMAIN-SUFFIX,adashx.ut.hzshudian.com,REJECT
   - DOMAIN-SUFFIX,adashx.ut.shuqi.com,REJECT
   - DOMAIN-SUFFIX,adashx.ut.uc.cn,REJECT
@@ -1753,6 +1755,7 @@ rules:
   - DOMAIN-SUFFIX,ads-video-1251524319.cos.ap-shanghai.myqcloud.com,REJECT
   - DOMAIN-SUFFIX,ads-video-al.xhscdn.com,REJECT
   - DOMAIN-SUFFIX,ads-video-qc.xhscdn.com,REJECT
+  - DOMAIN-SUFFIX,ads.95516.com,REJECT
   - DOMAIN-SUFFIX,ads.adadapted.com,REJECT
   - DOMAIN-SUFFIX,ads.adfox.ru,REJECT
   - DOMAIN-SUFFIX,ads.api.fakeloc.cc,REJECT
@@ -1773,6 +1776,7 @@ rules:
   - DOMAIN-SUFFIX,ads.game.iqiyi.com,REJECT
   - DOMAIN-SUFFIX,ads.games.laohu.com,REJECT
   - DOMAIN-SUFFIX,ads.google.cn,REJECT
+  - DOMAIN-SUFFIX,ads.google.com,REJECT
   - DOMAIN-SUFFIX,ads.heytapmobi.com,REJECT
   - DOMAIN-SUFFIX,ads.heytapmobile.com,REJECT
   - DOMAIN-SUFFIX,ads.huan.tv,REJECT
@@ -1793,6 +1797,7 @@ rules:
   - DOMAIN-SUFFIX,ads.music.126.net,REJECT
   - DOMAIN-SUFFIX,ads.oneway.mobi,REJECT
   - DOMAIN-SUFFIX,ads.oppomobile.com,REJECT
+  - DOMAIN-SUFFIX,ads.pinterest.com,REJECT
   - DOMAIN-SUFFIX,ads.pubmatic.com,REJECT
   - DOMAIN-SUFFIX,ads.raidrive.com,REJECT
   - DOMAIN-SUFFIX,ads.reader.yueyouxs.com,REJECT
@@ -1817,6 +1822,7 @@ rules:
   - DOMAIN-SUFFIX,ads.viber.com,REJECT
   - DOMAIN-SUFFIX,ads.vserv.mobi,REJECT
   - DOMAIN-SUFFIX,ads.weilitoutiao.net,REJECT
+  - DOMAIN-SUFFIX,ads.x.com,REJECT
   - DOMAIN-SUFFIX,ads.yahoo.com,REJECT
   - DOMAIN-SUFFIX,ads.yap.yahoo.com,REJECT
   - DOMAIN-SUFFIX,ads.yieldmo.com,REJECT
@@ -2633,6 +2639,7 @@ rules:
   - DOMAIN-SUFFIX,apollo.map.qq.com,REJECT
   - DOMAIN-SUFFIX,app-ad.variflight.com,REJECT
   - DOMAIN-SUFFIX,app-adforce.jp,REJECT
+  - DOMAIN-SUFFIX,app-advertise.zhihuishu.com,REJECT
   - DOMAIN-SUFFIX,app-g.39.net,REJECT
   - DOMAIN-SUFFIX,app-iq6elgdk.joxx.cn,REJECT
   - DOMAIN-SUFFIX,app-log.dewu.com,REJECT
@@ -6785,6 +6792,7 @@ rules:
   - DOMAIN-SUFFIX,gzxnlk.com,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.amap.com,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.cainiao.com,REJECT
+  - DOMAIN-SUFFIX,h-adashx.ut.dingtalk.com,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.hzshudian.com,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.uc.cn,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.youku.com,REJECT
@@ -9091,6 +9099,7 @@ rules:
   - DOMAIN-SUFFIX,log.kuwo.cn,REJECT
   - DOMAIN-SUFFIX,log.m.sm.cn,REJECT
   - DOMAIN-SUFFIX,log.mgtv.com,REJECT
+  - DOMAIN-SUFFIX,log.mmstat.com,REJECT
   - DOMAIN-SUFFIX,log.music.baidu.com,REJECT
   - DOMAIN-SUFFIX,log.pinterest.com,REJECT
   - DOMAIN-SUFFIX,log.popin.cc,REJECT
@@ -9924,6 +9933,7 @@ rules:
   - DOMAIN-SUFFIX,metrics.data.hicloud.com,REJECT
   - DOMAIN-SUFFIX,metrics.dt.dbankcloud.cn,REJECT
   - DOMAIN-SUFFIX,metrics.dt.hihonorcloud.com,REJECT
+  - DOMAIN-SUFFIX,metrics.icloud.com,REJECT
   - DOMAIN-SUFFIX,metrics.mzstatic.com,REJECT
   - DOMAIN-SUFFIX,metrics1-drcn.dt.dbankcloud.cn,REJECT
   - DOMAIN-SUFFIX,metrics1.data.hicloud.com,REJECT
@@ -12713,6 +12723,7 @@ rules:
   - DOMAIN-SUFFIX,setting.crashlytics.com,REJECT
   - DOMAIN-SUFFIX,setting.rayjump.com,REJECT
   - DOMAIN-SUFFIX,setting.snswin.qq.com,REJECT
+  - DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT
   - DOMAIN-SUFFIX,settings.crashlytics.com,REJECT
   - DOMAIN-SUFFIX,settings.luckyorange.net,REJECT
   - DOMAIN-SUFFIX,settings.ttwebview.com,REJECT

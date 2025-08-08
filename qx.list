@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-08-08 02:07:00（北京时间）
-# Quantumult X规则数量: 16660
-# ! Total count: 16660
+# Last Updated: 2025-08-08 02:18:36（北京时间）
+# Quantumult X规则数量: 16671
+# ! Total count: 16671
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -1223,6 +1223,7 @@ HOST-SUFFIX,ad-survey.com,REJECT
 HOST-SUFFIX,ad-test6.sm.cn,REJECT
 HOST-SUFFIX,ad-trace.lenovomm.com,REJECT
 HOST-SUFFIX,ad-union-e.ssread.cn,REJECT
+HOST-SUFFIX,ad.10010.com,REJECT
 HOST-SUFFIX,ad.1111cpc.com,REJECT
 HOST-SUFFIX,ad.12306.cn,REJECT
 HOST-SUFFIX,ad.163.com,REJECT
@@ -1491,6 +1492,7 @@ HOST-SUFFIX,adashbc.m.taobao.com,REJECT
 HOST-SUFFIX,adashx.m.taobao.com.w.kunlunhuf.com,REJECT
 HOST-SUFFIX,adashx.ut.amap.com,REJECT
 HOST-SUFFIX,adashx.ut.cainiao.com,REJECT
+HOST-SUFFIX,adashx.ut.dingtalk.com,REJECT
 HOST-SUFFIX,adashx.ut.hzshudian.com,REJECT
 HOST-SUFFIX,adashx.ut.shuqi.com,REJECT
 HOST-SUFFIX,adashx.ut.uc.cn,REJECT
@@ -1752,6 +1754,7 @@ HOST-SUFFIX,ads-union.jd.com,REJECT
 HOST-SUFFIX,ads-video-1251524319.cos.ap-shanghai.myqcloud.com,REJECT
 HOST-SUFFIX,ads-video-al.xhscdn.com,REJECT
 HOST-SUFFIX,ads-video-qc.xhscdn.com,REJECT
+HOST-SUFFIX,ads.95516.com,REJECT
 HOST-SUFFIX,ads.adadapted.com,REJECT
 HOST-SUFFIX,ads.adfox.ru,REJECT
 HOST-SUFFIX,ads.api.fakeloc.cc,REJECT
@@ -1772,6 +1775,7 @@ HOST-SUFFIX,ads.flurry.com,REJECT
 HOST-SUFFIX,ads.game.iqiyi.com,REJECT
 HOST-SUFFIX,ads.games.laohu.com,REJECT
 HOST-SUFFIX,ads.google.cn,REJECT
+HOST-SUFFIX,ads.google.com,REJECT
 HOST-SUFFIX,ads.heytapmobi.com,REJECT
 HOST-SUFFIX,ads.heytapmobile.com,REJECT
 HOST-SUFFIX,ads.huan.tv,REJECT
@@ -1792,6 +1796,7 @@ HOST-SUFFIX,ads.msn.com,REJECT
 HOST-SUFFIX,ads.music.126.net,REJECT
 HOST-SUFFIX,ads.oneway.mobi,REJECT
 HOST-SUFFIX,ads.oppomobile.com,REJECT
+HOST-SUFFIX,ads.pinterest.com,REJECT
 HOST-SUFFIX,ads.pubmatic.com,REJECT
 HOST-SUFFIX,ads.raidrive.com,REJECT
 HOST-SUFFIX,ads.reader.yueyouxs.com,REJECT
@@ -1816,6 +1821,7 @@ HOST-SUFFIX,ads.v3mh.com,REJECT
 HOST-SUFFIX,ads.viber.com,REJECT
 HOST-SUFFIX,ads.vserv.mobi,REJECT
 HOST-SUFFIX,ads.weilitoutiao.net,REJECT
+HOST-SUFFIX,ads.x.com,REJECT
 HOST-SUFFIX,ads.yahoo.com,REJECT
 HOST-SUFFIX,ads.yap.yahoo.com,REJECT
 HOST-SUFFIX,ads.yieldmo.com,REJECT
@@ -2632,6 +2638,7 @@ HOST-SUFFIX,apollo.caixin.com,REJECT
 HOST-SUFFIX,apollo.map.qq.com,REJECT
 HOST-SUFFIX,app-ad.variflight.com,REJECT
 HOST-SUFFIX,app-adforce.jp,REJECT
+HOST-SUFFIX,app-advertise.zhihuishu.com,REJECT
 HOST-SUFFIX,app-g.39.net,REJECT
 HOST-SUFFIX,app-iq6elgdk.joxx.cn,REJECT
 HOST-SUFFIX,app-log.dewu.com,REJECT
@@ -6784,6 +6791,7 @@ HOST-SUFFIX,gzsjym.xyz,REJECT
 HOST-SUFFIX,gzxnlk.com,REJECT
 HOST-SUFFIX,h-adashx.ut.amap.com,REJECT
 HOST-SUFFIX,h-adashx.ut.cainiao.com,REJECT
+HOST-SUFFIX,h-adashx.ut.dingtalk.com,REJECT
 HOST-SUFFIX,h-adashx.ut.hzshudian.com,REJECT
 HOST-SUFFIX,h-adashx.ut.uc.cn,REJECT
 HOST-SUFFIX,h-adashx.ut.youku.com,REJECT
@@ -9090,6 +9098,7 @@ HOST-SUFFIX,log.jd.com,REJECT
 HOST-SUFFIX,log.kuwo.cn,REJECT
 HOST-SUFFIX,log.m.sm.cn,REJECT
 HOST-SUFFIX,log.mgtv.com,REJECT
+HOST-SUFFIX,log.mmstat.com,REJECT
 HOST-SUFFIX,log.music.baidu.com,REJECT
 HOST-SUFFIX,log.pinterest.com,REJECT
 HOST-SUFFIX,log.popin.cc,REJECT
@@ -9923,6 +9932,7 @@ HOST-SUFFIX,metrics.cnn.com,REJECT
 HOST-SUFFIX,metrics.data.hicloud.com,REJECT
 HOST-SUFFIX,metrics.dt.dbankcloud.cn,REJECT
 HOST-SUFFIX,metrics.dt.hihonorcloud.com,REJECT
+HOST-SUFFIX,metrics.icloud.com,REJECT
 HOST-SUFFIX,metrics.mzstatic.com,REJECT
 HOST-SUFFIX,metrics1-drcn.dt.dbankcloud.cn,REJECT
 HOST-SUFFIX,metrics1.data.hicloud.com,REJECT
@@ -12712,6 +12722,7 @@ HOST-SUFFIX,sestat.baidu.com,REJECT
 HOST-SUFFIX,setting.crashlytics.com,REJECT
 HOST-SUFFIX,setting.rayjump.com,REJECT
 HOST-SUFFIX,setting.snswin.qq.com,REJECT
+HOST-SUFFIX,settings-win.data.microsoft.com,REJECT
 HOST-SUFFIX,settings.crashlytics.com,REJECT
 HOST-SUFFIX,settings.luckyorange.net,REJECT
 HOST-SUFFIX,settings.ttwebview.com,REJECT
