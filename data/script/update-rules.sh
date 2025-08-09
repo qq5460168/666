@@ -19,6 +19,7 @@ cd tmp
 # 规则下载
 echo "开始下载规则..."
 
+# 定义下载链接数组（规则和白名单分别处理）
 rules=(
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt" #5460
   "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #大萌主
@@ -27,7 +28,7 @@ rules=(
   "https://raw.hellogithub.com/hosts" #GitHub加速
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/adhosts.txt" #测试hosts
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt" #白名单
-  "https://raw.githubusercontent.com/qq5460168/Who520/refs/heads/main/Other%20rules/Replenish.txt" #补充
+  "https://raw.githubusercontent.com/qq5460168/Who520/refs/heads/main/Other%20rules/Replenish.txt"#补充
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Blacklist.txt" #mphin
   "https://gitee.com/zjqz/ad-guard-home-dns/raw/master/black-list" #周木木
   "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/black.txt" #liwenjie119
@@ -54,10 +55,11 @@ allow=(
   "https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/whitelist.txt" #Zisbusy
   "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/refs/heads/main/FuLingRules/FuLingAllowList.txt" #茯苓
   "https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt" #酷安cocieto
-  "" #
+  ""#
   ""
 )
 
+# 使用并发curl下载规则和白名单，并通过 iconv 转码后存入文件
 for i in "${!rules[@]}"; do
   url="${rules[$i]}"
   [ -z "$url" ] && continue
@@ -73,6 +75,7 @@ done
 wait
 echo "规则下载完成"
 
+# 为下载的每个文件添加空行结束（防止因末尾无换行导致处理错误）
 for f in $(ls *.txt | sort -u); do
   echo "" >> "$f" &
 done
@@ -80,6 +83,7 @@ wait
 
 echo "开始处理规则"
 
+# 提取处理规则：过滤空行、注释、IP格式不符合要求的行，并转换部分地址格式，然后排序去重
 cat *.txt | sort -n | grep -v -E "^((#.*)|(\s*))$" \
   | grep -v -E "^[0-9f\.:]+\s+(ip6\-)|(localhost|local|loopback)$" \
   | grep -Ev "local.*\.local.*$" \
@@ -88,64 +92,30 @@ cat *.txt | sort -n | grep -v -E "^((#.*)|(\s*))$" \
   | sort | uniq > base-src-hosts.txt
 wait
 
-# -------- 域名有效性检测（保留注释） BEGIN --------
-echo "开始域名有效性检测..."
-
-china_dns=("223.5.5.5" "119.29.29.29" "114.114.114.114")
-global_dns=("8.8.8.8" "1.1.1.1" "9.9.9.9")
-
-check_domain() {
-  local domain="$1"
-  for dns in "${china_dns[@]}"; do
-    if dig +timeout=2 +tries=1 +short @"$dns" "$domain" | grep -qE '^[0-9a-zA-Z]'; then
-      return 0
-    fi
-  done
-  for dns in "${global_dns[@]}"; do
-    if dig +timeout=2 +tries=1 +short @"$dns" "$domain" | grep -qE '^[0-9a-zA-Z]'; then
-      return 0
-    fi
-  done
-  return 1
-}
-
-export -f check_domain
-export china_dns global_dns
-
-valid_file="valid-hosts.txt"
-> "$valid_file"
-
-cat base-src-hosts.txt | grep '^0\.0\.0\.0 ' | \
-  while read -r line; do
-    # 兼容 hosts 格式注释，如 0.0.0.0 domain.com # 注释
-    domain=$(echo "$line" | awk '{print $2}')
-    if [ -n "$domain" ] && check_domain "$domain"; then
-      echo "$line" >> "$valid_file"
-    fi
-  done
-
-mv "$valid_file" base-src-hosts.txt
-
-echo "域名有效性检测完成"
-# -------- 域名有效性检测（保留注释） END --------
-
 echo "开始合并规则..."
 
+# 合并规则：过滤掉注释行、空行，并对 AdGuard 规则进行去重
 cat rules*.txt | grep -Ev "^(#|!|\[)" | sed '/^$/d' | sort -u > tmp-rules.txt &
 
+# 从所有规则中提取允许域名（以 @@|| 开头，或以 || 开头的规则）
 cat *.txt | grep '^@@||.*\^$' | sort -u > allow_ends_with_caret.txt
 cat *.txt | grep '^@@||.*\^\$important$' | sort -u > allow_ends_with_important.txt
 
+# 合并两种允许规则
 cat allow_ends_with_caret.txt allow_ends_with_important.txt | sort -u > tmp-allow.txt
 wait
 
+# 移动合并后的规则到上级目录
 cp tmp-allow.txt ../allow.txt
 cp tmp-rules.txt ../rules.txt
 
 echo "规则合并完成"
 
+# 调用 Python 脚本进一步处理重复规则、过滤规则和添加标题
 python ../data/python/rule.py
 python ../data/python/filter-dns.py
+
+# 添加标题和日期
 python ../data/python/title.py
 
 wait
