@@ -88,8 +88,46 @@ cat *.txt | sort -n | grep -v -E "^((#.*)|(\s*))$" \
   | sort | uniq > base-src-hosts.txt
 wait
 
-# 域名有效性检测和后续处理...
-# （此处省略，按你的实际需求添加）
+# -------- 域名有效性检测（保留注释） BEGIN --------
+echo "开始域名有效性检测..."
+
+china_dns=("223.5.5.5" "119.29.29.29" "114.114.114.114")
+global_dns=("8.8.8.8" "1.1.1.1" "9.9.9.9")
+
+check_domain() {
+  local domain="$1"
+  for dns in "${china_dns[@]}"; do
+    if dig +timeout=2 +tries=1 +short @"$dns" "$domain" | grep -qE '^[0-9a-zA-Z]'; then
+      return 0
+    fi
+  done
+  for dns in "${global_dns[@]}"; do
+    if dig +timeout=2 +tries=1 +short @"$dns" "$domain" | grep -qE '^[0-9a-zA-Z]'; then
+      return 0
+    fi
+  done
+  return 1
+}
+
+export -f check_domain
+export china_dns global_dns
+
+valid_file="valid-hosts.txt"
+> "$valid_file"
+
+cat base-src-hosts.txt | grep '^0\.0\.0\.0 ' | \
+  while read -r line; do
+    # 兼容 hosts 格式注释，如 0.0.0.0 domain.com # 注释
+    domain=$(echo "$line" | awk '{print $2}')
+    if [ -n "$domain" ] && check_domain "$domain"; then
+      echo "$line" >> "$valid_file"
+    fi
+  done
+
+mv "$valid_file" base-src-hosts.txt
+
+echo "域名有效性检测完成"
+# -------- 域名有效性检测（保留注释） END --------
 
 echo "开始合并规则..."
 
