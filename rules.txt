@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-08-10 00:10:16（北京时间）
+! Version: 2025-08-10 02:12:33（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27416
+! Total count: 27415
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -6575,17 +6575,17 @@
 13.226.254.58 image.tmdb.org
 13.35.0.128 api.themoviedb.org
 140.82.112.18 github.community
-140.82.112.21                 collector.github.com  # Timeout
-140.82.112.25                 live.github.com  # Timeout
+140.82.112.21                 api.individual.githubcopilot.com  # Timeout
+140.82.112.22                 central.github.com  # Timeout
+140.82.112.22                 education.github.com  # Timeout
 140.82.112.25 live.github.com
-140.82.113.17                 github.community  # Timeout
-140.82.113.21                 api.individual.githubcopilot.com  # Timeout
-140.82.113.21                 central.github.com  # Timeout
 140.82.113.21 collector.github.com
-140.82.113.22                 education.github.com  # Timeout
+140.82.113.22                 collector.github.com  # Timeout
 140.82.113.22 central.github.com
 140.82.113.25                 alive.github.com  # Timeout
 140.82.113.26 alive.github.com
+140.82.114.18                 github.community
+140.82.114.25                 live.github.com  # Timeout
 140.82.116.3 gist.github.com
 142.250.107.188 alt5-mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
@@ -6607,12 +6607,12 @@
 146.75.48.133 release-assets.githubusercontent.com
 151.101.193.194               github.global.ssl.fastly.net
 151.101.76.133 raw.github.com
-16.15.176.153                 github-cloud.s3.amazonaws.com  # Timeout
-16.15.177.90                  github-production-user-asset-6210df.s3.amazonaws.com  # Timeout
+16.15.184.183                 github-production-repository-file-5c1aeb.s3.amazonaws.com  # Timeout
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.15.184.25                  github-production-release-asset-2e65be.s3.amazonaws.com  # Timeout
-16.182.39.25                  github-com.s3.amazonaws.com  # Timeout
-16.182.64.41                  github-production-repository-file-5c1aeb.s3.amazonaws.com  # Timeout
+16.15.184.84                  github-cloud.s3.amazonaws.com  # Timeout
+16.15.192.104                 github-production-user-asset-6210df.s3.amazonaws.com  # Timeout
+16.15.195.141                 github-com.s3.amazonaws.com  # Timeout
+16.182.42.201                 github-production-release-asset-2e65be.s3.amazonaws.com  # Timeout
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6644,8 +6644,6 @@
 185.199.108.133               private-user-images.githubusercontent.com
 185.199.108.133               raw.githubusercontent.com
 185.199.108.133               user-images.githubusercontent.com
-185.199.109.153               github.io
-185.199.109.153               githubstatus.com
 185.199.109.154               github.githubassets.com
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
@@ -6664,6 +6662,8 @@
 185.199.110.133 raw.github.com
 185.199.110.133 raw.githubusercontent.com
 185.199.110.133 user-images.githubusercontent.com
+185.199.110.153               github.io
+185.199.110.153               githubstatus.com
 185.199.110.153 githubstatus.com
 185.199.110.153 lsposed.github.io
 185.199.110.153 topjohnwu.github.io
@@ -12518,7 +12518,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||api-gps.hismarttv.com^
 ||api-gw.wtzw.com^
 ||api-htp.beizi.biz^
-||api-ks.wtzw.com^
 ||api-nps.wtzw.com^
 ||api-p*.mobsurl.com^
 ||api-p*.yksdks.com^
