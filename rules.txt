@@ -2,7 +2,7 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-08-17 18:09:00（北京时间）
+! Version: 2025-08-17 20:16:21（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 27422
 
@@ -6577,16 +6577,16 @@
 13.35.0.128 api.themoviedb.org
 140.82.112.18                 github.community  # Timeout
 140.82.112.18 github.community
-140.82.112.21                 api.individual.githubcopilot.com  # Timeout
-140.82.112.22                 central.github.com  # Timeout
 140.82.112.22                 collector.github.com  # Timeout
 140.82.112.25 live.github.com
 140.82.113.21 collector.github.com
+140.82.113.22                 education.github.com  # Timeout
 140.82.113.22 central.github.com
-140.82.113.25                 alive.github.com  # Timeout
+140.82.113.25                 live.github.com  # Timeout
 140.82.113.26 alive.github.com
-140.82.114.21                 education.github.com  # Timeout
-140.82.114.26                 live.github.com
+140.82.114.21                 central.github.com  # Timeout
+140.82.114.22                 api.individual.githubcopilot.com  # Timeout
+140.82.114.26                 alive.github.com
 140.82.116.3 gist.github.com
 142.250.107.188 alt5-mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
@@ -6608,12 +6608,12 @@
 146.75.48.133 release-assets.githubusercontent.com
 151.101.193.194               github.global.ssl.fastly.net
 151.101.76.133 raw.github.com
+16.15.177.233                 github-com.s3.amazonaws.com  # Timeout
+16.15.177.5                   github-production-release-asset-2e65be.s3.amazonaws.com  # Timeout
+16.15.184.219                 github-cloud.s3.amazonaws.com  # Timeout
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.15.187.58                  github-production-user-asset-6210df.s3.amazonaws.com  # Timeout
-16.15.194.142                 github-production-repository-file-5c1aeb.s3.amazonaws.com  # Timeout
-16.15.201.117                 github-cloud.s3.amazonaws.com  # Timeout
-16.15.201.56                  github-production-release-asset-2e65be.s3.amazonaws.com  # Timeout
-16.15.203.13                  github-com.s3.amazonaws.com  # Timeout
+16.15.188.226                 github-production-repository-file-5c1aeb.s3.amazonaws.com  # Timeout
+16.182.39.185                 github-production-user-asset-6210df.s3.amazonaws.com  # Timeout
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6628,9 +6628,9 @@
 183.136.207.132 ultimateota.d.miui.com
 184.85.65.125 steamcommunity.com
 184.85.65.125 www.steamcommunity.com
+185.199.108.153               github.io
+185.199.108.153               githubstatus.com
 185.199.108.154               github.githubassets.com
-185.199.109.153               github.io
-185.199.109.153               githubstatus.com
 185.199.110.133               avatars.githubusercontent.com
 185.199.110.133               avatars0.githubusercontent.com
 185.199.110.133               avatars1.githubusercontent.com
