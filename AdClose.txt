@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-08-19 12:18:21（北京时间）
+! Version: 2025-08-19 14:14:03（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16676
+! Total count: 16679
 # AdClose 专用广告规则
-# 生成时间: 2025-08-19 04:18:21（北京时间）
+# 生成时间: 2025-08-19 06:14:02（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -7064,6 +7064,7 @@ domain, hlbbn6ii.icu
 domain, hldwmly.com
 domain, hlegsdh.icu
 domain, hlnr9q.icu
+domain, hlog.bigda.com
 domain, hlrcv.stage.adobe.com
 domain, hlryzsqo.icu
 domain, hlw.longlingsc.art
@@ -10064,6 +10065,7 @@ domain, mlb.did.ijinshan.com
 domain, mlgrrqymdsyk.com
 domain, mlnbike.com
 domain, mlog.aipai.com
+domain, mlog.bigda.com
 domain, mlog.hiido.com
 domain, mlog.m1905.cn
 domain, mlog.search.xiaomi.net
@@ -14307,6 +14309,7 @@ domain, unified-ter.hismarttv.com
 domain, uniformer.biz
 domain, unilog.wostore.cn
 domain, unimhk.com
+domain, union-mlog.bigda.com
 domain, union-wifi.com
 domain, union.360.cn
 domain, union.6.cn
