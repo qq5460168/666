@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-08-21 02:13:10（北京时间）
+! Version: 2025-08-21 04:16:24（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27426
+! Total count: 27386
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -6570,24 +6570,15 @@
 127.0.0.1 cn.app.chat.xiaomi.net
 127.0.0.1 etl-xlmc-ssl.sandai.net
 127.0.0.1 localhost
-13.107.246.73                 vscode.dev  # Timeout
-13.107.42.16                  pipelines.actions.githubusercontent.com  # Timeout
 13.107.42.16 pipelines.actions.githubusercontent.com
 13.226.198.225 thetvdb.com
 13.226.254.58 image.tmdb.org
 13.35.0.128 api.themoviedb.org
 140.82.112.18 github.community
-140.82.112.22                 collector.github.com  # Timeout
-140.82.112.25                 live.github.com  # Timeout
 140.82.112.25 live.github.com
-140.82.112.26                 alive.github.com
-140.82.113.21                 api.individual.githubcopilot.com  # Timeout
 140.82.113.21 collector.github.com
-140.82.113.22                 education.github.com  # Timeout
 140.82.113.22 central.github.com
 140.82.113.26 alive.github.com
-140.82.114.18                 github.community
-140.82.114.21                 central.github.com  # Timeout
 140.82.116.3 gist.github.com
 142.250.107.188 alt5-mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
@@ -6607,14 +6598,8 @@
 146.75.48.133 objects.githubusercontent.com
 146.75.48.133 raw.githubusercontent.com
 146.75.48.133 release-assets.githubusercontent.com
-151.101.129.194               github.global.ssl.fastly.net
 151.101.76.133 raw.github.com
-16.15.179.90                  github-cloud.s3.amazonaws.com  # Timeout
-16.15.181.252                 github-production-release-asset-2e65be.s3.amazonaws.com  # Timeout
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.15.185.203                 github-production-repository-file-5c1aeb.s3.amazonaws.com  # Timeout
-16.15.188.174                 github-production-user-asset-6210df.s3.amazonaws.com  # Timeout
-16.182.73.105                 github-com.s3.amazonaws.com  # Timeout
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6629,8 +6614,6 @@
 183.136.207.132 ultimateota.d.miui.com
 184.85.65.125 steamcommunity.com
 184.85.65.125 www.steamcommunity.com
-185.199.108.153               github.io
-185.199.108.153               githubstatus.com
 185.199.110.133 avatars.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars1.githubusercontent.com
@@ -6654,30 +6637,11 @@
 185.199.110.154 docs.github.com
 185.199.110.154 github.githubassets.com
 185.199.110.154 github.githubassets.com  #网页排版
-185.199.111.133               avatars.githubusercontent.com
-185.199.111.133               avatars0.githubusercontent.com
-185.199.111.133               avatars1.githubusercontent.com
-185.199.111.133               avatars2.githubusercontent.com
-185.199.111.133               avatars3.githubusercontent.com
-185.199.111.133               avatars4.githubusercontent.com
-185.199.111.133               avatars5.githubusercontent.com
-185.199.111.133               camo.githubusercontent.com
-185.199.111.133               cloud.githubusercontent.com
-185.199.111.133               desktop.githubusercontent.com
-185.199.111.133               favicons.githubusercontent.com
-185.199.111.133               github.map.fastly.net
-185.199.111.133               media.githubusercontent.com
-185.199.111.133               objects.githubusercontent.com
-185.199.111.133               private-user-images.githubusercontent.com
-185.199.111.133               raw.githubusercontent.com
-185.199.111.133               user-images.githubusercontent.com
-185.199.111.154               github.githubassets.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#.bot-per-times
 18comic.vip##IMG[src^='//18comic.vip/media/albums/']
-192.0.66.2                    github.blog
 192.0.66.2 github.blog
 192.0.80.242 0.gravatar.com
 192.0.80.242 1.gravatar.com
@@ -6690,10 +6654,6 @@
 20.200.245.245 api.github.com
 20.200.245.247 gist.github.com
 20.200.245.247 github.com
-20.205.243.165                codeload.github.com  # Timeout
-20.205.243.166                gist.github.com  # Timeout
-20.205.243.166                github.com  # Timeout
-20.205.243.168                api.github.com  # Timeout
 20.27.177.113 github.com
 20.27.177.116 api.github.com
 20.43.185.14 github.dev
