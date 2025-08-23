@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-08-24 00:09:04（北京时间）
+! Version: 2025-08-24 02:10:39（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16681
+! Total count: 16680
 # AdClose 专用广告规则
-# 生成时间: 2025-08-23 16:09:03（北京时间）
+# 生成时间: 2025-08-23 18:10:38（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -6818,7 +6818,6 @@ domain, h2.18sd.cn
 domain, h21n.top
 domain, h2ji5.xyz
 domain, h2tcbox.baidu.com
-domain, h35.ynodd.cn
 domain, h45pmx1.cn
 domain, h4b0srs.cn
 domain, h5.analytics.126.net
