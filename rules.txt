@@ -2,11 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-08-29 13:19:45（北京时间）
+! Version: 2025-08-29 13:21:18（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 29307
--1325890192.cos.
-
+! Total count: 29305
 
 #   美团
 #  京东
@@ -1891,6 +1889,7 @@
 *-normal.zijieapi.com*
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
+-1325890192.cos.
 .buzz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net
 .buzz/*0*0*0*==$third-party
 .cn/2022/*/*.txt$third-party
@@ -8422,6 +8421,238 @@
 0.0.0.0 zwfw.mps.gov.cn
 0.0.0.0 zymo.mps.weibo.com
 0.0.0.0 zz.bdstatic.com
+103.230.123.190 steamcommunity.com
+103.230.123.190 www.steamcommunity.com
+103.99.35.13 userstorage.mega.co.nz
+103.99.35.13 userstroage.mega.co.nz
+103.99.35.250 jp.static.mega.co.nz
+103.99.35.251 sg.static.mega.co.nz
+108.138.246.125 api.themoviedb.org
+108.177.104.188     alt7-mtalk.google.com
+108.177.125.188 alt4-mtalk.google.com
+108.177.125.188 mtalk.google.com  #台湾
+108.177.97.188 alt2-mtalk.google.com
+110.43.121.13 bigota.d.miui.com
+110.43.121.13 hugeota.d.miui.com
+110.43.121.249 bigota.d.miui.com
+110.43.121.249 hugeota.d.miui.com
+118pan.com##.card.mt-2:nth-child(2)
+120ask.com##IFRAME[width='400']
+123.6.13.6 bigota.d.miui.com
+123.6.13.6 hugeota.d.miui.com
+123pan.com##.adv-container-pc
+123pan.com##.banner_all_wrap
+123pan.com##.slick-slider, .slick-initialized
+127.0.0.1 cn.app.chat.xiaomi.net
+127.0.0.1 etl-xlmc-ssl.sandai.net
+127.0.0.1 localhost
+13.107.246.73                 vscode.dev
+13.107.42.16                  pipelines.actions.githubusercontent.com
+13.107.42.16 pipelines.actions.githubusercontent.com
+13.226.198.225 thetvdb.com
+13.226.254.58 image.tmdb.org
+13.35.0.128 api.themoviedb.org
+140.82.112.18 github.community
+140.82.112.25                 alive.github.com
+140.82.112.25                 live.github.com
+140.82.112.25 live.github.com
+140.82.113.18                 github.community
+140.82.113.21                 central.github.com
+140.82.113.21 collector.github.com
+140.82.113.22                 education.github.com
+140.82.113.22 central.github.com
+140.82.113.26 alive.github.com
+140.82.114.21                 api.individual.githubcopilot.com
+140.82.114.21                 collector.github.com
+140.82.116.3 gist.github.com
+142.250.107.188 alt5-mtalk.google.com #US
+142.250.115.188     alt6-mtalk.google.com
+142.250.115.188 alt6-mtalk.google.com #US
+142.250.141.188     alt2-mtalk.google.com
+142.250.152.188     alt8-mtalk.google.com
+142.250.152.188 alt7-mtalk.google.com #US
+142.250.157.188     mtalk.google.com
+142.250.157.188 alt5-mtalk.google.com
+142.251.10.188 alt3-mtalk.google.com #JP
+142.251.10.188 alt7-mtalk.google.com
+142.251.12.188 alt4-mtalk.google.com #JP
+142.251.170.188 alt1-mtalk.google.com #TW
+142.251.8.188 alt6-mtalk.google.com
+146.75.121.194 github.global.ssl.fastly.net
+146.75.48.133 media.githubusercontent.com
+146.75.48.133 objects.githubusercontent.com
+146.75.48.133 raw.githubusercontent.com
+146.75.48.133 release-assets.githubusercontent.com
+151.101.193.194               github.global.ssl.fastly.net
+151.101.76.133 raw.github.com
+16.15.177.176                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+16.15.180.163                 github-com.s3.amazonaws.com
+16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
+16.15.218.213                 github-production-release-asset-2e65be.s3.amazonaws.com
+163.com##.freeVip
+163.com##.js-open-app
+173.194.202.188     alt4-mtalk.google.com
+18.65.159.31 api.themoviedb.org
+180.163.150.33      dl.l.google.com
+180.163.151.161     dl.google.com
+182.239.104.89 bigota.d.miui.com
+182.239.104.89 hugeota.d.miui.com
+183.136.207.132 bigota.d.miui.com
+183.136.207.132 hugeota.d.miui.com
+183.136.207.132 superota.d.miui.com
+183.136.207.132 ultimateota.d.miui.com
+184.85.65.125 steamcommunity.com
+184.85.65.125 www.steamcommunity.com
+185.199.108.153               github.io
+185.199.108.153               githubstatus.com
+185.199.108.154               github.githubassets.com
+185.199.110.133 avatars.githubusercontent.com
+185.199.110.133 avatars0.githubusercontent.com
+185.199.110.133 avatars1.githubusercontent.com
+185.199.110.133 avatars2.githubusercontent.com
+185.199.110.133 avatars3.githubusercontent.com
+185.199.110.133 avatars4.githubusercontent.com
+185.199.110.133 avatars5.githubusercontent.com
+185.199.110.133 camo.githubusercontent.com
+185.199.110.133 cloud.githubusercontent.com
+185.199.110.133 desktop.githubusercontent.com
+185.199.110.133 github.io
+185.199.110.133 github.map.fastly.net
+185.199.110.133 media.githubusercontent.com
+185.199.110.133 objects.githubusercontent.com
+185.199.110.133 raw.github.com
+185.199.110.133 raw.githubusercontent.com
+185.199.110.133 user-images.githubusercontent.com
+185.199.110.153 githubstatus.com
+185.199.110.153 lsposed.github.io
+185.199.110.153 topjohnwu.github.io
+185.199.110.154 docs.github.com
+185.199.110.154 github.githubassets.com
+185.199.110.154 github.githubassets.com  #网页排版
+185.199.111.133               avatars.githubusercontent.com
+185.199.111.133               avatars0.githubusercontent.com
+185.199.111.133               avatars1.githubusercontent.com
+185.199.111.133               avatars2.githubusercontent.com
+185.199.111.133               avatars3.githubusercontent.com
+185.199.111.133               avatars4.githubusercontent.com
+185.199.111.133               avatars5.githubusercontent.com
+185.199.111.133               camo.githubusercontent.com
+185.199.111.133               cloud.githubusercontent.com
+185.199.111.133               desktop.githubusercontent.com
+185.199.111.133               favicons.githubusercontent.com
+185.199.111.133               github.map.fastly.net
+185.199.111.133               media.githubusercontent.com
+185.199.111.133               objects.githubusercontent.com
+185.199.111.133               private-user-images.githubusercontent.com
+185.199.111.133               raw.githubusercontent.com
+185.199.111.133               user-images.githubusercontent.com
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#.bot-per-times
+18comic.vip##IMG[src^='//18comic.vip/media/albums/']
+192.0.66.2                    github.blog
+192.0.66.2 github.blog
+192.0.80.242 0.gravatar.com
+192.0.80.242 1.gravatar.com
+192.0.80.242 2.gravatar.com
+192.0.80.242 lb.gravatar.com
+192.0.80.242 s.gravatar.com
+192.0.80.242 secure.gravatar.com
+192.0.80.242 www.gravatar.com
+192.178.131.188 alt8-mtalk.google.com #US
+20.200.245.245 api.github.com
+20.200.245.247 gist.github.com
+20.200.245.247 github.com
+20.205.243.165                codeload.github.com
+20.205.243.166                gist.github.com
+20.205.243.166                github.com
+20.205.243.168                api.github.com
+20.27.177.113 github.com
+20.27.177.116 api.github.com
+20.43.185.14 github.dev
+208.80.154.224 zh.wikipedia.org
+216.239.32.40 translate-pa.googleapis.com
+216.239.32.40 translate.google.com
+216.239.32.40 translate.googleapis.com
+23.12.10.105 steamcommunity.com
+23.201.165.153 steam-chat.com
+23.204.10.89 api.steampowered.com
+23.204.10.89 help.steampowered.com
+23.215.0.204 steamcdn-a.akamaihd.net
+23.222.193.171 store.steampowered.com
+23.49.100.232 api.pinterest.com
+23.49.100.232 i.pinimg.com
+23.49.100.232 pinterest.com
+23.49.100.232 trk.pinterest.com
+23.49.100.232 v1.pinimg.com
+23.49.100.232 www.pinterest.com
+23.53.35.199 cdn.akamai.steamstatic.com
+23.53.35.202 community.akamai.steamstatic.com
+23.53.35.204 store.akamai.steamstatic.com
+23.58.97.230 store.steampowered.com
+3.5.28.146 github-com.s3.amazonaws.com
+31.216.145.5 mega.nz
+35.181.164.242 community.oneplus.com
+35.181.220.27 community.oneplus.com
+3dmgame.com##.alertad
+3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
+423down.com##LI.item:has(.sticky-post)
+45.116.79.187 ads.api.fakeloc.cc
+45.116.79.187 api.fakeloc.cc
+45.116.79.187 av1.xdrig.com
+45.116.79.187 fakeloc.cc
+45.116.79.187 fakelocation.api.lerist.dev
+47.102.115.14 translate-pa.googleapis.com
+47.102.115.14 translate.google.com
+47.102.115.14 translate.googleapis.com
+47.246.37.220 bigota.d.miui.com
+47.246.37.220 hugeota.d.miui.com
+52.216.41.73                  github-production-user-asset-6210df.s3.amazonaws.com
+52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.216.56.97 github-cloud.s3.amazonaws.com
+52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
+52.84.166.68 api.themoviedb.org
+52.84.166.71 api.themoviedb.org
+52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+54.192.73.28 image.tmdb.org
+54.231.163.17                 github-cloud.s3.amazonaws.com
+5dm.app##[src*="sinaimg.cn"]
+64.233.171.188      alt3-mtalk.google.com
+64.233.188.188 mtalk.google.com
+64.233.189.188 alt1-mtalk.google.com
+65.8.164.121 image.tmdb.org
+66.203.124.31 g.cdn1.mega.co.nz
+66.203.124.31 mega.co.nz
+66.203.124.31 www.mega.co.nz
+66.203.124.37 eu.static.mega.co.nz
+66.203.124.37 static.mega.co.nz
+66.203.124.49 cms2.mega.nz
+66.203.125.11 eu.api.mega.co.nz
+66.203.125.11 g.api.mega.co.nz
+66.203.125.12 lu.api.mega.co.nz
+66.203.125.28 reqstat.api.mega.co.nz
+66.203.125.53 w.api.mega.co.nz
+66.203.125.56 mcd270n310.karere.mega.nz
+66.203.127.13 g.static.mega.co.nz
+72.247.96.248 api.pinterest.com
+72.247.96.248 i.pinimg.com
+72.247.96.248 pinterest.com
+72.247.96.248 trk.pinterest.com
+72.247.96.248 v1.pinimg.com
+72.247.96.248 www.pinterest.com
+74.125.126.188      alt5-mtalk.google.com
+74.125.200.188      alt1-mtalk.google.com
+74.125.200.188 alt2-mtalk.google.com #SG
+74.125.200.188 alt8-mtalk.google.com
+74.125.204.188 alt3-mtalk.google.com
+90mh.org##[style$='background-size: 393px 125px !important;']
+91porn.com#@#.vjs-preroll
+91porny.com###playerJsvLayer.jsv-layer
+91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
+91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
+91porny.com/api/getPos?jspath=/
+99.84.238.181 image.tmdb.org
 :*/xcdn*/js/_init.js?$third-party
 ://*.yinghua*.*/bar$~third-party
 ://*banzhu*/js/cdn.js$~third-party
@@ -26180,7 +26411,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||track.tiara.kakao.com^
 ||track.toutiao.com^
 ||track.uc.cn^
-||track.uc.cn^
 ||track.uc.cn^$important
 ||track.ucdns.uc.cn^
 ||track.xiachufang.com^
@@ -29079,235 +29309,3 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||zzzzz4.52896368.com^
 ||奥门广场.com^
 ‖*.chat.bilibili.com
-3dmgame.com##.alertad
-3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
-3.5.28.146 github-com.s3.amazonaws.com
-5dm.app##[src*="sinaimg.cn"]
-13.107.246.73                 vscode.dev
-13.107.42.16                  pipelines.actions.githubusercontent.com
-13.107.42.16 pipelines.actions.githubusercontent.com
-13.226.198.225 thetvdb.com
-13.226.254.58 image.tmdb.org
-13.35.0.128 api.themoviedb.org
-16.15.177.176                 github-production-repository-file-5c1aeb.s3.amazonaws.com
-16.15.180.163                 github-com.s3.amazonaws.com
-16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.15.218.213                 github-production-release-asset-2e65be.s3.amazonaws.com
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#.bot-per-times
-18comic.vip##IMG[src^='//18comic.vip/media/albums/']
-18.65.159.31 api.themoviedb.org
-20.200.245.245 api.github.com
-20.200.245.247 gist.github.com
-20.200.245.247 github.com
-20.205.243.165                codeload.github.com
-20.205.243.166                gist.github.com
-20.205.243.166                github.com
-20.205.243.168                api.github.com
-20.27.177.113 github.com
-20.27.177.116 api.github.com
-20.43.185.14 github.dev
-23.12.10.105 steamcommunity.com
-23.201.165.153 steam-chat.com
-23.204.10.89 api.steampowered.com
-23.204.10.89 help.steampowered.com
-23.215.0.204 steamcdn-a.akamaihd.net
-23.222.193.171 store.steampowered.com
-23.49.100.232 api.pinterest.com
-23.49.100.232 i.pinimg.com
-23.49.100.232 pinterest.com
-23.49.100.232 trk.pinterest.com
-23.49.100.232 v1.pinimg.com
-23.49.100.232 www.pinterest.com
-23.53.35.199 cdn.akamai.steamstatic.com
-23.53.35.202 community.akamai.steamstatic.com
-23.53.35.204 store.akamai.steamstatic.com
-23.58.97.230 store.steampowered.com
-31.216.145.5 mega.nz
-35.181.164.242 community.oneplus.com
-35.181.220.27 community.oneplus.com
-45.116.79.187 ads.api.fakeloc.cc
-45.116.79.187 api.fakeloc.cc
-45.116.79.187 av1.xdrig.com
-45.116.79.187 fakeloc.cc
-45.116.79.187 fakelocation.api.lerist.dev
-47.102.115.14 translate-pa.googleapis.com
-47.102.115.14 translate.google.com
-47.102.115.14 translate.googleapis.com
-47.246.37.220 bigota.d.miui.com
-47.246.37.220 hugeota.d.miui.com
-52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-52.216.41.73                  github-production-user-asset-6210df.s3.amazonaws.com
-52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.216.56.97 github-cloud.s3.amazonaws.com
-52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
-52.84.166.68 api.themoviedb.org
-52.84.166.71 api.themoviedb.org
-54.192.73.28 image.tmdb.org
-54.231.163.17                 github-cloud.s3.amazonaws.com
-64.233.171.188      alt3-mtalk.google.com
-64.233.188.188 mtalk.google.com
-64.233.189.188 alt1-mtalk.google.com
-65.8.164.121 image.tmdb.org
-66.203.124.31 g.cdn1.mega.co.nz
-66.203.124.31 mega.co.nz
-66.203.124.31 www.mega.co.nz
-66.203.124.37 eu.static.mega.co.nz
-66.203.124.37 static.mega.co.nz
-66.203.124.49 cms2.mega.nz
-66.203.125.11 eu.api.mega.co.nz
-66.203.125.11 g.api.mega.co.nz
-66.203.125.12 lu.api.mega.co.nz
-66.203.125.28 reqstat.api.mega.co.nz
-66.203.125.53 w.api.mega.co.nz
-66.203.125.56 mcd270n310.karere.mega.nz
-66.203.127.13 g.static.mega.co.nz
-72.247.96.248 api.pinterest.com
-72.247.96.248 i.pinimg.com
-72.247.96.248 pinterest.com
-72.247.96.248 trk.pinterest.com
-72.247.96.248 v1.pinimg.com
-72.247.96.248 www.pinterest.com
-74.125.126.188      alt5-mtalk.google.com
-74.125.200.188      alt1-mtalk.google.com
-74.125.200.188 alt2-mtalk.google.com #SG
-74.125.200.188 alt8-mtalk.google.com
-74.125.204.188 alt3-mtalk.google.com
-90mh.org##[style$='background-size: 393px 125px !important;']
-91porn.com#@#.vjs-preroll
-91porny.com###playerJsvLayer.jsv-layer
-91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
-91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
-91porny.com/api/getPos?jspath=/
-99.84.238.181 image.tmdb.org
-103.230.123.190 steamcommunity.com
-103.230.123.190 www.steamcommunity.com
-103.99.35.13 userstorage.mega.co.nz
-103.99.35.13 userstroage.mega.co.nz
-103.99.35.250 jp.static.mega.co.nz
-103.99.35.251 sg.static.mega.co.nz
-108.138.246.125 api.themoviedb.org
-108.177.104.188     alt7-mtalk.google.com
-108.177.125.188 alt4-mtalk.google.com
-108.177.125.188 mtalk.google.com  #台湾
-108.177.97.188 alt2-mtalk.google.com
-110.43.121.13 bigota.d.miui.com
-110.43.121.13 hugeota.d.miui.com
-110.43.121.249 bigota.d.miui.com
-110.43.121.249 hugeota.d.miui.com
-118pan.com##.card.mt-2:nth-child(2)
-120ask.com##IFRAME[width='400']
-123pan.com##.adv-container-pc
-123pan.com##.banner_all_wrap
-123pan.com##.slick-slider, .slick-initialized
-123.6.13.6 bigota.d.miui.com
-123.6.13.6 hugeota.d.miui.com
-127.0.0.1 cn.app.chat.xiaomi.net
-127.0.0.1 etl-xlmc-ssl.sandai.net
-127.0.0.1 localhost
-140.82.112.18 github.community
-140.82.112.25                 alive.github.com
-140.82.112.25                 live.github.com
-140.82.112.25 live.github.com
-140.82.113.18                 github.community
-140.82.113.21                 central.github.com
-140.82.113.21 collector.github.com
-140.82.113.22                 education.github.com
-140.82.113.22 central.github.com
-140.82.113.26 alive.github.com
-140.82.114.21                 api.individual.githubcopilot.com
-140.82.114.21                 collector.github.com
-140.82.116.3 gist.github.com
-142.250.107.188 alt5-mtalk.google.com #US
-142.250.115.188     alt6-mtalk.google.com
-142.250.115.188 alt6-mtalk.google.com #US
-142.250.141.188     alt2-mtalk.google.com
-142.250.152.188     alt8-mtalk.google.com
-142.250.152.188 alt7-mtalk.google.com #US
-142.250.157.188     mtalk.google.com
-142.250.157.188 alt5-mtalk.google.com
-142.251.10.188 alt3-mtalk.google.com #JP
-142.251.10.188 alt7-mtalk.google.com
-142.251.12.188 alt4-mtalk.google.com #JP
-142.251.170.188 alt1-mtalk.google.com #TW
-142.251.8.188 alt6-mtalk.google.com
-146.75.121.194 github.global.ssl.fastly.net
-146.75.48.133 media.githubusercontent.com
-146.75.48.133 objects.githubusercontent.com
-146.75.48.133 raw.githubusercontent.com
-146.75.48.133 release-assets.githubusercontent.com
-151.101.193.194               github.global.ssl.fastly.net
-151.101.76.133 raw.github.com
-163.com##.freeVip
-163.com##.js-open-app
-173.194.202.188     alt4-mtalk.google.com
-180.163.150.33      dl.l.google.com
-180.163.151.161     dl.google.com
-182.239.104.89 bigota.d.miui.com
-182.239.104.89 hugeota.d.miui.com
-183.136.207.132 bigota.d.miui.com
-183.136.207.132 hugeota.d.miui.com
-183.136.207.132 superota.d.miui.com
-183.136.207.132 ultimateota.d.miui.com
-184.85.65.125 steamcommunity.com
-184.85.65.125 www.steamcommunity.com
-185.199.108.153               github.io
-185.199.108.153               githubstatus.com
-185.199.108.154               github.githubassets.com
-185.199.110.133 avatars.githubusercontent.com
-185.199.110.133 avatars0.githubusercontent.com
-185.199.110.133 avatars1.githubusercontent.com
-185.199.110.133 avatars2.githubusercontent.com
-185.199.110.133 avatars3.githubusercontent.com
-185.199.110.133 avatars4.githubusercontent.com
-185.199.110.133 avatars5.githubusercontent.com
-185.199.110.133 camo.githubusercontent.com
-185.199.110.133 cloud.githubusercontent.com
-185.199.110.133 desktop.githubusercontent.com
-185.199.110.133 github.io
-185.199.110.133 github.map.fastly.net
-185.199.110.133 media.githubusercontent.com
-185.199.110.133 objects.githubusercontent.com
-185.199.110.133 raw.github.com
-185.199.110.133 raw.githubusercontent.com
-185.199.110.133 user-images.githubusercontent.com
-185.199.110.153 githubstatus.com
-185.199.110.153 lsposed.github.io
-185.199.110.153 topjohnwu.github.io
-185.199.110.154 docs.github.com
-185.199.110.154 github.githubassets.com
-185.199.110.154 github.githubassets.com  #网页排版
-185.199.111.133               avatars.githubusercontent.com
-185.199.111.133               avatars0.githubusercontent.com
-185.199.111.133               avatars1.githubusercontent.com
-185.199.111.133               avatars2.githubusercontent.com
-185.199.111.133               avatars3.githubusercontent.com
-185.199.111.133               avatars4.githubusercontent.com
-185.199.111.133               avatars5.githubusercontent.com
-185.199.111.133               camo.githubusercontent.com
-185.199.111.133               cloud.githubusercontent.com
-185.199.111.133               desktop.githubusercontent.com
-185.199.111.133               favicons.githubusercontent.com
-185.199.111.133               github.map.fastly.net
-185.199.111.133               media.githubusercontent.com
-185.199.111.133               objects.githubusercontent.com
-185.199.111.133               private-user-images.githubusercontent.com
-185.199.111.133               raw.githubusercontent.com
-185.199.111.133               user-images.githubusercontent.com
-192.0.66.2                    github.blog
-192.0.66.2 github.blog
-192.0.80.242 0.gravatar.com
-192.0.80.242 1.gravatar.com
-192.0.80.242 2.gravatar.com
-192.0.80.242 lb.gravatar.com
-192.0.80.242 s.gravatar.com
-192.0.80.242 secure.gravatar.com
-192.0.80.242 www.gravatar.com
-192.178.131.188 alt8-mtalk.google.com #US
-208.80.154.224 zh.wikipedia.org
-216.239.32.40 translate-pa.googleapis.com
-216.239.32.40 translate.google.com
-216.239.32.40 translate.googleapis.com
-423down.com##LI.item:has(.sticky-post)

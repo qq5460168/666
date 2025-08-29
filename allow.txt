@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-08-29 13:19:45（北京时间）
+! Version: 2025-08-29 13:21:18（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 4505
+! Total count: 4472
 @@*.flyme.cn
 @@*.myapp.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -979,7 +979,6 @@
 @@||*.activity.windows.com^
 @@||*.akamai-cdn-content.com^
 @@||*.alipay.com^
-@@||*.alipay.com^
 @@||*.alipay.com^$important
 @@||*.anjuke.com$important
 @@||*.anjuke.com^
@@ -1180,7 +1179,6 @@
 @@||abtest3-misc-lf.zijieapi.com^
 @@||abtestvm.bytedance.com^
 @@||ac.dun.163.com^$important
-@@||ac.dun.163.com^$important
 @@||ac.dun.163yun.com^
 @@||ac.dun.163yun.com^$important
 @@||access.open.uc.cn^$important
@@ -1204,7 +1202,6 @@
 @@||accounts.youtube.com^$important
 @@||accscdn.m.taobao.com^
 @@||acg02.cc^
-@@||acs.m.taobao.com^
 @@||acs.m.taobao.com^
 @@||acs.m.taobao.com^$important
 @@||acs.youku.com^
@@ -1274,7 +1271,6 @@
 @@||alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com^
 @@||alissl.ucdl.pp.uc.cn^
 @@||alissl.ucdl.pp.uc.cn^$important
-@@||alissl.ucdl.pp.uc.cn^$important
 @@||aliyun.com^$important
 @@||aliyuncs.com/*.png
 @@||allawntech.com^$important
@@ -1330,7 +1326,6 @@
 @@||api-unionid.meituan.com^
 @@||api.account.xiaomi.com^
 @@||api.account.xiaomi.com^$important
-@@||api.account.xiaomi.com^$important
 @@||api.airpush.com^
 @@||api.amemv.com^
 @@||api.apple-cloudkit.com^$important
@@ -1344,7 +1339,6 @@
 @@||api.crashguard.me^
 @@||api.developer.xiaomi.com^
 @@||api.device.xiaomi.net^
-@@||api.device.xiaomi.net^
 @@||api.device.xiaomi.net^$important
 @@||api.ds.163.com^
 @@||api.edu.apple.com^$important
@@ -1352,7 +1346,6 @@
 @@||api.flash.cn^
 @@||api.huangye.miui.com^
 @@||api.io.mi.com^
-@@||api.io.mi.com^$important
 @@||api.io.mi.com^$important
 @@||api.iplay.163.com^
 @@||api.jdl.cn^
@@ -1373,7 +1366,6 @@
 @@||api.micloud.xiaomi.net^$important
 @@||api.miui.security.xiaomi.com^
 @@||api.miui.security.xiaomi.com^$important
-@@||api.miui.security.xiaomi.com^$important
 @@||api.miwifi.com^
 @@||api.neixin.cn^
 @@||api.nocturnal-narwhal.buzz^$domain=webtor.io
@@ -1389,7 +1381,6 @@
 @@||api.rikka.app^$important
 @@||api.sec.intl.miui.com^
 @@||api.sec.miui.com^
-@@||api.sec.miui.com^$important
 @@||api.sec.miui.com^$important
 @@||api.tiantiantiaosheng.com^
 @@||api.ts.feedback.qy.net^
@@ -1440,7 +1431,6 @@
 @@||app.market.xiaomi.com^$important
 @@||app.toutiao.com^
 @@||app.zhuanzhuan.com^
-@@||app.zhuanzhuan.com^$important
 @@||app.zhuanzhuan.com^$important
 @@||appattest.apple.com^$important
 @@||appcenter.ms^
@@ -1587,7 +1577,6 @@
 @@||browser.events.data.microsoft.com^
 @@||browser.events.data.msn.com^
 @@||browser.pipe.aria.microsoft.com^
-@@||browser.pipe.aria.microsoft.com^
 @@||bs-origin.pull.yximgs.com^
 @@||btrace.qq.com^
 @@||btrace.qq.com^$important
@@ -1652,7 +1641,6 @@
 @@||cdn.aligames.com^
 @@||cdn.ark.qq.com
 @@||cdn.ark.qq.com^
-@@||cdn.ark.qq.com^$important
 @@||cdn.ark.qq.com^$important
 @@||cdn.bootcdn.net^
 @@||cdn.cnbj1.fds.api.mi-img.com^
@@ -1796,12 +1784,10 @@
 @@||cm.bilibili.com^
 @@||cms-assets.unrealengine.com^
 @@||cms-bucket.ws.126.net^
-@@||cms-bucket.ws.126.net^
 @@||cmshow.qq.com^
 @@||cmshow.qq.com^$important
 @@||cmts.iqiyi.com^
 @@||cn-cd-dx-2.natfrp.cloud^
-@@||cn.app.chat.xiaomi.net^
 @@||cn.app.chat.xiaomi.net^
 @@||cn.app.chat.xiaomi.net^$important
 @@||cn.bing.com^
@@ -1911,7 +1897,6 @@
 @@||data.mistat.intl.xiaomi.com^
 @@||data.mistat.intl.xiaomi.com^$important
 @@||data.mistat.xiaomi.com^
-@@||data.mistat.xiaomi.com^
 @@||data.sec*.miui.com^
 @@||data.sec.miui.com^
 @@||data.services.jetbrains.com^
@@ -1985,10 +1970,8 @@
 @@||dns.adguard.com^
 @@||dns.adguard.com^$important
 @@||dns.icoa.cn^
-@@||dns.icoa.cn^
 @@||dns.iqiyi.com^
 @@||dns.weixin.qq.com^$important
-@@||dnscheck.tools^
 @@||dnscheck.tools^
 @@||doaxvv.com^$important
 @@||dockerstatic.com^
@@ -2114,7 +2097,6 @@
 @@||ereg.wip3.adobe.com^
 @@||erp.jd.com^
 @@||err.taobao.com^
-@@||etl-xlmc-ssl.sandai.net^
 @@||etl-xlmc-ssl.sandai.net^
 @@||ev-h.phncdn.com^
 @@||event.toggle.qq.com
@@ -2271,7 +2253,6 @@
 @@||git-scm.com^
 @@||gitcode.com^
 @@||gitee.com^
-@@||gitee.com^
 @@||gitee.io^
 @@||github.com.cnpmjs.org^
 @@||github.com^
@@ -2325,7 +2306,6 @@
 @@||gw.shouji.360.cn^
 @@||gweb-gettingstartedguide.appspot.com^$important
 @@||gx-target-experiments-frontend-api.gx.nvidia.com^
-@@||h-adashx.ut.taobao.com^
 @@||h-adashx.ut.taobao.com^
 @@||h.163.com^
 @@||h.trace.qq.com
@@ -2591,7 +2571,6 @@
 @@||isrg.trustid.ocsp.identrust.com^$important
 @@||issuecdn.baidupcs.com^
 @@||issuecdn.baidupcs.com^$important
-@@||issuecdn.baidupcs.com^$important
 @@||istrategy.beacon.qq.com^$important
 @@||isure.stream.qqmusic.qq.com^
 @@||item.taobao.com^
@@ -2769,7 +2748,6 @@
 @@||login.2345.cn^
 @@||login.2345.com^
 @@||login.bce.baidu.com^$domain=login.bce.baidu.com
-@@||login.live.com^
 @@||login.live.com^
 @@||login.live.com^$important
 @@||login.m.taobao.com^
@@ -3105,15 +3083,12 @@
 @@||nps.onyx.azure.net^$important
 @@||ns.itunes.apple.com^$important
 @@||nsclick.baidu.com^
-@@||nsclick.baidu.com^
-@@||nstool.netease.com^
 @@||nstool.netease.com^
 @@||nt2.ele.me
 @@||o.actio.systems^
 @@||o.alicdn.com^
 @@||o.data.mistat.xiaomi.com^
 @@||o15.officeredir.microsoft.com^$important
-@@||o2o.api.xiaomi.com^
 @@||o2o.api.xiaomi.com^
 @@||o2o.api.xiaomi.com^$important
 @@||oauth-login-drcn.platform.dbankcloud.com^
@@ -3194,7 +3169,6 @@
 @@||p*.qhimg.com^
 @@||p*.toutiaoimg.com^
 @@||p-l.play.aiseet.atianqi.com^
-@@||p.qlogo.cn^
 @@||p.qlogo.cn^
 @@||p.qlogo.cn^$important
 @@||p.zol-img.com.cn^$important
@@ -3280,7 +3254,6 @@
 @@||p9-tt.byteimg.com^
 @@||p9-webcast-sign.douyinpic.com^
 @@||p9.douyinpic.com^
-@@||pacaio.match.qq.com^
 @@||pacaio.match.qq.com^
 @@||pack.google.com^$important
 @@||package.wallpaper.cdn.pandora.xiaomi.com.lan^
@@ -3553,9 +3526,7 @@
 @@||s.163.com^
 @@||s.click.alimama.com^
 @@||s.click.taobao.com^
-@@||s.click.taobao.com^
 @@||s.click.taobao.com^$important
-@@||s.click.tmall.com^
 @@||s.click.tmall.com^
 @@||s.img.mix.sina.com.cn^
 @@||s.mvconf.f.360.cn^
@@ -3692,7 +3663,6 @@
 @@||sobot.com^
 @@||sofire.baidu.com^
 @@||sofire.baidu.com^$important
-@@||sofire.bdstatic.com^
 @@||sofire.bdstatic.com^
 @@||soft.360.cn^
 @@||soft.tbs.imtt.qq.com^
@@ -4033,7 +4003,6 @@
 @@||update.app.2345.com^
 @@||update.intl.miui.com^$important
 @@||update.miui.com^$important
-@@||update.miui.com^$important
 @@||updateinfo.market.xiaomi.com^
 @@||updates-http.cdn-apple.com^$important
 @@||updates.cdn-apple.com^$important
@@ -4103,7 +4072,6 @@
 @@||venus.yhd.com^
 @@||verify.cmpassport.com^
 @@||verify.snssdk.com^
-@@||verify.zijieapi.com^
 @@||verify.zijieapi.com^
 @@||vertexsmb.com^$important
 @@||vfiles.gtimg.cn^
@@ -4490,7 +4458,6 @@
 @@||z.weixin.qq.com^
 @@||z3.cnzz.com^$important
 @@||zazhipu.com^
-@@||zconfig.alibabausercontent.com^
 @@||zconfig.alibabausercontent.com^
 @@||zenless.hoyoverse.com^
 @@||zhan.vivo.com.cn^
