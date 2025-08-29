@@ -1,29 +1,18 @@
-
 #!/bin/sh
+set -euo pipefail  # 增加错误处理，确保脚本更健壮
 LC_ALL='C'
 
-rm *.txt
+# 清理当前目录下的 txt 文件（建议明确路径，避免误删）
+rm -f *.txt
 
-wait
 echo '创建临时文件夹'
 mkdir -p ./tmp/
 
-#添加补充规则
+# 添加补充规则
 cp ./data/rules/adblock.txt ./tmp/rules01.txt
 cp ./data/rules/whitelist.txt ./tmp/allow01.txt
 
-cd tmp
-#下载yhosts规则
-#curl https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts | sed '/0.0.0.0 /!d; /#/d; s/0.0.0.0 /||/; s/$/\^/' > rules001.txt
-
-#下载大圣净化规则
-#curl https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts > rules002.txt
-#sed -i '/视频/d;/奇艺/d;/微信/d;/localhost/d' rules002.txt
-#sed -i '/127.0.0.1 /!d; s/127\.0\.0\.1 /||/; s/$/\^/' rules002.txt
-
-#下载乘风视频过滤规则
-#curl https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt | awk '!/^$/{if($0 !~ /[#^|\/\*\]\[\!]/){print "||"$0"^"} else if($0 ~ /[#\$|@]/){print $0}}' | sort -u > rules003.txt
-
+cd tmp || exit  # 增加目录切换失败处理
 
 echo '下载规则'
 rules=(
@@ -65,92 +54,98 @@ allow=(
   ""
 )
 
-for i in "${!rules[@]}" "${!allow[@]}"
-do
-  curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - -o "rules${i}.txt" --connect-timeout 60 -s "${rules[$i]}" |iconv -t utf-8 &
-  curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - -o "allow${i}.txt" --connect-timeout 60 -s "${allow[$i]}" |iconv -t utf-8 &
+# 修复规则和白名单的并行下载逻辑
+for i in "${!rules[@]}"; do
+  url="${rules[$i]}"
+  [ -z "$url" ] && continue
+  curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - \
+    -o "rules${i}.txt" --connect-timeout 60 -s "$url" | iconv -t utf-8 &
 done
+
+for i in "${!allow[@]}"; do
+  url="${allow[$i]}"
+  [ -z "$url" ] && continue
+  curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - \
+    -o "allow${i}.txt" --connect-timeout 60 -s "$url" | iconv -t utf-8 &
+done
+
 wait
 echo '规则下载完成'
 
-# 添加空格
-file="$(ls|sort -u)"
-for i in $file; do
-  echo -e '\n' >> $i &
+# 为每个文件添加空行结束（防止因末尾无换行导致处理错误）
+for f in $(ls *.txt | sort -u); do
+  echo -e '\n' >> "$f" &
 done
 wait
 
 echo '处理规则中'
 
-cat | sort -n| grep -v -E "^((#.*)|(\s*))$" \
- | grep -v -E "^[0-9f\.:]+\s+(ip6\-)|(localhost|local|loopback)$" \
- | grep -Ev "local.*\.local.*$" \
- | sed s/127.0.0.1/0.0.0.0/g | sed s/::/0.0.0.0/g |grep '0.0.0.0' |grep -Ev '.0.0.0.0 ' | sort \
- |uniq >base-src-hosts.txt &
-wait
-cat base-src-hosts.txt | grep -Ev '#|\$|@|!|/|\\|\*'\
- | grep -v -E "^((#.*)|(\s*))$" \
- | grep -v -E "^[0-9f\.:]+\s+(ip6\-)|(localhost|loopback)$" \
- | sed 's/127.0.0.1 //' | sed 's/0.0.0.0 //' \
- | sed "s/^/||&/g" |sed "s/$/&^/g"| sed '/^$/d' \
- | grep -v '^#' \
- | sort -n | uniq | awk '!a[$0]++' \
- | grep -E "^((\|\|)\S+\^)" & #Hosts规则转ABP规则
-
-cat | sed '/^$/d' | grep -v '#' \
- | sed "s/^/@@||&/g" | sed "s/$/&^/g"  \
- | sort -n | uniq | awk '!a[$0]++' & #将允许域名转换为ABP规则
-
-cat | sed '/^$/d' | grep -v "#" \
- |sed "s/^/@@||&/g" | sed "s/$/&^/g" | sort -n \
- | uniq | awk '!a[$0]++' & #将允许域名转换为ABP规则
-
-cat | sed '/^$/d' | grep -v "#" \
- |sed "s/^/0.0.0.0 &/g" | sort -n \
- | uniq | awk '!a[$0]++' & #将允许域名转换为ABP规则
-
-cat *.txt | sed '/^$/d' \
- |grep -E "^\/[a-z]([a-z]|\.)*\.$" \
- |sort -u > l.txt &
-
-cat \
- | sed "s/^/||&/g" | sed "s/$/&^/g" &
-
-cat \
- | sed "s/^/0.0.0.0 &/g" &
-
-
-echo 开始合并
-
-cat rules*.txt \
- |grep -Ev "^((\!)|(\[)).*" \
- | sort -n | uniq | awk '!a[$0]++' > tmp-rules.txt & #处理AdGuard的规则
-
-cat \
- | grep -E "^[(\@\@)|(\|\|)][^\/\^]+\^$" \
- | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" \
- | sort | uniq > ll.txt &
+# 提取处理规则：过滤空行、注释、IP格式不符合要求的行
+cat *.txt | sort -n | grep -v -E "^((#.*)|(\s*))$" \
+  | grep -v -E "^[0-9f\.:]+\s+(ip6\-)|(localhost|local|loopback)$" \
+  | grep -Ev "local.*\.local.*$" \
+  | sed 's/127.0.0.1/0.0.0.0/g' | sed 's/::/0.0.0.0/g' \
+  | grep '0.0.0.0' | grep -Ev '.0.0.0.0 ' \
+  | sort | uniq > base-src-hosts.txt &
 wait
 
+# Hosts规则转ABP规则
+cat base-src-hosts.txt | grep -Ev '#|\$|@|!|/|\\|\*' \
+  | grep -v -E "^((#.*)|(\s*))$" \
+  | grep -v -E "^[0-9f\.:]+\s+(ip6\-)|(localhost|loopback)$" \
+  | sed 's/127.0.0.1 //' | sed 's/0.0.0.0 //' \
+  | sed "s/^/||&/g" | sed "s/$/&^/g" | sed '/^$/d' \
+  | grep -v '^#' \
+  | sort -n | uniq | awk '!a[$0]++' \
+  | grep -E "^((\|\|)\S+\^)" > abp-rules.txt &
 
-cat *.txt | grep '^@' \
- | sort -n | uniq > tmp-allow.txt & #允许清单处理
+# 处理允许域名规则
+cat *.txt | grep -v "#" | sed '/^$/d' \
+  | sed "s/^/@@||&/g" | sed "s/$/&^/g" \
+  | sort -n | uniq | awk '!a[$0]++' > abp-allows.txt &
+
+# 处理hosts格式允许规则
+cat *.txt | grep -v "#" | sed '/^$/d' \
+  | sed "s/^/0.0.0.0 &/g" \
+  | sort -n | uniq | awk '!a[$0]++' > hosts-allows.txt &
+
 wait
 
-cp tmp-allow.txt .././allow.txt
-cp tmp-rules.txt .././rules.txt
+echo '开始合并'
 
-echo 规则合并完成
+# 处理AdGuard规则
+cat rules*.txt abp-rules.txt \
+  | grep -Ev "^((\!)|(\[)).*" \
+  | sort -n | uniq | awk '!a[$0]++' > tmp-rules.txt &
 
-# Python 处理重复规则
-python .././data/python/rule.py
-python .././data/python/filter-dns.py
+# 过滤有效规则格式
+cat abp-rules.txt abp-allows.txt \
+  | grep -E "^[(\@\@)|(\|\|)][^\/\^]+\^$" \
+  | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" \
+  | sort | uniq > ll.txt &
 
-# Start Add title and date
-python .././data/python/title.py
+wait
 
+# 处理允许清单
+cat allow*.txt abp-allows.txt \
+  | grep '^@' \
+  | sort -n | uniq > tmp-allow.txt &
+wait
+
+# 移动结果文件到上级目录
+cp tmp-allow.txt ../allow.txt
+cp tmp-rules.txt ../rules.txt
+
+echo '规则合并完成'
+
+# 调用Python脚本处理重复规则和生成不同格式
+python ../data/python/rule.py
+python ../data/python/filter-dns.py
+
+# 添加标题和日期
+python ../data/python/title.py
 
 wait
 echo '更新成功'
 
-exit
+exit 0
