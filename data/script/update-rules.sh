@@ -94,7 +94,7 @@ download_rules "rules" "${rules[@]}" &
 download_rules "allow" "${allow[@]}" &
 wait
 
-# 补充本地规则
+# 补充本地规则（修改后的路径）
 cp "$ROOT_DIR/data/rules/adblock.txt" "rules_local.txt" 2>/dev/null || {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] 警告：本地规则 adblock.txt 不存在，跳过" >> "$LOG_FILE"
 }
