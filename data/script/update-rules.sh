@@ -1,151 +1,132 @@
 #!/bin/sh
-set -euo pipefail  # 增加错误处理，确保脚本更健壮
+set -euo pipefail  # 严格错误处理
 LC_ALL='C'
+SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
+ROOT_DIR=$(dirname "$SCRIPT_DIR")
+TMP_DIR="$ROOT_DIR/tmp"
+LOG_FILE="$ROOT_DIR/update.log"
 
-# 清理当前目录下的 txt 文件（建议明确路径，避免误删）
-rm -f *.txt
+# 初始化日志
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] 开始规则更新" > "$LOG_FILE"
 
-echo '创建临时文件夹'
-mkdir -p ./tmp/
+# 清理环境
+cleanup() {
+    if [ -d "$TMP_DIR" ]; then
+        rm -rf "$TMP_DIR"
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] 清理临时文件完成" >> "$LOG_FILE"
+    fi
+}
+trap cleanup EXIT  # 退出时自动清理
 
-# 添加补充规则
-cp ./data/rules/adblock.txt ./tmp/rules01.txt
-cp ./data/rules/whitelist.txt ./tmp/allow01.txt
+# 创建工作目录
+mkdir -p "$TMP_DIR" || {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] 临时目录创建失败" >> "$LOG_FILE"
+    exit 1
+}
+cd "$TMP_DIR" || {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] 切换目录失败" >> "$LOG_FILE"
+    exit 1
+}
 
-cd tmp || exit  # 增加目录切换失败处理
-
-echo '下载规则'
+# 规则源定义
 rules=(
-  "https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt" #5460
-  "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #大萌主
-  "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt"  #DD
-  "https://raw.githubusercontent.com/Cats-Team/dns-filter/main/abp.txt" #AdRules DNS Filter
-  "https://raw.hellogithub.com/hosts" #GitHub加速
-  "https://raw.githubusercontent.com/qq5460168/dangchu/main/adhosts.txt" #测试hosts
-  "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt" #白名单
-  "https://raw.githubusercontent.com/qq5460168/Who520/refs/heads/main/Other%20rules/Replenish.txt"#补充
-  "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Blacklist.txt" #mphin
-  "https://gitee.com/zjqz/ad-guard-home-dns/raw/master/black-list" #周木木
-  "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/black.txt" #liwenjie119
-  "https://github.com/entr0pia/fcm-hosts/raw/fcm/fcm-hosts" #FCM Hosts
-  "https://raw.githubusercontent.com/790953214/qy-Ads-Rule/refs/heads/main/black.txt" #晴雅
-  "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
-  "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts" #下一个ID见
-  "https://raw.githubusercontent.com/tongxin0520/AdFilterForAdGuard/refs/heads/main/KR_DNS_Filter.txt" #tongxin0520
-  "https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/blacklist.txt" #Zisbusy
-  "" #空行跳过
-  "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/refs/heads/main/FuLingRules/FuLingBlockList.txt" #茯苓
-  "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/refs/heads/main/FuLingRules/FuLingAllowList.txt" #茯苓白名单
-  "" #空行跳过
+    "https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt"
+    "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt"
+    "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt"
+    "https://raw.githubusercontent.com/Cats-Team/dns-filter/main/abp.txt"
+    "https://raw.hellogithub.com/hosts"
+    "https://raw.githubusercontent.com/qq5460168/dangchu/main/adhosts.txt"
+    "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt"
+    "https://raw.githubusercontent.com/qq5460168/Who520/refs/heads/main/Other%20rules/Replenish.txt"
+    "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Blacklist.txt"
+    "https://gitee.com/zjqz/ad-guard-home-dns/raw/master/black-list"
+    "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/black.txt"
+    "https://github.com/entr0pia/fcm-hosts/raw/fcm/fcm-hosts"
+    "https://raw.githubusercontent.com/790953214/qy-Ads-Rule/refs/heads/main/black.txt"
+    "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt"
+    "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts"
+    "https://raw.githubusercontent.com/tongxin0520/AdFilterForAdGuard/refs/heads/main/KR_DNS_Filter.txt"
+    "https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/blacklist.txt"
+    "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/refs/heads/main/FuLingRules/FuLingBlockList.txt"
+    "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/refs/heads/main/FuLingRules/FuLingAllowList.txt"
 )
 
 allow=(
-  "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt"
-  "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt"
-  "https://file-git.trli.club/file-hosts/allow/Domains" #冷漠
-  "https://raw.githubusercontent.com/user001235/112/main/white.txt" #浅笑
-  "https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt" #jhsvip
-  "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt" #liwenjie119
-  "https://raw.githubusercontent.com/miaoermua/AdguardFilter/main/whitelist.txt" #喵二白名单
-  "https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/whitelist.txt" #Zisbusy
-  "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/refs/heads/main/FuLingRules/FuLingAllowList.txt" #茯苓
-  "https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt" #酷安cocieto
-  ""#空行跳过
-  ""
+    "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt"
+    "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt"
+    "https://file-git.trli.club/file-hosts/allow/Domains"
+    "https://raw.githubusercontent.com/user001235/112/main/white.txt"
+    "https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt"
+    "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt"
+    "https://raw.githubusercontent.com/miaoermua/AdguardFilter/main/whitelist.txt"
+    "https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/whitelist.txt"
+    "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/refs/heads/main/FuLingRules/FuLingAllowList.txt"
+    "https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt"
 )
 
-# 修复规则和白名单的并行下载逻辑
-for i in "${!rules[@]}"; do
-  url="${rules[$i]}"
-  [ -z "$url" ] && continue
-  curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - \
-    -o "rules${i}.txt" --connect-timeout 60 -s "$url" | iconv -t utf-8 &
+# 并行下载规则
+download_rules() {
+    local type=$1
+    shift
+    local urls=("$@")
+    local count=0
+    
+    for url in "${urls[@]}"; do
+        [ -z "$url" ] && continue
+        local filename="${type}${count}.txt"
+        if curl -m 60 --retry-delay 2 --retry 3 --parallel -k -L -C - \
+            -o "$filename" --connect-timeout 60 -s "$url"; then
+            echo "[$(date '+%Y-%m-%d %H:%M:%S')] 成功下载: $url" >> "$LOG_FILE"
+        else
+            echo "[$(date '+%Y-%m-%d %H:%M:%S')] 下载失败: $url" >> "$LOG_FILE"
+        fi
+        ((count++))
+    done
+    wait
+}
+
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] 开始下载规则" >> "$LOG_FILE"
+download_rules "rules" "${rules[@]}" &
+download_rules "allow" "${allow[@]}" &
+wait
+
+# 补充本地规则
+cp "$ROOT_DIR/data/rules/adblock.txt" "rules_local.txt" 2>/dev/null || true
+cp "$ROOT_DIR/data/rules/whitelist.txt" "allow_local.txt" 2>/dev/null || true
+
+# 规则预处理
+for f in *.txt; do
+    [ -f "$f" ] || continue
+    sed -i.bak '/^\s*$/d; s/\r//g' "$f"  # 清除空行和Windows换行符
+    echo >> "$f"  # 确保文件末尾有换行
+    rm -f "$f.bak"
 done
 
-for i in "${!allow[@]}"; do
-  url="${allow[$i]}"
-  [ -z "$url" ] && continue
-  curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - \
-    -o "allow${i}.txt" --connect-timeout 60 -s "$url" | iconv -t utf-8 &
-done
+# 生成基础规则
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] 开始处理规则" >> "$LOG_FILE"
+cat *.txt | grep -v -E "^(#|!|\[|@|\/|\\|\*|::)" \
+    | grep -v -E "^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\s+(localhost|local)" \
+    | sed 's/127.0.0.1/0.0.0.0/g' \
+    | awk '$2 !~ /\./ {next} {print "0.0.0.0 " $2}' \
+    | sort -u > base-src-hosts.txt
 
-wait
-echo '规则下载完成'
+# 格式转换
+cat base-src-hosts.txt | awk '{print "||" $2 "^"}' | sort -u > abp-rules.txt
+cat allow*.txt | grep -v "^#" | sed 's/^/@@||/; s/$/^/' | sort -u > abp-allows.txt
 
-# 为每个文件添加空行结束（防止因末尾无换行导致处理错误）
-for f in $(ls *.txt | sort -u); do
-  echo -e '\n' >> "$f" &
-done
-wait
+# 白名单排除逻辑
+grep -E '^@@\|\|.*\^' abp-allows.txt | sed -E 's/^@@\|\|(.*)\^$/\1/' > allow_domains.tmp
+grep -F -v -f allow_domains.tmp abp-rules.txt > filtered-rules.tmp
 
-echo '处理规则中'
+# 合并最终规则
+cat filtered-rules.tmp | sort -u > "$ROOT_DIR/rules.txt"
+cat abp-allows.txt | sort -u > "$ROOT_DIR/allow.txt"
 
-# 提取处理规则：过滤空行、注释、IP格式不符合要求的行
-cat *.txt | sort -n | grep -v -E "^((#.*)|(\s*))$" \
-  | grep -v -E "^[0-9f\.:]+\s+(ip6\-)|(localhost|local|loopback)$" \
-  | grep -Ev "local.*\.local.*$" \
-  | sed 's/127.0.0.1/0.0.0.0/g' | sed 's/::/0.0.0.0/g' \
-  | grep '0.0.0.0' | grep -Ev '.0.0.0.0 ' \
-  | sort | uniq > base-src-hosts.txt &
-wait
+# 调用Python处理
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] 开始格式转换" >> "$LOG_FILE"
+python3 "$ROOT_DIR/data/python/rule.py" >> "$LOG_FILE" 2>&1
+python3 "$ROOT_DIR/data/python/filter-dns.py" >> "$LOG_FILE" 2>&1
+python3 "$ROOT_DIR/data/python/title.py" >> "$LOG_FILE" 2>&1
 
-# Hosts规则转ABP规则
-cat base-src-hosts.txt | grep -Ev '#|\$|@|!|/|\\|\*' \
-  | grep -v -E "^((#.*)|(\s*))$" \
-  | grep -v -E "^[0-9f\.:]+\s+(ip6\-)|(localhost|loopback)$" \
-  | sed 's/127.0.0.1 //' | sed 's/0.0.0.0 //' \
-  | sed "s/^/||&/g" | sed "s/$/&^/g" | sed '/^$/d' \
-  | grep -v '^#' \
-  | sort -n | uniq | awk '!a[$0]++' \
-  | grep -E "^((\|\|)\S+\^)" > abp-rules.txt &
-
-# 处理允许域名规则
-cat *.txt | grep -v "#" | sed '/^$/d' \
-  | sed "s/^/@@||&/g" | sed "s/$/&^/g" \
-  | sort -n | uniq | awk '!a[$0]++' > abp-allows.txt &
-
-# 处理hosts格式允许规则
-cat *.txt | grep -v "#" | sed '/^$/d' \
-  | sed "s/^/0.0.0.0 &/g" \
-  | sort -n | uniq | awk '!a[$0]++' > hosts-allows.txt &
-
-wait
-
-echo '开始合并'
-
-# 处理AdGuard规则
-cat rules*.txt abp-rules.txt \
-  | grep -Ev "^((\!)|(\[)).*" \
-  | sort -n | uniq | awk '!a[$0]++' > tmp-rules.txt &
-
-# 过滤有效规则格式
-cat abp-rules.txt abp-allows.txt \
-  | grep -E "^[(\@\@)|(\|\|)][^\/\^]+\^$" \
-  | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" \
-  | sort | uniq > ll.txt &
-
-wait
-
-# 处理允许清单
-cat allow*.txt abp-allows.txt \
-  | grep '^@' \
-  | sort -n | uniq > tmp-allow.txt &
-wait
-
-# 移动结果文件到上级目录
-cp tmp-allow.txt ../allow.txt
-cp tmp-rules.txt ../rules.txt
-
-echo '规则合并完成'
-
-# 调用Python脚本处理重复规则和生成不同格式
-python ../data/python/rule.py
-python ../data/python/filter-dns.py
-
-# 添加标题和日期
-python ../data/python/title.py
-
-wait
-echo '更新成功'
-
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] 更新完成" >> "$LOG_FILE"
 exit 0
