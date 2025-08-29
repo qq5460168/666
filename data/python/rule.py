@@ -15,8 +15,8 @@ CONFIG = {
     "STATS_FILE": "rule_stats.json",           # 统计信息输出文件
     "USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
     "TITLE": "Merged Rules",                   # 输出文件标题
-    "VERSION": "1.0.0",                        # 版本号
-    "MAX_WORKERS": 5                           # 并发下载最大线程数
+    "VERSION": "1.0.1",                        # 版本号，已更新
+    "MAX_WORKERS": 5                           # 并发并发下载最大线程数
 }
 
 # 正则表达式模块，用于识别不同类型的规则：
@@ -42,13 +42,16 @@ def is_comment_line(line):
 def is_valid_rule(line):
     """
     判断规则是否合法：
-      过滤备注、空行，以及不匹配任何规则格式的行。
-    支持的规则类型包括域名规则、元素规则、正则规则及修饰符规则。
+      过滤备注、空行、元素规则，以及不匹配任何规则格式的行。
+      注意：已排除元素规则
+    支持的规则类型包括域名规则、正则规则及修饰符规则。
     """
     if is_comment_line(line) or REGEX_PATTERNS["blank"].match(line):
         return False
+    # 检查是否为元素规则，如果是则返回False
+    if REGEX_PATTERNS["element"].search(line):
+        return False
     return (REGEX_PATTERNS["domain"].match(line) or 
-            REGEX_PATTERNS["element"].search(line) or 
             REGEX_PATTERNS["regex_rule"].match(line) or 
             REGEX_PATTERNS["modifier"].search(line))
 
@@ -75,6 +78,7 @@ def fetch_rules(source):
     """
     valid_rules = []
     invalid_rules = []
+    element_rules_count = 0  # 统计元素规则数量
     try:
         # 判断来源: 本地文件或网络文件
         if source.startswith("file:"):
@@ -87,10 +91,18 @@ def fetch_rules(source):
             lines = response.text.splitlines()
         # 针对每一行规则，执行有效性检验
         for line in map(str.strip, lines):
+            # 单独统计元素规则
+            if REGEX_PATTERNS["element"].search(line) and line and not is_comment_line(line):
+                element_rules_count += 1
+                continue  # 跳过元素规则，不加入任何列表
             if is_valid_rule(line):
                 valid_rules.append(line)
             elif line:
                 invalid_rules.append(line)
+        
+        if element_rules_count > 0:
+            logging.info(f"{source} 包含 {element_rules_count} 条元素规则，已跳过")
+            
     except requests.RequestException as e:
         logging.error(f"下载失败: {source} - {e}")
     except FileNotFoundError:
@@ -125,16 +137,18 @@ def filter_blacklist(rules):
     filtered_blacklist = [rule for rule in rules if not rule.startswith("@@") and extract_domain(rule) not in whitelist_domains]
     return {rule for rule in rules if rule.startswith("@@")} | set(filtered_blacklist)
 
-def write_stats(rule_count, total_count):
+def write_stats(rule_count, total_count, element_rules_total=0):
     """
     将规则统计信息写入 JSON 文件。
     参数:
       rule_count: 最终合并后的规则数量
       total_count: 所有规则（包括重复、无效规则）的数量
+      element_rules_total: 总共跳过的元素规则数量
     """
     stats = {
         "rule_count": rule_count,
         "total_count": total_count,
+        "element_rules_skipped": element_rules_total,  # 新增：统计跳过的元素规则总数
         "title": CONFIG["TITLE"],
         "version": CONFIG["VERSION"],
         "last_update": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
@@ -147,16 +161,17 @@ def process_sources(sources):
     """
     并发处理所有规则来源：
       1. 下载或读取规则文本；
-      2. 校验规则有效性；
+      2. 校验规则有效性（排除元素规则）；
       3. 进行简单的语法修正（调用 fix_rule ）；
       4. 汇总所有修正后的规则并记录错误报告。
     参数:
       sources: 来源列表，由内含 URL 或本地路径组成
     返回:
-      (合并后的规则集合, 错误报告字典)
+      (合并后的规则集合, 错误报告字典, 元素规则总数)
     """
     merged_rules = set()
     error_reports = {}
+    element_rules_total = 0  # 统计所有来源的元素规则总数
     with ThreadPoolExecutor(max_workers=CONFIG["MAX_WORKERS"]) as executor:
         future_to_source = {executor.submit(fetch_rules, s): s for s in sources}
         for future in as_completed(future_to_source):
@@ -170,17 +185,17 @@ def process_sources(sources):
                     logging.warning(f"{source} 发现 {len(invalid_rules)} 条无效规则")
             except Exception as e:
                 logging.error(f"处理来源时出错: {source} - {e}")
-    return merged_rules, error_reports
+    return merged_rules, error_reports, element_rules_total
 
 def main():
     """
     主函数：
       1. 读取规则来源文件中的所有来源地址；
-      2. 并发下载、校验并修正规则（包括元素规则）；
+      2. 并发下载、校验并修正规则（排除元素规则）；
       3. 使用过滤逻辑去除黑名单中与白名单冲突的规则；
       4. 对最终规则进行排序，并写入输出文件与统计信息文件。
     """
-    logging.info("开始处理规则文件")
+    logging.info("开始处理规则文件（不合并元素规则）")
     sources_file = Path(CONFIG["RULE_SOURCES_FILE"])
     if not sources_file.exists():
         logging.error(f"未找到规则来源文件: {CONFIG['RULE_SOURCES_FILE']}")
@@ -189,7 +204,7 @@ def main():
     with sources_file.open("r", encoding="utf8") as f:
         sources = [line.strip() for line in f if line.strip()]
 
-    merged_rules, error_reports = process_sources(sources)
+    merged_rules, error_reports, element_rules_total = process_sources(sources)
     final_rules = filter_blacklist(merged_rules)
 
     # 排序策略：先显示黑名单规则（以 "||" 开头），再显示白名单规则（以 "@@" 开头），最后按字母顺序排序
@@ -198,18 +213,22 @@ def main():
     with open(CONFIG["OUTPUT_FILE"], "w", encoding="utf8") as f:
         f.write("\n".join(sorted_rules))
         f.write(f"\n\n# Total count: {len(sorted_rules)}\n")
+        f.write(f"# Skipped element rules: {element_rules_total}\n")  # 新增：记录跳过的元素规则数量
         f.write(f"# Title: {CONFIG['TITLE']}\n")
         f.write(f"# Version: {CONFIG['VERSION']}\n")
 
-    logging.info(f"规则合并完成，输出到 {CONFIG['OUTPUT_FILE']}")
-    write_stats(len(sorted_rules), len(merged_rules))
+    logging.info(f"规则合并完成（已排除元素规则），输出到 {CONFIG['OUTPUT_FILE']}")
+    write_stats(len(sorted_rules), len(merged_rules), element_rules_total)
 
     if error_reports:
         logging.warning("以下来源存在无效规则:")
         for src, errors in error_reports.items():
             logging.warning(f"来源: {src}")
-            for error in errors:
+            # 只显示前5条无效规则，避免日志过多
+            for error in errors[:5]:
                 logging.warning(f"无效规则: {error}")
+            if len(errors) > 5:
+                logging.warning(f"... 还有 {len(errors)-5} 条无效规则未显示")
 
 if __name__ == "__main__":
     main()
