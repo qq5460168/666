@@ -2,10 +2,1888 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-08-29 13:15:39（北京时间）
+! Version: 2025-08-29 13:19:45（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27430
+! Total count: 29307
+-1325890192.cos.
 
+
+#   美团
+#  京东
+#  哔哩哔哩
+#  糯米PHP 网站
+#  网易系 
+#  阿里系
+# ADS
+# ADjust
+# Adnxs
+# AppLovin
+# AppsFlyer营销
+# Branch营销
+# CrashGuard服务
+# Crwdcntrl
+# Flurry
+# GitHub520 Host End
+# GitHub520 Host Start
+# Google | 谷歌
+# Inmobi
+# Kugou | 酷狗音乐
+# Mtgglobals
+# NOMO APP
+# Star me: https://github.com/521xueweihan/GitHub520
+# SuperSonicAds
+# Taboola
+# Todesk
+# TrAdPlus
+# Update time: 2025-08-29T12:52:52+08:00
+# Update url: https://raw.hellogithub.com/hosts
+# Vungle
+# [小说]
+# [视频客户端过滤器]
+# ip138
+# other
+# twitter
+# 作者主页：https://github.com/Kuroba-Sayuki
+# 作者名称：Kuroba-Sayuki
+# 修复小米健康无法打开手表公交卡的问题
+# 太平洋科技
+# 头条相关
+# 小米云服务状态
+# 小米社区
+# 小米系
+# 应用汇
+# 影视网站广告 yhdm04.com
+# 微信红包
+# 抖音小程序
+# 抖音系
+# 拦截Twitter广告
+# 拦截大象驾到APP广告接口
+# 拦截广告布局接口
+# 拦截蓝狐视频APP广告API
+# 搜狗输入法
+# 支付宝
+# 支付宝以及淘宝农场任务
+# 放行123云盘手机网页布局
+# 放行17173
+# 放行360搜索
+# 放行58同城
+# 放行BOSS直聘页面加载
+# 放行Google play商店应用下载接口
+# 放行Google搜索移动端
+# 放行Google登录界面布局
+# 放行Google部分网页布局
+# 放行IP地址查询
+# 放行IP查询＆DNS查询
+# 放行TapTap
+# 放行Yep搜索引擎
+# 放行steam APP图片加载
+# 放行一甜相机
+# 放行九游门户
+# 放行便民查询网
+# 放行凤凰网科技
+# 放行即梦AI
+# 放行大众点评
+# 放行学信网APP内刷新
+# 放行安居客
+# 放行小红书
+# 放行小鸡词典官网加载
+# 放行弹弹play磁力播放
+# 放行手机网易网
+# 放行拼多多
+# 放行搜图引擎
+# 放行搜狗
+# 放行海信官网
+# 放行海尔官网
+# 放行游侠网
+# 放行番茄小说APP
+# 放行番茄畅听
+# 放行百度图片首页顶部功能区图片
+# 放行百度搜索
+# 放行百度经验排版
+# 放行知乎
+# 放行磁力在线解析观看下载
+# 放行网易CC直播
+# 放行网易DNS检测工具
+# 放行网易MuMu模拟器官网
+# 放行网易云商
+# 放行网易云游戏平台
+# 放行网易云课堂
+# 放行网易云音乐
+# 放行网易伏羲官网
+# 放行网易体育网
+# 放行网易充值中心
+# 放行网易发烧游戏平台
+# 放行网易号官网
+# 放行网易大神社区
+# 放行网易官网
+# 放行网易家长关爱平台
+# 放行网易开源镜像站
+# 放行网易招聘
+# 放行网易数帆官网
+# 放行网易新闻官网＆邮箱看世界窗口
+# 放行网易易盾
+# 放行网易有数BI官网
+# 放行网易游戏内容社区
+# 放行网易游戏官网
+# 放行网易游戏客服中心
+# 放行网易游戏隐私政策接口
+# 放行网易藏宝阁
+# 放行网易邮箱
+# 放行网易雷火事业群官网
+# 放行网易靓号官网
+# 放行联通手机营业厅功能页面与图片显示
+# 放行蓝奏云
+# 放行豌豆荚
+# 放行迅雷下载加速
+# 放行酷安
+# 放行阅文集团
+# 放行青柠起始页
+# 放行黑猫投诉
+# 文件名称：茯苓允许列表
+# 文件名称：茯苓拦截列表
+# 更新时间：2025-05-18
+# 更新时间：2025-06-17
+# 流氓下载器
+# 番茄系
+# 百度相关网页提示App内阅读左侧Logo
+# 百度贴吧
+# 皮皮虾无法访问问题
+# 知乎
+# 绕过企业证书过期
+# 网易云蜗牛阅读^
+# 美团
+# 腾讯视频
+# 色情广告图片服务器
+# 规则说明A：列表规则均为网络冲浪时抓取，并已通过实机测试。
+# 规则说明B：规则具有时效性，使用前可自行排查当前域名是否有效。
+# 避免迅雷版权问题
+# 酷狗
+# 项目主页：https://github.com/Kuroba-Sayuki/FuLing-AdRules
+# 项目说明：本项目无开源许可证，禁止二次分发，仅作「学习＆存档」使用。
+## 163登陆
+## 信息流及评论区广告
+## 小米云服务备份
+###
+###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
+###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
+###ad-header-mobile-contener
+###ad-index.position-relative
+###adDisabledBtn
+###bc_dp_m
+###bl_mobile_float[style='height: 152px;']
+###bottomNavad
+###bottom_ads.hl_bottom_ads
+###content-wrapper > div.container-fluid.pb-0:first-child > div.video-block.section-padding:last-child > div.row > div.col-md-4:last-child > div.single-video-right > div.row > div.col-md-12:first-child > div.adblock:first-child
+###coupletBox
+###downapp1
+###header_global_ad
+###hongbao20201217
+###imgad
+###kp-hid-sport-m.fed-part-layout.fed-back-whits.fed-hide-md.uk-alert
+###mobile-ad.hidden-md
+###mobile-index > div#vodbm
+###mobile-index > div[id^="ins"]
+###sOIcquIT
+###t4>a
+###topNavad
+###vid_overlay
+###whYuTlxF
+##.C1U,.C1M,.C2L,.C2R
+##.__isboostOverContent
+##.ad_img
+##.ads-bg.ads-bg-home
+##.advertise
+##.adwap
+##.ayx[style="position: fixed;bottom: -10px;right:0;z-index:999;width:250px"]
+##.banner-container-h5 > .banner_all_wrap
+##.bottom-pic,.col-pd.mb10
+##.clearfix > a > IMG[referrerpolicy='no-referrer'][src]:not([style='display: block;'])
+##.cpcad
+##.fc_foot
+##.fed-part-advs.fed-text-center.fed-font-xvi
+##.ff-ads
+##.gr_slide_car_inner
+##.guding312
+##.mi_btcon.ad
+##.modalJS_object
+##.player_pic_link > [src*='/player.gif']
+##.qGXjvb
+##.read-container [onclick='goAppHtml();']
+##.scaled-juicyads
+##.ssr1
+##.theme-dark > .ayx > a
+##.tp_advertising
+##.vp-project-home > .ads-container
+##.width.imgs_1
+##.zozoads
+##360扫地机
+##360摄像机
+##360防骚扰大师
+##7723游戏盒
+##A > IMG[alt][src*='resources/images/']
+##A#floating-banner
+##A.gotoclick[adv_id]
+##A.toptxt[target='_blank']
+##A.wrapper_bg_c.hidden-xs
+##ASIDE[id^='custom_html-']
+##A[href*='-fghgdf.com']
+##A[href*='-fghhjj.com']
+##A[href*='//v.wanfumei.net']
+##A[href*='/adjump/?']
+##A[href*='aducx.com']
+##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
+##A[href*='ds2f1sd31g.vip']
+##A[href*='exuvu.com']
+##A[href*='ixeeo.com']
+##A[href*='jdbfknsbkldns.com']
+##A[href*='jialu6699h.vip']
+##A[href*='xzzkx.com']
+##A[href*='youqu.buzz']
+##A[href*='zbkrv.com']
+##A[href='/?'][target='_blank']
+##A[href='/hth.html']
+##A[href='/iwagbwfiwehaeyh/']
+##A[href='/statics/js/ky-a.html']
+##A[href='http://8hgpro.vip/']
+##A[href='http://95710.vip']
+##A[href='http://k023055.com']
+##A[href='http://kkyty29.cc/']
+##A[href='http://x5123.cc/']
+##A[href^='http'][style^='display:block;left:0;right:0;position:fixed;border-left:']
+##A[href^='http://cszb420.tinawd81.com/']
+##A[href^='http://h5.shangjinssp.com/sjprom'][style='display:block;']
+##A[href^='http://www.kyty1119.com']
+##A[href^='https://chmjmff.com/']
+##A[href^='https://d1-dm.online/go/']
+##A[href^='https://icrwt696.com']
+##A[href^='https://js.iconiclee.com']
+##A[href^='https://js.pico4pro.com']
+##A[href^='https://k.izret.com']
+##A[href^='https://tv2356.cc']
+##A[href^='https://v.frthv.com']
+##A[href^='https://www.ids20.co']
+##A[href^='https://www.nonstopclub.xyz']
+##A[href^='https://www.pcjx365.com']
+##A[href^='https://yongle008.com']
+##A[onclick$='()'][target='_top'][style*='.gif) no-repeat;background-size:100% 100%;']
+##A[rel='nofollow noopener'][href*='/game/xr/?attributionId=']
+##A[rel='nofollow'][href='/play/player-2-1.php']
+##A[rel='nofollow'][href='/play/tv.php']
+##A[style='width: 100%;height: 150px;z-index:1000;position: absolute;display:block;top: 0px;'][onclick$=';this.style.display="none";']
+##A[target='_blank'] > IMG[width='100%'][src*='.gif']
+##A[target='_blank'][href*='/auth/register?code=']
+##Appshare
+##BIUBIU加速器
+##BODY > DIV.ggcontainer
+##BT1207
+##DIV#advertisings.advertising
+##DIV#appss[style='padding:15px;']
+##DIV#bannerCtrl.source_container.swiper-wrapper
+##DIV#bfad
+##DIV#bl_mobile_float
+##DIV#bottom-ads
+##DIV#div1.div-relative[style='display:block;']
+##DIV#googleads-popup.popup.visible
+##DIV#links.links.my-1.row[style='font-size:20px']
+##DIV#mhbottom_ad_box
+##DIV#playlistbtn[style='padding: 10px;']
+##DIV#pos_nei_content
+##DIV#recommend-float.player-recommend-float > a
+##DIV#tads
+##DIV#top-ads
+##DIV#video-player-ads-wrap
+##DIV#wwads
+##DIV#xfb_lbox.zoomout_transition.zoomout
+##DIV.JS_mid_ad
+##DIV._42701c0173
+##DIV._4e544f1dde
+##DIV.ad-area.ad-area-fix-bottom
+##DIV.ad-content
+##DIV.ad_js
+##DIV.adj
+##DIV.ads.ads_w
+##DIV.advertisingConfiguration
+##DIV.appdownload_ad
+##DIV.bot-per-context[data-width='728'][data-height='90']
+##DIV.bot-per.visible-xs.visible-sm *
+##DIV.bottom-ad.hidden-lg
+##DIV.box-width.ec-ad
+##DIV.code-block[style='margin: 8px 0; clear: both;']
+##DIV.col-4.col-sm-2.col-xl-2.px-1.px-sm-2.pb-3.pt-3.pt-sm-0.d-block.d-sm-none
+##DIV.col-lg-3.col-md-3.col-sm-4.col-12.item.p-0.px-1
+##DIV.div_adhost
+##DIV.div_sticky2.hidden-lg
+##DIV.duilian[style*='z-index: 9999; top: 0px; ']
+##DIV.ec-ad.tim-box
+##DIV.fixed-bottom.d-block.d-sm-none.movies_ad
+##DIV.footer-appload.js-footer-appload
+##DIV.hidden-lg[style='position: absolute;bottom: 0px;z-index: 10;']
+##DIV.index_adpic
+##DIV.loc_banner.only-app
+##DIV.module-adslist
+##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
+##DIV.playVideo-centerAd
+##DIV.row.no-gutters.m-0
+##DIV.stui-player__item.clearfix > img[url]
+##DIV.swiper2.swiper-initialized.swiper-horizontal
+##DIV.theme-hope-content.ads-container
+##DIV[allowtransparency='true'][scrolling='no']
+##DIV[class$='_ad_wrap']
+##DIV[class*='home'][class*='Ads']
+##DIV[class*='id_ads__']
+##DIV[class][id][style$='px; background-size: 400px 127px !important;']
+##DIV[class^='ads_border_']
+##DIV[data-text-ad]
+##DIV[id^="__jadc0"]
+##DIV[style$='display:block;width:9.6vw;height:7.96875vw;background: #000;opacity:0.01;']
+##DIV[style$='display:block;width:9.6vw;height:7.96875vw;background:#000;opacity:0.01;']
+##DIV[style$='width:9.6vw;height:7.96875vw;background: #000;opacity:0.01;']
+##DIV[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important; height: 150px !important;']
+##DIV[style*='.xyz/gif/']
+##DIV[style*='animation: 1s ease 0.2s infinite normal none running shakegwegs; z-index:'][style*='background: url']
+##DIV[style*='display: block; width: 100%; left: 0px; position: fixed; z-index:'][style*='height: 25px; top: 133px;']
+##DIV[style*='height: 33.25px; top:'][style*='background-size: 400px 133px !important;']
+##DIV[style*='px; bottom: 0px; left: 0px; animation: 1.5s ease 0.2s infinite normal none running shakegwegs; z-index:']
+##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
+##DIV[style='background-color: rgb(249, 249, 249); display: flex; align-items: center; justify-content: center;']
+##DIV[style='clear: both; position: relative; width: 396px; height: 130px;']
+##DIV[style='position: absolute; inset: 0px; background: rgba(0, 0, 0, 0);']
+##DIV[style='position: fixed; bottom: 0px; left: 0px; width: 100%; height: 5.85rem; z-index: 99999;']
+##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
+##DIV[style='position: fixed; left: 0px; bottom: 0px; width: 100%; height: 120px; z-index: 2147483647 !important;']
+##DIV[style='position: fixed; line-height: 100vh; width: 100vw; top: 0px; left: 0px;']
+##DIV[style='position:relative !important;padding:0px !important;margin:0px !important;width:100% !important;overflow:hidden !important;font-size:0px !important;line-height:0px !important;']
+##DIV[style='width: 100%;background-color: black;color: white;padding: 15px 0;']
+##DIV[style^='box-sizing: border-box; position: relative; left: 0px; z-index: 214748']
+##DIV[style^='display: block; aspect-ratio: 728 / 90; background-image: url("/static/resources/lp.php']
+##DIV[style^='position: fixed; bottom: 50%; z-index: 19999 !important; ']
+##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
+##Faceu激萌
+##Flyme 游戏下载
+##IFRAME[src^='/Banner/index.html'][allowfullscreen='true']
+##IFRAME[src^='https://mydisplay.ctfile.com/popview.php']
+##IMG#diads
+##IMG.cupfox[src$='gif']
+##IMG.lazyload[src='/statics/img/load.gif']
+##IMG.playVideo-checkin-img
+##IMG[alt='155.fun']
+##IMG[alt='五一特惠']
+##IMG[alt^='kaiybet']
+##IMG[onclick='godown()'][src$='gif']
+##IMG[onclick='golh()'][src$='.gif']
+##IMG[referrerpolicy='no-referrer'][src$='.gif'][width='100%']
+##IMG[referrerpolicy='no-referrer'][style='box-sizing: border-box;height:calc(10vh); width:100%;padding: 0px 15px 10px 15px;']
+##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
+##IMG[src$='tywheying/vv2-960x80.gif']
+##IMG[src*='.xyz/tupian/'][src$='/h5.gif']
+##IMG[src*='//img4.qv1.ru/data/game/']
+##IMG[src*='/ds3/ssmh/']
+##IMG[src*='/gg/'][src$='180.gif'][src*='800']
+##IMG[src*='qimanwu_wap/static/adimages/']
+##IMG[src*='qmfcybwbf']
+##IMG[src*='tupian.guanggao']
+##IMG[src='/adBanner']
+##IMG[src='/js/imgs/taote.jpg']
+##IMG[src='https://tanju.vip/wapxiezi.png']
+##IMG[src^='http://socos.gitee.io/ss/poster'][alt][style='width: 100%;']
+##IMG[src^='https://dzfzfv.xyz/']
+##IMG[style='height:120px;width:100%;'][src*='/sucai/']
+##IMG[style='width: 100%;'][src^='https://ad.']
+##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
+##INS.adsbygoogle
+##INS[status='done'] A.external
+##OPPO商店登陆
+##Omofun
+##P[style$='transparent !important; font-size: 0px !important; text-indent: -10000px !important; height: 125px !important;']
+##P[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important;']
+##QQ
+##QQ音乐
+##SPAN#VuMk2.IgpuN2
+##SPAN#qdSZ2
+##SPAN.closebox1,SPAN.closebox2,SPAN.closebox3,SPAN.closebox4
+##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
+##SPAN[style^="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color:"]
+##Soul
+##UL[style='margin: 0px; padding: 0px; font-size: 0px; display: flex;']
+##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
+##[ad_dot_url]
+##[alt="要恰饭的嘛"]
+##[alt='52bl']
+##[alt='ACG里番']
+##[alt='ad']
+##[alt='西瓜社']
+##[at*='尼斯人注册送']
+##[class$="_main_outstream"][style="right: 0px;"]
+##[class][style*='px; bottom: 0px; left: 0px; z-index'][style$='width: 100vw; position: fixed;']
+##[class][style*='px; top: 0px; left: 0px; z-index'][style$='width: 100vw; position: fixed;']
+##[class][style*='px; top: 0px; left: 0px; z-index'][style$='width: 100vw; position: relative;']
+##[class^="chapter_"] > .baiduCenter
+##[data^='/banners/pr_advertising_ads_banner']
+##[href$='/ads.aspx']
+##[href*="/?channelCode="] > [referrerpolicy='no-referrer']
+##[href*="/entry/register/?i_code="]
+##[href*='.lookxmh3']
+##[href*='.top/?token=']
+##[href*='.xacg.info/']
+##[href*='3400.org']
+##[href*='amu6v.com']
+##[href*='anrvl.com']
+##[href*='baidugg123.cc']
+##[href*='pojuko.buzz']
+##[href*='slkdnlkfnskl.com']
+##[href*='snnrb.com']
+##[href*='sohu.com/hy-op']
+##[href*='zthbe.com']
+##[href="/ad/007.html"]
+##[href='/ad.html']
+##[href='/ad/bfy.html']
+##[href='/aga2/1661087']
+##[href='/jump.html']
+##[href='/my/dp.html']
+##[href='/my/gd.html']
+##[href='http://ky53362.com/']
+##[href='https://click.aliyun.com/m/1000332699/']
+##[href='https://dpurl.cn/HifSTUtz']
+##[href='https://okok.com.tw/']
+##[href='https://ttaxz087b.xyz']
+##[href='https://www.aiwajbh.com/mh.php']
+##[href^="https://9996867.com"]
+##[href^="https://lantianyong"]
+##[href^="openapp.jdmobile://virtual?params="]
+##[href^='http://j6597v.hjlego.com']
+##[href^='http://jg.awaliwa.com/']
+##[href^='http://mm.alameinv.com/']
+##[href^='https://31jrx5y7.com/']
+##[href^='https://65564535.com']
+##[href^='https://97749516.com/']
+##[href^='https://analytics.woozooo.com/jump.php?url=']
+##[href^='https://ccs.holor0803.cn']
+##[href^='https://dc.vvsmse72']
+##[href^='https://down.erperweima.top/']
+##[href^='https://dt.mydrivers.com/b.ashx']
+##[href^='https://fcc.hxaxfcc.cn/']
+##[href^='https://gougew.lanzoub.com/']
+##[href^='https://iluluweb.club']
+##[href^='https://jd.dangbei.com/']
+##[href^='https://jincai.sohu.com/']
+##[href^='https://js.xiaobaofei.com']
+##[href^='https://kcc.qrjxween.com/cc/']
+##[href^='https://luodi.aitaokeji.top/']
+##[href^='https://mtyshi.com/']
+##[href^='https://tz.jingjiezhenkong.com']
+##[href^='https://tz.kefuyuming.vip/']
+##[href^='https://uod217.com/']
+##[href^='https://w5979.com:']
+##[href^='https://www.00285164.com']
+##[href^='https://www.00426740.com']
+##[href^='https://www.jumbobag.cn']
+##[href^='https://www.qlspx.com:']
+##[href^='https://xcc.'][href*='cn/']
+##[href^='https://xxx.nunxun.com']
+##[id^="__ehbc0ejbc0hib"]
+##[id^="__ehbc0gjbc0ajb"]
+##[onclick*="trackEvent', 'ad"]
+##[onclick*='fjbglfrv.com']
+##[onclick*='https://i.opiwb.com:']
+##[onclick*='m.kanshuapp.net']
+##[onclick*='pypyj.com']
+##[onclick*='www.l4lui.com'],.col-12.position-relative>b
+##[onclick="window.open('http://682kg.com/')"]
+##[onclick="window.open('https://docs.qq.com/doc/DZGtmWUxpamJGTnNY');"]
+##[onclick='goAppHtml();']
+##[onclick='gourl()'][src^='/images/bfq/']
+##[onclick^="window.location.href='https://apps.apple.com/cn/app/%E9%80%9F%E9%98%85%E5%B0%8F%E8%AF%B4"]
+##[poster^='https://dingbu.bj.bcebos.com/']
+##[rel='nofollow'][href^='/book/baidu_verify_code']
+##[src$='/dibu.adadadad']
+##[src$='anyhosthub-480x90.gif']
+##[src*="tif"][style="width:100%;height:120px"],[src*="tif"][onerror="this.style.display=\'none\'"]
+##[src*='zdmbl.xyz']
+##[src='/images/c_l.png']
+##[src='/static/ads.png']
+##[src='http://m.guangzhoubingqing.com/88888.jpg']
+##[src='https://pnm.hpvitycz.cn/00.jpg']
+##[src^="https://img.sobot.com/chatres/"][title="sb"]
+##[src^='/MDassets/images/']
+##[src^='/Uploads/ad/'][src$='.gif'][alt='广告']
+##[src^='/banners/pr_advertising_ads_banner']
+##[src^='/static/resources/lp.php'][style^='max-width: 100%; transform-origin: left top;']
+##[src^='data:image/png;base64,iVBORw0KGgoAAAANSU'][style*='position: fixed; z-index: 2000000000; width: 30px; bottom:']
+##[src^='https://369x520.com']
+##[src^='https://ae01.alicdn.com/'][alt='歪歪漫画']
+##[src^='https://dingbu.bj.bcebos.com/']
+##[src^='https://immmg.owowqrf.cn']
+##[src^='https://kykqss.xyz']
+##[src^='https://l.bt5v.com/v.php']
+##[src^='https://play.cdn6.buzz/js/']
+##[src^='https://qwe0231141.bj.bcebos.com/']
+##[style$="both;margin: auto;text-align: center;line-height: initial;margin-bottom: 10px;"]
+##[style$=' 0% 0% / 100% no-repeat; height: 130px; width: 100%; position: relative;']
+##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
+##[style$='display:block;width:9.6vw;height:8.5vw;background: #000;opacity:0.01;']
+##[style$='width:9.6vw;height:6.40625vw;background: #000;opacity:0.01;']
+##[style*='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147'][style*='bottom: 132px;']
+##[style*='line-height: 115px; left: 0px; z-index: 0; width: 100vw; background: url']
+##[style*='px; top: 0px; left: 0px; animation: 1.5s ease 0.2s infinite normal none running shakegwegs; z-index:']
+##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !']
+##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !'] *
+##[style*='width: 100vw; background: url'][style$='no-repeat; position: fixed;'][style*='0px 0px / 100vw ']
+##[style*='width:9.6vw;height:8.5vw;background:#000;opacity:0.01;']
+##[style='box-sizing: border-box; position: relative; left: 0px; z-index: 912944; text-indent: -10em;']
+##[style='display: block; width: 100%; height: 125px; background-size: 100% 100%;']
+##[style='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 49px; bottom: 132px;']
+##[style='position:absolute !important;padding:0px !important;margin:0px !important;width:100% !important;font-size:0px !important;line-height:0px !important;']
+##[style='position:relative !important;padding:0px !important;margin:0px !important;line-height:1 !important;']
+##[style='text-align: center; margin: 40px 0; color: blue; font-size: larger;']
+##[style='top: 0vw; display: block;']
+##[style='top: 16.4vw; display: block;']
+##[style='top: 24.6vw; display: block;']
+##[style='top: 8.2vw; display: block;']
+##[style='width: 100%; height: 123.75px;']
+##[style='width: 100%; height: auto; position: fixed; left: 0px; top: 0px; z-index: 2147483647;']
+##[style='width: 100%;height:660px;z-index:2147483647;position:fixed;display:block;bottom:0px;']
+##[style='width:100%;height:auto;min-height:120px;position:relative;display:block;']
+##[style='z-index: 2147483647; width: 100%;height: auto;left: 0;right: 0;margin: auto;']
+##[style='z-index: 99999; text-indent: -10em;position: relative; left: 0px;box-sizing: border-box;']
+##[style^="pointer-events: none;background-image:url('https://33789.qqqwww987.site"],[style^='z-index: 2147483647; height: 123px; ']
+##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
+##[style^='display: block; z-index: 2147483646; width: 10%;']
+##[style^='display: block; z-index: 2147483646; width: 17px; ']
+##[style^='position: fixed; bottom: 20%; z-index: 19999 !important; ']
+##[style^='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: '][style*='; top: 0px; left: 0px;']
+##[style^='position: fixed; z-index: 2147483616; width: 10%; height: 32.5px;']
+##a > I.gg-icon
+##a > IMG[src$='.gif'][wapsrc][style^='width: 100%']
+##a.gggg[href^="https"]
+##a[href*=".com?s="]
+##a[href*='html?channelCode'] > IMG[src*='.gif'][width='100%']
+##a[href][target="_blank"] > img[width="100%"][src$=".gif"]
+##a[href^="/ad.html?url="]
+##a[href^="https://91keep.tv"]
+##body > A[ontouchstart='this.click();'][href]
+##body > DIV.ad3
+##body > DIV[class][style='top: 132px;']
+##body > DIV[class][style='top: 133px;']
+##body > DIV[class][style^='bottom: '][style$='vw; display: block;']
+##body > DIV[style*='height: 33px'][style*='132px !important;']
+##body > DIV[style='bottom: 130px;']
+##body > DIV[style='display: block; width: 100%; height: 132px;']
+##body > DIV[style='display: block; width: 100%; height: 133px;']
+##body > [id][style*='width:100%'][style*='min-height:120px']
+##body > a[id*='hudie_']
+##body > div#bottommob.bottommob
+##body > embed[id][src*="://"][src$="="]
+##body#chapterbody.novel_chapter [style='padding-top: 150px;']
+##body#nr_body #appss
+##body#nr_body [onclick='goAppHtml();']
+##body#nr_body a[href*="/?utm_source="]
+##body#nr_body div.fixed ~ *
+##body#nr_body font > [id]
+##body#nr_body.nr_all.c_nr > div > div[id][class] > [href]
+##body#nr_body.nr_all.c_nr > div[class] > DIV[style='height:90px;width:100%;']
+##body#nr_body.nr_all.c_nr > section[id]
+##body#read.read > a.appguide-wrap
+##body#read.read DIV[style$=' width: 100vw; position: relative;']
+##body#reader-m-fix IMG[src*='.gif'][style='width:100%;height:100%']
+##body#wrapper A[ontouchstart='this.click();']
+##body.active > div.myui-panel > DIV#home_slide
+##body.bg_xin > A[href*='com:'][target='_blank']
+##body.chapter > div.container div.slide-baidu *
+##body.conch-adjust-fix #component
+##body.conch-hasone section > span > video
+##body.fed-min-width.website-read > [style='bottom: 132px;']
+##body.no_overflow strong
+##body.page.player > DIV.shortcuts-mobile-overlay
+##body.page.player > div.popup.popup-tips.popup-icon.open
+##center > [href^='https://docs.qq.com/doc'][target='_blank']
+##center > a > IMG[alt$='到期']
+##center > div.hengfu
+##div#__addc0ddhc0iib1
+##div#apage.apage > div > ul > li > a
+##div#beijing.article_content.layui-clear > div.left > div > a
+##div#content.content div[id] > DIV[style*='z-index: 2147483647']
+##div#detail.selector-zero > div > DIV[style]
+##div#gmright
+##div#h2_player_prevideo > A[href][target='_blank']
+##div#header-wrapper.header_b > div#header
+##div#hengfu_wap_vod_xia > a
+##div#liveline > l,div#liveline > ll
+##div#main.main.read_page [id^="set_adds"]
+##div#notice_container > div.event-notice > div.modal
+##div#nr_body.nr_all.c_nr div.show-app2
+##div#page-back DIV.container.clearfix div > A > IMG[src]
+##div#playlistbtn > A[href='/ht.html']
+##div#reader-scroll.acgn-reader-chapter.v>div>center>strong>button
+##div.ad-area > [href]
+##div.ad-frame-container
+##div.am-gallery-item > a
+##div.appad
+##div.bf_qy DIV.copy_div_btn
+##div.callApp_fl_btn.an
+##div.close-player_pic[onclick="document.getElementById('player_pic').style.display='none'"]
+##div.container > DIV.t-img-box
+##div.container > IFRAME[align][width][src][border][height]
+##div.container > div.row div.yalayi_box
+##div.container.ff-bg > div.row.ff-row.slide
+##div.flex-1.order-first > DIV.under_player
+##div.homepage > div.main > div.content > DIV[style='width:100%;height:180px']
+##div.inn-content-reseter > a > IMG[decoding='async'][loading='lazy']
+##div.layout-box a > IMG[src*='.gif']
+##div.m0auto div.s_h,div.m0auto div.s_h + *
+##div.main div.content div[id].is_mb a[id] img[id]
+##div.maomi-content > SECTION.section.section-banner
+##div.maomi-content A[href='/baidu/index.html']
+##div.mobile > div.content IMG[src*='.gif']
+##div.module-list-right-title-wrap > div.normal-title-wrap > div > a
+##div.my-ad > a
+##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
+##div.page.player > div.main > div.content > div.module.module-player DIV[style='width:100%;height:180px']
+##div.page.view > div.main > div.content > DIV[style='width:100%;height:100px']
+##div.play_boxbg div[class$='_acmsd']
+##div.player-rm.rm-two.rm-list > a
+##div.poi-row IMG[width='950'][height='300'][style='max-width:100%;height:auto']
+##div.poi-row a > IMG[width='100%'][height='auto'][src]
+##div.post_list_ajax > A[target='_blank']
+##div.recommend > a[id*='hudie_']
+##div.row > DIV.md-r-panel
+##div.row > div[id] > ul > li.cpn > a
+##div.row.col5.clearfix:nth-of-type(2) > dl:nth-of-type(1)
+##div.slide-baidu IMG[src='/images/aw1.gif']
+##div.stui-pannel__bd > #t-img-box
+##div.stui-player.col-pd DIV[style='text-align:center']
+##div.swiper-slide > A[rel='nofollow noopenner']
+##div.synopsisArea > a[id*='hudie_']
+##div[class*='bookid_ads']
+##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
+##div[id$='ad1'][class^='text'],div[id$='ad2'][class^='text'],div[id$='ad3'][class^='text'],div[id$='ad4'][class^='text'],div[id$='ad5'][class^='text'],div[id$='ad6'][class^='text']
+##div[id*='cat_'][id*='_ad']
+##div[id] > div[style*='z-index: 2147483647; width: 100vw; background: url']
+##html.wap [style='left: 40%;']
+##https://www.itdog.cn/
+##iframe.ad-frame
+##img#hth[onclick$="hth.html')"]
+##img#hth[onclick^="window.open"]
+##oxk
+##secion#ly LI[role='group'],secion#ly > H2
+##section > SPAN[style='display: block; clear: both; overflow: hidden;']
+##section.global_video_bottom_dbtc
+##section.wrap > section.f0
+##span > A[href='###']
+##ul > li > A[href$='_list.html']
+##ul#page-list.layui-clear.page-wz > ul > li:not([class])
+##ul.thread_detail_ads
+##七猫免费小说
+##中国移动
+##乐播
+##乐播投屏
+##书旗小说
+##云闪付
+##今日头条
+##今日头条极速版
+##作业精灵
+##公共CDN
+##剪映
+##厂商推送
+##原神
+##咪咕视频
+##哔哩哔哩
+##囧次元
+##图床
+##头条PRO
+##夸克
+##夸克网盘
+##夸克网盘扫码登陆
+##夸克首页
+##奇异果TV
+##官网
+##小红书
+##巴哈姆特動畫瘋
+##开放平台
+##当贝广告SDK
+##当鸟动漫
+##影视仓小雅误杀
+##得物
+##微信
+##微信支付
+##快影
+##快手
+##快手极速版
+##快看视频
+##懂车帝
+##抖音
+##推送全家桶
+##搜狗输入法
+##有柿
+##朴朴买菜
+##樱花动漫
+##泊链联盟
+##淘宝
+##淘小说
+##火山引擎
+##火山翻译
+##瑞幸
+##番茄小说
+##百度云盘
+##百度搜索
+##百度输入法
+##皮皮虾
+##网易严选
+##网易云音乐
+##网易企业邮箱
+##网易有道词典
+##网易邮箱大师
+##美团领券小程序
+##翡翠影视
+##腾讯乘车码小程序广告
+##腾讯视频TV版
+##菜鸟裹裹
+##菠菜
+##蓝奏
+##虎扑广告
+##虎牙直播
+##西瓜视频
+##谷歌广告
+##豆包
+##追书神器
+##通用规则
+##酷喵TV
+##酷安
+##酷我音乐
+##钉钉
+##闲鱼
+##阿里云
+##雷鸟
+##风行视频
+##飞猪
+##飞飞视频
+##飞鸟听书
+##高德地图
+#************************************************************************#
+#0.0.0.0 access1.tpns.tencent.com  #会误杀酷安没有推送。 禁用腾讯推送相关组件也会没推送。
+#0.0.0.0 acs.m.taobao.com  #会导致一些新装的阿里系APP没网，连过网再禁却没事，可能是和初始化有关。阿里云盘卡开屏。
+#0.0.0.0 ads.cup.com.cn  #云闪付，误杀本地优惠活动
+#0.0.0.0 aegis.qq.com  误杀手游加速器功能页
+#0.0.0.0 ali2.a.yximgs.com  #快手评论区图片
+#0.0.0.0 antifraud.cup.com.cn #银联反诈
+#0.0.0.0 api.toutiaoapi.com  今日头条≈没网
+#0.0.0.0 api.weibo.cn
+#0.0.0.0 applog.reader.qq.com
+#0.0.0.0 b.bdstatic.com  #一些图标，比如百家号的视频的播放暂停按钮▶️，不影响点击播放
+#0.0.0.0 base-growth.soulapp.cn
+#0.0.0.0 base.music.qq.com  #更新？
+#0.0.0.0 c.pc.qq.com  QQ群链接安全中转页无法直接点开
+#0.0.0.0 c6.y.qq.com  #更新？
+#0.0.0.0 cgi.connect.qq.com  #据说误杀王者荣耀QQ登录，测试未发现异常；以及游戏120帧，未测。 据说安卓抖音异常？
+#0.0.0.0 code.bdstatic.com  误杀百度地图(V19)_底栏_周边
+#0.0.0.0 commontgw.reader.qq.com  开屏闪屏和“立即参与”按钮，禁用后主页感觉有点怪怪的
+#0.0.0.0 data-collector.soulapp.cn
+#0.0.0.0 data-connector-server.soulapp.cn
+#0.0.0.0 dg.k.jd.com #值得买无法跳转京东
+#0.0.0.0 dldir1.qq.com  #腾讯手游加速器开屏广告，误杀微信官网网页无法下载安卓版微信、微信视频号封面图和UP主头像。
+#0.0.0.0 dldir2.qq.com
+#0.0.0.0 dldir3.qq.com  #误杀欢乐麻将不少道具图标和角色装扮。
+#0.0.0.0 dldir4.qq.com
+#0.0.0.0 dldir5.qq.com
+#0.0.0.0 down.pandora.qq.com
+#0.0.0.0 download.alicdn.com 影响酷安部分阿里系APP下载，定制版淘宝更新资源包
+#0.0.0.0 downv6.qq.com  #QQ下载安装包，但导致一些网页下载不了东西
+#0.0.0.0 errlog.umeng.com
+#0.0.0.0 errlogos.umeng.com
+#0.0.0.0 errnewlog.umeng.com
+#0.0.0.0 errnewlogos.umeng.com
+#0.0.0.0 f-cpay.snssdk.com 抖音月付
+#0.0.0.0 free-aos-cdn-image.amap.com  #误伤一些图标
+#0.0.0.0 gateway-mobile-gray.soulapp.cn
+#0.0.0.0 gateway2-tcp-spam.soulapp.cn
+#0.0.0.0 h.trace.qq.com 误杀手游加速器功能页
+#0.0.0.0 h5.qzone.qq.com  #据说是腾讯文档首页横幅
+#0.0.0.0 haohuo.snssdk.com 抖音订单？
+#0.0.0.0 httpdns.ocloud.heytapmobi.com
+#0.0.0.0 httpdns.ocloud.oppomobile.com
+#0.0.0.0 httpdns.push.heytapmobi.com
+#0.0.0.0 httpdns.push.oppomobile.com
+#0.0.0.0 img-ys011.didistatic.com
+#0.0.0.0 img10.360buyimg.com #一号店开屏，但会误杀京东部分商品详情页的图。
+#0.0.0.0 increase-openapi.soulapp.cn
+#0.0.0.0 insight.soulapp.cn
+#0.0.0.0 interface.music.163.com
+#0.0.0.0 interface.music.163.com.163jiasu.com  #没网
+#0.0.0.0 interface3.music.163.com
+#0.0.0.0 interface3.music.163.com.163jiasu.com  #没网
+#0.0.0.0 ipv4.music.163.com
+#0.0.0.0 ipv6.music.163.com
+#0.0.0.0 isee.weishi.qq.com #微视_短剧_短剧广场会没网
+#0.0.0.0 log.snssdk.com  #新安装的抖音同城、直播没网
+#0.0.0.0 magev6.if.qidian.com 备用开屏
+#0.0.0.0 mapi.weibo.cn
+#0.0.0.0 mbdp02.bdstatic.com  百家号打不开
+#0.0.0.0 media-service-source.soulapp.cn
+#0.0.0.0 media-service.soulapp.cn
+#0.0.0.0 mkt.wtzw.com  #备用开屏
+#0.0.0.0 open.camscanner.com
+#0.0.0.0 ossnt-errlog.umeng.com
+#0.0.0.0 p11.douyinpic.com  #抖音头像
+#0.0.0.0 p26-sign.douyinpic.com
+#0.0.0.0 p26.douyinpic.com  #据说误伤抖音福袋和优惠券，我没号测试
+#0.0.0.0 p3-sign.douyinpic.com #评论图
+#0.0.0.0 p3.douyinpic.com  #据说误伤抖音福袋和优惠券，我没号测试
+#0.0.0.0 p5.douyinpic.com
+#0.0.0.0 pms-cdn.bdstatic.com  百度地图底栏_出行上滑出现的推荐的内容和点搜索框进去后的广告。
+#0.0.0.0 qbuc.html5.qq.com  #底栏我的 的营销卡片和工具卡片
+#0.0.0.0 qimgs.qunarzz.com
+#0.0.0.0 qqlogo.qq.com
+#0.0.0.0 qzonestyle.gtimg.cn #QQ空间装扮
+#0.0.0.0 reading.snssdk.com  #番茄小说v5.3初始化断网
+#0.0.0.0 sofire.baidu.com  #百度慧推,用户数据收集与分析,误伤贴吧lite的一键签到
+#0.0.0.0 static.122.gov.cn
+#0.0.0.0 t1.a.market.xiaomi.com
+#0.0.0.0 t1.market.mi-img.com
+#0.0.0.0 t2.a.market.xiaomi.com
+#0.0.0.0 t2.market.mi-img.com
+#0.0.0.0 tx2.a.yximgs.com  #据说是少部分评论图
+#0.0.0.0 upush.meizu.com  #系统更新？
+#0.0.0.0 yandex.ru 【vpnify】底部横幅和弹窗，看上去会误杀很多俄罗斯的yandex网站的内容
+#0.0.0.0 yoyo.qq.com 掌上穿越火线开屏
+#123网盘app
+#126邮箱官网
+#163
+#163邮箱官网
+#1688网页版图片
+#18+不良网站
+#18bit
+#1905电影网
+#22听书网音频接口
+#2345系APP开屏广告和弹窗广告和更新
+#316签名墙
+#360
+#360下载安装
+#360借贷
+#360升级
+#360安全卫士下载接口
+#360安全卫士官网
+#360安全浏览器下载接口
+#360安全浏览器官网
+#360小游戏图标
+#360手机浏览器下载接口
+#360手机浏览器官网
+#360搜图
+#360杀毒下载接口
+#360杀毒官网
+#360清理大师
+#360热点
+#360翻译
+#4399小游戏
+#555影视
+#58同城
+#612咔叽(相机)，测试时没发现任何广告。不同于上面俩相机着实是开屏广告，这仨只是域名看着像广告。
+#8680
+#900查询
+#91porn.com
+#99手游加速器(测试时也没发现广告)
+#=========各大广告联盟=========
+#> 3975游戏
+#> > 大牌餐饮
+#> > 应用宝
+#> > 微信
+#> > 搜狐视频
+#> >迅雷
+#> APP工具
+#> MASN中国
+#> PE工具
+#> UC浏览器
+#> UC直播
+#> UC短视频
+#> xlivesex直播
+#> 下载
+#> 东方财富网
+#> 中关村在线
+#> 优米电视
+#> 其他
+#> 千橡
+#> 原神
+#> 同盾
+#> 域名注册
+#> 天气预报
+#> 字节跳动
+#> 巨人网络
+#> 建设银行
+#> 微软
+#> 快手
+#> 搜狐
+#> 斗鱼
+#> 新浪
+#> 新疆网上税务局
+#> 查询
+#> 模拟城市
+#> 淘宝
+#> 深圳通
+#> 爱奇艺
+#> 百事公司大中华区
+#> 百姓网
+#> 百度
+#> 短剧
+#> 米读小说
+#> 腾讯
+#> 苹果
+#> 蜗牛
+#> 试玩平台
+#> 酷狗音乐
+#> 阿里巴巴
+#> 饿了么
+#@@||update.miui.com^
+#@@||v*-novelapp.fqnovelvod.com^
+#AD推荐的游戏介绍加载
+#API调用
+#APP下载页面
+#APP下载页面布局
+#APP扫码后登陆页面加载
+#APP消息列表加载
+#APP聊天窗口内图片加载
+#APP设置页各选项内容布局加载
+#Adobe
+#Android Apk下载页面
+#App内网易心小易界面游戏图标跳转链接
+#App内视频加载
+#App登录接口
+#A站点赞
+#BWIKI网页图片
+#BWIKI网页排版
+#BWIKI首页
+#BiLiBiLi游戏官网
+#BiLiBiLi游戏官网内容加载
+#BiLiBiLi移动游戏中心
+#BiLiBiLi移动游戏中心内容加载
+#BiLiBiLi移动游戏中心网页布局
+#Block Anti-Fraud Center Tracking
+#Blogger
+#B直播
+#B站
+#B站APP关注列表
+#CC字幕加载
+#CC直播域名
+#CNZZ数据
+#DNS，可能会导致hosts失效
+#FCM推送
+#Fake Fucker
+#GitHub加速
+#Google搜索右上角头像菜单显示
+#ICP/IP地址/域名信息备案管理系统
+#IP 地址查询
+#Keep（①图②视频开屏广告，①会误伤用户头像、首页_活动无图）
+#Lofter ①②开屏 ③更新但误杀未测
+#Logolabn去广告
+#MIUI 天气预报
+#MIUI 流量中心
+#MIUI去广告
+#MIUI垃圾清理
+#MIUI手机管家
+#MIUI浏览器
+#MIUI浏览器关键词联想
+#MIUI浏览器去广告
+#MIUI浏览器网址拦截
+#MIUI黄页
+#Mediav上海聚胜万合
+#Migu | 咪咕
+#NGA玩家社区
+#OPPO
+#OPPO 应用商店 主题 开屏广告
+#OPPO应用配置
+#OPPO开放平台
+#OPPO账号相关
+#OV真我Realme一加
+#PC端哔哩UWP进入视频时调用的官方接口
+#PC网页端右上角天气图片
+#PC网页端搜索首页LOGO
+#PC网页端登录界面二维码加载＆评论显示接口
+#PC页面端登陆验证接口
+#PC首页
+#PPTV
+#QQ
+#QQ互动标识图
+#QQ头像
+#QQ安全中心
+#QQ小世界图片
+#QQ小程序
+#QQ微信头像
+#QQ微信小(程序)游戏
+#QQ收藏
+#QQ日签卡图片加载
+#QQ浏览器
+#QQ浏览器小说广告
+#QQ浏览器插件误杀
+#QQ直播
+#QQ相关
+#QQ空间图片加载＆视频加载
+#QQ空间精选照片
+#QQ空间说说图片上传接口
+#QQ系
+#QQ群在线文档
+#QQ跳转
+#QQ邮箱
+#QQ钱包
+#QQ链接跳转
+#QQ阅读（①免费带广告阅读模式广告）
+#QQ音乐
+#QQ音乐的歌曲加载
+#QQ音乐首页
+#Sigmob移动广告平台
+#SnapChat
+#Soul（①②是开屏，后面是别的APP引用）
+#Spotify(音频广告去不掉)
+#TalkingData-数据、分析、广告
+#TopOn广告(酷安用，不然信息流漏广告)
+#Tracking
+#UC
+#UC浏览器
+#UC浏览器 & 夸克
+#UC浏览器网盘
+#UP主主页商品页面加载
+#Umeng | 友盟
+#Unity3D游戏引擎
+#U净，甚至可以考虑放行，广告不恶心，还是几条tips，禁用了反而难看。
+#VIVO
+#VIVO国际
+#WPS
+#WiFi万能钥匙(尚网网络)
+#WiFi万能钥匙_好看
+#X5内核文档插件下载
+#X8沙箱
+#YouTube 去底部广告
+#adobe
+#ali-mama
+#appcake去广告
+#baidu-soft/cleaner
+#baidu-soft/down
+#baidu-soft/hao123
+#bing
+#blued个人界面广告，主页推荐直播
+#b站视频加载
+#cdn加速
+#dropbox
+#gamepass日志
+#gp助手
+#h.trace.qq.com和aegis.qq.com必须一起放行，不然手游加速器一些功能界面明明能打开但是秒跳转显示没网。
+#https://qa666.xyz?tg=1959655
+#ios app付费解锁
+#ios上的pixiv
+#ios毒奶
+#ip测试页电脑端
+#ip测试页移动端
+#irs01艾瑞数据
+#kimi智能助手
+#mmstat（阿里的广告追踪）
+#mytvsuper
+#nextdns
+#oppo
+#pilipalax
+#pornhub
+#qq
+#qq登录授权接口
+#qq的一些资源图片加载
+#qq空间图片
+#sina-icast
+#skype
+#soul签到
+#teams
+#vivo
+#yeah邮箱官网
+#————SM广告丟那吗hosts————
+#———————住•房————————
+#———————其•他———————
+#———————学•习•类———————
+#———————工•具•类———————
+#———————社•交•类———————
+#——————墙外的广告商——————
+#——————影音•娱乐类——————
+#——————新闻•资讯类——————
+#——————社•区•类——————
+#——————行•交通类——————
+#——————阅读•小说类——————
+#—————买买买•购物类#——————
+#———财经•投资•理财•股市类———
+#↑ 百度系 ↑ 
+#↓ 百度系 ↓
+#《网易游戏隐私政策及儿童个人信息保护规则》
+#一些应用短信登陆拼图验证
+#一些应用调用的高德api
+#一加12屏蔽系统更新
+#一加相册插件
+#一加论坛
+#一号店优惠券
+#一甜相机＆快影图片接口
+#七猫免费小说
+#七猫小说
+#七猫小说听书
+#七鱼官网
+#万年历查询
+#三星
+#三星手机商店
+#上海游昆数据
+#下载App页面
+#下载接口跳转
+#下载文件引擎
+#下载页面跳转
+#下载？
+#专栏加载
+#专栏加载页面
+#东方头条
+#东方财富开屏、抬头、banner
+#个人信息界面图片加载
+#个推
+#个推广告
+#中国天气(①②信息流横幅广告，③右上角贴图)
+#中国电信
+#中国电信app
+#中国移动
+#中国联通
+#丰巢
+#丰巢app图片
+#主站
+#主页：https://github.com/2Gardon/SM-Ad-FuckU-hosts/blob/master/SMAdHosts
+#主题商店
+#乐享借
+#乐播投屏及广告流
+#乐视
+#乐视TV
+#书旗
+#书旗听书
+#书旗小说评论
+#书籍封面接口＆用户头像接口
+#乱七八糟
+#二手车详情界面加载
+#云商城
+#云商官网
+#云视听极光(腾讯视频电视端)
+#云贝签到
+#互动标识图标加载
+#亚马逊
+#亚马逊广告
+#交管12123
+#交管12123（开屏，误杀电子驾驶证）
+#京东
+#京东优惠券
+#京东会员权益中心
+#京东图片
+#京东外卖
+#京东存储和图片提供
+#京东广告
+#京东联盟官网
+#京喜
+#人人视频
+#什么值得买(①开屏，②不知道)
+#什么值得买浏览记录
+#今日头条相关
+#今日诗词
+#任务中心
+#企业邮箱官网
+#企业邮箱登录入口
+#众安贷
+#众安金融
+#优推
+#优比客思(七猫小说开屏广告用)
+#优酷
+#优酷app
+#优酷app 兑换vip
+#优酷图片加载
+#优酷系
+#优酷，①片头广告，不全，会漏。
+#会员购商品页面加载
+#传奇广告
+#低端影视
+#作品封面加载
+#作者主页内点击文章跳转
+#作者主页头像加载
+#作者头像加载
+#作者头像＆二维码
+#保险专家
+#信息流及评论区广告
+#信用分
+#修改版应用被劫持的垃圾弹窗，帝落、改的贴吧、笔趣阁完美版等弹窗
+#倍业科技
+#倘若下方链接放行后，有个别音频无法播放，可使用通配符进行放行。
+#借钱呗
+#免费企业邮箱官网
+#免费公共 DNS 服务器大全
+#入驻美团网页布局
+#公共CDN
+#其他↓
+#其它和其他端
+#内容双击点赞图标加载
+#内容图片加载，包括但不限于功能性按钮图标、栏目封面、用户头像、车型图片、直播封面。
+#分子借钱
+#分期乐
+#分类图片接口
+#创业参考相关推荐封面＆部分用户头像
+#创业参考网页布局
+#创业参考跳转接口
+#加盟榜部分品牌图片接口
+#华为商店图标
+#华为网盘
+#华风爱科气象
+#卡片加载
+#印象笔记（误伤识堂_识堂话题 封面图）
+#去哪儿旅行（①顶部横幅广告图②开屏广告③强制升级弹窗）
+#去除oneplus云控
+#去除丰巢新版取件码页面广告
+#去除首页还有什么值得买推广
+#参考：https://h5.jd.com/article/247.html
+#友盟平台
+#友盟广告
+#反向DNS查找
+#反诈
+#发现页去除酷品
+#可可影视
+#右上角登录布局
+#各种乱七八糟的广告商、广告联盟
+#合集封面
+#吉用花
+#同时也是助力扫码跳转链接
+#同时也是官网的商品加载接口
+#同时也是懂车帝手机页面端文章顶部内容推荐＆热门推荐＆精彩推荐接口
+#同时也是美团App内消息页面布局
+#同程旅行
+#吧/百度浏览器
+#含商家骑手聊天
+#含喜马拉雅域名
+#听书智能朗读接口
+#听书真人讲书接口
+#听歌时长记录
+#咪咕
+#咪咕图片
+#咪咕爱看视频
+#咪咕视频、音乐、阅读开屏和部分图片广告（②）
+#咪咕视频接口
+#唯品会APP
+#商助科技99click营销云
+#商品分享链接加载
+#商品图片及其各种图
+#商品页面
+#商品页面前的跳转
+#商家版官网
+#商家版网页布局
+#喆威
+#喜番短剧
+#喜马拉雅
+#喜马拉雅音源加载
+#喜马拉雅音频下载
+#喵酷扫描登录
+#囧次元
+#国双科技 营销(几十条，懒得撸完它了)
+#国美金融
+#图床
+#图片加载
+#土豆视频
+#地区官网
+#基调听云（数据监控）
+#墨墨背单词
+#夏普电视开机广告
+#多盟广告
+#大众养生网
+#大圣净化
+#大师兄
+#天下手游
+#天星金融
+#天气
+#天猫app
+#天猫校园
+#天目广告
+#天翼账号本机号码免注册一键登录
+#太平洋汽车网(①是网页正文的横幅+弹窗广告，APP的好像也没了，③④太平洋电脑，⑤母婴)
+#央视系广告
+#头像
+#头条
+#头条pro
+#头条授权登陆
+#夸克
+#夸克/神马
+#夸克浏览器(①②更新提示缺一不可)
+#夸克浏览器下载插件
+#夸克网盘
+#夸克首页
+#奇元图片资源官网
+#奇妙应用App内容图片＆应用图标
+#奇虎360
+#好分期
+#字节系 AD API SDK 屏蔽
+#学习通开屏，貌似没误杀
+#安全相关，下载完文件触发
+#安全相关，每次装完APP都会连，可能有上报
+#安居客（开屏，会误伤底栏_我的的图标无图以及新房详情里的部分图标无图）
+#安逸花
+#官网
+#官网Logo
+#官网图片接口
+#官网图片接口＆文章图片接口
+#官网登录界面网页布局
+#宜享花
+#宜人贷
+#宝宝树孕育，信息流+弹窗+开屏
+#客户端下载中心
+#客户端下载页布局＆图片
+#客户端云村视频加载
+#客户端连接接口
+#客户端音乐加载
+#客服反馈信息上传平台
+#客服反馈信息短链接平台
+#小哥工作台
+#小小影视去广告
+#小米rom下载加速（备用IP香港163.181.35.44，182.239.104.89，台北47.246.36.217，47.246.37.220）
+#小米·QQ音乐（前2未知，③是开屏广告）
+#小米主题设计师注册
+#小米云扫描组件(搬运)
+#小米其他
+#小米商店
+#小米广告
+#小米应用商店图片
+#小米推送(mipush)
+#小米文件下载
+#小米浏览器搜索推荐
+#小米浏览器热点资讯
+#小米相关
+#小米矫正流量，
+#小米视频
+#小米视频电视端
+#小米路由器
+#小米部件
+#小米隐私收集
+#小米预警中心-地震预警
+#小米骚扰拦截 数据库更新
+#小红书
+#小红书分享链接
+#小花钱包
+#小说封面
+#小赢
+#小辉付
+#屏蔽系统更新
+#山姆
+#工时记录
+#巨量引擎
+#布里奇信息(酷安评论信息流广告用)
+#帖子详情好物推荐
+#帖子详情赞助内容
+#幸运字符界面布局加载
+#广东万唯_移动短视频广告
+#应用商店
+#应用图标
+#应用宝
+#应用宝模拟器登录接口
+#应用游戏界面视频加载
+#应用游戏页去除推广视频
+#度小满
+#度小满(金融)
+#当当开屏（部分横幅、图标、商品封面无图）
+#得间
+#得间免费小说（①是开屏5秒空白摇一摇广告界面，可替换活动加速。②是阅读界面底部横幅广告，本地自带的横幅去不掉，起码不会误触跳转其他APP）
+#微信公众号(只禁③广告位还在只是不显示广告图片&视频)
+#微信公众号视频
+#微信图片
+#微信小程序,城市通
+#微信帮助与反馈
+#微信广告政策
+#微信支付
+#微信游戏圈图片
+#微信爱奇艺
+#微信系
+#微信视频号图片
+#微博
+#微博（前3顺手抓的未知，资讯流广告和正文一起的一损俱损，④开屏，⑥14.7后新增的视频开屏广告，⑤xml配置了很多加载广告，副作用未知）
+#微粒贷
+#微视视频封面
+#微软广告
+#微银信用
+#快应用
+#快手图标
+#快手头像
+#快手平台
+#快手广告
+#快手相关
+#快手系
+#快手评论图片
+#快手送礼物
+#快活
+#快看漫画(开屏没去掉，一天只展示一次)
+#快贷
+#悠易广告
+#惠融钱包
+#懂球帝开屏和首页信息流广告
+#懂车帝
+#懂车帝 （开屏在穿山甲那堆ib那条，ad词条不知道是什么，①部分信息流广告图）
+#懒人听书 开屏&播放页
+#手机号查询
+#手机号码登录窗口布局(PC端＆手机端)
+#手机号码登陆接口＆网页端扫描登陆接口
+#手机搜狗输入法
+#手机淘宝网页端
+#手机网页端下载宣传轮播图加载
+#手机网页端书籍详情页跳转链接
+#手机网页端作者主页加载
+#手机网页端左上角Logo加载
+#手机网页端浏览时，点击APP专属视频时跳转的哔哩哔哩apk下载接口
+#手机网页端顶部Logo加载＆作家福利轮播图加载
+#手机页面端官网
+#扫描全能王开屏，误杀扫图转word等没网
+#批发官网
+#批发移动端官网
+#批发网页布局
+#投诉内容详情域名
+#抖音头像
+#抖音实名认证校验页面
+#抖音小游戏
+#抖音极速版表情
+#抖音直播
+#抖音直播购物
+#抖音直播间购物车和购物车商品图片
+#抖音相关
+#抖音短剧接口
+#抖音网页
+#抖音网页版
+#抖音网页版验证图片
+#抖音聊天图片
+#拍拍贷
+#拓竹3D打印相关服务
+#招商银行开屏
+#招联金融
+#拦截会导致搜出来的内容无法点击跳转
+#拦截后「一直商品介绍加载中」
+#拦截后「上述三处打开白屏」
+#拦截后「打开网页白屏」
+#拦截后「打开网页空白」
+#拦截后「网页白屏」
+#拦截后打开官网会黑屏
+#拦截后打开客户端显示「网络连接失败」
+#拦截后显示「网络异常，请稍后重试。」
+#拦截后显示「网络故障」
+#拦截后点击按钮无反应
+#拦截后登录提示「系统繁忙」
+#拦截后登录没反应
+#拦截后验证图片无法加载
+#拦截显示「您的网络好像不太给力」
+#拦截显示加载失败
+#拦截显示网络不给力
+#拦截显示网络异常
+#拦截该域名Safari无法播放视频
+#拦截该域名提示网络错误，无法打开消息列表设置
+#拦截该域名电脑端页面提示广告加载失败，无实际性作用容易产生歧义
+#拷贝漫画
+#拼多多
+#拼多多广告
+#拼多多视频封面
+#授权登录用户图标加载
+#掌之淘信息
+#掌阅
+#探探
+#探探(①②追踪)
+#推特(第三方调用)
+#推荐歌曲图片加载
+#搜狐搜狗
+#搜狐新闻(含开屏)
+#搜狐视频
+#搜狗输入法表情
+#搜狗输入法跨屏输入
+#搜索内容视频页面
+#搜索引擎网页布局
+#搜索结果内容预览图片接口＆平台Logo加载
+#搜索结果列表
+#搜索结果图片加载＆搜狗百科图片加载
+#搜索结果部分视频加载接口
+#携程&智行火车票(误杀智行推荐大量无图)
+#携程金融
+#放行log文件,减少重复请求造成的发热
+#放行一堆click
+#政府平台(搬运)
+#数字联盟
+#文章作者头像加载
+#文章图片
+#文章封面接口＆文章内图片接口＆视频封面接口
+#文章封面＆文章图片＆视频封面
+#文章布局加载
+#斗鱼
+#新度博望(从贴吧抓出，好像是百度系的)
+#新浪
+#新浪微博
+#新浪新闻(①开屏②③未知)
+#新浪新闻图片^
+#新浪新闻网页误杀
+#新浪新闻首页插入的广告封面图+视频
+#新浪通行证注册页面
+#新浪通行证登录页面
+#新版本APP登录时验证账号安全
+#新网游频道
+#日历网
+#星空视频
+#晋江小说阅读(副作用未知)
+#普通下载文件地址
+#晴雅
+#晴雅↑
+#晴雅↓
+#智联招聘(开屏和部分广告图，开屏倒计时仍然要霸占3秒才走，误伤少量图标)
+#更改头像＆更改封面
+#更新日期：250804
+#有道精品课(误伤首页横幅图片，其他图未知)
+#有道翻译官网页翻译
+#有道词典
+#朋友圈图片
+#服务支持
+#未知来源 广告/日志
+#杂七杂八
+#杂七杂八（不含开屏）
+#杯子广告
+#极光推送
+#极弧
+#极融平台
+#极限软件园
+#枫岚互联-广告营销
+#某些APP图标加载
+#某些其他
+#某些网页的图片加载
+#查找好友加载页面
+#校园招聘官网
+#欢乐麻将弹窗广告。两个都能单独屏蔽抽奖的弹窗广告(活动领奖励的弹窗未屏蔽)，第二个看起来还有别家用可能会误杀，好像是游戏资源下载
+#欢太官网
+#欢太软件商店
+#汇量科技
+#汽车之家广告(①开屏，其他№)
+#油管推脸书P站
+#油管缓存
+#洋钱罐
+#活动界面商品加载
+#测速网站
+#济南维快营销
+#浦发银行 开屏和营销活动
+#海信TV
+#海外字节系广告
+#淘宝
+#淘宝广告
+#淘宝授权
+#淘宝活动
+#淘宝的一个主要域名
+#淘宝的一些功能加载
+#淘宝菜鸟裹裹
+#深圳素人网络
+#清新云
+#游戏中心游戏下载链接
+#游戏充值加载
+#游戏图标＆文章图片
+#游戏排行榜
+#游戏新闻中心
+#游戏时间统计
+#游戏条款加载
+#滴滴数科
+#滴滴顺风车
+#滴滴（①开屏广告会误伤主页一些图标的图）
+#灵感封面加载
+#热点内容相关封面
+#熊猫小说
+#爱(i)茅台
+#爱听书广告
+#爱回收
+#爱奇艺
+#爱奇艺vip
+#爱奇艺一个域名误杀会导致首页无法刷新
+#爱奇艺会员成长体系
+#爱奇艺会员权益
+#爱奇艺图片误杀
+#爱奇艺系  
+#爱问
+#版本：2.8
+#猫眼
+#王者一些图片
+#王者更新
+#王者荣耀登录
+#瑞狮网络
+#用户动态＆评论区表情加载
+#用户回答图片
+#用户头像加载
+#用户头像＆用户背景图
+#用户头像＆部分封面
+#电影港
+#电费计算器
+#番茄免费小说
+#番茄小说
+#番茄小说听书
+#番茄小说短信登陆
+#番茄小说网页
+#番茄小说，v5.3禁用reading.snssdk.com和abtest-ch.snssdk.com和tnc3-alisc1.bytedance.com会全部没网，只放行reading.snssdk.com就好，但是会有领红包弹窗；放行tnc3和abtest禁用reading则初始化没网，过一下才好，但是没红包弹窗
+#疑似京东金融开屏广告，副作用未测试
+#登录二维码加载接口
+#登录接口
+#登录页面跳转
+#登陆域名
+#白盒广告
+#百家号图片
+#百度
+#百度地图街景
+#百度地图（①开屏②开屏配置文件否则强行显示多几秒⑤首页底部推荐）
+#百度天气图标
+#百度好看视频
+#百度安全、杀毒
+#百度小程序
+#百度广告
+#百度手机助手网页版
+#百度搜索一个域名,误杀后会进入不了搜索结果
+#百度支付接口
+#百度智能云
+#百度求医问药网
+#百度百科
+#百度相关
+#百度知道
+#百度知道头像
+#百度网盘
+#百度网盘签到图片界面
+#百度网盘（①是开屏广告②网页分享页上半部分的广告图片）
+#百度翻译接口
+#百度视频
+#百度视频封面
+#百度贴吧签到
+#百度贴吧表情误杀
+#百度输入法上传你输入了什么，副作用云联想词加载不出来。
+#百度音乐
+#百词斩(①不知道②开屏误杀少量图片)
+#皮皮虾/字节跳动
+#皮皮虾pro
+#皮皮虾评论区发图
+#盒子定位
+#直播吧
+#相关图片
+#知乎
+#短链接加载
+#社会招聘官网
+#禁用后将无法云扫描病毒
+#福利网站去广告
+#科利达WiFi
+#秒针广告
+#移动app登录
+#移动广告平台
+#移动端商品详情页用户头像加载
+#移动端官网
+#移动端有些广告图也是此域名。
+#移动端登录接口
+#移动端精品分类图标
+#移动端网页布局
+#移动端访问频繁验证页面
+#移动端页面
+#移动端页面内容接口
+#移动端页面图片
+#移动端页面特殊按钮图标
+#移动端顶部宣传图跳转接口
+#移动端顶部宣传图＆官网页面布局
+#移动端首页
+#移动网页端内容加载
+#移动网页端布局
+#移动网页端登录后的自动跳转
+#移动网页端网页布局
+#移动网页端顶部快捷入口图标
+#穿山甲广告★
+#立即下载页面
+#章鱼移动-Octopus-移动广告平台
+#笔趣阁
+#笔趣阁网页广告
+#第三方蓝奏云APP
+#米哈游
+#米游社
+#米游社(开屏，误伤首页顶部等部分图标，联网运行一次后再删splash文件夹即可)
+#米游社图标
+#糖豆(广场舞)片头广告？
+#系统判断联网
+#系统应用更新弹窗，比如下载管理、相册
+#系统通知页面及其活动加载组件
+#网易
+#网易云api
+#网易云邮箱大师
+#网易云音乐 音效下载
+#网易云音乐听歌统计
+#网易云音乐（据说②③影响了大喇叭，而且好像PC端播放不了）
+#网易光遇 sky 登录
+#网易图片
+#网易年度总结
+#网易系广告
+#网易阅读
+#网络播放去广告
+#网络诊断
+#网页[美国地址生成器]弹窗广告①上面②中间
+#网页中输入此地址会跳转至页面端界面
+#网页内容加载
+#网页加载
+#网页图片
+#网页布局
+#网页总体布局
+#网页排版
+#网页提示登录时的Logo
+#网页版「吧」头像加载
+#网页版加载
+#网页端动态加载
+#网页端用户头像与文件图标
+#网页端表情加载
+#网页端评论区未登录时左侧小头像
+#网页端资源列表加载
+#网页部分图标加载
+#罗盘软件
+#美团
+#美团外卖
+#美团外卖商家自入驻网页布局
+#美团开店宝登录跳转接口
+#美团推送(大众点评)
+#美团网账号登录处背景图片接口
+#美数科技（腾讯手游加速器开屏用，AM图标）
+#美柚(开屏&信息流)
+#老毛桃更新
+#老黄历查询
+#联通营业厅APP的开屏广告
+#脚本之家
+#腾讯云实时音视频
+#腾讯云视频极光测试250318
+#腾讯优量汇广告
+#腾讯健康系统
+#腾讯充值
+#腾讯广告
+#腾讯广告服务
+#腾讯手游加速器
+#腾讯新闻
+#腾讯新闻（①开屏和视频广告的封面图,②也能禁开屏广告但副作用未知）
+#腾讯活动
+#腾讯游戏
+#腾讯游戏登录相关
+#腾讯漫画(①开屏②活动福利弹窗、萌新顶栏)
+#腾讯视频
+#腾讯视频搜索
+#腾讯！
+#芒果TV-TV端
+#芒果TV（首次打开显示没网，后面正常）
+#花小猪打车(①②开屏缺一不可)
+#花瓣测速
+#花生壳推送
+#英文介绍页宣传视频加载
+#苹果
+#苹果商店图片
+#荣耀
+#荣誉周报加载排版
+#菜鸟
+#菜鸟包裹侠
+#葫芦侠
+#蓝奏云分享页上的部分广告
+#薇钱包
+#虎扑
+#虎牙 24.04云更新后开屏和信息流都去不掉了
+#虎牙直播
+#蜻蜓FM
+#融逸花
+#表情消息
+#袤博
+#西瓜视频图片
+#规则数：5043
+#视频app
+#视频加载
+#视频封面
+#视频评测＆评论区视频
+#订阅：https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts
+#讯飞营销云
+#讯飞输入法
+#谷歌
+#谷歌广告
+#谷歌广告服务
+#谷歌翻译，①网页，③新版APP用。
+#豆瓣(①②开屏广告，然而照样被空白屏拖时间)
+#贝壳账户页面
+#账号与安全页面加载
+#账号安全页面
+#货拉拉(要注册帐号登录才能细测)
+#贴吧
+#贴吧弹窗
+#贵士移动
+#起点小说PC网页端书籍详情页
+#起点小说PC网页端＆手机网页端首页轮播图接口
+#起点小说中文网
+#起点小说书籍封面图
+#起点小说书籍详情页作者头像接口
+#起点小说作家说头像接口
+#起点小说公示文章接口
+#起点小说公示文章页面布局
+#起点小说女生网
+#起点小说女生网手机页面端书籍分区加载＆书籍封面接口
+#起点小说女生网顶部宣传图
+#起点小说男生网手机网页端特殊功能按钮图片接口
+#起点小说网登陆注册二维码接口与微信登陆注册接口
+#起点小说网登陆注册接口
+#起点小说网页排版
+#起点开屏广告(①)，误伤精选_漫画_小编精选和周冠军的封面图，影响超小。
+#起点游戏封面
+#起点游戏首页
+#起点游戏首页页面布局
+#趣盟广告
+#路由器
+#跳转
+#跳转链接
+#身份证查询
+#转转
+#软件安装验证相关
+#软告移动广告交易平台
+#输入法云联想
+#输入法灵感语录同步
+#迅雷
+#迅雷下载
+#进入网页版邮箱跳转
+#邮箱大师（①是开屏，nex为主页的广告）
+#部分设备的小米推送
+#酷云_电视广告数据
+#酷友APPea 分享
+#酷喵影视（CIBN优酷）
+#酷安
+#酷安图片
+#酷安推送
+#酷安模块头条重要通知加载
+#酷我音乐（去开屏广告①②缺一不可，①会误伤主页的主banner轮播图，③是主页插入的广告如拼多多广告）
+#酷狗vip抽年卡
+#酷狗音乐（开屏还是搞不掉，新版好像突然沒了？）
+#金铲铲之战登录
+#针对转转App
+#钱多多
+#银河互联网网络电视
+#链家、贝壳找房验证码
+#链家（①开屏 ②屏蔽更新）
+#链接跳转
+#锁屏画报正常化
+#阅友去广告
+#阅文作家专区官网
+#阅文作家专区登陆注册接口
+#阅文作家专区页面布局
+#阅文集团官网
+#阿里图片
+#阿里巴巴-tanx
+#阿里巴巴-wrating
+#阿里巴巴购物
+#阿里广告
+#阿里广告服务
+#阿里推送(未知用途)
+#阿里系登录接口
+#阿里系软件下载
+#隐私分析上报(GitHub扒)
+#隐私相关(GitHub扒)
+#雅虎广告
+#雨课堂
+#音乐版官网
+#音乐适配
+#页面布局
+#页面布局＆图片加载
+#页面排版
+#页面端及资源加载
+#页面端商品跳转网页图片
+#页面端商品跳转网页布局
+#领红包封面
+#飞猪旅行(基于9.10.8.104测试，这两条漏其中一条都会漏开屏广告，在飞猪APP上没发现有误杀，但其他阿里系就不清楚)
+#饿了么
+#饿了么小程序
+#饿了么登录
+#首页个别图片加载
+#马上消费
+#驾校一点通开屏
+#验证码验证页面＆搜索参数错误页面
+#高德地图(①开屏②③横幅和通知中心？№④№ 测试⑤play版15.0返场开屏广告⑥⑦№)
+#魅族
+#魅族商城
+#魅族天气
+#鳳凰網
+#龙享花
+#（中信）动卡空间开屏
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
 *-ad.wtzw.com*
@@ -13,7 +1891,6 @@
 *-normal.zijieapi.com*
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
--1325890192.cos.
 .buzz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net
 .buzz/*0*0*0*==$third-party
 .cn/2022/*/*.txt$third-party
@@ -6545,238 +8422,6 @@
 0.0.0.0 zwfw.mps.gov.cn
 0.0.0.0 zymo.mps.weibo.com
 0.0.0.0 zz.bdstatic.com
-103.230.123.190 steamcommunity.com
-103.230.123.190 www.steamcommunity.com
-103.99.35.13 userstorage.mega.co.nz
-103.99.35.13 userstroage.mega.co.nz
-103.99.35.250 jp.static.mega.co.nz
-103.99.35.251 sg.static.mega.co.nz
-108.138.246.125 api.themoviedb.org
-108.177.104.188     alt7-mtalk.google.com
-108.177.125.188 alt4-mtalk.google.com
-108.177.125.188 mtalk.google.com  #台湾
-108.177.97.188 alt2-mtalk.google.com
-110.43.121.13 bigota.d.miui.com
-110.43.121.13 hugeota.d.miui.com
-110.43.121.249 bigota.d.miui.com
-110.43.121.249 hugeota.d.miui.com
-118pan.com##.card.mt-2:nth-child(2)
-120ask.com##IFRAME[width='400']
-123.6.13.6 bigota.d.miui.com
-123.6.13.6 hugeota.d.miui.com
-123pan.com##.adv-container-pc
-123pan.com##.banner_all_wrap
-123pan.com##.slick-slider, .slick-initialized
-127.0.0.1 cn.app.chat.xiaomi.net
-127.0.0.1 etl-xlmc-ssl.sandai.net
-127.0.0.1 localhost
-13.107.246.73                 vscode.dev
-13.107.42.16                  pipelines.actions.githubusercontent.com
-13.107.42.16 pipelines.actions.githubusercontent.com
-13.226.198.225 thetvdb.com
-13.226.254.58 image.tmdb.org
-13.35.0.128 api.themoviedb.org
-140.82.112.18 github.community
-140.82.112.25                 alive.github.com
-140.82.112.25                 live.github.com
-140.82.112.25 live.github.com
-140.82.113.18                 github.community
-140.82.113.21                 central.github.com
-140.82.113.21 collector.github.com
-140.82.113.22                 education.github.com
-140.82.113.22 central.github.com
-140.82.113.26 alive.github.com
-140.82.114.21                 api.individual.githubcopilot.com
-140.82.114.21                 collector.github.com
-140.82.116.3 gist.github.com
-142.250.107.188 alt5-mtalk.google.com #US
-142.250.115.188     alt6-mtalk.google.com
-142.250.115.188 alt6-mtalk.google.com #US
-142.250.141.188     alt2-mtalk.google.com
-142.250.152.188     alt8-mtalk.google.com
-142.250.152.188 alt7-mtalk.google.com #US
-142.250.157.188     mtalk.google.com
-142.250.157.188 alt5-mtalk.google.com
-142.251.10.188 alt3-mtalk.google.com #JP
-142.251.10.188 alt7-mtalk.google.com
-142.251.12.188 alt4-mtalk.google.com #JP
-142.251.170.188 alt1-mtalk.google.com #TW
-142.251.8.188 alt6-mtalk.google.com
-146.75.121.194 github.global.ssl.fastly.net
-146.75.48.133 media.githubusercontent.com
-146.75.48.133 objects.githubusercontent.com
-146.75.48.133 raw.githubusercontent.com
-146.75.48.133 release-assets.githubusercontent.com
-151.101.193.194               github.global.ssl.fastly.net
-151.101.76.133 raw.github.com
-16.15.177.176                 github-production-repository-file-5c1aeb.s3.amazonaws.com
-16.15.180.163                 github-com.s3.amazonaws.com
-16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.15.218.213                 github-production-release-asset-2e65be.s3.amazonaws.com
-163.com##.freeVip
-163.com##.js-open-app
-173.194.202.188     alt4-mtalk.google.com
-18.65.159.31 api.themoviedb.org
-180.163.150.33      dl.l.google.com
-180.163.151.161     dl.google.com
-182.239.104.89 bigota.d.miui.com
-182.239.104.89 hugeota.d.miui.com
-183.136.207.132 bigota.d.miui.com
-183.136.207.132 hugeota.d.miui.com
-183.136.207.132 superota.d.miui.com
-183.136.207.132 ultimateota.d.miui.com
-184.85.65.125 steamcommunity.com
-184.85.65.125 www.steamcommunity.com
-185.199.108.153               github.io
-185.199.108.153               githubstatus.com
-185.199.108.154               github.githubassets.com
-185.199.110.133 avatars.githubusercontent.com
-185.199.110.133 avatars0.githubusercontent.com
-185.199.110.133 avatars1.githubusercontent.com
-185.199.110.133 avatars2.githubusercontent.com
-185.199.110.133 avatars3.githubusercontent.com
-185.199.110.133 avatars4.githubusercontent.com
-185.199.110.133 avatars5.githubusercontent.com
-185.199.110.133 camo.githubusercontent.com
-185.199.110.133 cloud.githubusercontent.com
-185.199.110.133 desktop.githubusercontent.com
-185.199.110.133 github.io
-185.199.110.133 github.map.fastly.net
-185.199.110.133 media.githubusercontent.com
-185.199.110.133 objects.githubusercontent.com
-185.199.110.133 raw.github.com
-185.199.110.133 raw.githubusercontent.com
-185.199.110.133 user-images.githubusercontent.com
-185.199.110.153 githubstatus.com
-185.199.110.153 lsposed.github.io
-185.199.110.153 topjohnwu.github.io
-185.199.110.154 docs.github.com
-185.199.110.154 github.githubassets.com
-185.199.110.154 github.githubassets.com  #网页排版
-185.199.111.133               avatars.githubusercontent.com
-185.199.111.133               avatars0.githubusercontent.com
-185.199.111.133               avatars1.githubusercontent.com
-185.199.111.133               avatars2.githubusercontent.com
-185.199.111.133               avatars3.githubusercontent.com
-185.199.111.133               avatars4.githubusercontent.com
-185.199.111.133               avatars5.githubusercontent.com
-185.199.111.133               camo.githubusercontent.com
-185.199.111.133               cloud.githubusercontent.com
-185.199.111.133               desktop.githubusercontent.com
-185.199.111.133               favicons.githubusercontent.com
-185.199.111.133               github.map.fastly.net
-185.199.111.133               media.githubusercontent.com
-185.199.111.133               objects.githubusercontent.com
-185.199.111.133               private-user-images.githubusercontent.com
-185.199.111.133               raw.githubusercontent.com
-185.199.111.133               user-images.githubusercontent.com
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#.bot-per-times
-18comic.vip##IMG[src^='//18comic.vip/media/albums/']
-192.0.66.2                    github.blog
-192.0.66.2 github.blog
-192.0.80.242 0.gravatar.com
-192.0.80.242 1.gravatar.com
-192.0.80.242 2.gravatar.com
-192.0.80.242 lb.gravatar.com
-192.0.80.242 s.gravatar.com
-192.0.80.242 secure.gravatar.com
-192.0.80.242 www.gravatar.com
-192.178.131.188 alt8-mtalk.google.com #US
-20.200.245.245 api.github.com
-20.200.245.247 gist.github.com
-20.200.245.247 github.com
-20.205.243.165                codeload.github.com
-20.205.243.166                gist.github.com
-20.205.243.166                github.com
-20.205.243.168                api.github.com
-20.27.177.113 github.com
-20.27.177.116 api.github.com
-20.43.185.14 github.dev
-208.80.154.224 zh.wikipedia.org
-216.239.32.40 translate-pa.googleapis.com
-216.239.32.40 translate.google.com
-216.239.32.40 translate.googleapis.com
-23.12.10.105 steamcommunity.com
-23.201.165.153 steam-chat.com
-23.204.10.89 api.steampowered.com
-23.204.10.89 help.steampowered.com
-23.215.0.204 steamcdn-a.akamaihd.net
-23.222.193.171 store.steampowered.com
-23.49.100.232 api.pinterest.com
-23.49.100.232 i.pinimg.com
-23.49.100.232 pinterest.com
-23.49.100.232 trk.pinterest.com
-23.49.100.232 v1.pinimg.com
-23.49.100.232 www.pinterest.com
-23.53.35.199 cdn.akamai.steamstatic.com
-23.53.35.202 community.akamai.steamstatic.com
-23.53.35.204 store.akamai.steamstatic.com
-23.58.97.230 store.steampowered.com
-3.5.28.146 github-com.s3.amazonaws.com
-31.216.145.5 mega.nz
-35.181.164.242 community.oneplus.com
-35.181.220.27 community.oneplus.com
-3dmgame.com##.alertad
-3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
-423down.com##LI.item:has(.sticky-post)
-45.116.79.187 ads.api.fakeloc.cc
-45.116.79.187 api.fakeloc.cc
-45.116.79.187 av1.xdrig.com
-45.116.79.187 fakeloc.cc
-45.116.79.187 fakelocation.api.lerist.dev
-47.102.115.14 translate-pa.googleapis.com
-47.102.115.14 translate.google.com
-47.102.115.14 translate.googleapis.com
-47.246.37.220 bigota.d.miui.com
-47.246.37.220 hugeota.d.miui.com
-52.216.41.73                  github-production-user-asset-6210df.s3.amazonaws.com
-52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.216.56.97 github-cloud.s3.amazonaws.com
-52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
-52.84.166.68 api.themoviedb.org
-52.84.166.71 api.themoviedb.org
-52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-54.192.73.28 image.tmdb.org
-54.231.163.17                 github-cloud.s3.amazonaws.com
-5dm.app##[src*="sinaimg.cn"]
-64.233.171.188      alt3-mtalk.google.com
-64.233.188.188 mtalk.google.com
-64.233.189.188 alt1-mtalk.google.com
-65.8.164.121 image.tmdb.org
-66.203.124.31 g.cdn1.mega.co.nz
-66.203.124.31 mega.co.nz
-66.203.124.31 www.mega.co.nz
-66.203.124.37 eu.static.mega.co.nz
-66.203.124.37 static.mega.co.nz
-66.203.124.49 cms2.mega.nz
-66.203.125.11 eu.api.mega.co.nz
-66.203.125.11 g.api.mega.co.nz
-66.203.125.12 lu.api.mega.co.nz
-66.203.125.28 reqstat.api.mega.co.nz
-66.203.125.53 w.api.mega.co.nz
-66.203.125.56 mcd270n310.karere.mega.nz
-66.203.127.13 g.static.mega.co.nz
-72.247.96.248 api.pinterest.com
-72.247.96.248 i.pinimg.com
-72.247.96.248 pinterest.com
-72.247.96.248 trk.pinterest.com
-72.247.96.248 v1.pinimg.com
-72.247.96.248 www.pinterest.com
-74.125.126.188      alt5-mtalk.google.com
-74.125.200.188      alt1-mtalk.google.com
-74.125.200.188 alt2-mtalk.google.com #SG
-74.125.200.188 alt8-mtalk.google.com
-74.125.204.188 alt3-mtalk.google.com
-90mh.org##[style$='background-size: 393px 125px !important;']
-91porn.com#@#.vjs-preroll
-91porny.com###playerJsvLayer.jsv-layer
-91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
-91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
-91porny.com/api/getPos?jspath=/
-99.84.238.181 image.tmdb.org
 :*/xcdn*/js/_init.js?$third-party
 ://*.yinghua*.*/bar$~third-party
 ://*banzhu*/js/cdn.js$~third-party
@@ -27434,3 +29079,235 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||zzzzz4.52896368.com^
 ||奥门广场.com^
 ‖*.chat.bilibili.com
+3dmgame.com##.alertad
+3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
+3.5.28.146 github-com.s3.amazonaws.com
+5dm.app##[src*="sinaimg.cn"]
+13.107.246.73                 vscode.dev
+13.107.42.16                  pipelines.actions.githubusercontent.com
+13.107.42.16 pipelines.actions.githubusercontent.com
+13.226.198.225 thetvdb.com
+13.226.254.58 image.tmdb.org
+13.35.0.128 api.themoviedb.org
+16.15.177.176                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+16.15.180.163                 github-com.s3.amazonaws.com
+16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
+16.15.218.213                 github-production-release-asset-2e65be.s3.amazonaws.com
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#.bot-per-times
+18comic.vip##IMG[src^='//18comic.vip/media/albums/']
+18.65.159.31 api.themoviedb.org
+20.200.245.245 api.github.com
+20.200.245.247 gist.github.com
+20.200.245.247 github.com
+20.205.243.165                codeload.github.com
+20.205.243.166                gist.github.com
+20.205.243.166                github.com
+20.205.243.168                api.github.com
+20.27.177.113 github.com
+20.27.177.116 api.github.com
+20.43.185.14 github.dev
+23.12.10.105 steamcommunity.com
+23.201.165.153 steam-chat.com
+23.204.10.89 api.steampowered.com
+23.204.10.89 help.steampowered.com
+23.215.0.204 steamcdn-a.akamaihd.net
+23.222.193.171 store.steampowered.com
+23.49.100.232 api.pinterest.com
+23.49.100.232 i.pinimg.com
+23.49.100.232 pinterest.com
+23.49.100.232 trk.pinterest.com
+23.49.100.232 v1.pinimg.com
+23.49.100.232 www.pinterest.com
+23.53.35.199 cdn.akamai.steamstatic.com
+23.53.35.202 community.akamai.steamstatic.com
+23.53.35.204 store.akamai.steamstatic.com
+23.58.97.230 store.steampowered.com
+31.216.145.5 mega.nz
+35.181.164.242 community.oneplus.com
+35.181.220.27 community.oneplus.com
+45.116.79.187 ads.api.fakeloc.cc
+45.116.79.187 api.fakeloc.cc
+45.116.79.187 av1.xdrig.com
+45.116.79.187 fakeloc.cc
+45.116.79.187 fakelocation.api.lerist.dev
+47.102.115.14 translate-pa.googleapis.com
+47.102.115.14 translate.google.com
+47.102.115.14 translate.googleapis.com
+47.246.37.220 bigota.d.miui.com
+47.246.37.220 hugeota.d.miui.com
+52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+52.216.41.73                  github-production-user-asset-6210df.s3.amazonaws.com
+52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.216.56.97 github-cloud.s3.amazonaws.com
+52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
+52.84.166.68 api.themoviedb.org
+52.84.166.71 api.themoviedb.org
+54.192.73.28 image.tmdb.org
+54.231.163.17                 github-cloud.s3.amazonaws.com
+64.233.171.188      alt3-mtalk.google.com
+64.233.188.188 mtalk.google.com
+64.233.189.188 alt1-mtalk.google.com
+65.8.164.121 image.tmdb.org
+66.203.124.31 g.cdn1.mega.co.nz
+66.203.124.31 mega.co.nz
+66.203.124.31 www.mega.co.nz
+66.203.124.37 eu.static.mega.co.nz
+66.203.124.37 static.mega.co.nz
+66.203.124.49 cms2.mega.nz
+66.203.125.11 eu.api.mega.co.nz
+66.203.125.11 g.api.mega.co.nz
+66.203.125.12 lu.api.mega.co.nz
+66.203.125.28 reqstat.api.mega.co.nz
+66.203.125.53 w.api.mega.co.nz
+66.203.125.56 mcd270n310.karere.mega.nz
+66.203.127.13 g.static.mega.co.nz
+72.247.96.248 api.pinterest.com
+72.247.96.248 i.pinimg.com
+72.247.96.248 pinterest.com
+72.247.96.248 trk.pinterest.com
+72.247.96.248 v1.pinimg.com
+72.247.96.248 www.pinterest.com
+74.125.126.188      alt5-mtalk.google.com
+74.125.200.188      alt1-mtalk.google.com
+74.125.200.188 alt2-mtalk.google.com #SG
+74.125.200.188 alt8-mtalk.google.com
+74.125.204.188 alt3-mtalk.google.com
+90mh.org##[style$='background-size: 393px 125px !important;']
+91porn.com#@#.vjs-preroll
+91porny.com###playerJsvLayer.jsv-layer
+91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
+91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
+91porny.com/api/getPos?jspath=/
+99.84.238.181 image.tmdb.org
+103.230.123.190 steamcommunity.com
+103.230.123.190 www.steamcommunity.com
+103.99.35.13 userstorage.mega.co.nz
+103.99.35.13 userstroage.mega.co.nz
+103.99.35.250 jp.static.mega.co.nz
+103.99.35.251 sg.static.mega.co.nz
+108.138.246.125 api.themoviedb.org
+108.177.104.188     alt7-mtalk.google.com
+108.177.125.188 alt4-mtalk.google.com
+108.177.125.188 mtalk.google.com  #台湾
+108.177.97.188 alt2-mtalk.google.com
+110.43.121.13 bigota.d.miui.com
+110.43.121.13 hugeota.d.miui.com
+110.43.121.249 bigota.d.miui.com
+110.43.121.249 hugeota.d.miui.com
+118pan.com##.card.mt-2:nth-child(2)
+120ask.com##IFRAME[width='400']
+123pan.com##.adv-container-pc
+123pan.com##.banner_all_wrap
+123pan.com##.slick-slider, .slick-initialized
+123.6.13.6 bigota.d.miui.com
+123.6.13.6 hugeota.d.miui.com
+127.0.0.1 cn.app.chat.xiaomi.net
+127.0.0.1 etl-xlmc-ssl.sandai.net
+127.0.0.1 localhost
+140.82.112.18 github.community
+140.82.112.25                 alive.github.com
+140.82.112.25                 live.github.com
+140.82.112.25 live.github.com
+140.82.113.18                 github.community
+140.82.113.21                 central.github.com
+140.82.113.21 collector.github.com
+140.82.113.22                 education.github.com
+140.82.113.22 central.github.com
+140.82.113.26 alive.github.com
+140.82.114.21                 api.individual.githubcopilot.com
+140.82.114.21                 collector.github.com
+140.82.116.3 gist.github.com
+142.250.107.188 alt5-mtalk.google.com #US
+142.250.115.188     alt6-mtalk.google.com
+142.250.115.188 alt6-mtalk.google.com #US
+142.250.141.188     alt2-mtalk.google.com
+142.250.152.188     alt8-mtalk.google.com
+142.250.152.188 alt7-mtalk.google.com #US
+142.250.157.188     mtalk.google.com
+142.250.157.188 alt5-mtalk.google.com
+142.251.10.188 alt3-mtalk.google.com #JP
+142.251.10.188 alt7-mtalk.google.com
+142.251.12.188 alt4-mtalk.google.com #JP
+142.251.170.188 alt1-mtalk.google.com #TW
+142.251.8.188 alt6-mtalk.google.com
+146.75.121.194 github.global.ssl.fastly.net
+146.75.48.133 media.githubusercontent.com
+146.75.48.133 objects.githubusercontent.com
+146.75.48.133 raw.githubusercontent.com
+146.75.48.133 release-assets.githubusercontent.com
+151.101.193.194               github.global.ssl.fastly.net
+151.101.76.133 raw.github.com
+163.com##.freeVip
+163.com##.js-open-app
+173.194.202.188     alt4-mtalk.google.com
+180.163.150.33      dl.l.google.com
+180.163.151.161     dl.google.com
+182.239.104.89 bigota.d.miui.com
+182.239.104.89 hugeota.d.miui.com
+183.136.207.132 bigota.d.miui.com
+183.136.207.132 hugeota.d.miui.com
+183.136.207.132 superota.d.miui.com
+183.136.207.132 ultimateota.d.miui.com
+184.85.65.125 steamcommunity.com
+184.85.65.125 www.steamcommunity.com
+185.199.108.153               github.io
+185.199.108.153               githubstatus.com
+185.199.108.154               github.githubassets.com
+185.199.110.133 avatars.githubusercontent.com
+185.199.110.133 avatars0.githubusercontent.com
+185.199.110.133 avatars1.githubusercontent.com
+185.199.110.133 avatars2.githubusercontent.com
+185.199.110.133 avatars3.githubusercontent.com
+185.199.110.133 avatars4.githubusercontent.com
+185.199.110.133 avatars5.githubusercontent.com
+185.199.110.133 camo.githubusercontent.com
+185.199.110.133 cloud.githubusercontent.com
+185.199.110.133 desktop.githubusercontent.com
+185.199.110.133 github.io
+185.199.110.133 github.map.fastly.net
+185.199.110.133 media.githubusercontent.com
+185.199.110.133 objects.githubusercontent.com
+185.199.110.133 raw.github.com
+185.199.110.133 raw.githubusercontent.com
+185.199.110.133 user-images.githubusercontent.com
+185.199.110.153 githubstatus.com
+185.199.110.153 lsposed.github.io
+185.199.110.153 topjohnwu.github.io
+185.199.110.154 docs.github.com
+185.199.110.154 github.githubassets.com
+185.199.110.154 github.githubassets.com  #网页排版
+185.199.111.133               avatars.githubusercontent.com
+185.199.111.133               avatars0.githubusercontent.com
+185.199.111.133               avatars1.githubusercontent.com
+185.199.111.133               avatars2.githubusercontent.com
+185.199.111.133               avatars3.githubusercontent.com
+185.199.111.133               avatars4.githubusercontent.com
+185.199.111.133               avatars5.githubusercontent.com
+185.199.111.133               camo.githubusercontent.com
+185.199.111.133               cloud.githubusercontent.com
+185.199.111.133               desktop.githubusercontent.com
+185.199.111.133               favicons.githubusercontent.com
+185.199.111.133               github.map.fastly.net
+185.199.111.133               media.githubusercontent.com
+185.199.111.133               objects.githubusercontent.com
+185.199.111.133               private-user-images.githubusercontent.com
+185.199.111.133               raw.githubusercontent.com
+185.199.111.133               user-images.githubusercontent.com
+192.0.66.2                    github.blog
+192.0.66.2 github.blog
+192.0.80.242 0.gravatar.com
+192.0.80.242 1.gravatar.com
+192.0.80.242 2.gravatar.com
+192.0.80.242 lb.gravatar.com
+192.0.80.242 s.gravatar.com
+192.0.80.242 secure.gravatar.com
+192.0.80.242 www.gravatar.com
+192.178.131.188 alt8-mtalk.google.com #US
+208.80.154.224 zh.wikipedia.org
+216.239.32.40 translate-pa.googleapis.com
+216.239.32.40 translate.google.com
+216.239.32.40 translate.googleapis.com
+423down.com##LI.item:has(.sticky-post)
