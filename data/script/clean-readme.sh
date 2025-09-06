@@ -14,6 +14,8 @@ num_shadowrocket=`sed -n 's/^! Total count: //p' Shadowrocket.list`
 num_singbox=`sed -n 's/^! Total count: //p' singbox.srs`
 num_invizible=`sed -n 's/^! Total count: //p' invizible.txt`
 num_adclose=`sed -n 's/^! Total count: //p' AdClose.txt`
+num_ublock_allow=`sed -n 's/^! Total count: //p' allow-ublock.txt`
+
 
 # 获取当前时间（北京时间）
 time=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')
@@ -33,5 +35,6 @@ sed -i "s/^Shadowrocket规则数量.*/Shadowrocket规则数量: $num_shadowrocke
 sed -i "s/^Singbox规则数量.*/Singbox规则数量: $num_singbox /g" README.md
 sed -i "s/^Invizible Pro规则数量.*/Invizible Pro规则数量: $num_invizible /g" README.md
 sed -i "s/^AdClose规则数量.*/AdClose规则数量: $num_adclose /g" README.md
+sed -i "s/^uBlock白名单规则数量.*/uBlock白名单规则数量: $num_ublock_allow /g" README.md
 
 exit
