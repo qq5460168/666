@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-09-07 09:19:20（北京时间）
+! Version: 2025-09-07 14:21:44（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27433
+! Total count: 27434
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -6579,17 +6579,17 @@
 13.226.254.58 image.tmdb.org
 13.35.0.128 api.themoviedb.org
 140.82.112.18 github.community
-140.82.112.21                 central.github.com
+140.82.112.22                 central.github.com
+140.82.112.22                 education.github.com
 140.82.112.25                 alive.github.com
 140.82.112.25 live.github.com
-140.82.112.26                 live.github.com
 140.82.113.21                 collector.github.com
 140.82.113.21 collector.github.com
-140.82.113.22                 education.github.com
 140.82.113.22 central.github.com
+140.82.113.26                 live.github.com
 140.82.113.26 alive.github.com
-140.82.114.18                 github.community
-140.82.114.22                 api.individual.githubcopilot.com
+140.82.114.17                 github.community
+140.82.114.21                 api.individual.githubcopilot.com
 140.82.116.3 gist.github.com
 142.250.107.188 alt5-mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
@@ -6612,7 +6612,6 @@
 151.101.193.194               github.global.ssl.fastly.net
 151.101.76.133 raw.github.com
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.15.185.168                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6732,17 +6731,18 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.33.97                  github-cloud.s3.amazonaws.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
-52.217.232.193                github-production-user-asset-6210df.s3.amazonaws.com
+52.216.94.203                 github-com.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.47.76                  github-cloud.s3.amazonaws.com
 52.84.166.68 api.themoviedb.org
 52.84.166.71 api.themoviedb.org
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 54.192.73.28 image.tmdb.org
-54.231.161.145                github-com.s3.amazonaws.com
-54.231.167.33                 github-production-release-asset-2e65be.s3.amazonaws.com
+54.231.132.177                github-production-repository-file-5c1aeb.s3.amazonaws.com
+54.231.202.49                 github-production-user-asset-6210df.s3.amazonaws.com
+54.231.228.241                github-production-release-asset-2e65be.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 64.233.188.188 mtalk.google.com
@@ -9326,6 +9326,7 @@ baidu.com###searchTag
 baidu.com##.barea-ad
 baidu.com##.brand-entry
 baidu.com##.c-result.result[srcid='mkt_ad_space']
+baidu.com##.cos-rich-video-player-video
 baidu.com##.drag-wrap
 baidu.com##.ec-ad
 baidu.com##.ec-result-inner
@@ -9347,6 +9348,7 @@ baidu.com##div.ad-wrapper
 baidu.com##div[class$="-ecom-ads"]
 baidu.com#@##header > div:last-child
 baidu.com#@##page-pre
+baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
 baidu.com#@#div[class*="ads"]
 baifumeiba.com##DIV#ad
 baike.baidu.com###J-attention-wrapper
@@ -9474,7 +9476,6 @@ juejin.cn###juejin > div.view-container.container:first-child > main.container.m
 juejin.cn##.extension
 luoqiuzw.com##DIV[id^="a-loading-"]
 m.autohome.com.cn##section > ol
-m.baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
 m.guancha.cn##.g_header.go-to-app
 m.hupu.com##A[href^='https://mobile.yangkeduo.com/duo_transfer_channel.html']
 m.hupu.com##IMG[alt='NBA英雄'][width='94%']
