@@ -5343,25 +5343,10 @@ vacations.ctrip.com##.side_function
 ||zzxlhwyp.com^
 ||zzycj.com^
 
-#晴雅
-! Description: 反馈群538268498
+! Description: 鍙嶉缇�538268498
 ! Homepage: http://rssv.cn/adguard/
-! Title: 晴雅广告拦截规则重置版支持IOS🐧538268498
-! Version: 1.5.0
-||10.130.208.223^
-||106.11.23.107^
-||111.51.128.172^
-||113-116-50-196-yf81c2bb.nodeedge.cn:9512^
-||119.28.83.28:8099^
-||120.232.202.5^
-||120.232.202.6^
-||120.232.202.7^
-||120.232.207.80^
-||120.232.210.151^
-||120.232.210.153^
-||120.232.210.155^
-||183.232.114.245^
-||183.240.223.132^
+! Title: 鏅撮泤骞垮憡鎷︽埅瑙勫垯閲嶇疆鐗堟敮鎸両OS馃惂538268498
+! Version: 1.6.4
 ||789.kakamobi.cn^
 ||a1.alibabausercontent.com^
 ||a6-remad.qm989.com^
@@ -5699,7 +5684,6 @@ vacations.ctrip.com##.side_function
 ||news.iadsdk.apple.com^
 ||nj.cschannel.anticheatexpert.com^
 ||notes-analytics-events.apple.com^
-||nsclick.baidu.com^
 ||oi.rb.qq.com^
 ||open-set-api.shenshiads.com^
 ||open.douyin.com^
@@ -5766,7 +5750,6 @@ vacations.ctrip.com##.side_function
 ||sb.adtidy.com^
 ||sc.laoqj.top^
 ||scs-x.iqiyi.com^
-||sdk-api.beizi.biz^
 ||sdk-e.play.aiseet.atianqi.com^
 ||sdk-event.beizi.biz^
 ||sdk.1rtb.net^
@@ -5924,7 +5907,6 @@ vacations.ctrip.com##.side_function
 ||www.view-apple.com^
 ||wxa.wxs.qq.com^
 ||wximg.wxs.qq.com^
-||wxsmw.wxs.qq.com^
 ||xiaoshuo.km.com^
 ||xlog.jd.com^
 ||xpgw-mob-xcdn.cp31.ott.cibntv.net^
@@ -5944,18 +5926,6 @@ vacations.ctrip.com##.side_function
 ||zixun.imtt.qq.com^
 ||zlink.toutiao.com^
 ||zt.gifshow.com^
-||wtradv.market.xiaomi.com^
-||sdkconfig.ad.xiaomi.com^
-||ads.cup.com.cn^
-||adsfile.bssdlbig.kugou.com^
-||ads-img-bak.xhscdn.com^
-||adsdkapi.dxys.pro^
-||mads.meituan.com^
-||ads-sdk-api.ranfenghd.com^
-||c.etoolads.cn^
-||ads-acc.qqbrowser.qq.com^
-||adsfilebssdlbig.tx.kugou.com^
-||mesu.apple.com^
 ||lf-leads-fe-scm.bytecdn.com^
 ||adjust.com^
 ||adsdk.whjzjx.cn^
@@ -5974,11 +5944,8 @@ vacations.ctrip.com##.side_function
 ||coc-ws.broker.tplay.qq.com^
 ||jsonatm-wss.broker.tplay.qq.com^
 ||xsgdt.play.aiseet.atianqi.com^
-||xsgdt.play.aiseet.atianqi.com^
 ||lives.l.aiseet.atianqi.com^
 ||ad.xelements.cn^
-||lives.l.aiseet.atianqi.com^
-||ads-drcn.platform.hihonorcloud.com^
 ||k0ub7yecy34y98z.djvod.ndcimgs.com^
 ||p2.eckwai.com^
 ||djvod.ndcimgs.com^
@@ -5999,3 +5966,66 @@ vacations.ctrip.com##.side_function
 ||ugc-upload.3g.qq.com^
 ||rumt-zh.com^
 ||richmedia.video.qq.com^
+||120.226.10.195^
+||defaultts.tc.qq.com^
+||*/omts.tc.qq.com^
+||120.232.58.157^
+||120.232.6.158^
+||ltscsy.qq.com^
+||ugccsy.qq.com^
+||ads.privacy.qq.com^
+||tracker.yfanads.com^
+||ads-dot.midongtech.com^
+||ad.midongtech.com^
+||ads.midongtech.com^
+||midongtech.com^
+||midongtech.xyz^
+||adashx.m.taobao.com^
+||ma.zijieapi.com^
+||image-ad.sm.cn^
+||bdapi.ads.oppomobile.com^
+||adsbdfs.heytapimage.com^
+||push-ads-cn.heytapmobi.com^
+||mobads-pre-config.cdn.bcebos.com^
+||mobads.e.shifen.com^
+||mobads-logs.e.shifen.com^
+||data.ads.oppomobile.com^
+||adsys.nineton.cn^
+||hnshamu.com^
+||h4es48.z.cjjd14.com^
+||track.innoads.cn^
+||v66-ad.ndcjl.com^
+||report-sy.adview.cn^
+||ads.oppomobile.com^
+||nineton.cn^
+||mon.zijieapi.com^
+||tracking-adnet.vivo.com.cn^
+||js-rwk.pull.etoote.com^
+||openapi.vivo.com.cn^
+||adnetstatic.vivo.com.cn^
+||risk-fp-openapi.vivo.com.cn^
+||findermp.video.qq.com^
+||appstoreort-stsdk.vivo.com.cn^
+||shua-music.shinet.cn^
+||onrt-stsdk.vivo.com.cn^
+||connectivitycheck.vivo.com.cn^
+||sls-android.cn-beijing.log.aliyuncs.com^
+||on-device-ai.vivo.com.cn^
+||connection-center.vivo.com.cn^
+||lookup.api.bsb.baidu.com^
+||vcode-or.vivo.com.cn^
+||apd-pcdnwxstat.teg.tencent-cloud.net^
+||skill-platform-prd.vivo.com.cn^
+||vhs.wwstat.com^
+||vcode-api.vivo.com.cn^
+||stappupgrade.vivo.com.cn^
+||ort.stsdk.vivo.com.cn^
+||az.appstore.vivo.com.cn^
+||perm-api.vivo.com.cn^
+||brort.stsdk.vivo.com.cn^
+||fc-open-materiel.vivo.com.cn^
+||st-sentinel.vivo.com.cn^
+||zhanstatic.vivo.com.cn^
+||appstorepnrt-stsdk.vivo.com.cn^
+||sumdiff.vivo.com.cn^
+||brandlog.vivo.com.cn^
