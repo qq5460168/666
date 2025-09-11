@@ -2,15 +2,15 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-09-11 20:50:24（北京时间）
+! Version: 2025-09-11 21:02:58（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16683
+! Total count: 16721
 [Adblock Plus 2.0]
 ! Title: 酷安广告规则
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Last Updated: 2025-09-11 12:50:22（北京时间）
-! Total Count: 16676
+! Last Updated: 2025-09-11 13:02:57（北京时间）
+! Total Count: 16714
 ||-normal-lq.zijieapi.com^
 ||0.r.msn.com^
 ||000123456789.online^
@@ -1358,6 +1358,7 @@
 ||ad.mediabong.net^
 ||ad.mesomorphosis.com^
 ||ad.mi.com^
+||ad.midongtech.com^
 ||ad.mnt123.com^
 ||ad.mobile.youku.com^
 ||ad.molitv.cn^
@@ -1694,6 +1695,7 @@
 ||adnet.qq.com^
 ||adnet.sohu.com^
 ||adnetpub.yaolan.com^
+||adnetstatic.vivo.com.cn^
 ||adnew.wifi8.com^
 ||adnxs.com^
 ||adnyg.com^
@@ -1744,6 +1746,7 @@
 ||ads-config.unityads.unity3d.com^
 ||ads-d.viber.com^
 ||ads-dev.pinterest.com^
+||ads-dot.midongtech.com^
 ||ads-drcn.platform.hihonorcloud.com^
 ||ads-img-al.xhscdn.com^
 ||ads-img-bak.xhscdn.com^
@@ -1797,6 +1800,7 @@
 ||ads.lingyuexiu.cn^
 ||ads.linkedin.com^
 ||ads.log.kafka.top^
+||ads.midongtech.com^
 ||ads.mojicdn.com^
 ||ads.morefreegame.com^
 ||ads.msn.com^
@@ -1991,6 +1995,7 @@
 ||adsymptotic.com^
 ||adsyndication.msn.com^
 ||adsys.chinacloudapp.cn^
+||adsys.nineton.cn^
 ||adsys.sinovision.net^
 ||adsystem.wasu.tv^
 ||adtago.s3.amazonaws.com^
@@ -2750,6 +2755,7 @@
 ||appsrv4.madserving.com^
 ||appstore.qzone.qq.com^
 ||appstoreort-stsdk.vivo.com.cn^
+||appstorepnrt-stsdk.vivo.com.cn^
 ||appsupdate.sinaapp.com^
 ||appsupport.stargame.com^
 ||apptentive.com^
@@ -3426,6 +3432,7 @@
 ||brakefluid.website^
 ||brand.sogou.com^
 ||brandadsstatic.vivo.com.cn^
+||brandlog.vivo.com.cn^
 ||brandshow.58.com^
 ||brcache.madthumbs.com^
 ||breenomeet.cc^
@@ -3439,6 +3446,7 @@
 ||brizads.com^
 ||bro.flyme.cn^
 ||broadcast.chat.bilibili.com^
+||brort.stsdk.vivo.com.cn^
 ||brownfox.top^
 ||browser.events.data.msn.cn^
 ||browser.gwdang.com^
@@ -4300,6 +4308,8 @@
 ||configv2.unityads.unitychina.cn^
 ||confinfo.map.qq.com^
 ||connect.summit.co.uk^
+||connection-center.vivo.com.cn^
+||connectivitycheck.vivo.com.cn^
 ||connectreadoasis.com^
 ||content-understand-strategy.sm.cn^
 ||content.confong.cn^
@@ -6020,6 +6030,7 @@
 ||fbc.ffychb.com^
 ||fc-ccimage.baidu.com^
 ||fc-feed.cdn.bcebos.com^
+||fc-open-materiel.vivo.com.cn^
 ||fc.gaizong.cn^
 ||fc.tiepan.cn^
 ||fc.zuixinchao.com^
@@ -6114,6 +6125,7 @@
 ||filter.appstore.vivo.com.cn^
 ||fimserve.ign.com^
 ||finance-gateway.diandian.com.cn^
+||findermp.video.qq.com^
 ||finderydy.video.qq.com^
 ||findicons.com^
 ||finding.hardwareheaven.com^
@@ -6823,6 +6835,7 @@
 ||h35.ynodd.cn^
 ||h45pmx1.cn^
 ||h4b0srs.cn^
+||h4es48.z.cjjd14.com^
 ||h5.analytics.126.net^
 ||h5.dzgsdswh5.xyz^
 ||h5.gdt.qq.com^
@@ -7097,6 +7110,7 @@
 ||hnr.scjpqut.cn^
 ||hnr.svdpgmt.cn^
 ||hnr.wsacjdg.cn^
+||hnshamu.com^
 ||hntezhi.com^
 ||hnxxjn.com^
 ||hnxxt.net^
@@ -8195,6 +8209,7 @@
 ||js-ad.a.yximgs.com^
 ||js-agent.newrelic.com^
 ||js-apac-ss.ysm.yahoo.com^
+||js-rwk.pull.etoote.com^
 ||js.05sun.com^
 ||js.133u.com^
 ||js.139y.com^
@@ -9993,6 +10008,8 @@
 ||mid.houyi.baofeng.net^
 ||midas.rong360.com^
 ||midinfo.baofeng.com^
+||midongtech.com^
+||midongtech.xyz^
 ||mie99.net^
 ||mifyeldx.top^
 ||mig.str.mdt.qq.com^
@@ -10120,8 +10137,10 @@
 ||mobad.ijinshan.com^
 ||mobadme.jp^
 ||mobads-logs.baidu.com^
+||mobads-logs.e.shifen.com^
 ||mobads-pre-config.cdn.bcebos.com^
 ||mobads.baidu.com^
+||mobads.e.shifen.com^
 ||mobaliyun.res.mgtv.com^
 ||mobclix.com^
 ||mobfox.com^
@@ -10540,6 +10559,7 @@
 ||nimoatl.icu^
 ||ninebox.cn^
 ||ninemsn.imrworldwide.com^
+||nineton.cn^
 ||ninformation.15dai.cn^
 ||ningbojisheng.cn^
 ||nisihu.com.cn^
@@ -10805,6 +10825,7 @@
 ||omnikool.discovery.com^
 ||omsdkapi.tapque.com^
 ||omtrdc.net^
+||on-device-ai.vivo.com.cn^
 ||on.maxspeedcdn.com^
 ||oncinu.com^
 ||onclickads.net^
@@ -10855,6 +10876,7 @@
 ||open.youzanyun.com^
 ||openapi-news.meizu.com^
 ||openapi.guanjia.qq.com^
+||openapi.vivo.com.cn^
 ||opencdnpddpic2.cdn.vsjwtcdn.com^
 ||opencdnpddvod2.jomodns.com^
 ||opencollective.com^
@@ -10894,6 +10916,7 @@
 ||orchidscape.net^
 ||oredero.com^
 ||ort-stsdk.vivo.com.cn^
+||ort.stsdk.vivo.com.cn^
 ||ortc.cc^
 ||orxsq.xyz^
 ||orz.hupu.com^
@@ -11217,6 +11240,7 @@
 ||pengauto.cn^
 ||peplle.cn^
 ||pepnsnq.cn^
+||perm-api.vivo.com.cn^
 ||petametrics.com^
 ||pexnjio.cn^
 ||pf-2.pchome.net^
@@ -12071,6 +12095,7 @@
 ||renhadmasandbab.info^
 ||renren2.maoyun.tv^
 ||renzhen8.cn^
+||report-sy.adview.cn^
 ||report.cms.qq.com^
 ||report.csslcloud.net^
 ||report.imtt.qq.com^
@@ -12846,6 +12871,7 @@
 ||shsunedu.com^
 ||shtatuo.cn^
 ||shtt.shuqw.com^
+||shua-music.shinet.cn^
 ||shucaihangjia.com^
 ||shufapeixun.shop^
 ||shuiguo.com^
@@ -12928,6 +12954,7 @@
 ||skfjd1.xyz^
 ||skfqxkk.cn^
 ||skidfqh.xyz^
+||skill-platform-prd.vivo.com.cn^
 ||skluff.com^
 ||skogsborg.net^
 ||skxuueby.cn^
@@ -12946,6 +12973,7 @@
 ||slog.sina.com.cn^
 ||slonlyuse.shop^
 ||slot.union.ucweb.com^
+||sls-android.cn-beijing.log.aliyuncs.com^
 ||slsuggestion.live^
 ||sltxantonline.com^
 ||slutcmail.com^
@@ -13169,6 +13197,7 @@
 ||st-ads-jssdk.vivo.com.cn^
 ||st-adsgame.vivo.com.cn^
 ||st-n.ads3-adnow.com^
+||st-sentinel.vivo.com.cn^
 ||st.holalauncher.com^
 ||st.holaworld.cn^
 ||st.targetix.net^
@@ -13188,6 +13217,7 @@
 ||stadig0.ifeng.com^
 ||staging-notify.sec.miui.com^
 ||staging.admin.e.mi.com^
+||stappupgrade.vivo.com.cn^
 ||staqnet.com^
 ||star8.net^
 ||startapp.com^
@@ -13328,6 +13358,7 @@
 ||success.ctobsnssdk.com^
 ||sucodb.com^
 ||sumatang.com^
+||sumdiff.vivo.com.cn^
 ||sun66387567606.online^
 ||sun66387567606.site^
 ||sunjianhao.com^
@@ -13906,6 +13937,7 @@
 ||track.66mobi.com^
 ||track.easeus.com^
 ||track.hujiang.com^
+||track.innoads.cn^
 ||track.lc.quark.cn^
 ||track.mituo.cn^
 ||track.tiara.daum.net^
@@ -13922,9 +13954,11 @@
 ||tracker.medproad.com^
 ||tracker.sns.iqiyi.com^
 ||tracker.soulapp.cn^
+||tracker.yfanads.com^
 ||trackerads.com^
 ||trackercdnbj.kugou.com^
 ||trackersimulator.org^
+||tracking-adnet.vivo.com.cn^
 ||tracking-server-prod-1.zenmxapps.com^
 ||tracking.intl.miui.com^
 ||tracking.kdnet.net^
@@ -14226,6 +14260,7 @@
 ||ugbjqwe.com^
 ||ugc-upload.3g.qq.com^
 ||ugc.moji001.com^
+||ugccsy.qq.com^
 ||ugd.gtimg.com^
 ||ugdtimg.com^
 ||ugfe111.top^
@@ -14576,6 +14611,7 @@
 ||v6-gdvod.kwaicdn.com^
 ||v6-novelapp-nxyd.fqnovelvod.com^
 ||v6-novelapp.fqnovelvod.com^
+||v66-ad.ndcjl.com^
 ||v66v66.com^
 ||v6awsnf8ejjjsefh.sjucaie2.top^
 ||v6ii.gdt.qq.com^
@@ -14672,6 +14708,7 @@
 ||vhhvldyuhm.xyz^
 ||vhjxrj.xyz^
 ||vhotlxp.video.qq.com^
+||vhs.wwstat.com^
 ||vhsutpgui.xyz^
 ||vhulan.com^
 ||vhutitpu.icu^
@@ -16488,6 +16525,7 @@
 ||zhangjiaqi.top^
 ||zhangyumo.top^
 ||zhangyuyidong.cn^
+||zhanstatic.vivo.com.cn^
 ||zhanzhang.net^
 ||zhanzhang.toutiao.com^
 ||zhao258.com^
