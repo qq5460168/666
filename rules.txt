@@ -2,7 +2,7 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-09-17 00:31:27（北京时间）
+! Version: 2025-09-17 02:35:08（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 26692
 
@@ -6571,17 +6571,17 @@
 13.226.254.58 image.tmdb.org
 13.35.0.128 api.themoviedb.org
 140.82.112.18 github.community
-140.82.112.22                 central.github.com
+140.82.112.22                 collector.github.com
 140.82.112.25 live.github.com
-140.82.113.17                 github.community
-140.82.113.21                 api.individual.githubcopilot.com
+140.82.112.26                 live.github.com
 140.82.113.21                 education.github.com
 140.82.113.21 collector.github.com
 140.82.113.22 central.github.com
 140.82.113.25                 alive.github.com
 140.82.113.26 alive.github.com
-140.82.114.21                 collector.github.com
-140.82.114.25                 live.github.com
+140.82.114.18                 github.community
+140.82.114.21                 central.github.com
+140.82.114.22                 api.individual.githubcopilot.com
 140.82.116.3 gist.github.com
 142.250.107.188 alt5-mtalk.google.com #US
 142.250.115.188     alt6-mtalk.google.com
@@ -6604,7 +6604,10 @@
 151.101.193.194               github.global.ssl.fastly.net
 151.101.76.133 raw.github.com
 16.15.184.231 github-production-user-asset-6210df.s3.amazonaws.com
-16.182.98.241                 github-production-user-asset-6210df.s3.amazonaws.com
+16.15.200.161                 github-production-release-asset-2e65be.s3.amazonaws.com
+16.15.201.91                  github-cloud.s3.amazonaws.com
+16.182.67.9                   github-com.s3.amazonaws.com
+16.182.99.17                  github-production-user-asset-6210df.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -6707,7 +6710,6 @@
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
 23.58.97.230 store.steampowered.com
-3.5.1.128                     github-production-repository-file-5c1aeb.s3.amazonaws.com
 3.5.28.146 github-com.s3.amazonaws.com
 31.216.145.5 mega.nz
 35.181.164.242 community.oneplus.com
@@ -6726,11 +6728,9 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
-52.216.12.92                  github-production-release-asset-2e65be.s3.amazonaws.com
-52.216.185.36                 github-com.s3.amazonaws.com
-52.216.205.107                github-cloud.s3.amazonaws.com
 52.216.54.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.216.56.97 github-cloud.s3.amazonaws.com
+52.217.142.17                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 52.217.44.156 github-production-release-asset-2e65be.s3.amazonaws.com
 52.84.166.68 api.themoviedb.org
 52.84.166.71 api.themoviedb.org
