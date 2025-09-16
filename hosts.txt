@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-09-16 22:26:10（北京时间）
+! Version: 2025-09-17 00:31:27（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16719
+! Total count: 16673
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-09-16 14:26:08（北京时间）
+# Last Updated: 2025-09-16 16:31:26（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -284,12 +284,10 @@
 0.0.0.0 203710.com
 0.0.0.0 2052.flash2-http.qq.com
 0.0.0.0 208622.top
-0.0.0.0 213fjdd.com
 0.0.0.0 2144.cn
 0.0.0.0 21511.ua96.com
 0.0.0.0 21qma3vs.com
 0.0.0.0 21union.com
-0.0.0.0 21uywiew.com
 0.0.0.0 22.qingsongbar.com
 0.0.0.0 2217.zox3ue.com
 0.0.0.0 2217ccs.cdocker402.com
@@ -477,7 +475,6 @@
 0.0.0.0 46sg.com
 0.0.0.0 495qp188.com
 0.0.0.0 49789c.com
-0.0.0.0 49lq.mm51-t0403.cc
 0.0.0.0 49lq.mm51-tvhn1767.vip
 0.0.0.0 49wanwan.com
 0.0.0.0 4a9.cn
@@ -559,7 +556,6 @@
 0.0.0.0 559gp.com
 0.0.0.0 55lu.com
 0.0.0.0 55zzz.cn
-0.0.0.0 561.5613828.cc
 0.0.0.0 5634.com
 0.0.0.0 565aitiyu.com
 0.0.0.0 5675146.com
@@ -577,7 +573,6 @@
 0.0.0.0 58mingri.cn
 0.0.0.0 58mingtian.cn
 0.0.0.0 592man.com
-0.0.0.0 596.5963135.cc
 0.0.0.0 59gt.cn
 0.0.0.0 5afc8f3239.com
 0.0.0.0 5dg.me
@@ -636,7 +631,6 @@
 0.0.0.0 68665565.com
 0.0.0.0 68710266.com
 0.0.0.0 688mob.com
-0.0.0.0 698444.lol
 0.0.0.0 69852b1734.com
 0.0.0.0 69duk.com
 0.0.0.0 69e7.fun
@@ -771,7 +765,6 @@
 0.0.0.0 849558.com
 0.0.0.0 84zm8.xyz
 0.0.0.0 85058s.com
-0.0.0.0 8516.fun
 0.0.0.0 8521448.com
 0.0.0.0 85655095.com
 0.0.0.0 85795.today
@@ -2376,6 +2369,7 @@
 0.0.0.0 andes.tech
 0.0.0.0 andmejs.com
 0.0.0.0 android-lrcresource.wps.cn
+0.0.0.0 android.bugly.qq.com
 0.0.0.0 android.push.126.net
 0.0.0.0 android.rqd.qq.com
 0.0.0.0 androiddownload.damai.cn
@@ -2841,7 +2835,6 @@
 0.0.0.0 aspect-upush.umeng.com
 0.0.0.0 aspwg.cn
 0.0.0.0 asr-server.soulapp.cn
-0.0.0.0 assd.hkewhqoao.cn
 0.0.0.0 assets.210189.com
 0.0.0.0 assets.2343sdxs.com
 0.0.0.0 assets.258pcf.com
@@ -3295,7 +3288,6 @@
 0.0.0.0 bid-adx.vlion.cn
 0.0.0.0 biddingos.com
 0.0.0.0 biddingx.com
-0.0.0.0 bidotz.icu
 0.0.0.0 bidtoolads.com
 0.0.0.0 bidvertiser.com
 0.0.0.0 bieqpf.cn
@@ -3357,7 +3349,6 @@
 0.0.0.0 bl100.tcahto.cn
 0.0.0.0 bla.gtimg.com
 0.0.0.0 blaaaa12.googlecode.com
-0.0.0.0 black.qimo.ink
 0.0.0.0 blackhole.m.jd.com
 0.0.0.0 blastcahs.com
 0.0.0.0 blb.winasdaq.com
@@ -4413,6 +4404,7 @@
 0.0.0.0 cps.360buy.com
 0.0.0.0 cpu-admin.baidu.com
 0.0.0.0 cpu-openapi.baidu.com
+0.0.0.0 cpucdn.baidu.com
 0.0.0.0 cpv-adv.ggytc.com
 0.0.0.0 cpv.channelray
 0.0.0.0 cpv.czpush.com
@@ -4511,7 +4503,6 @@
 0.0.0.0 ctrmi.com
 0.0.0.0 ctsau.xyz
 0.0.0.0 ctsywy.com
-0.0.0.0 ctyfmc.icu
 0.0.0.0 cudaojia.com
 0.0.0.0 cuioxbqi.com
 0.0.0.0 cupid.iqiyi.com
@@ -6229,7 +6220,6 @@
 0.0.0.0 freexxxvideoclip.aebn.net
 0.0.0.0 freshmarketer.com
 0.0.0.0 freychang.fun
-0.0.0.0 fri28.so03281koaq.com
 0.0.0.0 friendshipmale.com
 0.0.0.0 frontend-perf-service.e.kuaishou.com
 0.0.0.0 frontier-toutiao.snssdk.com
@@ -6488,7 +6478,6 @@
 0.0.0.0 getui.cn
 0.0.0.0 getui.com
 0.0.0.0 getui.net
-0.0.0.0 geuvus.icu
 0.0.0.0 gewuwen.com
 0.0.0.0 geziyd.com
 0.0.0.0 gf108.com
@@ -7068,7 +7057,6 @@
 0.0.0.0 hkrpg-log-upload-os.hoyoverse.com
 0.0.0.0 hkrpg-log-upload.mihoyo.com
 0.0.0.0 hkscldggm.xyz
-0.0.0.0 hkw27.icu
 0.0.0.0 hl.kuzu.com
 0.0.0.0 hl.quw18.com
 0.0.0.0 hl2rcv.adobe.com
@@ -7885,7 +7873,6 @@
 0.0.0.0 iwan.sogou.com
 0.0.0.0 iwanad.baidu.com
 0.0.0.0 iweiweb.com
-0.0.0.0 iwuaym.icu
 0.0.0.0 ixav-cse.avlyun.com
 0.0.0.0 ixbua.xyz
 0.0.0.0 ixelrsd.cn
@@ -7931,7 +7918,6 @@
 0.0.0.0 j1u9nlr3k.cc
 0.0.0.0 j3.jtezxmpb.xyz
 0.0.0.0 j520s.gzcl999.cn
-0.0.0.0 j6u8vwfmbj-1311321840.cos-website.ap-nanjing.myqcloud.com
 0.0.0.0 j6xz0.com
 0.0.0.0 j6zh4g0.cn
 0.0.0.0 j7182.hfxcsl.cn
@@ -8158,7 +8144,6 @@
 0.0.0.0 joannarace.com
 0.0.0.0 jocelynrace.com
 0.0.0.0 jochenanabata.guru
-0.0.0.0 jock.cdn.bcebos.com
 0.0.0.0 johtzj.com
 0.0.0.0 joinchitchat.com
 0.0.0.0 jointreport-switch.com
@@ -8399,7 +8384,6 @@
 0.0.0.0 just-machinery.com
 0.0.0.0 jutou5.com
 0.0.0.0 jutwzssh.icu
-0.0.0.0 juuoe.lrmzx.com
 0.0.0.0 juzi.cn
 0.0.0.0 juzilm.com
 0.0.0.0 jv0rlf.com
@@ -8583,7 +8567,6 @@
 0.0.0.0 kkjshsj.com
 0.0.0.0 kklpe.xyz
 0.0.0.0 kklq05121p0i.com
-0.0.0.0 kklq05151p0i.com
 0.0.0.0 kkmbbvz.xyz
 0.0.0.0 kkpgv.kankan.com
 0.0.0.0 kkpgv2.kankan.com
@@ -8983,7 +8966,6 @@
 0.0.0.0 listenother.com
 0.0.0.0 listlog.baofeng.net
 0.0.0.0 litchiads.com
-0.0.0.0 lite.a.market.xiaomi.com
 0.0.0.0 littlecdn.com
 0.0.0.0 liugaohao.com
 0.0.0.0 liuliguo.com
@@ -9237,7 +9219,6 @@
 0.0.0.0 lsancil.top
 0.0.0.0 lshuaibin.cn
 0.0.0.0 lsj2.5aer.com
-0.0.0.0 lsjarh.top
 0.0.0.0 lskmipb.icu
 0.0.0.0 lslbahl.top
 0.0.0.0 lstat.youku.com
@@ -9718,7 +9699,6 @@
 0.0.0.0 m4pgay.com
 0.0.0.0 m5.apk.67mo.com
 0.0.0.0 m5asa4.xianxin.cc
-0.0.0.0 m69e.cyou
 0.0.0.0 m7.bnpkxgfp.xyz
 0.0.0.0 m7g2v1b9.com
 0.0.0.0 m9.xcdf.cn
@@ -10705,7 +10685,6 @@
 0.0.0.0 o.minisplat.cn
 0.0.0.0 o.zjjrlx4.com
 0.0.0.0 o091i.com
-0.0.0.0 o1098464.ingest.sentry.io
 0.0.0.0 o2.jyjyj.cn
 0.0.0.0 o2o-ad-dev.oss-cn-shanghai.aliyuncs.com
 0.0.0.0 o2o-ad-dev.oss-cn-shanghai.aliyuncs.com.gds.alibabadns.com
@@ -10752,7 +10731,6 @@
 0.0.0.0 odin.goo.mx
 0.0.0.0 oehhq.xyz
 0.0.0.0 oewtuho.cn
-0.0.0.0 of1j087.top
 0.0.0.0 offerwall.yandex.net
 0.0.0.0 officeme.cn
 0.0.0.0 officesoftcn.com
@@ -10789,8 +10767,6 @@
 0.0.0.0 ojngisbfwwyp.com
 0.0.0.0 ok-11-cai.cc
 0.0.0.0 ok.432kkk.com
-0.0.0.0 ok.5378397.cc
-0.0.0.0 ok.6078158.cc
 0.0.0.0 ok.8358137.cc
 0.0.0.0 ok.8358211.cc
 0.0.0.0 ok365.com
@@ -10819,7 +10795,6 @@
 0.0.0.0 omgmta.qq.com
 0.0.0.0 omgmta1.qq.com
 0.0.0.0 omhoa.com
-0.0.0.0 ommbqw.icu
 0.0.0.0 omnikool.discovery.com
 0.0.0.0 omsdkapi.tapque.com
 0.0.0.0 omtrdc.net
@@ -10855,7 +10830,6 @@
 0.0.0.0 ootyx24.com
 0.0.0.0 op.ssp.qq.com
 0.0.0.0 op00w.baiyangzs.com
-0.0.0.0 op53t.nbganghui.com
 0.0.0.0 ope.tanx.com
 0.0.0.0 opehs.tanx.com
 0.0.0.0 open-client.douyin.com
@@ -11179,7 +11153,6 @@
 0.0.0.0 pb3.pstatp.com
 0.0.0.0 pbaiyho.cn
 0.0.0.0 pbd.sogou.com
-0.0.0.0 pbdhsolmxw1.com
 0.0.0.0 pbs.lenovomm.com
 0.0.0.0 pbtsjh.xyz
 0.0.0.0 pc.107788.com
@@ -12629,7 +12602,6 @@
 0.0.0.0 sdk.renrenjihua.com
 0.0.0.0 sdk.sipujia.cn
 0.0.0.0 sdk.verification.jiguang.cn
-0.0.0.0 sdk2xr232.top
 0.0.0.0 sdkapp.mobile.sina.cn
 0.0.0.0 sdkapp.uve.weibo.com
 0.0.0.0 sdkauth.hpplay.cn
@@ -12776,7 +12748,6 @@
 0.0.0.0 sf6-ttcdn-tos.pstatp.com
 0.0.0.0 sfbixfd.cn
 0.0.0.0 sfg11rr.com
-0.0.0.0 sfh35.icu
 0.0.0.0 sfl-fe-tos.pglstatp-toutiao.com
 0.0.0.0 sfloushi.com
 0.0.0.0 sfn.opposhop.cn
@@ -13277,7 +13248,6 @@
 0.0.0.0 static.ptqy.gitv.tv
 0.0.0.0 static.qblv.qq.com
 0.0.0.0 static.squirrelgs.info
-0.0.0.0 static.trafficjunky.com
 0.0.0.0 static.yxh1.cn
 0.0.0.0 static1.kewaishu.info
 0.0.0.0 static5.niwodai.com
@@ -14278,7 +14248,6 @@
 0.0.0.0 uimg.27admin.com
 0.0.0.0 uimserv.net
 0.0.0.0 uioozpxq.com
-0.0.0.0 uiruyhgdlq9.com
 0.0.0.0 uiteligularly.fun
 0.0.0.0 ujgf120.com
 0.0.0.0 ujian.cc
@@ -14728,7 +14697,6 @@
 0.0.0.0 video.cooguo.com
 0.0.0.0 video.dispatch.tc.qq.com
 0.0.0.0 video.market.xiaomi.com
-0.0.0.0 video.mnaspm.com
 0.0.0.0 video.mpush.qq.com
 0.0.0.0 video.new-eve.com
 0.0.0.0 video.ureport.push.qq.com
@@ -14784,7 +14752,6 @@
 0.0.0.0 vlion.cn
 0.0.0.0 vlive.qqvideo.tc.qq.com
 0.0.0.0 vlujojf.icu
-0.0.0.0 vm0c.tbl1444klf.cc
 0.0.0.0 vmat.gtimg.com
 0.0.0.0 vmbzhfh.cn
 0.0.0.0 vmdlxj.xyz
@@ -15017,7 +14984,6 @@
 0.0.0.0 web.kuaisouwifi.com
 0.0.0.0 web.sogou.com
 0.0.0.0 web.xurongwl.com
-0.0.0.0 web3.0.page.live18.club
 0.0.0.0 webcast.amemv.com
 0.0.0.0 webcast5-open-hl.douyin.com
 0.0.0.0 webcast5-open-lf.douyin.com
@@ -15167,7 +15133,6 @@
 0.0.0.0 wn68din.cn
 0.0.0.0 wn80drk.shop
 0.0.0.0 wns.notify.windows.com.akadns.net
-0.0.0.0 wnymfqnrzp6.com
 0.0.0.0 wnzle.com
 0.0.0.0 wo.iuni.com.cn
 0.0.0.0 wo1990.com
@@ -15251,7 +15216,6 @@
 0.0.0.0 wubizigeng.com
 0.0.0.0 wudang05.com
 0.0.0.0 wuji.video.qq.com
-0.0.0.0 wuk.91c0218.top
 0.0.0.0 wuliao.epro.sogou.com
 0.0.0.0 wuliao.ganji.cn
 0.0.0.0 wuliao.jingyanben.com
@@ -15267,7 +15231,6 @@
 0.0.0.0 wvcwop.zbbznk.xyz
 0.0.0.0 wvyqks.xyz
 0.0.0.0 ww-7o1-0h.os.23v7m9.cc
-0.0.0.0 ww.wcav495.vip
 0.0.0.0 ww.xiaopiaoyou.com
 0.0.0.0 ww10.onetad.com
 0.0.0.0 ww101.onetad.com
@@ -15296,8 +15259,6 @@
 0.0.0.0 www-777563.com
 0.0.0.0 www.002st.top
 0.0.0.0 www.128tl.com
-0.0.0.0 www.150amqtkk.top
-0.0.0.0 www.150ixesut.top
 0.0.0.0 www.155tl.com
 0.0.0.0 www.16m.cc
 0.0.0.0 www.17c122.com
@@ -15335,7 +15296,6 @@
 0.0.0.0 www.adsage.cn
 0.0.0.0 www.adsmogo.com
 0.0.0.0 www.afmykaa.com
-0.0.0.0 www.aitongji.vip
 0.0.0.0 www.anbdd19.xyz
 0.0.0.0 www.antailianmeng.com
 0.0.0.0 www.avple.video
@@ -15350,6 +15310,7 @@
 0.0.0.0 www.bl2030.com
 0.0.0.0 www.btebgl.xyz
 0.0.0.0 www.bw558.com
+0.0.0.0 www.bytedance.com
 0.0.0.0 www.bytedance.com.queniurc.com
 0.0.0.0 www.bytedance.com.w.cdngslb.com
 0.0.0.0 www.cdkuaidai.com
@@ -15394,7 +15355,6 @@
 0.0.0.0 www.hovcu4.top
 0.0.0.0 www.hxkyuwr1040.vip
 0.0.0.0 www.ibgdd67.top
-0.0.0.0 www.ikesepsckslp.cn
 0.0.0.0 www.ilaohuyou.xyz
 0.0.0.0 www.inb967.com
 0.0.0.0 www.instv729.com
@@ -15410,9 +15370,7 @@
 0.0.0.0 www.jtlopk.xyz
 0.0.0.0 www.k5iwup.xyz
 0.0.0.0 www.kanglingjiu.com
-0.0.0.0 www.kca8531.cc
 0.0.0.0 www.kcc4445.top
-0.0.0.0 www.kdu4127.cc
 0.0.0.0 www.kowqd3.top
 0.0.0.0 www.kowqd9.top
 0.0.0.0 www.kp12a.top
@@ -15448,7 +15406,6 @@
 0.0.0.0 www.qchannel01.cn
 0.0.0.0 www.qd3bcdn1130.top
 0.0.0.0 www.qhj0u.com
-0.0.0.0 www.qhmxwux.com
 0.0.0.0 www.qinlinghe.com
 0.0.0.0 www.qkixi.com
 0.0.0.0 www.qlspx.com
@@ -15496,7 +15453,6 @@
 0.0.0.0 www.xbfxs6.com
 0.0.0.0 www.xbzb8.cc
 0.0.0.0 www.xfzb2.cc
-0.0.0.0 www.xhslg84.vip
 0.0.0.0 www.xhsrt47.vip
 0.0.0.0 www.xhsrt588.vip
 0.0.0.0 www.xhsrt594.vip
@@ -15848,7 +15804,6 @@
 0.0.0.0 xn--zw0autp42d.cn
 0.0.0.0 xne1ocient87zxz.360doc.cn
 0.0.0.0 xnjpg.com
-0.0.0.0 xnp92aeh02.knlwy.cn
 0.0.0.0 xnzetb.xyz
 0.0.0.0 xnzxeu.com
 0.0.0.0 xokcaxw.cn
@@ -15909,7 +15864,6 @@
 0.0.0.0 xtnwxhjv.xyz
 0.0.0.0 xtpwfb.xyz
 0.0.0.0 xtruh.uranus.sogou.com
-0.0.0.0 xttiu105.pjpxke.cn
 0.0.0.0 xtu224.com
 0.0.0.0 xtwjx.cn
 0.0.0.0 xtxa.net
