@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-09-22 18:28:46（北京时间）
+! Version: 2025-09-22 20:53:54（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2388
+! Total count: 2395
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-www.sway-cdn.com^
@@ -150,6 +150,7 @@
 @@||1sapp.com^
 @@||1tian.kuaishou.com^
 @@||316.coolapk1s.com^
+@@||360.cn^
 @@||360buyimg.com^
 @@||360kuai.com^
 @@||3746760377.qnqcdn.net^
@@ -291,6 +292,7 @@
 @@||api.cc.163.com^
 @@||api.cloud.huawei.com^
 @@||api.comm.miui.com^
+@@||api.coolapk.com^
 @@||api.coolapk1s.com^
 @@||api.crashguard.me^
 @@||api.developer.xiaomi.com^
@@ -1258,6 +1260,8 @@
 @@||lmlicenses.wip4.adobe.com^
 @@||loc.map.baidu.com^
 @@||localads.chengzijianzhan.cn^
+@@||log-api.pangolin-sdk-toutiao-b.com^
+@@||log-api.pangolin-sdk-toutiao.com^
 @@||log-upload.mihoyo.com^
 @@||log.snssdk.com^
 @@||log1.cmpassport.com^
@@ -1849,6 +1853,7 @@
 @@||sdk-api.beizi.biz^$important
 @@||sdk.alibaba.com.ailbaba.me^
 @@||sdk.live.360.cn^
+@@||sdk.open.talk.gepush.com^
 @@||sdkapi.sms.mob.com^
 @@||se*.360simg.com^
 @@||se.360.cn^
@@ -2102,6 +2107,7 @@
 @@||uland.taobao.com^
 @@||ulive-interact.uc.cn^
 @@||ulive-sc.uc.cn^
+@@||umengjmacs.m.taobao.com^
 @@||umiwi.com^
 @@||unet.ucweb.com^
 @@||union-click.jd.com^
@@ -2259,6 +2265,7 @@
 @@||www.bing.com^$important
 @@||www.blogger.com^
 @@||www.bmcx.com^
+@@||www.bqgyy.com^
 @@||www.chemdraw.com.cn^
 @@||www.cmpassport.com^
 @@||www.crossoverchina.com^
