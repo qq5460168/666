@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-09-24 14:36:54（北京时间）
+! Version: 2025-09-24 16:33:57（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16673
+! Total count: 16689
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-09-24 06:36:52（北京时间）
+# Last Updated: 2025-09-24 08:33:56（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -3429,6 +3429,7 @@
 0.0.0.0 brendanbc.com
 0.0.0.0 brfgbn.xyz
 0.0.0.0 brfvyrrp.com
+0.0.0.0 bridge.fenqile.com
 0.0.0.0 bridgeoos.com
 0.0.0.0 bridgetnbe.com
 0.0.0.0 brizads.com
@@ -4156,6 +4157,7 @@
 0.0.0.0 cm.jd.com
 0.0.0.0 cm.kwad.com
 0.0.0.0 cm.l.qq.com
+0.0.0.0 cm.m.fenqile.com
 0.0.0.0 cm.mct01.com
 0.0.0.0 cm.netseer.com
 0.0.0.0 cm.p4p.cn.yahoo.com
@@ -4335,6 +4337,7 @@
 0.0.0.0 corssdk.map.qq.com
 0.0.0.0 cos.ho7k.com
 0.0.0.0 cosoyoo.com
+0.0.0.0 coss-fit.fenqile.com
 0.0.0.0 coss-shark-down.fenqile.com
 0.0.0.0 couchcoaster.jp
 0.0.0.0 count.atm.youku.com
@@ -6916,6 +6919,7 @@
 0.0.0.0 hcbmq.cn
 0.0.0.0 hccms.com.cn
 0.0.0.0 hcdjy.xyz
+0.0.0.0 hcdnw120.vip.global.cdnhwctnm107.com
 0.0.0.0 hchh.capmvb.net
 0.0.0.0 hciea.xyz
 0.0.0.0 hcl.baidu.com
@@ -7917,6 +7921,8 @@
 0.0.0.0 j1u9nlr3k.cc
 0.0.0.0 j3.jtezxmpb.xyz
 0.0.0.0 j520s.gzcl999.cn
+0.0.0.0 j5z.cn
+0.0.0.0 j5z.cn.w.kunlunaq.com
 0.0.0.0 j6xz0.com
 0.0.0.0 j6zh4g0.cn
 0.0.0.0 j7182.hfxcsl.cn
@@ -8452,6 +8458,8 @@
 0.0.0.0 k2team.kyiv.ua
 0.0.0.0 k31bpzf.xyz
 0.0.0.0 k3bos.com
+0.0.0.0 k3l.cn
+0.0.0.0 k3l.cn.w.kunlunpi.com
 0.0.0.0 k42kw.top
 0.0.0.0 k5567.vip
 0.0.0.0 k5ggua.xyz
@@ -11762,6 +11770,8 @@
 0.0.0.0 qjwpy.com
 0.0.0.0 qjxys.cn
 0.0.0.0 qktmwiq.cn
+0.0.0.0 ql7.cn
+0.0.0.0 ql7.cn.w.kunlunaq.com
 0.0.0.0 qlisv.siemens6es7.com
 0.0.0.0 qlmho.renhengshangmao.com
 0.0.0.0 qloer.com
@@ -13070,6 +13080,8 @@
 0.0.0.0 sqsh.3g.qq.com
 0.0.0.0 sqtpks3.1391.com
 0.0.0.0 squarespace.evyy.net
+0.0.0.0 sr0.cn
+0.0.0.0 sr0.cn.w.kunlunaq.com
 0.0.0.0 srbzw.cn
 0.0.0.0 src.duanxin520.com
 0.0.0.0 src.leju.com
@@ -13446,6 +13458,7 @@
 0.0.0.0 szhszxfw.cn
 0.0.0.0 szipkp.com
 0.0.0.0 szkdst.com
+0.0.0.0 szl-oa-other-default.gtm.fenqile.com
 0.0.0.0 szrk3.com
 0.0.0.0 szshouzhai.com
 0.0.0.0 szxc868.com
@@ -14721,6 +14734,8 @@
 0.0.0.0 vip.hyz86.com
 0.0.0.0 vip.id528.com
 0.0.0.0 vip.jindu179.com
+0.0.0.0 vip.k3l.cn
+0.0.0.0 vip.k3l.cn.w.kunlunpi.com
 0.0.0.0 vip.mall044.com
 0.0.0.0 vip.media8.cn
 0.0.0.0 vip.pinghuhome.com
@@ -16562,6 +16577,7 @@
 0.0.0.0 znsv.baidu.com
 0.0.0.0 znyjmbh.icu
 0.0.0.0 zo66.com
+0.0.0.0 zone-szl-moblie-app.gtm.fenqile.com
 0.0.0.0 zonyff.xyz
 0.0.0.0 zoomanalytics.co
 0.0.0.0 zotcjeig.xyz

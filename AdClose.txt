@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-09-24 14:36:54（北京时间）
+! Version: 2025-09-24 16:33:57（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16672
+! Total count: 16688
 # AdClose 专用广告规则
-# 生成时间: 2025-09-24 06:36:52（北京时间）
+# 生成时间: 2025-09-24 08:33:56（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -3428,6 +3428,7 @@ domain, breezily168.com
 domain, brendanbc.com
 domain, brfgbn.xyz
 domain, brfvyrrp.com
+domain, bridge.fenqile.com
 domain, bridgeoos.com
 domain, bridgetnbe.com
 domain, brizads.com
@@ -4155,6 +4156,7 @@ domain, cm.fancyapi.com
 domain, cm.jd.com
 domain, cm.kwad.com
 domain, cm.l.qq.com
+domain, cm.m.fenqile.com
 domain, cm.mct01.com
 domain, cm.netseer.com
 domain, cm.p4p.cn.yahoo.com
@@ -4334,6 +4336,7 @@ domain, corp.sohu.com
 domain, corssdk.map.qq.com
 domain, cos.ho7k.com
 domain, cosoyoo.com
+domain, coss-fit.fenqile.com
 domain, coss-shark-down.fenqile.com
 domain, couchcoaster.jp
 domain, count.atm.youku.com
@@ -6915,6 +6918,7 @@ domain, hcbmg.cn
 domain, hcbmq.cn
 domain, hccms.com.cn
 domain, hcdjy.xyz
+domain, hcdnw120.vip.global.cdnhwctnm107.com
 domain, hchh.capmvb.net
 domain, hciea.xyz
 domain, hcl.baidu.com
@@ -7916,6 +7920,8 @@ domain, j17.xiumu.cn
 domain, j1u9nlr3k.cc
 domain, j3.jtezxmpb.xyz
 domain, j520s.gzcl999.cn
+domain, j5z.cn
+domain, j5z.cn.w.kunlunaq.com
 domain, j6xz0.com
 domain, j6zh4g0.cn
 domain, j7182.hfxcsl.cn
@@ -8451,6 +8457,8 @@ domain, k2.ofodai.com
 domain, k2team.kyiv.ua
 domain, k31bpzf.xyz
 domain, k3bos.com
+domain, k3l.cn
+domain, k3l.cn.w.kunlunpi.com
 domain, k42kw.top
 domain, k5567.vip
 domain, k5ggua.xyz
@@ -11761,6 +11769,8 @@ domain, qjsp48.xyz
 domain, qjwpy.com
 domain, qjxys.cn
 domain, qktmwiq.cn
+domain, ql7.cn
+domain, ql7.cn.w.kunlunaq.com
 domain, qlisv.siemens6es7.com
 domain, qlmho.renhengshangmao.com
 domain, qloer.com
@@ -13069,6 +13079,8 @@ domain, sqkt38.cc
 domain, sqsh.3g.qq.com
 domain, sqtpks3.1391.com
 domain, squarespace.evyy.net
+domain, sr0.cn
+domain, sr0.cn.w.kunlunaq.com
 domain, srbzw.cn
 domain, src.duanxin520.com
 domain, src.leju.com
@@ -13445,6 +13457,7 @@ domain, szggdw.com
 domain, szhszxfw.cn
 domain, szipkp.com
 domain, szkdst.com
+domain, szl-oa-other-default.gtm.fenqile.com
 domain, szrk3.com
 domain, szshouzhai.com
 domain, szxc868.com
@@ -14720,6 +14733,8 @@ domain, vip.ffzy-online3.com
 domain, vip.hyz86.com
 domain, vip.id528.com
 domain, vip.jindu179.com
+domain, vip.k3l.cn
+domain, vip.k3l.cn.w.kunlunpi.com
 domain, vip.mall044.com
 domain, vip.media8.cn
 domain, vip.pinghuhome.com
@@ -16561,6 +16576,7 @@ domain, znnodl.xyz
 domain, znsv.baidu.com
 domain, znyjmbh.icu
 domain, zo66.com
+domain, zone-szl-moblie-app.gtm.fenqile.com
 domain, zonyff.xyz
 domain, zoomanalytics.co
 domain, zotcjeig.xyz

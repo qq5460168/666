@@ -1,9 +1,9 @@
 # Title: Clash Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-09-24 06:36:52（北京时间）
-# Clash规则数量: 16668
-! Total count: 16668
+# Last Updated: 2025-09-24 08:33:56（北京时间）
+# Clash规则数量: 16684
+! Total count: 16684
 rules:
   - DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
   - DOMAIN-SUFFIX,0.r.msn.com,REJECT
@@ -3425,6 +3425,7 @@ rules:
   - DOMAIN-SUFFIX,brendanbc.com,REJECT
   - DOMAIN-SUFFIX,brfgbn.xyz,REJECT
   - DOMAIN-SUFFIX,brfvyrrp.com,REJECT
+  - DOMAIN-SUFFIX,bridge.fenqile.com,REJECT
   - DOMAIN-SUFFIX,bridgeoos.com,REJECT
   - DOMAIN-SUFFIX,bridgetnbe.com,REJECT
   - DOMAIN-SUFFIX,brizads.com,REJECT
@@ -4152,6 +4153,7 @@ rules:
   - DOMAIN-SUFFIX,cm.jd.com,REJECT
   - DOMAIN-SUFFIX,cm.kwad.com,REJECT
   - DOMAIN-SUFFIX,cm.l.qq.com,REJECT
+  - DOMAIN-SUFFIX,cm.m.fenqile.com,REJECT
   - DOMAIN-SUFFIX,cm.mct01.com,REJECT
   - DOMAIN-SUFFIX,cm.netseer.com,REJECT
   - DOMAIN-SUFFIX,cm.p4p.cn.yahoo.com,REJECT
@@ -4331,6 +4333,7 @@ rules:
   - DOMAIN-SUFFIX,corssdk.map.qq.com,REJECT
   - DOMAIN-SUFFIX,cos.ho7k.com,REJECT
   - DOMAIN-SUFFIX,cosoyoo.com,REJECT
+  - DOMAIN-SUFFIX,coss-fit.fenqile.com,REJECT
   - DOMAIN-SUFFIX,coss-shark-down.fenqile.com,REJECT
   - DOMAIN-SUFFIX,couchcoaster.jp,REJECT
   - DOMAIN-SUFFIX,count.atm.youku.com,REJECT
@@ -6912,6 +6915,7 @@ rules:
   - DOMAIN-SUFFIX,hcbmq.cn,REJECT
   - DOMAIN-SUFFIX,hccms.com.cn,REJECT
   - DOMAIN-SUFFIX,hcdjy.xyz,REJECT
+  - DOMAIN-SUFFIX,hcdnw120.vip.global.cdnhwctnm107.com,REJECT
   - DOMAIN-SUFFIX,hchh.capmvb.net,REJECT
   - DOMAIN-SUFFIX,hciea.xyz,REJECT
   - DOMAIN-SUFFIX,hcl.baidu.com,REJECT
@@ -7913,6 +7917,8 @@ rules:
   - DOMAIN-SUFFIX,j1u9nlr3k.cc,REJECT
   - DOMAIN-SUFFIX,j3.jtezxmpb.xyz,REJECT
   - DOMAIN-SUFFIX,j520s.gzcl999.cn,REJECT
+  - DOMAIN-SUFFIX,j5z.cn,REJECT
+  - DOMAIN-SUFFIX,j5z.cn.w.kunlunaq.com,REJECT
   - DOMAIN-SUFFIX,j6xz0.com,REJECT
   - DOMAIN-SUFFIX,j6zh4g0.cn,REJECT
   - DOMAIN-SUFFIX,j7182.hfxcsl.cn,REJECT
@@ -8448,6 +8454,8 @@ rules:
   - DOMAIN-SUFFIX,k2team.kyiv.ua,REJECT
   - DOMAIN-SUFFIX,k31bpzf.xyz,REJECT
   - DOMAIN-SUFFIX,k3bos.com,REJECT
+  - DOMAIN-SUFFIX,k3l.cn,REJECT
+  - DOMAIN-SUFFIX,k3l.cn.w.kunlunpi.com,REJECT
   - DOMAIN-SUFFIX,k42kw.top,REJECT
   - DOMAIN-SUFFIX,k5567.vip,REJECT
   - DOMAIN-SUFFIX,k5ggua.xyz,REJECT
@@ -11758,6 +11766,8 @@ rules:
   - DOMAIN-SUFFIX,qjwpy.com,REJECT
   - DOMAIN-SUFFIX,qjxys.cn,REJECT
   - DOMAIN-SUFFIX,qktmwiq.cn,REJECT
+  - DOMAIN-SUFFIX,ql7.cn,REJECT
+  - DOMAIN-SUFFIX,ql7.cn.w.kunlunaq.com,REJECT
   - DOMAIN-SUFFIX,qlisv.siemens6es7.com,REJECT
   - DOMAIN-SUFFIX,qlmho.renhengshangmao.com,REJECT
   - DOMAIN-SUFFIX,qloer.com,REJECT
@@ -13066,6 +13076,8 @@ rules:
   - DOMAIN-SUFFIX,sqsh.3g.qq.com,REJECT
   - DOMAIN-SUFFIX,sqtpks3.1391.com,REJECT
   - DOMAIN-SUFFIX,squarespace.evyy.net,REJECT
+  - DOMAIN-SUFFIX,sr0.cn,REJECT
+  - DOMAIN-SUFFIX,sr0.cn.w.kunlunaq.com,REJECT
   - DOMAIN-SUFFIX,srbzw.cn,REJECT
   - DOMAIN-SUFFIX,src.duanxin520.com,REJECT
   - DOMAIN-SUFFIX,src.leju.com,REJECT
@@ -13442,6 +13454,7 @@ rules:
   - DOMAIN-SUFFIX,szhszxfw.cn,REJECT
   - DOMAIN-SUFFIX,szipkp.com,REJECT
   - DOMAIN-SUFFIX,szkdst.com,REJECT
+  - DOMAIN-SUFFIX,szl-oa-other-default.gtm.fenqile.com,REJECT
   - DOMAIN-SUFFIX,szrk3.com,REJECT
   - DOMAIN-SUFFIX,szshouzhai.com,REJECT
   - DOMAIN-SUFFIX,szxc868.com,REJECT
@@ -14717,6 +14730,8 @@ rules:
   - DOMAIN-SUFFIX,vip.hyz86.com,REJECT
   - DOMAIN-SUFFIX,vip.id528.com,REJECT
   - DOMAIN-SUFFIX,vip.jindu179.com,REJECT
+  - DOMAIN-SUFFIX,vip.k3l.cn,REJECT
+  - DOMAIN-SUFFIX,vip.k3l.cn.w.kunlunpi.com,REJECT
   - DOMAIN-SUFFIX,vip.mall044.com,REJECT
   - DOMAIN-SUFFIX,vip.media8.cn,REJECT
   - DOMAIN-SUFFIX,vip.pinghuhome.com,REJECT
@@ -16558,6 +16573,7 @@ rules:
   - DOMAIN-SUFFIX,znsv.baidu.com,REJECT
   - DOMAIN-SUFFIX,znyjmbh.icu,REJECT
   - DOMAIN-SUFFIX,zo66.com,REJECT
+  - DOMAIN-SUFFIX,zone-szl-moblie-app.gtm.fenqile.com,REJECT
   - DOMAIN-SUFFIX,zonyff.xyz,REJECT
   - DOMAIN-SUFFIX,zoomanalytics.co,REJECT
   - DOMAIN-SUFFIX,zotcjeig.xyz,REJECT

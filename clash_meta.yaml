@@ -1,9 +1,9 @@
 # Title: Clash Meta规则
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-09-24 06:36:52（北京时间）
-# Clash Meta规则数量: 16668
-! Total count: 16668
+# Last Updated: 2025-09-24 08:33:56（北京时间）
+# Clash Meta规则数量: 16684
+! Total count: 16684
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -3425,6 +3425,7 @@ payload:
   - 'brendanbc.com'
   - 'brfgbn.xyz'
   - 'brfvyrrp.com'
+  - 'bridge.fenqile.com'
   - 'bridgeoos.com'
   - 'bridgetnbe.com'
   - 'brizads.com'
@@ -4152,6 +4153,7 @@ payload:
   - 'cm.jd.com'
   - 'cm.kwad.com'
   - 'cm.l.qq.com'
+  - 'cm.m.fenqile.com'
   - 'cm.mct01.com'
   - 'cm.netseer.com'
   - 'cm.p4p.cn.yahoo.com'
@@ -4331,6 +4333,7 @@ payload:
   - 'corssdk.map.qq.com'
   - 'cos.ho7k.com'
   - 'cosoyoo.com'
+  - 'coss-fit.fenqile.com'
   - 'coss-shark-down.fenqile.com'
   - 'couchcoaster.jp'
   - 'count.atm.youku.com'
@@ -6912,6 +6915,7 @@ payload:
   - 'hcbmq.cn'
   - 'hccms.com.cn'
   - 'hcdjy.xyz'
+  - 'hcdnw120.vip.global.cdnhwctnm107.com'
   - 'hchh.capmvb.net'
   - 'hciea.xyz'
   - 'hcl.baidu.com'
@@ -7913,6 +7917,8 @@ payload:
   - 'j1u9nlr3k.cc'
   - 'j3.jtezxmpb.xyz'
   - 'j520s.gzcl999.cn'
+  - 'j5z.cn'
+  - 'j5z.cn.w.kunlunaq.com'
   - 'j6xz0.com'
   - 'j6zh4g0.cn'
   - 'j7182.hfxcsl.cn'
@@ -8448,6 +8454,8 @@ payload:
   - 'k2team.kyiv.ua'
   - 'k31bpzf.xyz'
   - 'k3bos.com'
+  - 'k3l.cn'
+  - 'k3l.cn.w.kunlunpi.com'
   - 'k42kw.top'
   - 'k5567.vip'
   - 'k5ggua.xyz'
@@ -11758,6 +11766,8 @@ payload:
   - 'qjwpy.com'
   - 'qjxys.cn'
   - 'qktmwiq.cn'
+  - 'ql7.cn'
+  - 'ql7.cn.w.kunlunaq.com'
   - 'qlisv.siemens6es7.com'
   - 'qlmho.renhengshangmao.com'
   - 'qloer.com'
@@ -13066,6 +13076,8 @@ payload:
   - 'sqsh.3g.qq.com'
   - 'sqtpks3.1391.com'
   - 'squarespace.evyy.net'
+  - 'sr0.cn'
+  - 'sr0.cn.w.kunlunaq.com'
   - 'srbzw.cn'
   - 'src.duanxin520.com'
   - 'src.leju.com'
@@ -13442,6 +13454,7 @@ payload:
   - 'szhszxfw.cn'
   - 'szipkp.com'
   - 'szkdst.com'
+  - 'szl-oa-other-default.gtm.fenqile.com'
   - 'szrk3.com'
   - 'szshouzhai.com'
   - 'szxc868.com'
@@ -14717,6 +14730,8 @@ payload:
   - 'vip.hyz86.com'
   - 'vip.id528.com'
   - 'vip.jindu179.com'
+  - 'vip.k3l.cn'
+  - 'vip.k3l.cn.w.kunlunpi.com'
   - 'vip.mall044.com'
   - 'vip.media8.cn'
   - 'vip.pinghuhome.com'
@@ -16558,6 +16573,7 @@ payload:
   - 'znsv.baidu.com'
   - 'znyjmbh.icu'
   - 'zo66.com'
+  - 'zone-szl-moblie-app.gtm.fenqile.com'
   - 'zonyff.xyz'
   - 'zoomanalytics.co'
   - 'zotcjeig.xyz'

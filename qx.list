@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-09-24 06:36:52（北京时间）
-# Quantumult X规则数量: 16668
-# ! Total count: 16668
+# Last Updated: 2025-09-24 08:33:56（北京时间）
+# Quantumult X规则数量: 16684
+# ! Total count: 16684
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -3424,6 +3424,7 @@ HOST-SUFFIX,breezily168.com,REJECT
 HOST-SUFFIX,brendanbc.com,REJECT
 HOST-SUFFIX,brfgbn.xyz,REJECT
 HOST-SUFFIX,brfvyrrp.com,REJECT
+HOST-SUFFIX,bridge.fenqile.com,REJECT
 HOST-SUFFIX,bridgeoos.com,REJECT
 HOST-SUFFIX,bridgetnbe.com,REJECT
 HOST-SUFFIX,brizads.com,REJECT
@@ -4151,6 +4152,7 @@ HOST-SUFFIX,cm.fancyapi.com,REJECT
 HOST-SUFFIX,cm.jd.com,REJECT
 HOST-SUFFIX,cm.kwad.com,REJECT
 HOST-SUFFIX,cm.l.qq.com,REJECT
+HOST-SUFFIX,cm.m.fenqile.com,REJECT
 HOST-SUFFIX,cm.mct01.com,REJECT
 HOST-SUFFIX,cm.netseer.com,REJECT
 HOST-SUFFIX,cm.p4p.cn.yahoo.com,REJECT
@@ -4330,6 +4332,7 @@ HOST-SUFFIX,corp.sohu.com,REJECT
 HOST-SUFFIX,corssdk.map.qq.com,REJECT
 HOST-SUFFIX,cos.ho7k.com,REJECT
 HOST-SUFFIX,cosoyoo.com,REJECT
+HOST-SUFFIX,coss-fit.fenqile.com,REJECT
 HOST-SUFFIX,coss-shark-down.fenqile.com,REJECT
 HOST-SUFFIX,couchcoaster.jp,REJECT
 HOST-SUFFIX,count.atm.youku.com,REJECT
@@ -6911,6 +6914,7 @@ HOST-SUFFIX,hcbmg.cn,REJECT
 HOST-SUFFIX,hcbmq.cn,REJECT
 HOST-SUFFIX,hccms.com.cn,REJECT
 HOST-SUFFIX,hcdjy.xyz,REJECT
+HOST-SUFFIX,hcdnw120.vip.global.cdnhwctnm107.com,REJECT
 HOST-SUFFIX,hchh.capmvb.net,REJECT
 HOST-SUFFIX,hciea.xyz,REJECT
 HOST-SUFFIX,hcl.baidu.com,REJECT
@@ -7912,6 +7916,8 @@ HOST-SUFFIX,j17.xiumu.cn,REJECT
 HOST-SUFFIX,j1u9nlr3k.cc,REJECT
 HOST-SUFFIX,j3.jtezxmpb.xyz,REJECT
 HOST-SUFFIX,j520s.gzcl999.cn,REJECT
+HOST-SUFFIX,j5z.cn,REJECT
+HOST-SUFFIX,j5z.cn.w.kunlunaq.com,REJECT
 HOST-SUFFIX,j6xz0.com,REJECT
 HOST-SUFFIX,j6zh4g0.cn,REJECT
 HOST-SUFFIX,j7182.hfxcsl.cn,REJECT
@@ -8447,6 +8453,8 @@ HOST-SUFFIX,k2.ofodai.com,REJECT
 HOST-SUFFIX,k2team.kyiv.ua,REJECT
 HOST-SUFFIX,k31bpzf.xyz,REJECT
 HOST-SUFFIX,k3bos.com,REJECT
+HOST-SUFFIX,k3l.cn,REJECT
+HOST-SUFFIX,k3l.cn.w.kunlunpi.com,REJECT
 HOST-SUFFIX,k42kw.top,REJECT
 HOST-SUFFIX,k5567.vip,REJECT
 HOST-SUFFIX,k5ggua.xyz,REJECT
@@ -11757,6 +11765,8 @@ HOST-SUFFIX,qjsp48.xyz,REJECT
 HOST-SUFFIX,qjwpy.com,REJECT
 HOST-SUFFIX,qjxys.cn,REJECT
 HOST-SUFFIX,qktmwiq.cn,REJECT
+HOST-SUFFIX,ql7.cn,REJECT
+HOST-SUFFIX,ql7.cn.w.kunlunaq.com,REJECT
 HOST-SUFFIX,qlisv.siemens6es7.com,REJECT
 HOST-SUFFIX,qlmho.renhengshangmao.com,REJECT
 HOST-SUFFIX,qloer.com,REJECT
@@ -13065,6 +13075,8 @@ HOST-SUFFIX,sqkt38.cc,REJECT
 HOST-SUFFIX,sqsh.3g.qq.com,REJECT
 HOST-SUFFIX,sqtpks3.1391.com,REJECT
 HOST-SUFFIX,squarespace.evyy.net,REJECT
+HOST-SUFFIX,sr0.cn,REJECT
+HOST-SUFFIX,sr0.cn.w.kunlunaq.com,REJECT
 HOST-SUFFIX,srbzw.cn,REJECT
 HOST-SUFFIX,src.duanxin520.com,REJECT
 HOST-SUFFIX,src.leju.com,REJECT
@@ -13441,6 +13453,7 @@ HOST-SUFFIX,szggdw.com,REJECT
 HOST-SUFFIX,szhszxfw.cn,REJECT
 HOST-SUFFIX,szipkp.com,REJECT
 HOST-SUFFIX,szkdst.com,REJECT
+HOST-SUFFIX,szl-oa-other-default.gtm.fenqile.com,REJECT
 HOST-SUFFIX,szrk3.com,REJECT
 HOST-SUFFIX,szshouzhai.com,REJECT
 HOST-SUFFIX,szxc868.com,REJECT
@@ -14716,6 +14729,8 @@ HOST-SUFFIX,vip.ffzy-online3.com,REJECT
 HOST-SUFFIX,vip.hyz86.com,REJECT
 HOST-SUFFIX,vip.id528.com,REJECT
 HOST-SUFFIX,vip.jindu179.com,REJECT
+HOST-SUFFIX,vip.k3l.cn,REJECT
+HOST-SUFFIX,vip.k3l.cn.w.kunlunpi.com,REJECT
 HOST-SUFFIX,vip.mall044.com,REJECT
 HOST-SUFFIX,vip.media8.cn,REJECT
 HOST-SUFFIX,vip.pinghuhome.com,REJECT
@@ -16557,6 +16572,7 @@ HOST-SUFFIX,znnodl.xyz,REJECT
 HOST-SUFFIX,znsv.baidu.com,REJECT
 HOST-SUFFIX,znyjmbh.icu,REJECT
 HOST-SUFFIX,zo66.com,REJECT
+HOST-SUFFIX,zone-szl-moblie-app.gtm.fenqile.com,REJECT
 HOST-SUFFIX,zonyff.xyz,REJECT
 HOST-SUFFIX,zoomanalytics.co,REJECT
 HOST-SUFFIX,zotcjeig.xyz,REJECT
