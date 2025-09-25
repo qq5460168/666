@@ -1,9 +1,9 @@
 # Title: SingBox SRS Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-09-25 08:33:30（北京时间）
-# Singbox规则数量: 16684
-! Total count: 16684
+# Last Updated: 2025-09-25 10:27:09（北京时间）
+# Singbox规则数量: 16689
+! Total count: 16689
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -3934,6 +3934,7 @@ DOMAIN-SUFFIX,cee1.iteye.com,REJECT
 DOMAIN-SUFFIX,cee2.iteye.com,REJECT
 DOMAIN-SUFFIX,ceh.cehbh.com,REJECT
 DOMAIN-SUFFIX,ceiqox.com,REJECT
+DOMAIN-SUFFIX,cekrfk.com,REJECT
 DOMAIN-SUFFIX,cerebral.typn.com,REJECT
 DOMAIN-SUFFIX,ceshi1.ink,REJECT
 DOMAIN-SUFFIX,ceshi127722.obs.cn-north-4.myhuaweicloud.com,REJECT
@@ -5353,6 +5354,7 @@ DOMAIN-SUFFIX,dw998.com,REJECT
 DOMAIN-SUFFIX,dwa.okwan.cn,REJECT
 DOMAIN-SUFFIX,dwfjtz.xyz,REJECT
 DOMAIN-SUFFIX,dwibjkdsn.com,REJECT
+DOMAIN-SUFFIX,dwuupq.com,REJECT
 DOMAIN-SUFFIX,dwyngjb.icu,REJECT
 DOMAIN-SUFFIX,dwz.cn,REJECT
 DOMAIN-SUFFIX,dx1200.com,REJECT
@@ -10675,6 +10677,7 @@ DOMAIN-SUFFIX,nylalobghyhirgh.com,REJECT
 DOMAIN-SUFFIX,nysita.com,REJECT
 DOMAIN-SUFFIX,nyvgbt.xyz,REJECT
 DOMAIN-SUFFIX,nzezn.com,REJECT
+DOMAIN-SUFFIX,nzl09251oa.com,REJECT
 DOMAIN-SUFFIX,nzrlx6wc.icu,REJECT
 DOMAIN-SUFFIX,nzrovf.xyz,REJECT
 DOMAIN-SUFFIX,nztl.z74d.com,REJECT
@@ -11944,6 +11947,7 @@ DOMAIN-SUFFIX,r.xcycm.com,REJECT
 DOMAIN-SUFFIX,r.yhyunjin.com,REJECT
 DOMAIN-SUFFIX,r.youmi.net,REJECT
 DOMAIN-SUFFIX,r.zlongad.com,REJECT
+DOMAIN-SUFFIX,r0l7cp.com,REJECT
 DOMAIN-SUFFIX,r1.ykimg.com,REJECT
 DOMAIN-SUFFIX,r36ku.site,REJECT
 DOMAIN-SUFFIX,r3nvrr4uzh.com,REJECT
@@ -14059,6 +14063,7 @@ DOMAIN-SUFFIX,tukj.net,REJECT
 DOMAIN-SUFFIX,tumblrprobes.cedexis.com,REJECT
 DOMAIN-SUFFIX,tumblrreports.cedexis.com,REJECT
 DOMAIN-SUFFIX,tumeite.cn,REJECT
+DOMAIN-SUFFIX,tuobeng.net,REJECT
 DOMAIN-SUFFIX,tupan.cqdd.ltd,REJECT
 DOMAIN-SUFFIX,tuplzt.xyz,REJECT
 DOMAIN-SUFFIX,turn.com,REJECT
