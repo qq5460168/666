@@ -1,5 +1,7 @@
 <div align="center">
 <h1 align="center"><br>一个强力去广告的规则</h1>
+
+  **维护者**: 酷安 [@那个谁520](http://www.coolapk.com/u/23966654)
 <p>
   <a href="https://github.com/qq5460168/666">
     <img src="https://img.shields.io/github/last-commit/qq5460168/666?style=flat-square" alt="last update" />
@@ -99,6 +101,8 @@ AdClose规则数量: 16692
 
 </details>
 
+##  反馈: 
+🐧群: [AdGuard home小窝](https://qm.qq.com/q/bRFsKddXq0) 
 
 
 <h2 id="c">🚫 拦截效果</h2>
