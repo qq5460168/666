@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-10-07 18:26:49（北京时间）
+! Version: 2025-10-07 20:53:32（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 26671
+! Total count: 26672
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -6824,7 +6824,7 @@
 @@||aihuishou.com^
 @@||aikanlive.miguvideo.com^
 @@||aikanvod.miguvideo.com^
-@@||aisite.wejianzhan.com^$important
+@@||aisite.wejianzhan.com^
 @@||aisubtitle.hdslb.com^
 @@||aizhan.com^
 @@||akamaized.net^
@@ -7681,6 +7681,7 @@
 @@||m.jd.com^
 @@||m.jd.watbc.top^
 @@||m.jd.watbe.top^
+@@||m.jf.10010.com^
 @@||m.jiaoyimao.com^
 @@||m.jingxi.com^
 @@||m.jxdown.com^
@@ -7749,7 +7750,7 @@
 @@||member.bilibili.com^
 @@||message.bilibili.com^
 @@||metok.sys.miui.com^
-@@||metrics1-drcn.dt.dbankcloud.cn^$important
+@@||metrics1-drcn.dt.dbankcloud.cn^
 @@||mi-img.com^
 @@||miaozhen.com^$domain=miaozhen.com
 @@||mibi.api.xiaomi.com^
@@ -8177,7 +8178,7 @@
 @@||sl.hpplay.cn^
 @@||sm.cn^
 @@||smart.360.cn^
-@@||smarthome-drcn.dbankcdn.com^$important
+@@||smarthome-drcn.dbankcdn.com^
 @@||smsks1.cmpassport.com^
 @@||snowflake.qq.com^
 @@||sns-avatar-qc.xhscdn.com^
