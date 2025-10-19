@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-10-19 14:17:30（北京时间）
+! Version: 2025-10-19 20:20:54（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2403
+! Total count: 2407
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-www.sway-cdn.com^
@@ -273,6 +273,7 @@
 @@||apd-vlive.apdcdn.tc.qq.com^
 @@||api-album.quark.cn^
 @@||api-album.quark.cn^$important
+@@||api-chat.soulapp.cn^$important
 @@||api-cmnt.wtzw.com^
 @@||api-cn.cdo.heytapmobi.com^
 @@||api-cn.store.heytapmobi.com^
@@ -280,6 +281,7 @@
 @@||api-game.meizu.com^
 @@||api-ks.wtzw.com^
 @@||api-novel.uc.cn^$important
+@@||api-pay.soulapp.cn^
 @@||api-pda.jdl.com^
 @@||api-push.meizu.com^
 @@||api-shoulei-ssl.xunlei.com^
@@ -1126,6 +1128,7 @@
 @@||increase-openapi.soulapp.cn^
 @@||indivi-cdn.shouji.sogou.com^$important
 @@||inews.gtimg.com^
+@@||info.zb.qq.com^$important
 @@||info.zuimeitianqi.com^
 @@||informationprotection.hosting.portal.azure.net^$important
 @@||ingest.sentry.io^
@@ -2202,6 +2205,7 @@
 @@||w.pandora.xiaomi.com^
 @@||w1.kskwai.com^
 @@||w1.kskwai.com^$important
+@@||w2.kskwai.com^$important
 @@||w8.com.cn^
 @@||waapdg.jd.com^
 @@||waimai-guide.ele.me^
