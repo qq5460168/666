@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-10-30 20:24:01（北京时间）
+! Version: 2025-10-31 00:20:56（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 1793
+! Total count: 1788
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2025-10-30 20:24:00（北京时间）
-# 总域名数: 1787
+# 生成时间: 2025-10-31 00:20:55（北京时间）
+# 总域名数: 1782
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -666,7 +666,6 @@ h5api.m.taobao.com
 h5api.m.tmall.com
 h5offline.zhuanzhuan.com
 h5static.cc.163.com
-h5vv6.video.qq.com
 haohuo.snssdk.com
 haokan.baidu.com
 haoma.163.com
@@ -1209,7 +1208,6 @@ pic.iask.com.cn
 pic.imgdb.cn
 pic.mairuan.com
 pic.rmb.bdstatic.com
-pic1.zhimg.com
 pic2.58cdn.com.cn
 pic2.zhimg.com
 pic4.58cdn.com.cn
@@ -1218,9 +1216,7 @@ pic6.ajkimg.com
 pic640.weishi.qq.com
 pic7.iqiyipic.com
 pic8.58cdn.com.cn
-pica.zhimg.com
 picasso-static.xiaohongshu.com
-picx.zhimg.com
 pifa.pinduoduo.com
 pingfore.qq.com
 pinghot.qq.com
@@ -1743,7 +1739,6 @@ wx.qlogo.cn
 wx.tenpay.com
 wx2.sinaimg.cn
 wxapp.lvyadx.cn
-wxapp.tc.qq.com
 wxmini-api.uyouqu.com
 wxpay.qpic.cn
 wxsnsdy.wxs.qq.com

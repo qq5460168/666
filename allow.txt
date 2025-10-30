@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-10-30 20:24:01（北京时间）
+! Version: 2025-10-31 00:20:56（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2408
+! Total count: 2403
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-www.sway-cdn.com^
@@ -1003,7 +1003,6 @@
 @@||h5offline.zhuanzhuan.com^
 @@||h5offline.zhuanzhuan.com^$important
 @@||h5static.cc.163.com^
-@@||h5vv6.video.qq.com^
 @@||haohuo.snssdk.com^
 @@||haokan.baidu.com^
 @@||haoma.163.com^
@@ -1682,7 +1681,6 @@
 @@||pic.imgdb.cn^
 @@||pic.mairuan.com^
 @@||pic.rmb.bdstatic.com^
-@@||pic1.zhimg.com^
 @@||pic2.58cdn.com.cn^
 @@||pic2.zhimg.com^
 @@||pic4.58cdn.com.cn^
@@ -1691,9 +1689,7 @@
 @@||pic640.weishi.qq.com^
 @@||pic7.iqiyipic.com^
 @@||pic8.58cdn.com.cn^
-@@||pica.zhimg.com^
 @@||picasso-static.xiaohongshu.com^
-@@||picx.zhimg.com^
 @@||pifa.pinduoduo.com^
 @@||pingfore.qq.com^
 @@||pinghot.qq.com^
@@ -2350,7 +2346,6 @@
 @@||wx.tenpay.com^
 @@||wx2.sinaimg.cn^
 @@||wxapp.lvyadx.cn^
-@@||wxapp.tc.qq.com^
 @@||wxapp.tc.qq.com^$important
 @@||wxmini-api.uyouqu.com^
 @@||wxpay.qpic.cn^
