@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-10-31 20:24:36（北京时间）
+! Version: 2025-11-01 02:18:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2461
+! Total count: 2462
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2025-10-31 20:24:36（北京时间）
-# 总域名数: 2455
+# 生成时间: 2025-11-01 02:18:10（北京时间）
+# 总域名数: 2456
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -1994,6 +1994,7 @@ tbs.imtt.qq.com
 tbsone.imtt.qq.com
 tbv.sb-cd.com
 tcbox.baidu.com
+tcdn.qq.com
 tdid.m.qq.com
 teams.live.com
 test.nextdns.io
