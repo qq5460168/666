@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-11-01 06:16:29（北京时间）
-# Quantumult X规则数量: 16672
-# ! Total count: 16672
+# Last Updated: 2025-11-01 12:20:53（北京时间）
+# Quantumult X规则数量: 16714
+# ! Total count: 16714
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -2605,6 +2605,8 @@ HOST-SUFFIX,api5-normal-lq.fqnovel.com,REJECT
 HOST-SUFFIX,api5-normal-quic-lf.ixigua.com,REJECT
 HOST-SUFFIX,api5-normal-sinfonlineb.dcarapi.com,REJECT
 HOST-SUFFIX,api7.tuisong.baidu.com,REJECT
+HOST-SUFFIX,apidns-js.kwd.inkuai.com,REJECT
+HOST-SUFFIX,apidns.kwd.inkuai.com,REJECT
 HOST-SUFFIX,apih5.yocdk.com,REJECT
 HOST-SUFFIX,apihb6.ksapisrv.com,REJECT
 HOST-SUFFIX,apihk.growingio.com,REJECT
@@ -5111,9 +5113,13 @@ HOST-SUFFIX,dncvj.cn,REJECT
 HOST-SUFFIX,dnightwish.xyz,REJECT
 HOST-SUFFIX,dnl382.com,REJECT
 HOST-SUFFIX,dnrf0215.com,REJECT
+HOST-SUFFIX,dns.jd.com,REJECT
+HOST-SUFFIX,dns.qiyipic.iqiyi.com,REJECT
 HOST-SUFFIX,dns.qq.com,REJECT
 HOST-SUFFIX,dns.weibo.cn,REJECT
 HOST-SUFFIX,dns.weixin.qq.com,REJECT
+HOST-SUFFIX,dns.weixin.qq.com.cn,REJECT
+HOST-SUFFIX,dns2.q2cdn.com,REJECT
 HOST-SUFFIX,dnvus.com,REJECT
 HOST-SUFFIX,dnyzbp.cn,REJECT
 HOST-SUFFIX,dnzmhr.xyz,REJECT
@@ -5123,6 +5129,8 @@ HOST-SUFFIX,do69ifsly4.me,REJECT
 HOST-SUFFIX,doc.go.sohu.com,REJECT
 HOST-SUFFIX,doccd.xyz,REJECT
 HOST-SUFFIX,dodhvug.cn,REJECT
+HOST-SUFFIX,doh.iqiyi.com,REJECT
+HOST-SUFFIX,doh.ptqy.gitv.tv,REJECT
 HOST-SUFFIX,dohihf.com,REJECT
 HOST-SUFFIX,doiney.pandasone.com,REJECT
 HOST-SUFFIX,dojyiu8.com,REJECT
@@ -5146,6 +5154,7 @@ HOST-SUFFIX,dot.eporner.com,REJECT
 HOST-SUFFIX,dot2.eporner.com,REJECT
 HOST-SUFFIX,dotcounter.douyutv.com,REJECT
 HOST-SUFFIX,dotmore.com.tw,REJECT
+HOST-SUFFIX,dotser.douyucdn.cn,REJECT
 HOST-SUFFIX,dotserver.douyucdn.cn,REJECT
 HOST-SUFFIX,dou777.com,REJECT
 HOST-SUFFIX,doubanio.top,REJECT
@@ -6903,6 +6912,7 @@ HOST-SUFFIX,hcl.baidu.com,REJECT
 HOST-SUFFIX,hcreditx.com,REJECT
 HOST-SUFFIX,hcvegu.com,REJECT
 HOST-SUFFIX,hd.jiedaibao.com,REJECT
+HOST-SUFFIX,hd.xiaojukeji.com,REJECT
 HOST-SUFFIX,hd.ylddq.com,REJECT
 HOST-SUFFIX,hd2.3g.qq.com,REJECT
 HOST-SUFFIX,hda.maxli.cn,REJECT
@@ -7155,20 +7165,46 @@ HOST-SUFFIX,html.350.com,REJECT
 HOST-SUFFIX,html.sunday8.com,REJECT
 HOST-SUFFIX,html.yuntzs.com,REJECT
 HOST-SUFFIX,htseca.top,REJECT
+HOST-SUFFIX,http.kwd.inkuai.com,REJECT
+HOST-SUFFIX,httpdns-ac.aliyuncs.com,REJECT
+HOST-SUFFIX,httpdns-api.aliyuncs.com,REJECT
 HOST-SUFFIX,httpdns-browser.platform.dbankcloud.cn,REJECT
+HOST-SUFFIX,httpdns-sdk.n.netease.com,REJECT
+HOST-SUFFIX,httpdns-v6.gslb.yy.com,REJECT
 HOST-SUFFIX,httpdns.alicdn.com,REJECT
+HOST-SUFFIX,httpdns.baidu.com,REJECT
+HOST-SUFFIX,httpdns.bcelice.com,REJECT
 HOST-SUFFIX,httpdns.bcelive.com,REJECT
 HOST-SUFFIX,httpdns.bilivideo.com,REJECT
+HOST-SUFFIX,httpdns.browser.miui.com,REJECT
+HOST-SUFFIX,httpdns.c.cdnhwc2.com,REJECT
+HOST-SUFFIX,httpdns.calorietech.com,REJECT
+HOST-SUFFIX,httpdns.cctv.com,REJECT
+HOST-SUFFIX,httpdns.danuoyi.tbcache.com,REJECT
+HOST-SUFFIX,httpdns.huaweicloud.com,REJECT
 HOST-SUFFIX,httpdns.kg.qq.com,REJECT
 HOST-SUFFIX,httpdns.kwd.inkuai.com,REJECT
 HOST-SUFFIX,httpdns.meituan.com,REJECT
+HOST-SUFFIX,httpdns.music.163.com,REJECT
+HOST-SUFFIX,httpdns.n.netease.com,REJECT
+HOST-SUFFIX,httpdns.n.shifen.com,REJECT
+HOST-SUFFIX,httpdns.ocloud.heytapmobi.com,REJECT
 HOST-SUFFIX,httpdns.ocloud.oppomobile.com,REJECT
+HOST-SUFFIX,httpdns.platform.dbankcloud.cn,REJECT
 HOST-SUFFIX,httpdns.platform.dbankcloud.com,REJECT
 HOST-SUFFIX,httpdns.pro,REJECT
+HOST-SUFFIX,httpdns.push.heytapmobi.com,REJECT
 HOST-SUFFIX,httpdns.push.oppomobile.com,REJECT
+HOST-SUFFIX,httpdns.yunxindns.com,REJECT
+HOST-SUFFIX,httpdns.zybang.com,REJECT
+HOST-SUFFIX,httpdns1.cc.cdnhwc5.com,REJECT
+HOST-SUFFIX,httpdnsmultiapi.meituan.com,REJECT
+HOST-SUFFIX,httpdnsmultiapivip.meituan.com,REJECT
 HOST-SUFFIX,httpkafka.unityads.unity3d.com,REJECT
 HOST-SUFFIX,httpring.qq.com,REJECT
 HOST-SUFFIX,https-apple.com,REJECT
+HOST-SUFFIX,httpsdns.baidu.com,REJECT
+HOST-SUFFIX,httpsdns.baidubce.com,REJECT
 HOST-SUFFIX,httpsjs.com,REJECT
 HOST-SUFFIX,htvixv.xyz,REJECT
 HOST-SUFFIX,huahuaka.com,REJECT
@@ -9050,6 +9086,7 @@ HOST-SUFFIX,localads.chengzijianzhan.cn.queniurc.com,REJECT
 HOST-SUFFIX,localnetwork.uop,REJECT
 HOST-SUFFIX,localytics.com,REJECT
 HOST-SUFFIX,locdrop.query.yahoo.com,REJECT
+HOST-SUFFIX,lofter.httpdns.c.163.com,REJECT
 HOST-SUFFIX,log-alibaba-taobao-douyin.cdn.bcebos.com,REJECT
 HOST-SUFFIX,log-api-mn.huxiu.com,REJECT
 HOST-SUFFIX,log-api.caoliao.net,REJECT
@@ -10284,6 +10321,7 @@ HOST-SUFFIX,multi-az-ad.kuaishou.com,REJECT
 HOST-SUFFIX,munchkin.marketo.net,REJECT
 HOST-SUFFIX,mus-nettech.youku.com,REJECT
 HOST-SUFFIX,muses-ugc.iqiyi.com,REJECT
+HOST-SUFFIX,music.httpdns.c.163.com,REJECT
 HOST-SUFFIX,musicoholics.com,REJECT
 HOST-SUFFIX,musicps.p2p.qq.com,REJECT
 HOST-SUFFIX,musicpunch.p2p.qq.com,REJECT
@@ -13625,6 +13663,7 @@ HOST-SUFFIX,tencentmind.com,REJECT
 HOST-SUFFIX,tend.io,REJECT
 HOST-SUFFIX,tenddata.com,REJECT
 HOST-SUFFIX,tenekslu.com,REJECT
+HOST-SUFFIX,tens.p2p.tun.qq.com,REJECT
 HOST-SUFFIX,tepusi888.cn,REJECT
 HOST-SUFFIX,terms-drcn.platform.dbankcloud.cn,REJECT
 HOST-SUFFIX,terms.alicdn.com,REJECT
@@ -14235,6 +14274,7 @@ HOST-SUFFIX,ujgf120.com,REJECT
 HOST-SUFFIX,ujian.cc,REJECT
 HOST-SUFFIX,ujikdd041o.cn,REJECT
 HOST-SUFFIX,ujnkn.com,REJECT
+HOST-SUFFIX,uk.sgrrz.cn,REJECT
 HOST-SUFFIX,uk3oi.adgze.cn,REJECT
 HOST-SUFFIX,uk529u0.cn,REJECT
 HOST-SUFFIX,ukeiae.com,REJECT
@@ -14297,6 +14337,7 @@ HOST-SUFFIX,unified-ter.hismarttv.com,REJECT
 HOST-SUFFIX,uniformer.biz,REJECT
 HOST-SUFFIX,unilog.wostore.cn,REJECT
 HOST-SUFFIX,unimhk.com,REJECT
+HOST-SUFFIX,union-httpdns.gslb.yy.com,REJECT
 HOST-SUFFIX,union-mlog.bigda.com,REJECT
 HOST-SUFFIX,union-wifi.com,REJECT
 HOST-SUFFIX,union.360.cn,REJECT
@@ -16281,6 +16322,7 @@ HOST-SUFFIX,yxz101.gclgu.cn,REJECT
 HOST-SUFFIX,yy38vip.com,REJECT
 HOST-SUFFIX,yy4480qpgyy.com,REJECT
 HOST-SUFFIX,yy58ju.com,REJECT
+HOST-SUFFIX,yyapp-httpdns.gslb.yy.com,REJECT
 HOST-SUFFIX,yyb.pc6.com,REJECT
 HOST-SUFFIX,yyds.vip-01.top,REJECT
 HOST-SUFFIX,yyefao.com,REJECT

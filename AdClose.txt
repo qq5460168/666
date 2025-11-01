@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-01 14:16:31（北京时间）
+! Version: 2025-11-01 20:20:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16676
+! Total count: 16718
 # AdClose 专用广告规则
-# 生成时间: 2025-11-01 06:16:29（北京时间）
+# 生成时间: 2025-11-01 12:20:53（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -2609,6 +2609,8 @@ domain, api5-normal-lq.fqnovel.com
 domain, api5-normal-quic-lf.ixigua.com
 domain, api5-normal-sinfonlineb.dcarapi.com
 domain, api7.tuisong.baidu.com
+domain, apidns-js.kwd.inkuai.com
+domain, apidns.kwd.inkuai.com
 domain, apih5.yocdk.com
 domain, apihb6.ksapisrv.com
 domain, apihk.growingio.com
@@ -5115,9 +5117,13 @@ domain, dncvj.cn
 domain, dnightwish.xyz
 domain, dnl382.com
 domain, dnrf0215.com
+domain, dns.jd.com
+domain, dns.qiyipic.iqiyi.com
 domain, dns.qq.com
 domain, dns.weibo.cn
 domain, dns.weixin.qq.com
+domain, dns.weixin.qq.com.cn
+domain, dns2.q2cdn.com
 domain, dnvus.com
 domain, dnyzbp.cn
 domain, dnzmhr.xyz
@@ -5127,6 +5133,8 @@ domain, do69ifsly4.me
 domain, doc.go.sohu.com
 domain, doccd.xyz
 domain, dodhvug.cn
+domain, doh.iqiyi.com
+domain, doh.ptqy.gitv.tv
 domain, dohihf.com
 domain, doiney.pandasone.com
 domain, dojyiu8.com
@@ -5150,6 +5158,7 @@ domain, dot.eporner.com
 domain, dot2.eporner.com
 domain, dotcounter.douyutv.com
 domain, dotmore.com.tw
+domain, dotser.douyucdn.cn
 domain, dotserver.douyucdn.cn
 domain, dou777.com
 domain, doubanio.top
@@ -6907,6 +6916,7 @@ domain, hcl.baidu.com
 domain, hcreditx.com
 domain, hcvegu.com
 domain, hd.jiedaibao.com
+domain, hd.xiaojukeji.com
 domain, hd.ylddq.com
 domain, hd2.3g.qq.com
 domain, hda.maxli.cn
@@ -7159,20 +7169,46 @@ domain, html.350.com
 domain, html.sunday8.com
 domain, html.yuntzs.com
 domain, htseca.top
+domain, http.kwd.inkuai.com
+domain, httpdns-ac.aliyuncs.com
+domain, httpdns-api.aliyuncs.com
 domain, httpdns-browser.platform.dbankcloud.cn
+domain, httpdns-sdk.n.netease.com
+domain, httpdns-v6.gslb.yy.com
 domain, httpdns.alicdn.com
+domain, httpdns.baidu.com
+domain, httpdns.bcelice.com
 domain, httpdns.bcelive.com
 domain, httpdns.bilivideo.com
+domain, httpdns.browser.miui.com
+domain, httpdns.c.cdnhwc2.com
+domain, httpdns.calorietech.com
+domain, httpdns.cctv.com
+domain, httpdns.danuoyi.tbcache.com
+domain, httpdns.huaweicloud.com
 domain, httpdns.kg.qq.com
 domain, httpdns.kwd.inkuai.com
 domain, httpdns.meituan.com
+domain, httpdns.music.163.com
+domain, httpdns.n.netease.com
+domain, httpdns.n.shifen.com
+domain, httpdns.ocloud.heytapmobi.com
 domain, httpdns.ocloud.oppomobile.com
+domain, httpdns.platform.dbankcloud.cn
 domain, httpdns.platform.dbankcloud.com
 domain, httpdns.pro
+domain, httpdns.push.heytapmobi.com
 domain, httpdns.push.oppomobile.com
+domain, httpdns.yunxindns.com
+domain, httpdns.zybang.com
+domain, httpdns1.cc.cdnhwc5.com
+domain, httpdnsmultiapi.meituan.com
+domain, httpdnsmultiapivip.meituan.com
 domain, httpkafka.unityads.unity3d.com
 domain, httpring.qq.com
 domain, https-apple.com
+domain, httpsdns.baidu.com
+domain, httpsdns.baidubce.com
 domain, httpsjs.com
 domain, htvixv.xyz
 domain, huahuaka.com
@@ -9054,6 +9090,7 @@ domain, localads.chengzijianzhan.cn.queniurc.com
 domain, localnetwork.uop
 domain, localytics.com
 domain, locdrop.query.yahoo.com
+domain, lofter.httpdns.c.163.com
 domain, log-alibaba-taobao-douyin.cdn.bcebos.com
 domain, log-api-mn.huxiu.com
 domain, log-api.caoliao.net
@@ -10288,6 +10325,7 @@ domain, multi-az-ad.kuaishou.com
 domain, munchkin.marketo.net
 domain, mus-nettech.youku.com
 domain, muses-ugc.iqiyi.com
+domain, music.httpdns.c.163.com
 domain, musicoholics.com
 domain, musicps.p2p.qq.com
 domain, musicpunch.p2p.qq.com
@@ -13629,6 +13667,7 @@ domain, tencentmind.com
 domain, tend.io
 domain, tenddata.com
 domain, tenekslu.com
+domain, tens.p2p.tun.qq.com
 domain, tepusi888.cn
 domain, terms-drcn.platform.dbankcloud.cn
 domain, terms.alicdn.com
@@ -14239,6 +14278,7 @@ domain, ujgf120.com
 domain, ujian.cc
 domain, ujikdd041o.cn
 domain, ujnkn.com
+domain, uk.sgrrz.cn
 domain, uk3oi.adgze.cn
 domain, uk529u0.cn
 domain, ukeiae.com
@@ -14301,6 +14341,7 @@ domain, unified-ter.hismarttv.com
 domain, uniformer.biz
 domain, unilog.wostore.cn
 domain, unimhk.com
+domain, union-httpdns.gslb.yy.com
 domain, union-mlog.bigda.com
 domain, union-wifi.com
 domain, union.360.cn
@@ -16285,6 +16326,7 @@ domain, yxz101.gclgu.cn
 domain, yy38vip.com
 domain, yy4480qpgyy.com
 domain, yy58ju.com
+domain, yyapp-httpdns.gslb.yy.com
 domain, yyb.pc6.com
 domain, yyds.vip-01.top
 domain, yyefao.com

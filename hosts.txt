@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-01 14:16:31（北京时间）
+! Version: 2025-11-01 20:20:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16677
+! Total count: 16719
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-11-01 06:16:29（北京时间）
+# Last Updated: 2025-11-01 12:20:53（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -2610,6 +2610,8 @@
 0.0.0.0 api5-normal-quic-lf.ixigua.com
 0.0.0.0 api5-normal-sinfonlineb.dcarapi.com
 0.0.0.0 api7.tuisong.baidu.com
+0.0.0.0 apidns-js.kwd.inkuai.com
+0.0.0.0 apidns.kwd.inkuai.com
 0.0.0.0 apih5.yocdk.com
 0.0.0.0 apihb6.ksapisrv.com
 0.0.0.0 apihk.growingio.com
@@ -5116,9 +5118,13 @@
 0.0.0.0 dnightwish.xyz
 0.0.0.0 dnl382.com
 0.0.0.0 dnrf0215.com
+0.0.0.0 dns.jd.com
+0.0.0.0 dns.qiyipic.iqiyi.com
 0.0.0.0 dns.qq.com
 0.0.0.0 dns.weibo.cn
 0.0.0.0 dns.weixin.qq.com
+0.0.0.0 dns.weixin.qq.com.cn
+0.0.0.0 dns2.q2cdn.com
 0.0.0.0 dnvus.com
 0.0.0.0 dnyzbp.cn
 0.0.0.0 dnzmhr.xyz
@@ -5128,6 +5134,8 @@
 0.0.0.0 doc.go.sohu.com
 0.0.0.0 doccd.xyz
 0.0.0.0 dodhvug.cn
+0.0.0.0 doh.iqiyi.com
+0.0.0.0 doh.ptqy.gitv.tv
 0.0.0.0 dohihf.com
 0.0.0.0 doiney.pandasone.com
 0.0.0.0 dojyiu8.com
@@ -5151,6 +5159,7 @@
 0.0.0.0 dot2.eporner.com
 0.0.0.0 dotcounter.douyutv.com
 0.0.0.0 dotmore.com.tw
+0.0.0.0 dotser.douyucdn.cn
 0.0.0.0 dotserver.douyucdn.cn
 0.0.0.0 dou777.com
 0.0.0.0 doubanio.top
@@ -6908,6 +6917,7 @@
 0.0.0.0 hcreditx.com
 0.0.0.0 hcvegu.com
 0.0.0.0 hd.jiedaibao.com
+0.0.0.0 hd.xiaojukeji.com
 0.0.0.0 hd.ylddq.com
 0.0.0.0 hd2.3g.qq.com
 0.0.0.0 hda.maxli.cn
@@ -7160,20 +7170,46 @@
 0.0.0.0 html.sunday8.com
 0.0.0.0 html.yuntzs.com
 0.0.0.0 htseca.top
+0.0.0.0 http.kwd.inkuai.com
+0.0.0.0 httpdns-ac.aliyuncs.com
+0.0.0.0 httpdns-api.aliyuncs.com
 0.0.0.0 httpdns-browser.platform.dbankcloud.cn
+0.0.0.0 httpdns-sdk.n.netease.com
+0.0.0.0 httpdns-v6.gslb.yy.com
 0.0.0.0 httpdns.alicdn.com
+0.0.0.0 httpdns.baidu.com
+0.0.0.0 httpdns.bcelice.com
 0.0.0.0 httpdns.bcelive.com
 0.0.0.0 httpdns.bilivideo.com
+0.0.0.0 httpdns.browser.miui.com
+0.0.0.0 httpdns.c.cdnhwc2.com
+0.0.0.0 httpdns.calorietech.com
+0.0.0.0 httpdns.cctv.com
+0.0.0.0 httpdns.danuoyi.tbcache.com
+0.0.0.0 httpdns.huaweicloud.com
 0.0.0.0 httpdns.kg.qq.com
 0.0.0.0 httpdns.kwd.inkuai.com
 0.0.0.0 httpdns.meituan.com
+0.0.0.0 httpdns.music.163.com
+0.0.0.0 httpdns.n.netease.com
+0.0.0.0 httpdns.n.shifen.com
+0.0.0.0 httpdns.ocloud.heytapmobi.com
 0.0.0.0 httpdns.ocloud.oppomobile.com
+0.0.0.0 httpdns.platform.dbankcloud.cn
 0.0.0.0 httpdns.platform.dbankcloud.com
 0.0.0.0 httpdns.pro
+0.0.0.0 httpdns.push.heytapmobi.com
 0.0.0.0 httpdns.push.oppomobile.com
+0.0.0.0 httpdns.yunxindns.com
+0.0.0.0 httpdns.zybang.com
+0.0.0.0 httpdns1.cc.cdnhwc5.com
+0.0.0.0 httpdnsmultiapi.meituan.com
+0.0.0.0 httpdnsmultiapivip.meituan.com
 0.0.0.0 httpkafka.unityads.unity3d.com
 0.0.0.0 httpring.qq.com
 0.0.0.0 https-apple.com
+0.0.0.0 httpsdns.baidu.com
+0.0.0.0 httpsdns.baidubce.com
 0.0.0.0 httpsjs.com
 0.0.0.0 htvixv.xyz
 0.0.0.0 huahuaka.com
@@ -9055,6 +9091,7 @@
 0.0.0.0 localnetwork.uop
 0.0.0.0 localytics.com
 0.0.0.0 locdrop.query.yahoo.com
+0.0.0.0 lofter.httpdns.c.163.com
 0.0.0.0 log-alibaba-taobao-douyin.cdn.bcebos.com
 0.0.0.0 log-api-mn.huxiu.com
 0.0.0.0 log-api.caoliao.net
@@ -10289,6 +10326,7 @@
 0.0.0.0 munchkin.marketo.net
 0.0.0.0 mus-nettech.youku.com
 0.0.0.0 muses-ugc.iqiyi.com
+0.0.0.0 music.httpdns.c.163.com
 0.0.0.0 musicoholics.com
 0.0.0.0 musicps.p2p.qq.com
 0.0.0.0 musicpunch.p2p.qq.com
@@ -13630,6 +13668,7 @@
 0.0.0.0 tend.io
 0.0.0.0 tenddata.com
 0.0.0.0 tenekslu.com
+0.0.0.0 tens.p2p.tun.qq.com
 0.0.0.0 tepusi888.cn
 0.0.0.0 terms-drcn.platform.dbankcloud.cn
 0.0.0.0 terms.alicdn.com
@@ -14240,6 +14279,7 @@
 0.0.0.0 ujian.cc
 0.0.0.0 ujikdd041o.cn
 0.0.0.0 ujnkn.com
+0.0.0.0 uk.sgrrz.cn
 0.0.0.0 uk3oi.adgze.cn
 0.0.0.0 uk529u0.cn
 0.0.0.0 ukeiae.com
@@ -14302,6 +14342,7 @@
 0.0.0.0 uniformer.biz
 0.0.0.0 unilog.wostore.cn
 0.0.0.0 unimhk.com
+0.0.0.0 union-httpdns.gslb.yy.com
 0.0.0.0 union-mlog.bigda.com
 0.0.0.0 union-wifi.com
 0.0.0.0 union.360.cn
@@ -16286,6 +16327,7 @@
 0.0.0.0 yy38vip.com
 0.0.0.0 yy4480qpgyy.com
 0.0.0.0 yy58ju.com
+0.0.0.0 yyapp-httpdns.gslb.yy.com
 0.0.0.0 yyb.pc6.com
 0.0.0.0 yyds.vip-01.top
 0.0.0.0 yyefao.com

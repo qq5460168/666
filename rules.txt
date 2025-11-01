@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-01 14:16:31（北京时间）
+! Version: 2025-11-01 20:20:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27462
+! Total count: 27503
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -1713,7 +1713,6 @@
 0.0.0.0 bce-track-dsp.adwangmai.com
 0.0.0.0 bce.baidu.com
 0.0.0.0 bce.bj.ad.track.66mobi.com
-0.0.0.0 bcelive.com
 0.0.0.0 bcp.crwdcntrl.net
 0.0.0.0 bd-cdn.halomobi.com
 0.0.0.0 bd-livemate.pull.yximgs.com
@@ -2900,7 +2899,6 @@
 0.0.0.0 gi.getui.net
 0.0.0.0 gia.jd.com
 0.0.0.0 gia.jd.com  #礼品卡？也能打开啊
-0.0.0.0 gifshow.com
 0.0.0.0 gini.snssdk.com
 0.0.0.0 gj.applog.uc.cn
 0.0.0.0 gj.mmstat.com
@@ -6531,7 +6529,6 @@
 0.0.0.0 yuntu.oceanengine.com
 0.0.0.0 ywtb.mps.gov.cn
 0.0.0.0 ywtbapi.mps.gov.cn
-0.0.0.0 yximgs.com
 0.0.0.0 yybadaccess.3g.qq.com
 0.0.0.0 z-eu.amazon-adsystem.com
 0.0.0.0 z-feiyu.oceanengine.com
@@ -12760,6 +12757,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||api5-normal-quic-lf.ixigua.com^
 ||api5-normal-sinfonlineb.dcarapi.com^
 ||api7.tuisong.baidu.com^
+||apidns-js.kwd.inkuai.com^
+||apidns.kwd.inkuai.com^
 ||apih5.yocdk.com^
 ||apihb6.ksapisrv.com^
 ||apihk.growingio.com^
@@ -15371,10 +15370,15 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dnightwish.xyz^
 ||dnl382.com^
 ||dnrf0215.com^
+||dns.iqiyi.com^
+||dns.jd.com^
+||dns.qiyipic.iqiyi.com^
 ||dns.qq.com^
 ||dns.weibo.cn^
 ||dns.weixin.qq.com*^
+||dns.weixin.qq.com.cn^
 ||dns.weixin.qq.com^
+||dns2.q2cdn.com^
 ||dnvus.com^
 ||dnyzbp.cn^
 ||dnzmhr.xyz^
@@ -15384,6 +15388,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||doc.go.sohu.com^
 ||doccd.xyz^
 ||dodhvug.cn^
+||doh.iqiyi.com^
+||doh.ptqy.gitv.tv^
 ||dohihf.com^
 ||doiney.pandasone.com^
 ||dojyiu8.com^
@@ -15408,6 +15414,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dot2.eporner.com^
 ||dotcounter.douyutv.com^
 ||dotmore.com.tw^
+||dotser.douyucdn.cn^
 ||dotserver.douyucdn.cn^
 ||dou777.com^
 ||doubanio.top^
@@ -17227,6 +17234,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||hcreditx.com^
 ||hcvegu.com^
 ||hd.jiedaibao.com^
+||hd.xiaojukeji.com^
 ||hd.ylddq.com^
 ||hd2.3g.qq.com^
 ||hda.maxli.cn^
@@ -17236,6 +17244,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||hdggcdn.bayimob.com^
 ||hdhkwl.com^
 ||hdj.baidu.com^
+||hdns.ksyun.com^
 ||hdpdrandpd.xyz^
 ||hdvkl.cn^
 ||hdwiey.com^
@@ -17489,21 +17498,47 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||html.sunday8.com^
 ||html.yuntzs.com^
 ||htseca.top^
+||http.kwd.inkuai.com^
 ||http://vibeaconstr.onezapp.com:8080/analytics/upload^
+||httpdns-ac.aliyuncs.com^
+||httpdns-api.aliyuncs.com^
 ||httpdns-browser.platform.dbankcloud.cn^
+||httpdns-sdk.n.netease.com^
+||httpdns-v6.gslb.yy.com^
 ||httpdns.alicdn.com^
+||httpdns.baidu.com^
+||httpdns.bcelice.com^
 ||httpdns.bcelive.com^
 ||httpdns.bilivideo.com^
+||httpdns.browser.miui.com^
+||httpdns.c.cdnhwc2.com^
+||httpdns.calorietech.com^
+||httpdns.cctv.com^
+||httpdns.danuoyi.tbcache.com^
+||httpdns.huaweicloud.com^
 ||httpdns.kg.qq.com^
 ||httpdns.kwd.inkuai.com^
 ||httpdns.meituan.com^
+||httpdns.music.163.com^
+||httpdns.n.netease.com^
+||httpdns.n.shifen.com^
+||httpdns.ocloud.heytapmobi.com^
 ||httpdns.ocloud.oppomobile.com^
+||httpdns.platform.dbankcloud.cn^
 ||httpdns.platform.dbankcloud.com^
 ||httpdns.pro^
+||httpdns.push.heytapmobi.com^
 ||httpdns.push.oppomobile.com^
+||httpdns.yunxindns.com^
+||httpdns.zybang.com^
+||httpdns1.cc.cdnhwc5.com^
+||httpdnsmultiapi.meituan.com^
+||httpdnsmultiapivip.meituan.com^
 ||httpkafka.unityads.unity3d.com^
 ||httpring.qq.com^
 ||https-apple.com^
+||httpsdns.baidu.com^
+||httpsdns.baidubce.com^
 ||httpsjs.com^
 ||htvixv.xyz^
 ||huahuaka.com^
@@ -19462,6 +19497,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||localnetwork.uop^
 ||localytics.com^
 ||locdrop.query.yahoo.com^
+||lofter.httpdns.c.163.com^
 ||log*-applog-lq.fqnovel.com^
 ||log*-misc-lf.amemv.com^
 ||log*-misc-lq.amemv.com^
@@ -20764,6 +20800,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||mus-nettech.youku.com^
 ||muses-ugc.iqiyi.com^
 ||music.163.com/weapi/activity/downloadpage/config/get
+||music.httpdns.c.163.com^
 ||musicoholics.com^
 ||musicps.p2p.qq.com^
 ||musicpunch.p2p.qq.com^
@@ -22673,6 +22710,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||resetgey.com^
 ||resolve.umeng.com^
 ||resolver.msg.global.xiaomi.net^
+||resolver.msg.xiaomi.net^
 ||resource.baomihua.com^
 ||responsys.net^
 ||restorationbowelsunflower.com^
@@ -24281,6 +24319,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||tend.io^
 ||tenddata.com^
 ||tenekslu.com^
+||tens.p2p.tun.qq.com^
 ||tepusi888.cn^
 ||terms-drcn.platform.dbankcloud.cn^
 ||terms.alicdn.com^
@@ -24922,7 +24961,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ujian.cc^
 ||ujikdd041o.cn^
 ||ujnkn.com^
-||uk.sgrrz.cn^$important
+||uk.sgrrz.cn^
 ||uk3oi.adgze.cn^
 ||uk529u0.cn^
 ||ukeiae.com^
@@ -24988,6 +25027,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||uniformer.biz^
 ||unilog.wostore.cn^
 ||unimhk.com^
+||union-httpdns.gslb.yy.com^
 ||union-mlog.bigda.com^
 ||union-wifi.com^
 ||union.360.cn^
@@ -27047,6 +27087,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||yy38vip.com^
 ||yy4480qpgyy.com^
 ||yy58ju.com^
+||yyapp-httpdns.gslb.yy.com^
 ||yyb.pc6.com^
 ||yyds.vip-01.top^
 ||yyefao.com^

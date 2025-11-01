@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-01 14:16:31（北京时间）
+! Version: 2025-11-01 20:20:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16677
+! Total count: 16719
 # Title: Invizible Pro Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-11-01 06:16:29（北京时间）
+# Last Updated: 2025-11-01 12:20:53（北京时间）
 -normal-lq.zijieapi.com
 0.r.msn.com
 000123456789.online
@@ -2610,6 +2610,8 @@ api5-normal-lq.fqnovel.com
 api5-normal-quic-lf.ixigua.com
 api5-normal-sinfonlineb.dcarapi.com
 api7.tuisong.baidu.com
+apidns-js.kwd.inkuai.com
+apidns.kwd.inkuai.com
 apih5.yocdk.com
 apihb6.ksapisrv.com
 apihk.growingio.com
@@ -5116,9 +5118,13 @@ dncvj.cn
 dnightwish.xyz
 dnl382.com
 dnrf0215.com
+dns.jd.com
+dns.qiyipic.iqiyi.com
 dns.qq.com
 dns.weibo.cn
 dns.weixin.qq.com
+dns.weixin.qq.com.cn
+dns2.q2cdn.com
 dnvus.com
 dnyzbp.cn
 dnzmhr.xyz
@@ -5128,6 +5134,8 @@ do69ifsly4.me
 doc.go.sohu.com
 doccd.xyz
 dodhvug.cn
+doh.iqiyi.com
+doh.ptqy.gitv.tv
 dohihf.com
 doiney.pandasone.com
 dojyiu8.com
@@ -5151,6 +5159,7 @@ dot.eporner.com
 dot2.eporner.com
 dotcounter.douyutv.com
 dotmore.com.tw
+dotser.douyucdn.cn
 dotserver.douyucdn.cn
 dou777.com
 doubanio.top
@@ -6908,6 +6917,7 @@ hcl.baidu.com
 hcreditx.com
 hcvegu.com
 hd.jiedaibao.com
+hd.xiaojukeji.com
 hd.ylddq.com
 hd2.3g.qq.com
 hda.maxli.cn
@@ -7160,20 +7170,46 @@ html.350.com
 html.sunday8.com
 html.yuntzs.com
 htseca.top
+http.kwd.inkuai.com
+httpdns-ac.aliyuncs.com
+httpdns-api.aliyuncs.com
 httpdns-browser.platform.dbankcloud.cn
+httpdns-sdk.n.netease.com
+httpdns-v6.gslb.yy.com
 httpdns.alicdn.com
+httpdns.baidu.com
+httpdns.bcelice.com
 httpdns.bcelive.com
 httpdns.bilivideo.com
+httpdns.browser.miui.com
+httpdns.c.cdnhwc2.com
+httpdns.calorietech.com
+httpdns.cctv.com
+httpdns.danuoyi.tbcache.com
+httpdns.huaweicloud.com
 httpdns.kg.qq.com
 httpdns.kwd.inkuai.com
 httpdns.meituan.com
+httpdns.music.163.com
+httpdns.n.netease.com
+httpdns.n.shifen.com
+httpdns.ocloud.heytapmobi.com
 httpdns.ocloud.oppomobile.com
+httpdns.platform.dbankcloud.cn
 httpdns.platform.dbankcloud.com
 httpdns.pro
+httpdns.push.heytapmobi.com
 httpdns.push.oppomobile.com
+httpdns.yunxindns.com
+httpdns.zybang.com
+httpdns1.cc.cdnhwc5.com
+httpdnsmultiapi.meituan.com
+httpdnsmultiapivip.meituan.com
 httpkafka.unityads.unity3d.com
 httpring.qq.com
 https-apple.com
+httpsdns.baidu.com
+httpsdns.baidubce.com
 httpsjs.com
 htvixv.xyz
 huahuaka.com
@@ -9055,6 +9091,7 @@ localads.chengzijianzhan.cn.queniurc.com
 localnetwork.uop
 localytics.com
 locdrop.query.yahoo.com
+lofter.httpdns.c.163.com
 log-alibaba-taobao-douyin.cdn.bcebos.com
 log-api-mn.huxiu.com
 log-api.caoliao.net
@@ -10289,6 +10326,7 @@ multi-az-ad.kuaishou.com
 munchkin.marketo.net
 mus-nettech.youku.com
 muses-ugc.iqiyi.com
+music.httpdns.c.163.com
 musicoholics.com
 musicps.p2p.qq.com
 musicpunch.p2p.qq.com
@@ -13630,6 +13668,7 @@ tencentmind.com
 tend.io
 tenddata.com
 tenekslu.com
+tens.p2p.tun.qq.com
 tepusi888.cn
 terms-drcn.platform.dbankcloud.cn
 terms.alicdn.com
@@ -14240,6 +14279,7 @@ ujgf120.com
 ujian.cc
 ujikdd041o.cn
 ujnkn.com
+uk.sgrrz.cn
 uk3oi.adgze.cn
 uk529u0.cn
 ukeiae.com
@@ -14302,6 +14342,7 @@ unified-ter.hismarttv.com
 uniformer.biz
 unilog.wostore.cn
 unimhk.com
+union-httpdns.gslb.yy.com
 union-mlog.bigda.com
 union-wifi.com
 union.360.cn
@@ -16286,6 +16327,7 @@ yxz101.gclgu.cn
 yy38vip.com
 yy4480qpgyy.com
 yy58ju.com
+yyapp-httpdns.gslb.yy.com
 yyb.pc6.com
 yyds.vip-01.top
 yyefao.com

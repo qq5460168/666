@@ -1,9 +1,9 @@
 # Title: Shadowrocket Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-11-01 06:16:29（北京时间）
-# Shadowrocket规则数量: 16672
-! Total count: 16672
+# Last Updated: 2025-11-01 12:20:53（北京时间）
+# Shadowrocket规则数量: 16714
+! Total count: 16714
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -2605,6 +2605,8 @@ DOMAIN-SUFFIX,api5-normal-lq.fqnovel.com,REJECT
 DOMAIN-SUFFIX,api5-normal-quic-lf.ixigua.com,REJECT
 DOMAIN-SUFFIX,api5-normal-sinfonlineb.dcarapi.com,REJECT
 DOMAIN-SUFFIX,api7.tuisong.baidu.com,REJECT
+DOMAIN-SUFFIX,apidns-js.kwd.inkuai.com,REJECT
+DOMAIN-SUFFIX,apidns.kwd.inkuai.com,REJECT
 DOMAIN-SUFFIX,apih5.yocdk.com,REJECT
 DOMAIN-SUFFIX,apihb6.ksapisrv.com,REJECT
 DOMAIN-SUFFIX,apihk.growingio.com,REJECT
@@ -5111,9 +5113,13 @@ DOMAIN-SUFFIX,dncvj.cn,REJECT
 DOMAIN-SUFFIX,dnightwish.xyz,REJECT
 DOMAIN-SUFFIX,dnl382.com,REJECT
 DOMAIN-SUFFIX,dnrf0215.com,REJECT
+DOMAIN-SUFFIX,dns.jd.com,REJECT
+DOMAIN-SUFFIX,dns.qiyipic.iqiyi.com,REJECT
 DOMAIN-SUFFIX,dns.qq.com,REJECT
 DOMAIN-SUFFIX,dns.weibo.cn,REJECT
 DOMAIN-SUFFIX,dns.weixin.qq.com,REJECT
+DOMAIN-SUFFIX,dns.weixin.qq.com.cn,REJECT
+DOMAIN-SUFFIX,dns2.q2cdn.com,REJECT
 DOMAIN-SUFFIX,dnvus.com,REJECT
 DOMAIN-SUFFIX,dnyzbp.cn,REJECT
 DOMAIN-SUFFIX,dnzmhr.xyz,REJECT
@@ -5123,6 +5129,8 @@ DOMAIN-SUFFIX,do69ifsly4.me,REJECT
 DOMAIN-SUFFIX,doc.go.sohu.com,REJECT
 DOMAIN-SUFFIX,doccd.xyz,REJECT
 DOMAIN-SUFFIX,dodhvug.cn,REJECT
+DOMAIN-SUFFIX,doh.iqiyi.com,REJECT
+DOMAIN-SUFFIX,doh.ptqy.gitv.tv,REJECT
 DOMAIN-SUFFIX,dohihf.com,REJECT
 DOMAIN-SUFFIX,doiney.pandasone.com,REJECT
 DOMAIN-SUFFIX,dojyiu8.com,REJECT
@@ -5146,6 +5154,7 @@ DOMAIN-SUFFIX,dot.eporner.com,REJECT
 DOMAIN-SUFFIX,dot2.eporner.com,REJECT
 DOMAIN-SUFFIX,dotcounter.douyutv.com,REJECT
 DOMAIN-SUFFIX,dotmore.com.tw,REJECT
+DOMAIN-SUFFIX,dotser.douyucdn.cn,REJECT
 DOMAIN-SUFFIX,dotserver.douyucdn.cn,REJECT
 DOMAIN-SUFFIX,dou777.com,REJECT
 DOMAIN-SUFFIX,doubanio.top,REJECT
@@ -6903,6 +6912,7 @@ DOMAIN-SUFFIX,hcl.baidu.com,REJECT
 DOMAIN-SUFFIX,hcreditx.com,REJECT
 DOMAIN-SUFFIX,hcvegu.com,REJECT
 DOMAIN-SUFFIX,hd.jiedaibao.com,REJECT
+DOMAIN-SUFFIX,hd.xiaojukeji.com,REJECT
 DOMAIN-SUFFIX,hd.ylddq.com,REJECT
 DOMAIN-SUFFIX,hd2.3g.qq.com,REJECT
 DOMAIN-SUFFIX,hda.maxli.cn,REJECT
@@ -7155,20 +7165,46 @@ DOMAIN-SUFFIX,html.350.com,REJECT
 DOMAIN-SUFFIX,html.sunday8.com,REJECT
 DOMAIN-SUFFIX,html.yuntzs.com,REJECT
 DOMAIN-SUFFIX,htseca.top,REJECT
+DOMAIN-SUFFIX,http.kwd.inkuai.com,REJECT
+DOMAIN-SUFFIX,httpdns-ac.aliyuncs.com,REJECT
+DOMAIN-SUFFIX,httpdns-api.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,httpdns-browser.platform.dbankcloud.cn,REJECT
+DOMAIN-SUFFIX,httpdns-sdk.n.netease.com,REJECT
+DOMAIN-SUFFIX,httpdns-v6.gslb.yy.com,REJECT
 DOMAIN-SUFFIX,httpdns.alicdn.com,REJECT
+DOMAIN-SUFFIX,httpdns.baidu.com,REJECT
+DOMAIN-SUFFIX,httpdns.bcelice.com,REJECT
 DOMAIN-SUFFIX,httpdns.bcelive.com,REJECT
 DOMAIN-SUFFIX,httpdns.bilivideo.com,REJECT
+DOMAIN-SUFFIX,httpdns.browser.miui.com,REJECT
+DOMAIN-SUFFIX,httpdns.c.cdnhwc2.com,REJECT
+DOMAIN-SUFFIX,httpdns.calorietech.com,REJECT
+DOMAIN-SUFFIX,httpdns.cctv.com,REJECT
+DOMAIN-SUFFIX,httpdns.danuoyi.tbcache.com,REJECT
+DOMAIN-SUFFIX,httpdns.huaweicloud.com,REJECT
 DOMAIN-SUFFIX,httpdns.kg.qq.com,REJECT
 DOMAIN-SUFFIX,httpdns.kwd.inkuai.com,REJECT
 DOMAIN-SUFFIX,httpdns.meituan.com,REJECT
+DOMAIN-SUFFIX,httpdns.music.163.com,REJECT
+DOMAIN-SUFFIX,httpdns.n.netease.com,REJECT
+DOMAIN-SUFFIX,httpdns.n.shifen.com,REJECT
+DOMAIN-SUFFIX,httpdns.ocloud.heytapmobi.com,REJECT
 DOMAIN-SUFFIX,httpdns.ocloud.oppomobile.com,REJECT
+DOMAIN-SUFFIX,httpdns.platform.dbankcloud.cn,REJECT
 DOMAIN-SUFFIX,httpdns.platform.dbankcloud.com,REJECT
 DOMAIN-SUFFIX,httpdns.pro,REJECT
+DOMAIN-SUFFIX,httpdns.push.heytapmobi.com,REJECT
 DOMAIN-SUFFIX,httpdns.push.oppomobile.com,REJECT
+DOMAIN-SUFFIX,httpdns.yunxindns.com,REJECT
+DOMAIN-SUFFIX,httpdns.zybang.com,REJECT
+DOMAIN-SUFFIX,httpdns1.cc.cdnhwc5.com,REJECT
+DOMAIN-SUFFIX,httpdnsmultiapi.meituan.com,REJECT
+DOMAIN-SUFFIX,httpdnsmultiapivip.meituan.com,REJECT
 DOMAIN-SUFFIX,httpkafka.unityads.unity3d.com,REJECT
 DOMAIN-SUFFIX,httpring.qq.com,REJECT
 DOMAIN-SUFFIX,https-apple.com,REJECT
+DOMAIN-SUFFIX,httpsdns.baidu.com,REJECT
+DOMAIN-SUFFIX,httpsdns.baidubce.com,REJECT
 DOMAIN-SUFFIX,httpsjs.com,REJECT
 DOMAIN-SUFFIX,htvixv.xyz,REJECT
 DOMAIN-SUFFIX,huahuaka.com,REJECT
@@ -9050,6 +9086,7 @@ DOMAIN-SUFFIX,localads.chengzijianzhan.cn.queniurc.com,REJECT
 DOMAIN-SUFFIX,localnetwork.uop,REJECT
 DOMAIN-SUFFIX,localytics.com,REJECT
 DOMAIN-SUFFIX,locdrop.query.yahoo.com,REJECT
+DOMAIN-SUFFIX,lofter.httpdns.c.163.com,REJECT
 DOMAIN-SUFFIX,log-alibaba-taobao-douyin.cdn.bcebos.com,REJECT
 DOMAIN-SUFFIX,log-api-mn.huxiu.com,REJECT
 DOMAIN-SUFFIX,log-api.caoliao.net,REJECT
@@ -10284,6 +10321,7 @@ DOMAIN-SUFFIX,multi-az-ad.kuaishou.com,REJECT
 DOMAIN-SUFFIX,munchkin.marketo.net,REJECT
 DOMAIN-SUFFIX,mus-nettech.youku.com,REJECT
 DOMAIN-SUFFIX,muses-ugc.iqiyi.com,REJECT
+DOMAIN-SUFFIX,music.httpdns.c.163.com,REJECT
 DOMAIN-SUFFIX,musicoholics.com,REJECT
 DOMAIN-SUFFIX,musicps.p2p.qq.com,REJECT
 DOMAIN-SUFFIX,musicpunch.p2p.qq.com,REJECT
@@ -13625,6 +13663,7 @@ DOMAIN-SUFFIX,tencentmind.com,REJECT
 DOMAIN-SUFFIX,tend.io,REJECT
 DOMAIN-SUFFIX,tenddata.com,REJECT
 DOMAIN-SUFFIX,tenekslu.com,REJECT
+DOMAIN-SUFFIX,tens.p2p.tun.qq.com,REJECT
 DOMAIN-SUFFIX,tepusi888.cn,REJECT
 DOMAIN-SUFFIX,terms-drcn.platform.dbankcloud.cn,REJECT
 DOMAIN-SUFFIX,terms.alicdn.com,REJECT
@@ -14235,6 +14274,7 @@ DOMAIN-SUFFIX,ujgf120.com,REJECT
 DOMAIN-SUFFIX,ujian.cc,REJECT
 DOMAIN-SUFFIX,ujikdd041o.cn,REJECT
 DOMAIN-SUFFIX,ujnkn.com,REJECT
+DOMAIN-SUFFIX,uk.sgrrz.cn,REJECT
 DOMAIN-SUFFIX,uk3oi.adgze.cn,REJECT
 DOMAIN-SUFFIX,uk529u0.cn,REJECT
 DOMAIN-SUFFIX,ukeiae.com,REJECT
@@ -14297,6 +14337,7 @@ DOMAIN-SUFFIX,unified-ter.hismarttv.com,REJECT
 DOMAIN-SUFFIX,uniformer.biz,REJECT
 DOMAIN-SUFFIX,unilog.wostore.cn,REJECT
 DOMAIN-SUFFIX,unimhk.com,REJECT
+DOMAIN-SUFFIX,union-httpdns.gslb.yy.com,REJECT
 DOMAIN-SUFFIX,union-mlog.bigda.com,REJECT
 DOMAIN-SUFFIX,union-wifi.com,REJECT
 DOMAIN-SUFFIX,union.360.cn,REJECT
@@ -16281,6 +16322,7 @@ DOMAIN-SUFFIX,yxz101.gclgu.cn,REJECT
 DOMAIN-SUFFIX,yy38vip.com,REJECT
 DOMAIN-SUFFIX,yy4480qpgyy.com,REJECT
 DOMAIN-SUFFIX,yy58ju.com,REJECT
+DOMAIN-SUFFIX,yyapp-httpdns.gslb.yy.com,REJECT
 DOMAIN-SUFFIX,yyb.pc6.com,REJECT
 DOMAIN-SUFFIX,yyds.vip-01.top,REJECT
 DOMAIN-SUFFIX,yyefao.com,REJECT
