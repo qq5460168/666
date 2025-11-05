@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-05 08:58:35（北京时间）
+! Version: 2025-11-05 14:19:08（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16670
+! Total count: 16719
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-11-05 00:58:34（北京时间）
+# Last Updated: 2025-11-05 06:19:07（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -228,6 +228,7 @@
 0.0.0.0 1fr1.t325omy.vip
 0.0.0.0 1g.ggwww087.top
 0.0.0.0 1hkv85.gdxlks.cn
+0.0.0.0 1hzopx6nz7.adobe.io
 0.0.0.0 1i580.com
 0.0.0.0 1iuybpo.com
 0.0.0.0 1jc5t.xyz
@@ -347,6 +348,7 @@
 0.0.0.0 2cursjb.com
 0.0.0.0 2dctkld.com
 0.0.0.0 2e7zgbpky6h.chinese.freecodecamp.org
+0.0.0.0 2ftem87osk.adobe.io
 0.0.0.0 2fzn4.xyz
 0.0.0.0 2g9x9uf.cn
 0.0.0.0 2jse6.icu
@@ -750,6 +752,7 @@
 0.0.0.0 7pk.com
 0.0.0.0 7qo2met.com
 0.0.0.0 7r227ut.cn
+0.0.0.0 7sj9n87sls.adobe.io
 0.0.0.0 7wen.cn
 0.0.0.0 7xixi.site
 0.0.0.0 7xz3.com
@@ -2261,6 +2264,7 @@
 0.0.0.0 al.autohome.com.cn
 0.0.0.0 aldkfsd.cn
 0.0.0.0 alemu4s.com
+0.0.0.0 alert.kuyun.com
 0.0.0.0 alertserver.ushaqi.com
 0.0.0.0 alexametrics.com
 0.0.0.0 alexanbelen.com
@@ -2516,6 +2520,7 @@
 0.0.0.0 api.growingio.com
 0.0.0.0 api.higame.hismarttv.com
 0.0.0.0 api.hismarttv.com
+0.0.0.0 api.hpplay.com.cn
 0.0.0.0 api.hrshuke.cn
 0.0.0.0 api.htp.hubcloud.com.cn
 0.0.0.0 api.hzsanjiaomao.com
@@ -2986,6 +2991,7 @@
 0.0.0.0 b5.xn--kcr500a391b.xn--io0a7i
 0.0.0.0 b57s7ay2um5w.626772.com
 0.0.0.0 b59.xyz
+0.0.0.0 b5kbg2ggog.adobe.io
 0.0.0.0 b5v0m3q8.com
 0.0.0.0 b5zzr.cc
 0.0.0.0 b7h.top
@@ -3289,6 +3295,7 @@
 0.0.0.0 bifyeldv.top
 0.0.0.0 bigbos.top
 0.0.0.0 bigboy.eurogamer.net
+0.0.0.0 bigcloud.cyou
 0.0.0.0 bigcood.xyz
 0.0.0.0 bigdatacloud.net
 0.0.0.0 bihaipack.com
@@ -3612,6 +3619,7 @@
 0.0.0.0 c.t98u8f.com
 0.0.0.0 c.tctyb.cn
 0.0.0.0 c.tobidad.cn
+0.0.0.0 c.tpgjb.top
 0.0.0.0 c.uaa.iqiyi.com
 0.0.0.0 c.v4dwkcv.com
 0.0.0.0 c.vip97.net
@@ -3687,6 +3695,8 @@
 0.0.0.0 cad.youku.com
 0.0.0.0 cadvv.heraldm.com
 0.0.0.0 cadvv.koreaherald.com
+0.0.0.0 cai-identity.adobe.io
+0.0.0.0 cai-splunk-proxy.adobe.io
 0.0.0.0 caider.fun
 0.0.0.0 caimei.me
 0.0.0.0 caimlkh.com
@@ -3752,6 +3762,7 @@
 0.0.0.0 cbs.wondershare.com
 0.0.0.0 cc-316.cc
 0.0.0.0 cc-api-data.adobe.io
+0.0.0.0 cc-cdn.adobe.com
 0.0.0.0 cc.0133hao.net
 0.0.0.0 cc.1515788.net
 0.0.0.0 cc.365yigou.cn
@@ -3774,6 +3785,7 @@
 0.0.0.0 ccclub.cmbchina.com
 0.0.0.0 cccrir.com
 0.0.0.0 cchvc.net
+0.0.0.0 cclibraries-defaults-cdn.adobe.com
 0.0.0.0 ccmsupport-sz.tenpay.com
 0.0.0.0 ccnim.xyz
 0.0.0.0 ccportal.iad.apple.com
@@ -3782,6 +3794,7 @@
 0.0.0.0 ccs.umeng.com
 0.0.0.0 cctv.adsunion.com
 0.0.0.0 cctyly.com
+0.0.0.0 cctypekit.adobe.io
 0.0.0.0 cd.bendibao.com
 0.0.0.0 cdcqee.com
 0.0.0.0 cddp-track.aligames.com
@@ -4031,6 +4044,7 @@
 0.0.0.0 ciyitan.com
 0.0.0.0 cj.qidian.com
 0.0.0.0 cjgdch.com
+0.0.0.0 cjhd.mediav.com
 0.0.0.0 cjhq.baidu.com
 0.0.0.0 cjmakeding.com
 0.0.0.0 cjmkt.com
@@ -4448,6 +4462,7 @@
 0.0.0.0 crosschannel.com
 0.0.0.0 crossoverchina.com
 0.0.0.0 crs.baidu.com
+0.0.0.0 crs.cr.adobe.com
 0.0.0.0 crwdcntrl.net
 0.0.0.0 cryy.vip
 0.0.0.0 cs-feige.iqiyi.com
@@ -5131,6 +5146,7 @@
 0.0.0.0 domain.aishengji.com
 0.0.0.0 domcwlxin.360doc.cn
 0.0.0.0 domed.shenbimall.com
+0.0.0.0 domob.cn
 0.0.0.0 donchen501.cn
 0.0.0.0 dong.aeimmmj.cn
 0.0.0.0 dongmansoft.com
@@ -5220,6 +5236,7 @@
 0.0.0.0 dqsft.com
 0.0.0.0 dr.holaworld.cn
 0.0.0.0 dragoncent.com
+0.0.0.0 dragonparking.com
 0.0.0.0 drawfxk.com
 0.0.0.0 drcn-weather.cloud.huawei.com
 0.0.0.0 drd.hauchi.com.tw
@@ -5349,6 +5366,7 @@
 0.0.0.0 dxqck.com
 0.0.0.0 dxssiyi.com
 0.0.0.0 dxwsty.cn
+0.0.0.0 dxyeyf6ecy.adobe.io
 0.0.0.0 dxzky.love
 0.0.0.0 dy44.live
 0.0.0.0 dy47.live
@@ -5367,6 +5385,7 @@
 0.0.0.0 dyp2p-ali.douyucdn.cn
 0.0.0.0 dyp2p-hw.douyucdn.cn
 0.0.0.0 dysohvv.com
+0.0.0.0 dyzt55url8.adobe.io
 0.0.0.0 dz2003.dalianyongfa.com
 0.0.0.0 dz2017.zdzxyplyt.com
 0.0.0.0 dzais.com
@@ -5781,6 +5800,7 @@
 0.0.0.0 erdoscs.com
 0.0.0.0 erebor.douban.com
 0.0.0.0 erfskhnpter.xyz
+0.0.0.0 ergodicitytech.com
 0.0.0.0 erjiyouhuiquan.com
 0.0.0.0 erlirscid.com
 0.0.0.0 err.ifengcloud.ifeng.com
@@ -5902,6 +5922,7 @@
 0.0.0.0 ezu6rd5.houge.in
 0.0.0.0 ezucods.cn
 0.0.0.0 f.520tingshu.com
+0.0.0.0 f.8fenxiang.com
 0.0.0.0 f.airstar.com
 0.0.0.0 f.doodlemobile.com
 0.0.0.0 f.f70123.com
@@ -6710,6 +6731,7 @@
 0.0.0.0 guoshennet.com
 0.0.0.0 guqsqfmi.com
 0.0.0.0 gushi.network
+0.0.0.0 guzg78logz.adobe.io
 0.0.0.0 guzsjdl.cn
 0.0.0.0 gvbhae0.com
 0.0.0.0 gvgdeo-c.125299490711.cos.ap-nqewak.com.yunruig.xyz
@@ -6721,6 +6743,7 @@
 0.0.0.0 gw5.push.mcp.weibo.cn
 0.0.0.0 gw6.push.mcp.weibo.cn
 0.0.0.0 gw630.com
+0.0.0.0 gw8gfjbso5.adobe.io
 0.0.0.0 gwertyuadf.com
 0.0.0.0 gwg51.com
 0.0.0.0 gwgp-mfx29upvtet.n.bdcloudapi.com
@@ -7375,6 +7398,7 @@
 0.0.0.0 ibqkjbw.com
 0.0.0.0 ibreeno.com
 0.0.0.0 ibwqfpo.xyz
+0.0.0.0 ic.adobe.io
 0.0.0.0 ic.wps.cn
 0.0.0.0 icast.cn
 0.0.0.0 icdxc.com
@@ -7410,6 +7434,7 @@
 0.0.0.0 ie8eamus.com
 0.0.0.0 iebar.baidu.com
 0.0.0.0 ieeod0.com
+0.0.0.0 iefmvk.cn
 0.0.0.0 iemwbu.cn
 0.0.0.0 ieor.2290059.xyz
 0.0.0.0 iephrenhq.com
@@ -8814,6 +8839,8 @@
 0.0.0.0 lc-push.zhihu.com
 0.0.0.0 lc.jiathis.com
 0.0.0.0 lccfjszp.cn
+0.0.0.0 lcs-cops.adobe.io
+0.0.0.0 lcs-robs.adobe.io
 0.0.0.0 lcs.baidu.com
 0.0.0.0 lcs.dev.surepush.cn
 0.0.0.0 lcsdk.3g.qq.com
@@ -9060,6 +9087,7 @@
 0.0.0.0 loadm.exelator.com
 0.0.0.0 loandatec.com
 0.0.0.0 lobmuc.cn
+0.0.0.0 local.info.g9hc4.cn
 0.0.0.0 localads.chengzijianzhan.cn.queniurc.com
 0.0.0.0 localnetwork.uop
 0.0.0.0 localytics.com
@@ -11002,6 +11030,8 @@
 0.0.0.0 p1.qinsx.cn
 0.0.0.0 p10528-ad-server.ejoy.com
 0.0.0.0 p11q.cn
+0.0.0.0 p13n-mr.adobe.io
+0.0.0.0 p13n.adobe.io
 0.0.0.0 p2-ad.adbkwai.com
 0.0.0.0 p2-ad.adkwai.com
 0.0.0.0 p2-ad.adukwai.com
@@ -11060,6 +11090,7 @@
 0.0.0.0 p6-be-pack-sign.pglstatp-toutiao.com
 0.0.0.0 p6-ecom-qualification-sign.ecombdimg.com
 0.0.0.0 p66-ad.adkwai.com
+0.0.0.0 p7uxzbht8h.adobe.io
 0.0.0.0 p8u.hinet.net
 0.0.0.0 p9-ad-sign.byteimg.com
 0.0.0.0 p9-be-pack-sign.pglstatp-toutiao.com
@@ -11234,6 +11265,8 @@
 0.0.0.0 pglstatp-snssdk.com
 0.0.0.0 pglstatp-toutiao.com
 0.0.0.0 pgy.xiaohongshu.com
+0.0.0.0 ph0f2h2csf.adobe.io
+0.0.0.0 phef2h2csf.adobe.io
 0.0.0.0 phfqumvi.xyz
 0.0.0.0 phloxsub73ulata.com
 0.0.0.0 phnpush.iqiyi.com
@@ -11245,6 +11278,7 @@
 0.0.0.0 photo.welldex.cn
 0.0.0.0 photo.xunhuaji.cn
 0.0.0.0 photo.zhanhevr.cn
+0.0.0.0 photos.adobe.io
 0.0.0.0 photozoomchina.com
 0.0.0.0 phpad.cqnews.net
 0.0.0.0 phputils.wc-os.com
@@ -11287,6 +11321,7 @@
 0.0.0.0 pic837013.images9999.com
 0.0.0.0 picgg.idti.cn
 0.0.0.0 pick.isxyrzo.com
+0.0.0.0 picnewsss.com
 0.0.0.0 picsinfog.com
 0.0.0.0 picture.duokan.com
 0.0.0.0 picturesquefilms.net
@@ -12039,6 +12074,7 @@
 0.0.0.0 referrer.disqus.com
 0.0.0.0 regist.fotoable.com
 0.0.0.0 register.app.jpy.jp
+0.0.0.0 registeridm.com
 0.0.0.0 regulationprivilegescan.top
 0.0.0.0 reksaidnslog.security.mihoyo.com
 0.0.0.0 relafp.xyz
@@ -12392,6 +12428,7 @@
 0.0.0.0 s1.ssl.qhres.com
 0.0.0.0 s1.tansuotv.com
 0.0.0.0 s10.histats.com
+0.0.0.0 s1m.mediav.com
 0.0.0.0 s2.dnaxddnc.com
 0.0.0.0 s2.hiapk.com
 0.0.0.0 s2.huoying666.com
@@ -12402,6 +12439,7 @@
 0.0.0.0 s2.zdface.com
 0.0.0.0 s2.zdmimg.com
 0.0.0.0 s2dcm.com
+0.0.0.0 s2m.mediav.com
 0.0.0.0 s2rkge.vmgikpw.com
 0.0.0.0 s2s.adjust.cn
 0.0.0.0 s2s.adjust.com
@@ -12410,10 +12448,16 @@
 0.0.0.0 s3.rongnews.com
 0.0.0.0 s364-ad-canl5.nbjz.db9w.com
 0.0.0.0 s3d4.cn
+0.0.0.0 s3m.mediav.com
+0.0.0.0 s3m1.fenxi.com
+0.0.0.0 s3m2.fenxi.com
+0.0.0.0 s3m3.fenxi.com
+0.0.0.0 s3m4.fenxi.com
 0.0.0.0 s3t3d2y8.afcdn.net
 0.0.0.0 s4.55.la
 0.0.0.0 s4.histats.com
 0.0.0.0 s400cc.com
+0.0.0.0 s4m.mediav.com
 0.0.0.0 s4te24u.com
 0.0.0.0 s4zqj3m.cn
 0.0.0.0 s5.keydot.net
@@ -12437,6 +12481,7 @@
 0.0.0.0 sacre.cn
 0.0.0.0 sacredperpetratorbasketball.com
 0.0.0.0 sad.qeo.cn
+0.0.0.0 sadbh-kye.com
 0.0.0.0 sadsaxd.nlkmp.com
 0.0.0.0 safe-aisle.jointreport-switch.com
 0.0.0.0 safe.tsgpay.cn
@@ -13208,6 +13253,7 @@
 0.0.0.0 static-ali.yangqianguan.com
 0.0.0.0 static-d.iqiyi.com
 0.0.0.0 static-seraph.zhongan.io
+0.0.0.0 static-ssl.mediav.com
 0.0.0.0 static-xl9-ssl.xunlei.com
 0.0.0.0 static.ads-twitter.com
 0.0.0.0 static.app.m.letv.com
@@ -13222,6 +13268,7 @@
 0.0.0.0 static.gridsumdissector.com
 0.0.0.0 static.hae123.cn
 0.0.0.0 static.ku6.com
+0.0.0.0 static.mediav.com
 0.0.0.0 static.niwodai.com
 0.0.0.0 static.ptoahaistais.com
 0.0.0.0 static.ptqy.gitv.tv
@@ -13304,6 +13351,7 @@
 0.0.0.0 subswin.com
 0.0.0.0 success.ctobsnssdk.com
 0.0.0.0 sucodb.com
+0.0.0.0 sumatang.com
 0.0.0.0 sumdiff.vivo.com.cn
 0.0.0.0 sun66387567606.online
 0.0.0.0 sun66387567606.site
@@ -13565,6 +13613,7 @@
 0.0.0.0 targetedmedia.com.cn
 0.0.0.0 targetedtopic.com
 0.0.0.0 tarqk5.com
+0.0.0.0 tat.pandora.xiaomi.com
 0.0.0.0 tatagou.com.cn
 0.0.0.0 taxismaned.top
 0.0.0.0 tb.code.twyxi.com
