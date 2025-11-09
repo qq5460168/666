@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-09 14:17:08（北京时间）
+! Version: 2025-11-09 20:21:08（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2463
+! Total count: 2480
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2025-11-09 14:17:07（北京时间）
-# 总域名数: 2457
+# 生成时间: 2025-11-09 20:21:06（北京时间）
+# 总域名数: 2474
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -129,6 +129,7 @@ apd-pcdnwxstat.teg.tencent-cloud.net
 apd-ugcvlive.apdcdn.tc.qq.com
 apd-vlive.apdcdn.tc.qq.com
 api-album.quark.cn
+api-chat.soulapp.cn
 api-cmnt.wtzw.com
 api-cn.cdo.heytapmobi.com
 api-cn.store.heytapmobi.com
@@ -279,6 +280,7 @@ baixing.com
 bbs-static.miyoushe.com
 bbs.mobileapi.hupu.com
 bce.baidu.com
+bcelive.com
 bd1.zuimeitianqi.com
 bd2.zuimeitianqi.com
 bdsmtest.org
@@ -780,6 +782,7 @@ game.weixin.qq.com
 game.xiaomi.com
 gamebanana.com
 gameimg.qidian.com
+games-community-gl.heytapmobile.com
 games.mobileapi.hupu.com
 gateway.kugou.com
 gcable.com.cn
@@ -961,6 +964,7 @@ images.google.com.hk
 images.nvidiagrid.net
 images1-focus-opensocial.googleusercontent.com
 images2.imgbox.com
+imagex.bytedanceapi.com
 imasdk.googleapis.com
 ime-res-download.xfinfr.com
 imeclient.openspeech.cn
@@ -1015,6 +1019,7 @@ imtt.dd.qq.com
 in.appcenter.ms
 increase-openapi.soulapp.cn
 inews.gtimg.com
+info.zb.qq.com
 info.zuimeitianqi.com
 ingest.sentry.io
 inporn.com
@@ -1044,6 +1049,7 @@ is.snssdk.com
 is1-ssl.mzstatic.com
 isee.weishi.qq.com
 iservice.10010.com
+isite.baidu.com
 issuecdn.baidupcs.com
 isure.stream.qqmusic.qq.com
 item.taobao.com
@@ -1066,6 +1072,7 @@ jimdo.com
 jingfen.jd.com
 jnn-pa.googleapis.com
 jobs.bytedance.com
+jomodns.com
 jp.pornhub.com
 jp.spankbang.com
 jp.uptodown.com
@@ -1324,6 +1331,7 @@ midas.gtimg.cn
 migrate.driveapi.micloud.xiaomi.net
 mime.baidu.com
 mimg.127.net
+mini-game-gl.heytapmobile.com
 mini2015.qq.com
 miniapp.gtimg.cn
 minigame.zijieapi.com
@@ -1521,6 +1529,7 @@ p3-webcast-sign.douyinpic.com
 p3-webcast.douyinpic.com
 p3.dcarimg.com
 p3.douyinpic.com
+p4-ad.adukwai.com
 p5-auto-sign.dcarimg.com
 p5-auto.dcarimg.com
 p5-sign.douyinpic.com
@@ -1546,6 +1555,7 @@ p9-faceu-img-sign.byteimg.com
 p9-flow-imagex-sign.byteimg.com
 p9-heycan-hgt-sign.byteimg.com
 p9-novelfm-sign.novelfmpic.com
+p9-pc-sign.douyinpic.com
 p9-reading-sign.fqnovelpic.com
 p9-sign.douyinpic.com
 p9-sign.toutiaoimg.com
@@ -1577,6 +1587,7 @@ payapp.weixin.qq.com
 paydns.wechatpay.cn
 pbaccess.video.qq.com
 pbs.twimg.com
+pc-api.uc.cn
 pc.xunlei.com
 pcvideoaliyun.titan.mgtv.com
 pda.jd.com
@@ -1938,6 +1949,7 @@ store.assistant.miui.com
 store.cdn.queniuqe.com
 store.fastly.steamstatic.com
 store.heytapimage.com
+store.is.autonavi.com
 store.meizu.com
 store.steamchina.com
 store.steamchina.queniuam.com
@@ -1948,6 +1960,7 @@ streamsb.net
 streamwish.to
 studcat.infra.systems
 study.163.com
+su.uc.cn
 subscription.iqiyi.com
 sug.browser.miui.com
 sugar.zhihu.com
@@ -2182,6 +2195,7 @@ vv.video.qq.com
 vxxx.com
 w.pandora.xiaomi.com
 w1.kskwai.com
+w2.kskwai.com
 w8.com.cn
 waapdg.jd.com
 waimai-guide.ele.me
@@ -2199,8 +2213,10 @@ wbox.sinaimg.cn
 we.tl
 weatherapi.market.xiaomi.com
 web.vip.miui.com
+webapi.amap.com
 webapps.mimikko.cn
 webcast-open.douyin.com
+webcast.amemv.com
 webfiles.gamebanana.com
 webstatic.hoyoverse.com
 webtor.io
@@ -2359,6 +2375,7 @@ www.qidian.com
 www.recaptcha.net
 www.so.com
 www.spaceship.com
+www.sygjx.com
 www.taobao.com
 www.taptap.cn
 www.taptap.io
