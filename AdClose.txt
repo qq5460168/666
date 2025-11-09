@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-09 20:21:08（北京时间）
+! Version: 2025-11-10 02:15:46（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16716
+! Total count: 16714
 # AdClose 专用广告规则
-# 生成时间: 2025-11-09 12:21:06（北京时间）
+# 生成时间: 2025-11-09 18:15:45（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -9764,8 +9764,6 @@ domain, mainbx.com
 domain, maipinshangmao.com
 domain, maiqi.xyz
 domain, mairuan.cn
-domain, mairuan.com
-domain, mairuan.com.cn
 domain, mairuan.net
 domain, mairuanwang.com
 domain, maisoncherry.com

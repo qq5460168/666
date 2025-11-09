@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-09 20:21:08（北京时间）
+! Version: 2025-11-10 02:15:46（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3102
+! Total count: 3106
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -1674,6 +1674,7 @@
 @@||mail.163.com^
 @@||mail.qq.com^
 @@||main.m.taobao.com^
+@@||mairuan.com^
 @@||mall.360.cn^
 @@||mall.bilibili.com^
 @@||mall.csdn.net^
@@ -2699,6 +2700,7 @@
 @@||user1.game.qq.com^
 @@||ut-public-service-prod10.ol.epicgames.com^$important
 @@||uxip.meizu.com^
+@@||uzzf.com^$important
 @@||v*-dc-ad.ixigua.com^
 @@||v*-fq-tts.fqnovelvod.com^
 @@||v*.douyinvod.com^
@@ -2945,6 +2947,7 @@
 @@||www.lianjia.com^
 @@||www.lsds.cn^
 @@||www.maimemo.com^
+@@||www.mairuan.com^$important
 @@||www.manhuabei.com^
 @@||www.maserati.com^
 @@||www.meituan.com^
@@ -2998,6 +3001,7 @@
 @@||www.toutiao.com^
 @@||www.tudou.com^
 @@||www.twitter.com^
+@@||www.uzzf.com^$important
 @@||www.vmall.com^
 @@||www.wandoujia.com^$important
 @@||www.wnacg.com^

@@ -1,9 +1,9 @@
 # Title: Shadowrocket Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-11-09 12:21:06（北京时间）
-# Shadowrocket规则数量: 16712
-! Total count: 16712
+# Last Updated: 2025-11-09 18:15:45（北京时间）
+# Shadowrocket规则数量: 16710
+! Total count: 16710
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -9760,8 +9760,6 @@ DOMAIN-SUFFIX,mainbx.com,REJECT
 DOMAIN-SUFFIX,maipinshangmao.com,REJECT
 DOMAIN-SUFFIX,maiqi.xyz,REJECT
 DOMAIN-SUFFIX,mairuan.cn,REJECT
-DOMAIN-SUFFIX,mairuan.com,REJECT
-DOMAIN-SUFFIX,mairuan.com.cn,REJECT
 DOMAIN-SUFFIX,mairuan.net,REJECT
 DOMAIN-SUFFIX,mairuanwang.com,REJECT
 DOMAIN-SUFFIX,maisoncherry.com,REJECT
