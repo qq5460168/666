@@ -1,9 +1,9 @@
 # Title: Shadowrocket Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-11-13 00:58:18（北京时间）
-# Shadowrocket规则数量: 16710
-! Total count: 16710
+# Last Updated: 2025-11-13 06:19:34（北京时间）
+# Shadowrocket规则数量: 16706
+! Total count: 16706
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -6610,7 +6610,6 @@ DOMAIN-SUFFIX,google-analytics.com,REJECT
 DOMAIN-SUFFIX,googleadapis.com,REJECT
 DOMAIN-SUFFIX,googleads-cn.com,REJECT
 DOMAIN-SUFFIX,googleads.g.doubleclick-cn.net,REJECT
-DOMAIN-SUFFIX,googleads.g.doubleclick.com,REJECT
 DOMAIN-SUFFIX,googleads.g.doubleclick.nes,REJECT
 DOMAIN-SUFFIX,googleads.g.doubleclick.net,REJECT
 DOMAIN-SUFFIX,googleadservices-cn.com,REJECT
@@ -7864,7 +7863,6 @@ DOMAIN-SUFFIX,itpest.cn,REJECT
 DOMAIN-SUFFIX,its-dori.tumblr.com,REJECT
 DOMAIN-SUFFIX,its.fugetech.com,REJECT
 DOMAIN-SUFFIX,itv.hexun.com,REJECT
-DOMAIN-SUFFIX,itv2-up.openspeech.cn,REJECT
 DOMAIN-SUFFIX,itweepinbelltor.com,REJECT
 DOMAIN-SUFFIX,itxinrou.com,REJECT
 DOMAIN-SUFFIX,ityangstudy.cn,REJECT
@@ -12123,7 +12121,6 @@ DOMAIN-SUFFIX,resource.baomihua.com,REJECT
 DOMAIN-SUFFIX,responsys.net,REJECT
 DOMAIN-SUFFIX,restorationbowelsunflower.com,REJECT
 DOMAIN-SUFFIX,ret.xinlongrubber.com,REJECT
-DOMAIN-SUFFIX,rev.aiclk.com,REJECT
 DOMAIN-SUFFIX,rev.fapdu.com,REJECT
 DOMAIN-SUFFIX,revdepo.com,REJECT
 DOMAIN-SUFFIX,revealads.appspot.com,REJECT
@@ -12971,7 +12968,6 @@ DOMAIN-SUFFIX,sm2kz.net,REJECT
 DOMAIN-SUFFIX,smaato.net,REJECT
 DOMAIN-SUFFIX,smabye.com,REJECT
 DOMAIN-SUFFIX,smad.ms.zhangyue.net,REJECT
-DOMAIN-SUFFIX,smart-tv.cn,REJECT
 DOMAIN-SUFFIX,smartad.10010.com,REJECT
 DOMAIN-SUFFIX,smartadserver.com,REJECT
 DOMAIN-SUFFIX,smartlook.com,REJECT

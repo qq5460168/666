@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-13 08:58:19（北京时间）
+! Version: 2025-11-13 14:19:35（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16715
+! Total count: 16711
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-11-13 00:58:18（北京时间）
+# Last Updated: 2025-11-13 06:19:34（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -6615,7 +6615,6 @@
 0.0.0.0 googleadapis.com
 0.0.0.0 googleads-cn.com
 0.0.0.0 googleads.g.doubleclick-cn.net
-0.0.0.0 googleads.g.doubleclick.com
 0.0.0.0 googleads.g.doubleclick.nes
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 googleadservices-cn.com
@@ -7869,7 +7868,6 @@
 0.0.0.0 its-dori.tumblr.com
 0.0.0.0 its.fugetech.com
 0.0.0.0 itv.hexun.com
-0.0.0.0 itv2-up.openspeech.cn
 0.0.0.0 itweepinbelltor.com
 0.0.0.0 itxinrou.com
 0.0.0.0 ityangstudy.cn
@@ -12128,7 +12126,6 @@
 0.0.0.0 responsys.net
 0.0.0.0 restorationbowelsunflower.com
 0.0.0.0 ret.xinlongrubber.com
-0.0.0.0 rev.aiclk.com
 0.0.0.0 rev.fapdu.com
 0.0.0.0 revdepo.com
 0.0.0.0 revealads.appspot.com
@@ -12976,7 +12973,6 @@
 0.0.0.0 smaato.net
 0.0.0.0 smabye.com
 0.0.0.0 smad.ms.zhangyue.net
-0.0.0.0 smart-tv.cn
 0.0.0.0 smartad.10010.com
 0.0.0.0 smartadserver.com
 0.0.0.0 smartlook.com

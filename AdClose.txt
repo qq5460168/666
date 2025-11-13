@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-13 08:58:19（北京时间）
+! Version: 2025-11-13 14:19:35（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16714
+! Total count: 16710
 # AdClose 专用广告规则
-# 生成时间: 2025-11-13 00:58:18（北京时间）
+# 生成时间: 2025-11-13 06:19:34（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -6614,7 +6614,6 @@ domain, google-analytics.com
 domain, googleadapis.com
 domain, googleads-cn.com
 domain, googleads.g.doubleclick-cn.net
-domain, googleads.g.doubleclick.com
 domain, googleads.g.doubleclick.nes
 domain, googleads.g.doubleclick.net
 domain, googleadservices-cn.com
@@ -7868,7 +7867,6 @@ domain, itpest.cn
 domain, its-dori.tumblr.com
 domain, its.fugetech.com
 domain, itv.hexun.com
-domain, itv2-up.openspeech.cn
 domain, itweepinbelltor.com
 domain, itxinrou.com
 domain, ityangstudy.cn
@@ -12127,7 +12125,6 @@ domain, resource.baomihua.com
 domain, responsys.net
 domain, restorationbowelsunflower.com
 domain, ret.xinlongrubber.com
-domain, rev.aiclk.com
 domain, rev.fapdu.com
 domain, revdepo.com
 domain, revealads.appspot.com
@@ -12975,7 +12972,6 @@ domain, sm2kz.net
 domain, smaato.net
 domain, smabye.com
 domain, smad.ms.zhangyue.net
-domain, smart-tv.cn
 domain, smartad.10010.com
 domain, smartadserver.com
 domain, smartlook.com
