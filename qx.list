@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-11-13 06:19:34（北京时间）
-# Quantumult X规则数量: 16706
-# ! Total count: 16706
+# Last Updated: 2025-11-13 12:25:24（北京时间）
+# Quantumult X规则数量: 16719
+# ! Total count: 16719
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -2480,6 +2480,7 @@ HOST-SUFFIX,api.aoao11221iis.top,REJECT
 HOST-SUFFIX,api.aoao12060iis.top,REJECT
 HOST-SUFFIX,api.appodeal.com,REJECT
 HOST-SUFFIX,api.apps.sina.cn,REJECT
+HOST-SUFFIX,api.aqyad.com,REJECT
 HOST-SUFFIX,api.bailingjiankang.com,REJECT
 HOST-SUFFIX,api.bs.zui.com,REJECT
 HOST-SUFFIX,api.bugly.qq.com,REJECT
@@ -2556,6 +2557,7 @@ HOST-SUFFIX,api.revenuads.com,REJECT
 HOST-SUFFIX,api.rideraid.net,REJECT
 HOST-SUFFIX,api.sa.hismarttv.com,REJECT
 HOST-SUFFIX,api.scwsf.com,REJECT
+HOST-SUFFIX,api.shanghailingye.cn,REJECT
 HOST-SUFFIX,api.share.mob.com,REJECT
 HOST-SUFFIX,api.shuzilm.cn,REJECT
 HOST-SUFFIX,api.similarweb.com,REJECT
@@ -2766,6 +2768,7 @@ HOST-SUFFIX,aqqgli3vle.bid,REJECT
 HOST-SUFFIX,aquvg.com,REJECT
 HOST-SUFFIX,aqvwn18102h.com,REJECT
 HOST-SUFFIX,aqw.quanliyouxi.cn,REJECT
+HOST-SUFFIX,aqyad.com,REJECT
 HOST-SUFFIX,ar.atwola.com,REJECT
 HOST-SUFFIX,ar.umeng.com,REJECT
 HOST-SUFFIX,ar1.atwola.com,REJECT
@@ -6310,6 +6313,7 @@ HOST-SUFFIX,g.doubleclick.net,REJECT
 HOST-SUFFIX,g.dtv.cn.miaozhen.com,REJECT
 HOST-SUFFIX,g.f11w.com,REJECT
 HOST-SUFFIX,g.f5gh.com,REJECT
+HOST-SUFFIX,g.fancyapi.com,REJECT
 HOST-SUFFIX,g.gridsum.com,REJECT
 HOST-SUFFIX,g.haluoha.com,REJECT
 HOST-SUFFIX,g.hsw.cn,REJECT
@@ -8788,6 +8792,7 @@ HOST-SUFFIX,l23jhjfasd.xyz,REJECT
 HOST-SUFFIX,l3hidpw44bvj-1321608654.cos.ap-chengdu.myqcloud.com,REJECT
 HOST-SUFFIX,l3r6p0d5.com,REJECT
 HOST-SUFFIX,l4efwdtg.icu,REJECT
+HOST-SUFFIX,l6.fancyapi.com,REJECT
 HOST-SUFFIX,l80ays.com,REJECT
 HOST-SUFFIX,l9bdhcgihw.neihanw.com,REJECT
 HOST-SUFFIX,laawmmy.cn,REJECT
@@ -8911,6 +8916,7 @@ HOST-SUFFIX,lfffzv.xyz,REJECT
 HOST-SUFFIX,lfjtiuy.cn,REJECT
 HOST-SUFFIX,lflili.com,REJECT
 HOST-SUFFIX,lflmdm.com,REJECT
+HOST-SUFFIX,lftxali.fancyapi.com,REJECT
 HOST-SUFFIX,lfyuanai.com,REJECT
 HOST-SUFFIX,lfzk2cp.icu,REJECT
 HOST-SUFFIX,lg2.jointreport-switch.com,REJECT
@@ -10866,6 +10872,7 @@ HOST-SUFFIX,open.play.cn,REJECT
 HOST-SUFFIX,open.snssdk.com.bytedns.net,REJECT
 HOST-SUFFIX,open.toutiao.com,REJECT
 HOST-SUFFIX,open.youzanyun.com,REJECT
+HOST-SUFFIX,openadapi.fancydsp.com,REJECT
 HOST-SUFFIX,openapi-news.meizu.com,REJECT
 HOST-SUFFIX,openapi.guanjia.qq.com,REJECT
 HOST-SUFFIX,openapi.vivo.com.cn,REJECT
@@ -12595,6 +12602,7 @@ HOST-SUFFIX,sdk.adtiming.com,REJECT
 HOST-SUFFIX,sdk.adx.adwangmai.com,REJECT
 HOST-SUFFIX,sdk.api.gamex.mobile.youku.com,REJECT
 HOST-SUFFIX,sdk.appadhoc.com,REJECT
+HOST-SUFFIX,sdk.aqyad.com,REJECT
 HOST-SUFFIX,sdk.beizi.biz,REJECT
 HOST-SUFFIX,sdk.cdnmaster.com,REJECT
 HOST-SUFFIX,sdk.cferw.com,REJECT
@@ -12617,6 +12625,7 @@ HOST-SUFFIX,sdk.renrenjihua.com,REJECT
 HOST-SUFFIX,sdk.sipujia.cn,REJECT
 HOST-SUFFIX,sdk.verification.jiguang.cn,REJECT
 HOST-SUFFIX,sdk2xr232.top,REJECT
+HOST-SUFFIX,sdkapi.cloooud.com,REJECT
 HOST-SUFFIX,sdkapp.mobile.sina.cn,REJECT
 HOST-SUFFIX,sdkapp.uve.weibo.com,REJECT
 HOST-SUFFIX,sdkauth.hpplay.cn,REJECT
@@ -13150,6 +13159,7 @@ HOST-SUFFIX,ssp.4hw.com.cn,REJECT
 HOST-SUFFIX,ssp.86str.com,REJECT
 HOST-SUFFIX,ssp.chaohutechan.com,REJECT
 HOST-SUFFIX,ssp.cibn.starschina.com,REJECT
+HOST-SUFFIX,ssp.cloooud.com,REJECT
 HOST-SUFFIX,ssp.daxueshengqiandai.com,REJECT
 HOST-SUFFIX,ssp.dmpdsp.com,REJECT
 HOST-SUFFIX,ssp.kjwx8.com,REJECT
@@ -13269,6 +13279,7 @@ HOST-SUFFIX,static5.niwodai.com,REJECT
 HOST-SUFFIX,static8.pmadx.com,REJECT
 HOST-SUFFIX,staticadm.leju.com,REJECT
 HOST-SUFFIX,staticadm.leju.sina.com.cn,REJECT
+HOST-SUFFIX,statichf.shihuocdn.cn,REJECT
 HOST-SUFFIX,staticjs.cn,REJECT
 HOST-SUFFIX,statics.3987.com,REJECT
 HOST-SUFFIX,statics.9669.com,REJECT
@@ -13524,6 +13535,7 @@ HOST-SUFFIX,t188.dazhonghua.cn,REJECT
 HOST-SUFFIX,t1tgame.com,REJECT
 HOST-SUFFIX,t2.58cdn.com.cn,REJECT
 HOST-SUFFIX,t2.a.market.xiaomi.com,REJECT
+HOST-SUFFIX,t2.fancyapi.com,REJECT
 HOST-SUFFIX,t2.jzkapp.com,REJECT
 HOST-SUFFIX,t2.vbxx.net,REJECT
 HOST-SUFFIX,t2.wshufa.com,REJECT
@@ -13910,6 +13922,7 @@ HOST-SUFFIX,tr.aoxinshangmao.xyz,REJECT
 HOST-SUFFIX,tr.byteurl.cn,REJECT
 HOST-SUFFIX,tr.iadsdk.apple.com,REJECT
 HOST-SUFFIX,tr.medproad.com,REJECT
+HOST-SUFFIX,trace.aqyad.com,REJECT
 HOST-SUFFIX,trace.qq.com,REJECT
 HOST-SUFFIX,trace.seeyouyima.com,REJECT
 HOST-SUFFIX,tracelog-debug.aiclk.com,REJECT

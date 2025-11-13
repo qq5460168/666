@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-13 14:19:35（北京时间）
+! Version: 2025-11-13 20:25:25（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27511
+! Total count: 27524
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -12629,6 +12629,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||api.aoao12060iis.top^
 ||api.appodeal.com^
 ||api.apps.sina.cn^
+||api.aqyad.com^
 ||api.bailingjiankang.com^
 ||api.bs.zui.com^
 ||api.bugly.qq.com^
@@ -12708,6 +12709,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||api.rideraid.net^
 ||api.sa.hismarttv.com^
 ||api.scwsf.com^
+||api.shanghailingye.cn^
 ||api.share.mob.com^
 ||api.shuzilm.cn^
 ||api.similarweb.com^
@@ -12940,6 +12942,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||aquvg.com^
 ||aqvwn18102h.com^
 ||aqw.quanliyouxi.cn^
+||aqyad.com^
 ||ar.atwola.com^
 ||ar.umeng.com^
 ||ar1.atwola.com^
@@ -16621,6 +16624,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||g.dtv.cn.miaozhen.com^
 ||g.f11w.com^
 ||g.f5gh.com^
+||g.fancyapi.com^
 ||g.gridsum.com^
 ||g.haluoha.com^
 ||g.hsw.cn^
@@ -19196,6 +19200,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||l3hidpw44bvj-1321608654.cos.ap-chengdu.myqcloud.com^
 ||l3r6p0d5.com^
 ||l4efwdtg.icu^
+||l6.fancyapi.com^
 ||l80ays.com^
 ||l9bdhcgihw.neihanw.com^
 ||laawmmy.cn^
@@ -19329,6 +19334,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||lfjtiuy.cn^
 ||lflili.com^
 ||lflmdm.com^
+||lftxali.fancyapi.com^
 ||lfyuanai.com^
 ||lfzk2cp.icu^
 ||lg2.jointreport-switch.com^
@@ -21382,6 +21388,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||open.snssdk.com^
 ||open.toutiao.com^
 ||open.youzanyun.com^
+||openadapi.fancydsp.com^
 ||openapi-news.meizu.com^
 ||openapi.guanjia.qq.com^
 ||openapi.vivo.com.cn^
@@ -23219,6 +23226,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||sdk.alibaba.com.ailbaba.me^
 ||sdk.api.gamex.mobile.youku.com^
 ||sdk.appadhoc.com^
+||sdk.aqyad.com^
 ||sdk.beizi.biz^
 ||sdk.cdnmaster.com^
 ||sdk.cferw.com^
@@ -23244,6 +23252,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||sdk.sipujia.cn^
 ||sdk.verification.jiguang.cn^
 ||sdk2xr232.top^
+||sdkapi.cloooud.com^
 ||sdkapp.mobile.sina.cn^
 ||sdkapp.uve.weibo.com^
 ||sdkauth.hpplay.cn^
@@ -23805,6 +23814,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ssp.86str.com^
 ||ssp.chaohutechan.com^
 ||ssp.cibn.starschina.com^
+||ssp.cloooud.com^
 ||ssp.daxueshengqiandai.com^
 ||ssp.dmpdsp.com^
 ||ssp.kjwx8.com^
@@ -23927,6 +23937,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||static8.pmadx.com^
 ||staticadm.leju.com^
 ||staticadm.leju.sina.com.cn^
+||statichf.shihuocdn.cn^
 ||staticjs.cn^
 ||statics.3987.com^
 ||statics.9669.com^
@@ -24189,6 +24200,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||t1tgame.com^
 ||t2.58cdn.com.cn^
 ||t2.a.market.xiaomi.com^
+||t2.fancyapi.com^
 ||t2.jzkapp.com^
 ||t2.vbxx.net^
 ||t2.wshufa.com^
@@ -24597,6 +24609,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||tr.byteurl.cn^
 ||tr.iadsdk.apple.com^
 ||tr.medproad.com^
+||trace.aqyad.com^
 ||trace.qq.com^
 ||trace.seeyouyima.com^
 ||tracelog-debug.aiclk.com^

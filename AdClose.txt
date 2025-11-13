@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-13 14:19:35（北京时间）
+! Version: 2025-11-13 20:25:25（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16710
+! Total count: 16723
 # AdClose 专用广告规则
-# 生成时间: 2025-11-13 06:19:34（北京时间）
+# 生成时间: 2025-11-13 12:25:24（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -2484,6 +2484,7 @@ domain, api.aoao11221iis.top
 domain, api.aoao12060iis.top
 domain, api.appodeal.com
 domain, api.apps.sina.cn
+domain, api.aqyad.com
 domain, api.bailingjiankang.com
 domain, api.bs.zui.com
 domain, api.bugly.qq.com
@@ -2560,6 +2561,7 @@ domain, api.revenuads.com
 domain, api.rideraid.net
 domain, api.sa.hismarttv.com
 domain, api.scwsf.com
+domain, api.shanghailingye.cn
 domain, api.share.mob.com
 domain, api.shuzilm.cn
 domain, api.similarweb.com
@@ -2770,6 +2772,7 @@ domain, aqqgli3vle.bid
 domain, aquvg.com
 domain, aqvwn18102h.com
 domain, aqw.quanliyouxi.cn
+domain, aqyad.com
 domain, ar.atwola.com
 domain, ar.umeng.com
 domain, ar1.atwola.com
@@ -6314,6 +6317,7 @@ domain, g.doubleclick.net
 domain, g.dtv.cn.miaozhen.com
 domain, g.f11w.com
 domain, g.f5gh.com
+domain, g.fancyapi.com
 domain, g.gridsum.com
 domain, g.haluoha.com
 domain, g.hsw.cn
@@ -8792,6 +8796,7 @@ domain, l23jhjfasd.xyz
 domain, l3hidpw44bvj-1321608654.cos.ap-chengdu.myqcloud.com
 domain, l3r6p0d5.com
 domain, l4efwdtg.icu
+domain, l6.fancyapi.com
 domain, l80ays.com
 domain, l9bdhcgihw.neihanw.com
 domain, laawmmy.cn
@@ -8915,6 +8920,7 @@ domain, lfffzv.xyz
 domain, lfjtiuy.cn
 domain, lflili.com
 domain, lflmdm.com
+domain, lftxali.fancyapi.com
 domain, lfyuanai.com
 domain, lfzk2cp.icu
 domain, lg2.jointreport-switch.com
@@ -10870,6 +10876,7 @@ domain, open.play.cn
 domain, open.snssdk.com.bytedns.net
 domain, open.toutiao.com
 domain, open.youzanyun.com
+domain, openadapi.fancydsp.com
 domain, openapi-news.meizu.com
 domain, openapi.guanjia.qq.com
 domain, openapi.vivo.com.cn
@@ -12599,6 +12606,7 @@ domain, sdk.adtiming.com
 domain, sdk.adx.adwangmai.com
 domain, sdk.api.gamex.mobile.youku.com
 domain, sdk.appadhoc.com
+domain, sdk.aqyad.com
 domain, sdk.beizi.biz
 domain, sdk.cdnmaster.com
 domain, sdk.cferw.com
@@ -12621,6 +12629,7 @@ domain, sdk.renrenjihua.com
 domain, sdk.sipujia.cn
 domain, sdk.verification.jiguang.cn
 domain, sdk2xr232.top
+domain, sdkapi.cloooud.com
 domain, sdkapp.mobile.sina.cn
 domain, sdkapp.uve.weibo.com
 domain, sdkauth.hpplay.cn
@@ -13154,6 +13163,7 @@ domain, ssp.4hw.com.cn
 domain, ssp.86str.com
 domain, ssp.chaohutechan.com
 domain, ssp.cibn.starschina.com
+domain, ssp.cloooud.com
 domain, ssp.daxueshengqiandai.com
 domain, ssp.dmpdsp.com
 domain, ssp.kjwx8.com
@@ -13273,6 +13283,7 @@ domain, static5.niwodai.com
 domain, static8.pmadx.com
 domain, staticadm.leju.com
 domain, staticadm.leju.sina.com.cn
+domain, statichf.shihuocdn.cn
 domain, staticjs.cn
 domain, statics.3987.com
 domain, statics.9669.com
@@ -13528,6 +13539,7 @@ domain, t188.dazhonghua.cn
 domain, t1tgame.com
 domain, t2.58cdn.com.cn
 domain, t2.a.market.xiaomi.com
+domain, t2.fancyapi.com
 domain, t2.jzkapp.com
 domain, t2.vbxx.net
 domain, t2.wshufa.com
@@ -13914,6 +13926,7 @@ domain, tr.aoxinshangmao.xyz
 domain, tr.byteurl.cn
 domain, tr.iadsdk.apple.com
 domain, tr.medproad.com
+domain, trace.aqyad.com
 domain, trace.qq.com
 domain, trace.seeyouyima.com
 domain, tracelog-debug.aiclk.com
