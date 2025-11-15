@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-15 18:11:20（北京时间）
+! Version: 2025-11-15 20:21:24（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27529
+! Total count: 27535
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -2967,7 +2967,6 @@
 0.0.0.0 gtvpn.getui.com
 0.0.0.0 guess.mediav.com
 0.0.0.0 guess.tf.360.cn
-0.0.0.0 guide-acs.m.taobao.com
 0.0.0.0 guomob.com
 0.0.0.0 gv.xdrig.com
 0.0.0.0 gv1.xdrig.com
@@ -7635,6 +7634,7 @@
 @@||guanjia.qq.com^
 @@||guid.tpns.tencent.com^
 @@||guide-acs.m.taobao.com^
+@@||guide-acs.m.taobao.com^$important
 @@||guokr.com/apis/flowingboard/item/m_article
 @@||guokr.com/apis/flowingboard/item/m_home_
 @@||gvt1.com^
@@ -9440,6 +9440,8 @@ dingbu.*.*.*/*.add$third-party
 dingbu.*.*.com/dingbu.$third-party
 dm530p.net##DIV[style$='; display: block;']
 dmzj.com##div[class*="float_code"]
+dns.wechat.com
+dns2.titannetwork.cn
 docin.com##.moneyBox
 dongmanhuayuan.myheartsite.com##.card-body
 douban.com##IFRAME[width='315']
@@ -9470,6 +9472,9 @@ hax.co.id#@#.ad-wrapper
 heiliao346.pro###post-card-1234,#post-card-518,#post-card-1000,#post-card-666,#post-card-1588,#post-card-1555,#post-card-1118,#post-card-618,#post-card-888,#post-card-999
 hentaicomic.ru#@#.Flagrow-Ads-under-header
 hentaicomic.ru#@#.pcd_ad
+httpdns.bilivideo.com
+httpdns.gslb.yy.com
+httpdns.meituan.com
 huya.com###J_adBnM > img:last-child
 huya.com###J_liveListHeader > div.liveList-BusinessGame:last-child
 huya.com###matchComponent4
@@ -9512,6 +9517,7 @@ juejin.cn###juejin > div.view-container.container:first-child > main.container.m
 juejin.cn###juejin > div.view-container.container:first-child > main.container.main-container.with-view-nav:last-child > div.view.timeline-index-view > div.timeline-container:last-child > div.timeline-content > aside.index-aside.aside:last-child > div.sidebar-block.banner-block:nth-child(2)
 juejin.cn###juejin > div.view-container.container:first-child > main.container.main-container.with-view-nav:last-child > div.view.timeline-index-view > div.timeline-container:last-child > div.timeline-content > aside.index-aside.aside:last-child > div.sidebar-block.banner-block:nth-child(3)
 juejin.cn##.extension
+loggw.alipaydns.com
 luoqiuzw.com##DIV[id^="a-loading-"]
 m.autohome.com.cn##section > ol
 m.guancha.cn##.g_header.go-to-app
