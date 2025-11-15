@@ -2,15 +2,15 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-15 14:17:29（北京时间）
+! Version: 2025-11-15 18:11:20（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16725
+! Total count: 16729
 [Adblock Plus 2.0]
 ! Title: 酷安广告规则
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Last Updated: 2025-11-15 06:17:27（北京时间）
-! Total Count: 16718
+! Last Updated: 2025-11-15 10:11:19（北京时间）
+! Total Count: 16722
 ||-normal-lq.zijieapi.com^
 ||0.r.msn.com^
 ||000123456789.online^
@@ -1961,6 +1961,8 @@
 ||adsmind.gdtimg.com.svideolego-dk.sched.dcloudstc.com^
 ||adsmind.tc.qq.com^
 ||adsmind.ugdtimg.com^
+||adsmind.ugdtimg.com.svideolego-dk.sched.dcloudstc.com^
+||adsmind.ugdtimg.com.tcdn.qq.com^
 ||adsmogo.com^
 ||adsmoloco.com^
 ||adsolution.imtt.qq.com^
@@ -6114,7 +6116,6 @@
 ||filter.appstore.vivo.com.cn^
 ||fimserve.ign.com^
 ||finance-gateway.diandian.com.cn^
-||findermp.video.qq.com^
 ||finderydy.video.qq.com^
 ||findicons.com^
 ||finding.hardwareheaven.com^
@@ -7354,6 +7355,7 @@
 ||i.vip.iqiyi.com^
 ||i.w55c.net^
 ||i.xicairencs.cn^
+||i.ys7.com^
 ||i.zhuoyaju.com^
 ||i1236.net^
 ||i2.akjunshi.com^
@@ -11662,6 +11664,7 @@
 ||pwj.biqugezw.com^
 ||px-intl.ucweb.com^
 ||px.adhigh.net^
+||px.ads.linkedin.cn^
 ||px.media-serving.com^
 ||px.moatads.com^
 ||px.owneriq.net^
@@ -12522,6 +12525,7 @@
 ||saxxaz.taohuayuan8888.com^
 ||saxysec.com^
 ||sb.adtidy.com^
+||sb.adtidy.org^
 ||sb.scorecardresearch.com^
 ||sb4you1.com^
 ||sb6k.top^
@@ -12725,6 +12729,7 @@
 ||sentry.fintopia.tech^
 ||sentry.io^
 ||sentry.kuaishou.com^
+||sentry.kugou.com^
 ||sentry.music.163.com^
 ||senxiaopang.top^
 ||seordl.cn^
@@ -12884,7 +12889,6 @@
 ||shuyu2001.cn^
 ||shuzilm.cn^
 ||shxinjie.cn^
-||shytkjgs.com^
 ||shzyjbr.wtdtjs.rocks^
 ||si9377.com^
 ||sicentlife.com^

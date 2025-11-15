@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-11-15 06:17:27（北京时间）
-# Quantumult X规则数量: 16718
-# ! Total count: 16718
+# Last Updated: 2025-11-15 10:11:19（北京时间）
+# Quantumult X规则数量: 16722
+# ! Total count: 16722
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -1954,6 +1954,8 @@ HOST-SUFFIX,adsmind.gdtimg.com,REJECT
 HOST-SUFFIX,adsmind.gdtimg.com.svideolego-dk.sched.dcloudstc.com,REJECT
 HOST-SUFFIX,adsmind.tc.qq.com,REJECT
 HOST-SUFFIX,adsmind.ugdtimg.com,REJECT
+HOST-SUFFIX,adsmind.ugdtimg.com.svideolego-dk.sched.dcloudstc.com,REJECT
+HOST-SUFFIX,adsmind.ugdtimg.com.tcdn.qq.com,REJECT
 HOST-SUFFIX,adsmogo.com,REJECT
 HOST-SUFFIX,adsmoloco.com,REJECT
 HOST-SUFFIX,adsolution.imtt.qq.com,REJECT
@@ -6107,7 +6109,6 @@ HOST-SUFFIX,fillhr.xyz,REJECT
 HOST-SUFFIX,filter.appstore.vivo.com.cn,REJECT
 HOST-SUFFIX,fimserve.ign.com,REJECT
 HOST-SUFFIX,finance-gateway.diandian.com.cn,REJECT
-HOST-SUFFIX,findermp.video.qq.com,REJECT
 HOST-SUFFIX,finderydy.video.qq.com,REJECT
 HOST-SUFFIX,findicons.com,REJECT
 HOST-SUFFIX,finding.hardwareheaven.com,REJECT
@@ -7347,6 +7348,7 @@ HOST-SUFFIX,i.tansuotv.com,REJECT
 HOST-SUFFIX,i.vip.iqiyi.com,REJECT
 HOST-SUFFIX,i.w55c.net,REJECT
 HOST-SUFFIX,i.xicairencs.cn,REJECT
+HOST-SUFFIX,i.ys7.com,REJECT
 HOST-SUFFIX,i.zhuoyaju.com,REJECT
 HOST-SUFFIX,i1236.net,REJECT
 HOST-SUFFIX,i2.akjunshi.com,REJECT
@@ -11655,6 +11657,7 @@ HOST-SUFFIX,pvymlsvo.xyz,REJECT
 HOST-SUFFIX,pwj.biqugezw.com,REJECT
 HOST-SUFFIX,px-intl.ucweb.com,REJECT
 HOST-SUFFIX,px.adhigh.net,REJECT
+HOST-SUFFIX,px.ads.linkedin.cn,REJECT
 HOST-SUFFIX,px.media-serving.com,REJECT
 HOST-SUFFIX,px.moatads.com,REJECT
 HOST-SUFFIX,px.owneriq.net,REJECT
@@ -12515,6 +12518,7 @@ HOST-SUFFIX,saxs.sina.com.cn,REJECT
 HOST-SUFFIX,saxxaz.taohuayuan8888.com,REJECT
 HOST-SUFFIX,saxysec.com,REJECT
 HOST-SUFFIX,sb.adtidy.com,REJECT
+HOST-SUFFIX,sb.adtidy.org,REJECT
 HOST-SUFFIX,sb.scorecardresearch.com,REJECT
 HOST-SUFFIX,sb4you1.com,REJECT
 HOST-SUFFIX,sb6k.top,REJECT
@@ -12718,6 +12722,7 @@ HOST-SUFFIX,sentry.d.xiaomi.net,REJECT
 HOST-SUFFIX,sentry.fintopia.tech,REJECT
 HOST-SUFFIX,sentry.io,REJECT
 HOST-SUFFIX,sentry.kuaishou.com,REJECT
+HOST-SUFFIX,sentry.kugou.com,REJECT
 HOST-SUFFIX,sentry.music.163.com,REJECT
 HOST-SUFFIX,senxiaopang.top,REJECT
 HOST-SUFFIX,seordl.cn,REJECT
@@ -12877,7 +12882,6 @@ HOST-SUFFIX,shuttle.bayescom.com,REJECT
 HOST-SUFFIX,shuyu2001.cn,REJECT
 HOST-SUFFIX,shuzilm.cn,REJECT
 HOST-SUFFIX,shxinjie.cn,REJECT
-HOST-SUFFIX,shytkjgs.com,REJECT
 HOST-SUFFIX,shzyjbr.wtdtjs.rocks,REJECT
 HOST-SUFFIX,si9377.com,REJECT
 HOST-SUFFIX,sicentlife.com,REJECT

@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-15 14:17:29（北京时间）
+! Version: 2025-11-15 18:11:20（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16722
+! Total count: 16726
 # AdClose 专用广告规则
-# 生成时间: 2025-11-15 06:17:27（北京时间）
+# 生成时间: 2025-11-15 10:11:19（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -1958,6 +1958,8 @@ domain, adsmind.gdtimg.com
 domain, adsmind.gdtimg.com.svideolego-dk.sched.dcloudstc.com
 domain, adsmind.tc.qq.com
 domain, adsmind.ugdtimg.com
+domain, adsmind.ugdtimg.com.svideolego-dk.sched.dcloudstc.com
+domain, adsmind.ugdtimg.com.tcdn.qq.com
 domain, adsmogo.com
 domain, adsmoloco.com
 domain, adsolution.imtt.qq.com
@@ -6111,7 +6113,6 @@ domain, fillhr.xyz
 domain, filter.appstore.vivo.com.cn
 domain, fimserve.ign.com
 domain, finance-gateway.diandian.com.cn
-domain, findermp.video.qq.com
 domain, finderydy.video.qq.com
 domain, findicons.com
 domain, finding.hardwareheaven.com
@@ -7351,6 +7352,7 @@ domain, i.tansuotv.com
 domain, i.vip.iqiyi.com
 domain, i.w55c.net
 domain, i.xicairencs.cn
+domain, i.ys7.com
 domain, i.zhuoyaju.com
 domain, i1236.net
 domain, i2.akjunshi.com
@@ -11659,6 +11661,7 @@ domain, pvymlsvo.xyz
 domain, pwj.biqugezw.com
 domain, px-intl.ucweb.com
 domain, px.adhigh.net
+domain, px.ads.linkedin.cn
 domain, px.media-serving.com
 domain, px.moatads.com
 domain, px.owneriq.net
@@ -12519,6 +12522,7 @@ domain, saxs.sina.com.cn
 domain, saxxaz.taohuayuan8888.com
 domain, saxysec.com
 domain, sb.adtidy.com
+domain, sb.adtidy.org
 domain, sb.scorecardresearch.com
 domain, sb4you1.com
 domain, sb6k.top
@@ -12722,6 +12726,7 @@ domain, sentry.d.xiaomi.net
 domain, sentry.fintopia.tech
 domain, sentry.io
 domain, sentry.kuaishou.com
+domain, sentry.kugou.com
 domain, sentry.music.163.com
 domain, senxiaopang.top
 domain, seordl.cn
@@ -12881,7 +12886,6 @@ domain, shuttle.bayescom.com
 domain, shuyu2001.cn
 domain, shuzilm.cn
 domain, shxinjie.cn
-domain, shytkjgs.com
 domain, shzyjbr.wtdtjs.rocks
 domain, si9377.com
 domain, sicentlife.com

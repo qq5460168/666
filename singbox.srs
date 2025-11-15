@@ -1,9 +1,9 @@
 # Title: SingBox SRS Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-11-15 06:17:27（北京时间）
-# Singbox规则数量: 16718
-! Total count: 16718
+# Last Updated: 2025-11-15 10:11:19（北京时间）
+# Singbox规则数量: 16722
+! Total count: 16722
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -1954,6 +1954,8 @@ DOMAIN-SUFFIX,adsmind.gdtimg.com,REJECT
 DOMAIN-SUFFIX,adsmind.gdtimg.com.svideolego-dk.sched.dcloudstc.com,REJECT
 DOMAIN-SUFFIX,adsmind.tc.qq.com,REJECT
 DOMAIN-SUFFIX,adsmind.ugdtimg.com,REJECT
+DOMAIN-SUFFIX,adsmind.ugdtimg.com.svideolego-dk.sched.dcloudstc.com,REJECT
+DOMAIN-SUFFIX,adsmind.ugdtimg.com.tcdn.qq.com,REJECT
 DOMAIN-SUFFIX,adsmogo.com,REJECT
 DOMAIN-SUFFIX,adsmoloco.com,REJECT
 DOMAIN-SUFFIX,adsolution.imtt.qq.com,REJECT
@@ -6107,7 +6109,6 @@ DOMAIN-SUFFIX,fillhr.xyz,REJECT
 DOMAIN-SUFFIX,filter.appstore.vivo.com.cn,REJECT
 DOMAIN-SUFFIX,fimserve.ign.com,REJECT
 DOMAIN-SUFFIX,finance-gateway.diandian.com.cn,REJECT
-DOMAIN-SUFFIX,findermp.video.qq.com,REJECT
 DOMAIN-SUFFIX,finderydy.video.qq.com,REJECT
 DOMAIN-SUFFIX,findicons.com,REJECT
 DOMAIN-SUFFIX,finding.hardwareheaven.com,REJECT
@@ -7347,6 +7348,7 @@ DOMAIN-SUFFIX,i.tansuotv.com,REJECT
 DOMAIN-SUFFIX,i.vip.iqiyi.com,REJECT
 DOMAIN-SUFFIX,i.w55c.net,REJECT
 DOMAIN-SUFFIX,i.xicairencs.cn,REJECT
+DOMAIN-SUFFIX,i.ys7.com,REJECT
 DOMAIN-SUFFIX,i.zhuoyaju.com,REJECT
 DOMAIN-SUFFIX,i1236.net,REJECT
 DOMAIN-SUFFIX,i2.akjunshi.com,REJECT
@@ -11655,6 +11657,7 @@ DOMAIN-SUFFIX,pvymlsvo.xyz,REJECT
 DOMAIN-SUFFIX,pwj.biqugezw.com,REJECT
 DOMAIN-SUFFIX,px-intl.ucweb.com,REJECT
 DOMAIN-SUFFIX,px.adhigh.net,REJECT
+DOMAIN-SUFFIX,px.ads.linkedin.cn,REJECT
 DOMAIN-SUFFIX,px.media-serving.com,REJECT
 DOMAIN-SUFFIX,px.moatads.com,REJECT
 DOMAIN-SUFFIX,px.owneriq.net,REJECT
@@ -12515,6 +12518,7 @@ DOMAIN-SUFFIX,saxs.sina.com.cn,REJECT
 DOMAIN-SUFFIX,saxxaz.taohuayuan8888.com,REJECT
 DOMAIN-SUFFIX,saxysec.com,REJECT
 DOMAIN-SUFFIX,sb.adtidy.com,REJECT
+DOMAIN-SUFFIX,sb.adtidy.org,REJECT
 DOMAIN-SUFFIX,sb.scorecardresearch.com,REJECT
 DOMAIN-SUFFIX,sb4you1.com,REJECT
 DOMAIN-SUFFIX,sb6k.top,REJECT
@@ -12718,6 +12722,7 @@ DOMAIN-SUFFIX,sentry.d.xiaomi.net,REJECT
 DOMAIN-SUFFIX,sentry.fintopia.tech,REJECT
 DOMAIN-SUFFIX,sentry.io,REJECT
 DOMAIN-SUFFIX,sentry.kuaishou.com,REJECT
+DOMAIN-SUFFIX,sentry.kugou.com,REJECT
 DOMAIN-SUFFIX,sentry.music.163.com,REJECT
 DOMAIN-SUFFIX,senxiaopang.top,REJECT
 DOMAIN-SUFFIX,seordl.cn,REJECT
@@ -12877,7 +12882,6 @@ DOMAIN-SUFFIX,shuttle.bayescom.com,REJECT
 DOMAIN-SUFFIX,shuyu2001.cn,REJECT
 DOMAIN-SUFFIX,shuzilm.cn,REJECT
 DOMAIN-SUFFIX,shxinjie.cn,REJECT
-DOMAIN-SUFFIX,shytkjgs.com,REJECT
 DOMAIN-SUFFIX,shzyjbr.wtdtjs.rocks,REJECT
 DOMAIN-SUFFIX,si9377.com,REJECT
 DOMAIN-SUFFIX,sicentlife.com,REJECT
