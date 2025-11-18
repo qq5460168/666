@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-18 14:18:57（北京时间）
+! Version: 2025-11-18 20:25:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27536
+! Total count: 27545
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -9510,6 +9510,8 @@ jav777.cc,jav777.xyz##.myad_alert_82_box
 jav777.cc,jav777.xyz##P[style='margin-left:5px; margin-right:5px; text-align:center']
 jav777.cc,jav777.xyz##[src='/close.gif']
 javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
+jianshu.com##.app-float-btn
+jianshu.com##[aria-label='lwa-ad-one']
 jingyan.baidu.com###wrapper > .exp-container:nth-child(2) > aside.wgt-ad-guess.content-box:nth-child(2)
 jingyan.baidu.com##.ad-card
 jingyan.baidu.com##.asp-self-rander > .asp-wrap
@@ -9696,7 +9698,6 @@ www.itdog.cn##.pointer
 www.itdog.cn##.rounded-lg
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
-www.jianshu.com##[aria-label='lwa-ad-one']
 www.jianshu.com#@#div[class$="_0"]
 www.jjtyss.com##ins[class],.myui-player.clearfix p,.container p
 www.jmhongyan.com##ins[class],.container p
@@ -12196,6 +12197,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||adx-*anythinktech.com^
 ||adx-ad.smart-tv.cn^
 ||adx-api.hupu.com^
+||adx-api.jinmo.tech^
 ||adx-bj-req.anythinktech.com^
 ||adx-bj.anythinktech.com^
 ||adx-cn.ads.vungle.com^
@@ -12206,6 +12208,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||adx-open-service.youku.com^
 ||adx-os-req.anythinktech.com^
 ||adx-os.anythinktech.com^
+||adx-saas.advlion.com^
 ||adx-static.ksosoft.com^
 ||adx-track.domob.cn^
 ||adx.ads.heytapmobi.com^
@@ -13525,6 +13528,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||biz5.kankan.com^
 ||bizanti.youwatch.org^
 ||bizhixiang.cn^
+||bj-td-menta-01-callback.advlion.com^
 ||bj.ad.track.66mobi.com^
 ||bj.imp.voiceads.cn^
 ||bj.openstorage.cn^
@@ -20677,6 +20681,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||monitor-ads-test.huan.tv^
 ||monitor-uu.play.aiseet.atianqi.com^
 ||monitor.ads.8le8le.com^
+||monitor.adxsenmeng.com^
 ||monitor.kg.qq.com^
 ||monitor.l.qq.com^
 ||monitor.music.qq.com^
@@ -22409,6 +22414,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||qmfcybwbf19.com^
 ||qmfcybwbf28.com^
 ||qmkdy.com^
+||qmlog.baertt.com^
 ||qmlog.cn^
 ||qn-cdnfile1pcdn.msstatic.com^
 ||qn-livewebbs2pcdn.msstatic.com^
@@ -22877,6 +22883,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||rtas.videocc.net^
 ||rtax.criteo.com^
 ||rtb-p.kejet.net^
+||rtb.adxsenmeng.com^
 ||rtb.com.ru^
 ||rtb.eanalyzer.de^
 ||rtb.metrigo.com^
@@ -23037,6 +23044,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||s03.optimix.asia^
 ||s0n9app.com^
 ||s1.2mdn.net^
+||s1.cdn-sg.advlion.com^
 ||s1.cmfu.com^
 ||s1.hapying.com^
 ||s1.hiapk.com^
@@ -24291,6 +24299,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||tappx.com^
 ||tapstream.com^
 ||tapwhigwy.com^
+||target.ads.jihuoniao.com^
 ||targetedinfo.com^
 ||targetedmedia.com.cn^
 ||targetedtopic.com^

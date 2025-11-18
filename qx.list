@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-11-18 06:18:56（北京时间）
-# Quantumult X规则数量: 16722
-# ! Total count: 16722
+# Last Updated: 2025-11-18 12:25:09（北京时间）
+# Quantumult X规则数量: 16730
+# ! Total count: 16730
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -2064,6 +2064,7 @@ HOST-SUFFIX,adwords.com,REJECT
 HOST-SUFFIX,adwordsexpress.com,REJECT
 HOST-SUFFIX,adx-ad.smart-tv.cn,REJECT
 HOST-SUFFIX,adx-api.hupu.com,REJECT
+HOST-SUFFIX,adx-api.jinmo.tech,REJECT
 HOST-SUFFIX,adx-bj-req.anythinktech.com,REJECT
 HOST-SUFFIX,adx-bj.anythinktech.com,REJECT
 HOST-SUFFIX,adx-cn.ads.vungle.com,REJECT
@@ -2074,6 +2075,7 @@ HOST-SUFFIX,adx-drcn.op.dbankcloud.cn,REJECT
 HOST-SUFFIX,adx-open-service.youku.com,REJECT
 HOST-SUFFIX,adx-os-req.anythinktech.com,REJECT
 HOST-SUFFIX,adx-os.anythinktech.com,REJECT
+HOST-SUFFIX,adx-saas.advlion.com,REJECT
 HOST-SUFFIX,adx-static.ksosoft.com,REJECT
 HOST-SUFFIX,adx-track.domob.cn,REJECT
 HOST-SUFFIX,adx.ads.heytapmobi.com,REJECT
@@ -3320,6 +3322,7 @@ HOST-SUFFIX,biz37.net,REJECT
 HOST-SUFFIX,biz5.kankan.com,REJECT
 HOST-SUFFIX,bizanti.youwatch.org,REJECT
 HOST-SUFFIX,bizhixiang.cn,REJECT
+HOST-SUFFIX,bj-td-menta-01-callback.advlion.com,REJECT
 HOST-SUFFIX,bj.ad.track.66mobi.com,REJECT
 HOST-SUFFIX,bj.imp.voiceads.cn,REJECT
 HOST-SUFFIX,bj.openstorage.cn,REJECT
@@ -10183,6 +10186,7 @@ HOST-SUFFIX,moniter.wb.qq.com,REJECT
 HOST-SUFFIX,monitor-ads-test.huan.tv,REJECT
 HOST-SUFFIX,monitor-uu.play.aiseet.atianqi.com,REJECT
 HOST-SUFFIX,monitor.ads.8le8le.com,REJECT
+HOST-SUFFIX,monitor.adxsenmeng.com,REJECT
 HOST-SUFFIX,monitor.kg.qq.com,REJECT
 HOST-SUFFIX,monitor.l.qq.com,REJECT
 HOST-SUFFIX,monitor.music.qq.com,REJECT
@@ -11803,6 +11807,7 @@ HOST-SUFFIX,qmfcybwbf16.com,REJECT
 HOST-SUFFIX,qmfcybwbf19.com,REJECT
 HOST-SUFFIX,qmfcybwbf28.com,REJECT
 HOST-SUFFIX,qmkdy.com,REJECT
+HOST-SUFFIX,qmlog.baertt.com,REJECT
 HOST-SUFFIX,qmlog.cn,REJECT
 HOST-SUFFIX,qn-cdnfile1pcdn.msstatic.com,REJECT
 HOST-SUFFIX,qn-livewebbs2pcdn.msstatic.com,REJECT
@@ -12257,6 +12262,7 @@ HOST-SUFFIX,rt.gsspat.jp,REJECT
 HOST-SUFFIX,rtas.videocc.net,REJECT
 HOST-SUFFIX,rtax.criteo.com,REJECT
 HOST-SUFFIX,rtb-p.kejet.net,REJECT
+HOST-SUFFIX,rtb.adxsenmeng.com,REJECT
 HOST-SUFFIX,rtb.com.ru,REJECT
 HOST-SUFFIX,rtb.eanalyzer.de,REJECT
 HOST-SUFFIX,rtb.metrigo.com,REJECT
@@ -12412,6 +12418,7 @@ HOST-SUFFIX,s.zxwdw.com,REJECT
 HOST-SUFFIX,s03.optimix.asia,REJECT
 HOST-SUFFIX,s0n9app.com,REJECT
 HOST-SUFFIX,s1.2mdn.net,REJECT
+HOST-SUFFIX,s1.cdn-sg.advlion.com,REJECT
 HOST-SUFFIX,s1.cmfu.com,REJECT
 HOST-SUFFIX,s1.hapying.com,REJECT
 HOST-SUFFIX,s1.hiapk.com,REJECT
@@ -13612,6 +13619,7 @@ HOST-SUFFIX,tapjoyads.com,REJECT
 HOST-SUFFIX,tappx.com,REJECT
 HOST-SUFFIX,tapstream.com,REJECT
 HOST-SUFFIX,tapwhigwy.com,REJECT
+HOST-SUFFIX,target.ads.jihuoniao.com,REJECT
 HOST-SUFFIX,targetedinfo.com,REJECT
 HOST-SUFFIX,targetedmedia.com.cn,REJECT
 HOST-SUFFIX,targetedtopic.com,REJECT

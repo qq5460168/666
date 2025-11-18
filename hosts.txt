@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-18 14:18:57（北京时间）
+! Version: 2025-11-18 20:25:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16727
+! Total count: 16735
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-11-18 06:18:56（北京时间）
+# Last Updated: 2025-11-18 12:25:09（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -2069,6 +2069,7 @@
 0.0.0.0 adwordsexpress.com
 0.0.0.0 adx-ad.smart-tv.cn
 0.0.0.0 adx-api.hupu.com
+0.0.0.0 adx-api.jinmo.tech
 0.0.0.0 adx-bj-req.anythinktech.com
 0.0.0.0 adx-bj.anythinktech.com
 0.0.0.0 adx-cn.ads.vungle.com
@@ -2079,6 +2080,7 @@
 0.0.0.0 adx-open-service.youku.com
 0.0.0.0 adx-os-req.anythinktech.com
 0.0.0.0 adx-os.anythinktech.com
+0.0.0.0 adx-saas.advlion.com
 0.0.0.0 adx-static.ksosoft.com
 0.0.0.0 adx-track.domob.cn
 0.0.0.0 adx.ads.heytapmobi.com
@@ -3325,6 +3327,7 @@
 0.0.0.0 biz5.kankan.com
 0.0.0.0 bizanti.youwatch.org
 0.0.0.0 bizhixiang.cn
+0.0.0.0 bj-td-menta-01-callback.advlion.com
 0.0.0.0 bj.ad.track.66mobi.com
 0.0.0.0 bj.imp.voiceads.cn
 0.0.0.0 bj.openstorage.cn
@@ -10188,6 +10191,7 @@
 0.0.0.0 monitor-ads-test.huan.tv
 0.0.0.0 monitor-uu.play.aiseet.atianqi.com
 0.0.0.0 monitor.ads.8le8le.com
+0.0.0.0 monitor.adxsenmeng.com
 0.0.0.0 monitor.kg.qq.com
 0.0.0.0 monitor.l.qq.com
 0.0.0.0 monitor.music.qq.com
@@ -11808,6 +11812,7 @@
 0.0.0.0 qmfcybwbf19.com
 0.0.0.0 qmfcybwbf28.com
 0.0.0.0 qmkdy.com
+0.0.0.0 qmlog.baertt.com
 0.0.0.0 qmlog.cn
 0.0.0.0 qn-cdnfile1pcdn.msstatic.com
 0.0.0.0 qn-livewebbs2pcdn.msstatic.com
@@ -12262,6 +12267,7 @@
 0.0.0.0 rtas.videocc.net
 0.0.0.0 rtax.criteo.com
 0.0.0.0 rtb-p.kejet.net
+0.0.0.0 rtb.adxsenmeng.com
 0.0.0.0 rtb.com.ru
 0.0.0.0 rtb.eanalyzer.de
 0.0.0.0 rtb.metrigo.com
@@ -12417,6 +12423,7 @@
 0.0.0.0 s03.optimix.asia
 0.0.0.0 s0n9app.com
 0.0.0.0 s1.2mdn.net
+0.0.0.0 s1.cdn-sg.advlion.com
 0.0.0.0 s1.cmfu.com
 0.0.0.0 s1.hapying.com
 0.0.0.0 s1.hiapk.com
@@ -13617,6 +13624,7 @@
 0.0.0.0 tappx.com
 0.0.0.0 tapstream.com
 0.0.0.0 tapwhigwy.com
+0.0.0.0 target.ads.jihuoniao.com
 0.0.0.0 targetedinfo.com
 0.0.0.0 targetedmedia.com.cn
 0.0.0.0 targetedtopic.com

@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-18 14:18:57（北京时间）
+! Version: 2025-11-18 20:25:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16727
+! Total count: 16735
 # Title: Invizible Pro Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-11-18 06:18:56（北京时间）
+# Last Updated: 2025-11-18 12:25:09（北京时间）
 -normal-lq.zijieapi.com
 0.r.msn.com
 000123456789.online
@@ -2069,6 +2069,7 @@ adwords.com
 adwordsexpress.com
 adx-ad.smart-tv.cn
 adx-api.hupu.com
+adx-api.jinmo.tech
 adx-bj-req.anythinktech.com
 adx-bj.anythinktech.com
 adx-cn.ads.vungle.com
@@ -2079,6 +2080,7 @@ adx-drcn.op.dbankcloud.cn
 adx-open-service.youku.com
 adx-os-req.anythinktech.com
 adx-os.anythinktech.com
+adx-saas.advlion.com
 adx-static.ksosoft.com
 adx-track.domob.cn
 adx.ads.heytapmobi.com
@@ -3325,6 +3327,7 @@ biz37.net
 biz5.kankan.com
 bizanti.youwatch.org
 bizhixiang.cn
+bj-td-menta-01-callback.advlion.com
 bj.ad.track.66mobi.com
 bj.imp.voiceads.cn
 bj.openstorage.cn
@@ -10188,6 +10191,7 @@ moniter.wb.qq.com
 monitor-ads-test.huan.tv
 monitor-uu.play.aiseet.atianqi.com
 monitor.ads.8le8le.com
+monitor.adxsenmeng.com
 monitor.kg.qq.com
 monitor.l.qq.com
 monitor.music.qq.com
@@ -11808,6 +11812,7 @@ qmfcybwbf16.com
 qmfcybwbf19.com
 qmfcybwbf28.com
 qmkdy.com
+qmlog.baertt.com
 qmlog.cn
 qn-cdnfile1pcdn.msstatic.com
 qn-livewebbs2pcdn.msstatic.com
@@ -12262,6 +12267,7 @@ rt.gsspat.jp
 rtas.videocc.net
 rtax.criteo.com
 rtb-p.kejet.net
+rtb.adxsenmeng.com
 rtb.com.ru
 rtb.eanalyzer.de
 rtb.metrigo.com
@@ -12417,6 +12423,7 @@ s.zxwdw.com
 s03.optimix.asia
 s0n9app.com
 s1.2mdn.net
+s1.cdn-sg.advlion.com
 s1.cmfu.com
 s1.hapying.com
 s1.hiapk.com
@@ -13617,6 +13624,7 @@ tapjoyads.com
 tappx.com
 tapstream.com
 tapwhigwy.com
+target.ads.jihuoniao.com
 targetedinfo.com
 targetedmedia.com.cn
 targetedtopic.com

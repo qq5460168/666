@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-18 14:18:57（北京时间）
+! Version: 2025-11-18 20:25:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16726
+! Total count: 16734
 # AdClose 专用广告规则
-# 生成时间: 2025-11-18 06:18:56（北京时间）
+# 生成时间: 2025-11-18 12:25:09（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -2068,6 +2068,7 @@ domain, adwords.com
 domain, adwordsexpress.com
 domain, adx-ad.smart-tv.cn
 domain, adx-api.hupu.com
+domain, adx-api.jinmo.tech
 domain, adx-bj-req.anythinktech.com
 domain, adx-bj.anythinktech.com
 domain, adx-cn.ads.vungle.com
@@ -2078,6 +2079,7 @@ domain, adx-drcn.op.dbankcloud.cn
 domain, adx-open-service.youku.com
 domain, adx-os-req.anythinktech.com
 domain, adx-os.anythinktech.com
+domain, adx-saas.advlion.com
 domain, adx-static.ksosoft.com
 domain, adx-track.domob.cn
 domain, adx.ads.heytapmobi.com
@@ -3324,6 +3326,7 @@ domain, biz37.net
 domain, biz5.kankan.com
 domain, bizanti.youwatch.org
 domain, bizhixiang.cn
+domain, bj-td-menta-01-callback.advlion.com
 domain, bj.ad.track.66mobi.com
 domain, bj.imp.voiceads.cn
 domain, bj.openstorage.cn
@@ -10187,6 +10190,7 @@ domain, moniter.wb.qq.com
 domain, monitor-ads-test.huan.tv
 domain, monitor-uu.play.aiseet.atianqi.com
 domain, monitor.ads.8le8le.com
+domain, monitor.adxsenmeng.com
 domain, monitor.kg.qq.com
 domain, monitor.l.qq.com
 domain, monitor.music.qq.com
@@ -11807,6 +11811,7 @@ domain, qmfcybwbf16.com
 domain, qmfcybwbf19.com
 domain, qmfcybwbf28.com
 domain, qmkdy.com
+domain, qmlog.baertt.com
 domain, qmlog.cn
 domain, qn-cdnfile1pcdn.msstatic.com
 domain, qn-livewebbs2pcdn.msstatic.com
@@ -12261,6 +12266,7 @@ domain, rt.gsspat.jp
 domain, rtas.videocc.net
 domain, rtax.criteo.com
 domain, rtb-p.kejet.net
+domain, rtb.adxsenmeng.com
 domain, rtb.com.ru
 domain, rtb.eanalyzer.de
 domain, rtb.metrigo.com
@@ -12416,6 +12422,7 @@ domain, s.zxwdw.com
 domain, s03.optimix.asia
 domain, s0n9app.com
 domain, s1.2mdn.net
+domain, s1.cdn-sg.advlion.com
 domain, s1.cmfu.com
 domain, s1.hapying.com
 domain, s1.hiapk.com
@@ -13616,6 +13623,7 @@ domain, tapjoyads.com
 domain, tappx.com
 domain, tapstream.com
 domain, tapwhigwy.com
+domain, target.ads.jihuoniao.com
 domain, targetedinfo.com
 domain, targetedmedia.com.cn
 domain, targetedtopic.com
