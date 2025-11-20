@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-20 20:24:22（北京时间）
+! Version: 2025-11-21 02:18:33（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3111
+! Total count: 3109
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -601,7 +601,6 @@
 @@||cdn.bootcdn.net^
 @@||cdn.cnbj1.fds.api.mi-img.com^
 @@||cdn.deepseek.com^
-@@||cdn.deepseek.com^$important
 @@||cdn.ferrari.com^
 @@||cdn.iocdn.cc^
 @@||cdn.jsdelivr.net^
@@ -1172,7 +1171,6 @@
 @@||guanjia.qq.com^
 @@||guid.tpns.tencent.com^
 @@||guide-acs.m.taobao.com^
-@@||guide-acs.m.taobao.com^$important
 @@||guzzoni.apple.com^$important
 @@||gvt1.com^
 @@||gvt2.com^
@@ -2452,7 +2450,6 @@
 @@||static.biligame.com^
 @@||static.clewm.net^
 @@||static.deepseek.com^
-@@||static.deepseek.com^$important
 @@||static.e.189.cn^
 @@||static.gitbook.com^
 @@||static.hdslb.com^
@@ -2620,7 +2617,7 @@
 @@||trade-acs.m.taobao.com^
 @@||train.17u.cn^
 @@||translator.qq.com^
-@@||trpc.qianbao.qq.com^$important
+@@||trpc.qianbao.qq.com^
 @@||ts.market.mi-img.com^
 @@||ts1.tc.mm.bing.net^
 @@||ts2.tc.mm.bing.net^
@@ -2704,7 +2701,7 @@
 @@||user1.game.qq.com^
 @@||ut-public-service-prod10.ol.epicgames.com^$important
 @@||uxip.meizu.com^
-@@||uzzf.com^$important
+@@||uzzf.com^
 @@||v*-dc-ad.ixigua.com^
 @@||v*-fq-tts.fqnovelvod.com^
 @@||v*.douyinvod.com^
@@ -2836,6 +2833,7 @@
 @@||wmflabs.org^
 @@||wodenongtian.com^
 @@||woniu.com^
+@@||woocall.sina.com.cn^
 @@||work.weixin.qq.com^
 @@||world.qpic.cn^
 @@||worldwide.sogou.com^
@@ -2951,7 +2949,7 @@
 @@||www.lianjia.com^
 @@||www.lsds.cn^
 @@||www.maimemo.com^
-@@||www.mairuan.com^$important
+@@||www.mairuan.com^
 @@||www.manhuabei.com^
 @@||www.maserati.com^
 @@||www.meituan.com^
@@ -3005,7 +3003,7 @@
 @@||www.toutiao.com^
 @@||www.tudou.com^
 @@||www.twitter.com^
-@@||www.uzzf.com^$important
+@@||www.uzzf.com^
 @@||www.vmall.com^
 @@||www.wandoujia.com^$important
 @@||www.wnacg.com^
@@ -3048,7 +3046,7 @@
 @@||x19.update.netease.com^
 @@||x2.ifengimg.com^
 @@||x6img.com^
-@@||xbk.189.cn^$important
+@@||xbk.189.cn^
 @@||xhslink.com^
 @@||xiaomiev.com^
 @@||xiaoshuo.wtzw.com^
