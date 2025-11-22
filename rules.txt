@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-22 20:20:46（北京时间）
+! Version: 2025-11-23 02:16:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27545
+! Total count: 27547
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -16,10 +16,13 @@
 -1325890192.cos.
 .buzz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net
 .buzz/*0*0*0*==$third-party
+.cn/*/o*.js?t=*$domain=12ju.com
 .cn/2022/*/*.txt$third-party
 .cn/2023/*/*.txt$third-party
 .cn/ack?s=*$third-party
 .cn/bid?url=*$third-party
+.cn/d/o*.js?t=*
+.cn/e/o*.js?t=*
 .cn/redbaiduct.com?s=$third-party
 .cn:*/d/*?c=*$third-party
 .cn:*/sc/*?n=$third-party
@@ -9672,7 +9675,6 @@ woozooo.com##.ves
 www.3ppp.net##DIV.bottom_fixed
 www.67tool.com##.footer-banner
 www.9game.cn##.entry.qak_popup
-www.aiwuav.xyz##A.toptxt,IMG[src*='.gif'][alt],SPAN[class^="clobox"],IMG[width='100%'][src*='.gif']
 www.apkmirror.com##.ains.ains-has-label
 www.apkmirror.com##DIV[style$=' display: flex; justify-content: center; font-family: Roboto, Arial;']
 www.baidu.com##div[class*="cr-offset"]
