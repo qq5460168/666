@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-30 14:18:45（北京时间）
+! Version: 2025-11-30 20:21:41（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16735
+! Total count: 16751
 # AdClose 专用广告规则
-# 生成时间: 2025-11-30 06:18:44（北京时间）
+# 生成时间: 2025-11-30 12:21:40（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -1331,6 +1331,7 @@ domain, ad.idgtn.net
 domain, ad.iloveinterracial.com
 domain, ad.infoseek.com
 domain, ad.intl.xiaomi.com
+domain, ad.iot.360.cn
 domain, ad.ipadview.com
 domain, ad.jamba.net
 domain, ad.jamster.co.uk
@@ -1348,6 +1349,7 @@ domain, ad.leadboltads.net
 domain, ad.leadboltapps.net
 domain, ad.leadboltmobile.net
 domain, ad.letmeads.com
+domain, ad.life.360.cn
 domain, ad.livere.co.kr
 domain, ad.lovefree.cc
 domain, ad.lqalm.com
@@ -1398,6 +1400,7 @@ domain, ad.search.ch
 domain, ad.seeyouyima.com
 domain, ad.sensismediasmart.com.au
 domain, ad.services.distractify.com
+domain, ad.shenshiads.com
 domain, ad.shunchangzhixing.com
 domain, ad.shuoshuomi.com
 domain, ad.sina.com.cn
@@ -2024,6 +2027,7 @@ domain, adukwai.com
 domain, adultfriendfinder.com
 domain, adups.com
 domain, aduu.cn
+domain, adv-api.shenshiads.com
 domain, adv-sv-show.focus.cn
 domain, adv-sv-stat.focus.cn
 domain, adv.app.qq.com
@@ -2366,6 +2370,7 @@ domain, analytics.google.com
 domain, analytics.libertymutual.com.edgekey.net
 domain, analytics.map.qq.com
 domain, analytics.meituan.net
+domain, analytics.oceanengine.com
 domain, analytics.pinterest.com
 domain, analytics.pointdrive.linkedin.com
 domain, analytics.query.yahoo.com
@@ -2444,7 +2449,9 @@ domain, api-access.pangolin-sdk-toutiao3.com
 domain, api-access.pangolin-sdk-toutiao4.com
 domain, api-access.pangolin-sdk-toutiao5.com
 domain, api-ad-adapter-sg.wps.com
+domain, api-ad-data.kajicam.com
 domain, api-ad-product.huxiu.com
+domain, api-ad.kajicam.com
 domain, api-adservices.apple.com
 domain, api-cloudfalcon.hismarttv.com
 domain, api-cn.open.heytapmobi.com
@@ -5775,6 +5782,7 @@ domain, en.shenyun.org
 domain, endowmentoverhangutmost.com
 domain, endpoint.zhuishushenqi.com
 domain, enennsa.gushiwen.cn
+domain, engine.dcad01.com
 domain, engine.lvehaisen.com
 domain, engine.tuia.cn
 domain, enhad.xyz
@@ -7388,6 +7396,7 @@ domain, iadctest.qwapi.com
 domain, iadfeed.iad.apple.com
 domain, iadmatapk.nosdn.127.net
 domain, iadmatvideo.nosdn.127.net
+domain, iadmusicmat.music.126.net
 domain, iadmusicmatvideo.music.126.net
 domain, iads.xinmin.cn
 domain, iadsdk.apple.com
@@ -9133,6 +9142,7 @@ domain, log.daqi.com
 domain, log.fc.yahoo.com
 domain, log.hunantv.com
 domain, log.iflytek.com
+domain, log.ireader.com
 domain, log.jd.com
 domain, log.kuwo.cn
 domain, log.m.sm.cn
@@ -9192,6 +9202,7 @@ domain, logonext.tv.kuyun.com
 domain, logos.kiwibrowser.com
 domain, logoshejishi.com
 domain, logrcv.aiclk.com
+domain, logrcv.yunxish.com
 domain, logs.amap.com
 domain, logs.chelaile.net.cn
 domain, logsdk.qq.com
@@ -9613,6 +9624,7 @@ domain, m.sanjiangge.com
 domain, m.sbenx.com
 domain, m.sbinx.com
 domain, m.sewxi.com
+domain, m.shenshiads.com
 domain, m.shenyunkeji.com
 domain, m.simba.taobao.com
 domain, m.sjaidu.com
@@ -12496,6 +12508,7 @@ domain, sadsaxd.nlkmp.com
 domain, safe-aisle.jointreport-switch.com
 domain, safe.tsgpay.cn
 domain, safebrowsing.apple
+domain, safebrowsing.urlsec.gg.com
 domain, saferwet.com
 domain, sahqoo.com
 domain, saitef.cn
@@ -13943,6 +13956,7 @@ domain, trace.qq.com
 domain, trace.seeyouyima.com
 domain, tracelog-debug.aiclk.com
 domain, tracelog-debug.qquanquan.com
+domain, tracelog-debug.yunxish.com
 domain, track-east.mobileadtrading.com
 domain, track.58.com
 domain, track.66mobi.com
@@ -15655,6 +15669,7 @@ domain, xco.qwxcs.com
 domain, xcvwrj.xyz
 domain, xcwl.tech
 domain, xcwzq.xyz
+domain, xcx.dcad01.com
 domain, xcy8.com
 domain, xcyjzs.net
 domain, xcyrc.com
@@ -16599,6 +16614,7 @@ domain, zjjbtl.com
 domain, zjjgtz.com
 domain, zjkssw.com
 domain, zjm.zzmmkj.com
+domain, zjres-ad.kajicam.com
 domain, zjthzf.xyz
 domain, zjzh2019.com
 domain, zkrdy.com

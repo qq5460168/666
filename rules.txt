@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-30 14:18:45（北京时间）
+! Version: 2025-11-30 20:21:41（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27559
+! Total count: 27576
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -11433,6 +11433,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ad.iloveinterracial.com^
 ||ad.infoseek.com^
 ||ad.intl.xiaomi.com^
+||ad.iot.360.cn^
 ||ad.ipadview.com^
 ||ad.jamba.net^
 ||ad.jamster.co.uk^
@@ -11450,6 +11451,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ad.leadboltapps.net^
 ||ad.leadboltmobile.net^
 ||ad.letmeads.com^
+||ad.life.360.cn^
 ||ad.livere.co.kr^
 ||ad.lovefree.cc^
 ||ad.lqalm.com^
@@ -11501,6 +11503,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ad.seeyouyima.com^
 ||ad.sensismediasmart.com.au^
 ||ad.services.distractify.com^
+||ad.shenshiads.com^
 ||ad.shunchangzhixing.com^
 ||ad.shuoshuomi.com^
 ||ad.sina.com.cn^
@@ -12162,6 +12165,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||adups.com^
 ||adutp.com^$third-party
 ||aduu.cn^
+||adv-api.shenshiads.com^
 ||adv-sv-show.focus.cn^
 ||adv-sv-stat.focus.cn^
 ||adv.app.qq.com^
@@ -12519,6 +12523,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||analytics.libertymutual.com.edgekey.net^
 ||analytics.map.qq.com^
 ||analytics.meituan.net^
+||analytics.oceanengine.com^
 ||analytics.pinterest.com^
 ||analytics.pointdrive.linkedin.com^
 ||analytics.query.yahoo.com^
@@ -12606,7 +12611,9 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||api-access.pangolin-sdk-toutiao4.com^
 ||api-access.pangolin-sdk-toutiao5.com^
 ||api-ad-adapter-sg.wps.com^
+||api-ad-data.kajicam.com^
 ||api-ad-product.huxiu.com^
+||api-ad.kajicam.com^
 ||api-adservices.apple.com^
 ||api-cloudfalcon.hismarttv.com^
 ||api-cn.open.heytapmobi.com^
@@ -16083,6 +16090,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||endowmentoverhangutmost.com^
 ||endpoint.zhuishushenqi.com^
 ||enennsa.gushiwen.cn^
+||engine.dcad01.com^
 ||engine.lvehaisen.com^
 ||engine.tuia.cn^
 ||enhad.xyz^
@@ -17763,6 +17771,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||iadfeed.iad.apple.com^
 ||iadmatapk.nosdn.127.net^
 ||iadmatvideo.nosdn.127.net^
+||iadmusicmat.music.126.net^
 ||iadmusicmatvideo.music.126.net^
 ||iads.xinmin.cn^
 ||iadsdk.apple.com^
@@ -19589,6 +19598,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||log.fc.yahoo.com^
 ||log.hunantv.com^
 ||log.iflytek.com^
+||log.ireader.com^
 ||log.jd.com^
 ||log.kuwo.cn^
 ||log.m.sm.cn^
@@ -19651,6 +19661,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||logos.kiwibrowser.com^
 ||logoshejishi.com^
 ||logrcv.aiclk.com^
+||logrcv.yunxish.com^
 ||logs.amap.com^
 ||logs.chelaile.net.cn^
 ||logsdk.qq.com^
@@ -20079,6 +20090,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||m.sbenx.com^
 ||m.sbinx.com^
 ||m.sewxi.com^
+||m.shenshiads.com^
 ||m.shenyunkeji.com^
 ||m.simba.taobao.com^
 ||m.sjaidu.com^
@@ -23131,6 +23143,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||safe-aisle.jointreport-switch.com^
 ||safe.tsgpay.cn^
 ||safebrowsing.apple^
+||safebrowsing.googleapis.com^
+||safebrowsing.urlsec.gg.com^
 ||saferwet.com^
 ||sahqoo.com^
 ||saitef.cn^
@@ -24648,6 +24662,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||trace.seeyouyima.com^
 ||tracelog-debug.aiclk.com^
 ||tracelog-debug.qquanquan.com^
+||tracelog-debug.yunxish.com^
 ||track-east.mobileadtrading.com^
 ||track.58.com^
 ||track.66mobi.com^
@@ -26440,6 +26455,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||xcvwrj.xyz^
 ||xcwl.tech^
 ||xcwzq.xyz^
+||xcx.dcad01.com^
 ||xcy8.com^
 ||xcyjzs.net^
 ||xcyrc.com^
@@ -27418,6 +27434,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||zjjgtz.com^
 ||zjkssw.com^
 ||zjm.zzmmkj.com^
+||zjres-ad.kajicam.com^
 ||zjthzf.xyz^
 ||zjzh2019.com^
 ||zkrdy.com^
