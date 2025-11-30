@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-11-30 09:04:37（北京时间）
+! Version: 2025-11-30 14:18:45（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27558
+! Total count: 27559
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -448,6 +448,7 @@
 0.0.0.0 access.inmobi.com
 0.0.0.0 access.open.uc.cn
 0.0.0.0 access.pangolin-sdk-toutiao-b.com
+0.0.0.0 access.pickpackapp.com  #pikpak中国IP不给用弹窗，副作用未知
 0.0.0.0 access1.tpns.tencent.com
 0.0.0.0 accessrequest.taboola.com
 0.0.0.0 account.tingyun.com
@@ -742,6 +743,7 @@
 0.0.0.0 admarket.21cn.com
 0.0.0.0 admarketing.yahoo.net
 0.0.0.0 admarvel.s3.amazonaws.com
+0.0.0.0 admaster-public.51downapp.cn
 0.0.0.0 admd.yam.com
 0.0.0.0 admgr.qingting.fm
 0.0.0.0 admicro1.vcmedia.vn
@@ -820,6 +822,7 @@
 0.0.0.0 ads.celtra.com
 0.0.0.0 ads.creative-serving.com
 0.0.0.0 ads.cup.com.cn
+0.0.0.0 ads.cxwlad.com  #畅行未来
 0.0.0.0 ads.data.pplive.com
 0.0.0.0 ads.eu.msn.com
 0.0.0.0 ads.fetnet.net
@@ -1544,6 +1547,7 @@
 0.0.0.0 appconf.mail.163.com  #网易邮箱大师更新。副作用：没有配置文件不能点击通知直达邮件，只能到主界面。
 0.0.0.0 appdownload.alicdn.com
 0.0.0.0 appdownload.xianyu.alibaba-inc.com
+0.0.0.0 appdownload.xianyu.alibaba-inc.com  #闲鱼更新？
 0.0.0.0 appdownload.youku.com
 0.0.0.0 appicsh.qq.com
 0.0.0.0 appinfo.adop.cc
@@ -1733,6 +1737,7 @@
 0.0.0.0 bdcmmov.a.etoote.com
 0.0.0.0 bdimg.share.baidu.com
 0.0.0.0 bdloc.qchannel03.cn
+0.0.0.0 bdlog.tanx.com
 0.0.0.0 bdmap1.ifeng.com  #网页信息流广告位+文字，显示的一片空白布局去不掉
 0.0.0.0 bdplus.baidu.com
 0.0.0.0 bds.snssdk.com
@@ -2466,7 +2471,6 @@
 0.0.0.0 dl2.bav.baidu.com
 0.0.0.0 dl_dir.qq.com
 0.0.0.0 dl_dir2.qq.com
-0.0.0.0 dldir1v6.qq.com
 0.0.0.0 dldir2.qq.com
 0.0.0.0 dldir4.qq.com
 0.0.0.0 dldir5.qq.com
@@ -2803,6 +2807,7 @@
 0.0.0.0 g.doubleclick.com
 0.0.0.0 g.doubleclick.net
 0.0.0.0 g.dtv.cn.miaozhen.com
+0.0.0.0 g.fancyapi.com
 0.0.0.0 g.jssdk.net
 0.0.0.0 g.koowo.com
 0.0.0.0 g.miaozhen.com
@@ -4560,7 +4565,6 @@
 0.0.0.0 prebid.adnxs.com
 0.0.0.0 preview-api.installer.xiaomi.com
 0.0.0.0 pro.bugly.qq.com
-0.0.0.0 pro.bugly.qq.com  #七猫用
 0.0.0.0 prod-a.applovin.com
 0.0.0.0 prod-ash-beacon-1960876484.us-east-1.elb.amazonaws.com
 0.0.0.0 prod-dem-collector-elb-611025824.eu-west-1.elb.amazonaws.com
@@ -5082,7 +5086,6 @@
 0.0.0.0 sdk-ab-config.aiclk.com
 0.0.0.0 sdk-ab-config.qquanquan.com
 0.0.0.0 sdk-api-v1.singular.net
-0.0.0.0 sdk-api.beizi.biz  #据说123云盘卡开屏？反正我测试都没卡过。
 0.0.0.0 sdk-cache.video.ptqy.gitv.tv
 0.0.0.0 sdk-conf.getui.com
 0.0.0.0 sdk-config.tanx.com
@@ -6302,7 +6305,6 @@
 0.0.0.0 wildcard-ads-448740142.us-west-2.elb.amazonaws.com
 0.0.0.0 wildcard-ads-new-1653986885.us-east-1.elb.amazonaws.com
 0.0.0.0 win.gdt.qq.com
-0.0.0.0 win.gdt.qq.com  #七猫用
 0.0.0.0 winnotice.inmobi.cn
 0.0.0.0 wisepush.video.baidu.com
 0.0.0.0 wit.qq.com
@@ -6664,7 +6666,6 @@
 185.199.110.133 objects.githubusercontent.com
 185.199.110.133 user-images.githubusercontent.com
 185.199.110.153 githubstatus.com
-185.199.110.153 lsposed.github.io
 185.199.110.153 topjohnwu.github.io
 185.199.110.154 docs.github.com
 185.199.110.154 github.githubassets.com  #网页排版
