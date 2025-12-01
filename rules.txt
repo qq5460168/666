@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-12-01 14:21:29（北京时间）
+! Version: 2025-12-01 20:26:05（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27578
+! Total count: 27582
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -16225,6 +16225,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||exp.qumi.com^
 ||expo123.net^
 ||ext-adv.kaixinyf.cn^
+||ext.baidu.com^
 ||ext.theglobalweb.com^
 ||extlog.snssdk.com
 ||extlog.snssdk.com^
@@ -17311,6 +17312,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||heavenmedia.v3g4s.com^
 ||hebstsmgs.com^
 ||hechaocheng.cn^
+||hectorstatic.baidu.com^
 ||heefwozhlxgz.com^
 ||hefan365.com^
 ||hefei64.com^
@@ -22984,6 +22986,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||s.abcache.com^
 ||s.amazon-adsystem.com^
 ||s.baidu.com^
+||s.bdstatic.com^
 ||s.bmgan.com^
 ||s.btime.com^
 ||s.caduka.cn^
@@ -23754,6 +23757,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||sp.xhqb.com^
 ||sp.xhqbapp.com^
 ||sp.yixui.com^
+||sp1.baidu.com^
 ||sp3.cndm.com^
 ||sp5vip.com/h.js
 ||spad.i-mobile.co.jp^
