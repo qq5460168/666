@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-12-03 20:25:58（北京时间）
+! Version: 2025-12-04 02:19:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16752
+! Total count: 16757
 # AdClose 专用广告规则
-# 生成时间: 2025-12-03 12:25:57（北京时间）
+# 生成时间: 2025-12-03 18:19:54（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -5910,6 +5910,9 @@ domain, exosrv.com
 domain, exp.17wo.cn
 domain, exp.3g.ifeng.com
 domain, exp.qumi.com
+domain, expendablekmr.kugou.com
+domain, expendablekmrcdn.kugou.com
+domain, expendablekmrcdnretry.kugou.com
 domain, expo123.net
 domain, ext-adv.kaixinyf.cn
 domain, ext.baidu.com
@@ -8645,6 +8648,8 @@ domain, kmpl.rnqxp.cn
 domain, kmpxq.cn
 domain, kmr.enrosr.cn
 domain, kmr.mjnbrt.xyz
+domain, kmr.service.kugou.com
+domain, kmrcdn.service.kugou.com
 domain, kmwatsonc.events.data.microsoft.com
 domain, kmwatsonc.telemetry.microsoft.com
 domain, kmwqxqh.com
