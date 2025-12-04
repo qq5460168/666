@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-12-04 20:27:03（北京时间）
+! Version: 2025-12-05 02:20:34（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27587
+! Total count: 27592
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -6784,6 +6784,7 @@
 @@googlesyndication.com$domain=bilinovel.com
 @@guokr.com/apis/flowingboard/item/guokrapp_download_source.json
 @@https://static.ws.126.net/163/frontend/libs/antanalysis.min.js
+@@|admin-oss-xlvip.a.88cdn.com^
 @@|wxpaylogo.qpic.cn^
 @@||*-cf.xvideos-cdn.com^
 @@||*-open-sign.byteimg.com^
@@ -7067,7 +7068,7 @@
 @@||avatar.csdnimg.cn^
 @@||avc.tapimg.com^
 @@||avgle.com^
-@@||award.xmcdn.com^$important
+@@||award.xmcdn.com^
 @@||aweme.snssdk.com^
 @@||awp-assets.meituan.net^
 @@||b.163.com^
@@ -7191,7 +7192,7 @@
 @@||cg.163.com^
 @@||changjiang.yuketang.cn^
 @@||channel.shouji.sogou.com^
-@@||channels.weixin.qq.com^$important
+@@||channels.weixin.qq.com^
 @@||chat.deepseek.com^
 @@||chrome-infra-packages.appspot.com^
 @@||ci.xiaohongshu.com^
@@ -7598,7 +7599,7 @@
 @@||gameimg.qidian.com^
 @@||games-community-gl.heytapmobile.com^
 @@||games.mobileapi.hupu.com^
-@@||gamezop.com^$important
+@@||gamezop.com^
 @@||gateway.kugou.com^
 @@||gcable.com.cn^
 @@||gdfp.gifshow.com^
@@ -8083,7 +8084,7 @@
 @@||m1.img.10010.com^
 @@||m1.pxb7.com^
 @@||m15.360buyimg.com^
-@@||m2.da.mgtv.com^$important
+@@||m2.da.mgtv.com^
 @@||m2.img.10010.com^
 @@||m7.music.126.net^
 @@||m7.pzds.com^
@@ -8709,7 +8710,7 @@
 @@||sofire.baidu.com^
 @@||sofire.bdstatic.com^
 @@||soft.360.cn^
-@@||soft.imtt.qq.com^$important
+@@||soft.imtt.qq.com^
 @@||soft.tbs.imtt.qq.com^
 @@||soup.v.qq.com^
 @@||sourl.cn^
@@ -9023,7 +9024,7 @@
 @@||verify.zijieapi.com^
 @@||vfiles.gtimg.cn^
 @@||via.placeholder.com^
-@@||video.da.mgtv.com^$important
+@@||video.da.mgtv.com^
 @@||video.goofish.com^
 @@||video.kts.g.mi.com^
 @@||video.twimg.com^
@@ -9047,7 +9048,7 @@
 @@||vodkgeyttp9.vod.126.net^
 @@||volcengine-cache-weboffice.wpscdn.cn^
 @@||volcengine-kdocs-cache.wpscdn.cn^
-@@||vpic.cms.qq.com^$important
+@@||vpic.cms.qq.com^
 @@||vps.uc.cn^
 @@||vscode.download.prss.microsoft.com^
 @@||vv.video.qq.com^
@@ -10011,6 +10012,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*pangolin*toutiao*.com^
 ||*pglstatp-toutiao.com^
 ||*snscosdownload*^
+||*stun.kugou.com^
 ||*tianmu.mobi^
 ||*umeng.com^
 ||*unityads.unity3d.com^
@@ -22179,6 +22181,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||pss.alicdn.com^
 ||pstatp.com/growth/fe_sdk/bannersdk
 ||pstatp.com/toutiao/push.js
+||pstun.kugou.com^
 ||pstvvb.xyz^
 ||ptauxofi.net^
 ||ptdrw.com^
@@ -24051,7 +24054,9 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||strip.alicdn.com^
 ||strip.taobaocdn.com^
 ||studylabs.cn^
+||stun.*.kugou.com^
 ||stun.hitv.com^
+||stun.kugou.com^
 ||stun.syncthing.net^
 ||stunthedge.com^
 ||style-browse-openapi.test.gifshow.com^
