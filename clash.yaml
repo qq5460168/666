@@ -1,9 +1,9 @@
 # Title: Clash Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-12-14 12:22:33（北京时间）
-# Clash规则数量: 16755
-! Total count: 16755
+# Last Updated: 2025-12-14 18:17:37（北京时间）
+# Clash规则数量: 16754
+! Total count: 16754
 rules:
   - DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
   - DOMAIN-SUFFIX,0.r.msn.com,REJECT
@@ -4694,7 +4694,6 @@ rules:
   - DOMAIN-SUFFIX,dailydeals.lubbockonline.com,REJECT
   - DOMAIN-SUFFIX,dailydeals.onlineathens.com,REJECT
   - DOMAIN-SUFFIX,dailydeals.savannahnow.com,REJECT
-  - DOMAIN-SUFFIX,dailygn.com,REJECT
   - DOMAIN-SUFFIX,dailylog.storm.baofeng.com,REJECT
   - DOMAIN-SUFFIX,dailyvideo.securejoin.com,REJECT
   - DOMAIN-SUFFIX,daima.23yy.com,REJECT
