@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-12-16 20:27:22（北京时间）
+! Version: 2025-12-17 02:20:07（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27598
+! Total count: 27599
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -11344,6 +11344,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ad-test6.sm.cn^
 ||ad-trace.lenovomm.com^
 ||ad-union-e.ssread.cn^
+||ad.*.360.cn^
 ||ad.10010.com^
 ||ad.1111cpc.com^
 ||ad.12306.cn^

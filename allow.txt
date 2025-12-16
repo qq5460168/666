@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-12-16 20:27:22（北京时间）
+! Version: 2025-12-17 02:20:07（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3117
+! Total count: 3131
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -434,11 +434,15 @@
 @@||apple-cloudkit.com^$important
 @@||apple-livephotoskit.com^$important
 @@||apple-mapkit.com^$important
+@@||apple-relay.apple.com^$important
+@@||apple-relay.cloudflare.com^$important
+@@||apple-relay.fastly-edge.com^$important
 @@||appleid.apple.com^$important
 @@||appleid.cdn-apple.com^$important
 @@||applog.lc.quark.cn^
 @@||applog.lc.quark.cn^$important
 @@||appmsg.gzmtr.cn^
+@@||apps-marketplace.apple.com^$important
 @@||apps.apple.com^$important
 @@||apps.game.qq.com^
 @@||apps.identrust.com^$important
@@ -486,6 +490,7 @@
 @@||axm-adm-mdm.apple.com^$important
 @@||axm-adm-scep.apple.com^$important
 @@||axm-app.apple.com^$important
+@@||axm-servicediscovery.apple.com^$important
 @@||b.163.com^
 @@||b.bdstatic.com^
 @@||backupapi.lkong.com^$important
@@ -773,6 +778,7 @@
 @@||count.mail.163.com^
 @@||counter-strike.net^
 @@||cp2-cdn-play.funshion.com^
+@@||cp4.cloudflare.com^$important
 @@||cps.kaola.com^
 @@||cpu.baidu.com^
 @@||cpucdn.baidu.com^
@@ -892,6 +898,7 @@
 @@||docs.idqqimg.com^
 @@||docs.live.net^$important
 @@||docs.microsoft.com^$important
+@@||doh.dns.apple.com^$important
 @@||domains-ws.revved.com^
 @@||dorado.xiaojukeji.com^
 @@||doris.yidianzixun.com^
@@ -1040,6 +1047,7 @@
 @@||fc5tn.baidu.com^
 @@||fcbox.cfcom^
 @@||fcount-api.webapp.163.com^
+@@||fcs-keys-pub-prod.cdn-apple.com^$important
 @@||fdfs.xmcdn.com^
 @@||fe-static.xhscdn.com^
 @@||fe-video-qc.xhscdn.com^
@@ -1118,10 +1126,12 @@
 @@||games-community-gl.heytapmobile.com^
 @@||games.mobileapi.hupu.com^
 @@||gamezop.com^
+@@||gateway.icloud.com^$important
 @@||gateway.kugou.com^
 @@||gc.apple.com^$important
 @@||gcable.com.cn^
 @@||gdfp.gifshow.com^
+@@||gdmf-ados.apple.com^$important
 @@||gdmf.apple.com^$important
 @@||gdown.baidu.com^
 @@||gdtimg.com^
@@ -1169,6 +1179,7 @@
 @@||gsp0.baidu.com^
 @@||gsp1.baidu.com^
 @@||gspe*.apple.com*^
+@@||gsra.apple.com^$important
 @@||gstatic.com^
 @@||gtimg.wechatpay.cn^
 @@||gtms03.alicdn.com^
@@ -1299,9 +1310,10 @@
 @@||id6.me^
 @@||id6.me^$important
 @@||identity.apple.com^$important
-@@||identity.ess.apple.com^$important
 @@||idmb.register.xmpush.global.xiaomi.com^
 @@||idmsa.apple.com^$important
+@@||idv-prod1.apple.com^$important
+@@||idv.cdn-apple.com^$important
 @@||ietheivaicai.com^
 @@||iface2.iqiyi.com^
 @@||ifdian.net^
@@ -1409,6 +1421,7 @@
 @@||ip6.ssl.msdk.qq.com^
 @@||ipassport.ele.me^
 @@||ipassport.ele.me^$important
+@@||iphonesubmissions.apple.com^$important
 @@||ipolyfill-origin.bytedance.com^
 @@||iprofiles.apple.com^$important
 @@||iptn.m3pd.com^
@@ -1879,7 +1892,6 @@
 @@||npm.cdn-go.cn^
 @@||npm.elemecdn.com^
 @@||nps.onyx.azure.net^$important
-@@||ns.itunes.apple.com^$important
 @@||nsclick.baidu.com^
 @@||nstool.netease.com^
 @@||o.actio.systems^
@@ -2080,7 +2092,6 @@
 @@||pg-bootstrap.itunes.apple.com^$important
 @@||pgdt.gtimg.cn^
 @@||phonecallapi.micloud.xiaomi.net^
-@@||phonesubmissions.apple.com^$important
 @@||photocdn.tv.sohu.com^
 @@||pic*.40017.cn^
 @@||pic*.iqiyipic.com^
@@ -2379,6 +2390,7 @@
 @@||smarthome-drcn.dbankcdn.com^
 @@||smartrobot-drcn.dbankcdn.com^
 @@||smoot.apple.com^$important
+@@||smp-device-content.apple.com^$important
 @@||smsks1.cmpassport.com^
 @@||smtp.office365.com^$important
 @@||snowflake.qq.com^
@@ -2603,6 +2615,7 @@
 @@||tnc16-platform-useast1a.tiktokv.com^
 @@||tnc3-aliec2.snssdk.com^
 @@||tnc3-bjlgy.zijieapi.com^
+@@||token.safebrowsing.apple.com^$important
 @@||tom.163.com^
 @@||tongji.flash.cn^
 @@||tool.lu^
@@ -2835,6 +2848,7 @@
 @@||wiki.ad-gone.com^
 @@||wiki.biligame.com^
 @@||wk.idey.cn^
+@@||wkms-public.apple.com^$important
 @@||wl.jd.com^
 @@||wm.makeding.com^
 @@||wmapi-mt.meituan.com^
