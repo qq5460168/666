@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-12-19 06:20:13（北京时间）
-# Quantumult X规则数量: 16757
-# ! Total count: 16757
+# Last Updated: 2025-12-19 12:25:22（北京时间）
+# Quantumult X规则数量: 16762
+# ! Total count: 16762
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -64,6 +64,7 @@ HOST-SUFFIX,085cczz.com,REJECT
 HOST-SUFFIX,087tqb.cn,REJECT
 HOST-SUFFIX,08de583.p0nkhy03m.top,REJECT
 HOST-SUFFIX,093yuht.com,REJECT
+HOST-SUFFIX,094kk.com,REJECT
 HOST-SUFFIX,096iokj.com,REJECT
 HOST-SUFFIX,09_19.supfree.net,REJECT
 HOST-SUFFIX,09jsufg.com,REJECT
@@ -6058,6 +6059,7 @@ HOST-SUFFIX,fe1-au.imrworldwide.com,REJECT
 HOST-SUFFIX,fe2-au.imrworldwide.com,REJECT
 HOST-SUFFIX,fe3-au.imrworldwide.com,REJECT
 HOST-SUFFIX,feanalysisprod.xinfei.cn,REJECT
+HOST-SUFFIX,fedoq.com,REJECT
 HOST-SUFFIX,feed.baidu.com,REJECT
 HOST-SUFFIX,feed.theta.sogou.com,REJECT
 HOST-SUFFIX,feedback-c.zijieapi.com,REJECT
@@ -8159,6 +8161,7 @@ HOST-SUFFIX,jlssbz.com,REJECT
 HOST-SUFFIX,jmbluyxkl.xyz,REJECT
 HOST-SUFFIX,jmesxbe.icu,REJECT
 HOST-SUFFIX,jmonitor.jiuzhilan.com,REJECT
+HOST-SUFFIX,jmosl.com,REJECT
 HOST-SUFFIX,jmr.nnxiant.cn,REJECT
 HOST-SUFFIX,jmsyzj.com,REJECT
 HOST-SUFFIX,jmxlaser.com,REJECT
@@ -10679,6 +10682,7 @@ HOST-SUFFIX,nrjzkj.cn,REJECT
 HOST-SUFFIX,nryiou.cn,REJECT
 HOST-SUFFIX,nryqr.cn,REJECT
 HOST-SUFFIX,ns01.fyi,REJECT
+HOST-SUFFIX,nsb42.com,REJECT
 HOST-SUFFIX,nsclickvideo.baidu.com,REJECT
 HOST-SUFFIX,nshvhfw.cn,REJECT
 HOST-SUFFIX,nsnmiaomu.cn,REJECT
@@ -16225,6 +16229,7 @@ HOST-SUFFIX,ynmbz.com,REJECT
 HOST-SUFFIX,ynslvyou.com,REJECT
 HOST-SUFFIX,yoda.kwd.inkuai.com,REJECT
 HOST-SUFFIX,yofprpv.cn,REJECT
+HOST-SUFFIX,yohle.com,REJECT
 HOST-SUFFIX,yongkang6.com,REJECT
 HOST-SUFFIX,yongv.com,REJECT
 HOST-SUFFIX,yonsandileer.com,REJECT
