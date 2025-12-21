@@ -2,48 +2,10 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-12-21 14:24:05（北京时间）
+! Version: 2025-12-21 20:23:02（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27647
+! Total count: 27607
 
-         Please wait a few minutes before you try again;<br>
-         in some cases this may take up to an hour.
-        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
-        <a href="https://support.github.com">Contact Support</a> &mdash;
-        <a href="https://twitter.com/githubstatus">@githubstatus</a>
-        background-color: #f6f8fa;
-        color: #666666;
-        color: rgba(0, 0, 0, 0.5);
-        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
-        font-size: 14px;
-        font-weight: 200;
-        line-height: 1.5;
-        margin: 0 10px;
-      #s a {
-      #s { margin-top: 35px; }
-      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
-      </div>
-      </p>
-      <div id="s">
-      <h1>Access has been restricted</h1>
-      <p>You have triggered a rate limit.<br><br>
-      a { text-decoration: none; }
-      a:hover { text-decoration: underline; }
-      body {
-      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
-      p { margin: 20px 0 40px; }
-      }
-    </div>
-    </style>
-    <div class="c">
-    <meta content="origin" name="referrer">
-    <meta name="viewport" content="width=device-width">
-    <style type="text/css" media="screen">
-    <title>Rate limit &middot; GitHub</title>
-  </body>
-  </head>
-  <body>
-  <head>
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
 *-ad.wtzw.com*
@@ -6814,8 +6776,6 @@
 :8008/*/*?is_not=
 :8891/v*$third-party
 ::1 ip6-localhost
-</html>
-<html>
 ?adspot_
 ?local_ga_js=
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
