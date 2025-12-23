@@ -1,9 +1,9 @@
 # Title: SingBox SRS Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2025-12-23 06:27:28（北京时间）
-# Singbox规则数量: 16762
-! Total count: 16762
+# Last Updated: 2025-12-23 12:26:17（北京时间）
+# Singbox规则数量: 16764
+! Total count: 16764
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -9933,6 +9933,7 @@ DOMAIN-SUFFIX,mediamgr.ugo.com,REJECT
 DOMAIN-SUFFIX,mediaplex.com,REJECT
 DOMAIN-SUFFIX,mediapro.pro.cn,REJECT
 DOMAIN-SUFFIX,mediav.com,REJECT
+DOMAIN-SUFFIX,medproad.com,REJECT
 DOMAIN-SUFFIX,medrx.telstra.com.au,REJECT
 DOMAIN-SUFFIX,meethanshi.com,REJECT
 DOMAIN-SUFFIX,meetrics.com,REJECT
@@ -13515,6 +13516,7 @@ DOMAIN-SUFFIX,szxc868.com,REJECT
 DOMAIN-SUFFIX,szxpsg.com,REJECT
 DOMAIN-SUFFIX,szyr474.com,REJECT
 DOMAIN-SUFFIX,t-ads.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,t-adx.52qumao.com,REJECT
 DOMAIN-SUFFIX,t-dsp.pinduoduo.com,REJECT
 DOMAIN-SUFFIX,t-e.flyme.cn,REJECT
 DOMAIN-SUFFIX,t-flow.flyme.cn,REJECT
