@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-12-26 14:20:46（北京时间）
+! Version: 2025-12-26 20:25:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16768
+! Total count: 16770
 # AdClose 专用广告规则
-# 生成时间: 2025-12-26 06:20:45（北京时间）
+# 生成时间: 2025-12-26 12:25:11（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -1398,6 +1398,7 @@ domain, ad.reachlocal.com
 domain, ad.rednet.cn
 domain, ad.reklamport.com
 domain, ad.richmob.cn
+domain, ad.scdn.io
 domain, ad.search.ch
 domain, ad.seeyouyima.com
 domain, ad.sensismediasmart.com.au
@@ -3223,7 +3224,6 @@ domain, bduserlog.eastmoney.com
 domain, bdxiguaimg.com
 domain, bdyingxiaocms.cdn.bcebos.com
 domain, bea-s.dinghuoche.com
-domain, beacon-api.aliyuncs.com
 domain, beacon-us-sjc1.rubiconproject.com
 domain, beacon.gtimg.com
 domain, beacon.krxd.net
@@ -4942,6 +4942,7 @@ domain, dfgwer.com
 domain, dfgymtx.icu
 domain, dfjd.xyz
 domain, dfkd.xyz
+domain, dfsj8050.ahyyxpk.com
 domain, dfstt5031.ayhnb.cn
 domain, dfsvhv88.com
 domain, dfx.shhuixiangwuliu.com
@@ -15399,6 +15400,7 @@ domain, www.ceseasons.com
 domain, www.claiks.com
 domain, www.dahe6f.com
 domain, www.dayangfa.com
+domain, www.dbhsgxh.com
 domain, www.deifei.com
 domain, www.dgtauto.com
 domain, www.diyuxa.com

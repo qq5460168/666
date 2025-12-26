@@ -2,15 +2,15 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-12-26 14:20:46（北京时间）
+! Version: 2025-12-26 20:25:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16771
+! Total count: 16773
 [Adblock Plus 2.0]
 ! Title: 酷安广告规则
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Last Updated: 2025-12-26 06:20:45（北京时间）
-! Total Count: 16764
+! Last Updated: 2025-12-26 12:25:11（北京时间）
+! Total Count: 16766
 ||-normal-lq.zijieapi.com^
 ||0.r.msn.com^
 ||000123456789.online^
@@ -1401,6 +1401,7 @@
 ||ad.rednet.cn^
 ||ad.reklamport.com^
 ||ad.richmob.cn^
+||ad.scdn.io^
 ||ad.search.ch^
 ||ad.seeyouyima.com^
 ||ad.sensismediasmart.com.au^
@@ -3226,7 +3227,6 @@
 ||bdxiguaimg.com^
 ||bdyingxiaocms.cdn.bcebos.com^
 ||bea-s.dinghuoche.com^
-||beacon-api.aliyuncs.com^
 ||beacon-us-sjc1.rubiconproject.com^
 ||beacon.gtimg.com^
 ||beacon.krxd.net^
@@ -4945,6 +4945,7 @@
 ||dfgymtx.icu^
 ||dfjd.xyz^
 ||dfkd.xyz^
+||dfsj8050.ahyyxpk.com^
 ||dfstt5031.ayhnb.cn^
 ||dfsvhv88.com^
 ||dfx.shhuixiangwuliu.com^
@@ -15402,6 +15403,7 @@
 ||www.claiks.com^
 ||www.dahe6f.com^
 ||www.dayangfa.com^
+||www.dbhsgxh.com^
 ||www.deifei.com^
 ||www.dgtauto.com^
 ||www.diyuxa.com^

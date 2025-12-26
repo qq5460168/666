@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-12-26 14:20:46（北京时间）
+! Version: 2025-12-26 20:25:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27609
+! Total count: 27674
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -6789,11 +6789,11 @@
 @@||*-cf.xvideos-cdn.com^
 @@||*-open-sign.byteimg.com^
 @@||*-open.byteimg.com^
+@@||*.*.szbdyd.com^
 @@||*.a.yximgs.com^
 @@||*.akamai-cdn-content.com^
 @@||*.alipay.com^
 @@||*.allawntech.com^
-@@||*.anjuke.com$important
 @@||*.anjuke.com^
 @@||*.bblmw.cn^
 @@||*.cdninstagram.com^
@@ -6805,6 +6805,9 @@
 @@||*.lol.qq.com^
 @@||*.market.mi-img.com^
 @@||*.market.xiaomi.com^
+@@||*.mcdn.bilivideo.cn^
+@@||*.mcdn.bilivideo.com^
+@@||*.mcdn.bilivideo.net^
 @@||*.mi-img.com^
 @@||*.micloud.xiaomi.net^
 @@||*.music.126.net^
@@ -6843,7 +6846,6 @@
 @@||7x24s.com^
 @@||91haoka.cn^
 @@||96956.com.cn^
-@@||Linux.do^
 @@||a.9game.cn^
 @@||a.game.163.com^
 @@||a.video.qq.com^
@@ -6866,10 +6868,12 @@
 @@||account.xfinfr.com^
 @@||accountapi.dianping.com^
 @@||accscdn.m.taobao.com^
+@@||accscdn4public.m.taobao.com^
 @@||acg02.cc^
 @@||acs.m.taobao.com^
 @@||acs.youku.com^
 @@||acs4baichuan.m.taobao.com^
+@@||acs4public.m.taobao.com^
 @@||acstatic-dun.126.net^
 @@||act-webstatic.hoyoverse.com^
 @@||act.hoyoverse.com^
@@ -6912,6 +6916,8 @@
 @@||ali2.a.yximgs.com^
 @@||alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com^
 @@||alissl.ucdl.pp.uc.cn^
+@@||alist.wavee.cn^
+@@||alistgo.com^
 @@||aliyuncs.com/*.png
 @@||alps.51y5.net^
 @@||als.baidu.com^
@@ -6962,6 +6968,7 @@
 @@||api.developer.xiaomi.com^
 @@||api.device.xiaomi.net^
 @@||api.ds.163.com^
+@@||api.extscreen.com^
 @@||api.flash.cn^
 @@||api.huangye.miui.com^
 @@||api.io.mi.com^
@@ -7044,12 +7051,14 @@
 @@||aps.amap.com^
 @@||aq.qq.com^
 @@||archive.biliimg.com^
+@@||arenascan.com^
 @@||article.zlink.toutiao.com^
 @@||as.weixin.qq.com^
 @@||ascdn.baidu.com^
 @@||assets-www.xbox.com^
 @@||assets.cnblogs.com^
 @@||assets.giocdn.com^
+@@||assets.liuyun.io^
 @@||assets.msn.cn^
 @@||assets.msn.com^
 @@||assets.oneweb.mercedes-benz.com^
@@ -7067,6 +7076,7 @@
 @@||avatar.bdstatic.com^
 @@||avatar.coolapk.com^
 @@||avatar.csdnimg.cn^
+@@||avatar.erome.com^
 @@||avc.tapimg.com^
 @@||avgle.com^
 @@||award.xmcdn.com^
@@ -7074,6 +7084,8 @@
 @@||awp-assets.meituan.net^
 @@||b.163.com^
 @@||b.bdstatic.com^
+@@||b3log.org^
+@@||b3logfile.com^
 @@||bad.news^
 @@||baijiahao.baidu.com^
 @@||baike.baidu.com^
@@ -7082,10 +7094,12 @@
 @@||baixing.com^
 @@||bbs-static.miyoushe.com^
 @@||bbs.mobileapi.hupu.com^
+@@||bbs.tampermonkey.net.cn^
 @@||bce.baidu.com^
 @@||bcelive.com^
 @@||bdsmtest.org^
 @@||bdsmtv.cc^
+@@||beacon-api.aliyuncs.com^
 @@||beian.miit.gov.cn^
 @@||bgp.video-upload-v*.lf.bytelb.net^
 @@||bidobido.xyz^
@@ -7169,6 +7183,7 @@
 @@||cdn.iocdn.cc^
 @@||cdn.jsdelivr.net^
 @@||cdn.pinduoduo.com^
+@@||cdn.ping0.cc^
 @@||cdn.plyr.io^
 @@||cdn.staticfile.org^
 @@||cdn.tiantiantiaosheng.com^
@@ -7270,6 +7285,7 @@
 @@||cloudcontrol.live.360.cn^
 @@||cloudflare-dns.com^
 @@||cloudflare.com/cdn-cgi/trace$domain=net.ljxnet.cn
+@@||cloudpush.aliyuncs.com^
 @@||cm-10-*.getui.com^
 @@||cm-h.phncdn.com^
 @@||cm.bilibili.com^
@@ -7277,6 +7293,8 @@
 @@||cms-bucket.ws.126.net^
 @@||cmshow.qq.com^
 @@||cmts.iqiyi.com^
+@@||cn-*.bilivideo.cn^
+@@||cn-*.bilivideo.com^
 @@||cn-cd-dx-2.natfrp.cloud^
 @@||cn.app.chat.xiaomi.net^
 @@||cn.bing.com^
@@ -7289,6 +7307,8 @@
 @@||cnlogin.cainiao.com^
 @@||cnnic.net.cn^
 @@||collect.hupu.com^
+@@||comate-ide.cdn.bcebos.com^
+@@||comate.baidu.com^
 @@||commimg.pddpic.com^
 @@||common.jbzj.com^
 @@||community.akamai.steamstatic.com^
@@ -7369,6 +7389,7 @@
 @@||dev.miuiflash.com^
 @@||develope-oss.lanzoug.com^
 @@||developer.apple.com$generichide
+@@||developer.extscreen.com^
 @@||devuploads.com^
 @@||dfcfw.com^
 @@||dftoutiao.com^
@@ -7388,6 +7409,7 @@
 @@||dl.360safe.com^
 @@||dl.delivery.mp.microsoft.com^
 @@||dl.hdslb.com^
+@@||dl.listary.net^
 @@||dl.reg.163.com^
 @@||dldir1.qq.com^
 @@||dldir1v6.qq.com^
@@ -7400,10 +7422,13 @@
 @@||dns-family.adguard.com^
 @@||dns.adguard.com^
 @@||dns.icoa.cn^
+@@||doc.oplist.org.cn^
+@@||doc.oplist.org^
 @@||dockerstatic.com^
 @@||docrdsfx76ssb.cloudfront.net^
 @@||docs.doudou.fun^
 @@||docs.idqqimg.com^
+@@||docs.scriptcat.org^
 @@||domains-ws.revved.com^
 @@||dorado.xiaojukeji.com^
 @@||doris.yidianzixun.com^
@@ -7481,6 +7506,7 @@
 @@||ei.phncdn.com^
 @@||em-h.phncdn.com^
 @@||em.phncdn.com^
+@@||emas-link-service.aliyuncs.com^
 @@||embedwish.com^
 @@||emoji.bj.bcebos.com^
 @@||emoji.qpic.cn^
@@ -7862,6 +7888,7 @@
 @@||ipolyfill-origin.bytedance.com^
 @@||iptn.m3pd.com^
 @@||ipv4dns.com^
+@@||ipv6.ping0.cc^
 @@||ipw.cn^
 @@||ipxx.pro^
 @@||is-hl.snssdk.com^
@@ -7890,6 +7917,7 @@
 @@||jikipedia.com^
 @@||jimdo.com^
 @@||jingfen.jd.com^
+@@||jmacs.cn-zhangjiakou.aliyuncs.com^
 @@||jnn-pa.googleapis.com^
 @@||jobs.bytedance.com^
 @@||jomodns.com^
@@ -7937,6 +7965,8 @@
 @@||laowang.vip^
 @@||laowangappb93ibiu.cihiu487giuew87lk.xyz^
 @@||lc-cn-n1-shared.com^
+@@||ld246.com^
+@@||learn.scriptcat.org^
 @@||leihuo.163.com^
 @@||lens.zhihu.com^
 @@||lequ-qfe.iqiyi.com^
@@ -7995,6 +8025,8 @@
 @@||line3-h5-pc-api.biligame.com^
 @@||line3-statics-h5-mobile-api.biligame.net^
 @@||link.zhihu.com^
+@@||linux.do^
+@@||liuyun.io^
 @@||live*.static.yximgs.com^
 @@||live-trace.bilibili.com^
 @@||live.douyin.com^
@@ -8230,6 +8262,7 @@
 @@||msedown.360safe.com^
 @@||msg.douyu.com^
 @@||msg.video.qiyi.com^
+@@||msgacs.cn-zhangjiakou.aliyuncs.com^
 @@||msn.yidianzixun.com^
 @@||mss0.bdstatic.com^
 @@||mssdk3-normal-lf.zijieapi.com^
@@ -8281,6 +8314,7 @@
 @@||north-plus.net^
 @@||novelfm.changdunovel.com^
 @@||novelfm.zlink.toutiao.com^
+@@||now.bdstatic.com^
 @@||npm.cdn-go.cn^
 @@||npm.elemecdn.com^
 @@||nsclick.baidu.com^
@@ -8307,6 +8341,7 @@
 @@||orbit.jd.com^
 @@||osp.meituan.net^
 @@||oss-asq-static.11222.cn^
+@@||oss.b3logfile.com^
 @@||ossapi.baidu.com^
 @@||ossp.voicecloud.cn^
 @@||otheve.beacon.qq.com^
@@ -8512,6 +8547,7 @@
 @@||prod-chat-kimi-tos.moonshot.cn^
 @@||profile-avatar.csdnimg.cn^
 @@||profile.csdnimg.cn^
+@@||proxy-tf-all-ws.bilivideo.com^
 @@||pss.bdstatic.com^
 @@||psstatic.cdn.bcebos.com^
 @@||ptlogin.yuewen.com^
@@ -8588,6 +8624,7 @@
 @@||register.xmpush.global.xiaomi.com^
 @@||register.xmpush.xiaomi.com^
 @@||registry.npmmirror.com^
+@@||release.liuyun.io^
 @@||report.passport.360.cn^
 @@||report.taptapdada.com^
 @@||res-r.qingjiaota.com^
@@ -8596,6 +8633,8 @@
 @@||res.imtt.qq.com^
 @@||res.mall.10010.cn^
 @@||res.mi.baidu.com^
+@@||res.oplist.org.cn^
+@@||res.oplist.org^
 @@||res.qiyukf.net^
 @@||res.vmallres.com^
 @@||resfile.lixincsb.com^
@@ -8610,6 +8649,7 @@
 @@||rs.xmeye.net^
 @@||ru.register.xmpush.global.xiaomi.com^
 @@||rule.tencent.com^
+@@||s*.erome.com^
 @@||s*.ssl.qhimg.com^
 @@||s*.ssl.qhmsg.com^
 @@||s*.ssl.qhres2.com^
@@ -8647,6 +8687,7 @@
 @@||sbfast.com^
 @@||sbfull.com^
 @@||scan.call.f.360.cn^
+@@||scriptcat.org^
 @@||scs.openspeech.cn^
 @@||sd.360.cn^
 @@||sdk-api.beizi.biz^
@@ -8695,6 +8736,7 @@
 @@||sina.com.cn^
 @@||site.tiantiantiaosheng.com^
 @@||siwazywcdn2.com^
+@@||siyuannote.com^
 @@||sjh.baidu.com^
 @@||sjws.ssl.qihucdn.com^
 @@||sl.hpplay.cn^
@@ -8973,6 +9015,9 @@
 @@||upload.x.com^
 @@||uploadrar.com^
 @@||uploadstatic.mihoyo.com^
+@@||upos-*-estg*.bilivideo.com^
+@@||upos-*-mirror*.akamaized.net^
+@@||upos-*-mirror*.bilivideo.com^
 @@||upos-sz-*.bilivideo.com^
 @@||uri6.com^
 @@||url.163.com^
@@ -8983,6 +9028,7 @@
 @@||v*-dc-ad.ixigua.com^
 @@||v*-fq-tts.fqnovelvod.com^
 @@||v*.douyinvod.com^
+@@||v*.erome.com^
 @@||v*.kwaicdn.com^
 @@||v.douyin.com^
 @@||v.gdt.qq.com^
@@ -9082,12 +9128,14 @@
 @@||webcast.amemv.com^
 @@||webfiles.gamebanana.com^
 @@||webstatic.hoyoverse.com^
+@@||webtoonscan.com^
 @@||webtor.io^
 @@||webzjcaptcha.reg.163.com^
 @@||weibo.com^
 @@||weidian.com^
 @@||weishi.360.cn^
 @@||weixin.qq.com^
+@@||wg.wavee.cn^
 @@||wgo.mmstat.com^
 @@||white-plus.net^
 @@||whois.cloud.tencent.com^
@@ -9171,6 +9219,8 @@
 @@||www.enigmaprotector.com^
 @@||www.epicgames.com^
 @@||www.ero-labs.com^
+@@||www.erome.com^
+@@||www.extscreen.com^
 @@||www.ferrari.com^
 @@||www.ghproxy.cn^
 @@||www.gitbook.com^
@@ -9201,6 +9251,8 @@
 @@||www.kuaishou.com^
 @@||www.lamborghini.com^
 @@||www.lianjia.com^
+@@||www.listary.com^
+@@||www.listary.net^
 @@||www.lsds.cn^
 @@||www.maimemo.com^
 @@||www.mairuan.com^
@@ -9222,12 +9274,15 @@
 @@||www.npmjs.com^
 @@||www.ntdtv.com^
 @@||www.nuomiphp.com^
+@@||www.oplist.org.cn^
+@@||www.oplist.org^
 @@||www.oreans.com^
 @@||www.patreon.com^
 @@||www.paypal.com^
 @@||www.paypalobjects.com^
 @@||www.pconline.com.cn^
 @@||www.pinduoduo.com^
+@@||www.ping0.cc^
 @@||www.porn5f.com^
 @@||www.pornhub.com^
 @@||www.pornlulu.com^
@@ -9239,6 +9294,7 @@
 @@||www.qdmm.com^
 @@||www.qidian.com^
 @@||www.recaptcha.net^
+@@||www.siyuan-note.club^
 @@||www.so.com^
 @@||www.spaceship.com^
 @@||www.sygjx.com^
@@ -9335,6 +9391,7 @@
 @@||yunjiasu.com^
 @@||yybadaccess.3g.qq.com^
 @@||yys.163.com^
+@@||yzg.wavee.cn^
 @@||z.weixin.qq.com^
 @@||zazhipu.com^
 @@||zconfig.alibabausercontent.com^
@@ -9813,6 +9870,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.8vx3zks.xyz^
 ||*.9tjoj6.com^
 ||*.a48962121.top^
+||*.acdnrvh.com^
 ||*.ads.heytapmobi.com^
 ||*.ads.huawei.com.au^
 ||*.ads.huawei.com^
@@ -9873,10 +9931,13 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.jjoiw4.com^
 ||*.jjzemoc3ca.top^
 ||*.jqnljze.xyz^
+||*.jtkkkxy.com^
 ||*.juicyads.me^
 ||*.jvere.xyz^
 ||*.jwcnmta.top^
+||*.jyzkhdq.com^
 ||*.kbddftp.cn^
+||*.khmhvlw.com^
 ||*.kweisid.top^
 ||*.kwilmid.top^
 ||*.kxayxw.cn^
@@ -9907,6 +9968,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.p2p.huya.com^
 ||*.p3q0tt.com^
 ||*.phire.cn^
+||*.pioeaig.com^
 ||*.pl1n06.com^
 ||*.pnwix.cn^
 ||*.poeme.cn^
@@ -11513,6 +11575,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ad.rednet.cn^
 ||ad.reklamport.com^
 ||ad.richmob.cn^
+||ad.scdn.io^
 ||ad.search.ch^
 ||ad.seeyouyima.com^
 ||ad.sensismediasmart.com.au^
@@ -15226,6 +15289,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dfgymtx.icu^
 ||dfjd.xyz^
 ||dfkd.xyz^
+||dfsj8050.ahyyxpk.com^
 ||dfstt5031.ayhnb.cn^
 ||dfsvhv88.com^
 ||dfx.shhuixiangwuliu.com^
@@ -26186,6 +26250,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||www.claiks.com^
 ||www.dahe6f.com^
 ||www.dayangfa.com^
+||www.dbhsgxh.com^
 ||www.deifei.com^
 ||www.dgtauto.com^
 ||www.diyuxa.com^

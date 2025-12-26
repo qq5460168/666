@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-12-26 14:20:46（北京时间）
+! Version: 2025-12-26 20:25:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2495
+! Total count: 2542
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2025-12-26 14:20:46（北京时间）
-# 总域名数: 2489
+# 生成时间: 2025-12-26 20:25:11（北京时间）
+# 总域名数: 2536
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -60,10 +60,12 @@ account.wps.cn
 account.xfinfr.com
 accountapi.dianping.com
 accscdn.m.taobao.com
+accscdn4public.m.taobao.com
 acg02.cc
 acs.m.taobao.com
 acs.youku.com
 acs4baichuan.m.taobao.com
+acs4public.m.taobao.com
 acstatic-dun.126.net
 act-webstatic.hoyoverse.com
 act.hoyoverse.com
@@ -107,6 +109,8 @@ ali2.a.kwimgs.com
 ali2.a.yximgs.com
 alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com
 alissl.ucdl.pp.uc.cn
+alist.wavee.cn
+alistgo.com
 alps.51y5.net
 als.baidu.com
 amdc.m.taobao.com
@@ -157,6 +161,7 @@ api.crashguard.me
 api.developer.xiaomi.com
 api.device.xiaomi.net
 api.ds.163.com
+api.extscreen.com
 api.flash.cn
 api.huangye.miui.com
 api.io.mi.com
@@ -241,12 +246,14 @@ appsupport.qq.com
 aps.amap.com
 aq.qq.com
 archive.biliimg.com
+arenascan.com
 article.zlink.toutiao.com
 as.weixin.qq.com
 ascdn.baidu.com
 assets-www.xbox.com
 assets.cnblogs.com
 assets.giocdn.com
+assets.liuyun.io
 assets.msn.cn
 assets.msn.com
 assets.oneweb.mercedes-benz.com
@@ -265,6 +272,7 @@ auth.zijieapi.com
 avatar.bdstatic.com
 avatar.coolapk.com
 avatar.csdnimg.cn
+avatar.erome.com
 avc.tapimg.com
 avgle.com
 award.xmcdn.com
@@ -272,6 +280,8 @@ aweme.snssdk.com
 awp-assets.meituan.net
 b.163.com
 b.bdstatic.com
+b3log.org
+b3logfile.com
 bad.news
 baijiahao.baidu.com
 baike.baidu.com
@@ -280,12 +290,14 @@ baikebcs.bdimg.com
 baixing.com
 bbs-static.miyoushe.com
 bbs.mobileapi.hupu.com
+bbs.tampermonkey.net.cn
 bce.baidu.com
 bcelive.com
 bd1.zuimeitianqi.com
 bd2.zuimeitianqi.com
 bdsmtest.org
 bdsmtv.cc
+beacon-api.aliyuncs.com
 beian.miit.gov.cn
 bidobido.xyz
 big.bilibili.com
@@ -368,6 +380,7 @@ cdn.ferrari.com
 cdn.iocdn.cc
 cdn.jsdelivr.net
 cdn.pinduoduo.com
+cdn.ping0.cc
 cdn.plyr.io
 cdn.staticfile.org
 cdn.tiantiantiaosheng.com
@@ -464,6 +477,7 @@ cloud.video.taobao.com
 cloudcache.tencent-cloud.cn
 cloudcontrol.live.360.cn
 cloudflare-dns.com
+cloudpush.aliyuncs.com
 cm-h.phncdn.com
 cm.bilibili.com
 cms-assets.unrealengine.com
@@ -482,6 +496,8 @@ cnbj1.fds.api.xiaomi.com
 cnlogin.cainiao.com
 cnnic.net.cn
 collect.hupu.com
+comate-ide.cdn.bcebos.com
+comate.baidu.com
 commimg.pddpic.com
 common.jbzj.com
 community.akamai.steamstatic.com
@@ -554,6 +570,7 @@ detail.meizu.com
 detail.zol.com.cn
 dev.miuiflash.com
 develope-oss.lanzoug.com
+developer.extscreen.com
 devuploads.com
 dfcfw.com
 dftoutiao.com
@@ -573,6 +590,7 @@ dj.1688.com
 dl.360safe.com
 dl.delivery.mp.microsoft.com
 dl.hdslb.com
+dl.listary.net
 dl.reg.163.com
 dldir1.qq.com
 dldir1v6.qq.com
@@ -587,10 +605,13 @@ dns.adguard.com
 dns.icoa.cn
 dns.iqiyi.com
 dnscheck.tools
+doc.oplist.org
+doc.oplist.org.cn
 dockerstatic.com
 docrdsfx76ssb.cloudfront.net
 docs.doudou.fun
 docs.idqqimg.com
+docs.scriptcat.org
 domains-ws.revved.com
 dorado.xiaojukeji.com
 doris.yidianzixun.com
@@ -668,6 +689,7 @@ ehtracker.org
 ei.phncdn.com
 em-h.phncdn.com
 em.phncdn.com
+emas-link-service.aliyuncs.com
 embedwish.com
 emoji.bj.bcebos.com
 emoji.qpic.cn
@@ -1045,6 +1067,7 @@ ipassport.ele.me
 ipolyfill-origin.bytedance.com
 iptn.m3pd.com
 ipv4dns.com
+ipv6.ping0.cc
 ipw.cn
 ipxx.pro
 is-hl.snssdk.com
@@ -1073,6 +1096,7 @@ jihulab.com
 jikipedia.com
 jimdo.com
 jingfen.jd.com
+jmacs.cn-zhangjiakou.aliyuncs.com
 jnn-pa.googleapis.com
 jobs.bytedance.com
 jomodns.com
@@ -1119,6 +1143,8 @@ laomaotao.net
 laowang.vip
 laowangappb93ibiu.cihiu487giuew87lk.xyz
 lc-cn-n1-shared.com
+ld246.com
+learn.scriptcat.org
 leihuo.163.com
 lens.zhihu.com
 lequ-qfe.iqiyi.com
@@ -1169,6 +1195,7 @@ line3-h5-pc-api.biligame.com
 line3-statics-h5-mobile-api.biligame.net
 link.zhihu.com
 linux.do
+liuyun.io
 live-trace.bilibili.com
 live.douyin.com
 live.kuaishou.com
@@ -1404,6 +1431,7 @@ msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
 msedown.360safe.com
 msg.douyu.com
 msg.video.qiyi.com
+msgacs.cn-zhangjiakou.aliyuncs.com
 msn.yidianzixun.com
 mss0.bdstatic.com
 mssdk3-normal-lf.zijieapi.com
@@ -1453,6 +1481,7 @@ noodlemagazine.com
 north-plus.net
 novelfm.changdunovel.com
 novelfm.zlink.toutiao.com
+now.bdstatic.com
 npm.cdn-go.cn
 npm.elemecdn.com
 nsclick.baidu.com
@@ -1479,6 +1508,7 @@ orange-dc.alibaba.com
 orbit.jd.com
 osp.meituan.net
 oss-asq-static.11222.cn
+oss.b3logfile.com
 ossapi.baidu.com
 ossp.voicecloud.cn
 otheve.beacon.qq.com
@@ -1663,6 +1693,7 @@ pro.m.jd.com
 prod-chat-kimi-tos.moonshot.cn
 profile-avatar.csdnimg.cn
 profile.csdnimg.cn
+proxy-tf-all-ws.bilivideo.com
 pss.bdstatic.com
 psstatic.cdn.bcebos.com
 ptlogin.yuewen.com
@@ -1740,6 +1771,7 @@ reg.163.com
 register.xmpush.global.xiaomi.com
 register.xmpush.xiaomi.com
 registry.npmmirror.com
+release.liuyun.io
 report.passport.360.cn
 report.taptapdada.com
 res-r.qingjiaota.com
@@ -1748,6 +1780,8 @@ res.cloudinary.com
 res.imtt.qq.com
 res.mall.10010.cn
 res.mi.baidu.com
+res.oplist.org
+res.oplist.org.cn
 res.qiyukf.net
 res.vmallres.com
 resfile.lixincsb.com
@@ -1797,6 +1831,7 @@ sbanh.com
 sbfast.com
 sbfull.com
 scan.call.f.360.cn
+scriptcat.org
 scs.openspeech.cn
 sd.360.cn
 sdk-api.beizi.biz
@@ -1844,6 +1879,7 @@ similarweb.com
 sina.com.cn
 site.tiantiantiaosheng.com
 siwazywcdn2.com
+siyuannote.com
 sjh.baidu.com
 sjws.ssl.qihucdn.com
 sl.hpplay.cn
@@ -2230,12 +2266,14 @@ webcast-open.douyin.com
 webcast.amemv.com
 webfiles.gamebanana.com
 webstatic.hoyoverse.com
+webtoonscan.com
 webtor.io
 webzjcaptcha.reg.163.com
 weibo.com
 weidian.com
 weishi.360.cn
 weixin.qq.com
+wg.wavee.cn
 wgo.mmstat.com
 white-plus.net
 whois.cloud.tencent.com
@@ -2318,6 +2356,8 @@ www.enigmaprotector.cn
 www.enigmaprotector.com
 www.epicgames.com
 www.ero-labs.com
+www.erome.com
+www.extscreen.com
 www.ferrari.com
 www.ghproxy.cn
 www.gitbook.com
@@ -2348,6 +2388,8 @@ www.ke.com
 www.kuaishou.com
 www.lamborghini.com
 www.lianjia.com
+www.listary.com
+www.listary.net
 www.lsds.cn
 www.maimemo.com
 www.mairuan.com
@@ -2369,12 +2411,15 @@ www.novelfm.com
 www.npmjs.com
 www.ntdtv.com
 www.nuomiphp.com
+www.oplist.org
+www.oplist.org.cn
 www.oreans.com
 www.patreon.com
 www.paypal.com
 www.paypalobjects.com
 www.pconline.com.cn
 www.pinduoduo.com
+www.ping0.cc
 www.porn5f.com
 www.pornhub.com
 www.pornlulu.com
@@ -2386,6 +2431,7 @@ www.pzds.com
 www.qdmm.com
 www.qidian.com
 www.recaptcha.net
+www.siyuan-note.club
 www.so.com
 www.spaceship.com
 www.sygjx.com
@@ -2484,6 +2530,7 @@ yun.rili.cn
 yunjiasu.com
 yybadaccess.3g.qq.com
 yys.163.com
+yzg.wavee.cn
 z.weixin.qq.com
 zazhipu.com
 zconfig.alibabausercontent.com
