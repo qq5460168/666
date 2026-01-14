@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-01-14 20:27:55（北京时间）
+! Version: 2026-01-15 02:21:35（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27679
+! Total count: 27680
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -6175,7 +6175,6 @@
 0.0.0.0 visitor.omnitagjs.com
 0.0.0.0 vlive.qqvideo.tc.qq.com
 0.0.0.0 vm.aty.sohu.com
-0.0.0.0 vm.gtimg.cn
 0.0.0.0 vmindhls.tc.qq.com
 0.0.0.0 vod-box.bz.mgtv.com
 0.0.0.0 vod-license-b.volccdn.com
@@ -8331,6 +8330,7 @@
 @@||onegoods.nosdn.127.net^
 @@||onekey1.cmpassport.com^
 @@||open.bytedanceapi.com^
+@@||open.douyin.com^$important
 @@||open.oppomobile.com^
 @@||open.snssdk.com^
 @@||openap-alps.51y5.net^
@@ -9093,6 +9093,7 @@
 @@||vjav.com^
 @@||vjav0.ahcdn.com^
 @@||vm.gtimg.cn^
+@@||vm.gtimg.cn^$important
 @@||vmware.com^
 @@||vod.cc.163.com^
 @@||vodkgeyttp8.vod.126.net^
