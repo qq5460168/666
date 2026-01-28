@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-01-27 12:47:51（北京时间）
-# Quantumult X规则数量: 16767
-# ! Total count: 16767
+# Last Updated: 2026-01-28 01:43:19（北京时间）
+# Quantumult X规则数量: 16768
+# ! Total count: 16768
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -2084,6 +2084,7 @@ HOST-SUFFIX,adx-os-req.anythinktech.com,REJECT
 HOST-SUFFIX,adx-os.anythinktech.com,REJECT
 HOST-SUFFIX,adx-saas.advlion.com,REJECT
 HOST-SUFFIX,adx-static.ksosoft.com,REJECT
+HOST-SUFFIX,adx-strategy-api-cn.statisticslinks.com,REJECT
 HOST-SUFFIX,adx-track.domob.cn,REJECT
 HOST-SUFFIX,adx.ads.heytapmobi.com,REJECT
 HOST-SUFFIX,adx.ads.oppomobile.com,REJECT
@@ -2766,7 +2767,6 @@ HOST-SUFFIX,apptentive.com,REJECT
 HOST-SUFFIX,apptime.xyz,REJECT
 HOST-SUFFIX,appupgrade.vivo.com.cn,REJECT
 HOST-SUFFIX,appuu.cn,REJECT
-HOST-SUFFIX,appversion.115.com,REJECT
 HOST-SUFFIX,appweb.yangqianguan.com,REJECT
 HOST-SUFFIX,apsalar.com,REJECT
 HOST-SUFFIX,apt.qumi.com,REJECT
@@ -10232,6 +10232,7 @@ HOST-SUFFIX,mopnativeadv.037201.com,REJECT
 HOST-SUFFIX,mopub.com,REJECT
 HOST-SUFFIX,moquanad.com,REJECT
 HOST-SUFFIX,moren-1252794300.file.myqcloud.com,REJECT
+HOST-SUFFIX,mores.toponad.com,REJECT
 HOST-SUFFIX,mosa86.com,REJECT
 HOST-SUFFIX,mosangkeji.com,REJECT
 HOST-SUFFIX,mosflower.cn,REJECT

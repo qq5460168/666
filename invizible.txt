@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-01-27 20:47:52（北京时间）
+! Version: 2026-01-28 09:43:19（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16772
+! Total count: 16773
 # Title: Invizible Pro Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-01-27 12:47:51（北京时间）
+# Last Updated: 2026-01-28 01:43:19（北京时间）
 -normal-lq.zijieapi.com
 0.r.msn.com
 000123456789.online
@@ -2089,6 +2089,7 @@ adx-os-req.anythinktech.com
 adx-os.anythinktech.com
 adx-saas.advlion.com
 adx-static.ksosoft.com
+adx-strategy-api-cn.statisticslinks.com
 adx-track.domob.cn
 adx.ads.heytapmobi.com
 adx.ads.oppomobile.com
@@ -2771,7 +2772,6 @@ apptentive.com
 apptime.xyz
 appupgrade.vivo.com.cn
 appuu.cn
-appversion.115.com
 appweb.yangqianguan.com
 apsalar.com
 apt.qumi.com
@@ -10237,6 +10237,7 @@ mopnativeadv.037201.com
 mopub.com
 moquanad.com
 moren-1252794300.file.myqcloud.com
+mores.toponad.com
 mosa86.com
 mosangkeji.com
 mosflower.cn

@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-01-27 20:47:52（北京时间）
+! Version: 2026-01-28 09:43:19（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16771
+! Total count: 16772
 # AdClose 专用广告规则
-# 生成时间: 2026-01-27 12:47:51（北京时间）
+# 生成时间: 2026-01-28 01:43:19（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -2088,6 +2088,7 @@ domain, adx-os-req.anythinktech.com
 domain, adx-os.anythinktech.com
 domain, adx-saas.advlion.com
 domain, adx-static.ksosoft.com
+domain, adx-strategy-api-cn.statisticslinks.com
 domain, adx-track.domob.cn
 domain, adx.ads.heytapmobi.com
 domain, adx.ads.oppomobile.com
@@ -2770,7 +2771,6 @@ domain, apptentive.com
 domain, apptime.xyz
 domain, appupgrade.vivo.com.cn
 domain, appuu.cn
-domain, appversion.115.com
 domain, appweb.yangqianguan.com
 domain, apsalar.com
 domain, apt.qumi.com
@@ -10236,6 +10236,7 @@ domain, mopnativeadv.037201.com
 domain, mopub.com
 domain, moquanad.com
 domain, moren-1252794300.file.myqcloud.com
+domain, mores.toponad.com
 domain, mosa86.com
 domain, mosangkeji.com
 domain, mosflower.cn
