@@ -1,9 +1,9 @@
 # Title: Clash Meta规则
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-01-28 01:43:19（北京时间）
-# Clash Meta规则数量: 16768
-! Total count: 16768
+# Last Updated: 2026-01-28 12:47:50（北京时间）
+# Clash Meta规则数量: 16769
+! Total count: 16769
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -1776,6 +1776,7 @@ payload:
   - 'ads.aplus.pptv.com'
   - 'ads.aplusapi.pptv.com'
   - 'ads.aralego.com'
+  - 'ads.auctions.yahoo.com'
   - 'ads.aws.viber.com'
   - 'ads.bjlxin.cn'
   - 'ads.bullionyield.com'
