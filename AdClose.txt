@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-01-28 20:47:51（北京时间）
+! Version: 2026-01-29 09:55:20（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16773
+! Total count: 16771
 # AdClose 专用广告规则
-# 生成时间: 2026-01-28 12:47:50（北京时间）
+# 生成时间: 2026-01-29 01:55:19（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -642,7 +642,6 @@ domain, 6711.com
 domain, 6726lmym.top
 domain, 6728812.com
 domain, 678tl.com
-domain, 67it.com
 domain, 685wo.com
 domain, 68665565.com
 domain, 68710266.com
@@ -1317,7 +1316,6 @@ domain, ad.gmw.cn
 domain, ad.go.com
 domain, ad.greedland.net
 domain, ad.gtbrowser.com
-domain, ad.guangggao.eee114.com
 domain, ad.hefei.cc
 domain, ad.hiiir.com
 domain, ad.holaq.com
@@ -1475,7 +1473,6 @@ domain, ad1.p5w.net
 domain, ad1.udn.com
 domain, ad1.xiaomi.com
 domain, ad1.yangjinyou.com
-domain, ad2.ettoday.net
 domain, ad2.nend.net
 domain, ad2.udn.com
 domain, ad2.yam.com
@@ -5059,7 +5056,6 @@ domain, dl.uu.cc
 domain, dl.wan.sogoucdn.com
 domain, dl.xzqxzs.com
 domain, dl.youjia2016.com
-domain, dl.zuimeitianqi.com
 domain, dl12349.net
 domain, dl1sw.baidu.com
 domain, dl2.bav.baidu.com
@@ -6582,6 +6578,7 @@ domain, girlcc.cc
 domain, gj500.com
 domain, gjapplog.uc.cn
 domain, gjapplog.ucweb.com
+domain, gjfzpt.cn
 domain, gjghy.com
 domain, gjh9v.tianshilv.cn
 domain, gjipd.xyz
@@ -7339,7 +7336,6 @@ domain, hzhabei.cn
 domain, hzhuang.wang
 domain, hzhyhm.com
 domain, hzrghx.xyz
-domain, hzsanjiaomao.com
 domain, hzsod71wov.me
 domain, hzvcaadn.icu
 domain, hzxfmc.com
@@ -7812,7 +7808,6 @@ domain, iojnask.com
 domain, ionksfefe.xyz
 domain, ios-dc.51y5.net
 domain, ios-informationplatform.wps.cn
-domain, ios-pclog.i4.cn
 domain, iosipa.b0.upaiyun.com
 domain, iosppk.com
 domain, ioswhi.com
@@ -8196,6 +8191,7 @@ domain, joiwnq2.cn
 domain, jojog.com
 domain, jokerlulm.com
 domain, jollytestpartying.com
+domain, jomodns.cn
 domain, jomwihn.cn
 domain, jossuer.net
 domain, jothvz.xyz
@@ -8765,6 +8761,7 @@ domain, kualianyingxiao.cn
 domain, kuanxin.top
 domain, kudifish.com
 domain, kuguopush.com
+domain, kuiniuca.com
 domain, kuiv.cn
 domain, kumihua.com
 domain, kunzhang.name
@@ -10877,6 +10874,7 @@ domain, onepush.query.yahoo.com
 domain, onesoft.im
 domain, onetad.com
 domain, onetag-sys.com
+domain, onethingpcs.com
 domain, onewhee.com
 domain, oneyearonechange.com
 domain, onkacspio.com
@@ -13379,9 +13377,11 @@ domain, stricaik.com
 domain, strip.alicdn.com
 domain, strip.taobaocdn.com
 domain, studylabs.cn
+domain, stun.douyucdn.cn
 domain, stun.hitv.com
 domain, stun.kugou.com
 domain, stun.syncthing.net
+domain, stun1.douyucdn.cn
 domain, stunthedge.com
 domain, style-browse-openapi.test.gifshow.com
 domain, su.8881919.cc
@@ -13978,7 +13978,6 @@ domain, tracelog-debug.qquanquan.com
 domain, tracelog-debug.yunxish.com
 domain, track-east.mobileadtrading.com
 domain, track.58.com
-domain, track.66mobi.com
 domain, track.easeus.com
 domain, track.hujiang.com
 domain, track.innoads.cn
@@ -14683,7 +14682,6 @@ domain, val.atm.youku.com
 domain, valerieavisnba.com
 domain, valf.atm.cp31.ott.cibntv.net
 domain, valfatm.cp12.wasu.tv
-domain, vali-ugc.cp31.ott.cibntv.net
 domain, valipl.cp31.ott.cibntv.net
 domain, vamaker.com
 domain, vancuongthinh.com

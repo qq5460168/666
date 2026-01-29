@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-01-28 12:47:50（北京时间）
-# Quantumult X规则数量: 16769
-# ! Total count: 16769
+# Last Updated: 2026-01-29 01:55:19（北京时间）
+# Quantumult X规则数量: 16767
+# ! Total count: 16767
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -638,7 +638,6 @@ HOST-SUFFIX,6711.com,REJECT
 HOST-SUFFIX,6726lmym.top,REJECT
 HOST-SUFFIX,6728812.com,REJECT
 HOST-SUFFIX,678tl.com,REJECT
-HOST-SUFFIX,67it.com,REJECT
 HOST-SUFFIX,685wo.com,REJECT
 HOST-SUFFIX,68665565.com,REJECT
 HOST-SUFFIX,68710266.com,REJECT
@@ -1313,7 +1312,6 @@ HOST-SUFFIX,ad.gmw.cn,REJECT
 HOST-SUFFIX,ad.go.com,REJECT
 HOST-SUFFIX,ad.greedland.net,REJECT
 HOST-SUFFIX,ad.gtbrowser.com,REJECT
-HOST-SUFFIX,ad.guangggao.eee114.com,REJECT
 HOST-SUFFIX,ad.hefei.cc,REJECT
 HOST-SUFFIX,ad.hiiir.com,REJECT
 HOST-SUFFIX,ad.holaq.com,REJECT
@@ -1471,7 +1469,6 @@ HOST-SUFFIX,ad1.p5w.net,REJECT
 HOST-SUFFIX,ad1.udn.com,REJECT
 HOST-SUFFIX,ad1.xiaomi.com,REJECT
 HOST-SUFFIX,ad1.yangjinyou.com,REJECT
-HOST-SUFFIX,ad2.ettoday.net,REJECT
 HOST-SUFFIX,ad2.nend.net,REJECT
 HOST-SUFFIX,ad2.udn.com,REJECT
 HOST-SUFFIX,ad2.yam.com,REJECT
@@ -5055,7 +5052,6 @@ HOST-SUFFIX,dl.uu.cc,REJECT
 HOST-SUFFIX,dl.wan.sogoucdn.com,REJECT
 HOST-SUFFIX,dl.xzqxzs.com,REJECT
 HOST-SUFFIX,dl.youjia2016.com,REJECT
-HOST-SUFFIX,dl.zuimeitianqi.com,REJECT
 HOST-SUFFIX,dl12349.net,REJECT
 HOST-SUFFIX,dl1sw.baidu.com,REJECT
 HOST-SUFFIX,dl2.bav.baidu.com,REJECT
@@ -6578,6 +6574,7 @@ HOST-SUFFIX,girlcc.cc,REJECT
 HOST-SUFFIX,gj500.com,REJECT
 HOST-SUFFIX,gjapplog.uc.cn,REJECT
 HOST-SUFFIX,gjapplog.ucweb.com,REJECT
+HOST-SUFFIX,gjfzpt.cn,REJECT
 HOST-SUFFIX,gjghy.com,REJECT
 HOST-SUFFIX,gjh9v.tianshilv.cn,REJECT
 HOST-SUFFIX,gjipd.xyz,REJECT
@@ -7335,7 +7332,6 @@ HOST-SUFFIX,hzhabei.cn,REJECT
 HOST-SUFFIX,hzhuang.wang,REJECT
 HOST-SUFFIX,hzhyhm.com,REJECT
 HOST-SUFFIX,hzrghx.xyz,REJECT
-HOST-SUFFIX,hzsanjiaomao.com,REJECT
 HOST-SUFFIX,hzsod71wov.me,REJECT
 HOST-SUFFIX,hzvcaadn.icu,REJECT
 HOST-SUFFIX,hzxfmc.com,REJECT
@@ -7808,7 +7804,6 @@ HOST-SUFFIX,iojnask.com,REJECT
 HOST-SUFFIX,ionksfefe.xyz,REJECT
 HOST-SUFFIX,ios-dc.51y5.net,REJECT
 HOST-SUFFIX,ios-informationplatform.wps.cn,REJECT
-HOST-SUFFIX,ios-pclog.i4.cn,REJECT
 HOST-SUFFIX,iosipa.b0.upaiyun.com,REJECT
 HOST-SUFFIX,iosppk.com,REJECT
 HOST-SUFFIX,ioswhi.com,REJECT
@@ -8192,6 +8187,7 @@ HOST-SUFFIX,joiwnq2.cn,REJECT
 HOST-SUFFIX,jojog.com,REJECT
 HOST-SUFFIX,jokerlulm.com,REJECT
 HOST-SUFFIX,jollytestpartying.com,REJECT
+HOST-SUFFIX,jomodns.cn,REJECT
 HOST-SUFFIX,jomwihn.cn,REJECT
 HOST-SUFFIX,jossuer.net,REJECT
 HOST-SUFFIX,jothvz.xyz,REJECT
@@ -8761,6 +8757,7 @@ HOST-SUFFIX,kualianyingxiao.cn,REJECT
 HOST-SUFFIX,kuanxin.top,REJECT
 HOST-SUFFIX,kudifish.com,REJECT
 HOST-SUFFIX,kuguopush.com,REJECT
+HOST-SUFFIX,kuiniuca.com,REJECT
 HOST-SUFFIX,kuiv.cn,REJECT
 HOST-SUFFIX,kumihua.com,REJECT
 HOST-SUFFIX,kunzhang.name,REJECT
@@ -10873,6 +10870,7 @@ HOST-SUFFIX,onepush.query.yahoo.com,REJECT
 HOST-SUFFIX,onesoft.im,REJECT
 HOST-SUFFIX,onetad.com,REJECT
 HOST-SUFFIX,onetag-sys.com,REJECT
+HOST-SUFFIX,onethingpcs.com,REJECT
 HOST-SUFFIX,onewhee.com,REJECT
 HOST-SUFFIX,oneyearonechange.com,REJECT
 HOST-SUFFIX,onkacspio.com,REJECT
@@ -13375,9 +13373,11 @@ HOST-SUFFIX,stricaik.com,REJECT
 HOST-SUFFIX,strip.alicdn.com,REJECT
 HOST-SUFFIX,strip.taobaocdn.com,REJECT
 HOST-SUFFIX,studylabs.cn,REJECT
+HOST-SUFFIX,stun.douyucdn.cn,REJECT
 HOST-SUFFIX,stun.hitv.com,REJECT
 HOST-SUFFIX,stun.kugou.com,REJECT
 HOST-SUFFIX,stun.syncthing.net,REJECT
+HOST-SUFFIX,stun1.douyucdn.cn,REJECT
 HOST-SUFFIX,stunthedge.com,REJECT
 HOST-SUFFIX,style-browse-openapi.test.gifshow.com,REJECT
 HOST-SUFFIX,su.8881919.cc,REJECT
@@ -13974,7 +13974,6 @@ HOST-SUFFIX,tracelog-debug.qquanquan.com,REJECT
 HOST-SUFFIX,tracelog-debug.yunxish.com,REJECT
 HOST-SUFFIX,track-east.mobileadtrading.com,REJECT
 HOST-SUFFIX,track.58.com,REJECT
-HOST-SUFFIX,track.66mobi.com,REJECT
 HOST-SUFFIX,track.easeus.com,REJECT
 HOST-SUFFIX,track.hujiang.com,REJECT
 HOST-SUFFIX,track.innoads.cn,REJECT
@@ -14679,7 +14678,6 @@ HOST-SUFFIX,val.atm.youku.com,REJECT
 HOST-SUFFIX,valerieavisnba.com,REJECT
 HOST-SUFFIX,valf.atm.cp31.ott.cibntv.net,REJECT
 HOST-SUFFIX,valfatm.cp12.wasu.tv,REJECT
-HOST-SUFFIX,vali-ugc.cp31.ott.cibntv.net,REJECT
 HOST-SUFFIX,valipl.cp31.ott.cibntv.net,REJECT
 HOST-SUFFIX,vamaker.com,REJECT
 HOST-SUFFIX,vancuongthinh.com,REJECT
