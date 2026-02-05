@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-02-05 10:00:24（北京时间）
+! Version: 2026-02-05 20:59:44（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3200
+! Total count: 3246
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -233,6 +233,7 @@
 @@||active.jd.com^
 @@||activity.browser.intl.miui.com^
 @@||activity.hdslb.com^
+@@||activity.huaweicloud.com^
 @@||activity.tuiapple.com^
 @@||activity.windows.com^$important
 @@||activity.youku.com^
@@ -486,6 +487,7 @@
 @@||audiopaydl.pcdn.xmcdn.com^
 @@||auditude.com^
 @@||auth.gfx.ms^$important
+@@||auth.huaweicloud.com^
 @@||auth.wosms.cn^
 @@||auth.zijieapi.com^
 @@||autologon.microsoftazuread-sso.com^$important
@@ -626,6 +628,7 @@
 @@||cdn.ferrari.com^
 @@||cdn.iocdn.cc^
 @@||cdn.jsdelivr.net^
+@@||cdn.myhuaweicloud.com^
 @@||cdn.odc.officeapps.live.com^$important
 @@||cdn.pinduoduo.com^
 @@||cdn.ping0.cc^
@@ -791,7 +794,9 @@
 @@||connect.rom.miui.com^
 @@||connectivitycheck.gstatic.com^
 @@||connectivitycheck.platform.hicloud.com^
+@@||console-intl.huaweicloud.com^
 @@||console.cloud.tencent.com^
+@@||console.huaweicloud.com^
 @@||consumerapp-1251779293.image.myqcloud.com^
 @@||content-autofill.googleapis.com^
 @@||contentcenter-vali-drcn.dbankcdn.com^
@@ -1752,6 +1757,7 @@
 @@||market.waimai.meituan.com^
 @@||market.waimai.meituan.com^$important
 @@||market.xiaomi.com^
+@@||marketplace.huaweicloud.com^
 @@||mars.jd.com^
 @@||mask-api.icloud.com^$important
 @@||mask-h2.icloud.com^$important
@@ -1810,6 +1816,7 @@
 @@||mipcache.bdstatic.com^
 @@||mipstatic.sm-tc.cn^$important
 @@||mirrors.163.com^
+@@||mirrors.huaweicloud.com^
 @@||missav.ai^
 @@||missav.live^
 @@||missav.ws^
@@ -1818,6 +1825,8 @@
 @@||mix.sina.com.cn^
 @@||mixer.sina.cn^
 @@||mjrpay.jd.com^
+@@||mkp-intl-res.hc-cdn.com^
+@@||mkp-res.hc-cdn.com^
 @@||mlccdnprod.azureedge.net^$important
 @@||mlol-file.qpic.cn^
 @@||mlvbdc.live.qcloud.com^
@@ -1940,6 +1949,36 @@
 @@||o2o.api.xiaomi.com^
 @@||oauth-login-drcn.platform.dbankcloud.com^
 @@||oauth.secure.pixiv.net^
+@@||obs.af-north-1.myhuaweicloud.com^
+@@||obs.af-south-1.myhuaweicloud.com^
+@@||obs.ap-southeast-1.myhuaweicloud.com^
+@@||obs.ap-southeast-2.myhuaweicloud.com^
+@@||obs.ap-southeast-3.myhuaweicloud.com^
+@@||obs.ap-southeast-4.myhuaweicloud.com^
+@@||obs.ap-southeast-5.myhuaweicloud.com^
+@@||obs.cn-east-2.myhuaweicloud.com^
+@@||obs.cn-east-3.myhuaweicloud.com^
+@@||obs.cn-east-4.myhuaweicloud.com^
+@@||obs.cn-east-5.myhuaweicloud.com^
+@@||obs.cn-north-1.myhuaweicloud.com^
+@@||obs.cn-north-11.myhuaweicloud.com^
+@@||obs.cn-north-12.myhuaweicloud.com^
+@@||obs.cn-north-2.myhuaweicloud.com^
+@@||obs.cn-north-4.myhuaweicloud.com^
+@@||obs.cn-north-9.myhuaweicloud.com^
+@@||obs.cn-south-1.myhuaweicloud.com^
+@@||obs.cn-south-2.myhuaweicloud.com^
+@@||obs.cn-south-4.myhuaweicloud.com^
+@@||obs.cn-southwest-2.myhuaweicloud.com^
+@@||obs.cn-southwest-3.myhuaweicloud.com^
+@@||obs.la-north-2.myhuaweicloud.com^
+@@||obs.la-south-2.myhuaweicloud.com^
+@@||obs.me-east-1.myhuaweicloud.com^
+@@||obs.na-mexico-1.myhuaweicloud.com^
+@@||obs.ru-northwest-2.myhuaweicloud.com^
+@@||obs.sa-brazil-1.myhuaweicloud.com^
+@@||obs.sa-peru-1.myhuaweicloud.com^
+@@||obs.tr-west-1.myhuaweicloud.com^
 @@||ocos-office365-s2s.msedge.net^$important
 @@||ocsp.apple.com^$important
 @@||ocsp.digicert.cn^$important
@@ -2192,6 +2231,7 @@
 @@||porntop.com^
 @@||pornzog.com^
 @@||port.sec.miui.com^
+@@||portal.hc-cdn.com^
 @@||portal.ik.weiyunjian.com^
 @@||portal.volccdn.com^
 @@||pos-device.apple.com^$important
@@ -2298,8 +2338,11 @@
 @@||report.passport.360.cn^
 @@||report.taptapdada.com^
 @@||res-r.qingjiaota.com^
+@@||res-static.hc-cdn.cn^
+@@||res-video.hc-cdn.com^
 @@||res.126.net^
 @@||res.cloudinary.com^
+@@||res.hc-cdn.com^
 @@||res.imtt.qq.com^
 @@||res.mall.10010.cn^
 @@||res.mi.baidu.com^
@@ -2386,6 +2429,7 @@
 @@||se.360.cn^
 @@||search.kuwo.cn^
 @@||search.sogoucdn.com^
+@@||searchrec.marketplace-intl.huaweicloud.com^
 @@||sec-cdn.static.xiaomi.net^
 @@||sec.resource.xiaomi.net^
 @@||secure.globalsign.com^$important
@@ -2585,6 +2629,7 @@
 @@||sukebei.nyaa.si^
 @@||summer-plus.net^
 @@||support.apple.com*^
+@@||support.huaweicloud.com^
 @@||support.microsoft.com^$important
 @@||support.weixin.qq.com^
 @@||supportmetrics.apple.com^$important
@@ -3015,6 +3060,7 @@
 @@||www.hentai.name^
 @@||www.hisense.com^
 @@||www.hoyoverse.com^
+@@||www.huaweicloud.com^
 @@||www.iconfont.cn^$important
 @@||www.ijinshan.com^
 @@||www.internetdownloadmanager.com^

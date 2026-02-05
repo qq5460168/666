@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-02-05 10:00:24（北京时间）
+! Version: 2026-02-05 20:59:44（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2547
+! Total count: 2593
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-02-05 10:00:23（北京时间）
-# 总域名数: 2541
+# 生成时间: 2026-02-05 20:59:43（北京时间）
+# 总域名数: 2587
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -74,6 +74,7 @@ act.zhuanzhuan.com
 active.jd.com
 activity.browser.intl.miui.com
 activity.hdslb.com
+activity.huaweicloud.com
 activity.tuiapple.com
 activity.youku.com
 acts.qidian.com
@@ -267,6 +268,7 @@ audio-cdn.shuqireader.com
 audiopay.pcdn.xmcdn.com
 audiopaydl.pcdn.xmcdn.com
 auditude.com
+auth.huaweicloud.com
 auth.wosms.cn
 auth.zijieapi.com
 avatar.bdstatic.com
@@ -379,6 +381,7 @@ cdn.deepseek.com
 cdn.ferrari.com
 cdn.iocdn.cc
 cdn.jsdelivr.net
+cdn.myhuaweicloud.com
 cdn.pinduoduo.com
 cdn.ping0.cc
 cdn.plyr.io
@@ -511,7 +514,9 @@ connect.intl.rom.miui.com
 connect.rom.miui.com
 connectivitycheck.gstatic.com
 connectivitycheck.platform.hicloud.com
+console-intl.huaweicloud.com
 console.cloud.tencent.com
+console.huaweicloud.com
 consumerapp-1251779293.image.myqcloud.com
 content-autofill.googleapis.com
 contentcenter-vali-drcn.dbankcdn.com
@@ -1324,6 +1329,7 @@ market.m.taobao.com
 market.mi-img.com
 market.waimai.meituan.com
 market.xiaomi.com
+marketplace.huaweicloud.com
 mars.jd.com
 masterconn2.qq.com
 mat1.gtimg.com
@@ -1374,6 +1380,7 @@ minorshort.weixin.qq.com
 mip.xiachufang.com
 mipcache.bdstatic.com
 mirrors.163.com
+mirrors.huaweicloud.com
 missav.ai
 missav.live
 missav.ws
@@ -1382,6 +1389,8 @@ mivideo.g.mi.com
 mix.sina.com.cn
 mixer.sina.cn
 mjrpay.jd.com
+mkp-intl-res.hc-cdn.com
+mkp-res.hc-cdn.com
 mlol-file.qpic.cn
 mlvbdc.live.qcloud.com
 mm1.365dmp.com
@@ -1494,6 +1503,36 @@ o.data.mistat.xiaomi.com
 o2o.api.xiaomi.com
 oauth-login-drcn.platform.dbankcloud.com
 oauth.secure.pixiv.net
+obs.af-north-1.myhuaweicloud.com
+obs.af-south-1.myhuaweicloud.com
+obs.ap-southeast-1.myhuaweicloud.com
+obs.ap-southeast-2.myhuaweicloud.com
+obs.ap-southeast-3.myhuaweicloud.com
+obs.ap-southeast-4.myhuaweicloud.com
+obs.ap-southeast-5.myhuaweicloud.com
+obs.cn-east-2.myhuaweicloud.com
+obs.cn-east-3.myhuaweicloud.com
+obs.cn-east-4.myhuaweicloud.com
+obs.cn-east-5.myhuaweicloud.com
+obs.cn-north-1.myhuaweicloud.com
+obs.cn-north-11.myhuaweicloud.com
+obs.cn-north-12.myhuaweicloud.com
+obs.cn-north-2.myhuaweicloud.com
+obs.cn-north-4.myhuaweicloud.com
+obs.cn-north-9.myhuaweicloud.com
+obs.cn-south-1.myhuaweicloud.com
+obs.cn-south-2.myhuaweicloud.com
+obs.cn-south-4.myhuaweicloud.com
+obs.cn-southwest-2.myhuaweicloud.com
+obs.cn-southwest-3.myhuaweicloud.com
+obs.la-north-2.myhuaweicloud.com
+obs.la-south-2.myhuaweicloud.com
+obs.me-east-1.myhuaweicloud.com
+obs.na-mexico-1.myhuaweicloud.com
+obs.ru-northwest-2.myhuaweicloud.com
+obs.sa-brazil-1.myhuaweicloud.com
+obs.sa-peru-1.myhuaweicloud.com
+obs.tr-west-1.myhuaweicloud.com
 ohssr.cn
 omofun.link
 one.one.one.one
@@ -1686,6 +1725,7 @@ porkbun.com
 porntop.com
 pornzog.com
 port.sec.miui.com
+portal.hc-cdn.com
 portal.ik.weiyunjian.com
 portal.volccdn.com
 pp.myapp.com
@@ -1778,8 +1818,11 @@ release.liuyun.io
 report.passport.360.cn
 report.taptapdada.com
 res-r.qingjiaota.com
+res-static.hc-cdn.cn
+res-video.hc-cdn.com
 res.126.net
 res.cloudinary.com
+res.hc-cdn.com
 res.imtt.qq.com
 res.mall.10010.cn
 res.mi.baidu.com
@@ -1849,6 +1892,7 @@ sdkapi.sms.mob.com
 se.360.cn
 search.kuwo.cn
 search.sogoucdn.com
+searchrec.marketplace-intl.huaweicloud.com
 sec-cdn.static.xiaomi.net
 sec.resource.xiaomi.net
 self.events.data.microsoft.com
@@ -2014,6 +2058,7 @@ suggestion.baidu.com
 sugs.m.sm.cn
 sukebei.nyaa.si
 summer-plus.net
+support.huaweicloud.com
 support.weixin.qq.com
 surrit.com
 survey.feelgood.cn
@@ -2378,6 +2423,7 @@ www.hao123.com
 www.hentai.name
 www.hisense.com
 www.hoyoverse.com
+www.huaweicloud.com
 www.ijinshan.com
 www.internetdownloadmanager.com
 www.ip138.com
