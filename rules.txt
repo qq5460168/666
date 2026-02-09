@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-02-08 20:47:24（北京时间）
+! Version: 2026-02-09 10:05:17（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27738
+! Total count: 27766
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -7335,6 +7335,26 @@
 @@||contentcenter-vali-drcn.dbankcdn.com^
 @@||coop.voicecloud.cn^
 @@||core.tantanapp.com^
+@@||cos.ap-bangkok.myqcloud.com^
+@@||cos.ap-beijing-1.myqcloud.com^
+@@||cos.ap-beijing-fsi.myqcloud.com^
+@@||cos.ap-beijing.myqcloud.com^
+@@||cos.ap-chengdu.myqcloud.com^
+@@||cos.ap-chongqing.myqcloud.com^
+@@||cos.ap-guangzhou.myqcloud.com^
+@@||cos.ap-hongkong.myqcloud.com^
+@@||cos.ap-jakarta.myqcloud.com^
+@@||cos.ap-nanjing.myqcloud.com^
+@@||cos.ap-seoul.myqcloud.com^
+@@||cos.ap-shanghai-fsi.myqcloud.com^
+@@||cos.ap-shanghai.myqcloud.com^
+@@||cos.ap-shenzhen-fsi.myqcloud.com^
+@@||cos.ap-singapore.myqcloud.com^
+@@||cos.ap-tokyo.myqcloud.com^
+@@||cos.eu-frankfurt.myqcloud.com^
+@@||cos.na-ashburn.myqcloud.com^
+@@||cos.na-siliconvalley.myqcloud.com^
+@@||cos.sa-saopaulo.myqcloud.com^
 @@||count.mail.163.com^
 @@||counter-strike.net^
 @@||cp2-cdn-play.funshion.com^
@@ -8721,8 +8741,16 @@
 @@||s2.hdslb.com^
 @@||s2.ssl.qhres2.com^
 @@||s3-us-east-1.ossfiles.com^
+@@||s3.ap-southeast-1.qiniucs.com^
+@@||s3.ap-southeast-2.qiniucs.com^
+@@||s3.ap-southeast-3.qiniucs.com^
+@@||s3.cn-east-1.qiniucs.com^
+@@||s3.cn-east-2.qiniucs.com^
+@@||s3.cn-north-1.qiniucs.com^
+@@||s3.cn-south-1.qiniucs.com^
 @@||s3.meituan.net^
 @@||s3.pstatp.com^
+@@||s3.us-north-1.qiniucs.com^
 @@||s3.voicecloud.cn^
 @@||s3plus-img.meituan.net^
 @@||s3plus.meituan.net^
