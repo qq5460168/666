@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-02-11 10:11:07（北京时间）
+! Version: 2026-02-11 21:07:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16770
+! Total count: 16775
 # AdClose 专用广告规则
-# 生成时间: 2026-02-11 02:11:06（北京时间）
+# 生成时间: 2026-02-11 13:07:11（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -5108,6 +5108,7 @@ domain, dm50.jkyd.net
 domain, dm50.yxlady.com
 domain, dmacore.kejet.com
 domain, dmacore.kejet.net
+domain, dmaoaikufn2.com
 domain, dmapp.youku.com
 domain, dmd.metaservices.microsoft.com
 domain, dme.lchzwz.com
@@ -6584,6 +6585,7 @@ domain, gjh9v.tianshilv.cn
 domain, gjipd.xyz
 domain, gjkame6.com
 domain, gjreg.code.weddingeeos.com
+domain, gjt6z9wga.com
 domain, gjtrack.uc.cn
 domain, gkjmev3.com
 domain, gknybkl.cn
@@ -6625,6 +6627,7 @@ domain, godloveme.cn
 domain, godni.xyz
 domain, goeyxwhp.site
 domain, gog9.qzdfc.com
+domain, gohgn02111la.com
 domain, goikbnjksdf.com
 domain, goingsranchange.com
 domain, golden1.sogou.com
@@ -7957,6 +7960,7 @@ domain, j17.shangc.net
 domain, j17.xiumu.cn
 domain, j1u9nlr3k.cc
 domain, j3.jtezxmpb.xyz
+domain, j3818xx.cc
 domain, j520s.gzcl999.cn
 domain, j5z.cn
 domain, j5z.cn.w.kunlunaq.com
@@ -11511,6 +11515,7 @@ domain, poyang.com
 domain, pp.sxjkc.cn
 domain, pp2.dhzw.org
 domain, pp2.pptv.com
+domain, pp3381a.cc
 domain, pp9899.com
 domain, ppedp.cn
 domain, ppezijkacga.com

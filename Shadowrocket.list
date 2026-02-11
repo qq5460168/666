@@ -1,9 +1,9 @@
 # Title: Shadowrocket Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-02-11 02:11:06（北京时间）
-# Shadowrocket规则数量: 16766
-! Total count: 16766
+# Last Updated: 2026-02-11 13:07:11（北京时间）
+# Shadowrocket规则数量: 16771
+! Total count: 16771
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -5104,6 +5104,7 @@ DOMAIN-SUFFIX,dm50.jkyd.net,REJECT
 DOMAIN-SUFFIX,dm50.yxlady.com,REJECT
 DOMAIN-SUFFIX,dmacore.kejet.com,REJECT
 DOMAIN-SUFFIX,dmacore.kejet.net,REJECT
+DOMAIN-SUFFIX,dmaoaikufn2.com,REJECT
 DOMAIN-SUFFIX,dmapp.youku.com,REJECT
 DOMAIN-SUFFIX,dmd.metaservices.microsoft.com,REJECT
 DOMAIN-SUFFIX,dme.lchzwz.com,REJECT
@@ -6580,6 +6581,7 @@ DOMAIN-SUFFIX,gjh9v.tianshilv.cn,REJECT
 DOMAIN-SUFFIX,gjipd.xyz,REJECT
 DOMAIN-SUFFIX,gjkame6.com,REJECT
 DOMAIN-SUFFIX,gjreg.code.weddingeeos.com,REJECT
+DOMAIN-SUFFIX,gjt6z9wga.com,REJECT
 DOMAIN-SUFFIX,gjtrack.uc.cn,REJECT
 DOMAIN-SUFFIX,gkjmev3.com,REJECT
 DOMAIN-SUFFIX,gknybkl.cn,REJECT
@@ -6621,6 +6623,7 @@ DOMAIN-SUFFIX,godloveme.cn,REJECT
 DOMAIN-SUFFIX,godni.xyz,REJECT
 DOMAIN-SUFFIX,goeyxwhp.site,REJECT
 DOMAIN-SUFFIX,gog9.qzdfc.com,REJECT
+DOMAIN-SUFFIX,gohgn02111la.com,REJECT
 DOMAIN-SUFFIX,goikbnjksdf.com,REJECT
 DOMAIN-SUFFIX,goingsranchange.com,REJECT
 DOMAIN-SUFFIX,golden1.sogou.com,REJECT
@@ -7953,6 +7956,7 @@ DOMAIN-SUFFIX,j17.shangc.net,REJECT
 DOMAIN-SUFFIX,j17.xiumu.cn,REJECT
 DOMAIN-SUFFIX,j1u9nlr3k.cc,REJECT
 DOMAIN-SUFFIX,j3.jtezxmpb.xyz,REJECT
+DOMAIN-SUFFIX,j3818xx.cc,REJECT
 DOMAIN-SUFFIX,j520s.gzcl999.cn,REJECT
 DOMAIN-SUFFIX,j5z.cn,REJECT
 DOMAIN-SUFFIX,j5z.cn.w.kunlunaq.com,REJECT
@@ -11507,6 +11511,7 @@ DOMAIN-SUFFIX,poyang.com,REJECT
 DOMAIN-SUFFIX,pp.sxjkc.cn,REJECT
 DOMAIN-SUFFIX,pp2.dhzw.org,REJECT
 DOMAIN-SUFFIX,pp2.pptv.com,REJECT
+DOMAIN-SUFFIX,pp3381a.cc,REJECT
 DOMAIN-SUFFIX,pp9899.com,REJECT
 DOMAIN-SUFFIX,ppedp.cn,REJECT
 DOMAIN-SUFFIX,ppezijkacga.com,REJECT

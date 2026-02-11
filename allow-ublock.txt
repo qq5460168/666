@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-02-11 10:11:07（北京时间）
+! Version: 2026-02-11 21:07:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2621
+! Total count: 2627
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-02-11 10:11:07（北京时间）
-# 总域名数: 2615
+# 生成时间: 2026-02-11 21:07:11（北京时间）
+# 总域名数: 2621
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -1884,12 +1884,18 @@ s3-us-east-1.ossfiles.com
 s3.ap-southeast-1.qiniucs.com
 s3.ap-southeast-2.qiniucs.com
 s3.ap-southeast-3.qiniucs.com
+s3.bd.bcebos.com
+s3.bj.bcebos.com
 s3.cn-east-1.qiniucs.com
 s3.cn-east-2.qiniucs.com
 s3.cn-north-1.qiniucs.com
 s3.cn-south-1.qiniucs.com
+s3.fwh.bcebos.com
+s3.gz.bcebos.com
+s3.hkg.bcebos.com
 s3.meituan.net
 s3.pstatp.com
+s3.su.bcebos.com
 s3.us-north-1.qiniucs.com
 s3.voicecloud.cn
 s3plus-img.meituan.net

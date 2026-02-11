@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-02-11 10:11:07（北京时间）
+! Version: 2026-02-11 21:07:12（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27766
+! Total count: 27789
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -8744,12 +8744,18 @@
 @@||s3.ap-southeast-1.qiniucs.com^
 @@||s3.ap-southeast-2.qiniucs.com^
 @@||s3.ap-southeast-3.qiniucs.com^
+@@||s3.bd.bcebos.com^
+@@||s3.bj.bcebos.com^
 @@||s3.cn-east-1.qiniucs.com^
 @@||s3.cn-east-2.qiniucs.com^
 @@||s3.cn-north-1.qiniucs.com^
 @@||s3.cn-south-1.qiniucs.com^
+@@||s3.fwh.bcebos.com^
+@@||s3.gz.bcebos.com^
+@@||s3.hkg.bcebos.com^
 @@||s3.meituan.net^
 @@||s3.pstatp.com^
+@@||s3.su.bcebos.com^
 @@||s3.us-north-1.qiniucs.com^
 @@||s3.voicecloud.cn^
 @@||s3plus-img.meituan.net^
@@ -9933,6 +9939,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.01fwzb.com^
 ||*.04kai.org^
 ||*.0lzf11.com^
+||*.0n6bkk.com^
 ||*.1l036o.com^
 ||*.233leyuan.cn^
 ||*.233leyuan.com^
@@ -9970,6 +9977,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.b5gvpk5.com^
 ||*.beizi.biz^
 ||*.bg3partner.fun^
+||*.bg4f8d.com^
 ||*.bgbjjtd.com^
 ||*.bidjora.com^
 ||*.bjmantis.net^
@@ -9980,15 +9988,18 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.cknr6y.com^
 ||*.cmgadx.com^
 ||*.cru0xr.com^
+||*.ctk4xy.com^
 ||*.cyfupnq.com^
 ||*.diwodiwo.xyz^
 ||*.dmcduio.com^
 ||*.dox3xs.com^
 ||*.dtsmndu.com^
+||*.duzehc.com^
 ||*.dvagh.com^
 ||*.dw9541.com^
 ||*.eavztdi.com^
 ||*.ecjkox.com^
+||*.ed1m24.com^
 ||*.emsxev.xyz^
 ||*.eoxwr.com^
 ||*.evqvxuq.com^
@@ -9996,6 +10007,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.f1k4eil.xyz^
 ||*.f5o640.com^
 ||*.fenqile.com^
+||*.ffbrp6.com^
+||*.firqacv.com^
 ||*.fiu07051kl.com^
 ||*.fohbgjv.com^
 ||*.fokm37.cn^
@@ -10006,6 +10019,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.gdt.qq.com^
 ||*.giqnyl.cn^
 ||*.guanaibao.com^
+||*.h6jv1o.com^
 ||*.hrdhej.xyz^
 ||*.hubcloud.com.cn^
 ||*.hychwg.cyou^
@@ -10039,8 +10053,10 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.mvepu.com^
 ||*.myug4s.com^
 ||*.n8pnux.com^
+||*.nenwarj.com^
 ||*.njp878.com^
 ||*.npupn.com^
+||*.nq6wh1.com^
 ||*.nrb.footprintdns.com^
 ||*.nsspfqp.xyz^
 ||*.nswsu.com^
@@ -10096,6 +10112,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.wknij.com^
 ||*.wy2qq.top^
 ||*.x586di.com^
+||*.x7jy10.com^
 ||*.xiangde.top^
 ||*.xpj2443430.cc^
 ||*.xqojux.xyz^
@@ -10105,6 +10122,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.y80iwf.cyou^
 ||*.ydxdg.xyz^
 ||*.yinghua-*.cc^
+||*.yyutfzv.com^
 ||*.yzbpjz.com^
 ||*.yzdx66.com^
 ||*.z9ehxz.com^
@@ -15559,6 +15577,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dm50.yxlady.com^
 ||dmacore.kejet.com^
 ||dmacore.kejet.net^
+||dmaoaikufn2.com^
 ||dmapp.youku.com^
 ||dmd.metaservices.microsoft.com^
 ||dme.lchzwz.com^
@@ -17082,6 +17101,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||gjipd.xyz^
 ||gjkame6.com^
 ||gjreg.code.weddingeeos.com^
+||gjt6z9wga.com^
 ||gjtrack.uc.cn^
 ||gkjmev3.com^
 ||gknybkl.cn^
@@ -17125,6 +17145,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||godni.xyz^
 ||goeyxwhp.site^
 ||gog9.qzdfc.com^
+||gohgn02111la.com^
 ||goikbnjksdf.com^
 ||goingsranchange.com^
 ||golden1.sogou.com^
@@ -18523,6 +18544,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||j17.xiumu.cn^
 ||j1u9nlr3k.cc^
 ||j3.jtezxmpb.xyz^
+||j3818xx.cc^
 ||j520s.gzcl999.cn^
 ||j5z.cn.w.kunlunaq.com^
 ||j5z.cn^
@@ -22270,6 +22292,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||pp.sxjkc.cn^
 ||pp2.dhzw.org^
 ||pp2.pptv.com^
+||pp3381a.cc^
 ||pp9899.com^
 ||ppedp.cn^
 ||ppezijkacga.com^
