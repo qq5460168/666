@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-02-17 10:00:23（北京时间）
+! Version: 2026-02-17 21:00:41（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 27792
+! Total count: 27789
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -6713,7 +6713,6 @@
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 423down.com##LI.item:has(.sticky-post)
-429: Too Many Requests
 45.116.79.187 ads.api.fakeloc.cc
 45.116.79.187 api.fakeloc.cc
 45.116.79.187 av1.xdrig.com
@@ -9499,8 +9498,6 @@
 @@||zmde.yijoys.com^
 @@||zodgame.xyz^
 @@||ztgame.com^
-For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).! Description: 反馈群538268498
-For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).![个人收集 2.0]
 Mplay/kk1.js
 _/bigREDcat.css?
 _/bigREDdog.js
