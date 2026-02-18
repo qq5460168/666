@@ -1,9 +1,9 @@
 # Title: Clash Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-02-18 09:54:52（北京时间）
-# Clash规则数量: 16769
-! Total count: 16769
+# Last Updated: 2026-02-18 13:01:48（北京时间）
+# Clash规则数量: 16773
+! Total count: 16773
 rules:
   - DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
   - DOMAIN-SUFFIX,0.r.msn.com,REJECT
@@ -5134,10 +5134,12 @@ rules:
   - DOMAIN-SUFFIX,dns.jd.com,REJECT
   - DOMAIN-SUFFIX,dns.qiyipic.iqiyi.com,REJECT
   - DOMAIN-SUFFIX,dns.qq.com,REJECT
+  - DOMAIN-SUFFIX,dns.wechat.com,REJECT
   - DOMAIN-SUFFIX,dns.weibo.cn,REJECT
   - DOMAIN-SUFFIX,dns.weixin.qq.com,REJECT
   - DOMAIN-SUFFIX,dns.weixin.qq.com.cn,REJECT
   - DOMAIN-SUFFIX,dns2.q2cdn.com,REJECT
+  - DOMAIN-SUFFIX,dns2.titannetwork.cn,REJECT
   - DOMAIN-SUFFIX,dnvus.com,REJECT
   - DOMAIN-SUFFIX,dnyzbp.cn,REJECT
   - DOMAIN-SUFFIX,dnzmhr.xyz,REJECT
@@ -7206,6 +7208,7 @@ rules:
   - DOMAIN-SUFFIX,httpdns.calorietech.com,REJECT
   - DOMAIN-SUFFIX,httpdns.cctv.com,REJECT
   - DOMAIN-SUFFIX,httpdns.danuoyi.tbcache.com,REJECT
+  - DOMAIN-SUFFIX,httpdns.gslb.yy.com,REJECT
   - DOMAIN-SUFFIX,httpdns.huaweicloud.com,REJECT
   - DOMAIN-SUFFIX,httpdns.kg.qq.com,REJECT
   - DOMAIN-SUFFIX,httpdns.kwd.inkuai.com,REJECT
@@ -9208,6 +9211,7 @@ rules:
   - DOMAIN-SUFFIX,logger.qingting.fm,REJECT
   - DOMAIN-SUFFIX,logger.treexml.baofeng.com,REJECT
   - DOMAIN-SUFFIX,loggw.alipay.com.cn,REJECT
+  - DOMAIN-SUFFIX,loggw.alipaydns.com,REJECT
   - DOMAIN-SUFFIX,lognew.cloooud.com,REJECT
   - DOMAIN-SUFFIX,logonext.tv.kuyun.com,REJECT
   - DOMAIN-SUFFIX,logos.kiwibrowser.com,REJECT

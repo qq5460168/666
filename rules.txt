@@ -2,22 +2,10 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-02-18 17:54:53（北京时间）
+! Version: 2026-02-18 21:01:49（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 32786
+! Total count: 32768
 
-    <h1>Error 503 between bytes timeout</h1>
-    <h3>Error 54113</h3>
-    <hr>
-    <p>Details: cache-chi-kigq8000047-CHI 1771408490 3719886641</p>
-    <p>Varnish cache server</p>
-    <p>between bytes timeout</p>
-    <title>503 between bytes timeout</title>
-  </body>
-  </head>
-  <body>
-  <head>
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
 *-ad.wtzw.com*
@@ -11733,10 +11721,6 @@
 :8008/*/*?is_not=
 :8891/v*$third-party
 ::1 ip6-localhost
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-</html>
-<?xml version="1.0" encoding="utf-8"?>
-<html>
 ?adspot_
 ?local_ga_js=
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -14603,8 +14587,6 @@ dingbu.*.*.*/*.add$third-party
 dingbu.*.*.com/dingbu.$third-party
 dm530p.net##DIV[style$='; display: block;']
 dmzj.com##div[class*="float_code"]
-dns.wechat.com
-dns2.titannetwork.cn
 docin.com##.moneyBox
 dongmanhuayuan.myheartsite.com##.card-body
 douban.com##IFRAME[width='315']
@@ -14635,9 +14617,6 @@ hax.co.id#@#.ad-wrapper
 heiliao346.pro###post-card-1234,#post-card-518,#post-card-1000,#post-card-666,#post-card-1588,#post-card-1555,#post-card-1118,#post-card-618,#post-card-888,#post-card-999
 hentaicomic.ru#@#.Flagrow-Ads-under-header
 hentaicomic.ru#@#.pcd_ad
-httpdns.bilivideo.com
-httpdns.gslb.yy.com
-httpdns.meituan.com
 huya.com###J_adBnM > img:last-child
 huya.com###J_liveListHeader > div.liveList-BusinessGame:last-child
 huya.com###matchComponent4
@@ -14684,7 +14663,6 @@ juejin.cn###juejin > div.view-container.container:first-child > main.container.m
 juejin.cn###juejin > div.view-container.container:first-child > main.container.main-container.with-view-nav:last-child > div.view.timeline-index-view > div.timeline-container:last-child > div.timeline-content > aside.index-aside.aside:last-child > div.sidebar-block.banner-block:nth-child(2)
 juejin.cn###juejin > div.view-container.container:first-child > main.container.main-container.with-view-nav:last-child > div.view.timeline-index-view > div.timeline-container:last-child > div.timeline-content > aside.index-aside.aside:last-child > div.sidebar-block.banner-block:nth-child(3)
 juejin.cn##.extension
-loggw.alipaydns.com
 luoqiuzw.com##DIV[id^="a-loading-"]
 m.autohome.com.cn##section > ol
 m.guancha.cn##.g_header.go-to-app
@@ -20603,11 +20581,13 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||dns.jd.com^
 ||dns.qiyipic.iqiyi.com^
 ||dns.qq.com^
+||dns.wechat.com^
 ||dns.weibo.cn^
 ||dns.weixin.qq.com*^
 ||dns.weixin.qq.com.cn^
 ||dns.weixin.qq.com^
 ||dns2.q2cdn.com^
+||dns2.titannetwork.cn^
 ||dnvus.com^
 ||dnyzbp.cn^
 ||dnzmhr.xyz^
@@ -22753,6 +22733,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||httpdns.calorietech.com^
 ||httpdns.cctv.com^
 ||httpdns.danuoyi.tbcache.com^
+||httpdns.gslb.yy.com^
 ||httpdns.huaweicloud.com^
 ||httpdns.kg.qq.com^
 ||httpdns.kwd.inkuai.com^
@@ -24848,6 +24829,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||logger.qingting.fm^
 ||logger.treexml.baofeng.com^
 ||loggw.alipay.com.cn^
+||loggw.alipaydns.com^
 ||lognew.cloooud.com^
 ||logonext.tv.kuyun.com^
 ||logos.kiwibrowser.com^

@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-02-18 17:54:53（北京时间）
+! Version: 2026-02-18 21:01:49（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16773
+! Total count: 16777
 # AdClose 专用广告规则
-# 生成时间: 2026-02-18 09:54:52（北京时间）
+# 生成时间: 2026-02-18 13:01:48（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -5137,10 +5137,12 @@ domain, dnrf0215.com
 domain, dns.jd.com
 domain, dns.qiyipic.iqiyi.com
 domain, dns.qq.com
+domain, dns.wechat.com
 domain, dns.weibo.cn
 domain, dns.weixin.qq.com
 domain, dns.weixin.qq.com.cn
 domain, dns2.q2cdn.com
+domain, dns2.titannetwork.cn
 domain, dnvus.com
 domain, dnyzbp.cn
 domain, dnzmhr.xyz
@@ -7209,6 +7211,7 @@ domain, httpdns.c.cdnhwc2.com
 domain, httpdns.calorietech.com
 domain, httpdns.cctv.com
 domain, httpdns.danuoyi.tbcache.com
+domain, httpdns.gslb.yy.com
 domain, httpdns.huaweicloud.com
 domain, httpdns.kg.qq.com
 domain, httpdns.kwd.inkuai.com
@@ -9211,6 +9214,7 @@ domain, logger.baofeng.com
 domain, logger.qingting.fm
 domain, logger.treexml.baofeng.com
 domain, loggw.alipay.com.cn
+domain, loggw.alipaydns.com
 domain, lognew.cloooud.com
 domain, logonext.tv.kuyun.com
 domain, logos.kiwibrowser.com
