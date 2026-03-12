@@ -1,9 +1,9 @@
 # Title: Shadowrocket Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-03-12 02:00:02（北京时间）
-# Shadowrocket规则数量: 16772
-! Total count: 16772
+# Last Updated: 2026-03-12 12:57:17（北京时间）
+# Shadowrocket规则数量: 16775
+! Total count: 16775
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -623,6 +623,7 @@ DOMAIN-SUFFIX,644446.com,REJECT
 DOMAIN-SUFFIX,649558.com,REJECT
 DOMAIN-SUFFIX,64si.com,REJECT
 DOMAIN-SUFFIX,65432.pw,REJECT
+DOMAIN-SUFFIX,65487496.xyz,REJECT
 DOMAIN-SUFFIX,654mmm.com,REJECT
 DOMAIN-SUFFIX,65564535.com,REJECT
 DOMAIN-SUFFIX,660pxbm.top,REJECT
@@ -5779,6 +5780,7 @@ DOMAIN-SUFFIX,ems.youku.com,REJECT
 DOMAIN-SUFFIX,emss.zjhim.com,REJECT
 DOMAIN-SUFFIX,en.shenyun.com,REJECT
 DOMAIN-SUFFIX,en.shenyun.org,REJECT
+DOMAIN-SUFFIX,endlesshandbaglinked.com,REJECT
 DOMAIN-SUFFIX,endowmentoverhangutmost.com,REJECT
 DOMAIN-SUFFIX,endpoint.zhuishushenqi.com,REJECT
 DOMAIN-SUFFIX,enennsa.gushiwen.cn,REJECT
@@ -10951,6 +10953,7 @@ DOMAIN-SUFFIX,oqyiapj.cn,REJECT
 DOMAIN-SUFFIX,orange-dc.youku.com,REJECT
 DOMAIN-SUFFIX,orchidscape.net,REJECT
 DOMAIN-SUFFIX,oredero.com,REJECT
+DOMAIN-SUFFIX,orqmimfug.in,REJECT
 DOMAIN-SUFFIX,ort-stsdk.vivo.com.cn,REJECT
 DOMAIN-SUFFIX,ort.stsdk.vivo.com.cn,REJECT
 DOMAIN-SUFFIX,ortc.cc,REJECT

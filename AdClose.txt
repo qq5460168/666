@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-03-12 10:00:03（北京时间）
+! Version: 2026-03-12 20:57:18（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16776
+! Total count: 16779
 # AdClose 专用广告规则
-# 生成时间: 2026-03-12 02:00:02（北京时间）
+# 生成时间: 2026-03-12 12:57:17（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -627,6 +627,7 @@ domain, 644446.com
 domain, 649558.com
 domain, 64si.com
 domain, 65432.pw
+domain, 65487496.xyz
 domain, 654mmm.com
 domain, 65564535.com
 domain, 660pxbm.top
@@ -5783,6 +5784,7 @@ domain, ems.youku.com
 domain, emss.zjhim.com
 domain, en.shenyun.com
 domain, en.shenyun.org
+domain, endlesshandbaglinked.com
 domain, endowmentoverhangutmost.com
 domain, endpoint.zhuishushenqi.com
 domain, enennsa.gushiwen.cn
@@ -10955,6 +10957,7 @@ domain, oqyiapj.cn
 domain, orange-dc.youku.com
 domain, orchidscape.net
 domain, oredero.com
+domain, orqmimfug.in
 domain, ort-stsdk.vivo.com.cn
 domain, ort.stsdk.vivo.com.cn
 domain, ortc.cc
