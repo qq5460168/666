@@ -1,9 +1,9 @@
 # Title: Clash Meta规则
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-03-15 12:50:50（北京时间）
-# Clash Meta规则数量: 16777
-! Total count: 16777
+# Last Updated: 2026-03-16 02:13:34（北京时间）
+# Clash Meta规则数量: 16774
+! Total count: 16774
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -4866,7 +4866,6 @@ payload:
   - 'de.as.pptv.com'
   - 'de.dzribao.com'
   - 'de.ioam.de'
-  - 'de.pandora.xiaomi.com'
   - 'de.tynt.com'
   - 'deals.ledgertranscript.com'
   - 'debugreport.mobiledissector.com'
@@ -11593,7 +11592,6 @@ payload:
   - 'psb.lenovomm.com'
   - 'psfq.gou.sogou.com'
   - 'psma02.com'
-  - 'pss.alicdn.com'
   - 'pstun.kugou.com'
   - 'pstvvb.xyz'
   - 'ptauxofi.net'
@@ -13292,7 +13290,6 @@ payload:
   - 'stat.v.17173.com'
   - 'stat.xgo.com.cn'
   - 'stat.xiaomi.com'
-  - 'stat.youku.com'
   - 'stat.youpin.mi.com'
   - 'statcounter.com'
   - 'stathat.com'
