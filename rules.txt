@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-03-22 13:43:37（北京时间）
+! Version: 2026-03-22 20:48:38（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 33007
+! Total count: 33031
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -11834,6 +11834,7 @@
 @@||account.agiso.com^
 @@||account.dianping.com^
 @@||account.oppo.com^
+@@||account.realme.com^
 @@||account.vivo.com^
 @@||account.wps.cn^
 @@||account.xfinfr.com^
@@ -11975,6 +11976,7 @@
 @@||api.pxb7.com^
 @@||api.pzds.com^
 @@||api.qiniu.com^
+@@||api.realme.com^
 @@||api.revenuecat.com^
 @@||api.revved.com^
 @@||api.rikka.app^
@@ -12071,6 +12073,7 @@
 @@||auditude.com^
 @@||auth.huaweicloud.com^
 @@||auth.icloud.com^
+@@||auth.realme.com^
 @@||auth.wosms.cn^
 @@||auth.zijieapi.com^
 @@||avatar.bdstatic.com^
@@ -12299,6 +12302,7 @@
 @@||cloud.huawei.com^
 @@||cloud.oneplus.com^
 @@||cloud.oppo.com^
+@@||cloud.realme.com^
 @@||cloud.video.taobao.com^
 @@||cloudcache.tencent-cloud.cn^
 @@||cloudcontrol.live.360.cn^
@@ -12654,6 +12658,7 @@
 @@||finderpdd.video.qq.com^
 @@||findphone.vivo.com.cn^
 @@||fino.svc.litv.tv^
+@@||firmware.realme.com^
 @@||flash.sec.intl.miui.com^
 @@||flash.sec.miui.com^
 @@||flowus.cn^
@@ -12872,6 +12877,7 @@
 @@||id.mail.wo.cn^
 @@||id.mi.com^
 @@||id.oneplus.com^
+@@||id.realme.com^
 @@||id1.cloud.huawei.com^
 @@||id6.me^
 @@||idmb.register.xmpush.global.xiaomi.com^
@@ -13150,6 +13156,7 @@
 @@||log.heytap.com^
 @@||log.map.baidu.com^
 @@||log.oppo.com^
+@@||log.realme.com^
 @@||log.snssdk.com^
 @@||log.vivo.com^
 @@||log1.cmpassport.com^
@@ -13391,6 +13398,7 @@
 @@||msedown.360safe.com^
 @@||msfwifi.3g.qq.com^
 @@||msg.douyu.com^
+@@||msg.realme.com^
 @@||msg.video.qiyi.com^
 @@||msg.vivo.com^
 @@||msgacs.cn-zhangjiakou.aliyuncs.com^
@@ -13520,6 +13528,7 @@
 @@||ota.coloros.com^
 @@||ota.oneplus.com^
 @@||ota.oppo.com^
+@@||ota.realme.com^
 @@||ota.tv.xiaomi.com^
 @@||ota.vivo.com^
 @@||otheve.beacon.qq.com^
@@ -13662,6 +13671,7 @@
 @@||pay.heytap.com^
 @@||pay.openspeech.cn^
 @@||pay.oppo.com^
+@@||pay.realme.com^
 @@||pay.weixin.qq.com^
 @@||payapp.weixin.qq.com^
 @@||paydns.wechatpay.cn^
@@ -13772,6 +13782,7 @@
 @@||push.m.youku.com^
 @@||push.oppo.com^
 @@||push.oray.com^
+@@||push.realme.com^
 @@||push.vivo.com^
 @@||push1.91cloud.net^
 @@||puui.qpic.cn^
@@ -13864,9 +13875,11 @@
 @@||resolver*mi.com^
 @@||resolver.gslb.mi-idc.com^
 @@||resolver.msg.xiaomi.net^
+@@||resource.realme.com^
 @@||restapi.amap.com^
 @@||richmedia.video.qq.com^
 @@||rls.tapimg.com^
+@@||rom.realme.com^
 @@||router.ctc.lan^
 @@||rs.xmeye.net^
 @@||ru.register.xmpush.global.xiaomi.com^
@@ -13947,6 +13960,7 @@
 @@||sec.resource.xiaomi.net^
 @@||secrets.icloud.com^
 @@||securemetrics.apple.com^
+@@||security.realme.com^
 @@||security.vivo.com^
 @@||self.events.data.microsoft.com^
 @@||sentry.zhuanzhuan.com^
@@ -14039,6 +14053,7 @@
 @@||stat.api.4399.com^
 @@||stat.dangbei.com^
 @@||stat.funshion.com^
+@@||stat.realme.com^
 @@||stat.vivo.com^
 @@||stat.y.qq.com^
 @@||stat.youku.com^
@@ -14101,7 +14116,9 @@
 @@||store.heytapimage.com^
 @@||store.is.autonavi.com^
 @@||store.meizu.com^
+@@||store.oppo.com^
 @@||store.oppomobile.com^
+@@||store.realme.com^
 @@||store.steamchina.com^
 @@||store.steamchina.queniuam.com^
 @@||store.steampowered.com^
@@ -14180,6 +14197,7 @@
 @@||theme.heytap.com^
 @@||theme.heytapimage.com^
 @@||theme.oppo.com^
+@@||theme.realme.com^
 @@||theporndude.com^
 @@||thirdqq.qlogo.cn^
 @@||thirdwx.qlogo.cn^
@@ -14271,6 +14289,8 @@
 @@||update.360safe.com^
 @@||update.coloros.com^
 @@||update.hicloud.com^
+@@||update.oppo.com^
+@@||update.realme.com^
 @@||update.tv.xiaomi.com^
 @@||update.vivo.com^
 @@||updateinfo.market.xiaomi.com^
@@ -14295,6 +14315,7 @@
 @@||url.163.com^
 @@||urswebzj.nosdn.127.net^
 @@||user.e.189.cn^
+@@||user.realme.com^
 @@||user1.game.qq.com^
 @@||uxip.meizu.com^
 @@||uzzf.com^
@@ -14355,6 +14376,7 @@
 @@||vectorsdk.map.qq.com^
 @@||venus.yhd.com^
 @@||verify.cmpassport.com^
+@@||verify.realme.com^
 @@||verify.snssdk.com^
 @@||verify.vivo.com^
 @@||verify.zijieapi.com^
@@ -14399,8 +14421,10 @@
 @@||waapdg.jd.com^
 @@||waimai-guide.ele.me^
 @@||wallet.heytap.com^
+@@||wallet.realme.com^
 @@||wallpaper.cdn.pandora.xiaomi.com^
 @@||wallpaper.heytap.com^
+@@||wallpaper.realme.com^
 @@||wallpaperm.cmcm.com^
 @@||wan.baidu.com^
 @@||wan.douyu.com^
