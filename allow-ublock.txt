@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-03-22 10:06:06（北京时间）
+! Version: 2026-03-22 13:43:37（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2715
+! Total count: 2884
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-03-22 10:06:06（北京时间）
-# 总域名数: 2709
+# 生成时间: 2026-03-22 13:43:37（北京时间）
+# 总域名数: 2878
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -42,7 +42,27 @@ a.9game.cn
 a.game.163.com
 a.video.qq.com
 a0.app.xiaomi.com
+a1.mzstatic.com
 a1.qpic.cn
+a10.mzstatic.com
+a11.mzstatic.com
+a12.mzstatic.com
+a13.mzstatic.com
+a14.mzstatic.com
+a15.mzstatic.com
+a16.mzstatic.com
+a17.mzstatic.com
+a18.mzstatic.com
+a19.mzstatic.com
+a2.mzstatic.com
+a20.mzstatic.com
+a3.mzstatic.com
+a4.mzstatic.com
+a5.mzstatic.com
+a6.mzstatic.com
+a7.mzstatic.com
+a8.mzstatic.com
+a9.mzstatic.com
 abbott.iqiyi.com
 about.gitlab.cn
 about.gitlab.com
@@ -56,6 +76,8 @@ ac.dun.163yun.com
 access1.tpns.tencent.com
 account.agiso.com
 account.dianping.com
+account.oppo.com
+account.vivo.com
 account.wps.cn
 account.xfinfr.com
 account.xiaomi.com
@@ -127,6 +149,7 @@ android-artworks.25pp.com
 android.bugly.qq.com
 animerep.com
 annas-archive.org
+antivirus.vivo.com
 anythinktech.com
 aod.cos.tx.xmcdn.com
 ap.6wz.co
@@ -158,6 +181,7 @@ api.bilibili.com
 api.cc.163.com
 api.cloud.189.cn
 api.cloud.huawei.com
+api.coloros.com
 api.comm.miui.com
 api.coolapk.com
 api.coolapk1s.com
@@ -168,7 +192,9 @@ api.device.xiaomi.net
 api.ds.163.com
 api.extscreen.com
 api.flash.cn
+api.heytap.com
 api.huangye.miui.com
+api.icloud.com
 api.io.mi.com
 api.iplay.163.com
 api.jdl.cn
@@ -187,15 +213,19 @@ api.miui.security.xiaomi.com
 api.miwifi.com
 api.neixin.cn
 api.open.uc.cn
+api.oppo.com
 api.pinduoduo.com
+api.push.apple.com
 api.pxb7.com
 api.pzds.com
 api.qiniu.com
 api.revenuecat.com
 api.revved.com
 api.rikka.app
+api.sandbox.push.apple.com
 api.sec.intl.miui.com
 api.sec.miui.com
+api.smoot.apple.com
 api.tencentmusic.com
 api.tiantiantiaosheng.com
 api.toutiaoapi.com
@@ -209,6 +239,7 @@ api.unipay.qq.com
 api.vc.bilibili.com
 api.video.xiaomi.com
 api.vip.miui.com
+api.vivo.com
 api.weathercn.com
 api.x.com
 api.youku.com
@@ -246,14 +277,20 @@ appconf.heytapdownload.com
 appdl-1-drcn.dbankcdn.com
 appdl-2-drcn.dbankcdn.com
 appdownload.alicdn.com
+appgallery.hicloud.com
 appgoad.189.cn
 appimg-drcn.dbankcdn.com
 appimg.dbankcdn.com
+appldnld.apple.com
+appleid.apple.com
 applog.lc.quark.cn
 appmsg.gzmtr.cn
+apps.apple.com
 apps.game.qq.com
 appsec-mobile.meituan.com
+appstore.heytap.com
 appstore.pandora.xiaomi.com
+appstore.vivo.com
 appsupport.qq.com
 aps.amap.com
 aq.qq.com
@@ -280,6 +317,7 @@ audiopay.pcdn.xmcdn.com
 audiopaydl.pcdn.xmcdn.com
 auditude.com
 auth.huaweicloud.com
+auth.icloud.com
 auth.wosms.cn
 auth.zijieapi.com
 avatar.bdstatic.com
@@ -296,6 +334,7 @@ b.bdstatic.com
 b3log.org
 b3logfile.com
 bad.news
+bag.itunes.apple.com
 baijiahao.baidu.com
 baike.baidu.com
 baike.so.com
@@ -308,6 +347,7 @@ bce.baidu.com
 bcelive.com
 bd1.zuimeitianqi.com
 bd2.zuimeitianqi.com
+bds.map.baidu.com
 bdsmtest.org
 bdsmtv.cc
 beacon-api.aliyuncs.com
@@ -346,6 +386,7 @@ browser.pipe.aria.microsoft.com
 bs-origin.pull.yximgs.com
 btrace.qq.com
 bucket-ynote-online-cdn.note.youdao.com
+buy.itunes.apple.com
 bytedanceapi.com
 byteimg.com.queniusy.com
 c.58cdn.com.cn
@@ -362,6 +403,7 @@ c1.skype.com
 cache.ip138.com
 cache.video.iqiyi.com
 cainiao-app-logs.cn-zhangjiakou.log.aliyuncs.com
+calendars.icloud.com
 callback.58.com
 campus.163.com
 captcha-gray.zt.kuaishou.com
@@ -392,9 +434,11 @@ cdn.bootcdn.net
 cdn.cnbj1.fds.api.mi-img.com
 cdn.deepseek.com
 cdn.ferrari.com
+cdn.heytap.com
 cdn.iocdn.cc
 cdn.jsdelivr.net
 cdn.myhuaweicloud.com
+cdn.oppo.com
 cdn.pandora.xiaomi.com
 cdn.pinduoduo.com
 cdn.ping0.cc
@@ -402,6 +446,7 @@ cdn.plyr.io
 cdn.staticfile.org
 cdn.tiantiantiaosheng.com
 cdn.ui.porsche.com
+cdn.vivo.com
 cdn.web-global.fds.api.mi-img.com
 cdn.webclicks24.com
 cdn.wtzw.com
@@ -425,6 +470,7 @@ changjiang.yuketang.cn
 channel.shouji.sogou.com
 channels.weixin.qq.com
 chat.deepseek.com
+checkcoverage.apple.com
 chrome-infra-packages.appspot.com
 ci.xiaohongshu.com
 cibntv.net
@@ -492,6 +538,10 @@ clients.l.google.com
 clients1.google.com
 clients4.google.com
 clips4sale.com
+cloud.heytap.com
+cloud.huawei.com
+cloud.oneplus.com
+cloud.oppo.com
 cloud.video.taobao.com
 cloudcache.tencent-cloud.cn
 cloudcontrol.live.360.cn
@@ -539,6 +589,7 @@ console-intl.huaweicloud.com
 console.cloud.tencent.com
 console.huaweicloud.com
 consumerapp-1251779293.image.myqcloud.com
+contacts.icloud.com
 content-autofill.googleapis.com
 contentcenter-vali-drcn.dbankcdn.com
 coolapk-oss-image.oss-cn-hangzhou.aliyuncs.com
@@ -566,6 +617,7 @@ cos.na-siliconvalley.myqcloud.com
 cos.sa-saopaulo.myqcloud.com
 count.mail.163.com
 counter-strike.net
+courier.push.apple.com
 cp2-cdn-play.funshion.com
 cps.kaola.com
 cpu.baidu.com
@@ -575,6 +627,11 @@ cre.dp.sina.cn
 credit-cdn.heytap.com
 credit-jfimage-cn.heytapimage.com
 credit.heytap.com
+crl.apple.com
+crl.entrust.net
+crl.verisign.com
+crl3.apple.com
+crl4.apple.com
 cros-updates-serving.appspot.com
 csi.gstatic.com
 css.tv.itc.cn
@@ -604,6 +661,7 @@ data.mistat.intl.xiaomi.com
 data.mistat.xiaomi.com
 data.sec.miui.com
 data.services.jetbrains.com
+data.vivo.com
 data.vod.itc.cn
 dataprajna.net
 dc.services.visualstudio.com
@@ -626,6 +684,7 @@ dfcfw.com
 dftoutiao.com
 dg.k.jd.com
 di.phncdn.com
+diagnose.vivo.com
 dianfeijisuanqi.bmcx.com
 dig.bdurl.net
 dig.lianjia.com
@@ -641,6 +700,7 @@ dj.1688.com
 dl.360safe.com
 dl.delivery.mp.microsoft.com
 dl.hdslb.com
+dl.hicloud.com
 dl.listary.net
 dl.reg.163.com
 dldir1.qq.com
@@ -681,7 +741,9 @@ download.alicdn.com
 download.bitcomet.com
 download.dangbei.com
 download.deepseek.com
+download.heytap.com
 download.jetbrains.com
+download.oppo.com
 download.pinduoduo.com
 download.uc.cn
 download.voicecloud.cn
@@ -698,6 +760,7 @@ dragate.dc.oppomobile.com
 dreport.meituan.net
 drive-h.quark.cn
 drive-pc.quark.cn
+drive.huawei.com
 drive.quark.cn
 drive.uc.cn
 ds.163.com
@@ -816,13 +879,16 @@ file.neixin.cn
 file.xiaomi.com
 file.xmpush.xiaomi.com
 file2.speedtest.cn
+files.icloud.com
 find.api.micloud.xiaomi.net
 finderpdd.video.qq.com
+findphone.vivo.com.cn
 fino.svc.litv.tv
 flash.sec.intl.miui.com
 flash.sec.miui.com
 flowus.cn
 flydigi.com
+fmip.icloud.com
 fonts.googleapis.com
 fonts.gstatic.com
 foundation.youdao.com
@@ -857,12 +923,14 @@ galleryapi.micloud.xiaomi.net
 game.163.com
 game.bilibili.com
 game.gtimg.cn
+game.heytap.com
 game.html5.qq.com
 game.qidian.com
 game.res.meizu.com
 game.weixin.qq.com
 game.xiaomi.com
 gamebanana.com
+gamecenter.vivo.com
 gameimg.qidian.com
 games-community-gl.heytapmobile.com
 games.mobileapi.hupu.com
@@ -871,6 +939,7 @@ gateway.kugou.com
 gator.volces.com
 gcable.com.cn
 gdfp.gifshow.com
+gdmf.apple.com
 gdown.baidu.com
 gdtimg.com
 gecko.zijieapi.com
@@ -907,8 +976,12 @@ gql-fed.reddit.com
 graph.qq.com
 groupprohead.gtimg.cn
 grpc.biliapi.net
+gs-loc.apple.com
+gs.apple.com
 gsp0.baidu.com
+gsp1.apple.com
 gsp1.baidu.com
+gsp55-apple-com.akamaized.net
 gstatic.com
 gtimg.wechatpay.cn
 gtms03.alicdn.com
@@ -1007,6 +1080,7 @@ i.sso.sina.com.cn
 i.tancdn.com
 i.tantanapp.com
 i.tianqi.com
+i.vivo.com.cn
 i.ytimg.com
 i0.hdslb.com
 i1.hdslb.com
@@ -1024,10 +1098,14 @@ ic.snssdk.com
 ichnaea-web.netflix.com
 icws.jb51.net
 id.163.com
+id.heytap.com
 id.mail.wo.cn
 id.mi.com
+id.oneplus.com
+id1.cloud.huawei.com
 id6.me
 idmb.register.xmpush.global.xiaomi.com
+idmsa.apple.com
 ietheivaicai.com
 iface2.iqiyi.com
 ifdian.net
@@ -1110,6 +1188,7 @@ inews.gtimg.com
 info.zb.qq.com
 info.zuimeitianqi.com
 ingest.sentry.io
+init.itunes.apple.com
 inporn.com
 input.shouji.sogou.com
 inr-op.elemecdn.com
@@ -1148,6 +1227,8 @@ isure.stream.qqmusic.qq.com
 item.taobao.com
 iteye.com
 itop.qq.com
+its.map.baidu.com
+itunes.apple.com
 iv-h.phncdn.com
 iwx.mail.qq.com
 j.gamersky.com
@@ -1209,7 +1290,9 @@ laohuangli.bmcx.com
 laomaotao.net
 laowang.vip
 laowangappb93ibiu.cihiu487giuew87lk.xyz
+lbs.map.baidu.com
 lc-cn-n1-shared.com
+lcdn-locator.apple.com
 ld246.com
 learn.scriptcat.org
 lebo.cn
@@ -1275,11 +1358,16 @@ lmlicenses.wip4.adobe.com
 loadingbaycn.webapp.163.com
 loc.map.baidu.com
 localads.chengzijianzhan.cn
+location.heytap.com
 lockororder.netlify.app
 log-api.pangolin-sdk-toutiao-b.com
 log-api.pangolin-sdk-toutiao.com
 log-upload.mihoyo.com
+log.heytap.com
+log.map.baidu.com
+log.oppo.com
 log.snssdk.com
+log.vivo.com
 log1.cmpassport.com
 log5-applog-lf.fqnovel.com
 log5-applog.fqnovel.com
@@ -1367,6 +1455,7 @@ mac.xunlei.com
 mai.91kami.com
 mai.pinduoduo.com
 mail.163.com
+mail.icloud.com
 mail.qq.com
 main.m.taobao.com
 mairuan.com
@@ -1383,11 +1472,18 @@ manus.monica.cn
 manwa.fun
 manwa.me
 manwac.xyz
+map.baidu.com
+map.bdimg.com
 map.bmcx.com
 map.qq.com
+mapdata.bdimg.com
+mapdata.map.baidu.com
 mapi.m.jd.com
+mapjs.map.baidu.com
+mapv.baidu.com
 market.cloud.tencent.com
 market.dangbei.com
+market.heytap.com
 market.m.taobao.com
 market.mi-img.com
 market.waimai.meituan.com
@@ -1424,7 +1520,10 @@ member.bilibili.com
 member.jiaoyimao.com
 members.bitcomet.com
 message.bilibili.com
+mesu.apple.com
 metok.sys.miui.com
+metrics.apple.com
+metrics.icloud.com
 metrics1-drcn.dt.dbankcloud.cn
 mgbsdk.matrix.netease.com
 mi-img.com
@@ -1508,6 +1607,7 @@ msedown.360safe.com
 msfwifi.3g.qq.com
 msg.douyu.com
 msg.video.qiyi.com
+msg.vivo.com
 msgacs.cn-zhangjiakou.aliyuncs.com
 msgacs.m.taobao.com
 msn.yidianzixun.com
@@ -1518,6 +1618,7 @@ mumu.163.com
 music.163.com
 mv6.music.tc.qq.com
 mvconf.f.360.cn
+mvod.itunes.apple.com
 mwappimgs.cc
 mwfimsvfast2.cc
 mwfimsvfast3.cc
@@ -1559,6 +1660,8 @@ njavtv.com
 nmobi.kuwo.cn
 noodlemagazine.com
 north-plus.net
+notes.icloud.com
+notification.vivo.com
 novelfm.changdunovel.com
 novelfm.zlink.toutiao.com
 now.bdstatic.com
@@ -1602,11 +1705,14 @@ obs.ru-northwest-2.myhuaweicloud.com
 obs.sa-brazil-1.myhuaweicloud.com
 obs.sa-peru-1.myhuaweicloud.com
 obs.tr-west-1.myhuaweicloud.com
+ocsp.apple.com
+ocsp2.apple.com
 ohssr.cn
 omofun.link
 one.one.one.one
 onegoods.nosdn.127.net
 onekey1.cmpassport.com
+open.account.oppo.com
 open.bytedanceapi.com
 open.oppomobile.com
 open.snssdk.com
@@ -1622,7 +1728,11 @@ oss-asq-static.11222.cn
 oss.b3logfile.com
 ossapi.baidu.com
 ossp.voicecloud.cn
+ota.coloros.com
+ota.oneplus.com
+ota.oppo.com
 ota.tv.xiaomi.com
+ota.vivo.com
 otheve.beacon.qq.com
 ott.cibntv.net
 outexp-beta.cdn.qq.com
@@ -1630,6 +1740,14 @@ p-l.play.aiseet.atianqi.com
 p.qlogo.cn
 p0.meituan.net
 p0.pipi.cn
+p01-ckdatabase.icloud.com
+p01-ckdatabasews.icloud.com
+p01-content.icloud.com
+p01-fmip.icloud.com
+p01-keyvalueservice.icloud.com
+p01-mds.icloud.com
+p01-ubiquity.icloud.com
+p01-upload.icloud.com
 p1-dcd.byteimg.com
 p1-lm.adbkwai.com
 p1-lm.adukwai.com
@@ -1679,6 +1797,7 @@ p3-webcast.douyinpic.com
 p3.dcarimg.com
 p3.douyinpic.com
 p4-ad.adukwai.com
+p47-buy.itunes.apple.com
 p5-auto-sign.dcarimg.com
 p5-auto.dcarimg.com
 p5-sign.douyinpic.com
@@ -1725,6 +1844,7 @@ passport.bilibili.com
 passport.goofish.com
 passport.iqiyi.com
 passport.qidian.com
+passport.vivo.com
 passport.weibo.cn
 passport.weibo.com
 passport.xiaomi.com
@@ -1733,10 +1853,13 @@ passport.youku.com
 passport.yuewen.com
 patchwiki.biligame.com
 pay.bilibili.com
+pay.heytap.com
 pay.openspeech.cn
+pay.oppo.com
 pay.weixin.qq.com
 payapp.weixin.qq.com
 paydns.wechatpay.cn
+payment.hicloud.com
 pbaccess.video.qq.com
 pbs.twimg.com
 pc-api.uc.cn
@@ -1750,8 +1873,10 @@ pepsico.com.cn
 personaclick.com
 pfga0.market.xiaomi.com
 pgdt.gtimg.cn
+phobos.apple.com
 phonecallapi.micloud.xiaomi.net
 photocdn.tv.sohu.com
+photos.icloud.com
 pic.baike.soso.com
 pic.iask.com.cn
 pic.imgdb.cn
@@ -1773,6 +1898,7 @@ pic7.iqiyipic.com
 pic8.58cdn.com.cn
 picasso-static.xiaohongshu.com
 pics.hentai.name
+pics.map.baidu.com
 pifa.pinduoduo.com
 pingfore.qq.com
 pinghot.qq.com
@@ -1833,8 +1959,11 @@ pull2.91cloud.net
 puser.funshion.com
 push.apple.com
 push.chsi.com.cn
+push.heytap.com
 push.m.youku.com
+push.oppo.com
 push.oray.com
+push.vivo.com
 push.yximgs.com
 push1.91cloud.net
 puui.qpic.cn
@@ -1894,10 +2023,12 @@ readstatic.zhulang.com
 recmd.html5.qq.com
 redirector.gvt1.com
 reg.163.com
+register.apple.com
 register.xmpush.global.xiaomi.com
 register.xmpush.xiaomi.com
 registry.npmmirror.com
 release.liuyun.io
+reminders.icloud.com
 render-prod-backup-tile.amap.com
 render.amap.com
 report.passport.360.cn
@@ -1909,6 +2040,7 @@ res.126.net
 res.app.coc.10086.cn
 res.cloudinary.com
 res.hc-cdn.com
+res.hicloud.com
 res.imtt.qq.com
 res.mall.10010.cn
 res.mi.baidu.com
@@ -1984,6 +2116,7 @@ sdk-api.beizi.biz
 sdk.alibaba.com.ailbaba.me
 sdk.jinrishici.com
 sdk.live.360.cn
+sdk.map.baidu.com
 sdk.mihoyo.com
 sdk.open.talk.gepush.com
 sdk.ptqy.gitv.tv
@@ -1994,10 +2127,17 @@ search.kuwo.cn
 search.sogoucdn.com
 searchrec.marketplace-intl.huaweicloud.com
 sec-cdn.static.xiaomi.net
+sec.heytap.com
+sec.oppo.com
 sec.resource.xiaomi.net
+secrets.icloud.com
+securemetrics.apple.com
+security.vivo.com
 self.events.data.microsoft.com
 sentry.zhuanzhuan.com
 service.mkey.163.com
+service.vivo.com
+setup.icloud.com
 sf.163.com
 sf0.market.xiaomi.com
 sf1-cdn-tos.toutiaostatic.com
@@ -2068,6 +2208,7 @@ spring-plus.net
 sqdd.myapp.com
 sqimg.qq.com
 srv.sec.miui.com
+ss.map.baidu.com
 ss.phncdn.com
 ssj-1256119282.cos.ap-guangzhou.myqcloud.com
 ssl-cdn.static.browser.mi-img.com
@@ -2083,6 +2224,7 @@ stars.shuqireader.com
 stat.api.4399.com
 stat.dangbei.com
 stat.funshion.com
+stat.vivo.com
 stat.y.qq.com
 stat.youku.com
 stat6.y.qq.com
@@ -2137,17 +2279,21 @@ steamcommunity.com
 storage.360buyimg.com
 storage.jd.com
 storage.wikawika.xyz
+store.apple.com
 store.assistant.miui.com
 store.cdn.queniuqe.com
 store.fastly.steamstatic.com
 store.heytapimage.com
 store.is.autonavi.com
 store.meizu.com
+store.oppomobile.com
 store.steamchina.com
 store.steamchina.queniuam.com
 store.steampowered.com
+store.vivo.com
 storedl1.nearme.com.cn
 storep.91haoka.cn
+streaming.itunes.apple.com
 streamsb.net
 streamwish.to
 studcat.infra.systems
@@ -2160,13 +2306,18 @@ suggestion.baidu.com
 sugs.m.sm.cn
 sukebei.nyaa.si
 summer-plus.net
+support.apple.com
 support.huaweicloud.com
+support.vivo.com
 support.weixin.qq.com
 surrit.com
 survey.feelgood.cn
 sv.map.baidu.com
 swap.stu.126.net
+swcdn.apple.com
 swimg1.hstdyf.com
+sync.heytap.com
+sync.oppo.com
 sysdk.cl2009.com
 szlong.weixin.qq.com
 szmg.qq.com
@@ -2209,7 +2360,9 @@ test.nextdns.io
 th.bing.com
 thecubexguide.com
 thefantazy.com
+theme.heytap.com
 theme.heytapimage.com
+theme.oppo.com
 theporndude.com
 thirdqq.qlogo.cn
 thirdwx.qlogo.cn
@@ -2306,11 +2459,16 @@ up.cm.ksmobile.com
 upage.imtt.qq.com
 updata.miui.com
 update.360safe.com
+update.coloros.com
+update.hicloud.com
 update.tv.xiaomi.com
+update.vivo.com
 updateinfo.market.xiaomi.com
+updates.cdn-apple.com
 upgrade.dangbei.com
 upgrade.ptmi.gitv.tv
 upgrade.tv.xiaomi.com
+upgrade.vivo.com
 upgrade.youku.com
 upload-bbs.miyoushe.com
 upload-images.jianshu.io
@@ -2377,6 +2535,7 @@ vectorsdk.map.qq.com
 venus.yhd.com
 verify.cmpassport.com
 verify.snssdk.com
+verify.vivo.com
 verify.zijieapi.com
 vfiles.gtimg.cn
 via.placeholder.com
@@ -2417,7 +2576,9 @@ w2.kskwai.com
 w8.com.cn
 waapdg.jd.com
 waimai-guide.ele.me
+wallet.heytap.com
 wallpaper.cdn.pandora.xiaomi.com
+wallpaper.heytap.com
 wallpaperm.cmcm.com
 wan.baidu.com
 wan.douyu.com
@@ -2488,11 +2649,13 @@ www.360simg.com
 www.54647.io
 www.9game.cn
 www.agiso.com
+www.airport.us
 www.ali213.net
 www.alidns.com
 www.anjuke.com
 www.apple.com
 www.apple.com.cn
+www.appleiphonecell.com
 www.bilibili.com
 www.biligame.com
 www.bing.com
@@ -2545,10 +2708,13 @@ www.hentai.name
 www.hisense.com
 www.hoyoverse.com
 www.huaweicloud.com
+www.ibook.info
+www.icloud.com
 www.ijinshan.com
 www.internetdownloadmanager.com
 www.ip138.com
 www.iqiyi.com
+www.itools.info
 www.javbangers.com
 www.jd.com
 www.jianshu.com
@@ -2612,6 +2778,7 @@ www.taptap.cn
 www.taptap.io
 www.tencent.com
 www.tencent.net.cn
+www.thinkdifferent.us
 www.tiantiantiaosheng.com
 www.toutiao.com
 www.tudou.com
@@ -2669,6 +2836,7 @@ xn--cp3a08l.com
 xn--l6qx3l9s1a.com
 xn--mes358aby2apfg.com
 xn--ngstr-lra8j.com
+xp.apple.com
 xqn.163.com
 xvideos.com
 xyq.163.com
@@ -2700,6 +2868,7 @@ ysf.qiyukf.net
 yule.sohu.com
 yun.duiba.com.cn
 yun.rili.cn
+yun.vivo.com.cn
 yunjiasu.com
 yybadaccess.3g.qq.com
 yys.163.com

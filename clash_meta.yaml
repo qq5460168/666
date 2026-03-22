@@ -1,9 +1,9 @@
 # Title: Clash Meta规则
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-03-22 02:06:05（北京时间）
-# Clash Meta规则数量: 16774
-! Total count: 16774
+# Last Updated: 2026-03-22 05:43:36（北京时间）
+# Clash Meta规则数量: 16771
+! Total count: 16771
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -9991,12 +9991,10 @@ payload:
   - 'metrics-drcn.dt.dbankcloud.cn'
   - 'metrics-drcn.dt.hihonorcloud.com'
   - 'metrics-picture.d.meituan.net'
-  - 'metrics.apple.com'
   - 'metrics.cnn.com'
   - 'metrics.data.hicloud.com'
   - 'metrics.dt.dbankcloud.cn'
   - 'metrics.dt.hihonorcloud.com'
-  - 'metrics.icloud.com'
   - 'metrics.mzstatic.com'
   - 'metrics1.data.hicloud.com'
   - 'metrics1.data.hicloud.com.lan'
@@ -12740,7 +12738,6 @@ payload:
   - 'secure.img-cdn.mediaplex.com'
   - 'secure.quantserve.com'
   - 'secure.statcounter.com'
-  - 'securemetrics.apple.com'
   - 'securepubads.g.doubleclick.net'
   - 'security.browser.miui.com'
   - 'security.snssdk.com'

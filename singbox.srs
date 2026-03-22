@@ -1,9 +1,9 @@
 # Title: SingBox SRS Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-03-22 02:06:05（北京时间）
-# Singbox规则数量: 16774
-! Total count: 16774
+# Last Updated: 2026-03-22 05:43:36（北京时间）
+# Singbox规则数量: 16771
+! Total count: 16771
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -9990,12 +9990,10 @@ DOMAIN-SUFFIX,metrics-dra.dt.hicloud.com,REJECT
 DOMAIN-SUFFIX,metrics-drcn.dt.dbankcloud.cn,REJECT
 DOMAIN-SUFFIX,metrics-drcn.dt.hihonorcloud.com,REJECT
 DOMAIN-SUFFIX,metrics-picture.d.meituan.net,REJECT
-DOMAIN-SUFFIX,metrics.apple.com,REJECT
 DOMAIN-SUFFIX,metrics.cnn.com,REJECT
 DOMAIN-SUFFIX,metrics.data.hicloud.com,REJECT
 DOMAIN-SUFFIX,metrics.dt.dbankcloud.cn,REJECT
 DOMAIN-SUFFIX,metrics.dt.hihonorcloud.com,REJECT
-DOMAIN-SUFFIX,metrics.icloud.com,REJECT
 DOMAIN-SUFFIX,metrics.mzstatic.com,REJECT
 DOMAIN-SUFFIX,metrics1.data.hicloud.com,REJECT
 DOMAIN-SUFFIX,metrics1.data.hicloud.com.lan,REJECT
@@ -12739,7 +12737,6 @@ DOMAIN-SUFFIX,secure.fastclick.net,REJECT
 DOMAIN-SUFFIX,secure.img-cdn.mediaplex.com,REJECT
 DOMAIN-SUFFIX,secure.quantserve.com,REJECT
 DOMAIN-SUFFIX,secure.statcounter.com,REJECT
-DOMAIN-SUFFIX,securemetrics.apple.com,REJECT
 DOMAIN-SUFFIX,securepubads.g.doubleclick.net,REJECT
 DOMAIN-SUFFIX,security.browser.miui.com,REJECT
 DOMAIN-SUFFIX,security.snssdk.com,REJECT
