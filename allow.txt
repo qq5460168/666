@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-03-22 20:48:38（北京时间）
+! Version: 2026-03-23 10:07:02（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3569
+! Total count: 3587
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -223,6 +223,7 @@
 @@||account.activedirectory.windowsazure.com^$important
 @@||account.agiso.com^
 @@||account.dianping.com^
+@@||account.huawei.com^$important
 @@||account.live.com^$important
 @@||account.oppo.com^
 @@||account.realme.com^
@@ -480,6 +481,7 @@
 @@||appdl-2-drcn.dbankcdn.com^
 @@||appdownload.alicdn.com^
 @@||appgallery.hicloud.com^
+@@||appgallery.huawei.com^$important
 @@||appgoad.189.cn^
 @@||appimg-drcn.dbankcdn.com^
 @@||appimg.dbankcdn.com^
@@ -527,6 +529,7 @@
 @@||assets.oneweb.mercedes-benz.com^
 @@||assets.sb-cd.com^
 @@||assets.youlai.cn^
+@@||assistant.huawei.com^$important
 @@||assistant.miui.com^
 @@||at.umeng.com^
 @@||audid-api-sg.taobao.com^
@@ -561,6 +564,7 @@
 @@||b.bdstatic.com^
 @@||b3log.org^
 @@||b3logfile.com^
+@@||backup.huawei.com^$important
 @@||backupapi.lkong.com^$important
 @@||bad.news^
 @@||bag.itunes.apple.com^
@@ -618,6 +622,7 @@
 @@||broker.mina.mi.com^$important
 @@||browser.360.cn^
 @@||browser.events.data.msn.com^
+@@||browser.huawei.com^$important
 @@||browser.pipe.aria.microsoft.com^
 @@||bs-origin.pull.yximgs.com^
 @@||btrace.qq.com^
@@ -810,6 +815,7 @@
 @@||clips4sale.com^
 @@||cloud.heytap.com^
 @@||cloud.huawei.com^
+@@||cloud.huawei.com^$important
 @@||cloud.oneplus.com^
 @@||cloud.oppo.com^
 @@||cloud.realme.com^
@@ -1017,6 +1023,7 @@
 @@||dl.google.com^$important
 @@||dl.hdslb.com^
 @@||dl.hicloud.com^
+@@||dl.hicloud.com^$important
 @@||dl.listary.net^
 @@||dl.reg.163.com^
 @@||dldir1.qq.com^
@@ -1090,6 +1097,7 @@
 @@||drive-h.quark.cn^
 @@||drive-pc.quark.cn^
 @@||drive.huawei.com^
+@@||drive.huawei.com^$important
 @@||drive.quark.cn^
 @@||drive.uc.cn^
 @@||ds.163.com^
@@ -1399,6 +1407,8 @@
 @@||hdns.ksyun.com^$important
 @@||hdzog.ahcdn.com^
 @@||hdzog.com^
+@@||health.huawei.com^$important
+@@||healthkit.huawei.com^$important
 @@||hectorstatic.baidu.com^
 @@||help.twitter.com^
 @@||help.x.com^
@@ -1596,6 +1606,7 @@
 @@||io75a.ocloud.heytapmobi.com^
 @@||ios.bugly.qq.com^
 @@||ios.crashsight.qq.com^
+@@||iot.huawei.com^$important
 @@||ip*.ahcdn.com^
 @@||ip.900cha.com^
 @@||ip.cn^
@@ -2068,6 +2079,7 @@
 @@||msync-im1-vip6-std.easemob.com^
 @@||mumu.163.com^
 @@||music.163.com^
+@@||music.huawei.com^$important
 @@||mv6.music.tc.qq.com^
 @@||mvconf.f.360.cn^
 @@||mvod.itunes.apple.com^
@@ -2365,6 +2377,7 @@
 @@||patchwiki.biligame.com^
 @@||pay.bilibili.com^
 @@||pay.heytap.com^
+@@||pay.huawei.com^$important
 @@||pay.openspeech.cn^
 @@||pay.oppo.com^
 @@||pay.realme.com^
@@ -2553,6 +2566,7 @@
 @@||r4---sn-qxo7rn7e.googlevideo.com^
 @@||r5---sn-4g5ednsl.googlevideo.com^
 @@||rdelivery.qq.com^
+@@||read.huawei.com^$important
 @@||reader.browser.miui.com^
 @@||reading.snssdk.com^
 @@||readstatic.zhulang.com^
@@ -3078,6 +3092,7 @@
 @@||update.360safe.com^
 @@||update.coloros.com^
 @@||update.hicloud.com^
+@@||update.hicloud.com^$important
 @@||update.intl.miui.com^$important
 @@||update.miui.com^$important
 @@||update.oppo.com^
@@ -3109,6 +3124,7 @@
 @@||url.163.com^
 @@||urswebzj.nosdn.127.net^
 @@||user.e.189.cn^
+@@||user.huawei.com^$important
 @@||user.realme.com^
 @@||user1.game.qq.com^
 @@||ut-public-service-prod10.ol.epicgames.com^$important
@@ -3181,6 +3197,7 @@
 @@||via.placeholder.com^
 @@||video.da.mgtv.com^
 @@||video.goofish.com^
+@@||video.huawei.com^$important
 @@||video.kts.g.mi.com^
 @@||video.twimg.com^
 @@||video.zhihu.com^
@@ -3240,6 +3257,7 @@
 @@||wbapp.mobile.sina.cn^
 @@||wbox.sinaimg.cn^
 @@||we.tl^
+@@||wear.huawei.com^$important
 @@||weather-data.apple.com*^
 @@||weatherapi.market.xiaomi.com^
 @@||web.vip.miui.com^
