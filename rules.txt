@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-03-23 10:07:02（北京时间）
+! Version: 2026-03-23 21:04:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 33049
+! Total count: 33063
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -11833,7 +11833,7 @@
 @@||access1.tpns.tencent.com^
 @@||account.agiso.com^
 @@||account.dianping.com^
-@@||account.huawei.com^$important
+@@||account.huawei.com^
 @@||account.oppo.com^
 @@||account.realme.com^
 @@||account.vivo.com^
@@ -12035,7 +12035,7 @@
 @@||appdl-2-drcn.dbankcdn.com^
 @@||appdownload.alicdn.com^
 @@||appgallery.hicloud.com^
-@@||appgallery.huawei.com^$important
+@@||appgallery.huawei.com^
 @@||appgoad.189.cn^
 @@||appimg-drcn.dbankcdn.com^
 @@||appimg.dbankcdn.com^
@@ -12066,7 +12066,7 @@
 @@||assets.oneweb.mercedes-benz.com^
 @@||assets.sb-cd.com^
 @@||assets.youlai.cn^
-@@||assistant.huawei.com^$important
+@@||assistant.huawei.com^
 @@||at.umeng.com^
 @@||audid-api-sg.taobao.com^
 @@||audid-api.taobao.com^
@@ -12092,7 +12092,7 @@
 @@||b.bdstatic.com^
 @@||b3log.org^
 @@||b3logfile.com^
-@@||backup.huawei.com^$important
+@@||backup.huawei.com^
 @@||bad.news^
 @@||bag.itunes.apple.com^
 @@||baijiahao.baidu.com^
@@ -12141,12 +12141,12 @@
 @@||broccoli.uc.cn^
 @@||browser.360.cn^
 @@||browser.events.data.msn.com^
-@@||browser.huawei.com^$important
+@@||browser.huawei.com^
 @@||browser.pipe.aria.microsoft.com^
 @@||bs-origin.pull.yximgs.com^
 @@||btrace.qq.com^
 @@||bucket-ynote-online-cdn.note.youdao.com^
-@@||bud.iqiyi.com^$important
+@@||bud.iqiyi.com^
 @@||buy.itunes.apple.com^
 @@||c.58cdn.com.cn^
 @@||c.duomai.com^
@@ -12161,6 +12161,7 @@
 @@||c1.skype.com^
 @@||cache.ip138.com^
 @@||cache.video.iqiyi.com^
+@@||cache.youku.com^
 @@||cainiao-app-logs.cn-zhangjiakou.log.aliyuncs.com^
 @@||calendars.icloud.com^
 @@||callback.58.com^
@@ -12305,7 +12306,6 @@
 @@||clips4sale.com^
 @@||cloud.heytap.com^
 @@||cloud.huawei.com^
-@@||cloud.huawei.com^$important
 @@||cloud.oneplus.com^
 @@||cloud.oppo.com^
 @@||cloud.realme.com^
@@ -12442,6 +12442,7 @@
 @@||data.services.jetbrains.com^
 @@||data.vivo.com^
 @@||data.vod.itc.cn^
+@@||data.youku.com^
 @@||dataprajna.net^
 @@||dc.sigmob.cn^
 @@||dcloud.net.cn^
@@ -12480,9 +12481,9 @@
 @@||dl.delivery.mp.microsoft.com^
 @@||dl.hdslb.com^
 @@||dl.hicloud.com^
-@@||dl.hicloud.com^$important
 @@||dl.listary.net^
 @@||dl.reg.163.com^
+@@||dl.youku.com^
 @@||dldir1.qq.com^
 @@||dldir1v6.qq.com^
 @@||dldir3.qq.com^
@@ -12495,7 +12496,7 @@
 @@||dns-family.adguard.com^
 @@||dns.adguard.com^
 @@||dns.icoa.cn^
-@@||dns.iqiyi.com^$important
+@@||dns.iqiyi.com^
 @@||doc.oplist.org.cn^
 @@||doc.oplist.org^
 @@||dockerstatic.com^
@@ -12526,6 +12527,7 @@
 @@||download.uc.cn^
 @@||download.voicecloud.cn^
 @@||download.windowsupdate.com^
+@@||download.youku.com^
 @@||downloads.marketplace.jetbrains.com^
 @@||downpack.baidu.com^
 @@||downum.game.uc.cn^
@@ -12539,7 +12541,6 @@
 @@||drive-h.quark.cn^
 @@||drive-pc.quark.cn^
 @@||drive.huawei.com^
-@@||drive.huawei.com^$important
 @@||drive.quark.cn^
 @@||drive.uc.cn^
 @@||ds.163.com^
@@ -12812,8 +12813,8 @@
 @@||hctn.nv7s.com^
 @@||hdzog.ahcdn.com^
 @@||hdzog.com^
-@@||health.huawei.com^$important
-@@||healthkit.huawei.com^$important
+@@||health.huawei.com^
+@@||healthkit.huawei.com^
 @@||hectorstatic.baidu.com^
 @@||help.twitter.com^
 @@||help.x.com^
@@ -12990,7 +12991,7 @@
 @@||io75a.ocloud.heytapmobi.com^
 @@||ios.bugly.qq.com^
 @@||ios.crashsight.qq.com^
-@@||iot.huawei.com^$important
+@@||iot.huawei.com^
 @@||ip*.ahcdn.com^
 @@||ip.900cha.com^
 @@||ip.cn^
@@ -13170,6 +13171,7 @@
 @@||log.realme.com^
 @@||log.snssdk.com^
 @@||log.vivo.com^
+@@||log.youku.com^
 @@||log1.cmpassport.com^
 @@||log5-applog-lf.fqnovel.com^
 @@||log5-applog.fqnovel.com^
@@ -13236,6 +13238,7 @@
 @@||m.xunlei.com^
 @@||m.yjwujian.cn^
 @@||m.ykimg.com^
+@@||m.youku.com^
 @@||m.youlai.cn^
 @@||m.youtube.com^
 @@||m.zhibo8.com^
@@ -13265,7 +13268,7 @@
 @@||mall.bilibili.com^
 @@||mall.csdn.net^
 @@||mam.netease.com^
-@@||manhua.iqiyi.com^$important
+@@||manhua.iqiyi.com^
 @@||manhuapica.com^
 @@||manifest.googlevideo.com^
 @@||manus.im^
@@ -13362,7 +13365,7 @@
 @@||mm3.365dmp.com^
 @@||mmbiz.qpic.cn^
 @@||mmgame.qpic.cn^
-@@||mmocgame.qpic.cn^$important
+@@||mmocgame.qpic.cn^
 @@||mms-static.pddpic.com^
 @@||mms-static.pinduoduo.com^
 @@||mms.pinduoduo.com^
@@ -13404,7 +13407,7 @@
 @@||msdk.qq.com^
 @@||msdn.itellyou.cn^
 @@||mse.360.cn^
-@@||msec.opposhop.cn^$important
+@@||msec.opposhop.cn^
 @@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^
 @@||msedown.360safe.com^
 @@||msfwifi.3g.qq.com^
@@ -13412,6 +13415,7 @@
 @@||msg.realme.com^
 @@||msg.video.qiyi.com^
 @@||msg.vivo.com^
+@@||msg.youku.com^
 @@||msgacs.cn-zhangjiakou.aliyuncs.com^
 @@||msgacs.m.taobao.com^
 @@||msn.yidianzixun.com^
@@ -13420,7 +13424,7 @@
 @@||msync-im1-vip6-std.easemob.com^
 @@||mumu.163.com^
 @@||music.163.com^
-@@||music.huawei.com^$important
+@@||music.huawei.com^
 @@||mv6.music.tc.qq.com^
 @@||mvconf.f.360.cn^
 @@||mvod.itunes.apple.com^
@@ -13469,6 +13473,7 @@
 @@||north-plus.net^
 @@||notes.icloud.com^
 @@||notification.vivo.com^
+@@||notify.youku.com^
 @@||novelfm.changdunovel.com^
 @@||novelfm.zlink.toutiao.com^
 @@||now.bdstatic.com^
@@ -13512,7 +13517,7 @@
 @@||obs.sa-brazil-1.myhuaweicloud.com^
 @@||obs.sa-peru-1.myhuaweicloud.com^
 @@||obs.tr-west-1.myhuaweicloud.com^
-@@||obus-cn.dc.heytapmobi.com^$important
+@@||obus-cn.dc.heytapmobi.com^
 @@||ocsp.apple.com^
 @@||ocsp2.apple.com^
 @@||ohssr.cn^
@@ -13522,7 +13527,7 @@
 @@||onekey1.cmpassport.com^
 @@||open.account.oppo.com^
 @@||open.bytedanceapi.com^
-@@||open.douyin.com^$important
+@@||open.douyin.com^
 @@||open.oppomobile.com^
 @@||open.snssdk.com^
 @@||openap-alps.51y5.net^
@@ -13681,11 +13686,12 @@
 @@||patchwiki.biligame.com^
 @@||pay.bilibili.com^
 @@||pay.heytap.com^
-@@||pay.huawei.com^$important
+@@||pay.huawei.com^
 @@||pay.openspeech.cn^
 @@||pay.oppo.com^
 @@||pay.realme.com^
 @@||pay.weixin.qq.com^
+@@||pay.youku.com^
 @@||payapp.weixin.qq.com^
 @@||paydns.wechatpay.cn^
 @@||payment.hicloud.com^
@@ -13752,6 +13758,7 @@
 @@||play.163.com^
 @@||play.googleapis.com^
 @@||play1.heytapimage.com^
+@@||player.youku.com^
 @@||plyr.io^
 @@||pm.funshion.com^
 @@||po.funshion.com^
@@ -13797,6 +13804,7 @@
 @@||push.oray.com^
 @@||push.realme.com^
 @@||push.vivo.com^
+@@||push.youku.com^
 @@||push1.91cloud.net^
 @@||puui.qpic.cn^
 @@||pv.sohu.com^
@@ -13850,11 +13858,12 @@
 @@||r4---sn-qxo7rn7e.googlevideo.com^
 @@||r5---sn-4g5ednsl.googlevideo.com^
 @@||rdelivery.qq.com^
-@@||read.huawei.com^$important
+@@||read.huawei.com^
 @@||reader.browser.miui.com^
 @@||reading.snssdk.com^
 @@||readstatic.zhulang.com^
 @@||recmd.html5.qq.com^
+@@||recommend.youku.com^
 @@||redirector.gvt1.com^
 @@||reg.163.com^
 @@||register*mi.com^
@@ -13879,7 +13888,7 @@
 @@||res.imtt.qq.com^
 @@||res.mall.10010.cn^
 @@||res.mi.baidu.com^
-@@||res.openinstall.com^$important
+@@||res.openinstall.com^
 @@||res.oplist.org.cn^
 @@||res.oplist.org^
 @@||res.qiyukf.net^
@@ -13910,6 +13919,7 @@
 @@||s.mvconf.f.360.cn^
 @@||s.pximg.net^
 @@||s.ssl.qhres2.com^
+@@||s.youku.com^
 @@||s0.2mdn.net^
 @@||s0.meituan.net^
 @@||s01.mifile.cn^
@@ -13967,6 +13977,7 @@
 @@||se.360.cn^
 @@||search.kuwo.cn^
 @@||search.sogoucdn.com^
+@@||search.youku.com^
 @@||searchrec.marketplace-intl.huaweicloud.com^
 @@||sec-cdn.static.xiaomi.net^
 @@||sec.heytap.com^
@@ -14012,6 +14023,7 @@
 @@||siyuannote.com^
 @@||sjh.baidu.com^
 @@||sjws.ssl.qihucdn.com^
+@@||sky.vip.youku.com^
 @@||sl.hpplay.cn^
 @@||sm.cn^
 @@||smart.360.cn^
@@ -14303,7 +14315,6 @@
 @@||update.360safe.com^
 @@||update.coloros.com^
 @@||update.hicloud.com^
-@@||update.hicloud.com^$important
 @@||update.oppo.com^
 @@||update.realme.com^
 @@||update.tv.xiaomi.com^
@@ -14330,7 +14341,7 @@
 @@||url.163.com^
 @@||urswebzj.nosdn.127.net^
 @@||user.e.189.cn^
-@@||user.huawei.com^$important
+@@||user.huawei.com^
 @@||user.realme.com^
 @@||user1.game.qq.com^
 @@||uxip.meizu.com^
@@ -14346,6 +14357,7 @@
 @@||v.smtcdns.com^
 @@||v.stream.qq.com^
 @@||v.uc.cn^
+@@||v.youku.com^
 @@||v1-mllqsv.onewsvod.com^
 @@||v1.jinrishici.com^
 @@||v11-fq-tts.fqnovelvod.com^
@@ -14376,7 +14388,7 @@
 @@||vali-dns.cp40.ott.cibntv.net^
 @@||vali-g1.cp31.ott.cibntv.net^
 @@||vali01.cp31.ott.cibntv.net^
-@@||valuecommerce.com^$important
+@@||valuecommerce.com^
 @@||vas.snssdk.com^
 @@||vcs-quality.zijieapi.com^
 @@||vcs.snssdk.com^
@@ -14400,7 +14412,7 @@
 @@||via.placeholder.com^
 @@||video.da.mgtv.com^
 @@||video.goofish.com^
-@@||video.huawei.com^$important
+@@||video.huawei.com^
 @@||video.kts.g.mi.com^
 @@||video.twimg.com^
 @@||video.zhihu.com^
@@ -14418,10 +14430,11 @@
 @@||vjav.com^
 @@||vjav0.ahcdn.com^
 @@||vm.gtimg.cn^
-@@||vm.gtimg.cn^$important
 @@||vmmp.qpic.cn^
 @@||vmware.com^
 @@||vod.cc.163.com^
+@@||vod.youku.com^
+@@||vodcdn.youku.com^
 @@||vodkgeyttp8.vod.126.net^
 @@||vodkgeyttp9.vod.126.net^
 @@||volcengine-cache-weboffice.wpscdn.cn^
@@ -14453,7 +14466,7 @@
 @@||wbapp.mobile.sina.cn^
 @@||wbox.sinaimg.cn^
 @@||we.tl^
-@@||wear.huawei.com^$important
+@@||wear.huawei.com^
 @@||weatherapi.market.xiaomi.com^
 @@||web.vip.miui.com^
 @@||webapi.amap.com^
@@ -14469,7 +14482,7 @@
 @@||weidian.com^
 @@||weishi.360.cn^
 @@||weixin.qq.com^
-@@||wenxue.iqiyi.com^$important
+@@||wenxue.iqiyi.com^
 @@||wg.wavee.cn^
 @@||wgo.mmstat.com^
 @@||white-plus.net^
@@ -14719,6 +14732,7 @@
 @@||yhd.com^
 @@||yixiu-abtest.alicdn.com^
 @@||ykimg.com^
+@@||ykstatic.youku.com^
 @@||ylog.huya.com^
 @@||ym.163.com^
 @@||youdata.163.com^
