@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-03-24 09:58:58（北京时间）
+! Version: 2026-03-24 21:09:02（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16775
+! Total count: 16772
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-03-24 01:58:58（北京时间）
+# Last Updated: 2026-03-24 13:09:01（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -5187,7 +5187,6 @@
 0.0.0.0 doubleclick-cn.net
 0.0.0.0 doubleclick.com
 0.0.0.0 doubleclick.ctfile.com
-0.0.0.0 doubleclick.net
 0.0.0.0 doubleclick.tv002.com
 0.0.0.0 doubleplay-conf-yql.media.yahoo.com
 0.0.0.0 doubleverify.com
@@ -6642,7 +6641,6 @@
 0.0.0.0 gongyong002.xyz
 0.0.0.0 gonpc.com
 0.0.0.0 good.ta80.com
-0.0.0.0 google-analytics.com
 0.0.0.0 googleadapis.com
 0.0.0.0 googleads-cn.com
 0.0.0.0 googleads.g.doubleclick-cn.net
@@ -6655,7 +6653,6 @@
 0.0.0.0 googleoptimize.com
 0.0.0.0 googlesyndication.com
 0.0.0.0 googletagmanager-cn.com
-0.0.0.0 googletagmanager.com
 0.0.0.0 googletagservices-cn.com
 0.0.0.0 googletagservices.com
 0.0.0.0 googletraveladservices.com
