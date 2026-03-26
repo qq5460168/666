@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-03-26 10:10:23（北京时间）
+! Version: 2026-03-26 21:13:17（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 33121
+! Total count: 33130
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -11659,6 +11659,7 @@
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 423down.com##LI.item:has(.sticky-post)
+429: Too Many Requests
 43.206.62.10 ck.jp.ap.valuecommerce.com
 45.116.79.187 ads.api.fakeloc.cc
 45.116.79.187 api.fakeloc.cc
@@ -12324,6 +12325,7 @@
 @@||cloudcontrol.live.360.cn^
 @@||cloudflare-dns.com^
 @@||cloudflare.com/cdn-cgi/trace$domain=net.ljxnet.cn
+@@||cloudflareinsights.com^$important
 @@||cloudpush.aliyuncs.com^
 @@||cm-10-*.getui.com^
 @@||cm-h.phncdn.com^
@@ -14362,6 +14364,7 @@
 @@||union-click.jd.com^
 @@||union.jd.com^
 @@||unisdk.update.netease.com^
+@@||unpkg.com^$important
 @@||unpkg.zhimg.com^
 @@||uop.quark.cn^
 @@||up.cm.ksmobile.com^
@@ -14826,6 +14829,14 @@
 @@||zmde.yijoys.com^
 @@||zodgame.xyz^
 @@||ztgame.com^
+For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).! Description: 反馈群538268498
+For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).! Title: LWJ's black list
+For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).! Title: 黑名单补充
+For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).#************************************************************************#
+For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).#————SM广告丟那吗hosts————
+For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).[Adblock Plus 2.0]
+For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).||ad-sign.byteimg.com^
+For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).﻿#版本：2.9
 Mplay/kk1.js
 _/bigREDcat.css?
 _/bigREDdog.js
@@ -16825,7 +16836,6 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ad-sdk.lenovomm.com^
 ||ad-sh-sz-zb.wagbridge.tanx.alimama.com.gds.alibabadns.com^
 ||ad-sh-sz-zb.wagbridge.tanx.alimama.com^
-||ad-sign.byteimg.com^
 ||ad-specs.guoshipartners.com^
 ||ad-splash-tracking.hktvmall.com^
 ||ad-splash.hktvmall.com^
@@ -33124,4 +33134,3 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||zzzzz4.52896368.com^
 ||奥门广场.com^
 ‖*.chat.bilibili.com
-﻿#版本：2.9
