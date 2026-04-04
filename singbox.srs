@@ -1,9 +1,9 @@
 # Title: SingBox SRS Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-04-04 02:02:37（北京时间）
-# Singbox规则数量: 17090
-! Total count: 17090
+# Last Updated: 2026-04-04 10:02:03（北京时间）
+# Singbox规则数量: 17089
+! Total count: 17089
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -2351,7 +2351,6 @@ DOMAIN-SUFFIX,am.zdnet.com.cn,REJECT
 DOMAIN-SUFFIX,am15.net,REJECT
 DOMAIN-SUFFIX,am3-745151.xyz,REJECT
 DOMAIN-SUFFIX,amadeus--box-10909--www-zhihu-com.zpres.zhihu.com,REJECT
-DOMAIN-SUFFIX,amap-aos-info-nogw.amap.com,REJECT
 DOMAIN-SUFFIX,amazingmagics.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,amazonaax.com,REJECT
@@ -13315,6 +13314,7 @@ DOMAIN-SUFFIX,sngmta.qq.com,REJECT
 DOMAIN-SUFFIX,snnnyy.com,REJECT
 DOMAIN-SUFFIX,snow001.com,REJECT
 DOMAIN-SUFFIX,sns-paopao.iqiyi.com,REJECT
+DOMAIN-SUFFIX,sntcbhv.com,REJECT
 DOMAIN-SUFFIX,so.clzgd.com,REJECT
 DOMAIN-SUFFIX,so9l.com,REJECT
 DOMAIN-SUFFIX,soa-vip-ssl.xunlei.com,REJECT
@@ -15444,7 +15444,6 @@ DOMAIN-SUFFIX,whalecloud.com,REJECT
 DOMAIN-SUFFIX,whcrdz.com,REJECT
 DOMAIN-SUFFIX,whe0nqk.icu,REJECT
 DOMAIN-SUFFIX,whistleout.s3.amazonaws.com,REJECT
-DOMAIN-SUFFIX,whjzjx.cn,REJECT
 DOMAIN-SUFFIX,whn.star-media.cn,REJECT
 DOMAIN-SUFFIX,whoami.akamai.net,REJECT
 DOMAIN-SUFFIX,whpxy.com,REJECT

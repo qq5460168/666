@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-04-04 10:02:38（北京时间）
+! Version: 2026-04-04 18:02:03（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3665
+! Total count: 3711
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -19,7 +19,6 @@
 @@||*.acompli.net^
 @@||*.activity.windows.com^
 @@||*.akamai-cdn-content.com^
-@@||*.alipay.com^
 @@||*.allawntech.com^
 @@||*.anjuke.com^
 @@||*.appex-rf.msn.com^
@@ -36,6 +35,7 @@
 @@||*.compliance.microsoft.com^
 @@||*.cortana.ai^
 @@||*.dlied1.cdntips.net^
+@@||*.doubao-app.cn^
 @@||*.entrust.net^
 @@||*.events.data.microsoft.com^
 @@||*.find.api.micloud.xiaomi.net^
@@ -287,7 +287,9 @@
 @@||aegis.qq.com^
 @@||aeventlog.beacon.qq.com^$important
 @@||afdian.com^
+@@||agent.doubao.com^
 @@||ai-cdn.duba.net^
+@@||ai.doubao.com^
 @@||aider-res.meizu.com^
 @@||aider.meizu.com^
 @@||aihuishou.com^
@@ -307,6 +309,7 @@
 @@||ali2-course.video.yximgs.com^
 @@||ali2.a.kwimgs.com^
 @@||ali2.a.yximgs.com^
+@@||alilog.ele.me^
 @@||alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com^
 @@||alissl.ucdl.pp.uc.cn^
 @@||alissl.ucdl.pp.uc.cn^$important
@@ -379,6 +382,7 @@
 @@||api.dangbei.com^
 @@||api.developer.xiaomi.com^
 @@||api.device.xiaomi.net^
+@@||api.doubao.com^
 @@||api.ds.163.com^
 @@||api.edu.apple.com^$important
 @@||api.ent.apple.com^$important
@@ -673,6 +677,7 @@
 @@||cards.iqiyi.com^
 @@||cardservice.openspeech.cn^
 @@||care.meizu.com^
+@@||cashier.ele.me^
 @@||cast.mi.com^
 @@||castatic.fengkongcloud.com^
 @@||catalog-public-service-prod06.ol.epicgames.com^$important
@@ -699,6 +704,7 @@
 @@||cdn.bootcdn.net^
 @@||cdn.cnbj1.fds.api.mi-img.com^
 @@||cdn.deepseek.com^
+@@||cdn.doubao.com^
 @@||cdn.ferrari.com^
 @@||cdn.heytap.com^
 @@||cdn.iocdn.cc^
@@ -719,7 +725,7 @@
 @@||cdn.webclicks24.com^
 @@||cdn.wtzw.com^
 @@||cdn.ynuf.aliapp.org^
-@@||cdn.yyb.gtimg.com^$important
+@@||cdn.yyb.gtimg.com^
 @@||cdn1-smallimg.phncdn.com^
 @@||cdn1.unrealengine.com^$important
 @@||cdn1d-static-shared.phncdn.com^
@@ -743,6 +749,7 @@
 @@||channel.shouji.sogou.com^
 @@||channels.weixin.qq.com^
 @@||chat.deepseek.com^
+@@||chat.doubao.com^
 @@||checkcoverage.apple.com^
 @@||chrome-infra-packages.appspot.com^
 @@||chromeos-ca.gstatic.com^$important
@@ -834,7 +841,7 @@
 @@||cloudcache.tencent-cloud.cn^
 @@||cloudcontrol.live.360.cn^
 @@||cloudflare-dns.com^
-@@||cloudflareinsights.com^$important
+@@||cloudflareinsights.com^
 @@||cloudpush.aliyuncs.com^
 @@||cloudsearch.googleapis.com^$important
 @@||cls-ingest.itunes.apple.com^$important
@@ -844,7 +851,7 @@
 @@||cm.bilibili.com^
 @@||cms-assets.unrealengine.com^
 @@||cms-bucket.ws.126.net^
-@@||cms.myapp.com^$important
+@@||cms.myapp.com^
 @@||cmshow.qq.com^
 @@||cmts.iqiyi.com^
 @@||cn-*.bilivideo.cn^
@@ -1030,6 +1037,7 @@
 @@||direct.wap.zol.com.cn^
 @@||disneyplus.bn5x.net^
 @@||disp-qryapi.3g.qq.com^
+@@||dispatch.ele.me^
 @@||dispatcher.is.autonavi.com^$important
 @@||dj.1688.com^
 @@||dl-ssl.google.com^$important
@@ -1071,6 +1079,7 @@
 @@||dorado.xiaojukeji.com^
 @@||doris.yidianzixun.com^
 @@||dot.360.cn^
+@@||doubao-app.cn^
 @@||douyincdn.com^
 @@||douyinstatic.com^
 @@||down-update.qq.com^
@@ -1261,6 +1270,7 @@
 @@||firstpartyapps.oaspapps.com^$important
 @@||flash.sec.intl.miui.com^
 @@||flash.sec.miui.com^
+@@||flash.taobao.com^
 @@||flowus.cn^
 @@||flydigi.com^
 @@||fmip.icloud.com^
@@ -1310,7 +1320,6 @@
 @@||game.res.meizu.com^
 @@||game.weixin.qq.com^
 @@||game.xiaomi.com^
-@@||game.xiaomi.com^$important
 @@||gamebanana.com^
 @@||gamecenter.vivo.com^
 @@||gameimg.qidian.com^
@@ -1393,6 +1402,7 @@
 @@||gvt2.com^
 @@||gw-paopao.iqiyi.com^
 @@||gw.alicdn.com^
+@@||gw.doubao.com^
 @@||gw.shouji.360.cn^
 @@||gweb-gettingstartedguide.appspot.com^$important
 @@||gx-target-experiments-frontend-api.gx.nvidia.com^
@@ -1551,6 +1561,7 @@
 @@||images.google.com.hk^
 @@||images.google.com^
 @@||images.nvidiagrid.net^
+@@||images.qqshow.gtimg.com^
 @@||images1-focus-opensocial.googleusercontent.com^
 @@||images2.imgbox.com^
 @@||imagex.bytedanceapi.com^
@@ -1570,6 +1581,7 @@
 @@||img.alicdn.com^
 @@||img.client.10010.com^
 @@||img.cmvideo.cn^
+@@||img.doubao.com^
 @@||img.funshion.com^
 @@||img.galaxyappstore.com^
 @@||img.jbzj.com^
@@ -1701,7 +1713,7 @@
 @@||js.tv.itc.cn^
 @@||jspassport.ssl.qhimg.com^
 @@||jstatic.3.cn^
-@@||juejin.cn^$important
+@@||juejin.cn^
 @@||jump.luna.58.com^
 @@||jumpluna.58.com^
 @@||jupiter.intl.sys.miui.com^
@@ -1816,6 +1828,7 @@
 @@||livew.l.qq.com^
 @@||lmlicenses.wip4.adobe.com^
 @@||loadingbaycn.webapp.163.com^
+@@||loc.ele.me^
 @@||loc.map.baidu.com^
 @@||localads.chengzijianzhan.cn^
 @@||location.heytap.com^
@@ -1823,17 +1836,21 @@
 @@||log-api.pangolin-sdk-toutiao-b.com^
 @@||log-api.pangolin-sdk-toutiao.com^
 @@||log-upload.mihoyo.com^
+@@||log.doubao.com^
+@@||log.ele.me^
 @@||log.heytap.com^
 @@||log.map.baidu.com^
 @@||log.oppo.com^
 @@||log.realme.com^
 @@||log.snssdk.com^
+@@||log.taobao.com^
 @@||log.vivo.com^
 @@||log.youku.com^
 @@||log1.cmpassport.com^
 @@||log5-applog-lf.fqnovel.com^
 @@||log5-applog.fqnovel.com^
 @@||login-us.microsoftonline.com^$important
+@@||login.doubao.com^
 @@||login.live.com^
 @@||login.live.com^$important
 @@||login.m.taobao.com^
@@ -1952,6 +1969,7 @@
 @@||map.baidu.com^
 @@||map.bdimg.com^
 @@||map.bmcx.com^
+@@||map.ele.me^
 @@||map.qq.com^
 @@||mapdata.bdimg.com^
 @@||mapdata.map.baidu.com^
@@ -1965,10 +1983,12 @@
 @@||market.mi-img.com^
 @@||market.oneplus.com^
 @@||market.oneplus.net^
+@@||market.taobao.com^
 @@||market.waimai.meituan.com^
 @@||market.waimai.meituan.com^$important
 @@||market.xiaomi.com^
 @@||marketplace.huaweicloud.com^
+@@||markets.taobao.com^
 @@||mars.jd.com^
 @@||mask-api.icloud.com^$important
 @@||mask-h2.icloud.com^$important
@@ -1987,6 +2007,7 @@
 @@||mcc1684939331000.lgecqrb.com^
 @@||mcdn.bilivideo.cn^
 @@||mcdn.pinduoduo.com^
+@@||mcs.ele.me^
 @@||mcs.snssdk.com^
 @@||mcs.zijieapi.com^
 @@||mdevstat.qqlive.qq.com^
@@ -2005,6 +2026,7 @@
 @@||member.bilibili.com^
 @@||member.jiaoyimao.com^
 @@||members.bitcomet.com^
+@@||merchant.ele.me^
 @@||message.bilibili.com^
 @@||mesu.apple.com^
 @@||mesu.apple.com^$important
@@ -2252,6 +2274,7 @@
 @@||oneplusid.oneplus.net^
 @@||open.account.oppo.com^
 @@||open.bytedanceapi.com^
+@@||open.doubao.com^
 @@||open.douyin.com^
 @@||open.oppomobile.com^
 @@||open.snssdk.com^
@@ -2415,6 +2438,7 @@
 @@||party.163.com^
 @@||passport.360.cn^
 @@||passport.bilibili.com^
+@@||passport.doubao.com^
 @@||passport.goofish.com^
 @@||passport.iqiyi.com^
 @@||passport.qidian.com^
@@ -2428,6 +2452,8 @@
 @@||passwordreset.microsoftonline.com^$important
 @@||patchwiki.biligame.com^
 @@||pay.bilibili.com^
+@@||pay.doubao.com^
+@@||pay.ele.me^
 @@||pay.heytap.com^
 @@||pay.huawei.com^
 @@||pay.openspeech.cn^
@@ -2556,6 +2582,8 @@
 @@||push.apple.com^
 @@||push.apple.com^$important
 @@||push.chsi.com.cn^
+@@||push.doubao.com^
+@@||push.ele.me^
 @@||push.heytap.com^
 @@||push.m.youku.com^
 @@||push.oneplus.com^
@@ -2563,6 +2591,7 @@
 @@||push.oppo.com^
 @@||push.oray.com^
 @@||push.realme.com^
+@@||push.taobao.com^
 @@||push.vivo.com^
 @@||push.youku.com^
 @@||push.yximgs.com^
@@ -2640,6 +2669,8 @@
 @@||reminders.icloud.com^
 @@||render-prod-backup-tile.amap.com^
 @@||render.amap.com^
+@@||report.doubao.com^
+@@||report.ele.me^
 @@||report.passport.360.cn^
 @@||report.taptapdada.com^
 @@||res-r.qingjiaota.com^
@@ -2665,7 +2696,10 @@
 @@||resolver.msg.xiaomi.net^
 @@||resource.realme.com^
 @@||restapi.amap.com^
+@@||retail.taobao.com^
 @@||richmedia.video.qq.com^
+@@||risk.doubao.com^
+@@||risk.taobao.com^
 @@||rls.tapimg.com^
 @@||rom.realme.com^
 @@||router.ctc.lan^
@@ -2753,6 +2787,7 @@
 @@||sdkapi.sms.mob.com^
 @@||se*.360simg.com^
 @@||se.360.cn^
+@@||search.doubao.com^
 @@||search.kuwo.cn^
 @@||search.sogoucdn.com^
 @@||search.youku.com^
@@ -2764,8 +2799,10 @@
 @@||secrets.icloud.com^
 @@||secure.globalsign.com^$important
 @@||securemetrics.apple.com^
+@@||security.doubao.com^
 @@||security.microsoft.com^$important
 @@||security.realme.com^
+@@||security.taobao.com^
 @@||security.vivo.com^
 @@||self.events.data.microsoft.com^
 @@||sentry.zhuanzhuan.com^
@@ -2870,6 +2907,8 @@
 @@||ssl.gstatic.com^$important
 @@||ssl.msdk.qq.com^
 @@||ssl.p.jwpcdn.com^
+@@||sso.doubao.com^
+@@||sso.ele.me^
 @@||ssr.m.goofish.com^
 @@||ssw.live.com^$important
 @@||st.jingxi.com^
@@ -2903,8 +2942,9 @@
 @@||static.ali213.net^
 @@||static.biligame.com^
 @@||static.clewm.net^
-@@||static.cloudflareinsights.com^$important
+@@||static.cloudflareinsights.com^
 @@||static.deepseek.com^
+@@||static.doubao.com^
 @@||static.e.189.cn^
 @@||static.gitbook.com^
 @@||static.hdslb.com^
@@ -3091,7 +3131,10 @@
 @@||tpns.sh.tencent.com^
 @@||tpns.tencent.com^
 @@||tpstelemetry.tencent.com^
+@@||track.doubao.com^
+@@||track.ele.me^
 @@||track.sohu.com^
+@@||track.taobao.com^
 @@||tracker.ai.xiaomi.com^
 @@||tracker.didistatic.com^
 @@||trade-acs.m.taobao.com^
@@ -3154,7 +3197,7 @@
 @@||union-click.jd.com^
 @@||union.jd.com^
 @@||unisdk.update.netease.com^
-@@||unpkg.com^$important
+@@||unpkg.com^
 @@||unpkg.zhimg.com^
 @@||uop.quark.cn^
 @@||up.cm.ksmobile.com^
@@ -3200,6 +3243,7 @@
 @@||user.realme.com^
 @@||user1.game.qq.com^
 @@||ut-public-service-prod10.ol.epicgames.com^$important
+@@||ut.ele.me^
 @@||uxip.meizu.com^
 @@||uzzf.com^
 @@||v*-dc-ad.ixigua.com^
@@ -3314,6 +3358,7 @@
 @@||waapdg.jd.com^
 @@||waimai-guide.ele.me^
 @@||waimai-guide.ele.me^$important
+@@||waimai.ele.me^
 @@||wallet.heytap.com^
 @@||wallet.realme.com^
 @@||wallpaper.cdn.pandora.xiaomi.com^
@@ -3600,6 +3645,7 @@
 @@||xbk.189.cn^
 @@||xhslink.com^
 @@||xiaomiev.com^
+@@||xiaoshida.taobao.com^
 @@||xiaoshuo.wtzw.com^
 @@||xifuquan.com^
 @@||xj-n-tax.gov.cn^

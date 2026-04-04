@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-04-04 10:02:38（北京时间）
+! Version: 2026-04-04 18:02:03（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17094
+! Total count: 17093
 # AdClose 专用广告规则
-# 生成时间: 2026-04-04 02:02:37（北京时间）
+# 生成时间: 2026-04-04 10:02:03（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -2355,7 +2355,6 @@ domain, am.zdnet.com.cn
 domain, am15.net
 domain, am3-745151.xyz
 domain, amadeus--box-10909--www-zhihu-com.zpres.zhihu.com
-domain, amap-aos-info-nogw.amap.com
 domain, amazingmagics.com
 domain, amazon-adsystem.com
 domain, amazonaax.com
@@ -13319,6 +13318,7 @@ domain, sngmta.qq.com
 domain, snnnyy.com
 domain, snow001.com
 domain, sns-paopao.iqiyi.com
+domain, sntcbhv.com
 domain, so.clzgd.com
 domain, so9l.com
 domain, soa-vip-ssl.xunlei.com
@@ -15448,7 +15448,6 @@ domain, whalecloud.com
 domain, whcrdz.com
 domain, whe0nqk.icu
 domain, whistleout.s3.amazonaws.com
-domain, whjzjx.cn
 domain, whn.star-media.cn
 domain, whoami.akamai.net
 domain, whpxy.com

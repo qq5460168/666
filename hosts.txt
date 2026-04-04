@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-04-04 10:02:38（北京时间）
+! Version: 2026-04-04 18:02:03（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17095
+! Total count: 17094
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-04-04 02:02:37（北京时间）
+# Last Updated: 2026-04-04 10:02:03（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -2356,7 +2356,6 @@
 0.0.0.0 am15.net
 0.0.0.0 am3-745151.xyz
 0.0.0.0 amadeus--box-10909--www-zhihu-com.zpres.zhihu.com
-0.0.0.0 amap-aos-info-nogw.amap.com
 0.0.0.0 amazingmagics.com
 0.0.0.0 amazon-adsystem.com
 0.0.0.0 amazonaax.com
@@ -13320,6 +13319,7 @@
 0.0.0.0 snnnyy.com
 0.0.0.0 snow001.com
 0.0.0.0 sns-paopao.iqiyi.com
+0.0.0.0 sntcbhv.com
 0.0.0.0 so.clzgd.com
 0.0.0.0 so9l.com
 0.0.0.0 soa-vip-ssl.xunlei.com
@@ -15449,7 +15449,6 @@
 0.0.0.0 whcrdz.com
 0.0.0.0 whe0nqk.icu
 0.0.0.0 whistleout.s3.amazonaws.com
-0.0.0.0 whjzjx.cn
 0.0.0.0 whn.star-media.cn
 0.0.0.0 whoami.akamai.net
 0.0.0.0 whpxy.com
