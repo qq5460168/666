@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-04-04 18:02:03（北京时间）
+! Version: 2026-04-04 20:53:09（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3711
+! Total count: 3732
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -35,7 +35,6 @@
 @@||*.compliance.microsoft.com^
 @@||*.cortana.ai^
 @@||*.dlied1.cdntips.net^
-@@||*.doubao-app.cn^
 @@||*.entrust.net^
 @@||*.events.data.microsoft.com^
 @@||*.find.api.micloud.xiaomi.net^
@@ -223,6 +222,7 @@
 @@||account.activedirectory.windowsazure.com^$important
 @@||account.agiso.com^
 @@||account.dianping.com^
+@@||account.doubao.com^
 @@||account.huawei.com^
 @@||account.live.com^$important
 @@||account.oneplus.com^
@@ -527,9 +527,11 @@
 @@||aq.qq.com^
 @@||archive.biliimg.com^
 @@||arenascan.com^
+@@||art.doubao.com^
 @@||article.zlink.toutiao.com^
 @@||as.weixin.qq.com^
 @@||ascdn.baidu.com^
+@@||asr-ime.doubao.com^
 @@||assets-www.xbox.com^
 @@||assets.cnblogs.com^
 @@||assets.giocdn.com^
@@ -695,6 +697,7 @@
 @@||cdn-chateva.zhhainiao.com^
 @@||cdn-f1.assistant.miui.com^
 @@||cdn-go.cn^
+@@||cdn-ime.doubao.com^
 @@||cdn-msp*.18comic*.*^
 @@||cdn-msp*.18comic.*^
 @@||cdn.akamai.steamstatic.com^
@@ -831,6 +834,7 @@
 @@||clients4.google.com^
 @@||clients4.google.com^$important
 @@||clips4sale.com^
+@@||cloud-ime.doubao.com^
 @@||cloud.heytap.com^
 @@||cloud.huawei.com^
 @@||cloud.oneplus.com^
@@ -1009,6 +1013,7 @@
 @@||debugtbs.qq.com^
 @@||defaultts.tc.qq.com^
 @@||defender.microsoft.com^$important
+@@||desktop.doubao.com^
 @@||detail.meizu.com^
 @@||detail.zol.com.cn^
 @@||dev.miuiflash.com^
@@ -1027,6 +1032,7 @@
 @@||diagassets.apple.com^$important
 @@||diagnose.vivo.com^
 @@||dianfeijisuanqi.bmcx.com^
+@@||dict-ime.doubao.com^
 @@||dig.bdurl.net^
 @@||dig.lianjia.com^
 @@||dig.zjurl.cn^
@@ -1065,6 +1071,7 @@
 @@||dns.icoa.cn^
 @@||dns.iqiyi.com^
 @@||dnscheck.tools^
+@@||doc.doubao.com^
 @@||doc.oplist.org.cn^
 @@||doc.oplist.org^
 @@||dockerstatic.com^
@@ -1079,7 +1086,6 @@
 @@||dorado.xiaojukeji.com^
 @@||doris.yidianzixun.com^
 @@||dot.360.cn^
-@@||doubao-app.cn^
 @@||douyincdn.com^
 @@||douyinstatic.com^
 @@||down-update.qq.com^
@@ -1095,6 +1101,7 @@
 @@||download.dangbei.com^
 @@||download.deepseek.com^
 @@||download.developer.apple.com^$important
+@@||download.doubao.com^
 @@||download.epicgames.com^$important
 @@||download.heytap.com^
 @@||download.jetbrains.com^
@@ -1119,6 +1126,7 @@
 @@||dpurl.cn^$important
 @@||dragate-cn.dc.heytapmobi.com^
 @@||dragate.dc.oppomobile.com^
+@@||draw.doubao.com^
 @@||dreport.meituan.net^
 @@||drive-h.quark.cn^
 @@||drive-pc.quark.cn^
@@ -1176,6 +1184,7 @@
 @@||em.phncdn.com^
 @@||emas-link-service.aliyuncs.com^
 @@||embedwish.com^
+@@||emoji-ime.doubao.com^
 @@||emoji.bj.bcebos.com^
 @@||emoji.qpic.cn^
 @@||emoji.uc.cn^
@@ -1253,6 +1262,7 @@
 @@||fga0.market.xiaomi.com^
 @@||fgc0.market.xiaomi.com^
 @@||file.40017.cn^
+@@||file.doubao.com^
 @@||file.market.xiaomi.com^
 @@||file.neixin.cn^
 @@||file.xiaomi.com^
@@ -1566,8 +1576,15 @@
 @@||images2.imgbox.com^
 @@||imagex.bytedanceapi.com^
 @@||imasdk.googleapis.com^
+@@||ime-api.doubao.com^
+@@||ime-conf.doubao.com^
+@@||ime-hot.doubao.com^
+@@||ime-igw.doubao.com^
+@@||ime-log.doubao.com^
 @@||ime-res-download.xfinfr.com^
+@@||ime-stat.doubao.com^
 @@||ime-store-cdn.gtimg.com^$important
+@@||ime-syn.doubao.com^
 @@||imeclient.openspeech.cn^
 @@||img*.funshion.com^
 @@||img-bss.csdnimg.cn^
@@ -2018,6 +2035,7 @@
 @@||me-api.jd.com^
 @@||med-fe.cdn.bcebos.com^
 @@||media.9game.cn^
+@@||media.doubao.com^
 @@||mediation.adnxs.com^
 @@||mega.nz^
 @@||meiqia.com^
@@ -2274,11 +2292,11 @@
 @@||oneplusid.oneplus.net^
 @@||open.account.oppo.com^
 @@||open.bytedanceapi.com^
-@@||open.doubao.com^
 @@||open.douyin.com^
 @@||open.oppomobile.com^
 @@||open.snssdk.com^
 @@||openap-alps.51y5.net^
+@@||openapi.doubao.com^
 @@||openapi.vmall.com^
 @@||opencloud.wostore.cn^
 @@||openmobile.qq.com^
@@ -2452,7 +2470,6 @@
 @@||passwordreset.microsoftonline.com^$important
 @@||patchwiki.biligame.com^
 @@||pay.bilibili.com^
-@@||pay.doubao.com^
 @@||pay.ele.me^
 @@||pay.heytap.com^
 @@||pay.huawei.com^
@@ -2929,6 +2946,7 @@
 @@||static-assets-prod.epicgames.com^$important
 @@||static-cdn77.xnxx-cdn.com^
 @@||static-hw.xnxx-cdn.com^
+@@||static-ime.doubao.com^
 @@||static-l3.xnxx-cdn.com^
 @@||static-mobilegame-1.biligame.net^
 @@||static-res.qq.com^
@@ -2979,6 +2997,7 @@
 @@||statusapi.micloud.xiaomi.net^
 @@||stawritecdn.yuewen.com^
 @@||steamcommunity.com^
+@@||sticker-ime.doubao.com^
 @@||storage.360buyimg.com^
 @@||storage.googleapis.com^$important
 @@||storage.jd.com^
@@ -3148,6 +3167,7 @@
 @@||ts4.tc.mm.bing.net^
 @@||tse1.mm.bing.net^$important
 @@||tsis.jpush.cn^
+@@||tts-ime.doubao.com^
 @@||ttwid.bytedance.com^
 @@||tube.e.kuaishou.com^
 @@||tuisong.baidu.com^
@@ -3205,6 +3225,7 @@
 @@||updata.miui.com^
 @@||update.360safe.com^
 @@||update.coloros.com^
+@@||update.doubao.com^
 @@||update.hicloud.com^
 @@||update.intl.miui.com^$important
 @@||update.miui.com^$important

@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-04-04 18:02:03（北京时间）
+! Version: 2026-04-04 20:53:09（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3061
+! Total count: 3083
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-04-04 18:02:03（北京时间）
-# 总域名数: 3055
+# 生成时间: 2026-04-04 20:53:08（北京时间）
+# 总域名数: 3077
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -76,6 +76,7 @@ ac.dun.163yun.com
 access1.tpns.tencent.com
 account.agiso.com
 account.dianping.com
+account.doubao.com
 account.huawei.com
 account.oneplus.com
 account.oneplus.net
@@ -311,9 +312,11 @@ aps.amap.com
 aq.qq.com
 archive.biliimg.com
 arenascan.com
+art.doubao.com
 article.zlink.toutiao.com
 as.weixin.qq.com
 ascdn.baidu.com
+asr-ime.doubao.com
 assets-www.xbox.com
 assets.cnblogs.com
 assets.giocdn.com
@@ -451,6 +454,7 @@ cdn-audio.qimao.com
 cdn-chateva.zhhainiao.com
 cdn-f1.assistant.miui.com
 cdn-go.cn
+cdn-ime.doubao.com
 cdn.akamai.steamstatic.com
 cdn.aligames.com
 cdn.ark.qq.com
@@ -565,6 +569,7 @@ clients.l.google.com
 clients1.google.com
 clients4.google.com
 clips4sale.com
+cloud-ime.doubao.com
 cloud.heytap.com
 cloud.huawei.com
 cloud.oneplus.com
@@ -707,6 +712,7 @@ ddyunbo.com
 de.pandora.xiaomi.com
 debugtbs.qq.com
 defaultts.tc.qq.com
+desktop.doubao.com
 detail.meizu.com
 detail.zol.com.cn
 dev.miuiflash.com
@@ -719,6 +725,7 @@ dg.k.jd.com
 di.phncdn.com
 diagnose.vivo.com
 dianfeijisuanqi.bmcx.com
+dict-ime.doubao.com
 dig.bdurl.net
 dig.lianjia.com
 dig.zjurl.cn
@@ -752,6 +759,7 @@ dns.adguard.com
 dns.icoa.cn
 dns.iqiyi.com
 dnscheck.tools
+doc.doubao.com
 doc.oplist.org
 doc.oplist.org.cn
 dockerstatic.com
@@ -763,7 +771,6 @@ domains-ws.revved.com
 dorado.xiaojukeji.com
 doris.yidianzixun.com
 dot.360.cn
-doubao-app.cn
 douyincdn.com
 douyinstatic.com
 down-update.qq.com
@@ -777,6 +784,7 @@ download.alicdn.com
 download.bitcomet.com
 download.dangbei.com
 download.deepseek.com
+download.doubao.com
 download.heytap.com
 download.jetbrains.com
 download.oneplus.com
@@ -796,6 +804,7 @@ dpmtpush.dianping.com
 dpurl.cn
 dragate-cn.dc.heytapmobi.com
 dragate.dc.oppomobile.com
+draw.doubao.com
 dreport.meituan.net
 drive-h.quark.cn
 drive-pc.quark.cn
@@ -848,6 +857,7 @@ em-h.phncdn.com
 em.phncdn.com
 emas-link-service.aliyuncs.com
 embedwish.com
+emoji-ime.doubao.com
 emoji.bj.bcebos.com
 emoji.qpic.cn
 emoji.uc.cn
@@ -913,6 +923,7 @@ ff0.market.xiaomi.com
 fga0.market.xiaomi.com
 fgc0.market.xiaomi.com
 file.40017.cn
+file.doubao.com
 file.market.xiaomi.com
 file.neixin.cn
 file.xiaomi.com
@@ -1187,7 +1198,14 @@ images1-focus-opensocial.googleusercontent.com
 images2.imgbox.com
 imagex.bytedanceapi.com
 imasdk.googleapis.com
+ime-api.doubao.com
+ime-conf.doubao.com
+ime-hot.doubao.com
+ime-igw.doubao.com
+ime-log.doubao.com
 ime-res-download.xfinfr.com
+ime-stat.doubao.com
+ime-syn.doubao.com
 imeclient.openspeech.cn
 img-bss.csdnimg.cn
 img-cf.xnxx-cdn.com
@@ -1585,6 +1603,7 @@ mdn.open.wo.cn
 me-api.jd.com
 med-fe.cdn.bcebos.com
 media.9game.cn
+media.doubao.com
 mediation.adnxs.com
 mega.nz
 meiqia.com
@@ -1807,11 +1826,11 @@ oneplusid.oneplus.com
 oneplusid.oneplus.net
 open.account.oppo.com
 open.bytedanceapi.com
-open.doubao.com
 open.douyin.com
 open.oppomobile.com
 open.snssdk.com
 openap-alps.51y5.net
+openapi.doubao.com
 openapi.vmall.com
 opencloud.wostore.cn
 openmobile.qq.com
@@ -1957,7 +1976,6 @@ passport.youku.com
 passport.yuewen.com
 patchwiki.biligame.com
 pay.bilibili.com
-pay.doubao.com
 pay.ele.me
 pay.heytap.com
 pay.huawei.com
@@ -2368,6 +2386,7 @@ stat.youku.com
 stat6.y.qq.com
 static-cdn77.xnxx-cdn.com
 static-hw.xnxx-cdn.com
+static-ime.doubao.com
 static-l3.xnxx-cdn.com
 static-mobilegame-1.biligame.net
 static-res.qq.com
@@ -2416,6 +2435,7 @@ status.deepseek.com
 statusapi.micloud.xiaomi.net
 stawritecdn.yuewen.com
 steamcommunity.com
+sticker-ime.doubao.com
 storage.360buyimg.com
 storage.jd.com
 storage.wikawika.xyz
@@ -2557,6 +2577,7 @@ ts2.tc.mm.bing.net
 ts3.tc.mm.bing.net
 ts4.tc.mm.bing.net
 tsis.jpush.cn
+tts-ime.doubao.com
 ttwid.bytedance.com
 tube.e.kuaishou.com
 tuisong.baidu.com
@@ -2614,6 +2635,7 @@ upage.imtt.qq.com
 updata.miui.com
 update.360safe.com
 update.coloros.com
+update.doubao.com
 update.hicloud.com
 update.oneplus.com
 update.oneplus.net
