@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-04-08 21:18:05（北京时间）
+! Version: 2026-04-09 10:07:25（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3734
+! Total count: 3801
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -326,6 +326,7 @@
 @@||amp-api.music.apple.com^
 @@||amp.azure.net^$important
 @@||analysis.chatglm.cn^
+@@||analytics.ximalaya.com^$important
 @@||analytics.yinxiang.com^
 @@||android-apps.pp.cn^
 @@||android-apps.pp.cn^$important
@@ -431,6 +432,7 @@
 @@||api.sec.miui.com^
 @@||api.sec.miui.com^$important
 @@||api.smoot.apple.com^
+@@||api.soulapp.cn^
 @@||api.tencentmusic.com^
 @@||api.tiantiantiaosheng.com^
 @@||api.toutiaoapi.com^
@@ -447,6 +449,7 @@
 @@||api.vivo.com^
 @@||api.weathercn.com^
 @@||api.x.com^
+@@||api.ximalaya.com^$important
 @@||api.youku.com^
 @@||api.zhihu.com^
 @@||api.zhuti.xiaomi.com^
@@ -548,6 +551,8 @@
 @@||audid-api-sg.taobao.com^
 @@||audid-api.taobao.com^
 @@||audio-cdn.shuqireader.com^
+@@||audio.ximalaya.com^$important
+@@||audio.xmcdn.com^$important
 @@||audiocontentdownload.apple.com^$important
 @@||audiopay.pcdn.xmcdn.com^
 @@||audiopaydl.pcdn.xmcdn.com^
@@ -559,6 +564,7 @@
 @@||auth.wosms.cn^
 @@||auth.zijieapi.com^
 @@||autologon.microsoftazuread-sso.com^$important
+@@||av.soulapp.cn^
 @@||avatar.bdstatic.com^
 @@||avatar.coolapk.com^
 @@||avatar.csdnimg.cn^
@@ -645,6 +651,7 @@
 @@||bud.iqiyi.com^
 @@||business.apple.com^$important
 @@||buy.itunes.apple.com^
+@@||buy.ximalaya.com^$important
 @@||bytedanceapi.com^
 @@||byteimg.com.queniusy.com^
 @@||c.58cdn.com.cn^
@@ -719,6 +726,7 @@
 @@||cdn.pinduoduo.com^
 @@||cdn.ping0.cc^
 @@||cdn.plyr.io^
+@@||cdn.soulapp.cn^
 @@||cdn.staticfile.org^
 @@||cdn.tiantiantiaosheng.com^
 @@||cdn.uci.officeapps.live.com^$important
@@ -931,6 +939,7 @@
 @@||cos.na-ashburn.myqcloud.com^
 @@||cos.na-siliconvalley.myqcloud.com^
 @@||cos.sa-saopaulo.myqcloud.com^
+@@||cos.soulapp.cn^
 @@||count.mail.163.com^
 @@||counter-strike.net^
 @@||courier.push.apple.com^
@@ -996,8 +1005,10 @@
 @@||data.sec*.miui.com^
 @@||data.sec.miui.com^
 @@||data.services.jetbrains.com^
+@@||data.soulapp.cn^
 @@||data.vivo.com^
 @@||data.vod.itc.cn^
+@@||data.ximalaya.com^$important
 @@||data.youku.com^
 @@||dataprajna.net^
 @@||datarouter.ol.epicgames.com^$important
@@ -1245,12 +1256,14 @@
 @@||fcount-api.webapp.163.com^
 @@||fcs-keys-pub-prod.cdn-apple.com^$important
 @@||fdfs.xmcdn.com^
+@@||fdfs.xmcdn.com^$important
 @@||fe-static.xhscdn.com^
 @@||fe-video-qc.xhscdn.com^
 @@||fe3cr.delivery.mp.microsoft.com^
 @@||feconf.zhuanzhuan.com^
 @@||feconf.zhuanzhuan.com^$important
 @@||feed-image.baidu.com^
+@@||feed.ximalaya.com^$important
 @@||feedback.miui.com^
 @@||feeds.sina.cn^
 @@||feentry.zhuanzhuan.com^
@@ -1340,6 +1353,8 @@
 @@||gamezop.com^
 @@||gateway.icloud.com^$important
 @@||gateway.kugou.com^
+@@||gateway.soulapp.cn^
+@@||gateway.ximalaya.com^$important
 @@||gator.volces.com^
 @@||gc.apple.com^$important
 @@||gcable.com.cn^
@@ -1558,13 +1573,17 @@
 @@||ig.apple.com^$important
 @@||ii.gdt.qq.com^
 @@||iknow-pic.cdn.bcebos.com^
+@@||im-*.soulapp.cn^
 @@||im-x.jd.com^
 @@||im.alimebot.taobao.com^
 @@||im.qq.com^
+@@||im.soulapp.cn^
+@@||im.ximalaya.com^$important
 @@||image.9game.cn^
 @@||image.coolapk.com^
 @@||image.quark.cn^
 @@||image.uc.cn^
+@@||image.ximalaya.com^$important
 @@||image.yijoys.com^
 @@||imagecdn.clips4sale.com^
 @@||images.google.cn^
@@ -1612,8 +1631,10 @@
 @@||img.shouji.sogou.com^$important
 @@||img.siwazywimg.com^
 @@||img.sogoucdn.com^
+@@||img.soulapp.cn^
 @@||img.ssl.msdk.qq.com^
 @@||img.tapimg.com^
+@@||img.xmcdn.com^$important
 @@||img.youpin.mi-img.com^
 @@||img.zuoyebang.cc^
 @@||img01.sogoucdn.com^
@@ -1720,6 +1741,7 @@
 @@||jp.pornhub.com^
 @@||jp.spankbang.com^
 @@||jp.uptodown.com^
+@@||jpush.soulapp.cn^
 @@||jr.jd.com^
 @@||js-gamezone.static.yximgs.com^
 @@||js.3conline.com^
@@ -1840,6 +1862,7 @@
 @@||live.douyin.com^
 @@||live.kuaishou.com^
 @@||live.simcitybuildit.com^
+@@||live.ximalaya.com^$important
 @@||livephoto.us.sinaimg.cn^
 @@||livere.com^
 @@||livew.l.qq.com^
@@ -1876,9 +1899,11 @@
 @@||login.microsoftonline.com^
 @@||login.microsoftonline.com^$important
 @@||login.sina.com.cn^
+@@||login.soulapp.cn^
 @@||login.taobao.com^
 @@||login.windows-ppe.net^$important
 @@||login.windows.net^$important
+@@||login.ximalaya.com^$important
 @@||logincdn.msauth.net^
 @@||logincert.microsoftonline.com^$important
 @@||loginex.microsoftonline.com^$important
@@ -1939,6 +1964,7 @@
 @@||m.vmall.com^
 @@||m.weibo.cn^
 @@||m.xiachufang.com^
+@@||m.ximalaya.com^$important
 @@||m.xunlei.com^
 @@||m.yjwujian.cn^
 @@||m.ykimg.com^
@@ -2036,6 +2062,7 @@
 @@||med-fe.cdn.bcebos.com^
 @@||media.9game.cn^
 @@||media.doubao.com^
+@@||media.soulapp.cn^
 @@||mediation.adnxs.com^
 @@||mega.nz^
 @@||meiqia.com^
@@ -2107,6 +2134,7 @@
 @@||mobile.twitter.com^
 @@||mobile.x.com^
 @@||mobile.ximalaya.com^
+@@||mobile.ximalaya.com^$important
 @@||mobile.xunlei.com^
 @@||mobile.yangkeduo.com^
 @@||mobilelog.kugou.com^
@@ -2140,8 +2168,10 @@
 @@||msfwifi.3g.qq.com^
 @@||msg.douyu.com^
 @@||msg.realme.com^
+@@||msg.soulapp.cn^
 @@||msg.video.qiyi.com^
 @@||msg.vivo.com^
+@@||msg.ximalaya.com^$important
 @@||msg.youku.com^
 @@||msgacs.cn-zhangjiakou.aliyuncs.com^
 @@||msgacs.m.taobao.com^
@@ -2309,6 +2339,7 @@
 @@||osrecovery.apple.com^$important
 @@||oss-asq-static.11222.cn^
 @@||oss.b3logfile.com^
+@@||oss.soulapp.cn^
 @@||ossapi.baidu.com^
 @@||ossp.voicecloud.cn^
 @@||ot.io.mi.com^$important
@@ -2461,10 +2492,12 @@
 @@||passport.goofish.com^
 @@||passport.iqiyi.com^
 @@||passport.qidian.com^
+@@||passport.soulapp.cn^
 @@||passport.vivo.com^
 @@||passport.weibo.cn^
 @@||passport.weibo.com^
 @@||passport.xiaomi.com^
+@@||passport.ximalaya.com^$important
 @@||passport.youdao.com^
 @@||passport.youku.com^
 @@||passport.yuewen.com^
@@ -2477,11 +2510,15 @@
 @@||pay.openspeech.cn^
 @@||pay.oppo.com^
 @@||pay.realme.com^
+@@||pay.soulapp.cn^
 @@||pay.weixin.qq.com^
+@@||pay.ximalaya.com^$important
 @@||pay.youku.com^
 @@||payapp.weixin.qq.com^
 @@||paydns.wechatpay.cn^
 @@||payment.hicloud.com^
+@@||payment.soulapp.cn^
+@@||payment.ximalaya.com^$important
 @@||pbaccess.video.qq.com^
 @@||pbs.twimg.com^
 @@||pc-api.uc.cn^
@@ -2546,6 +2583,7 @@
 @@||play.163.com^
 @@||play.googleapis.com^
 @@||play.itunes.apple.com^$important
+@@||play.ximalaya.com^$important
 @@||play1.heytapimage.com^
 @@||player.youku.com^
 @@||playgrounds-assets-cdn.apple.com^$important
@@ -2609,8 +2647,10 @@
 @@||push.oppo.com^
 @@||push.oray.com^
 @@||push.realme.com^
+@@||push.soulapp.cn^
 @@||push.taobao.com^
 @@||push.vivo.com^
+@@||push.ximalaya.com^$important
 @@||push.youku.com^
 @@||push.yximgs.com^
 @@||push1.91cloud.net^
@@ -2674,9 +2714,10 @@
 @@||reader.browser.miui.com^
 @@||reading.snssdk.com^
 @@||readstatic.zhulang.com^
+@@||rec.ximalaya.com^$important
 @@||recmd.html5.qq.com^
 @@||recommend.youku.com^
-@@||redditmedia.com^$important
+@@||redditmedia.com^
 @@||redirector.gvt1.com^
 @@||reg.163.com^
 @@||register*mi.com^
@@ -2691,7 +2732,9 @@
 @@||report.doubao.com^
 @@||report.ele.me^
 @@||report.passport.360.cn^
+@@||report.soulapp.cn^
 @@||report.taptapdada.com^
+@@||report.ximalaya.com^$important
 @@||res-r.qingjiaota.com^
 @@||res-static.hc-cdn.cn^
 @@||res-video.hc-cdn.com^
@@ -2708,6 +2751,8 @@
 @@||res.oplist.org^
 @@||res.qiyukf.net^
 @@||res.vmallres.com^
+@@||res.ximalaya.com^$important
+@@||res.xmcdn.com^$important
 @@||resfile.lixincsb.com^
 @@||resmedi.lixincsb.com^
 @@||resolver*mi.com^
@@ -2723,6 +2768,7 @@
 @@||rom.realme.com^
 @@||router.ctc.lan^
 @@||rs.xmeye.net^
+@@||rtc.soulapp.cn^
 @@||ru.register.xmpush.global.xiaomi.com^
 @@||ruac.account.xiaomi.com^$important
 @@||rule.tencent.com^
@@ -2809,6 +2855,7 @@
 @@||search.doubao.com^
 @@||search.kuwo.cn^
 @@||search.sogoucdn.com^
+@@||search.ximalaya.com^$important
 @@||search.youku.com^
 @@||searchrec.marketplace-intl.huaweicloud.com^
 @@||sec-cdn.static.xiaomi.net^
@@ -2940,7 +2987,9 @@
 @@||stat.dangbei.com^
 @@||stat.funshion.com^
 @@||stat.realme.com^
+@@||stat.soulapp.cn^
 @@||stat.vivo.com^
+@@||stat.ximalaya.com^$important
 @@||stat.y.qq.com^
 @@||stat.youku.com^
 @@||stat6.y.qq.com^
@@ -2977,10 +3026,13 @@
 @@||static.pddpic.com^
 @@||static.qiyi.com^
 @@||static.res.qq.com^
+@@||static.soulapp.cn^
 @@||static.spankbang.com^
 @@||static.tieba.baidu.com^
 @@||static.woozooo.com^
 @@||static.ws.126.net^
+@@||static.ximalaya.com^$important
+@@||static.xmcdn.com^$important
 @@||static.xx.fbcdn.net^
 @@||static.yidianzixun.com^
 @@||static.youlai.cn^
@@ -3119,6 +3171,7 @@
 @@||theme.oneplus.net^
 @@||theme.oppo.com^
 @@||theme.realme.com^
+@@||themis.soulapp.cn^
 @@||theporndude.com^
 @@||thirdqq.qlogo.cn^
 @@||thirdwx.qlogo.cn^
@@ -3150,15 +3203,19 @@
 @@||tousu.sina.com.cn^
 @@||toutiaostatic.com^
 @@||tpns.sh.tencent.com^
+@@||tpns.soulapp.cn^
 @@||tpns.tencent.com^
 @@||tpstelemetry.tencent.com^
 @@||track.doubao.com^
 @@||track.ele.me^
 @@||track.sohu.com^
 @@||track.taobao.com^
+@@||track.ximalaya.com^$important
 @@||tracker.ai.xiaomi.com^
 @@||tracker.didistatic.com^
 @@||trade-acs.m.taobao.com^
+@@||trade.soulapp.cn^
+@@||trade.ximalaya.com^$important
 @@||train.17u.cn^
 @@||translator.qq.com^
 @@||trpc.qianbao.qq.com^
@@ -3204,6 +3261,7 @@
 @@||uc-titans-cn-01.heytapimage.com^
 @@||uc-titans-cn.heytapimage.com^
 @@||uc.ucweb.com^
+@@||uc.ximalaya.com^$important
 @@||ucweb.com^
 @@||uczzd.cn^
 @@||udpolimenew.baidu.com^
@@ -3339,6 +3397,7 @@
 @@||video.goofish.com^
 @@||video.huawei.com^
 @@||video.kts.g.mi.com^
+@@||video.soulapp.cn^
 @@||video.twimg.com^
 @@||video.zhihu.com^
 @@||video1p.dxycdn.com^
@@ -3350,6 +3409,7 @@
 @@||view.inews.qq.com^
 @@||vip-pro.m.yhd.com^
 @@||vip.iqiyi.com^
+@@||vip.ximalaya.com^$important
 @@||vip.youku.com^
 @@||vip1.kuwo.cn^
 @@||vjav.com^
@@ -3358,10 +3418,13 @@
 @@||vmmp.qpic.cn^
 @@||vmware.com^
 @@||vod.cc.163.com^
+@@||vod.ximalaya.com^$important
+@@||vod.xmcdn.com^$important
 @@||vod.youku.com^
 @@||vodcdn.youku.com^
 @@||vodkgeyttp8.vod.126.net^
 @@||vodkgeyttp9.vod.126.net^
+@@||voice.soulapp.cn^
 @@||volcengine-cache-weboffice.wpscdn.cn^
 @@||volcengine-kdocs-cache.wpscdn.cn^
 @@||vpic.cms.qq.com^
@@ -3448,7 +3511,11 @@
 @@||ws-ee-maidsvc.icloud.com^$important
 @@||ws.ribaoapi.com^
 @@||ws.school.apple.com^$important
+@@||ws.soulapp.cn^
+@@||ws.ximalaya.com^$important
 @@||wsdl.360safe.com^
+@@||wss.soulapp.cn^
+@@||wss.ximalaya.com^$important
 @@||wtradv.market.xiaomi.com^
 @@||wus-firstpartyapps.oaspapps.com^$important
 @@||wuxia.163.com^

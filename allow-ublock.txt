@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-04-08 21:18:05（北京时间）
+! Version: 2026-04-09 10:07:25（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3084
+! Total count: 3113
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-04-08 21:18:05（北京时间）
-# 总域名数: 3078
+# 生成时间: 2026-04-09 10:07:25（北京时间）
+# 总域名数: 3107
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -239,6 +239,7 @@ api.sandbox.push.apple.com
 api.sec.intl.miui.com
 api.sec.miui.com
 api.smoot.apple.com
+api.soulapp.cn
 api.tencentmusic.com
 api.tiantiantiaosheng.com
 api.toutiaoapi.com
@@ -340,6 +341,7 @@ auth.icloud.com
 auth.realme.com
 auth.wosms.cn
 auth.zijieapi.com
+av.soulapp.cn
 avatar.bdstatic.com
 avatar.coolapk.com
 avatar.csdnimg.cn
@@ -472,6 +474,7 @@ cdn.pandora.xiaomi.com
 cdn.pinduoduo.com
 cdn.ping0.cc
 cdn.plyr.io
+cdn.soulapp.cn
 cdn.staticfile.org
 cdn.tiantiantiaosheng.com
 cdn.ui.porsche.com
@@ -652,6 +655,7 @@ cos.eu-frankfurt.myqcloud.com
 cos.na-ashburn.myqcloud.com
 cos.na-siliconvalley.myqcloud.com
 cos.sa-saopaulo.myqcloud.com
+cos.soulapp.cn
 count.mail.163.com
 counter-strike.net
 courier.push.apple.com
@@ -698,6 +702,7 @@ data.mistat.intl.xiaomi.com
 data.mistat.xiaomi.com
 data.sec.miui.com
 data.services.jetbrains.com
+data.soulapp.cn
 data.vivo.com
 data.vod.itc.cn
 data.youku.com
@@ -994,6 +999,7 @@ games.oneplus.com
 games.oneplus.net
 gamezop.com
 gateway.kugou.com
+gateway.soulapp.cn
 gator.volces.com
 gcable.com.cn
 gdfp.gifshow.com
@@ -1183,6 +1189,7 @@ iknow-pic.cdn.bcebos.com
 im-x.jd.com
 im.alimebot.taobao.com
 im.qq.com
+im.soulapp.cn
 image.9game.cn
 image.coolapk.com
 image.quark.cn
@@ -1231,6 +1238,7 @@ img.qidian.com
 img.samsungapps.com
 img.siwazywimg.com
 img.sogoucdn.com
+img.soulapp.cn
 img.ssl.msdk.qq.com
 img.tapimg.com
 img.youpin.mi-img.com
@@ -1326,6 +1334,7 @@ jomodns.com
 jp.pornhub.com
 jp.spankbang.com
 jp.uptodown.com
+jpush.soulapp.cn
 jr.jd.com
 js-gamezone.static.yximgs.com
 js.3conline.com
@@ -1458,6 +1467,7 @@ login.live.com
 login.m.taobao.com
 login.microsoftonline.com
 login.sina.com.cn
+login.soulapp.cn
 login.taobao.com
 logincdn.msauth.net
 logs.game.qq.com
@@ -1604,6 +1614,7 @@ me-api.jd.com
 med-fe.cdn.bcebos.com
 media.9game.cn
 media.doubao.com
+media.soulapp.cn
 mediation.adnxs.com
 mega.nz
 meiqia.com
@@ -1702,6 +1713,7 @@ msedown.360safe.com
 msfwifi.3g.qq.com
 msg.douyu.com
 msg.realme.com
+msg.soulapp.cn
 msg.video.qiyi.com
 msg.vivo.com
 msg.youku.com
@@ -1840,6 +1852,7 @@ orbit.jd.com
 osp.meituan.net
 oss-asq-static.11222.cn
 oss.b3logfile.com
+oss.soulapp.cn
 ossapi.baidu.com
 ossp.voicecloud.cn
 ota.coloros.com
@@ -1968,6 +1981,7 @@ passport.doubao.com
 passport.goofish.com
 passport.iqiyi.com
 passport.qidian.com
+passport.soulapp.cn
 passport.vivo.com
 passport.weibo.cn
 passport.weibo.com
@@ -1983,11 +1997,13 @@ pay.huawei.com
 pay.openspeech.cn
 pay.oppo.com
 pay.realme.com
+pay.soulapp.cn
 pay.weixin.qq.com
 pay.youku.com
 payapp.weixin.qq.com
 paydns.wechatpay.cn
 payment.hicloud.com
+payment.soulapp.cn
 pbaccess.video.qq.com
 pbs.twimg.com
 pc-api.uc.cn
@@ -2097,6 +2113,7 @@ push.oneplus.net
 push.oppo.com
 push.oray.com
 push.realme.com
+push.soulapp.cn
 push.taobao.com
 push.vivo.com
 push.youku.com
@@ -2159,6 +2176,7 @@ reading.snssdk.com
 readstatic.zhulang.com
 recmd.html5.qq.com
 recommend.youku.com
+redditmedia.com
 redirector.gvt1.com
 reg.163.com
 register.apple.com
@@ -2172,6 +2190,7 @@ render.amap.com
 report.doubao.com
 report.ele.me
 report.passport.360.cn
+report.soulapp.cn
 report.taptapdada.com
 res-r.qingjiaota.com
 res-static.hc-cdn.cn
@@ -2203,6 +2222,7 @@ rls.tapimg.com
 rom.realme.com
 router.ctc.lan
 rs.xmeye.net
+rtc.soulapp.cn
 ru.register.xmpush.global.xiaomi.com
 rule.tencent.com
 s.163.com
@@ -2381,6 +2401,7 @@ stat.api.4399.com
 stat.dangbei.com
 stat.funshion.com
 stat.realme.com
+stat.soulapp.cn
 stat.vivo.com
 stat.y.qq.com
 stat.youku.com
@@ -2415,6 +2436,7 @@ static.miraheze.org
 static.pddpic.com
 static.qiyi.com
 static.res.qq.com
+static.soulapp.cn
 static.spankbang.com
 static.tieba.baidu.com
 static.woozooo.com
@@ -2534,6 +2556,7 @@ theme.oneplus.com
 theme.oneplus.net
 theme.oppo.com
 theme.realme.com
+themis.soulapp.cn
 theporndude.com
 thirdqq.qlogo.cn
 thirdwx.qlogo.cn
@@ -2560,6 +2583,7 @@ tousu.sina.cn
 tousu.sina.com.cn
 toutiaostatic.com
 tpns.sh.tencent.com
+tpns.soulapp.cn
 tpns.tencent.com
 tpstelemetry.tencent.com
 track.doubao.com
@@ -2569,6 +2593,7 @@ track.taobao.com
 tracker.ai.xiaomi.com
 tracker.didistatic.com
 trade-acs.m.taobao.com
+trade.soulapp.cn
 train.17u.cn
 translator.qq.com
 trpc.qianbao.qq.com
@@ -2730,6 +2755,7 @@ video.da.mgtv.com
 video.goofish.com
 video.huawei.com
 video.kts.g.mi.com
+video.soulapp.cn
 video.twimg.com
 video.zhihu.com
 video1p.dxycdn.com
@@ -2753,6 +2779,7 @@ vod.youku.com
 vodcdn.youku.com
 vodkgeyttp8.vod.126.net
 vodkgeyttp9.vod.126.net
+voice.soulapp.cn
 volcengine-cache-weboffice.wpscdn.cn
 volcengine-kdocs-cache.wpscdn.cn
 vpic.cms.qq.com
@@ -2828,7 +2855,9 @@ wq.jd.com
 wqsd.jd.com
 write.qq.com
 ws.ribaoapi.com
+ws.soulapp.cn
 wsdl.360safe.com
+wss.soulapp.cn
 wtradv.market.xiaomi.com
 wuxia.163.com
 ww1.lanzous.com
