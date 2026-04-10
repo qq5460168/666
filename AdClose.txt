@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-04-10 10:26:37（北京时间）
+! Version: 2026-04-10 21:06:39（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17093
+! Total count: 17104
 # AdClose 专用广告规则
-# 生成时间: 2026-04-10 02:26:36（北京时间）
+# 生成时间: 2026-04-10 13:06:38（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -3134,6 +3134,7 @@ domain, baitaiz.com
 domain, baiwanchuangyi.com
 domain, baiwb.com
 domain, baiyishaonian.cn
+domain, bajielm.com
 domain, bal113.rhdej.cn
 domain, bali351.leeuvl.cn
 domain, bam-cell.nr-data.net
@@ -4109,6 +4110,7 @@ domain, cheda7.icu
 domain, cheh9k4t.com
 domain, chemdraw.com
 domain, chemdraw.com.cn
+domain, chemist68.top
 domain, chengadx.com
 domain, chenggao.cn
 domain, chengzhao95511.com
@@ -7868,6 +7870,7 @@ domain, imgg.marketgid.com
 domain, imgg.mgid.com
 domain, imgp.cymzc.com
 domain, imgpublic.ycomesc.live
+domain, imgsdy8iyf8723y97g.top
 domain, imgsreview.dftoutiao.com
 domain, imgwdyey.com
 domain, imgxxx.shunxincar.cn
@@ -9292,6 +9295,7 @@ domain, lml.jfjsp.com
 domain, lmlt.socket.tw
 domain, lmltapi.socket.tw
 domain, lmnpd.xyz
+domain, lmtjapi.com
 domain, lmwap.awtks.com
 domain, lmx7.com
 domain, lmxxxz.com
@@ -10893,6 +10897,7 @@ domain, noxagile.duapp.com
 domain, npdaqy6x1j.me
 domain, npftmqv.cn
 domain, nphqw.cn
+domain, npzc1yzag7.com
 domain, nqdufv.xyz
 domain, nqoxurf.icu
 domain, nr-data.net
@@ -12384,6 +12389,7 @@ domain, report.qq.com
 domain, report.tencentmusic.com
 domain, report.tv.kohesport.qq.com
 domain, report.vip.qq.com
+domain, report123.help
 domain, reportlog.dftoutiao.com
 domain, reports.crashlytics.com
 domain, req.startappservice.com
@@ -14482,6 +14488,7 @@ domain, txjfso.com
 domain, txscn.cn
 domain, txt.go.sohu.com
 domain, txtad.jijiplayer.com
+domain, txutayo.com
 domain, txx99.top
 domain, ty8bz.com
 domain, tyaqy.m.cn.miaozhen.com
@@ -14849,6 +14856,7 @@ domain, util.nphoto.net
 domain, utility.baidu.com
 domain, utility.rogersmedia.com
 domain, utk.baidu.com
+domain, utmtmkfjbitxzlhijfce.top
 domain, utoken.umeng.com
 domain, utp-dmp.ucweb.com
 domain, utp.ucweb.com
@@ -15612,6 +15620,7 @@ domain, wu65.com
 domain, wubizigeng.com
 domain, wudang05.com
 domain, wuk.91c0218.top
+domain, wukongtongji.com
 domain, wuliao.epro.sogou.com
 domain, wuliao.ganji.cn
 domain, wuliao.jingyanben.com
@@ -16195,6 +16204,7 @@ domain, xn--3dcus.xn--gecrj9c
 domain, xn--49s928hlshoya.cn
 domain, xn--521-x72fh66s.cn
 domain, xn--6dcm9jb.xn--gecrj9c
+domain, xn--9krv3x413bbyb.com
 domain, xn--blqw4qdtj1zl4x4c.net
 domain, xn--bqro42frpg5up.cn
 domain, xn--gov-x68dy61b.shop
@@ -16548,6 +16558,7 @@ domain, ymhyw6.lol
 domain, ymima360.com
 domain, ymm17.cc
 domain, ymm19.cc
+domain, ymmiyun.com
 domain, ymrz581.com
 domain, ymrzr.com
 domain, ymyile.xyz

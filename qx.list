@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-04-10 02:26:36（北京时间）
-# Quantumult X规则数量: 17089
-# ! Total count: 17089
+# Last Updated: 2026-04-10 13:06:38（北京时间）
+# Quantumult X规则数量: 17100
+# ! Total count: 17100
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -3130,6 +3130,7 @@ HOST-SUFFIX,baitaiz.com,REJECT
 HOST-SUFFIX,baiwanchuangyi.com,REJECT
 HOST-SUFFIX,baiwb.com,REJECT
 HOST-SUFFIX,baiyishaonian.cn,REJECT
+HOST-SUFFIX,bajielm.com,REJECT
 HOST-SUFFIX,bal113.rhdej.cn,REJECT
 HOST-SUFFIX,bali351.leeuvl.cn,REJECT
 HOST-SUFFIX,bam-cell.nr-data.net,REJECT
@@ -4105,6 +4106,7 @@ HOST-SUFFIX,cheda7.icu,REJECT
 HOST-SUFFIX,cheh9k4t.com,REJECT
 HOST-SUFFIX,chemdraw.com,REJECT
 HOST-SUFFIX,chemdraw.com.cn,REJECT
+HOST-SUFFIX,chemist68.top,REJECT
 HOST-SUFFIX,chengadx.com,REJECT
 HOST-SUFFIX,chenggao.cn,REJECT
 HOST-SUFFIX,chengzhao95511.com,REJECT
@@ -7864,6 +7866,7 @@ HOST-SUFFIX,imgg.marketgid.com,REJECT
 HOST-SUFFIX,imgg.mgid.com,REJECT
 HOST-SUFFIX,imgp.cymzc.com,REJECT
 HOST-SUFFIX,imgpublic.ycomesc.live,REJECT
+HOST-SUFFIX,imgsdy8iyf8723y97g.top,REJECT
 HOST-SUFFIX,imgsreview.dftoutiao.com,REJECT
 HOST-SUFFIX,imgwdyey.com,REJECT
 HOST-SUFFIX,imgxxx.shunxincar.cn,REJECT
@@ -9288,6 +9291,7 @@ HOST-SUFFIX,lml.jfjsp.com,REJECT
 HOST-SUFFIX,lmlt.socket.tw,REJECT
 HOST-SUFFIX,lmltapi.socket.tw,REJECT
 HOST-SUFFIX,lmnpd.xyz,REJECT
+HOST-SUFFIX,lmtjapi.com,REJECT
 HOST-SUFFIX,lmwap.awtks.com,REJECT
 HOST-SUFFIX,lmx7.com,REJECT
 HOST-SUFFIX,lmxxxz.com,REJECT
@@ -10889,6 +10893,7 @@ HOST-SUFFIX,noxagile.duapp.com,REJECT
 HOST-SUFFIX,npdaqy6x1j.me,REJECT
 HOST-SUFFIX,npftmqv.cn,REJECT
 HOST-SUFFIX,nphqw.cn,REJECT
+HOST-SUFFIX,npzc1yzag7.com,REJECT
 HOST-SUFFIX,nqdufv.xyz,REJECT
 HOST-SUFFIX,nqoxurf.icu,REJECT
 HOST-SUFFIX,nr-data.net,REJECT
@@ -12380,6 +12385,7 @@ HOST-SUFFIX,report.qq.com,REJECT
 HOST-SUFFIX,report.tencentmusic.com,REJECT
 HOST-SUFFIX,report.tv.kohesport.qq.com,REJECT
 HOST-SUFFIX,report.vip.qq.com,REJECT
+HOST-SUFFIX,report123.help,REJECT
 HOST-SUFFIX,reportlog.dftoutiao.com,REJECT
 HOST-SUFFIX,reports.crashlytics.com,REJECT
 HOST-SUFFIX,req.startappservice.com,REJECT
@@ -14478,6 +14484,7 @@ HOST-SUFFIX,txjfso.com,REJECT
 HOST-SUFFIX,txscn.cn,REJECT
 HOST-SUFFIX,txt.go.sohu.com,REJECT
 HOST-SUFFIX,txtad.jijiplayer.com,REJECT
+HOST-SUFFIX,txutayo.com,REJECT
 HOST-SUFFIX,txx99.top,REJECT
 HOST-SUFFIX,ty8bz.com,REJECT
 HOST-SUFFIX,tyaqy.m.cn.miaozhen.com,REJECT
@@ -14845,6 +14852,7 @@ HOST-SUFFIX,util.nphoto.net,REJECT
 HOST-SUFFIX,utility.baidu.com,REJECT
 HOST-SUFFIX,utility.rogersmedia.com,REJECT
 HOST-SUFFIX,utk.baidu.com,REJECT
+HOST-SUFFIX,utmtmkfjbitxzlhijfce.top,REJECT
 HOST-SUFFIX,utoken.umeng.com,REJECT
 HOST-SUFFIX,utp-dmp.ucweb.com,REJECT
 HOST-SUFFIX,utp.ucweb.com,REJECT
@@ -15608,6 +15616,7 @@ HOST-SUFFIX,wu65.com,REJECT
 HOST-SUFFIX,wubizigeng.com,REJECT
 HOST-SUFFIX,wudang05.com,REJECT
 HOST-SUFFIX,wuk.91c0218.top,REJECT
+HOST-SUFFIX,wukongtongji.com,REJECT
 HOST-SUFFIX,wuliao.epro.sogou.com,REJECT
 HOST-SUFFIX,wuliao.ganji.cn,REJECT
 HOST-SUFFIX,wuliao.jingyanben.com,REJECT
@@ -16191,6 +16200,7 @@ HOST-SUFFIX,xn--3dcus.xn--gecrj9c,REJECT
 HOST-SUFFIX,xn--49s928hlshoya.cn,REJECT
 HOST-SUFFIX,xn--521-x72fh66s.cn,REJECT
 HOST-SUFFIX,xn--6dcm9jb.xn--gecrj9c,REJECT
+HOST-SUFFIX,xn--9krv3x413bbyb.com,REJECT
 HOST-SUFFIX,xn--blqw4qdtj1zl4x4c.net,REJECT
 HOST-SUFFIX,xn--bqro42frpg5up.cn,REJECT
 HOST-SUFFIX,xn--gov-x68dy61b.shop,REJECT
@@ -16544,6 +16554,7 @@ HOST-SUFFIX,ymhyw6.lol,REJECT
 HOST-SUFFIX,ymima360.com,REJECT
 HOST-SUFFIX,ymm17.cc,REJECT
 HOST-SUFFIX,ymm19.cc,REJECT
+HOST-SUFFIX,ymmiyun.com,REJECT
 HOST-SUFFIX,ymrz581.com,REJECT
 HOST-SUFFIX,ymrzr.com,REJECT
 HOST-SUFFIX,ymyile.xyz,REJECT
