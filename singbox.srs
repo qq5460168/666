@@ -1,9 +1,9 @@
 # Title: SingBox SRS Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-04-11 02:06:42（北京时间）
-# Singbox规则数量: 17100
-! Total count: 17100
+# Last Updated: 2026-04-11 12:55:03（北京时间）
+# Singbox规则数量: 17097
+! Total count: 17097
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -1049,7 +1049,6 @@ DOMAIN-SUFFIX,a8.creativevillage.ne.jp,REJECT
 DOMAIN-SUFFIX,a8.obihiro-butaichi.jp,REJECT
 DOMAIN-SUFFIX,a8age.com,REJECT
 DOMAIN-SUFFIX,a8clk.shop.shareme.jp,REJECT
-DOMAIN-SUFFIX,a8clk.www.jaf.or.jp,REJECT
 DOMAIN-SUFFIX,a8cv.bonaventura.shop,REJECT
 DOMAIN-SUFFIX,a8cv.udition.jp,REJECT
 DOMAIN-SUFFIX,a8lp-tebiki.e-sogi.com,REJECT
@@ -3659,7 +3658,6 @@ DOMAIN-SUFFIX,c.dzytjqcc.com,REJECT
 DOMAIN-SUFFIX,c.effectivemeasure.net,REJECT
 DOMAIN-SUFFIX,c.etoolads.cn,REJECT
 DOMAIN-SUFFIX,c.f1zd.com,REJECT
-DOMAIN-SUFFIX,c.fa.jd.com,REJECT
 DOMAIN-SUFFIX,c.gdt.qq.com,REJECT
 DOMAIN-SUFFIX,c.guangtui1999.com,REJECT
 DOMAIN-SUFFIX,c.gzsanxiaomingshi.cn,REJECT
@@ -5516,7 +5514,6 @@ DOMAIN-SUFFIX,dwibjkdsn.com,REJECT
 DOMAIN-SUFFIX,dwin1.com,REJECT
 DOMAIN-SUFFIX,dwuupq.com,REJECT
 DOMAIN-SUFFIX,dwyngjb.icu,REJECT
-DOMAIN-SUFFIX,dwz.cn,REJECT
 DOMAIN-SUFFIX,dx1200.com,REJECT
 DOMAIN-SUFFIX,dxlxjvmo.icu,REJECT
 DOMAIN-SUFFIX,dxp.baidu.com,REJECT
