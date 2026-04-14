@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-04-14 10:27:38（北京时间）
+! Version: 2026-04-14 21:23:04（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17102
+! Total count: 17106
 # AdClose 专用广告规则
-# 生成时间: 2026-04-14 02:27:38（北京时间）
+# 生成时间: 2026-04-14 13:23:04（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -4588,6 +4588,7 @@ domain, creative.1111cpc.com
 domain, creative.jdkic.com
 domain, creative.ltheanine.cn
 domain, creative.medproad.com
+domain, creative.myavlive.com
 domain, creatives.cliphunter.com
 domain, creatives.ftchinese.com
 domain, creatives.inmotionhosting.com
@@ -5854,6 +5855,7 @@ domain, edge.quantserve.com
 domain, edge.sharethis.com
 domain, edge.wshttpdns.com
 domain, edge.yunjiasu.com
+domain, edgelib.net
 domain, edigitalsurvey.com
 domain, ediuschina.com
 domain, edncui.net
@@ -6789,6 +6791,7 @@ domain, go.onclasrv.com
 domain, go.skimresources.com
 domain, go.sohu.com
 domain, go.util.zlibs.com
+domain, go.xlivrdr.com
 domain, go2click.online
 domain, go2cloud.org
 domain, goblin.hupu.com
@@ -17096,6 +17099,7 @@ domain, zzrcz.com
 domain, zzrjdp.xyz
 domain, zzsx8.com
 domain, zztxr.cn
+domain, zzuccikqt.com
 domain, zzxedr.xyz
 domain, zzxlhwyp.com
 domain, zzy.mipujia.com

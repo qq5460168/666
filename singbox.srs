@@ -1,9 +1,9 @@
 # Title: SingBox SRS Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-04-14 02:27:38（北京时间）
-# Singbox规则数量: 17098
-! Total count: 17098
+# Last Updated: 2026-04-14 13:23:04（北京时间）
+# Singbox规则数量: 17102
+! Total count: 17102
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -4584,6 +4584,7 @@ DOMAIN-SUFFIX,creative.1111cpc.com,REJECT
 DOMAIN-SUFFIX,creative.jdkic.com,REJECT
 DOMAIN-SUFFIX,creative.ltheanine.cn,REJECT
 DOMAIN-SUFFIX,creative.medproad.com,REJECT
+DOMAIN-SUFFIX,creative.myavlive.com,REJECT
 DOMAIN-SUFFIX,creatives.cliphunter.com,REJECT
 DOMAIN-SUFFIX,creatives.ftchinese.com,REJECT
 DOMAIN-SUFFIX,creatives.inmotionhosting.com,REJECT
@@ -5850,6 +5851,7 @@ DOMAIN-SUFFIX,edge.quantserve.com,REJECT
 DOMAIN-SUFFIX,edge.sharethis.com,REJECT
 DOMAIN-SUFFIX,edge.wshttpdns.com,REJECT
 DOMAIN-SUFFIX,edge.yunjiasu.com,REJECT
+DOMAIN-SUFFIX,edgelib.net,REJECT
 DOMAIN-SUFFIX,edigitalsurvey.com,REJECT
 DOMAIN-SUFFIX,ediuschina.com,REJECT
 DOMAIN-SUFFIX,edncui.net,REJECT
@@ -6785,6 +6787,7 @@ DOMAIN-SUFFIX,go.onclasrv.com,REJECT
 DOMAIN-SUFFIX,go.skimresources.com,REJECT
 DOMAIN-SUFFIX,go.sohu.com,REJECT
 DOMAIN-SUFFIX,go.util.zlibs.com,REJECT
+DOMAIN-SUFFIX,go.xlivrdr.com,REJECT
 DOMAIN-SUFFIX,go2click.online,REJECT
 DOMAIN-SUFFIX,go2cloud.org,REJECT
 DOMAIN-SUFFIX,goblin.hupu.com,REJECT
@@ -17092,6 +17095,7 @@ DOMAIN-SUFFIX,zzrcz.com,REJECT
 DOMAIN-SUFFIX,zzrjdp.xyz,REJECT
 DOMAIN-SUFFIX,zzsx8.com,REJECT
 DOMAIN-SUFFIX,zztxr.cn,REJECT
+DOMAIN-SUFFIX,zzuccikqt.com,REJECT
 DOMAIN-SUFFIX,zzxedr.xyz,REJECT
 DOMAIN-SUFFIX,zzxlhwyp.com,REJECT
 DOMAIN-SUFFIX,zzy.mipujia.com,REJECT

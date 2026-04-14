@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-04-14 02:27:38（北京时间）
-# Quantumult X规则数量: 17098
-# ! Total count: 17098
+# Last Updated: 2026-04-14 13:23:04（北京时间）
+# Quantumult X规则数量: 17102
+# ! Total count: 17102
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -4584,6 +4584,7 @@ HOST-SUFFIX,creative.1111cpc.com,REJECT
 HOST-SUFFIX,creative.jdkic.com,REJECT
 HOST-SUFFIX,creative.ltheanine.cn,REJECT
 HOST-SUFFIX,creative.medproad.com,REJECT
+HOST-SUFFIX,creative.myavlive.com,REJECT
 HOST-SUFFIX,creatives.cliphunter.com,REJECT
 HOST-SUFFIX,creatives.ftchinese.com,REJECT
 HOST-SUFFIX,creatives.inmotionhosting.com,REJECT
@@ -5850,6 +5851,7 @@ HOST-SUFFIX,edge.quantserve.com,REJECT
 HOST-SUFFIX,edge.sharethis.com,REJECT
 HOST-SUFFIX,edge.wshttpdns.com,REJECT
 HOST-SUFFIX,edge.yunjiasu.com,REJECT
+HOST-SUFFIX,edgelib.net,REJECT
 HOST-SUFFIX,edigitalsurvey.com,REJECT
 HOST-SUFFIX,ediuschina.com,REJECT
 HOST-SUFFIX,edncui.net,REJECT
@@ -6785,6 +6787,7 @@ HOST-SUFFIX,go.onclasrv.com,REJECT
 HOST-SUFFIX,go.skimresources.com,REJECT
 HOST-SUFFIX,go.sohu.com,REJECT
 HOST-SUFFIX,go.util.zlibs.com,REJECT
+HOST-SUFFIX,go.xlivrdr.com,REJECT
 HOST-SUFFIX,go2click.online,REJECT
 HOST-SUFFIX,go2cloud.org,REJECT
 HOST-SUFFIX,goblin.hupu.com,REJECT
@@ -17092,6 +17095,7 @@ HOST-SUFFIX,zzrcz.com,REJECT
 HOST-SUFFIX,zzrjdp.xyz,REJECT
 HOST-SUFFIX,zzsx8.com,REJECT
 HOST-SUFFIX,zztxr.cn,REJECT
+HOST-SUFFIX,zzuccikqt.com,REJECT
 HOST-SUFFIX,zzxedr.xyz,REJECT
 HOST-SUFFIX,zzxlhwyp.com,REJECT
 HOST-SUFFIX,zzy.mipujia.com,REJECT
