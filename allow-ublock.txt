@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-04-21 21:23:34（北京时间）
+! Version: 2026-04-22 10:27:48（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2841
+! Total count: 2835
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-04-21 21:23:33（北京时间）
-# 总域名数: 2835
+# 生成时间: 2026-04-22 10:27:48（北京时间）
+# 总域名数: 2829
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -664,7 +664,6 @@ devuploads.com
 dfcfw.com
 dftoutiao.com
 dg.k.jd.com
-diagnose.vivo.com
 dianfeijisuanqi.bmcx.com
 dig.bdurl.net
 dig.lianjia.com
@@ -1028,7 +1027,6 @@ hosts-file.net
 hot.browser.intl.miui.com
 hot.browser.miui.com
 hotel.17u.cn
-hpplay.cn
 hr.163.com
 hsforms.net
 hsr.hoyoverse.com
@@ -1074,7 +1072,6 @@ ichnaea-web.netflix.com
 icws.jb51.net
 id.163.com
 id.heytap.com
-id.mi.com
 id.oneplus.com
 id.realme.com
 id1.cloud.huawei.com
@@ -1275,7 +1272,6 @@ lc-cn-n1-shared.com
 lcdn-locator.apple.com
 ld246.com
 learn.scriptcat.org
-lebo.cn
 leihuo.163.com
 lens.zhihu.com
 lequ-qfe.iqiyi.com
@@ -1341,10 +1337,8 @@ lockororder.netlify.app
 log-api.pangolin-sdk-toutiao-b.com
 log-api.pangolin-sdk-toutiao.com
 log-upload.mihoyo.com
-log.doubao.com
 log.snssdk.com
 log.taobao.com
-log.vivo.com
 log1.cmpassport.com
 log5-applog-lf.fqnovel.com
 log5-applog.fqnovel.com
@@ -2193,7 +2187,6 @@ starlusts.com
 stars.shuqireader.com
 stat.api.4399.com
 stat.funshion.com
-stat.vivo.com
 stat.y.qq.com
 stat6.y.qq.com
 static-cdn77.xnxx-cdn.com
@@ -2349,6 +2342,7 @@ tool.lu
 toonily.com
 toonily.me
 top.17173.com
+topic.openspeech.cn
 tot.hoyoverse.com
 tousu.sina.cn
 tousu.sina.com.cn
