@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-05-08 21:43:55（北京时间）
+! Version: 2026-05-09 10:42:33（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 32899
+! Total count: 32920
 
 *$3p,domain=d3ward.github.io
 *-ad.sm.cn*
@@ -11733,7 +11733,7 @@
 :8008/*/*?is_not=
 :8891/v*$third-party
 ::1 ip6-localhost
-<!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">访问被拦截！</title></head><body onload="bindall()" style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css">	.select {float: right;margin: 10px 20px 0 0;height: 32px;line-height: 20px;font-size: 14px;width: 80px;}</style><select class="select" name="language" onchange="changeLanguage(this.options[this.options.selectedIndex].value)"><option id="option-zh" onclick="changeLanguageZh()" value="zh">中文</option><option id="option-en" onclick="changeLanguageEn()" value="en">English</option></select><div style="clear: both;"></div></div><div style="min-height:13.125rem;width:100%"><div style="margin-top:3.75rem;margin-left:18.4375rem;height:52.38;width:83.04%;"><svg xmlns="http://www.w3.org/2000/svg" style="width: 3.125rem;height: 3.125rem" viewBox="0 0 50 50"><path fill="#e84e4c" d="M25,0A25,25,0,1,0,50,25,25,25,0,0,0,25,0Zm1.6,37.16H22.85V33.41H26.6Zm0-6.63H22.85L22.35,13H27.1Z"/></svg><font style="font-family:MicrosoftYaHei;font-size:4.375rem;color:#e94d4c;margin-left: 0.75rem;font-weight: bold;">418</font></div><div style="margin-left:18.4375rem;height:47.62%;width:83.04%;"><font id="a" style="font-family:MicrosoftYaHei;font-size:1.875rem;color:#999999;word-wrap:break-word;">您的请求疑似攻击行为！</font><p style="font-family:MicrosoftYaHei;font-size:0.9rem;color:#999999;word-wrap:break-word;"><span id="c">事件ID：</span><span style="color:#499df2" id="d">34-dect-52-20260508214350-a40e123d</span></p></div></div><div style="height:15.625rem;width:100%;min-width:105rem;"><div style="margin-left:18.4375rem;float:left;width:50rem"><p id="b" style="margin-top:10px">如果您是站长，您可以前往WAF控制台进行误报屏蔽设置，让您的访问不再被拦截</p></div></div></body><script>function changeLanguage(value) {if (value === 'zh') {changeLanguageZh();} else if (value === 'en') {changeLanguageEn();} else {changeLanguageZh();}}function changeLanguageZh() {document.getElementById("title").innerHTML = "访问被拦截！";document.getElementById("a").innerHTML = "您的请求疑似攻击行为！";document.getElementById("b").innerHTML = "如果您是站长，您可以前往WAF控制台进行误报屏蔽设置，让您的访问不再被拦截";document.getElementById("c").innerHTML = "事件ID：";}function changeLanguageEn() {document.getElementById("title").innerHTML = "The access is blocked.";document.getElementById("a").innerHTML = "Sorry, your request has been intercepted because it appears to be an attack.";document.getElementById("b").innerHTML = "If you are the webmaster, configure related parameters on the WAF console to allow your requests.";document.getElementById("c").innerHTML = "Event ID:";}var language = navigator.language || navigator.browserLanguage;var re_zh = /^zh/;if (language.match(re_zh)) {changeLanguageZh();document.getElementById("option-zh").setAttribute("selected", true);} else {changeLanguageEn();document.getElementById("option-en").setAttribute("selected", true);}</script></html>
+<!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">访问被拦截！</title></head><body onload="bindall()" style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css">	.select {float: right;margin: 10px 20px 0 0;height: 32px;line-height: 20px;font-size: 14px;width: 80px;}</style><select class="select" name="language" onchange="changeLanguage(this.options[this.options.selectedIndex].value)"><option id="option-zh" onclick="changeLanguageZh()" value="zh">中文</option><option id="option-en" onclick="changeLanguageEn()" value="en">English</option></select><div style="clear: both;"></div></div><div style="min-height:13.125rem;width:100%"><div style="margin-top:3.75rem;margin-left:18.4375rem;height:52.38;width:83.04%;"><svg xmlns="http://www.w3.org/2000/svg" style="width: 3.125rem;height: 3.125rem" viewBox="0 0 50 50"><path fill="#e84e4c" d="M25,0A25,25,0,1,0,50,25,25,25,0,0,0,25,0Zm1.6,37.16H22.85V33.41H26.6Zm0-6.63H22.85L22.35,13H27.1Z"/></svg><font style="font-family:MicrosoftYaHei;font-size:4.375rem;color:#e94d4c;margin-left: 0.75rem;font-weight: bold;">418</font></div><div style="margin-left:18.4375rem;height:47.62%;width:83.04%;"><font id="a" style="font-family:MicrosoftYaHei;font-size:1.875rem;color:#999999;word-wrap:break-word;">您的请求疑似攻击行为！</font><p style="font-family:MicrosoftYaHei;font-size:0.9rem;color:#999999;word-wrap:break-word;"><span id="c">事件ID：</span><span style="color:#499df2" id="d">34-dect-118-20260509104229-963cbe73</span></p></div></div><div style="height:15.625rem;width:100%;min-width:105rem;"><div style="margin-left:18.4375rem;float:left;width:50rem"><p id="b" style="margin-top:10px">如果您是站长，您可以前往WAF控制台进行误报屏蔽设置，让您的访问不再被拦截</p></div></div></body><script>function changeLanguage(value) {if (value === 'zh') {changeLanguageZh();} else if (value === 'en') {changeLanguageEn();} else {changeLanguageZh();}}function changeLanguageZh() {document.getElementById("title").innerHTML = "访问被拦截！";document.getElementById("a").innerHTML = "您的请求疑似攻击行为！";document.getElementById("b").innerHTML = "如果您是站长，您可以前往WAF控制台进行误报屏蔽设置，让您的访问不再被拦截";document.getElementById("c").innerHTML = "事件ID：";}function changeLanguageEn() {document.getElementById("title").innerHTML = "The access is blocked.";document.getElementById("a").innerHTML = "Sorry, your request has been intercepted because it appears to be an attack.";document.getElementById("b").innerHTML = "If you are the webmaster, configure related parameters on the WAF console to allow your requests.";document.getElementById("c").innerHTML = "Event ID:";}var language = navigator.language || navigator.browserLanguage;var re_zh = /^zh/;if (language.match(re_zh)) {changeLanguageZh();document.getElementById("option-zh").setAttribute("selected", true);} else {changeLanguageEn();document.getElementById("option-en").setAttribute("selected", true);}</script></html>
 ?adspot_
 ?local_ga_js=
 @@*$redirect-rule,domain=d3ward.github.io
@@ -15139,6 +15139,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||*.bllst.cn^
 ||*.bmddsofta.cc^
 ||*.bmdzu8m.cc^
+||*.cc^$important
 ||*.cknr6y.com^
 ||*.cru0xr.com^
 ||*.ctk4xy.com^
@@ -15390,6 +15391,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||1.hao123.com^
 ||1.hnyouneng.com^
 ||1.hslyqs.com^
+||1.huanle739.cc^$important
 ||1.i1766.com^
 ||1.iqeq.com.cn^
 ||1.jeasyui.net^
@@ -15665,6 +15667,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||3.cjcp.cn^
 ||3.guidaye.com^
 ||3.hlg102a.cc^
+||3.se2208hu.cc^$important
 ||3.ssqzj.com^
 ||30350f.com^
 ||30407799.com^
@@ -15967,6 +15970,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||6functf.com^
 ||6gukaitu.xyz^
 ||6hejing.cn^
+||6hqp8y5w.idtad523.top^$important
 ||6huu.com^
 ||6iwoif.com^
 ||6kwan.com^
@@ -16003,6 +16007,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||7566dh1.com^
 ||7566dh9.com^
 ||75to.com^
+||7600mqsv.njoomsj4.top^$important
 ||7631.com^
 ||7663caf8d231fa527wm.cc1tph.com^$important
 ||766ba.net^
@@ -16126,6 +16131,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||8cnd.com^
 ||8d7hhh8x.com^
 ||8dulm.com^
+||8e7c7ik.anhuiyo.com.bplslb.com^$important
+||8e7c7ik.anhuiyo.com^$important
 ||8f1s.mm51-tneb1555.cc^
 ||8g0j.cn^
 ||8gp4wjq3.com^
@@ -18755,6 +18762,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||bigcood.xyz^
 ||bigdatacloud.net^
 ||bihaipack.com^
+||bijenpogfidrrg.com^$important
 ||billionfocus.com^
 ||bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
 ||bimiacg4.net/template/JOELEO/asset/js/jquery.common.js
@@ -19435,6 +19443,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||cdnpa.hyperpromote.com^
 ||cdns.mbxt.net^
 ||cdntest.a8tiyu.com^
+||cdppdgwrq.mcapxr.cn^$important
 ||cdrhjt.com^
 ||cds.51y5.net^
 ||cdsxaz02.xyz^$important
@@ -22051,6 +22060,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||gator.volces.com^
 ||gb.corp.163.com^
 ||gbcnvip15.com^
+||gbe29fb.cdn.zjedge.xopo11ek.com^$important
 ||gbrtyhnsc.xyz^
 ||gbsp002.com^
 ||gc.keefung-zs.com^
@@ -22589,6 +22599,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||hcbmq.cn^
 ||hccms.com.cn^
 ||hcdjy.xyz^
+||hcdnw123.vip.foreign.cdnhwcibv122.com^$important
 ||hchh.capmvb.net^
 ||hciea.xyz^
 ||hcl.baidu.com^
@@ -24102,6 +24113,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||json.gewuwen.com^
 ||jsonatm-wss.broker.tplay.qq.com^
 ||jspg.cc^
+||jsppfqzqv.mcapxr.cn^$important
 ||jsqmt.qq.c^
 ||jsqmt.qq.com^
 ||jssav4hk.xyz^
@@ -24250,6 +24262,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||kc-valves.com^
 ||kcnwe.xyz^
 ||kcybtc.ezzgnn.info^
+||kd2bchz.qinall.com.bplslb.com^$important
+||kd2bchz.qinall.com^$important
 ||kdcl.pchome.com.tw^
 ||kdcxhr.cn^
 ||kddtri.cn^
@@ -25508,6 +25522,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||m1.h5.ygmicroloan.com^
 ||m1.mgogo.com^
 ||m1.xcy8.com^
+||m1e3hifb.wbzr100.com.eo.dnse3.com^$important
+||m1e3hifb.wbzr100.com^$important
 ||m2.da.mgtv.com^
 ||m2.qinsx.cn^
 ||m2k3j7x8.com^
@@ -28415,6 +28431,8 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||s1.ssl.qhres.com^
 ||s1.tansuotv.com^
 ||s10.histats.com^
+||s1dxptru.boey2012.com.eo.dnse3.com^$important
+||s1dxptru.boey2012.com^$important
 ||s1m.mediav.com^
 ||s2.dnaxddnc.com^
 ||s2.hiapk.com^
@@ -29796,6 +29814,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||tgdopodk.com^
 ||tgfyq.cn^
 ||tggsd07.com^
+||tgoy162.top^$important
 ||tgw-masdk.3g.qq.com^
 ||tgw-sasdk.3g.qq.com^
 ||tgymhwt.cn^
@@ -30350,6 +30369,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||ufengjnskl.com^
 ||ufgg55.xyz^
 ||ufile.cc^
+||ufnzvmf-ef5.mt6pu515vhdg.com^$important
 ||ufvauj.cn^
 ||ug-data.mihoyo.com/ads-track/*^
 ||ug-data.mihoyo.com^
@@ -32380,6 +32400,7 @@ zol.com.cn##A.dingtong.xianshiyouhui
 ||yqs66.82098999.com^
 ||yquqoj.com^
 ||yqw88.com^
+||yrdgycacwd18.com^$important
 ||yrqwnc.cn^
 ||yrt7dgkf.exashare.com^
 ||yruws6.com^
