@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-05-10 10:48:32（北京时间）
+! Version: 2026-05-10 21:15:20（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16850
+! Total count: 16849
 # AdClose 专用广告规则
-# 生成时间: 2026-05-10 02:48:31（北京时间）
+# 生成时间: 2026-05-10 13:15:19（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -8554,7 +8554,6 @@ domain, k2team.kyiv.ua
 domain, k31bpzf.xyz
 domain, k3bos.com
 domain, k3l.cn
-domain, k3l.cn.w.kunlunpi.com
 domain, k42kw.top
 domain, k5567.vip
 domain, k5ggua.xyz
@@ -14915,7 +14914,6 @@ domain, vip.hyz86.com
 domain, vip.id528.com
 domain, vip.jindu179.com
 domain, vip.k3l.cn
-domain, vip.k3l.cn.w.kunlunpi.com
 domain, vip.mall044.com
 domain, vip.media8.cn
 domain, vip.pinghuhome.com
@@ -15054,6 +15052,7 @@ domain, w.gdown.baidu.com
 domain, w.homes.yahoo.net
 domain, w.inews.qq.com
 domain, w.jscsd.cn
+domain, w.kunlunpi.com
 domain, w.l.qq.com
 domain, w.m.taobao.com
 domain, w.punchbox.org

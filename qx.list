@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-05-10 02:48:31（北京时间）
-# Quantumult X规则数量: 16846
-# ! Total count: 16846
+# Last Updated: 2026-05-10 13:15:19（北京时间）
+# Quantumult X规则数量: 16845
+# ! Total count: 16845
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -8550,7 +8550,6 @@ HOST-SUFFIX,k2team.kyiv.ua,REJECT
 HOST-SUFFIX,k31bpzf.xyz,REJECT
 HOST-SUFFIX,k3bos.com,REJECT
 HOST-SUFFIX,k3l.cn,REJECT
-HOST-SUFFIX,k3l.cn.w.kunlunpi.com,REJECT
 HOST-SUFFIX,k42kw.top,REJECT
 HOST-SUFFIX,k5567.vip,REJECT
 HOST-SUFFIX,k5ggua.xyz,REJECT
@@ -14911,7 +14910,6 @@ HOST-SUFFIX,vip.hyz86.com,REJECT
 HOST-SUFFIX,vip.id528.com,REJECT
 HOST-SUFFIX,vip.jindu179.com,REJECT
 HOST-SUFFIX,vip.k3l.cn,REJECT
-HOST-SUFFIX,vip.k3l.cn.w.kunlunpi.com,REJECT
 HOST-SUFFIX,vip.mall044.com,REJECT
 HOST-SUFFIX,vip.media8.cn,REJECT
 HOST-SUFFIX,vip.pinghuhome.com,REJECT
@@ -15050,6 +15048,7 @@ HOST-SUFFIX,w.gdown.baidu.com,REJECT
 HOST-SUFFIX,w.homes.yahoo.net,REJECT
 HOST-SUFFIX,w.inews.qq.com,REJECT
 HOST-SUFFIX,w.jscsd.cn,REJECT
+HOST-SUFFIX,w.kunlunpi.com,REJECT
 HOST-SUFFIX,w.l.qq.com,REJECT
 HOST-SUFFIX,w.m.taobao.com,REJECT
 HOST-SUFFIX,w.punchbox.org,REJECT

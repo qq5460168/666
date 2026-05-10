@@ -1,9 +1,9 @@
 # Title: Clash Meta规则
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-05-10 02:48:31（北京时间）
-# Clash Meta规则数量: 16846
-! Total count: 16846
+# Last Updated: 2026-05-10 13:15:19（北京时间）
+# Clash Meta规则数量: 16845
+! Total count: 16845
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -8551,7 +8551,6 @@ payload:
   - 'k31bpzf.xyz'
   - 'k3bos.com'
   - 'k3l.cn'
-  - 'k3l.cn.w.kunlunpi.com'
   - 'k42kw.top'
   - 'k5567.vip'
   - 'k5ggua.xyz'
@@ -14912,7 +14911,6 @@ payload:
   - 'vip.id528.com'
   - 'vip.jindu179.com'
   - 'vip.k3l.cn'
-  - 'vip.k3l.cn.w.kunlunpi.com'
   - 'vip.mall044.com'
   - 'vip.media8.cn'
   - 'vip.pinghuhome.com'
@@ -15051,6 +15049,7 @@ payload:
   - 'w.homes.yahoo.net'
   - 'w.inews.qq.com'
   - 'w.jscsd.cn'
+  - 'w.kunlunpi.com'
   - 'w.l.qq.com'
   - 'w.m.taobao.com'
   - 'w.punchbox.org'
