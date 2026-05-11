@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-05-10 21:15:20（北京时间）
+! Version: 2026-05-11 10:57:26（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2835
+! Total count: 2830
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-05-10 21:15:19（北京时间）
-# 总域名数: 2829
+# 生成时间: 2026-05-11 10:57:25（北京时间）
+# 总域名数: 2824
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -263,7 +263,6 @@ appgallery.huawei.com
 appgoad.189.cn
 appimg-drcn.dbankcdn.com
 appimg.dbankcdn.com
-appldnld.apple.com
 appleid.apple.com
 applog.lc.quark.cn
 appmsg.gzmtr.cn
@@ -912,7 +911,6 @@ gamezop.com
 gateway.kugou.com
 gator.volces.com
 gdfp.gifshow.com
-gdmf.apple.com
 gdown.baidu.com
 gdtimg.com
 gecko.zijieapi.com
@@ -1488,7 +1486,6 @@ member.bilibili.com
 member.jiaoyimao.com
 members.bitcomet.com
 message.bilibili.com
-mesu.apple.com
 metok.sys.miui.com
 metrics.apple.com
 metrics.icloud.com
@@ -2276,7 +2273,6 @@ surrit.com
 survey.feelgood.cn
 sv.map.baidu.com
 swap.stu.126.net
-swcdn.apple.com
 swimg1.hstdyf.com
 sysdk.cl2009.com
 szlong.weixin.qq.com
@@ -2422,7 +2418,6 @@ update.360safe.com
 update.hicloud.com
 update.vivo.com
 updateinfo.market.xiaomi.com
-updates.cdn-apple.com
 upgrade.ptmi.gitv.tv
 upgrade.vivo.com
 upload-bbs.miyoushe.com

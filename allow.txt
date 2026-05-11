@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-05-10 21:15:20（北京时间）
+! Version: 2026-05-11 10:57:26（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3484
+! Total count: 3479
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-cf.xvideos-cdn.com^
@@ -463,7 +463,6 @@
 @@||appimg-drcn.dbankcdn.com^
 @@||appimg.dbankcdn.com^
 @@||appldnld.apple.com.edgesuite.net^$important
-@@||appldnld.apple.com^
 @@||appldnld.apple.com^$important
 @@||apple-cloudkit.com^$important
 @@||apple-livephotoskit.com^$important
@@ -1259,7 +1258,6 @@
 @@||gc.apple.com^$important
 @@||gdfp.gifshow.com^
 @@||gdmf-ados.apple.com^$important
-@@||gdmf.apple.com^
 @@||gdmf.apple.com^$important
 @@||gdown.baidu.com^
 @@||gdtimg.com^
@@ -1921,7 +1919,6 @@
 @@||member.jiaoyimao.com^
 @@||members.bitcomet.com^
 @@||message.bilibili.com^
-@@||mesu.apple.com^
 @@||mesu.apple.com^$important
 @@||metok.sys.miui.com^
 @@||metrics.apple.com^
@@ -2847,7 +2844,6 @@
 @@||sv.map.baidu.com^
 @@||swap.stu.126.net^
 @@||sway.com^$important
-@@||swcdn.apple.com^
 @@||swcdn.apple.com^$important
 @@||swdist.apple.com^$important
 @@||swdownload.apple.com^$important
@@ -3015,7 +3011,6 @@
 @@||update.vivo.com^
 @@||updateinfo.market.xiaomi.com^
 @@||updates-http.cdn-apple.com^$important
-@@||updates.cdn-apple.com^
 @@||updates.cdn-apple.com^$important
 @@||upgrade.ptmi.gitv.tv^
 @@||upgrade.vivo.com^
