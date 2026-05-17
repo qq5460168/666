@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-05-17 10:55:16（北京时间）
+! Version: 2026-05-17 21:23:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2840
+! Total count: 2841
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-05-17 10:55:16（北京时间）
-# 总域名数: 2834
+# 生成时间: 2026-05-17 21:23:10（北京时间）
+# 总域名数: 2835
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -311,6 +311,7 @@ aweme.snssdk.com
 awp-assets.meituan.net
 b.163.com
 b.bdstatic.com
+b23.tv
 b3log.org
 b3logfile.com
 bad.news
