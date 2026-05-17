@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-05-16 21:18:55（北京时间）
+! Version: 2026-05-17 10:55:16（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2830
+! Total count: 2840
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-05-16 21:18:55（北京时间）
-# 总域名数: 2824
+# 生成时间: 2026-05-17 10:55:16（北京时间）
+# 总域名数: 2834
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -321,6 +321,7 @@ baike.so.com
 baikebcs.bdimg.com
 baixing.com
 bbs-static.miyoushe.com
+bbs.huorong.cn
 bbs.mobileapi.hupu.com
 bbs.tampermonkey.net.cn
 bce.baidu.com
@@ -408,6 +409,7 @@ cdn-audio.qimao.com
 cdn-chateva.zhhainiao.com
 cdn-f1.assistant.miui.com
 cdn-go.cn
+cdn-www.huorong.cn
 cdn.akamai.steamstatic.com
 cdn.aligames.com
 cdn.ark.qq.com
@@ -707,10 +709,12 @@ doris.yidianzixun.com
 dot.360.cn
 douyincdn.com
 douyinstatic.com
+down-tencent.huorong.cn
 down-update.qq.com
 down.360safe.com
 down.anticheatexpert.com
 down.sandai.net
+download-cdn.clf.jetbrains.com.cn
 download-cdn.jetbrains.com
 download-cdn.jetbrains.com.cn
 download.alicdn.com
@@ -1372,6 +1376,7 @@ m.down.sandai.net
 m.ds.163.com
 m.dxy.com
 m.facebook.com
+m.gushiwen.cn
 m.image.so.com
 m.intl.taobao.com
 m.ip138.com
@@ -2012,6 +2017,7 @@ resfile.lixincsb.com
 resmedi.lixincsb.com
 resolver.gslb.mi-idc.com
 resolver.msg.xiaomi.net
+resources.jetbrains.com.cn
 restapi.amap.com
 retail.taobao.com
 richmedia.video.qq.com
@@ -2392,6 +2398,7 @@ u.oppomobile.com
 u1.img.mobile.sina.cn
 uc-titans-cn-01.heytapimage.com
 uc-titans-cn.heytapimage.com
+uc.huorong.cn
 uc.ucweb.com
 ucweb.com
 uczzd.cn
@@ -2416,6 +2423,7 @@ upage.imtt.qq.com
 updata.miui.com
 update.360safe.com
 update.hicloud.com
+update.huorong.cn
 update.vivo.com
 updateinfo.market.xiaomi.com
 upgrade.ptmi.gitv.tv
@@ -2653,6 +2661,7 @@ www.hentai.name
 www.hisense.com
 www.hoyoverse.com
 www.huaweicloud.com
+www.huorong.cn
 www.ibook.info
 www.icloud.com
 www.ijinshan.com
@@ -2662,6 +2671,7 @@ www.iqiyi.com
 www.itools.info
 www.javbangers.com
 www.jd.com
+www.jetbrains.com.cn
 www.jianshu.com
 www.jiaoyimao.com
 www.jsdelivr.com
