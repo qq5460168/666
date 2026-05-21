@@ -1,9 +1,9 @@
 # Title: Shadowrocket Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-05-21 03:32:44（北京时间）
-# Shadowrocket规则数量: 16847
-! Total count: 16847
+# Last Updated: 2026-05-21 15:21:06（北京时间）
+# Shadowrocket规则数量: 16850
+! Total count: 16850
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -9857,6 +9857,7 @@ DOMAIN-SUFFIX,maisoncherry.com,REJECT
 DOMAIN-SUFFIX,makeding.com,REJECT
 DOMAIN-SUFFIX,malacca.inveno.com,REJECT
 DOMAIN-SUFFIX,maljxp.cn,REJECT
+DOMAIN-SUFFIX,malluktig.in,REJECT
 DOMAIN-SUFFIX,manage.wdfans.cn,REJECT
 DOMAIN-SUFFIX,manage88.com,REJECT
 DOMAIN-SUFFIX,manbag.net,REJECT
@@ -9918,6 +9919,7 @@ DOMAIN-SUFFIX,mathtag.com,REJECT
 DOMAIN-SUFFIX,mathtype.cn,REJECT
 DOMAIN-SUFFIX,matomo.cloud,REJECT
 DOMAIN-SUFFIX,maumkt.ppdaicdn.com,REJECT
+DOMAIN-SUFFIX,mavrtracktor.com,REJECT
 DOMAIN-SUFFIX,maw.wnbfw.com,REJECT
 DOMAIN-SUFFIX,maximpetus.com,REJECT
 DOMAIN-SUFFIX,maxwebsearch.com,REJECT
@@ -12201,6 +12203,7 @@ DOMAIN-SUFFIX,reminews.com,REJECT
 DOMAIN-SUFFIX,remote88.com,REJECT
 DOMAIN-SUFFIX,remoteads.oss-cn-beijing.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,remotedu.cn,REJECT
+DOMAIN-SUFFIX,renamereptiliantrance.com,REJECT
 DOMAIN-SUFFIX,rencai56.com,REJECT
 DOMAIN-SUFFIX,render-resource.11222.cn,REJECT
 DOMAIN-SUFFIX,render-server.cdn.bcebos.com,REJECT
