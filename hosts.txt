@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-05-20 22:59:34（北京时间）
+! Version: 2026-05-21 11:32:45（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16850
+! Total count: 16852
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-05-20 14:59:33（北京时间）
+# Last Updated: 2026-05-21 03:32:44（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -10892,6 +10892,7 @@
 0.0.0.0 ok.8358211.cc
 0.0.0.0 ok365.com
 0.0.0.0 okbd2ou.icu
+0.0.0.0 okeeblr.com
 0.0.0.0 okforwardt.fun
 0.0.0.0 okjhb.xyz
 0.0.0.0 okkkk.com
@@ -13791,6 +13792,7 @@
 0.0.0.0 tchkcc.cn
 0.0.0.0 tci.oss-ap-southeast-1.aliyuncs.com
 0.0.0.0 tcjy66.cc
+0.0.0.0 tcmxmlu.com
 0.0.0.0 tcsgcdn.top
 0.0.0.0 tcss.qq.com
 0.0.0.0 tcuqqhj.icu
