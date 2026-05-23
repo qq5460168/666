@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-05-22 14:35:43（北京时间）
-# Quantumult X规则数量: 16850
-# ! Total count: 16850
+# Last Updated: 2026-05-23 02:49:57（北京时间）
+# Quantumult X规则数量: 16859
+# ! Total count: 16859
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -2090,6 +2090,7 @@ HOST-SUFFIX,aecpm.alicdn.com,REJECT
 HOST-SUFFIX,aedns.weixin.qq.com,REJECT
 HOST-SUFFIX,aefdcxoi.com,REJECT
 HOST-SUFFIX,aefmbeq.cn,REJECT
+HOST-SUFFIX,aekjg-cdn.77t-tusu.com,REJECT
 HOST-SUFFIX,aeletheacd.com,REJECT
 HOST-SUFFIX,aem.dentsuchina.cn,REJECT
 HOST-SUFFIX,aercxy.com,REJECT
@@ -4986,6 +4987,7 @@ HOST-SUFFIX,dfkd.xyz,REJECT
 HOST-SUFFIX,dfsj8050.ahyyxpk.com,REJECT
 HOST-SUFFIX,dfstt5031.ayhnb.cn,REJECT
 HOST-SUFFIX,dfsvhv88.com,REJECT
+HOST-SUFFIX,dftveb.xn--6krw8b915a62m.com,REJECT
 HOST-SUFFIX,dfx.shhuixiangwuliu.com,REJECT
 HOST-SUFFIX,dfx.vnnv777.cn,REJECT
 HOST-SUFFIX,dfxwdc.com,REJECT
@@ -5373,6 +5375,7 @@ HOST-SUFFIX,duapp.com,REJECT
 HOST-SUFFIX,duclick.baidu.com,REJECT
 HOST-SUFFIX,dugbvb.com,REJECT
 HOST-SUFFIX,dugesheying.com,REJECT
+HOST-SUFFIX,dui.suiji.red,REJECT
 HOST-SUFFIX,duier.top,REJECT
 HOST-SUFFIX,duiwai.baidu.com,REJECT
 HOST-SUFFIX,dumedia.ru,REJECT
@@ -7153,6 +7156,7 @@ HOST-SUFFIX,hmma.baidu.com,REJECT
 HOST-SUFFIX,hmp33.com,REJECT
 HOST-SUFFIX,hmttoly.com,REJECT
 HOST-SUFFIX,hmyangshengji.com,REJECT
+HOST-SUFFIX,hn.bfvvs.com,REJECT
 HOST-SUFFIX,hnasd.com,REJECT
 HOST-SUFFIX,hnbhrt.xyz,REJECT
 HOST-SUFFIX,hncadh.com,REJECT
@@ -8884,6 +8888,7 @@ HOST-SUFFIX,lalabaos1022.top,REJECT
 HOST-SUFFIX,lalabaos1026.top,REJECT
 HOST-SUFFIX,lalaping.com,REJECT
 HOST-SUFFIX,laljjn.xyz,REJECT
+HOST-SUFFIX,lambda.raidrive.com,REJECT
 HOST-SUFFIX,lamkghx.icu,REJECT
 HOST-SUFFIX,lan.btwan5.com,REJECT
 HOST-SUFFIX,landing.gdtimg.com,REJECT
@@ -9615,6 +9620,7 @@ HOST-SUFFIX,m.laoqu123.com,REJECT
 HOST-SUFFIX,m.lfdydk.com,REJECT
 HOST-SUFFIX,m.lovezhishou.com,REJECT
 HOST-SUFFIX,m.lusrg.cn,REJECT
+HOST-SUFFIX,m.lwlm-nideta.cc,REJECT
 HOST-SUFFIX,m.lyjz001.com,REJECT
 HOST-SUFFIX,m.lzida.com,REJECT
 HOST-SUFFIX,m.lzytt.com,REJECT
@@ -10621,6 +10627,7 @@ HOST-SUFFIX,nfgnxkd.top,REJECT
 HOST-SUFFIX,nfh.cnshef.com,REJECT
 HOST-SUFFIX,nfl9j.com,REJECT
 HOST-SUFFIX,nflks.cn,REJECT
+HOST-SUFFIX,nfnykg.xn--6krw8b915a62m.com,REJECT
 HOST-SUFFIX,nftjjw.com,REJECT
 HOST-SUFFIX,ng8f.top,REJECT
 HOST-SUFFIX,ngads.go.com,REJECT
@@ -12248,6 +12255,7 @@ HOST-SUFFIX,resource.baomihua.com,REJECT
 HOST-SUFFIX,responsys.net,REJECT
 HOST-SUFFIX,restorationbowelsunflower.com,REJECT
 HOST-SUFFIX,results.optimizely.com,REJECT
+HOST-SUFFIX,reszavxz.malunwudi.com,REJECT
 HOST-SUFFIX,ret.xinlongrubber.com,REJECT
 HOST-SUFFIX,rev.fapdu.com,REJECT
 HOST-SUFFIX,revdepo.com,REJECT
@@ -12427,6 +12435,7 @@ HOST-SUFFIX,rvyjbwr.cn,REJECT
 HOST-SUFFIX,rvzlobj.cn,REJECT
 HOST-SUFFIX,rwjfs.com,REJECT
 HOST-SUFFIX,rwq.youle55.com,REJECT
+HOST-SUFFIX,rxing.rxyoo.net,REJECT
 HOST-SUFFIX,rxlidz.ink,REJECT
 HOST-SUFFIX,rxwan.com,REJECT
 HOST-SUFFIX,rxyggrq.cn,REJECT

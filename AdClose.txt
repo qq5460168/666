@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-05-22 22:35:44（北京时间）
+! Version: 2026-05-23 10:49:58（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16854
+! Total count: 16863
 # AdClose 专用广告规则
-# 生成时间: 2026-05-22 14:35:43（北京时间）
+# 生成时间: 2026-05-23 02:49:57（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -2094,6 +2094,7 @@ domain, aecpm.alicdn.com
 domain, aedns.weixin.qq.com
 domain, aefdcxoi.com
 domain, aefmbeq.cn
+domain, aekjg-cdn.77t-tusu.com
 domain, aeletheacd.com
 domain, aem.dentsuchina.cn
 domain, aercxy.com
@@ -4990,6 +4991,7 @@ domain, dfkd.xyz
 domain, dfsj8050.ahyyxpk.com
 domain, dfstt5031.ayhnb.cn
 domain, dfsvhv88.com
+domain, dftveb.xn--6krw8b915a62m.com
 domain, dfx.shhuixiangwuliu.com
 domain, dfx.vnnv777.cn
 domain, dfxwdc.com
@@ -5377,6 +5379,7 @@ domain, duapp.com
 domain, duclick.baidu.com
 domain, dugbvb.com
 domain, dugesheying.com
+domain, dui.suiji.red
 domain, duier.top
 domain, duiwai.baidu.com
 domain, dumedia.ru
@@ -7157,6 +7160,7 @@ domain, hmma.baidu.com
 domain, hmp33.com
 domain, hmttoly.com
 domain, hmyangshengji.com
+domain, hn.bfvvs.com
 domain, hnasd.com
 domain, hnbhrt.xyz
 domain, hncadh.com
@@ -8888,6 +8892,7 @@ domain, lalabaos1022.top
 domain, lalabaos1026.top
 domain, lalaping.com
 domain, laljjn.xyz
+domain, lambda.raidrive.com
 domain, lamkghx.icu
 domain, lan.btwan5.com
 domain, landing.gdtimg.com
@@ -9619,6 +9624,7 @@ domain, m.laoqu123.com
 domain, m.lfdydk.com
 domain, m.lovezhishou.com
 domain, m.lusrg.cn
+domain, m.lwlm-nideta.cc
 domain, m.lyjz001.com
 domain, m.lzida.com
 domain, m.lzytt.com
@@ -10625,6 +10631,7 @@ domain, nfgnxkd.top
 domain, nfh.cnshef.com
 domain, nfl9j.com
 domain, nflks.cn
+domain, nfnykg.xn--6krw8b915a62m.com
 domain, nftjjw.com
 domain, ng8f.top
 domain, ngads.go.com
@@ -12252,6 +12259,7 @@ domain, resource.baomihua.com
 domain, responsys.net
 domain, restorationbowelsunflower.com
 domain, results.optimizely.com
+domain, reszavxz.malunwudi.com
 domain, ret.xinlongrubber.com
 domain, rev.fapdu.com
 domain, revdepo.com
@@ -12431,6 +12439,7 @@ domain, rvyjbwr.cn
 domain, rvzlobj.cn
 domain, rwjfs.com
 domain, rwq.youle55.com
+domain, rxing.rxyoo.net
 domain, rxlidz.ink
 domain, rxwan.com
 domain, rxyggrq.cn

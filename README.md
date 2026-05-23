@@ -36,19 +36,19 @@
 <h2 id="a">🎯 规则订阅</h2>
 
 ```
-更新时间: 2026-05-22 22:35:44 （北京时间） 
+更新时间: 2026-05-23 10:49:58 （北京时间） 
 
-拦截规则数量: 32935 
-DNS拦截规则数量: 16857 
+拦截规则数量: 32944 
+DNS拦截规则数量: 16866 
 白名单规则数量: 3492 
-Hosts规则数量: 16855 
+Hosts规则数量: 16864 
 Quantumult X规则数量:  
-Clash规则数量: 16850 
-Clash Meta规则数量: 16850 
-Shadowrocket规则数量: 16850 
-Singbox规则数量: 16850 
-Invizible Pro规则数量: 16855 
-AdClose规则数量: 16854 
+Clash规则数量: 16859 
+Clash Meta规则数量: 16859 
+Shadowrocket规则数量: 16859 
+Singbox规则数量: 16859 
+Invizible Pro规则数量: 16864 
+AdClose规则数量: 16863 
 ```
 
 <details open>

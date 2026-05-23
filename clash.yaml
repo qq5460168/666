@@ -1,9 +1,9 @@
 # Title: Clash Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-05-22 14:35:43（北京时间）
-# Clash规则数量: 16850
-! Total count: 16850
+# Last Updated: 2026-05-23 02:49:57（北京时间）
+# Clash规则数量: 16859
+! Total count: 16859
 rules:
   - DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
   - DOMAIN-SUFFIX,0.r.msn.com,REJECT
@@ -2091,6 +2091,7 @@ rules:
   - DOMAIN-SUFFIX,aedns.weixin.qq.com,REJECT
   - DOMAIN-SUFFIX,aefdcxoi.com,REJECT
   - DOMAIN-SUFFIX,aefmbeq.cn,REJECT
+  - DOMAIN-SUFFIX,aekjg-cdn.77t-tusu.com,REJECT
   - DOMAIN-SUFFIX,aeletheacd.com,REJECT
   - DOMAIN-SUFFIX,aem.dentsuchina.cn,REJECT
   - DOMAIN-SUFFIX,aercxy.com,REJECT
@@ -4987,6 +4988,7 @@ rules:
   - DOMAIN-SUFFIX,dfsj8050.ahyyxpk.com,REJECT
   - DOMAIN-SUFFIX,dfstt5031.ayhnb.cn,REJECT
   - DOMAIN-SUFFIX,dfsvhv88.com,REJECT
+  - DOMAIN-SUFFIX,dftveb.xn--6krw8b915a62m.com,REJECT
   - DOMAIN-SUFFIX,dfx.shhuixiangwuliu.com,REJECT
   - DOMAIN-SUFFIX,dfx.vnnv777.cn,REJECT
   - DOMAIN-SUFFIX,dfxwdc.com,REJECT
@@ -5374,6 +5376,7 @@ rules:
   - DOMAIN-SUFFIX,duclick.baidu.com,REJECT
   - DOMAIN-SUFFIX,dugbvb.com,REJECT
   - DOMAIN-SUFFIX,dugesheying.com,REJECT
+  - DOMAIN-SUFFIX,dui.suiji.red,REJECT
   - DOMAIN-SUFFIX,duier.top,REJECT
   - DOMAIN-SUFFIX,duiwai.baidu.com,REJECT
   - DOMAIN-SUFFIX,dumedia.ru,REJECT
@@ -7154,6 +7157,7 @@ rules:
   - DOMAIN-SUFFIX,hmp33.com,REJECT
   - DOMAIN-SUFFIX,hmttoly.com,REJECT
   - DOMAIN-SUFFIX,hmyangshengji.com,REJECT
+  - DOMAIN-SUFFIX,hn.bfvvs.com,REJECT
   - DOMAIN-SUFFIX,hnasd.com,REJECT
   - DOMAIN-SUFFIX,hnbhrt.xyz,REJECT
   - DOMAIN-SUFFIX,hncadh.com,REJECT
@@ -8885,6 +8889,7 @@ rules:
   - DOMAIN-SUFFIX,lalabaos1026.top,REJECT
   - DOMAIN-SUFFIX,lalaping.com,REJECT
   - DOMAIN-SUFFIX,laljjn.xyz,REJECT
+  - DOMAIN-SUFFIX,lambda.raidrive.com,REJECT
   - DOMAIN-SUFFIX,lamkghx.icu,REJECT
   - DOMAIN-SUFFIX,lan.btwan5.com,REJECT
   - DOMAIN-SUFFIX,landing.gdtimg.com,REJECT
@@ -9616,6 +9621,7 @@ rules:
   - DOMAIN-SUFFIX,m.lfdydk.com,REJECT
   - DOMAIN-SUFFIX,m.lovezhishou.com,REJECT
   - DOMAIN-SUFFIX,m.lusrg.cn,REJECT
+  - DOMAIN-SUFFIX,m.lwlm-nideta.cc,REJECT
   - DOMAIN-SUFFIX,m.lyjz001.com,REJECT
   - DOMAIN-SUFFIX,m.lzida.com,REJECT
   - DOMAIN-SUFFIX,m.lzytt.com,REJECT
@@ -10622,6 +10628,7 @@ rules:
   - DOMAIN-SUFFIX,nfh.cnshef.com,REJECT
   - DOMAIN-SUFFIX,nfl9j.com,REJECT
   - DOMAIN-SUFFIX,nflks.cn,REJECT
+  - DOMAIN-SUFFIX,nfnykg.xn--6krw8b915a62m.com,REJECT
   - DOMAIN-SUFFIX,nftjjw.com,REJECT
   - DOMAIN-SUFFIX,ng8f.top,REJECT
   - DOMAIN-SUFFIX,ngads.go.com,REJECT
@@ -12249,6 +12256,7 @@ rules:
   - DOMAIN-SUFFIX,responsys.net,REJECT
   - DOMAIN-SUFFIX,restorationbowelsunflower.com,REJECT
   - DOMAIN-SUFFIX,results.optimizely.com,REJECT
+  - DOMAIN-SUFFIX,reszavxz.malunwudi.com,REJECT
   - DOMAIN-SUFFIX,ret.xinlongrubber.com,REJECT
   - DOMAIN-SUFFIX,rev.fapdu.com,REJECT
   - DOMAIN-SUFFIX,revdepo.com,REJECT
@@ -12428,6 +12436,7 @@ rules:
   - DOMAIN-SUFFIX,rvzlobj.cn,REJECT
   - DOMAIN-SUFFIX,rwjfs.com,REJECT
   - DOMAIN-SUFFIX,rwq.youle55.com,REJECT
+  - DOMAIN-SUFFIX,rxing.rxyoo.net,REJECT
   - DOMAIN-SUFFIX,rxlidz.ink,REJECT
   - DOMAIN-SUFFIX,rxwan.com,REJECT
   - DOMAIN-SUFFIX,rxyggrq.cn,REJECT
