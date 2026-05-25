@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-05-24 21:22:53（北京时间）
+! Version: 2026-05-25 11:39:09（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16865
+! Total count: 16863
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-05-24 13:22:53（北京时间）
+# Last Updated: 2026-05-25 03:39:08（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -5303,7 +5303,6 @@
 0.0.0.0 dragoncent.com
 0.0.0.0 dragonparking.com
 0.0.0.0 drawfxk.com
-0.0.0.0 drcn-weather.cloud.huawei.com
 0.0.0.0 drd.hauchi.com.tw
 0.0.0.0 drdj.m.gxwztv.com
 0.0.0.0 drdwy.com
@@ -15068,7 +15067,6 @@
 0.0.0.0 w.homes.yahoo.net
 0.0.0.0 w.inews.qq.com
 0.0.0.0 w.jscsd.cn
-0.0.0.0 w.kunlunpi.com
 0.0.0.0 w.l.qq.com
 0.0.0.0 w.m.taobao.com
 0.0.0.0 w.punchbox.org
