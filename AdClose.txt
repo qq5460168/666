@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-06-07 14:17:17（北京时间）
+! Version: 2026-06-07 21:29:58（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17095
+! Total count: 17088
 # AdClose 专用广告规则
-# 生成时间: 2026-06-07 06:17:16（北京时间）
+# 生成时间: 2026-06-07 13:29:58（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -3830,7 +3830,6 @@ domain, cca.mob.com
 domain, ccav.website
 domain, ccb.uncle-ad.com
 domain, ccbaihehq.com
-domain, ccc-x.jd.com
 domain, ccc.x.jd.com
 domain, ccclub.cmbchina.com
 domain, cccrir.com
@@ -8831,7 +8830,6 @@ domain, kn.ynmhg.cn
 domain, kn.zstjy.com
 domain, kn.zzdahan.com
 domain, knbtpty.xyz
-domain, knicks.jd.com
 domain, knjcsonpo.com
 domain, knjmhmk.com
 domain, knliylh.cn
@@ -13157,7 +13155,6 @@ domain, shop265.com
 domain, shop45920354.m.youzan.com
 domain, shoppingpartners2.futurenet.com
 domain, shorturl.biz.weibo.cn
-domain, shouji.sogou.com
 domain, shouyoutan.com
 domain, shouzhi.biz
 domain, show-msgch.qq.com
@@ -14203,7 +14200,6 @@ domain, tnc3-aliec2.toutiaoapi.com
 domain, tnc3-aliec2.zijieapi
 domain, tnc3-aliec2.zijieapi.com
 domain, tnc3-alisc1.bytedance.com
-domain, tnc3-alisc1.snssdk.com
 domain, tnc3-alisc1.toutiaoapi.com
 domain, tnc3-alisc1.zijieapi
 domain, tnc3-alisc1.zijieapi.com
@@ -14220,7 +14216,6 @@ domain, tns.simba.taobao.com
 domain, toastspinner.com
 domain, tobapplog.ctobsnssdk.com
 domain, tobapplog.volceapplog.com
-domain, toblog.ctobsnssdk.com
 domain, toblog.snssdk.com
 domain, toblog.volceapplog.com
 domain, toggle.qq.com
@@ -14578,7 +14573,6 @@ domain, uckgqa.xyz
 domain, ucqq.cnsptv.com.cn
 domain, ucrzgcs.cn
 domain, ucstat.baidu.com
-domain, ucus.ucweb.com
 domain, ucxxii.com
 domain, uczzd.com
 domain, uczzd.com.cn
@@ -14898,7 +14892,6 @@ domain, uyt79.top
 domain, uyunad.com
 domain, uzpmrbek.com
 domain, v-sence.gentags.net
-domain, v.110route.cn
 domain, v.adintl.cn
 domain, v.admaster.com.cn
 domain, v.adx.hubcloud.com.cn
