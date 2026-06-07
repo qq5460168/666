@@ -2,15 +2,15 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-06-07 11:43:25（北京时间）
+! Version: 2026-06-07 12:13:09（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16864
+! Total count: 16861
 [Adblock Plus 2.0]
 ! Title: 酷安广告规则
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Last Updated: 2026-06-07 03:43:24（北京时间）
-! Total Count: 16857
+! Last Updated: 2026-06-07 04:13:08（北京时间）
+! Total Count: 16854
 ||-normal-lq.zijieapi.com^
 ||0.r.msn.com^
 ||000123456789.online^
@@ -2328,7 +2328,6 @@
 ||analytics-sg.tiktok.com^
 ||analytics.126.com^
 ||analytics.163.com^
-||analytics.95516.com^
 ||analytics.adjust.cn^
 ||analytics.amplitude.com^
 ||analytics.cherry-ai.com^
@@ -14844,8 +14843,6 @@
 ||vdapprecv.app.cntvwb.cn^
 ||vdazz.net^
 ||vdn1.vzuu.com^
-||vdn5-1.vzuu.com^
-||vdn6.vzuu.com^
 ||vdrfes.site^
 ||vds82e.sejqb.com^
 ||ve.tsdlp.com^
