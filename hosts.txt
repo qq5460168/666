@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-06-07 14:17:17（北京时间）
+! Version: 2026-06-07 21:29:58（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17096
+! Total count: 17089
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-06-07 06:17:16（北京时间）
+# Last Updated: 2026-06-07 13:29:58（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -3831,7 +3831,6 @@
 0.0.0.0 ccav.website
 0.0.0.0 ccb.uncle-ad.com
 0.0.0.0 ccbaihehq.com
-0.0.0.0 ccc-x.jd.com
 0.0.0.0 ccc.x.jd.com
 0.0.0.0 ccclub.cmbchina.com
 0.0.0.0 cccrir.com
@@ -8832,7 +8831,6 @@
 0.0.0.0 kn.zstjy.com
 0.0.0.0 kn.zzdahan.com
 0.0.0.0 knbtpty.xyz
-0.0.0.0 knicks.jd.com
 0.0.0.0 knjcsonpo.com
 0.0.0.0 knjmhmk.com
 0.0.0.0 knliylh.cn
@@ -13158,7 +13156,6 @@
 0.0.0.0 shop45920354.m.youzan.com
 0.0.0.0 shoppingpartners2.futurenet.com
 0.0.0.0 shorturl.biz.weibo.cn
-0.0.0.0 shouji.sogou.com
 0.0.0.0 shouyoutan.com
 0.0.0.0 shouzhi.biz
 0.0.0.0 show-msgch.qq.com
@@ -14204,7 +14201,6 @@
 0.0.0.0 tnc3-aliec2.zijieapi
 0.0.0.0 tnc3-aliec2.zijieapi.com
 0.0.0.0 tnc3-alisc1.bytedance.com
-0.0.0.0 tnc3-alisc1.snssdk.com
 0.0.0.0 tnc3-alisc1.toutiaoapi.com
 0.0.0.0 tnc3-alisc1.zijieapi
 0.0.0.0 tnc3-alisc1.zijieapi.com
@@ -14221,7 +14217,6 @@
 0.0.0.0 toastspinner.com
 0.0.0.0 tobapplog.ctobsnssdk.com
 0.0.0.0 tobapplog.volceapplog.com
-0.0.0.0 toblog.ctobsnssdk.com
 0.0.0.0 toblog.snssdk.com
 0.0.0.0 toblog.volceapplog.com
 0.0.0.0 toggle.qq.com
@@ -14579,7 +14574,6 @@
 0.0.0.0 ucqq.cnsptv.com.cn
 0.0.0.0 ucrzgcs.cn
 0.0.0.0 ucstat.baidu.com
-0.0.0.0 ucus.ucweb.com
 0.0.0.0 ucxxii.com
 0.0.0.0 uczzd.com
 0.0.0.0 uczzd.com.cn
@@ -14899,7 +14893,6 @@
 0.0.0.0 uyunad.com
 0.0.0.0 uzpmrbek.com
 0.0.0.0 v-sence.gentags.net
-0.0.0.0 v.110route.cn
 0.0.0.0 v.adintl.cn
 0.0.0.0 v.admaster.com.cn
 0.0.0.0 v.adx.hubcloud.com.cn

@@ -1,9 +1,9 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-06-07 06:17:16（北京时间）
-# Quantumult X规则数量: 17091
-# ! Total count: 17091
+# Last Updated: 2026-06-07 13:29:58（北京时间）
+# Quantumult X规则数量: 17084
+# ! Total count: 17084
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -3826,7 +3826,6 @@ HOST-SUFFIX,cca.mob.com,REJECT
 HOST-SUFFIX,ccav.website,REJECT
 HOST-SUFFIX,ccb.uncle-ad.com,REJECT
 HOST-SUFFIX,ccbaihehq.com,REJECT
-HOST-SUFFIX,ccc-x.jd.com,REJECT
 HOST-SUFFIX,ccc.x.jd.com,REJECT
 HOST-SUFFIX,ccclub.cmbchina.com,REJECT
 HOST-SUFFIX,cccrir.com,REJECT
@@ -8827,7 +8826,6 @@ HOST-SUFFIX,kn.ynmhg.cn,REJECT
 HOST-SUFFIX,kn.zstjy.com,REJECT
 HOST-SUFFIX,kn.zzdahan.com,REJECT
 HOST-SUFFIX,knbtpty.xyz,REJECT
-HOST-SUFFIX,knicks.jd.com,REJECT
 HOST-SUFFIX,knjcsonpo.com,REJECT
 HOST-SUFFIX,knjmhmk.com,REJECT
 HOST-SUFFIX,knliylh.cn,REJECT
@@ -13153,7 +13151,6 @@ HOST-SUFFIX,shop265.com,REJECT
 HOST-SUFFIX,shop45920354.m.youzan.com,REJECT
 HOST-SUFFIX,shoppingpartners2.futurenet.com,REJECT
 HOST-SUFFIX,shorturl.biz.weibo.cn,REJECT
-HOST-SUFFIX,shouji.sogou.com,REJECT
 HOST-SUFFIX,shouyoutan.com,REJECT
 HOST-SUFFIX,shouzhi.biz,REJECT
 HOST-SUFFIX,show-msgch.qq.com,REJECT
@@ -14199,7 +14196,6 @@ HOST-SUFFIX,tnc3-aliec2.toutiaoapi.com,REJECT
 HOST-SUFFIX,tnc3-aliec2.zijieapi,REJECT
 HOST-SUFFIX,tnc3-aliec2.zijieapi.com,REJECT
 HOST-SUFFIX,tnc3-alisc1.bytedance.com,REJECT
-HOST-SUFFIX,tnc3-alisc1.snssdk.com,REJECT
 HOST-SUFFIX,tnc3-alisc1.toutiaoapi.com,REJECT
 HOST-SUFFIX,tnc3-alisc1.zijieapi,REJECT
 HOST-SUFFIX,tnc3-alisc1.zijieapi.com,REJECT
@@ -14216,7 +14212,6 @@ HOST-SUFFIX,tns.simba.taobao.com,REJECT
 HOST-SUFFIX,toastspinner.com,REJECT
 HOST-SUFFIX,tobapplog.ctobsnssdk.com,REJECT
 HOST-SUFFIX,tobapplog.volceapplog.com,REJECT
-HOST-SUFFIX,toblog.ctobsnssdk.com,REJECT
 HOST-SUFFIX,toblog.snssdk.com,REJECT
 HOST-SUFFIX,toblog.volceapplog.com,REJECT
 HOST-SUFFIX,toggle.qq.com,REJECT
@@ -14574,7 +14569,6 @@ HOST-SUFFIX,uckgqa.xyz,REJECT
 HOST-SUFFIX,ucqq.cnsptv.com.cn,REJECT
 HOST-SUFFIX,ucrzgcs.cn,REJECT
 HOST-SUFFIX,ucstat.baidu.com,REJECT
-HOST-SUFFIX,ucus.ucweb.com,REJECT
 HOST-SUFFIX,ucxxii.com,REJECT
 HOST-SUFFIX,uczzd.com,REJECT
 HOST-SUFFIX,uczzd.com.cn,REJECT
@@ -14894,7 +14888,6 @@ HOST-SUFFIX,uyt79.top,REJECT
 HOST-SUFFIX,uyunad.com,REJECT
 HOST-SUFFIX,uzpmrbek.com,REJECT
 HOST-SUFFIX,v-sence.gentags.net,REJECT
-HOST-SUFFIX,v.110route.cn,REJECT
 HOST-SUFFIX,v.adintl.cn,REJECT
 HOST-SUFFIX,v.admaster.com.cn,REJECT
 HOST-SUFFIX,v.adx.hubcloud.com.cn,REJECT
