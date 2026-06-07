@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-06-07 21:29:58（北京时间）
+! Version: 2026-06-07 21:37:34（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17088
+! Total count: 17085
 # AdClose 专用广告规则
-# 生成时间: 2026-06-07 13:29:58（北京时间）
+# 生成时间: 2026-06-07 13:37:33（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -5169,7 +5169,6 @@ domain, dlrijiaele.com
 domain, dlrtz.com
 domain, dlsw.baidu.com
 domain, dlsw.br.baidu.com
-domain, dlswbr.baidu.com
 domain, dlxxjsh.top
 domain, dlzjdesign.com
 domain, dm-hl.toutiao.com
@@ -10066,7 +10065,6 @@ domain, mc.hujiang.com
 domain, mc.muhtbnd.cn
 domain, mc.yandex.com
 domain, mc.yandex.ru
-domain, mcc.inf.miui.com
 domain, mcdn.kandian.qq.com
 domain, mcdwfed.cn
 domain, mcgi.v.qq.com
@@ -12806,7 +12804,6 @@ domain, sascwt.cn
 domain, sasdk.3g.qq.com
 domain, savebt.net
 domain, saveu5-normal-lf.zijieapi.com
-domain, saveu5-normal-lq.zijieapi.com
 domain, saviourketonic.com
 domain, saxn.sina.com.cn
 domain, saxs.sina.com.cn

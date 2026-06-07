@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-06-07 21:29:58（北京时间）
+! Version: 2026-06-07 21:37:34（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17089
+! Total count: 17086
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-06-07 13:29:58（北京时间）
+# Last Updated: 2026-06-07 13:37:33（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -5170,7 +5170,6 @@
 0.0.0.0 dlrtz.com
 0.0.0.0 dlsw.baidu.com
 0.0.0.0 dlsw.br.baidu.com
-0.0.0.0 dlswbr.baidu.com
 0.0.0.0 dlxxjsh.top
 0.0.0.0 dlzjdesign.com
 0.0.0.0 dm-hl.toutiao.com
@@ -10067,7 +10066,6 @@
 0.0.0.0 mc.muhtbnd.cn
 0.0.0.0 mc.yandex.com
 0.0.0.0 mc.yandex.ru
-0.0.0.0 mcc.inf.miui.com
 0.0.0.0 mcdn.kandian.qq.com
 0.0.0.0 mcdwfed.cn
 0.0.0.0 mcgi.v.qq.com
@@ -12807,7 +12805,6 @@
 0.0.0.0 sasdk.3g.qq.com
 0.0.0.0 savebt.net
 0.0.0.0 saveu5-normal-lf.zijieapi.com
-0.0.0.0 saveu5-normal-lq.zijieapi.com
 0.0.0.0 saviourketonic.com
 0.0.0.0 saxn.sina.com.cn
 0.0.0.0 saxs.sina.com.cn

@@ -2,19 +2,20 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-06-07 21:29:58（北京时间）
+! Version: 2026-06-07 21:37:34（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2876
+! Total count: 2910
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-06-07 21:29:58（北京时间）
-# 总域名数: 2870
+# 生成时间: 2026-06-07 21:37:34（北京时间）
+# 总域名数: 2904
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
 17u.cn
 18comic.org
 18comic.vip
+1music.cc
 1sapp.com
 1tian.kuaishou.com
 316.coolapk1s.com
@@ -52,6 +53,7 @@ abs-0.twimg.com
 abs.twimg.com
 abtest3-misc-lf.zijieapi.com
 abtestvm.bytedance.com
+ac.dun.163.com
 ac.dun.163yun.com
 ac.opapp.cn
 access1.tpns.tencent.com
@@ -93,12 +95,14 @@ ad-log-upload.mihoyo.com
 ad.doubleclick.net
 ad.mcloud.139.com
 adash-emas.cn-hangzhou.aliyuncs.com
+adashx.m.taobao.com
 adidasapp.api.adidas.com.cn
 adnmb3.com
 ads.privacy.qq.com
 adv.ccb.com
 adv.sec.miui.com
 aegis.qq.com
+aeventlog.beacon.qq.com
 afdian.com
 ai-cdn.duba.net
 aider-res.meizu.com
@@ -186,9 +190,11 @@ api.jdl.cn
 api.jdl.com
 api.jr.mi.com
 api.ke.com
+api.kingdata.ksyun.com
 api.kuaishouzt.com
 api.kwaizt.com
 api.live.bilibili.com
+api.look.163.com
 api.m.jd.com
 api.map.baidu.com
 api.meituan.com
@@ -317,6 +323,8 @@ b.bdstatic.com
 b23.tv
 b3log.org
 b3logfile.com
+backend.1music.cc
+backupapi.lkong.com
 bad.news
 bag.itunes.apple.com
 baijiahao.baidu.com
@@ -332,6 +340,7 @@ bce.baidu.com
 bcelive.com
 bd1.zuimeitianqi.com
 bd2.zuimeitianqi.com
+bdad.123pan.cn
 bdsmtest.org
 bdsmtv.cc
 beacon-api.aliyuncs.com
@@ -375,6 +384,7 @@ buy.itunes.apple.com
 bytedanceapi.com
 byteimg.com.queniusy.com
 c.58cdn.com.cn
+c.cnzz.com
 c.duomai.com
 c.evidon.com
 c.fa.jd.com
@@ -695,6 +705,7 @@ dl.youku.com
 dldir1.qq.com
 dldir1v6.qq.com
 dldir3.qq.com
+dlswbr.baidu.com
 dm.toutiao.com
 dm.video.qq.com
 dmm.co.jp
@@ -1011,6 +1022,7 @@ hcjs.nv7s.com
 hclips.ahcdn.com
 hclips.com
 hctn.nv7s.com
+hdns.ksyun.com
 hdzog.ahcdn.com
 hdzog.com
 hectorstatic.baidu.com
@@ -1125,6 +1137,7 @@ imagex.bytedanceapi.com
 imasdk.googleapis.com
 ime-igw.doubao.com
 ime-res-download.xfinfr.com
+ime-store-cdn.gtimg.com
 imeclient.openspeech.cn
 img-bss.csdnimg.cn
 img-cf.xnxx-cdn.com
@@ -1147,6 +1160,7 @@ img.mp.itc.cn
 img.pddpic.com
 img.qidian.com
 img.samsungapps.com
+img.shouji.sogou.com
 img.siwazywimg.com
 img.sogoucdn.com
 img.soulapp.cn
@@ -1178,6 +1192,7 @@ imop.com
 imtt.dd.qq.com
 in.appcenter.ms
 increase-openapi.soulapp.cn
+indivi-cdn.shouji.sogou.com
 inews.gtimg.com
 info.zb.qq.com
 info.zuimeitianqi.com
@@ -1224,6 +1239,7 @@ its.map.baidu.com
 itunes.apple.com
 iv-h.phncdn.com
 iwx.mail.qq.com
+iyfbodn.com
 j.gamersky.com
 javfinder.ai
 jhk-cdn-mampic.hismarttv.com
@@ -1277,6 +1293,7 @@ knicks.jd.com
 knowsex.net
 konachan.com
 kubernetes.io
+kunlunpi.com
 kwimgs.com
 kyaru-concat.now.sh
 l.qq.com
@@ -1379,6 +1396,7 @@ lpl.qq.com
 lsposed.org
 luna-dict-community.nosdn.127.net
 lx.meituan.net
+m..bilibili.com
 m.163.com
 m.17173.com
 m.360.cn
@@ -1489,6 +1507,7 @@ mbdl.update.netease.com
 mbdp02.bdstatic.com
 mc.163.com
 mca.cmpay.com
+mcc.inf.miui.com
 mcdn.bilivideo.cn
 mcdn.pinduoduo.com
 mcs.ele.me
@@ -1580,6 +1599,7 @@ mparticle.uc.cn
 mpay-web.g.mkey.163.com
 mpsapi.amap.com
 mpush-api.aliyun.com
+mrn.meituan.net
 ms.bdimg.com
 ms.bdstatic.com
 ms.jr.jd.com
@@ -1823,6 +1843,7 @@ pan.xunlei.com
 papegames.qiyukf.com
 parked-content.godaddy.com
 parking.namesilo.com
+partner.googleadservices.com
 party.163.com
 passport.360.cn
 passport.baidu.com
@@ -1935,6 +1956,7 @@ publish-pic-cpu.baidu.com
 pubmsg.meituan.com
 puds.ucweb.com
 pull-m1.wxlivecdn.com
+pull.yximgs.com
 pull2.91cloud.net
 puser.funshion.com
 push.apple.com
@@ -2065,6 +2087,7 @@ s1.meituan.net
 s1.voicecloud.cn
 s1.zhuanstatic.com
 s2.hdslb.com
+s2.kskwai.com
 s2.ssl.qhres2.com
 s3-us-east-1.ossfiles.com
 s3.ap-southeast-1.qiniucs.com
@@ -2086,12 +2109,14 @@ s3.us-north-1.qiniucs.com
 s3.voicecloud.cn
 s3plus-img.meituan.net
 s3plus.meituan.net
+s4.cnzz.com
 s7.zuimeitianqi.com
 samsungknox.com
 saomiao.51240.com
 saomiao.bmcx.com
 saucenao.com
 saveu.zijieapi.com
+saveu5-normal-lq.zijieapi.com
 sax.sina.com.cn
 sbanh.com
 sbfast.com
@@ -2198,6 +2223,7 @@ spring-plus.net
 sqdd.myapp.com
 sqimg.qq.com
 srf.xunfei.cn
+srv.android.shouji.sogou.com
 srv.sec.miui.com
 ss.map.baidu.com
 ss.phncdn.com
@@ -2233,6 +2259,7 @@ static.clewm.net
 static.cloudflareinsights.com
 static.deepseek.com
 static.e.189.cn
+static.fengkongcloud.com
 static.gitbook.com
 static.hdslb.com
 static.iask.cn
@@ -2304,6 +2331,7 @@ survey.feelgood.cn
 sv.map.baidu.com
 swap.stu.126.net
 swimg1.hstdyf.com
+syndicatedsearch.goog
 sysdk.cl2009.com
 szlong.weixin.qq.com
 szmg.qq.com
@@ -2366,6 +2394,7 @@ tnc3-bjlgy.zijieapi.com
 toblog.ctobsnssdk.com
 tom.163.com
 tongji.flash.cn
+tongzhi.cup.com.cn
 tool.lu
 toonily.com
 toonily.me
@@ -2508,6 +2537,7 @@ vd0.market.xiaomi.com
 vd1.market.xiaomi.com
 vd3.bdstatic.com
 vdn3.vzuu.com
+vdn5.vzuu.com
 vdownload.hembed.com
 vectorsdk.map.qq.com
 venus.yhd.com
@@ -2551,6 +2581,8 @@ vpic.cms.qq.com
 vps.uc.cn
 vscode.download.prss.microsoft.com
 vv.video.qq.com
+vweixinf.tc.qq.com
+vweixinthumb.tc.qq.com
 vxxx.com
 w.pandora.xiaomi.com
 w1.kskwai.com
@@ -2803,6 +2835,7 @@ wx2.sinaimg.cn
 wx3.sinaimg.cn
 wx4.sinaimg.cn
 wxapp.lvyadx.cn
+wxapp.tc.qq.com
 wxaurl.cn
 wxmini-api.uyouqu.com
 wxpay.qpic.cn
@@ -2865,6 +2898,7 @@ yybadaccess.3g.qq.com
 yys.163.com
 yzg.wavee.cn
 z.weixin.qq.com
+z3.cnzz.com
 zazhipu.com
 zconfig.alibabausercontent.com
 zenless.hoyoverse.com
