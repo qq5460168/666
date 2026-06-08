@@ -1,9 +1,9 @@
 # Title: Clash Meta规则
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-06-07 13:49:19（北京时间）
-# Clash Meta规则数量: 17080
-! Total count: 17080
+# Last Updated: 2026-06-08 03:52:19（北京时间）
+# Clash Meta规则数量: 17082
+! Total count: 17082
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -9929,6 +9929,7 @@ payload:
   - 'ma-adx.ctrip.com'
   - 'ma.baidu.com'
   - 'ma.pupumall.com'
+  - 'ma.zijieapi.com'
   - 'ma1.meishij.net'
   - 'ma2.meishij.net'
   - 'ma5-normal-lq.zijieapi.com'
@@ -15016,6 +15017,7 @@ payload:
   - 'vdapprecv.app.cntvwb.cn'
   - 'vdazz.net'
   - 'vdn1.vzuu.com'
+  - 'vdo3c.org'
   - 'vdrfes.site'
   - 'vds82e.sejqb.com'
   - 've.tsdlp.com'
