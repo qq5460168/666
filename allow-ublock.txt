@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-06-14 11:55:08（北京时间）
+! Version: 2026-06-14 21:59:43（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2910
+! Total count: 2911
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-06-14 11:55:07（北京时间）
-# 总域名数: 2904
+# 生成时间: 2026-06-14 21:59:43（北京时间）
+# 总域名数: 2905
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -1396,6 +1396,7 @@ lpl.qq.com
 lsposed.org
 luna-dict-community.nosdn.127.net
 lx.meituan.net
+m-api.uc.cn
 m..bilibili.com
 m.163.com
 m.17173.com
