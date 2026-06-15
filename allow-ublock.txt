@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-06-15 12:06:58（北京时间）
+! Version: 2026-06-16 01:12:18（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2912
+! Total count: 2914
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-06-15 12:06:57（北京时间）
-# 总域名数: 2906
+# 生成时间: 2026-06-16 01:12:17（北京时间）
+# 总域名数: 2908
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -116,6 +116,7 @@ aizhan.com
 ajax.aspnetcdn.com
 ajax.googleapis.com
 akamaized.net
+alb-jjexm35p5nv4ven8gt.cn-shenzhen.alb.aliyuncsslb.com
 ali-gamezone.static.yximgs.com
 ali-ky.static.yximgs.com
 ali.static.yximgs.com
@@ -2384,6 +2385,7 @@ thm.market.xiaomi.com
 thumbs2.imgbox.com
 ti.qq.com
 tianshu.gtimg.cn
+tieba-ares.cdn.bcebos.com
 tiktokcdn.com
 tiktokv.com
 tinyurl.com
