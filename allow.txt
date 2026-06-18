@@ -2,15 +2,15 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-06-18 11:45:57（北京时间）
+! Version: 2026-06-18 23:20:48（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3531
+! Total count: 3537
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-album.uc.cn^
 @@||*-api.uc.cn^
 @@||*-cf.xvideos-cdn.com^
-@@||*-misc-lf.fqnovel.com^$important
+@@||*-misc-lf.fqnovel.com^
 @@||*-novelapp.fqnovelvod.com^
 @@||*-open-sign.byteimg.com^
 @@||*-open.byteimg.com^
@@ -46,6 +46,7 @@
 @@||*.geotrust.com^
 @@||*.googleusercontent.com^
 @@||*.gvt1.com^
+@@||*.heytapdownload.com^
 @@||*.hip.live.com^
 @@||*.img.mobile.sina.cn^
 @@||*.in-addr.arpa^
@@ -260,6 +261,7 @@
 @@||adashx.m.taobao.com^
 @@||adidasapp.api.adidas.com.cn^
 @@||adl.windows.com^$important
+@@||admin-oss-xlvip.a.88cdn.com^
 @@||admin.microsoft.com^$important
 @@||admin.onedrive.com^$important
 @@||adminwebservice.microsoftonline.com^$important
@@ -455,7 +457,6 @@
 @@||appattest.apple.com^$important
 @@||appcenter.ms^
 @@||appcfg.v.qq.com^
-@@||appcfg.v.qq.com^$important
 @@||appcloud.zhihu.com^
 @@||appcloud2.zhihu.com^
 @@||appconf.heytapdownload.com^
@@ -850,6 +851,7 @@
 @@||conf.hpplay.cn^
 @@||config.cmpassport.com^
 @@||configuration.apple.com^$important
+@@||conn1.oppomobile.com^
 @@||connect-drcn.hispace.hicloud.com^
 @@||connect.intl.rom.miui.com^
 @@||connect.rom.miui.com^
@@ -1031,6 +1033,7 @@
 @@||doh.dns.apple.com^$important
 @@||domains-ws.revved.com^
 @@||dorado.xiaojukeji.com^
+@@||dorangesource.alicdn.com^
 @@||doris.yidianzixun.com^
 @@||dot.360.cn^
 @@||douyincdn.com^
@@ -1340,6 +1343,7 @@
 @@||h.163.com^
 @@||h.trace.qq.com^
 @@||h18.update.netease.com^
+@@||h35.ynodd.cn^
 @@||h42.update.netease.com^
 @@||h5.360buyimg.com^
 @@||h5.cc.163.com^
@@ -2138,6 +2142,7 @@
 @@||obs.sa-peru-1.myhuaweicloud.com^
 @@||obs.tr-west-1.myhuaweicloud.com^
 @@||obus-cn.dc.heytapmobi.com^
+@@||obus-dc20058-cn.heytapmobi.com^
 @@||ocos-office365-s2s.msedge.net^$important
 @@||ocsp.apple.com^
 @@||ocsp.apple.com^$important
@@ -3454,6 +3459,7 @@
 @@||wxaurl.cn^
 @@||wxmini-api.uyouqu.com^
 @@||wxpay.qpic.cn^
+@@||wxpaylogo.qpic.cn^
 @@||wxsnsdy.wxs.qq.com^
 @@||wxsnsencsvp.wxs.qq.com^
 @@||x0.ifengimg.com^
