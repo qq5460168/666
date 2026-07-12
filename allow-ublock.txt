@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-07-12 10:35:01（北京时间）
+! Version: 2026-07-12 21:15:44（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2932
+! Total count: 2957
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-07-12 10:35:01（北京时间）
-# 总域名数: 2926
+# 生成时间: 2026-07-12 21:15:44（北京时间）
+# 总域名数: 2951
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -336,8 +336,10 @@ baike.baidu.com
 baike.so.com
 baikebcs.bdimg.com
 baixing.com
+base.cup.com.cn
 bbs-static.miyoushe.com
 bbs.huorong.cn
+bbs.mcmod.cn
 bbs.mobileapi.hupu.com
 bbs.tampermonkey.net.cn
 bce.baidu.com
@@ -384,6 +386,7 @@ bs-origin.pull.yximgs.com
 btrace.qq.com
 bucket-ynote-online-cdn.note.youdao.com
 bud.iqiyi.com
+bug.mcmod.cn
 buy.itunes.apple.com
 bytedanceapi.com
 byteimg.com.queniusy.com
@@ -566,6 +569,7 @@ cn.ekg.riotgames.com
 cn.pornhub.com
 cn.register.xmpush.xiaomi.com
 cn.ultraiso.net
+cn.unionpay.com
 cn.uptodown.com
 cnbj1.fds.api.xiaomi.com
 cnlogin.cainiao.com
@@ -1082,6 +1086,7 @@ i.fotao9.com
 i.gtimg.cn
 i.ibb.co
 i.imgur.com
+i.mcmod.cn
 i.meituan.com
 i.mi.com
 i.pximg.net
@@ -1101,6 +1106,7 @@ i82.lanzoug.com
 iaas.cloud.tencent.com
 iask.cn
 iask.com.cn
+iassapi.cup.com.cn
 ib.snssdk.com
 ib11.go2yd.com
 ic.snssdk.com
@@ -1355,6 +1361,7 @@ lf9-mgsdk-sign.dailygn.com
 lf9-open-ma-pkg-sign.bytemastatic.com
 liangcang-material.alicdn.com
 lib.sinaapp.com
+life.cup.com.cn
 lifemakeovermysg.archosaur.com
 lightnovel.us
 limbopro.com
@@ -1364,6 +1371,7 @@ line1-h5-pc-api.biligame.com
 line3-h5-mobile-api.biligame.com
 line3-h5-pc-api.biligame.com
 line3-statics-h5-mobile-api.biligame.net
+link.mcmod.cn
 link.zhihu.com
 linux.do
 liuyun.io
@@ -1597,6 +1605,8 @@ mobile.xunlei.com
 mobile.yangkeduo.com
 mobilelog.kugou.com
 mobilist.kuwo.cn
+modfile.mcmod.cn
+modrinth.com
 modyolo.com
 moggy-image-1251316161.file.myqcloud.com
 mon.isnssdk.com
@@ -1742,6 +1752,8 @@ open.bytedanceapi.com
 open.douyin.com
 open.oppomobile.com
 open.snssdk.com
+open.unionpay.com
+open.unionpayintl.com
 openap-alps.51y5.net
 openapi.vmall.com
 opencloud.wostore.cn
@@ -1875,6 +1887,7 @@ passport.youdao.com
 passport.yuewen.com
 patchwiki.biligame.com
 pay.bilibili.com
+pay.cup.com.cn
 pay.heytap.com
 pay.openspeech.cn
 pay.soulapp.cn
@@ -1934,6 +1947,7 @@ platform.deepseek.com
 play-fe.googleapis.com
 play.163.com
 play.googleapis.com
+play.mcmod.cn
 play.ximalaya.com
 play1.heytapimage.com
 player.youku.com
@@ -2139,6 +2153,7 @@ sbanh.com
 sbfast.com
 sbfull.com
 scan.call.f.360.cn
+scene.cup.com.cn
 scriptcat.org
 sd.360.cn
 sdk-api.beizi.biz
@@ -2152,6 +2167,7 @@ sdkapi.sms.mob.com
 se.360.cn
 search.doubao.com
 search.kuwo.cn
+search.mcmod.cn
 search.sogoucdn.com
 search.ximalaya.com
 search.youku.com
@@ -2249,6 +2265,7 @@ ssl-cdn.static.browser.mi-img.com
 ssl.gstatic.com
 ssl.msdk.qq.com
 ssl.p.jwpcdn.com
+sso.curseforge.com
 sso.ele.me
 ssr.m.goofish.com
 st.jingxi.com
@@ -2259,6 +2276,7 @@ stat.api.4399.com
 stat.funshion.com
 stat.y.qq.com
 stat6.y.qq.com
+static-beta.curseforge.com
 static-cdn77.xnxx-cdn.com
 static-hw.xnxx-cdn.com
 static-l3.xnxx-cdn.com
@@ -2283,6 +2301,7 @@ static.iask.cn
 static.inkuai.com
 static.iqiyi.com
 static.itellyou.cn
+static.mcmod.cn
 static.miraheze.org
 static.onelap.cn
 static.pddpic.com
@@ -2432,6 +2451,7 @@ tracker.didistatic.com
 trade-acs.m.taobao.com
 train.17u.cn
 translator.qq.com
+travel.cup.com.cn
 trpc.qianbao.qq.com
 ts.market.mi-img.com
 ts1.tc.mm.bing.net
@@ -2482,6 +2502,7 @@ udpolimenew.baidu.com
 uee.me
 ugame.9game.cn
 ugurl.cn
+uiam.unionpayintl.com
 uland.taobao.com
 ulive-interact.uc.cn
 ulive-sc.uc.cn
@@ -2713,6 +2734,8 @@ www.cloudflare.com
 www.cloudns.net
 www.cmpassport.com
 www.crossoverchina.com
+www.cup.com.cn
+www.curseforge.com
 www.deepseek.com
 www.dell.com
 www.dianping.com
@@ -2773,6 +2796,7 @@ www.maimemo.com
 www.mairuan.com
 www.manhuabei.com
 www.maserati.com
+www.mcmod.cn
 www.meituan.com
 www.meizu.com
 www.mercedes-benz.com
@@ -2823,6 +2847,7 @@ www.tiantiantiaosheng.com
 www.toutiao.com
 www.tudou.com
 www.twitter.com
+www.unionpayintl.com
 www.uzzf.com
 www.vmall.com
 www.wnacg.com

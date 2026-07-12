@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-07-12 10:35:01（北京时间）
+! Version: 2026-07-12 21:15:44（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3538
+! Total count: 3566
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-album.uc.cn^
@@ -18,6 +18,7 @@
 @@||*-www.sway-extensions.com^
 @@||*.*.szbdyd.com^
 @@||*.1e100.net1^
+@@||*.95516.com^
 @@||*.a.yximgs.com^
 @@||*.aadrm.com^
 @@||*.acompli.net^
@@ -38,11 +39,13 @@
 @@||*.cloud.microsoft^
 @@||*.compliance.microsoft.com^
 @@||*.cortana.ai^
+@@||*.cup.com.cn^
 @@||*.dlied1.cdntips.net^
 @@||*.entrust.net^
 @@||*.events.data.microsoft.com^
 @@||*.find.api.micloud.xiaomi.net^
 @@||*.flow.microsoft.com^
+@@||*.forgecdn.net^
 @@||*.geotrust.com^
 @@||*.googleusercontent.com^
 @@||*.gvt1.com^
@@ -552,8 +555,10 @@
 @@||baike.so.com^
 @@||baikebcs.bdimg.com^
 @@||baixing.com^
+@@||base.cup.com.cn^
 @@||bbs-static.miyoushe.com^
 @@||bbs.huorong.cn^
+@@||bbs.mcmod.cn^
 @@||bbs.mobileapi.hupu.com^
 @@||bbs.tampermonkey.net.cn^
 @@||bce.baidu.com^
@@ -606,6 +611,7 @@
 @@||btrace.qq.com^
 @@||bucket-ynote-online-cdn.note.youdao.com^
 @@||bud.iqiyi.com^
+@@||bug.mcmod.cn^
 @@||business.apple.com^$important
 @@||buy.itunes.apple.com^
 @@||bytedanceapi.com^
@@ -827,6 +833,7 @@
 @@||cn.pornhub.com^
 @@||cn.register.xmpush.xiaomi.com^
 @@||cn.ultraiso.net^
+@@||cn.unionpay.com^
 @@||cn.uptodown.com^
 @@||cnbj1.fds.api.xiaomi.com^
 @@||cnbj1.fds.api.xiaomi.com^$important
@@ -1425,6 +1432,7 @@
 @@||i.gtimg.cn^
 @@||i.ibb.co^
 @@||i.imgur.com^
+@@||i.mcmod.cn^
 @@||i.meituan.com^
 @@||i.mi.com^
 @@||i.pximg.net^
@@ -1445,6 +1453,7 @@
 @@||iaas.cloud.tencent.com^
 @@||iask.cn^
 @@||iask.com.cn^
+@@||iassapi.cup.com.cn^
 @@||ib.snssdk.com^
 @@||ib11.go2yd.com^
 @@||ic.snssdk.com^
@@ -1740,6 +1749,7 @@
 @@||liangcang-material.alicdn.com^
 @@||lib.sinaapp.com^
 @@||library-service.live.use1a.on.epicgames.com^$important
+@@||life.cup.com.cn^
 @@||lifemakeovermysg.archosaur.com^
 @@||lightnovel.us^
 @@||lightswitch-public-service-prod06.ol.epicgames.com^$important
@@ -1750,6 +1760,7 @@
 @@||line3-h5-mobile-api.biligame.com^
 @@||line3-h5-pc-api.biligame.com^
 @@||line3-statics-h5-mobile-api.biligame.net^
+@@||link.mcmod.cn^
 @@||link.zhihu.com^
 @@||linux.do^
 @@||liuyun.io^
@@ -2003,6 +2014,8 @@
 @@||mobile.yangkeduo.com^
 @@||mobilelog.kugou.com^
 @@||mobilist.kuwo.cn^
+@@||modfile.mcmod.cn^
+@@||modrinth.com^
 @@||modyolo.com^
 @@||moggy-image-1251316161.file.myqcloud.com^
 @@||mon.isnssdk.com^
@@ -2178,6 +2191,8 @@
 @@||open.douyin.com^
 @@||open.oppomobile.com^
 @@||open.snssdk.com^
+@@||open.unionpay.com^
+@@||open.unionpayintl.com^
 @@||openap-alps.51y5.net^
 @@||openapi.vmall.com^
 @@||opencloud.wostore.cn^
@@ -2338,6 +2353,7 @@
 @@||passwordreset.microsoftonline.com^$important
 @@||patchwiki.biligame.com^
 @@||pay.bilibili.com^
+@@||pay.cup.com.cn^
 @@||pay.heytap.com^
 @@||pay.openspeech.cn^
 @@||pay.soulapp.cn^
@@ -2403,6 +2419,7 @@
 @@||play.163.com^
 @@||play.googleapis.com^
 @@||play.itunes.apple.com^$important
+@@||play.mcmod.cn^
 @@||play.ximalaya.com^
 @@||play1.heytapimage.com^
 @@||player.youku.com^
@@ -2639,6 +2656,7 @@
 @@||sbfast.com^
 @@||sbfull.com^
 @@||scan.call.f.360.cn^
+@@||scene.cup.com.cn^
 @@||school.apple.com^$important
 @@||scone-pa.clients6.google.com^$important
 @@||scriptcat.org^
@@ -2655,6 +2673,7 @@
 @@||se.360.cn^
 @@||search.doubao.com^
 @@||search.kuwo.cn^
+@@||search.mcmod.cn^
 @@||search.sogoucdn.com^
 @@||search.ximalaya.com^
 @@||search.youku.com^
@@ -2771,6 +2790,7 @@
 @@||ssl.gstatic.com^$important
 @@||ssl.msdk.qq.com^
 @@||ssl.p.jwpcdn.com^
+@@||sso.curseforge.com^
 @@||sso.ele.me^
 @@||ssr.m.goofish.com^
 @@||ssw.live.com^$important
@@ -2785,6 +2805,7 @@
 @@||stat6.y.qq.com^
 @@||static-*.xvideos-cdn.com^
 @@||static-assets-prod.epicgames.com^$important
+@@||static-beta.curseforge.com^
 @@||static-cdn77.xnxx-cdn.com^
 @@||static-hw.xnxx-cdn.com^
 @@||static-l3.xnxx-cdn.com^
@@ -2810,6 +2831,7 @@
 @@||static.ips.apple.com^$important
 @@||static.iqiyi.com^
 @@||static.itellyou.cn^
+@@||static.mcmod.cn^
 @@||static.miraheze.org^
 @@||static.onelap.cn^
 @@||static.pddpic.com^
@@ -2984,6 +3006,7 @@
 @@||trade-acs.m.taobao.com^
 @@||train.17u.cn^
 @@||translator.qq.com^
+@@||travel.cup.com.cn^
 @@||trpc.qianbao.qq.com^
 @@||ts.market.mi-img.com^
 @@||ts1.tc.mm.bing.net^
@@ -3035,6 +3058,7 @@
 @@||uee.me^
 @@||ugame.9game.cn^
 @@||ugurl.cn^
+@@||uiam.unionpayintl.com^
 @@||uland.taobao.com^
 @@||ulive-interact.uc.cn^
 @@||ulive-sc.uc.cn^
@@ -3298,6 +3322,8 @@
 @@||www.cloudns.net^
 @@||www.cmpassport.com^
 @@||www.crossoverchina.com^
+@@||www.cup.com.cn^
+@@||www.curseforge.com^
 @@||www.data.mistat.*xiaomi.com^
 @@||www.data.sec*.miui.com^
 @@||www.deepseek.com^
@@ -3366,6 +3392,7 @@
 @@||www.mairuan.com^
 @@||www.manhuabei.com^
 @@||www.maserati.com^
+@@||www.mcmod.cn^
 @@||www.meituan.com^
 @@||www.meizu.com^
 @@||www.mercedes-benz.com.cn^
@@ -3422,6 +3449,7 @@
 @@||www.toutiao.com^
 @@||www.tudou.com^
 @@||www.twitter.com^
+@@||www.unionpayintl.com^
 @@||www.uzzf.com^
 @@||www.vmall.com^
 @@||www.wandoujia.com^$important

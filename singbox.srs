@@ -1,9 +1,9 @@
 # Title: SingBox SRS Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-07-12 02:35:01（北京时间）
-# Singbox规则数量: 17113
-! Total count: 17113
+# Last Updated: 2026-07-12 13:15:43（北京时间）
+# Singbox规则数量: 17115
+! Total count: 17115
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -166,6 +166,7 @@ DOMAIN-SUFFIX,12551-1311572332.cos.ap-shanghai.myqcloud.com,REJECT
 DOMAIN-SUFFIX,1267a.xyz,REJECT
 DOMAIN-SUFFIX,126ccb.xyz,REJECT
 DOMAIN-SUFFIX,13023.url.7wkw.com,REJECT
+DOMAIN-SUFFIX,131r3lknzg.com,REJECT
 DOMAIN-SUFFIX,1372.w13726954.com,REJECT
 DOMAIN-SUFFIX,1377a.xyz,REJECT
 DOMAIN-SUFFIX,1378a.xyz,REJECT
@@ -9517,6 +9518,7 @@ DOMAIN-SUFFIX,lxcdn.dl.files.xiaomi.net,REJECT
 DOMAIN-SUFFIX,lxg8s.xyz,REJECT
 DOMAIN-SUFFIX,lxksalary.com,REJECT
 DOMAIN-SUFFIX,lxqcgj.com,REJECT
+DOMAIN-SUFFIX,lxrjekw.com,REJECT
 DOMAIN-SUFFIX,lxting.com,REJECT
 DOMAIN-SUFFIX,lyaeccn.com,REJECT
 DOMAIN-SUFFIX,lyapi.1391.com,REJECT
