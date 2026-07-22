@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-07-22 10:28:58（北京时间）
+! Version: 2026-07-22 21:47:48（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2965
+! Total count: 2977
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-07-22 10:28:57（北京时间）
-# 总域名数: 2959
+# 生成时间: 2026-07-22 21:47:48（北京时间）
+# 总域名数: 2971
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -62,6 +62,7 @@ account.agiso.com
 account.dianping.com
 account.oneplus.com
 account.oppo.com
+account.qzhua.net
 account.realme.com
 account.vivo.com
 account.wps.cn
@@ -170,6 +171,7 @@ api-push.meizu.com
 api-shoulei-ssl.xunlei.com
 api-unionid.meituan.com
 api.account.xiaomi.com
+api.agora.io
 api.airpush.com
 api.amemv.com
 api.bilibili.com
@@ -732,9 +734,12 @@ doc.oplist.org
 doc.oplist.org.cn
 dockerstatic.com
 docrdsfx76ssb.cloudfront.net
+docs.chmlfrp.net
 docs.doudou.fun
 docs.idqqimg.com
 docs.scriptcat.org
+docs.trae.ai
+docs.trae.cn
 docs.vilinko.com
 domains-ws.revved.com
 dorado.xiaojukeji.com
@@ -904,6 +909,7 @@ flydigi.com
 fmip.icloud.com
 fonts.googleapis.com
 fonts.gstatic.com
+forum.trae.cn
 forums.oneplus.com
 foundation.youdao.com
 fourhoi.com
@@ -1320,6 +1326,7 @@ l.qq.com
 l36-danmu.hi.163.com
 l36.gdl.netease.com
 l36.update.netease.com
+l36.update.nieapps.com
 laohuangli.bmcx.com
 laomaotao.net
 laowang.vip
@@ -1856,6 +1863,7 @@ p6-shortvideo-sign.toutiaoimg.com
 p6-sign.douyinpic.com
 p6-webcast-sign.douyinpic.com
 p6.douyinpic.com
+p9-arcosite.byteimg.com
 p9-catpcha.byteimg.com
 p9-dcd-sign.byteimg.com
 p9-dcd.byteimg.com
@@ -1874,6 +1882,7 @@ pacaio.match.qq.com
 pages.github.com
 pan.quark.cn
 pan.xunlei.com
+panel.chmlfrp.net
 papegames.qiyukf.com
 parked-content.godaddy.com
 parking.namesilo.com
@@ -2735,6 +2744,7 @@ www.bytedance.com
 www.chemdraw.com.cn
 www.chinaunicom.com
 www.chinaunicom.com.cn
+www.chmlfrp.net
 www.clips4sale.com
 www.cloudflare-cn.com
 www.cloudflare.com
@@ -2752,6 +2762,7 @@ www.douyin.com
 www.dpfile.com
 www.dxmpay.com
 www.e0734.com
+www.emojiall.com
 www.enigmaprotector.cn
 www.enigmaprotector.com
 www.epicgames.com
@@ -2804,6 +2815,7 @@ www.mairuan.com
 www.manhuabei.com
 www.maserati.com
 www.mcmod.cn
+www.mefrp.com
 www.meituan.com
 www.meizu.com
 www.mercedes-benz.com

@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-07-22 10:28:58（北京时间）
+! Version: 2026-07-22 21:47:48（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 33366
+! Total count: 33387
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -11757,9 +11757,17 @@
 @@||*.bblmw.cn^
 @@||*.cdninstagram.com^
 @@||*.cup.com.cn^
+@@||*.dbankcdn.cn^
+@@||*.dbankcdn.com^
+@@||*.dbankcloud.asia^
+@@||*.dbankcloud.cn^
+@@||*.dbankcloud.com^
+@@||*.dbankcloud.eu^
+@@||*.dbankcloud.ru^
 @@||*.dlied1.cdntips.net^
 @@||*.forgecdn.net^
 @@||*.heytapdownload.com^
+@@||*.hicloud.com^
 @@||*.img.mobile.sina.cn^
 @@||*.in-addr.arpa^
 @@||*.ke.com^
@@ -11829,6 +11837,7 @@
 @@||account.dianping.com^
 @@||account.oneplus.com^
 @@||account.oppo.com^
+@@||account.qzhua.net^
 @@||account.realme.com^
 @@||account.vivo.com^
 @@||account.wps.cn^
@@ -11910,6 +11919,7 @@
 @@||antivirus.vivo.com^
 @@||anythinktech.com^
 @@||aod.cos.tx.xmcdn.com^
+@@||ap-*-*.agora.io^
 @@||ap.6wz.co^
 @@||ap6.ssl.msdk.qq.com^
 @@||apd-pcdniegwzlogin.teg.tencent-cloud.net^
@@ -11933,6 +11943,7 @@
 @@||api-shoulei-ssl.xunlei.com^
 @@||api-unionid.meituan.com^
 @@||api.account.xiaomi.com^
+@@||api.agora.io^
 @@||api.airpush.com^
 @@||api.amemv.com^
 @@||api.bilibili.com^
@@ -12494,9 +12505,12 @@
 @@||doc.oplist.org^
 @@||dockerstatic.com^
 @@||docrdsfx76ssb.cloudfront.net^
+@@||docs.chmlfrp.net^
 @@||docs.doudou.fun^
 @@||docs.idqqimg.com^
 @@||docs.scriptcat.org^
+@@||docs.trae.ai^
+@@||docs.trae.cn^
 @@||docs.vilinko.com^
 @@||domains-ws.revved.com^
 @@||dorado.xiaojukeji.com^
@@ -12666,6 +12680,7 @@
 @@||fmip.icloud.com^
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
+@@||forum.trae.cn^
 @@||forums.oneplus.com^
 @@||foundation.youdao.com^
 @@||fourhoi.com^
@@ -13074,6 +13089,7 @@
 @@||l36-danmu.hi.163.com^
 @@||l36.gdl.netease.com^
 @@||l36.update.netease.com^
+@@||l36.update.nieapps.com^
 @@||laohuangli.bmcx.com^
 @@||laomaotao.net^
 @@||laowang.vip^
@@ -13632,6 +13648,7 @@
 @@||p6-sign.douyinpic.com^
 @@||p6-webcast-sign.douyinpic.com^
 @@||p6.douyinpic.com^
+@@||p9-arcosite.byteimg.com^
 @@||p9-catpcha.byteimg.com^
 @@||p9-dcd-sign.byteimg.com^
 @@||p9-dcd.byteimg.com^
@@ -13651,6 +13668,7 @@
 @@||pages.github.com^
 @@||pan.quark.cn^
 @@||pan.xunlei.com^
+@@||panel.chmlfrp.net^
 @@||papegames.qiyukf.com^
 @@||parked-content.godaddy.com^
 @@||parking.namesilo.com^
@@ -14504,6 +14522,7 @@
 @@||www.chemdraw.com.cn^
 @@||www.chinaunicom.com.cn^
 @@||www.chinaunicom.com^
+@@||www.chmlfrp.net^
 @@||www.clips4sale.com^
 @@||www.cloudflare-cn.com^
 @@||www.cloudflare.com^
@@ -14522,6 +14541,7 @@
 @@||www.douyin.com^
 @@||www.dpfile.com^
 @@||www.dxmpay.com^
+@@||www.emojiall.com^
 @@||www.enigmaprotector.cn^
 @@||www.enigmaprotector.com^
 @@||www.epicgames.com^
@@ -14573,6 +14593,7 @@
 @@||www.manhuabei.com^
 @@||www.maserati.com^
 @@||www.mcmod.cn^
+@@||www.mefrp.com^
 @@||www.meituan.com^
 @@||www.meizu.com^
 @@||www.mercedes-benz.com.cn^

@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-07-22 10:28:58（北京时间）
+! Version: 2026-07-22 21:47:48（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3574
+! Total count: 3595
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-album.uc.cn^
@@ -40,6 +40,13 @@
 @@||*.compliance.microsoft.com^
 @@||*.cortana.ai^
 @@||*.cup.com.cn^
+@@||*.dbankcdn.cn^
+@@||*.dbankcdn.com^
+@@||*.dbankcloud.asia^
+@@||*.dbankcloud.cn^
+@@||*.dbankcloud.com^
+@@||*.dbankcloud.eu^
+@@||*.dbankcloud.ru^
 @@||*.dlied1.cdntips.net^
 @@||*.entrust.net^
 @@||*.events.data.microsoft.com^
@@ -50,6 +57,7 @@
 @@||*.googleusercontent.com^
 @@||*.gvt1.com^
 @@||*.heytapdownload.com^
+@@||*.hicloud.com^
 @@||*.hip.live.com^
 @@||*.img.mobile.sina.cn^
 @@||*.in-addr.arpa^
@@ -215,6 +223,7 @@
 @@||account.live.com^$important
 @@||account.oneplus.com^
 @@||account.oppo.com^
+@@||account.qzhua.net^
 @@||account.realme.com^
 @@||account.vivo.com^
 @@||account.wps.cn^
@@ -328,6 +337,7 @@
 @@||aod.cos.tx.xmcdn.com^
 @@||aod.itunes.apple.com^$important
 @@||aod.itunes.g.aaplimg.com^$important
+@@||ap-*-*.agora.io^
 @@||ap.6wz.co^
 @@||ap6.ssl.msdk.qq.com^
 @@||apd-pcdniegwzlogin.teg.tencent-cloud.net^
@@ -353,6 +363,7 @@
 @@||api-unionid.meituan.com^
 @@||api.account.xiaomi.com^
 @@||api.account.xiaomi.com^$important
+@@||api.agora.io^
 @@||api.airpush.com^
 @@||api.amemv.com^
 @@||api.apple-cloudkit.com^$important
@@ -1033,11 +1044,14 @@
 @@||doc.oplist.org^
 @@||dockerstatic.com^
 @@||docrdsfx76ssb.cloudfront.net^
+@@||docs.chmlfrp.net^
 @@||docs.doudou.fun^
 @@||docs.idqqimg.com^
 @@||docs.live.net^$important
 @@||docs.microsoft.com^$important
 @@||docs.scriptcat.org^
+@@||docs.trae.ai^
+@@||docs.trae.cn^
 @@||docs.vilinko.com^
 @@||doh.dns.apple.com^$important
 @@||domains-ws.revved.com^
@@ -1230,6 +1244,7 @@
 @@||fmip.icloud.com^
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
+@@||forum.trae.cn^
 @@||forums.oneplus.com^
 @@||foundation.youdao.com^
 @@||fourhoi.com^
@@ -1692,6 +1707,7 @@
 @@||l36-danmu.hi.163.com^
 @@||l36.gdl.netease.com^
 @@||l36.update.netease.com^
+@@||l36.update.nieapps.com^
 @@||laohuangli.bmcx.com^
 @@||laomaotao.net^
 @@||laowang.vip^
@@ -2319,6 +2335,7 @@
 @@||p6-sign.douyinpic.com^
 @@||p6-webcast-sign.douyinpic.com^
 @@||p6.douyinpic.com^
+@@||p9-arcosite.byteimg.com^
 @@||p9-catpcha.byteimg.com^
 @@||p9-dcd-sign.byteimg.com^
 @@||p9-dcd.byteimg.com^
@@ -2338,6 +2355,7 @@
 @@||pages.github.com^
 @@||pan.quark.cn^
 @@||pan.xunlei.com^
+@@||panel.chmlfrp.net^
 @@||papegames.qiyukf.com^
 @@||parked-content.godaddy.com^
 @@||parking.namesilo.com^
@@ -3323,6 +3341,7 @@
 @@||www.chemdraw.com.cn^
 @@||www.chinaunicom.com.cn^
 @@||www.chinaunicom.com^
+@@||www.chmlfrp.net^
 @@||www.clips4sale.com^
 @@||www.cloudflare-cn.com^
 @@||www.cloudflare.com^
@@ -3344,6 +3363,7 @@
 @@||www.dxmpay.com^
 @@||www.e0734.com^
 @@||www.easyicon.net^$important
+@@||www.emojiall.com^
 @@||www.enigmaprotector.cn^
 @@||www.enigmaprotector.com^
 @@||www.epicgames.com^
@@ -3400,6 +3420,7 @@
 @@||www.manhuabei.com^
 @@||www.maserati.com^
 @@||www.mcmod.cn^
+@@||www.mefrp.com^
 @@||www.meituan.com^
 @@||www.meizu.com^
 @@||www.mercedes-benz.com.cn^
