@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-07-29 10:27:51（北京时间）
+! Version: 2026-07-29 22:05:40（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 2977
+! Total count: 3017
 # 纯域名白名单
 # 来源: ../allow.txt
-# 生成时间: 2026-07-29 10:27:48（北京时间）
-# 总域名数: 2971
+# 生成时间: 2026-07-29 22:05:40（北京时间）
+# 总域名数: 3011
 # 项目主页: https://github.com/qq5460168/666
 
 000714.xyz
@@ -76,6 +76,7 @@ accscdn.m.taobao.com
 accscdn4public.m.taobao.com
 acg02.cc
 acs-m.koubei.com
+acs.m.goofish.com
 acs.m.taobao.com
 acs.youku.com
 acs4baichuan.m.taobao.com
@@ -371,6 +372,7 @@ blogger.googleusercontent.com
 bluehost.com
 blueskyxn.com
 bmap6.cn
+bodian.kuwo.cn
 bonuscloud.io
 book.qidian.com
 bookcover.yuewen.com
@@ -768,6 +770,7 @@ download.windowsupdate.com
 download.xunlei.com
 download.youku.com
 downloads.marketplace.jetbrains.com
+downmobile.kugou.com
 downpack.baidu.com
 downum.game.uc.cn
 downv6.qq.com
@@ -1022,6 +1025,7 @@ h5.360buyimg.com
 h5.cc.163.com
 h5.dianping.com
 h5.hpplay.com.cn
+h5.kugou.com
 h5.m.goofish.com
 h5.m.taobao.com
 h5.mse.360.cn
@@ -1031,7 +1035,9 @@ h5api.m.taobao.com
 h5api.m.tmall.com
 h5fs.coloros.com
 h5offline.zhuanzhuan.com
+h5s.kuwo.cn
 h5static.cc.163.com
+h5static.kuwo.cn
 hanime1.me
 haohuo.snssdk.com
 haoka.lot-ml.com
@@ -1210,6 +1216,7 @@ img3.tapimg.com
 img30.360buyimg.com
 img4.qy0.ru
 imgcache.qq.com
+imgessl.kugou.com
 imgservices-1252317822.image.myqcloud.com
 imgsrc.baidu.com
 imgx.mediav.com
@@ -1249,6 +1256,7 @@ ipv4dns.com
 ipv6.ping0.cc
 ipw.cn
 ipxx.pro
+ir.tencentmusic.com
 is-hl.snssdk.com
 is.snssdk.com
 is1-ssl.mzstatic.com
@@ -1282,6 +1290,7 @@ jingfen.jd.com
 jmacs.cn-zhangjiakou.aliyuncs.com
 jnn-pa.googleapis.com
 jobs.bytedance.com
+join.tencentmusic.com
 jomodns.com
 jp.pornhub.com
 jp.spankbang.com
@@ -1312,6 +1321,7 @@ kdocs.cn
 keepassxc.org
 kemono.party
 kf-ui.cdn-go.cn
+kg.qq.com
 kjimg10.360buyimg.com
 klpbbs.com
 knet.cn
@@ -1319,7 +1329,9 @@ knicks.jd.com
 knowsex.net
 konachan.com
 kubernetes.io
+kugou.com
 kunlunpi.com
+kuwo.cn
 kwimgs.com
 kyaru-concat.now.sh
 l.qq.com
@@ -1331,6 +1343,7 @@ laohuangli.bmcx.com
 laomaotao.net
 laowang.vip
 laowangappb93ibiu.cihiu487giuew87lk.xyz
+laudio-cdn.tencentmusic.com
 lc-cn-n1-shared.com
 lcdn-locator.apple.com
 ld246.com
@@ -1347,6 +1360,8 @@ lf-douyin-pc-search.douyinstatic.com
 lf-douyin-pc-web.douyinstatic.com
 lf-douyin-search-fe.bytetos.com
 lf-dy-sourcecdn-tos.bytegecko.com
+lf-luna-release.qishui.com
+lf-luna.qishui.com
 lf-sourcecdn-tos.bytegecko.com
 lf-webcast-gr-sourcecdn.bytegecko.com
 lf-webcast-platform.bytetos.com
@@ -1368,6 +1383,7 @@ lf6-cdn-tos.bytegoofy.com
 lf6-cdn2-tos.bytegoofy.com
 lf6-imcloud-file-sign.bytetos.com
 lf6-mgsdk-sign.dailygn.com
+lf9-apk.ugapk.cn
 lf9-mgsdk-sign.dailygn.com
 lf9-open-ma-pkg-sign.bytemastatic.com
 liangcang-material.alicdn.com
@@ -1409,6 +1425,7 @@ log.taobao.com
 log1.cmpassport.com
 log5-applog-lf.fqnovel.com
 log5-applog.fqnovel.com
+login-user.kugou.com
 login.live.com
 login.m.taobao.com
 login.microsoftonline.com
@@ -1455,6 +1472,8 @@ m.jingxi.com
 m.jxdown.com
 m.ke.com
 m.kuaishou.com
+m.kugou.com
+m.kuwo.cn
 m.lianjia.com
 m.manhuabei.com
 m.meizu.com
@@ -1487,6 +1506,7 @@ m1.pxb7.com
 m15.360buyimg.com
 m2.da.mgtv.com
 m2.img.10010.com
+m3ws.kugou.com
 m5.amap.com
 m7.music.126.net
 m7.pzds.com
@@ -1616,6 +1636,7 @@ mobile.x.com
 mobile.ximalaya.com
 mobile.xunlei.com
 mobile.yangkeduo.com
+mobilebasedata.kuwo.cn
 mobilelog.kugou.com
 mobilist.kuwo.cn
 modfile.mcmod.cn
@@ -1629,6 +1650,7 @@ monsetting.toutiao.com
 mooc-image.nosdn.127.net
 mos.m.taobao.com
 mp.163.com
+mp.tencentmusic.com
 mp.yidianzixun.com
 mparticle.uc.cn
 mpay-web.g.mkey.163.com
@@ -1659,6 +1681,8 @@ msync-im1-vip6-std.easemob.com
 mumu.163.com
 music.163.com
 music.apple.com
+music.douyin.com
+musician.kugou.com
 mv6.music.tc.qq.com
 mvconf.f.360.cn
 mvod.itunes.apple.com
@@ -1879,6 +1903,7 @@ p9-tt.byteimg.com
 p9-webcast-sign.douyinpic.com
 p9.douyinpic.com
 pacaio.match.qq.com
+packagebssdlbig.tx.kugou.com
 pages.github.com
 pan.quark.cn
 pan.xunlei.com
@@ -1954,8 +1979,10 @@ pingjs.qq.com
 pingma.qq.com
 pingtas.qq.com
 pitaya.bytedance.com
+pixpin.cn
 pkg.biligame.com
 pkg.sinaimg.cn
+pkgdown.kuwo.cn
 pl-ali.youku.com
 pl.taptap.cn
 platform.deepseek.com
@@ -2224,6 +2251,7 @@ shouji.360.cn
 shouji.bmcx.com
 shouji.sogou.com
 shouji.sougou.com
+shoujipkgdown.kuwo.cn
 simg.sinajs.cn
 similarweb.com
 sina.com.cn
@@ -2517,6 +2545,7 @@ uczzd.cn
 udpolimenew.baidu.com
 uee.me
 ugame.9game.cn
+ugapk.com
 ugurl.cn
 uiam.unionpayintl.com
 uland.taobao.com
@@ -2597,6 +2626,7 @@ vdn3.vzuu.com
 vdn5.vzuu.com
 vdownload.hembed.com
 vectorsdk.map.qq.com
+vehiclecdn.kuwo.cn
 venus.yhd.com
 verify.cmpassport.com
 verify.snssdk.com
@@ -2620,6 +2650,7 @@ videotxxx.com
 view.inews.qq.com
 vip-pro.m.yhd.com
 vip.iqiyi.com
+vip.kugou.com
 vip.xunlei.com
 vip.youku.com
 vip1.kuwo.cn
@@ -2750,6 +2781,7 @@ www.cloudflare-cn.com
 www.cloudflare.com
 www.cloudns.net
 www.cmpassport.com
+www.cosama.cn
 www.crossoverchina.com
 www.cup.com.cn
 www.curseforge.com
@@ -2805,6 +2837,8 @@ www.kanjiantu.com
 www.kdocs.cn
 www.ke.com
 www.kuaishou.com
+www.kugou.com
+www.kuwo.cn
 www.lamborghini.com
 www.lianjia.com
 www.listary.com
@@ -2827,6 +2861,7 @@ www.mini1.cn
 www.mousouzoku-av.com
 www.msftconnecttest.com
 www.msn.com
+www.mydockfinder.com
 www.nodeseek.com
 www.novelfm.com
 www.npmjs.com
@@ -2851,6 +2886,7 @@ www.pxb7.com
 www.pzds.com
 www.qdmm.com
 www.qidian.com
+www.qishui.com
 www.recaptcha.net
 www.siyuan-note.club
 www.so.com
@@ -2861,6 +2897,7 @@ www.taptap.cn
 www.taptap.io
 www.tencent.com
 www.tencent.net.cn
+www.tencentmusic.com
 www.thinkdifferent.us
 www.tiantiantiaosheng.com
 www.toutiao.com
@@ -2908,6 +2945,7 @@ wxpay.qpic.cn
 wxpaylogo.qpic.cn
 wxsnsdy.wxs.qq.com
 wxsnsencsvp.wxs.qq.com
+x.kuwo.cn
 x0.ifengimg.com
 x19.update.netease.com
 x2.ifengimg.com
@@ -2972,10 +3010,12 @@ zenless.hoyoverse.com
 zhan.vivo.com.cn
 zhidao.baidu.com
 zhipin.com
+zhuanjistatic.kugou.com
 zhuanlan.zhihu.com
 zhuanzhuan.com
 zhuti.xiaomi.com
 zhwnlapi.etouch.cn
+zimg.kuwo.cn
 ziyuan.guwendao.net
 zkres.myzaker.com
 zm.sm-tc.cn
