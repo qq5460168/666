@@ -2,13 +2,13 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-08-06 22:03:04（北京时间）
+! Version: 2026-08-07 10:33:46（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17220
+! Total count: 17230
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-08-06 14:03:03（北京时间）
+# Last Updated: 2026-08-07 02:33:45（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -636,6 +636,7 @@
 0.0.0.0 6726lmym.top
 0.0.0.0 6728812.com
 0.0.0.0 678tl.com
+0.0.0.0 67evjpvdi.com
 0.0.0.0 685wo.com
 0.0.0.0 68665565.com
 0.0.0.0 68710266.com
@@ -666,6 +667,7 @@
 0.0.0.0 6quspne.com
 0.0.0.0 6tofsu.com
 0.0.0.0 6tsbe1zs.me
+0.0.0.0 6un45sxmx.com
 0.0.0.0 6uzxtlv.cn
 0.0.0.0 6v4.work
 0.0.0.0 6v6.work
@@ -5293,6 +5295,7 @@
 0.0.0.0 dns2.q2cdn.com
 0.0.0.0 dns2.titannetwork.cn
 0.0.0.0 dnvus.com
+0.0.0.0 dnweq5z5g.com
 0.0.0.0 dnyzbp.cn
 0.0.0.0 dnzmhr.xyz
 0.0.0.0 do-not-tracker.org
@@ -8138,6 +8141,7 @@
 0.0.0.0 iytrn.xyz
 0.0.0.0 izeokt.cn
 0.0.0.0 izicai.xyz
+0.0.0.0 izq.lwaed633.vip
 0.0.0.0 j.6avz.com
 0.0.0.0 j.baminw.cn
 0.0.0.0 j.biquge520.cc
@@ -12186,6 +12190,7 @@
 0.0.0.0 qos.report.qq.com
 0.0.0.0 qosp.iqiyi.com
 0.0.0.0 qosp.msg.71.am
+0.0.0.0 qouy029.top
 0.0.0.0 qowfknlds.net
 0.0.0.0 qp.yunanfuwuqi.com
 0.0.0.0 qp89pj.com
@@ -12238,6 +12243,7 @@
 0.0.0.0 qt73q.top
 0.0.0.0 qtaeixd.com
 0.0.0.0 qtd95fj.online
+0.0.0.0 qthw061.top
 0.0.0.0 qtienly.top
 0.0.0.0 qtmdzsj.cn
 0.0.0.0 qtmojo.cn
@@ -13838,6 +13844,7 @@
 0.0.0.0 swappdl.duoyi.com
 0.0.0.0 switchadhub.com
 0.0.0.0 switching.atm.punchbox.org
+0.0.0.0 swmshpphnu2.com
 0.0.0.0 swpgjai.pop.weddingeeos.com
 0.0.0.0 swquery.apple.com
 0.0.0.0 swwwxww.oss-cn-hangzhou.aliyuncs.com
@@ -15688,6 +15695,7 @@
 0.0.0.0 wpoarjokzgi.com
 0.0.0.0 wpwdf.com
 0.0.0.0 wpwpquse.cn
+0.0.0.0 wpy.jsak634.vip
 0.0.0.0 wqbapi.veredloanweb.com
 0.0.0.0 wqbweb.veredloanweb.com
 0.0.0.0 wqdro6us.icu
@@ -15795,6 +15803,7 @@
 0.0.0.0 www.200ps.com
 0.0.0.0 www.35609731.xyz
 0.0.0.0 www.3aym.cn
+0.0.0.0 www.437944.xyz
 0.0.0.0 www.510tl.com
 0.0.0.0 www.517xx.com
 0.0.0.0 www.51hicard.com
@@ -15909,6 +15918,7 @@
 0.0.0.0 www.mqhzdl.com
 0.0.0.0 www.nleljf.xyz
 0.0.0.0 www.ocfgaa.xyz
+0.0.0.0 www.ompkcy255.vip
 0.0.0.0 www.opgame.me
 0.0.0.0 www.ostlon.com
 0.0.0.0 www.pangle.cn

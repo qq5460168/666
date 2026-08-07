@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-08-06 22:03:04（北京时间）
+! Version: 2026-08-07 10:33:46（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17219
+! Total count: 17229
 # AdClose 专用广告规则
-# 生成时间: 2026-08-06 14:03:03（北京时间）
+# 生成时间: 2026-08-07 02:33:45（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -635,6 +635,7 @@ domain, 6711.com
 domain, 6726lmym.top
 domain, 6728812.com
 domain, 678tl.com
+domain, 67evjpvdi.com
 domain, 685wo.com
 domain, 68665565.com
 domain, 68710266.com
@@ -665,6 +666,7 @@ domain, 6osurvos.fn.bytedance.net
 domain, 6quspne.com
 domain, 6tofsu.com
 domain, 6tsbe1zs.me
+domain, 6un45sxmx.com
 domain, 6uzxtlv.cn
 domain, 6v4.work
 domain, 6v6.work
@@ -5292,6 +5294,7 @@ domain, dns.weixin.qq.com.cn
 domain, dns2.q2cdn.com
 domain, dns2.titannetwork.cn
 domain, dnvus.com
+domain, dnweq5z5g.com
 domain, dnyzbp.cn
 domain, dnzmhr.xyz
 domain, do-not-tracker.org
@@ -8137,6 +8140,7 @@ domain, iymgmtq.com
 domain, iytrn.xyz
 domain, izeokt.cn
 domain, izicai.xyz
+domain, izq.lwaed633.vip
 domain, j.6avz.com
 domain, j.baminw.cn
 domain, j.biquge520.cc
@@ -12185,6 +12189,7 @@ domain, qooic.com
 domain, qos.report.qq.com
 domain, qosp.iqiyi.com
 domain, qosp.msg.71.am
+domain, qouy029.top
 domain, qowfknlds.net
 domain, qp.yunanfuwuqi.com
 domain, qp89pj.com
@@ -12237,6 +12242,7 @@ domain, qt62q.top
 domain, qt73q.top
 domain, qtaeixd.com
 domain, qtd95fj.online
+domain, qthw061.top
 domain, qtienly.top
 domain, qtmdzsj.cn
 domain, qtmojo.cn
@@ -13837,6 +13843,7 @@ domain, swan-api.iqiyi.com
 domain, swappdl.duoyi.com
 domain, switchadhub.com
 domain, switching.atm.punchbox.org
+domain, swmshpphnu2.com
 domain, swpgjai.pop.weddingeeos.com
 domain, swquery.apple.com
 domain, swwwxww.oss-cn-hangzhou.aliyuncs.com
@@ -15687,6 +15694,7 @@ domain, wpncdn.com
 domain, wpoarjokzgi.com
 domain, wpwdf.com
 domain, wpwpquse.cn
+domain, wpy.jsak634.vip
 domain, wqbapi.veredloanweb.com
 domain, wqbweb.veredloanweb.com
 domain, wqdro6us.icu
@@ -15794,6 +15802,7 @@ domain, www.199tl.com
 domain, www.200ps.com
 domain, www.35609731.xyz
 domain, www.3aym.cn
+domain, www.437944.xyz
 domain, www.510tl.com
 domain, www.517xx.com
 domain, www.51hicard.com
@@ -15908,6 +15917,7 @@ domain, www.moneyziyouwm.com
 domain, www.mqhzdl.com
 domain, www.nleljf.xyz
 domain, www.ocfgaa.xyz
+domain, www.ompkcy255.vip
 domain, www.opgame.me
 domain, www.ostlon.com
 domain, www.pangle.cn
