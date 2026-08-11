@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-08-11 09:28:11（北京时间）
+! Version: 2026-08-11 20:58:44（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3639
+! Total count: 3678
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-album.uc.cn^
@@ -14,6 +14,12 @@
 @@||*-novelapp.fqnovelvod.com^
 @@||*-open-sign.byteimg.com^
 @@||*-open.byteimg.com^
+@@||*-verify.captcha-open-b.aliyuncs.com^
+@@||*-verify.captcha-open-ga-web-b.aliyuncs.com^
+@@||*-verify.captcha-open-ga-web.aliyuncs.com^
+@@||*-verify.captcha-open-southeast-b.aliyuncs.com^
+@@||*-verify.captcha-open-southeast.aliyuncs.com^
+@@||*-verify.captcha-open.aliyuncs.com^
 @@||*-www.sway-cdn.com^
 @@||*-www.sway-extensions.com^
 @@||*.*.szbdyd.com^
@@ -35,6 +41,16 @@
 @@||*.azurerms.com^
 @@||*.bblmw.cn^
 @@||*.blob.core.windows.net^
+@@||*.captcha-open-b.aliyuncs.com^
+@@||*.captcha-open-dual-b.aliyuncs.com^
+@@||*.captcha-open-dual.aliyuncs.com^
+@@||*.captcha-open-ga-web-b.aliyuncs.com^
+@@||*.captcha-open-ga-web.aliyuncs.com^
+@@||*.captcha-open-southeast-b.aliyuncs.com^
+@@||*.captcha-open-southeast-dual-b.aliyuncs.com^
+@@||*.captcha-open-southeast-dual.aliyuncs.com^
+@@||*.captcha-open-southeast.aliyuncs.com^
+@@||*.captcha-open.aliyuncs.com^
 @@||*.cdninstagram.com^
 @@||*.cloud.microsoft^
 @@||*.compliance.microsoft.com^
@@ -340,6 +356,8 @@
 @@||aod.itunes.apple.com^$important
 @@||aod.itunes.g.aaplimg.com^$important
 @@||ap-*-*.agora.io^
+@@||ap-southeast-1-ga.device.saf.aliyuncs.com^
+@@||ap-southeast-1.device.saf.aliyuncs.com^
 @@||ap.6wz.co^
 @@||ap6.ssl.msdk.qq.com^
 @@||apd-pcdniegwzlogin.teg.tencent-cloud.net^
@@ -823,6 +841,18 @@
 @@||cloud.realme.com^
 @@||cloud.video.taobao.com^
 @@||cloud.xunlei.com^
+@@||cloudauth-device-dualstack.ap-southeast-1.aliyuncs.com^
+@@||cloudauth-device-dualstack.cn-shanghai.aliyuncs.com^
+@@||cloudauth-device.aliyuncs.com^
+@@||cloudauth-device.ap-southeast-1.aliyuncs.com^
+@@||cloudauth-dualstack.aliyuncs.com^
+@@||cloudauth-dualstack.cn-beijing.aliyuncs.com^
+@@||cloudauth-dualstack.cn-shanghai.aliyuncs.com^
+@@||cloudauth-vpc.cn-beijing.aliyuncs.com^
+@@||cloudauth-vpc.cn-shanghai.aliyuncs.com^
+@@||cloudauth.aliyuncs.com^
+@@||cloudauth.cn-beijing.aliyuncs.com^
+@@||cloudauth.cn-shanghai.aliyuncs.com^
 @@||cloudcache.tencent-cloud.cn^
 @@||cloudcontrol.live.360.cn^
 @@||clouddrive-activity.uc.cn^
@@ -841,6 +871,7 @@
 @@||cmts.iqiyi.com^
 @@||cn-*.bilivideo.cn^
 @@||cn-*.bilivideo.com^
+@@||cn-shanghai.device.saf.aliyuncs.com^
 @@||cn.app.chat.xiaomi.net^
 @@||cn.bing.com^
 @@||cn.ekg.riotgames.com^
@@ -2863,6 +2894,8 @@
 @@||static-*.xvideos-cdn.com^
 @@||static-assets-prod.epicgames.com^$important
 @@||static-beta.curseforge.com^
+@@||static-captcha-sgp.aliyuncs.com^
+@@||static-captcha.aliyuncs.com^
 @@||static-cdn77.xnxx-cdn.com^
 @@||static-hw.xnxx-cdn.com^
 @@||static-l3.xnxx-cdn.com^
@@ -3147,6 +3180,12 @@
 @@||upload-bbs.miyoushe.com^
 @@||upload-images.jianshu.io^
 @@||upload.appleschoolcontent.com^$important
+@@||upload.captcha-open-b.aliyuncs.com^
+@@||upload.captcha-open-ga-web-b.aliyuncs.com^
+@@||upload.captcha-open-ga-web.aliyuncs.com^
+@@||upload.captcha-open-southeast-b.aliyuncs.com^
+@@||upload.captcha-open-southeast.aliyuncs.com^
+@@||upload.captcha-open.aliyuncs.com^
 @@||upload.jianshu.io^
 @@||upload.twitter.com^
 @@||upload.x.com^
