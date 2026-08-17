@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-08-17 09:07:29（北京时间）
+! Version: 2026-08-17 20:38:51（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3678
+! Total count: 3685
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-album.uc.cn^
@@ -378,6 +378,7 @@
 @@||api-novel.uc.cn^$important
 @@||api-pay.soulapp.cn^
 @@||api-pda.jdl.com^
+@@||api-play.amemv.com^
 @@||api-push.meizu.com^
 @@||api-shoulei-ssl.xunlei.com^
 @@||api-unionid.meituan.com^
@@ -1341,6 +1342,7 @@
 @@||genshin.hoyoverse.com^
 @@||get.shouji.sogou.com^
 @@||get.sogou.com^
+@@||getbootstrap.com^
 @@||gg.apple.com^$important
 @@||ggpht.com^
 @@||gia.jd.com^
@@ -1799,6 +1801,7 @@
 @@||lf1-cdn-tos.bytegoofy.com^
 @@||lf1-cdn-tos.bytescm.com^
 @@||lf3-card-system.searchpstatp.com^
+@@||lf3-cdn-tos.bdxiguastatic.com^
 @@||lf3-cdn-tos.bytecdntp.com^
 @@||lf3-cdn-tos.bytegoofy.com^
 @@||lf3-cdn-tos.bytescm.com^
@@ -1908,6 +1911,7 @@
 @@||m.intl.taobao.com^
 @@||m.ip138.com^
 @@||m.iqiyi.com^
+@@||m.ixigua.com^
 @@||m.jd.com^
 @@||m.jf.10010.com^
 @@||m.jiaoyimao.com^
@@ -2371,6 +2375,7 @@
 @@||p3-tt.byteimg.com^
 @@||p3-webcast-sign.douyinpic.com^
 @@||p3-webcast.douyinpic.com^
+@@||p3.bdxiguaimg.com^
 @@||p3.dcarimg.com^
 @@||p3.douyinpic.com^
 @@||p4-ad.adukwai.com^
@@ -3474,6 +3479,7 @@
 @@||www.ip138.com^
 @@||www.iqiyi.com^
 @@||www.itools.info^
+@@||www.ixigua.com^
 @@||www.javbangers.com^
 @@||www.jd.com^
 @@||www.jetbrains.com.cn^
@@ -3660,6 +3666,7 @@
 @@||yybadaccess.3g.qq.com^
 @@||yys.163.com^
 @@||yzg.wavee.cn^
+@@||z.ixigua.com^
 @@||z.weixin.qq.com^
 @@||z3.cnzz.com^
 @@||zazhipu.com^

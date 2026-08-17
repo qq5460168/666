@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-08-17 09:07:29（北京时间）
+! Version: 2026-08-17 20:38:51（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17229
+! Total count: 17230
 # AdClose 专用广告规则
-# 生成时间: 2026-08-17 01:07:28（北京时间）
+# 生成时间: 2026-08-17 12:38:51（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -7277,6 +7277,7 @@ domain, hkfuy.com
 domain, hkgryazmc.pubend81372.vip
 domain, hkk456.cc
 domain, hkkeafj.cn
+domain, hkl.xiuseab222.vip
 domain, hkrpg-log-upload-os.hoyoverse.com
 domain, hkrpg-log-upload.mihoyo.com
 domain, hkscldggm.xyz
@@ -11250,6 +11251,7 @@ domain, orqmimfug.in
 domain, ort-stsdk.vivo.com.cn
 domain, ort.stsdk.vivo.com.cn
 domain, ortc.cc
+domain, orvexlumin.698518.xyz
 domain, orxsq.xyz
 domain, orz.hupu.com
 domain, osancik.top
@@ -11399,7 +11401,6 @@ domain, p3-lm.adkwai.com
 domain, p3-static-img.toutiaoimg.com
 domain, p3-stone-tv.byteimg.com
 domain, p3.adkwai.com
-domain, p3.bdxiguaimg.com
 domain, p3.toutiaoimg.com
 domain, p3.web3cdn.cn
 domain, p3p.mmstat.com
