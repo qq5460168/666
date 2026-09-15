@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-09-15 01:42:31（北京时间）
+! Version: 2026-09-15 11:25:52（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3685
+! Total count: 3698
 @@||"*.streaming.mediaservices.windows.net^
 @@||"mlccdn.blob.core.windows.net^
 @@||*-album.uc.cn^
@@ -24,6 +24,10 @@
 @@||*-www.sway-extensions.com^
 @@||*.*.szbdyd.com^
 @@||*.1e100.net1^
+@@||*.4399.com^
+@@||*.5054399.com^
+@@||*.7k7k.com^
+@@||*.7k7kimg.cn^
 @@||*.95516.com^
 @@||*.a.yximgs.com^
 @@||*.aadrm.com^
@@ -76,6 +80,7 @@
 @@||*.hicloud.com^
 @@||*.hip.live.com^
 @@||*.img.mobile.sina.cn^
+@@||*.img4399.com^
 @@||*.in-addr.arpa^
 @@||*.ke.com^
 @@||*.keydelivery.mediaservices.windows.net^
@@ -1619,6 +1624,7 @@
 @@||img3.tapimg.com^
 @@||img30.360buyimg.com^
 @@||img4.qy0.ru^
+@@||imga*.5054399.com^
 @@||imgcache.qq.com^
 @@||imgessl.kugou.com^
 @@||imgservices-1252317822.image.myqcloud.com^
@@ -2552,6 +2558,7 @@
 @@||proxy-tf-all-ws.bilivideo.com^
 @@||pss.bdstatic.com^
 @@||psstatic.cdn.bcebos.com^
+@@||ptlogin.4399.com^
 @@||ptlogin.yuewen.com^
 @@||pttn.m3pd.com^
 @@||ptx.cdntrex.com^
@@ -2703,6 +2710,7 @@
 @@||s0.meituan.net^
 @@||s01.mifile.cn^
 @@||s1.hdslb.com^
+@@||s1.img4399.com^
 @@||s1.kskwai.com^
 @@||s1.meituan.net^
 @@||s1.voicecloud.cn^
@@ -3391,7 +3399,12 @@
 @@||www.360.cn^
 @@||www.360kuai.com^
 @@||www.360simg.com^
+@@||www.4399.cn^
+@@||www.4399.com^
+@@||www.5054399.com^
 @@||www.54647.io^
+@@||www.7k7k.com^
+@@||www.7k7kjs.cn^
 @@||www.9game.cn^
 @@||www.acompli.com^$important
 @@||www.agiso.com^
