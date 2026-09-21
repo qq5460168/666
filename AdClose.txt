@@ -2,11 +2,11 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-09-21 11:21:36（北京时间）
+! Version: 2026-09-22 01:52:37（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17261
+! Total count: 17263
 # AdClose 专用广告规则
-# 生成时间: 2026-09-21 03:21:36（北京时间）
+# 生成时间: 2026-09-21 17:52:36（北京时间）
 # 格式：domain, <域名>
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
@@ -11678,6 +11678,8 @@ domain, pic3.onetad.com
 domain, pic494036.images9999.com
 domain, pic8.onetad.com
 domain, pic837013.images9999.com
+domain, pica-a-display.diwodiwo.xyz
+domain, pica-ad-api.diwodiwo.xyz
 domain, picgg.idti.cn
 domain, pick.isxyrzo.com
 domain, picnewsss.com
