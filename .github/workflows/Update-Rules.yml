@@ -14,6 +14,12 @@ on:
       - '.github/workflows/Update-Rules.yml'
       - 'data/**'       # 仅监控data目录下所有文件变动
 
+# 同一时刻只允许一个更新任务运行，避免多个运行并发提交、互相抢占 master 导致 push rejected
+# cancel-in-progress: false 表示新任务排队等待，而非取消正在进行的任务
+concurrency:
+  group: update-rules
+  cancel-in-progress: false
+
 jobs:
   update-rules:
     runs-on: ubuntu-latest
@@ -60,20 +66,42 @@ jobs:
           # 配置Git用户信息
           git config --global user.name "AutoUpdater[Bot]"
           git config --global user.email "916899380+autoupdater[bot]@users.noreply.github.com"
-          
+
+          # 提交前先同步远程最新，避免 checkout 之后远程已前进导致 push rejected
+          git fetch origin "${{ github.ref_name }}" || true
+
           # 添加所有更改
           git add --all
-          
+
           # 检查是否有更改需要提交
           if git diff-index --quiet HEAD --; then
             echo "没有检测到更改，无需提交"
-          else
-            # 提交更改
-            git commit -m "自动更新: $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
-            
-            # 推送更改
-            git push origin HEAD:${{ github.ref }}
+            exit 0
           fi
+
+          # 提交更改
+          git commit -m "自动更新: $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
+
+          # 推送：若因并发被拒(fetch first)，则变基到最新后重试，最多3次
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${{ github.ref }}"; then
+              echo "推送成功"
+              exit 0
+            fi
+            echo "第 ${attempt} 次推送被拒，拉取远程最新并变基后重试..."
+            git fetch origin "${{ github.ref_name }}"
+            if git rebase "origin/${{ github.ref_name }}"; then
+              echo "变基完成，准备再次推送"
+            else
+              # 生成物冲突时放弃本次提交（由下一次运行在最新基线上重新生成）
+              echo "变基冲突，放弃本次提交，等待下次运行重新生成"
+              git rebase --abort
+              exit 0
+            fi
+          done
+
+          echo "多次重试后仍推送失败，请人工检查"
+          exit 1
 
       # 清理旧的 workflow 运行记录，节省空间
       - name: Cleanup old workflow runs
