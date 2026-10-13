@@ -9,7 +9,9 @@ import json
 INPUT_FILE = '.././rules.txt'
 EXCLUDE_FILE = '../data/rules/exclude.txt'  # 排除文件路径
 ALLOW_FILE = '../allow.txt'                # 白名单文件在根目录
-TIME_STR = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '（北京时间）'
+# 北京时间（UTC+8）：显式指定时区，避免 CI 运行在 UTC 时区时显示成 UTC 时间却标注北京时间
+BEIJING_TZ = datetime.timezone(datetime.timedelta(hours=8))
+TIME_STR = datetime.datetime.now(BEIJING_TZ).strftime('%Y-%m-%d %H:%M:%S') + '（北京时间）'
 HOMEPAGE = "https://github.com/qq5460168/AD886"
 AUTHOR = "酷安@那个谁520"
 
@@ -24,7 +26,7 @@ RULE_FORMATS = [
             f"! Homepage: {HOMEPAGE}",
             f"! by: {AUTHOR}",
             f"! Last Updated: {TIME_STR}",
-            f"! Total Count: {total}"
+            f"! Total count: {total}"
         ],
         "line": lambda domain: f"||{domain}^"
     },
@@ -35,7 +37,8 @@ RULE_FORMATS = [
             f"# Title: Hosts Rules",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}",
-            f"# Last Updated: {TIME_STR}"
+            f"# Last Updated: {TIME_STR}",
+            f"# Total count: {total}"
         ],
         "line": lambda domain: f"0.0.0.0 {domain}"
     },
@@ -48,7 +51,7 @@ RULE_FORMATS = [
             f"# by: {AUTHOR}",
             f"# Last Updated: {TIME_STR}",
             f"# Quantumult X规则数量: {total}",
-            f"# ! Total count: {total}"
+            f"# Total count: {total}"
         ],
         "line": lambda domain: f"HOST-SUFFIX,{domain},REJECT"
     },
@@ -71,7 +74,8 @@ RULE_FORMATS = [
         "header": lambda total: [
             f"# AdClose 专用广告规则",
             f"# 生成时间: {TIME_STR}",
-            f"# 格式：domain, <域名>"
+            f"# 格式：domain, <域名>",
+            f"# Total count: {total}"
         ],
         "line": lambda domain: f"domain, {domain}"
     },
@@ -101,7 +105,8 @@ RULE_FORMATS = [
             f"# Title: Invizible Pro Rules",
             f"# Homepage: {HOMEPAGE}",
             f"# by: {AUTHOR}",
-            f"# Last Updated: {TIME_STR}"
+            f"# Last Updated: {TIME_STR}",
+            f"# Total count: {total}"
         ],
         "line": lambda domain: f"{domain}"
     },
@@ -136,7 +141,7 @@ RULE_FORMATS = [
 ]
 
 def log(msg):
-    print(f"[{datetime.datetime.now():%Y-%m-%d %H:%M:%S}] {msg}")
+    print(f"[{datetime.datetime.now(BEIJING_TZ):%Y-%m-%d %H:%M:%S}] {msg}")
 
 def is_valid_ad_line(line):
     # 确保规则没有路径部分和额外分隔符
