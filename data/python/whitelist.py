@@ -9,13 +9,13 @@ from pathlib import Path
 ALLOW_SOURCE = "../allow.txt"  # 源文件：包含@@||域名^格式的规则
 OUTPUT_FILE = "../allow-ublock.txt"  # 输出文件：纯域名格式
 HOMEPAGE = "https://github.com/qq5460168/666"
-TIME_STR = datetime.datetime.now().astimezone(
-    datetime.timezone(datetime.timedelta(hours=8))
-).strftime('%Y-%m-%d %H:%M:%S') + '（北京时间）'
+# 北京时间（UTC+8）：显式指定时区
+BEIJING_TZ = datetime.timezone(datetime.timedelta(hours=8))
+TIME_STR = datetime.datetime.now(BEIJING_TZ).strftime('%Y-%m-%d %H:%M:%S') + '（北京时间）'
 
 def log(msg):
     """日志输出函数"""
-    print(f"[{datetime.datetime.now():%Y-%m-%d %H:%M:%S}] {msg}")
+    print(f"[{datetime.datetime.now(BEIJING_TZ):%Y-%m-%d %H:%M:%S}] {msg}")
 
 def extract_domain_from_rule(rule):
     """
@@ -72,6 +72,7 @@ def convert_whitelist_rules():
         "# 纯域名白名单",
         f"# 来源: {ALLOW_SOURCE}",
         f"# 生成时间: {TIME_STR}",
+        f"# Total count: {len(domains)}",
         f"# 总域名数: {len(domains)}",
         f"# 项目主页: {HOMEPAGE}",
         ""
