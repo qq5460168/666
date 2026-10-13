@@ -106,6 +106,18 @@ cat *.txt | grep '^@@||.*\^\$important$' | sort -u > allow_ends_with_important.t
 cat allow_ends_with_caret.txt allow_ends_with_important.txt | sort -u > tmp-allow.txt
 wait
 
+# 自动删除 data/rules/error.txt 中列出的错误规则（排除文件）：
+# 忽略空行和#注释行后，按整行精确从黑名单(rules)和白名单(allow)中剔除
+if [ -f ../data/rules/error.txt ]; then
+  grep -E -v '^[[:space:]]*(#|$)' ../data/rules/error.txt > _err_pattern.txt || true
+  if [ -s _err_pattern.txt ]; then
+    grep -vxFf _err_pattern.txt tmp-rules.txt > _rules_clean.txt || true
+    mv -f _rules_clean.txt tmp-rules.txt
+    grep -vxFf _err_pattern.txt tmp-allow.txt > _allow_clean.txt || true
+    mv -f _allow_clean.txt tmp-allow.txt
+  fi
+fi
+
 # 移动合并后的规则到上级目录
 cp tmp-allow.txt ../allow.txt
 cp tmp-rules.txt ../rules.txt
