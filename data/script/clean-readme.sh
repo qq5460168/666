@@ -1,20 +1,20 @@
 #!/bin/sh
 
-# 提取已有规则文件总数
-num_rules=`sed -n 's/^! Total count: //p' rules.txt`
-num_dns=`sed -n 's/^! Total count: //p' dns.txt`
-num_allow=`sed -n 's/^! Total count: //p' allow.txt`
-num_hosts=`sed -n 's/^! Total count: //p' hosts.txt`
+# 提取已有规则文件总数（兼容 # 和 ! 两种注释开头）
+num_rules=`sed -n 's/^[#!] Total count: //p' rules.txt`
+num_dns=`sed -n 's/^[#!] Total count: //p' dns.txt`
+num_allow=`sed -n 's/^[#!] Total count: //p' allow.txt`
+num_hosts=`sed -n 's/^[#!] Total count: //p' hosts.txt`
 
-# 新增：提取其他规则文件的规则数量
-num_qx=`sed -n 's/^! Total count: //p' qx.list`
-num_clash=`sed -n 's/^! Total count: //p' clash.yaml`
-num_clash_meta=`sed -n 's/^! Total count: //p' clash_meta.yaml`
-num_shadowrocket=`sed -n 's/^! Total count: //p' Shadowrocket.list`
-num_singbox=`sed -n 's/^! Total count: //p' singbox.srs`
-num_invizible=`sed -n 's/^! Total count: //p' invizible.txt`
-num_adclose=`sed -n 's/^! Total count: //p' AdClose.txt`
-num_ublock_allow=`sed -n 's/^! Total count: //p' allow-ublock.txt`
+# 新增：提取其他规则文件的规则数量（兼容 # 和 ! 两种注释开头）
+num_qx=`sed -n 's/^[#!] Total count: //p' qx.list`
+num_clash=`sed -n 's/^[#!] Total count: //p' clash.yaml`
+num_clash_meta=`sed -n 's/^[#!] Total count: //p' clash_meta.yaml`
+num_shadowrocket=`sed -n 's/^[#!] Total count: //p' Shadowrocket.list`
+num_singbox=`sed -n 's/^[#!] Total count: //p' singbox.srs`
+num_invizible=`sed -n 's/^[#!] Total count: //p' invizible.txt`
+num_adclose=`sed -n 's/^[#!] Total count: //p' AdClose.txt`
+num_ublock_allow=`sed -n 's/^[#!] Total count: //p' allow-ublock.txt`
 
 
 # 获取当前时间（北京时间）
