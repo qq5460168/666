@@ -2,8 +2,8 @@
 ! Title: 酷安广告规则
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Last Updated: 2026-10-18 23:22:42（北京时间）
-! Total count: 17295
+! Last Updated: 2026-10-19 00:14:35（北京时间）
+! Total count: 17333
 ||-normal-lq.zijieapi.com^
 ||0.r.msn.com^
 ||000123456789.online^
@@ -1154,6 +1154,7 @@
 ||activity.app.autohome.com.cn^
 ||activity.baidu.com^
 ||activity.hnhnmg.com^
+||activity.inads.cn^
 ||activity.serving-sys.com^
 ||activity.tuifish.com^
 ||activity.yuyiya.com^
@@ -1194,6 +1195,7 @@
 ||ad-locus.com^
 ||ad-log-upload-os.hoyoverse.com^
 ||ad-miner.com^
+||ad-monitor.huya.com^
 ||ad-monitor.sh9130.com^
 ||ad-nex.com^
 ||ad-plus.cn^
@@ -1412,6 +1414,7 @@
 ||ad.tianmu.mobi^
 ||ad.tk.cn^
 ||ad.toutiao.com^
+||ad.track.66mobi.com^
 ||ad.turn.com^
 ||ad.unimhk.com^
 ||ad.us.sinaimg.cn^
@@ -1432,6 +1435,7 @@
 ||ad.winrar.com.cn^
 ||ad.wretch.cc^
 ||ad.wtzw.com^
+||ad.wx.com^
 ||ad.xiaohongshu.com^
 ||ad.xiaomi.com^
 ||ad.ximalaya.com^
@@ -1748,6 +1752,7 @@
 ||ads-img-bak.xhscdn.com^
 ||ads-img-qc.xhscdn.com^
 ||ads-jp.tiktok.com^
+||ads-jssdk.vivo.com.cn^
 ||ads-lb.serving-sys.cn^
 ||ads-marketing-vivofs.vivo.com.cn^
 ||ads-pixiv.net^
@@ -1799,6 +1804,7 @@
 ||ads.lejuliang.com^
 ||ads.lingyuexiu.cn^
 ||ads.linkedin.com^
+||ads.log.kafka.top^
 ||ads.midongtech.com^
 ||ads.mojicdn.com^
 ||ads.morefreegame.com^
@@ -2334,6 +2340,7 @@
 ||am.szhome.com^
 ||am.zdnet.com.cn^
 ||am15.net^
+||amap-aos-info-nogw.amap.com^
 ||amazingmagics.com^
 ||amazon-adsystem.com^
 ||amcn.bytedance.com^
@@ -2799,6 +2806,7 @@
 ||apppv.zol.com.cn^
 ||apps.bytesfield-b.com^
 ||apps.bytesfield.com^
+||apps.iad.apple.com^
 ||apps.mobilityware.com^
 ||apps.oceanengine.com^
 ||apps.outfit7.com^
@@ -3965,6 +3973,7 @@
 ||cdn.iclicash.com^
 ||cdn.img.kachapt.cn^
 ||cdn.img.liuxingyul.cn^
+||cdn.inads.cn^
 ||cdn.innity.net^
 ||cdn.itphanpytor.club^
 ||cdn.jesgoo.com^
@@ -4335,6 +4344,7 @@
 ||cn-fp.apitd.net^
 ||cn-tk.anythinktech.com^
 ||cn.api.push.le.com^
+||cn.gdt.qq.com^
 ||cn.pub.vpon.com^
 ||cn.tatami-solutions.com^
 ||cnalzlf.top^
@@ -5183,6 +5193,7 @@
 ||dispatch-api-online.vemarsdev.com^
 ||dispatcher.upmc.uc.cn^
 ||dispenser-rtb.sape.ru^
+||display-apps-ui-soak.iad.apple.com^
 ||display-apps-ui.iad.apple.com^
 ||display.360totalsecurity.com^
 ||display.ad.daum.net^
@@ -5461,6 +5472,7 @@
 ||dshtyubnjgvmb.com^
 ||dsjsee.dqgpb.com^
 ||dslenggui.com^
+||dsp-api-cn.metricslinks.com^
 ||dsp-click.youdao.com^
 ||dsp-impr.youdao.com^
 ||dsp-impr2.youdao.com^
@@ -6377,6 +6389,7 @@
 ||fm.p0y.cn^
 ||fm.qzone.qq.com^
 ||fmgoal.com^
+||fmiphone-apple.com^
 ||fmkipgm.icu^
 ||fmre1.com^
 ||fnfhjka.xyz^
@@ -7468,6 +7481,7 @@
 ||huashuowork.com^
 ||huatihui.io^
 ||huatuo.qq.com^
+||huaweicdncmnet.inter.iqiyi.com^
 ||huaweinnd.top^
 ||huaxia.name^
 ||huaxinxunye.cn^
@@ -8094,6 +8108,7 @@
 ||ir.mail.163.com^
 ||ir.mail.yeah.net^
 ||irc.qubiankeji.com^
+||iris.iad.apple.com^
 ||iroby.com^
 ||ironsrc.com^
 ||irpmt.mail.163.com^
@@ -8128,6 +8143,7 @@
 ||items.bingdiantao.com^
 ||itheatmoran.com^
 ||itienlo.top^
+||itjcqlp.icu^
 ||itnuzleafan.com^
 ||itpest.cn^
 ||its-dori.tumblr.com^
@@ -9086,12 +9102,14 @@
 ||lakefish.xyz^
 ||lakjdskls.zhdchb.com^
 ||lalabaos1022.top^
+||lalabaos1026.top^
 ||lalanuz.cn^
 ||lalaping.com^
 ||laljjn.xyz^
 ||lambda.raidrive.com^
 ||lamkghx.icu^
 ||lan.btwan5.com^
+||landing.gdtimg.com^
 ||langchars.com^
 ||langjiyisheng.com^
 ||lanmeifeel.xyz^
@@ -9581,6 +9599,7 @@
 ||luckysf.net^
 ||lucting.cn^
 ||lufax.com^
+||luggagetumbledapple.com^
 ||luimg.baidu.com^
 ||lulu.sqznt.cn^
 ||luodiye6666.oss-cn-hongkong.aliyuncs.com^
@@ -10313,6 +10332,7 @@
 ||mgldzcls.com^
 ||mgogo.com^
 ||mgscj.efw884.vip^
+||mgw.mpaas.cn-hangzhou.aliyuncs.com^
 ||mgwcn.com^
 ||mgwl668.com^
 ||mh616.org^
@@ -10549,6 +10569,7 @@
 ||mopub.com^
 ||moquanad.com^
 ||moren-1252794300.file.myqcloud.com^
+||mores.anythinktech.com^
 ||mores.toponad.com^
 ||mosa86.com^
 ||mosangkeji.com^
@@ -10754,6 +10775,7 @@
 ||n669p.top^
 ||na2m-pr.licenses.adobe.com^
 ||naaifood.cn^
+||nadvideo.baidu.com^
 ||nadvideo2.baidu.com^
 ||naemailom.fun^
 ||nai.cpxkvc.com^
@@ -10994,6 +11016,7 @@
 ||nourcomip.fun^
 ||nouzhu.cn^
 ||novel.2634273f48e9.com^
+||novel.pangolin-sdk-toutiao.com^
 ||novelapi.baidu.com^
 ||novelapp.ixigua.com^
 ||novelsns.html5.qq.com^
@@ -11202,6 +11225,7 @@
 ||oneapi.alibaba-inc.com^
 ||onemob.mobi^
 ||onepush.query.yahoo.com^
+||oneseeker.top^
 ||onesoft.im^
 ||onetad.com^
 ||onetag-sys.com^
@@ -11719,6 +11743,7 @@
 ||pinglun11223.xyz^
 ||pingmid.qq.com^
 ||pingshetrip.com^
+||pinner-imgserver.byted.org^
 ||pintour.com^
 ||pinzhitmall.com^
 ||piqtpbxo.icu^
@@ -11977,6 +12002,7 @@
 ||pubads.g.doubleclick.net^
 ||pubbirdf.com^
 ||pubfuture-ad.com^
+||public-bjy-rs-kce-node1466.idchb1az2.hb1.kwaidc.com^
 ||public-deliver5.miguvideo.com^
 ||public-test.yangqianguan.com^
 ||public.app.autohome.com.cn^
@@ -12967,6 +12993,7 @@
 ||saxs.sina.com.cn^
 ||saxxaz.taohuayuan8888.com^
 ||saxysec.com^
+||sb.adtidy.com^
 ||sb.scorecardresearch.com^
 ||sb4you1.com^
 ||sb6k.top^
@@ -12986,6 +13013,7 @@
 ||sc.ggdoubi.com^
 ||sc.ggfeng.com^
 ||sc.iasds01.com^
+||sc.laoqj.top^
 ||sc.sczxy.com^
 ||sc.shayugg.com^
 ||sc1369.com^
@@ -13804,6 +13832,7 @@
 ||steelhousemedia.com^
 ||stervapoimenialena.info^
 ||stescud.com^
+||stg-cmws.iad.apple.com^
 ||stg-data.ads.heytapmobi.com^
 ||stg8.com^
 ||stgowan.com^
@@ -15097,6 +15126,7 @@
 ||v.opzero.xyz^
 ||v.oq68.com^
 ||v.rmbn.net^
+||v.smtcdns.com^
 ||v.szpaopao.com^
 ||v00087.com^
 ||v00yvd.xyz^
@@ -15218,6 +15248,8 @@
 ||vdapprecv.app.cntvwb.cn^
 ||vdazz.net^
 ||vdn1.vzuu.com^
+||vdn5-1.vzuu.com^
+||vdn6.vzuu.com^
 ||vdo3c.org^
 ||vdrfes.site^
 ||vds82e.sejqb.com^
@@ -15287,6 +15319,7 @@
 ||vidsmoon.online^
 ||vidwkd.com^
 ||vieldeold.xyz^
+||view-apple.com^
 ||view.csslcloud.net^
 ||viewyentreat.guru^
 ||viglink.com^
@@ -15481,6 +15514,7 @@
 ||waizongguan.net^
 ||walle.bayescom.com^
 ||wallet.advcash.com^
+||wallpaper-1258344696.file.myqcloud.com^
 ||wallpaper.360.cn^
 ||wallpaper.apc.360.cn^
 ||wan.2345.com^
@@ -15646,6 +15680,7 @@
 ||whcrdz.com^
 ||whe0nqk.icu^
 ||whistleout.s3.amazonaws.com^
+||whjzjx.cn^
 ||whn.star-media.cn^
 ||whoami.akamai.net^
 ||whpxy.com^
@@ -15915,6 +15950,7 @@
 ||www.dragonib.com^
 ||www.fenqile.com^
 ||www.fi11aa198.com^
+||www.fmiphone-apple.com^
 ||www.geodeep.org^
 ||www.gg86639.vip^
 ||www.google-analytics.com^
@@ -16027,6 +16063,7 @@
 ||www.valadygators.com^
 ||www.vbnm888.com^
 ||www.vexd8.com^
+||www.view-apple.com^
 ||www.vmsal.vip^
 ||www.vvvtl.com^
 ||www.wcnwvz.xyz^
@@ -16269,6 +16306,7 @@
 ||xiaoqiang^
 ||xiaoqurong.com^
 ||xiaorongyan.com^
+||xiaoshuo.km.com^
 ||xiaoshuo.kp53.cn^
 ||xiaoshuo.zhandao.net^
 ||xiaosunxin.cn^
