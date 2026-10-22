@@ -1,9 +1,9 @@
 # Title: Clash Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-10-22 11:19:24（北京时间）
-# Clash规则数量: 17334
-! Total count: 17334
+# Last Updated: 2026-10-23 00:38:29（北京时间）
+# Clash规则数量: 17341
+! Total count: 17341
 rules:
   - DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
   - DOMAIN-SUFFIX,0.r.msn.com,REJECT
@@ -3502,6 +3502,7 @@ rules:
   - DOMAIN-SUFFIX,bolt.jebe.renren.com,REJECT
   - DOMAIN-SUFFIX,book.d.ireader.com,REJECT
   - DOMAIN-SUFFIX,books-analytics-events.apple.com,REJECT
+  - DOMAIN-SUFFIX,boost-cmp.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,boost-next.co.jp,REJECT
   - DOMAIN-SUFFIX,bootpreload.uve.weibo.com,REJECT
   - DOMAIN-SUFFIX,bootrealtime.uve.weibo.com,REJECT
@@ -7946,6 +7947,7 @@ rules:
   - DOMAIN-SUFFIX,imindmap.cc,REJECT
   - DOMAIN-SUFFIX,immob.cn,REJECT
   - DOMAIN-SUFFIX,imneinei.com,REJECT
+  - DOMAIN-SUFFIX,imp-cmp.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,imp-toutiao-data.37.com.cn,REJECT
   - DOMAIN-SUFFIX,imp.ad.xelements.cn,REJECT
   - DOMAIN-SUFFIX,imp.ads.rgyun.com,REJECT
@@ -9394,6 +9396,7 @@ rules:
   - DOMAIN-SUFFIX,lnr2.com,REJECT
   - DOMAIN-SUFFIX,lnzjlr.xyz,REJECT
   - DOMAIN-SUFFIX,load77.exelator.com,REJECT
+  - DOMAIN-SUFFIX,loading-cmp.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,loading.baofeng5.baofeng.net,REJECT
   - DOMAIN-SUFFIX,loadm.exelator.com,REJECT
   - DOMAIN-SUFFIX,loan-ad.cn,REJECT
@@ -10632,6 +10635,7 @@ rules:
   - DOMAIN-SUFFIX,msclick2.kuwo.cn,REJECT
   - DOMAIN-SUFFIX,msdk.voiceads.cn,REJECT
   - DOMAIN-SUFFIX,msdsd2.cn,REJECT
+  - DOMAIN-SUFFIX,msg-cmp.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,msg.360.cn,REJECT
   - DOMAIN-SUFFIX,msg.71.am,REJECT
   - DOMAIN-SUFFIX,msg.c002.ottcn.com,REJECT
@@ -11564,6 +11568,7 @@ rules:
   - DOMAIN-SUFFIX,passport.kuaishou.com,REJECT
   - DOMAIN-SUFFIX,passwordrecovery.cn,REJECT
   - DOMAIN-SUFFIX,passwz.com,REJECT
+  - DOMAIN-SUFFIX,paster-cmp.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,pat.farvd.com,REJECT
   - DOMAIN-SUFFIX,patriot.cs.pp.cn,REJECT
   - DOMAIN-SUFFIX,pay.holaq.com,REJECT
@@ -12504,6 +12509,7 @@ rules:
   - DOMAIN-SUFFIX,rec.g.163.com,REJECT
   - DOMAIN-SUFFIX,rec.moviebox.baofeng.net,REJECT
   - DOMAIN-SUFFIX,recds7.icu,REJECT
+  - DOMAIN-SUFFIX,recmd-cmp.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,recommend-drcn.hms.dbankcloud.cn,REJECT
   - DOMAIN-SUFFIX,recommend.bizhi.360.cn,REJECT
   - DOMAIN-SUFFIX,recommender-launcher.hismarttv.com,REJECT
@@ -12578,6 +12584,7 @@ rules:
   - DOMAIN-SUFFIX,resetgey.com,REJECT
   - DOMAIN-SUFFIX,resolve.umeng.com,REJECT
   - DOMAIN-SUFFIX,resolver.msg.global.xiaomi.net,REJECT
+  - DOMAIN-SUFFIX,resource-cmp.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,resource.ad-scope.com.cn,REJECT
   - DOMAIN-SUFFIX,resource.baomihua.com,REJECT
   - DOMAIN-SUFFIX,resource.fjhongbo.com,REJECT

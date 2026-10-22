@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-10-22 11:19:24（北京时间）
+! Version: 2026-10-23 00:38:30（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 32440
+! Total count: 32447
 
 .com:8005/cc/*?*=$third-party
 0.0.0.0 *-inapps.appsflyersdk.com
@@ -17967,6 +17967,7 @@
 ||bolt.jebe.renren.com^
 ||book.d.ireader.com^
 ||books-analytics-events.apple.com^
+||boost-cmp.hismarttv.com^
 ||boost-next.co.jp^
 ||bootpreload.uve.weibo.com^
 ||bootrealtime.uve.weibo.com^
@@ -22606,6 +22607,7 @@
 ||imjtv.cc^$third-party
 ||immob.cn^
 ||imneinei.com^
+||imp-cmp.hismarttv.com^
 ||imp-toutiao-data.37.com.cn^
 ||imp.ad.xelements.cn^
 ||imp.ads.rgyun.com^
@@ -24109,6 +24111,7 @@
 ||lnr2.com^
 ||lnzjlr.xyz^
 ||load77.exelator.com^
+||loading-cmp.hismarttv.com^
 ||loading.baofeng5.baofeng.net^
 ||loadm.exelator.com^
 ||loan-ad.cn^
@@ -25415,6 +25418,7 @@
 ||msdk.qq.com^
 ||msdk.voiceads.cn^
 ||msdsd2.cn^
+||msg-cmp.hismarttv.com^
 ||msg.360.cn^
 ||msg.71.am^
 ||msg.c002.ottcn.com^
@@ -26407,6 +26411,7 @@
 ||passport.kuaishou.com^
 ||passwordrecovery.cn^
 ||passwz.com^
+||paster-cmp.hismarttv.com^
 ||pat.farvd.com^
 ||patriot.cs.pp.cn^
 ||pay.holaq.com^
@@ -27393,6 +27398,7 @@
 ||rec.g.163.com^
 ||rec.moviebox.baofeng.net^
 ||recds7.icu^
+||recmd-cmp.hismarttv.com^
 ||recmd.html5.qq.com^
 ||recommend-drcn.hms.dbankcloud.cn^
 ||recommend.bizhi.360.cn^
@@ -27471,6 +27477,7 @@
 ||resolve.umeng.com^
 ||resolver.msg.global.xiaomi.net^
 ||resolver.msg.xiaomi.net^
+||resource-cmp.hismarttv.com^
 ||resource.ad-scope.com.cn^
 ||resource.baomihua.com^
 ||resource.fjhongbo.com^
