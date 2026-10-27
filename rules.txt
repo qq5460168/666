@@ -1,8 +1,8 @@
 ! Title: 酷安广告规则
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Last Updated: 2026-10-27 11:44:24（北京时间）
-! Total count: 32438
+! Last Updated: 2026-10-28 01:28:46（北京时间）
+! Total count: 32439
 0.0.0.0 *-inapps.appsflyersdk.com
 0.0.0.0 *-launches.appsflyersdk.com
 0.0.0.0 *.bjmantis.net
@@ -14065,6 +14065,7 @@
 @@||ztgame.com^
 baidu.com###page-copyright.se-page-copyright
 baidu.com##.detail-banner-new
+play.google.com#@#a[href^="intent://"]
 ||*-*-*-lrycfv.vip^
 ||*-ad-sign.byteimg.com^
 ||*-ad.a.yximgs.com^
