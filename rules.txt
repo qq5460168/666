@@ -1,8 +1,8 @@
 ! Title: 酷安广告规则
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Last Updated: 2026-10-28 12:00:39（北京时间）
-! Total count: 32439
+! Last Updated: 2026-10-29 01:54:07（北京时间）
+! Total count: 32449
 0.0.0.0 *-inapps.appsflyersdk.com
 0.0.0.0 *-launches.appsflyersdk.com
 0.0.0.0 *.bjmantis.net
@@ -11266,7 +11266,9 @@
 @@||app.home.360.cn^
 @@||app.huabao.360.cn^
 @@||app.market.xiaomi.com^
+@@||app.mi.com^
 @@||app.toutiao.com^
+@@||app.xiaomi.com^
 @@||app.zhuanzhuan.com^
 @@||appcenter.ms^
 @@||appcfg.v.qq.com^
@@ -11293,6 +11295,7 @@
 @@||aps.amap.com^
 @@||aq.qq.com^
 @@||archive.biliimg.com^
+@@||archive.stardock.com^
 @@||arenascan.com^
 @@||article.zlink.toutiao.com^
 @@||as.weixin.qq.com^
@@ -11621,6 +11624,7 @@
 @@||contentcenter-vali-drcn.dbankcdn.com^
 @@||coolapk-oss-image.oss-cn-hangzhou.aliyuncs.com^
 @@||coop.voicecloud.cn^
+@@||copilot.tencent.com^
 @@||core.tantanapp.com^
 @@||cos.ap-bangkok.myqcloud.com^
 @@||cos.ap-beijing-1.myqcloud.com^
@@ -11930,6 +11934,8 @@
 @@||fonts.gstatic.com^
 @@||forum.trae.cn^
 @@||forums.oneplus.com^
+@@||forums.stardock.com^
+@@||forums.stardock.net^
 @@||foundation.youdao.com^
 @@||fourhoi.com^
 @@||fourier-videoclip-eu.allawnos.com^
@@ -12145,6 +12151,7 @@
 @@||id.realme.com^
 @@||id1.cloud.huawei.com^
 @@||id6.me^
+@@||identity.stardock.com^
 @@||idmb.register.xmpush.global.xiaomi.com^
 @@||idmsa.apple.com^
 @@||ietheivaicai.com^
@@ -13593,6 +13600,7 @@
 @@||up.cm.ksmobile.com^
 @@||upage.imtt.qq.com^
 @@||update.360safe.com^
+@@||update.appstore.vivo.com.cn^
 @@||update.hicloud.com^
 @@||update.huorong.cn^
 @@||update.vivo.com^
@@ -13939,6 +13947,8 @@
 @@||www.siyuan-note.club^
 @@||www.so.com^
 @@||www.spaceship.com^
+@@||www.stardock.com^
+@@||www.stardock.net^
 @@||www.sygjx.com^
 @@||www.taobao.com^
 @@||www.taptap.cn^
