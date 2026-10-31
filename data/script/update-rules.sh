@@ -1,4 +1,3 @@
-
 #!/bin/sh
 set -euo pipefail
 
@@ -45,6 +44,30 @@ rules=(
   "" #
 )
 
+# 来源名数组：与 rules[] 按下标严格对齐（被整行注释的 URL 不占下标，
+# 来源名数组必须同步去掉占位，否则错位）
+rules_names=(
+  "5460"
+  "大萌主"
+  "DD"
+  "AdRules DNS Filter"
+  "测试hosts"
+  "白名单(dangchu)"
+  "补充(Who520)"
+  "mphin"
+  "周木木"
+  "liwenjie119"
+  "FCM Hosts"
+  "晴雅"
+  "秋风规则"
+  "下一个ID见"
+  "Zisbusy"
+  "SMhosts"
+  "茯苓"
+  "茯苓白名单"
+  ""
+)
+
 allow=(
   "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt"
   "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt"
@@ -57,6 +80,21 @@ allow=(
   "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Develop/FuLingRules/FuLingAllowList.txt" #茯苓
   "https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt" #酷安cocieto
   "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt"#DD
+  ""
+)
+
+# 来源名数组：与 allow[] 按下标严格对齐（同上）
+allow_names=(
+  "dangchu白名单"
+  "mphin白名单"
+  "浅笑"
+  "jhsvip"
+  "liwenjie119白名单"
+  "喵二白名单"
+  "Zisbusy白名单"
+  "茯苓白名单"
+  "酷安cocieto"
+  "DD"
   ""
 )
 
@@ -76,6 +114,50 @@ done
 wait
 echo "规则下载完成"
 
+# ==============================================
+# 为每个下载文件写入来源头（! 📋 规则来源 / ! 🔗 原始地址）
+# 与 src_index 一并供 merge.py 按来源分区块溯源
+# ==============================================
+write_source_header() {
+  _f="$1"; _name="$2"; _url="$3"
+  { printf '! 📋 规则来源：%s\n! 🔗 原始地址：%s\n' "$_name" "$_url"; cat "$_f"; } > "$_f.hdr" && mv -f "$_f.hdr" "$_f"
+}
+
+# 黑名单来源头（rulesN.txt 与本地补充 rules01.txt）
+for i in "${!rules[@]}"; do
+  url="${rules[$i]}"
+  [ -z "$url" ] && continue
+  write_source_header "rules${i}.txt" "${rules_names[$i]}" "$url"
+done
+write_source_header "rules01.txt" "本地补充(data/rules/adblock.txt)" "本地文件"
+
+# 白名单来源头（allowN.txt 与本地补充 allow01.txt）
+for i in "${!allow[@]}"; do
+  url="${allow[$i]}"
+  [ -z "$url" ] && continue
+  write_source_header "allow${i}.txt" "${allow_names[$i]}" "$url"
+done
+write_source_header "allow01.txt" "本地补充(data/rules/whitelist.txt)" "本地文件"
+
+# ==============================================
+# 生成来源索引清单（文件名<TAB>来源名<TAB>原始URL），
+# 命名 src_index（无 .txt 后缀）避免被 cat *.txt / ls *.txt 误处理
+# ==============================================
+: > src_index
+for i in "${!rules[@]}"; do
+  url="${rules[$i]}"
+  [ -z "$url" ] && continue
+  printf 'rules%s.txt\t%s\t%s\n' "$i" "${rules_names[$i]}" "$url" >> src_index
+done
+printf 'rules01.txt\t本地补充(data/rules/adblock.txt)\t本地文件\n' >> src_index
+
+for i in "${!allow[@]}"; do
+  url="${allow[$i]}"
+  [ -z "$url" ] && continue
+  printf 'allow%s.txt\t%s\t%s\n' "$i" "${allow_names[$i]}" "$url" >> src_index
+done
+printf 'allow01.txt\t本地补充(data/rules/whitelist.txt)\t本地文件\n' >> src_index
+
 # 为下载的每个文件添加空行结束（防止因末尾无换行导致处理错误）
 for f in $(ls *.txt | sort -u); do
   echo "" >> "$f" &
@@ -93,34 +175,13 @@ cat *.txt | sort -n | grep -v -E "^((#.*)|(\s*))$" \
   | sort | uniq > base-src-hosts.txt
 wait
 
-echo "开始合并规则..."
+echo "开始合并规则（按来源分区块，保留每条规则的上游来源）..."
 
-# 合并规则：过滤掉注释行、空行，并对 AdGuard 规则进行去重
-cat rules*.txt | grep -Ev "^(#|!|\[)" | sed '/^$/d' | sort -u > tmp-rules.txt &
-
-# 从所有规则中提取允许域名（以 @@|| 开头，或以 || 开头的规则）
-cat *.txt | grep '^@@||.*\^$' | sort -u > allow_ends_with_caret.txt
-cat *.txt | grep '^@@||.*\^\$important$' | sort -u > allow_ends_with_important.txt
-
-# 合并两种允许规则
-cat allow_ends_with_caret.txt allow_ends_with_important.txt | sort -u > tmp-allow.txt
-wait
-
-# 自动删除 data/rules/error.txt 中列出的错误规则（排除文件）：
-# 忽略空行和#注释行后，按整行精确从黑名单(rules)和白名单(allow)中剔除
-if [ -f ../data/rules/error.txt ]; then
-  grep -E -v '^[[:space:]]*(#|$)' ../data/rules/error.txt > _err_pattern.txt || true
-  if [ -s _err_pattern.txt ]; then
-    grep -vxFf _err_pattern.txt tmp-rules.txt > _rules_clean.txt || true
-    mv -f _rules_clean.txt tmp-rules.txt
-    grep -vxFf _err_pattern.txt tmp-allow.txt > _allow_clean.txt || true
-    mv -f _allow_clean.txt tmp-allow.txt
-  fi
-fi
-
-# 移动合并后的规则到上级目录
-cp tmp-allow.txt ../allow.txt
-cp tmp-rules.txt ../rules.txt
+# merge.py 负责：
+#   - 黑名单(rules*.txt)按来源分区块合并 -> 仓库根 rules.txt
+#   - 白名单(所有文件的 @@|| 行)按来源分区块合并 -> 仓库根 allow.txt
+#   - error.txt 整行精确剔除（rules 与 allow 同时生效）
+python ../data/python/merge.py
 
 echo "规则合并完成"
 

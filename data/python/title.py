@@ -26,6 +26,11 @@ title.py — 为合并生成的成品规则文件补充统一头部（修复/优
   4. 头部内容集中为 HEADER_TEMPLATE 常量，便于按需对齐
      默认输出你要的“原版”头部（! Title: 酷安广告规则 / Homepage: AD886）。
      若想恢复仓库原有的“个人合并 2.0”头部，改这一处即可。
+
+  5. 规则条数只统计有效规则行（跳过 ! / # 注释行与空行）
+     新版 rules.txt / allow.txt 头部含 merge.py 写入的来源分区注释
+     （! 📋 规则来源：… / ! 🔗 原始地址：…），旧版按总行数统计会把
+     注释块计入 Total count，导致 README 数字虚高。
 """
 from pathlib import Path
 
@@ -72,6 +77,19 @@ def has_header(content: str) -> bool:
     return content.lstrip().startswith(HEADER_MARKS)
 
 
+def count_rules(content: str) -> int:
+    """统计有效规则行数（跳过空行与 ! / # 注释行）。"""
+    n = 0
+    for line in content.splitlines():
+        s = line.strip()
+        if not s:
+            continue
+        if s.startswith(('!', '#')):
+            continue
+        n += 1
+    return n
+
+
 def add_title(file_path: Path) -> str:
     """为单个文件补头部，返回状态描述。"""
     if not file_path.exists():
@@ -83,7 +101,7 @@ def add_title(file_path: Path) -> str:
 
     # 清理文件开头的空行（部分成品文件以 CRLF 空行开头），避免头部后留空行
     content = content.lstrip('\r\n')
-    count = content.count('\n') + 1
+    count = count_rules(content)
     header = HEADER_TEMPLATE.format(version=beijing_time(), count=count)
     file_path.write_text(header + content, encoding='utf-8')
     return f"[已更新] {file_path.name}: 头部 {len(header.splitlines())} 行 + 规则 {count} 行"
