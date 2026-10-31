@@ -1,8 +1,8 @@
 ! Title: 酷安广告规则
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Last Updated: 2026-10-31 18:59:37（北京时间）
-! Total count: 32416
+! Last Updated: 2026-11-01 00:49:36（北京时间）
+! Total count: 32411
 ! ==============================================
 ! 📋 规则来源：5460
 ! 🔗 原始地址：https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt
@@ -16854,18 +16854,14 @@ play.google.com#@#a[href^="intent://"]
 ! 📋 规则来源：测试hosts
 ! 🔗 原始地址：https://raw.githubusercontent.com/qq5460168/dangchu/main/adhosts.txt
 ! ==============================================
+1![个人收集 2.0]
 43.206.62.10 ck.jp.ap.valuecommerce.com
 23.192.47.137 www.rakuten.co.jp
 133.237.176.198 hb.afl.rakuten.co.jp
 0.0.0.0 icosa-service-cn-01.allawntech.com
-52.84.166.71 api.themoviedb.org
-52.84.166.68 api.themoviedb.org
-18.65.159.31 api.themoviedb.org
-13.35.0.128 api.themoviedb.org
 13.226.254.58 image.tmdb.org
 65.8.164.121 image.tmdb.org
 54.192.73.28 image.tmdb.org
-108.138.246.125 api.themoviedb.org
 13.226.198.225 thetvdb.com
 0.0.0.0 creative.medproad.com
 0.0.0.0 qcwx.medproad.com
@@ -22767,7 +22763,6 @@ play.google.com#@#a[href^="intent://"]
 0.0.0.0 qa.viglink.com
 0.0.0.0 track.aso1.net
 0.0.0.0 delivery-node-aziz.voe-network.net
-13.224.163.98 api.themoviedb.org
 169.150.249.166 image.tmdb.org
 54.192.18.90 themoviedb.org
 23.48.224.239 oxygenos.oneplus.net
