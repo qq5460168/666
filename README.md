@@ -102,6 +102,53 @@ AdClose规则数量: 17305
 🐧群: [AdGuard home小窝](https://qm.qq.com/q/bRFsKddXq0) 
 
 
+<h2 id="b">📚 上游规则数据源</h2>
+
+管线每 12 小时自动下载 **18 路黑名单 + 10 路白名单** 上游规则（见 [`data/script/update-rules.sh`](https://github.com/qq5460168/666/blob/master/data/script/update-rules.sh)），另有 2 个本仓库自定义补充文件。合并时按来源分区块写入成品（`rules.txt` / `allow.txt`），每条规则均带来源头（`! 📋 规则来源` / `! 🔗 原始地址`），误拦可一步定位到源；`data/rules/error.txt` 为整行精确剔除表，对黑名单与白名单同时生效。
+
+### 🔴 黑名单数据源（18 路）
+
+| 来源 | 侧重 | 原始地址 |
+|---|---|---|
+| 5460 | 综合拦截（dangchu/black.txt） | https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt |
+| 大萌主 | 接口 / SDK 广告 | https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt |
+| DD | DD-AD 综合拦截 | https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt |
+| AdRules DNS Filter | DNS 专用过滤 | https://raw.githubusercontent.com/Cats-Team/dns-filter/main/abp.txt |
+| 测试hosts | Hosts 格式拦截（dangchu/adhosts.txt） | https://raw.githubusercontent.com/qq5460168/dangchu/main/adhosts.txt |
+| 白名单(dangchu) | 白名单源（经黑名单管线下载，合并时提取 @@ 行） | https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt |
+| 补充(Who520) | 补充规则（Who520 维护） | https://raw.githubusercontent.com/qq5460168/Who520/refs/heads/main/Other%20rules/Replenish.txt |
+| mphin | AdGuardHome 黑名单 | https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Blacklist.txt |
+| 周木木 | AdGuard Home DNS 黑名单（Gitee） | https://gitee.com/zjqz/ad-guard-home-dns/raw/master/black-list |
+| liwenjie119 | 综合拦截（adg-rules） | https://raw.githubusercontent.com/liwenjie119/adg-rules/master/black.txt |
+| FCM Hosts | FCM 相关域名拦截（Hosts 格式） | https://github.com/entr0pia/fcm-hosts/raw/fcm/fcm-hosts |
+| 晴雅 | 综合拦截（qy-Ads-Rule） | https://raw.githubusercontent.com/rssvcn/qy-Ads-Rule/main/black.txt |
+| 秋风规则 | 综合拦截（AWAvenue-Ads-Rule） | https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt |
+| 下一个ID见 | Hosts 综合拦截（SM-Ad-FuckU-hosts） | https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts |
+| Zisbusy | AdGuardHome 黑名单 | https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/blacklist.txt |
+| SMhosts | Hosts 综合拦截（Who520 维护） | https://raw.githubusercontent.com/qq5460168/Who520/refs/heads/main/Other%20rules/SMhosts.txt |
+| 茯苓 | 综合拦截（FuLing-AdRules） | https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Develop/FuLingRules/FuLingBlockList.txt |
+| 茯苓白名单 | 白名单源（经黑名单管线下载，合并时提取 @@ 行） | https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Develop/FuLingRules/FuLingAllowList.txt |
+| 🏠 本地补充 | 自定义黑名单（data/rules/adblock.txt） | 本地文件 |
+
+### 🟢 白名单数据源（10 路）
+
+| 来源 | 侧重 | 原始地址 |
+|---|---|---|
+| dangchu白名单 | 综合放行（dangchu/white.txt） | https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt |
+| mphin白名单 | AdGuardHome 白名单 | https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt |
+| 浅笑 | 综合放行 | https://raw.githubusercontent.com/user001235/112/main/white.txt |
+| jhsvip | 综合放行（ADRuls） | https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt |
+| liwenjie119白名单 | 中文站点放行（adg-rules） | https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt |
+| 喵二白名单 | 综合放行（AdguardFilter） | https://raw.githubusercontent.com/miaoermua/AdguardFilter/main/whitelist.txt |
+| Zisbusy白名单 | AdGuardHome 白名单 | https://raw.githubusercontent.com/Zisbusy/AdGuardHome-Rules/refs/heads/main/Rules/whitelist.txt |
+| 茯苓白名单 | 综合放行（FuLing-AdRules） | https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Develop/FuLingRules/FuLingAllowList.txt |
+| 酷安cocieto | 综合放行（adguardhomefilter） | https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt |
+| DD | DD-AD 自带白名单 | https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt |
+| 🏠 本地补充 | 自定义白名单（data/rules/whitelist.txt） | 本地文件 |
+
+> 💡 **合并口径**：白名单（allow.txt）从全部上游文件（黑名单 + 白名单）中提取 `@@||域名^` 行，跨来源全局去重、先到先得；`data/rules/error.txt` 整行精确剔除对规则与白名单同时生效。
+
+
 <h2 id="c">🚫 拦截效果</h2>
 
 [AdBlock Tester](https://adblock-tester.com)
@@ -120,6 +167,3 @@ AdClose规则数量: 17305
 - 误杀的网站
 
 ## ⭐ 感谢支持
-
-
-
