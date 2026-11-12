@@ -1,8 +1,8 @@
 ! Title: 酷安广告规则
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Last Updated: 2026-11-12 13:46:41（北京时间）
-! Total count: 32418
+! Last Updated: 2026-11-13 03:31:51（北京时间）
+! Total count: 32423
 ! ==============================================
 ! 📋 规则来源：5460
 ! 🔗 原始地址：https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt
@@ -14157,6 +14157,7 @@ play.google.com#@#a[href^="intent://"]
 ! 📋 规则来源：茯苓
 ! 🔗 原始地址：https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Develop/FuLingRules/FuLingBlockList.txt
 ! ==============================================
+/(^|[._\/-])ads?([._\/-]|$)/
 ||*-*-*-lrycfv.vip^
 ||*.*-t0613.vip^
 ||*.01fwzb.com^
@@ -15030,6 +15031,7 @@ play.google.com#@#a[href^="intent://"]
 @@||ddyunbo.com^
 @@||detail.meizu.com^
 @@||detail.zol.com.cn^
+@@||dev.mi.com^
 @@||dev.miuiflash.com^
 @@||developer.extscreen.com^
 @@||devuploads.com^
@@ -15231,6 +15233,7 @@ play.google.com#@#a[href^="intent://"]
 @@||hub5idx.v6.shub.sandai.net^
 @@||hub5pn.wap.sandai.net^
 @@||huluxia.com^
+@@||hyperos.developer.xiaomi.com^
 @@||i.dell.com^
 @@||i.gtimg.cn^
 @@||i.imgur.com^
@@ -15282,6 +15285,7 @@ play.google.com#@#a[href^="intent://"]
 @@||img.qidian.com^
 @@||img.siwazywimg.com^
 @@||img.sogoucdn.com^
+@@||img.ssl.msdk.qq.com^
 @@||img.tapimg.com^
 @@||img.youpin.mi-img.com^
 @@||img01.sogoucdn.com^
@@ -15306,6 +15310,7 @@ play.google.com#@#a[href^="intent://"]
 @@||inporn.com^
 @@||instant.io^
 @@||intro.limestart.cn^
+@@||iot.mi.com^
 @@||ip*.ahcdn.com^
 @@||ip.900cha.com^
 @@||ip.cn^
@@ -15505,6 +15510,7 @@ play.google.com#@#a[href^="intent://"]
 @@||message.bilibili.com^
 @@||mgbsdk.matrix.netease.com^
 @@||midas.gtimg.cn^
+@@||mimo.mi.com^
 @@||miniapp.gtimg.cn^
 @@||mip.xiachufang.com^
 @@||mirrors.163.com^
@@ -23362,7 +23368,6 @@ play.google.com#@#a[href^="intent://"]
 @@||v.gdt.qq.com^
 @@||livew.l.qq.com^
 @@||iwx.mail.qq.com^
-@@||img.ssl.msdk.qq.com^
 @@||api.unipay.qq.com^
 @@||cdn.yyb.gtimg.com^
 @@||cms.myapp.com^
