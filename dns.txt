@@ -2,28 +2,28 @@
 ! Title: 酷安广告规则
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Last Updated: 2026-11-14 12:57:01（北京时间）
-! Total count: 17307
+! Last Updated: 2026-11-15 01:39:49（北京时间）
+! Total count: 17313
 
 ! ────────────── 来源汇总 ──────────────
-!      8118 条  补充(Who520)
+!      8119 条  补充(Who520)
 !      2999 条  大萌主
 !      2199 条  本地补充(data/rules/adblock.txt)
 !       342 条  茯苓
 !      2696 条  5460
 !        74 条  mphin
-!       466 条  秋风规则
+!       465 条  秋风规则
 !        55 条  周木木
 !        46 条  晴雅
 !       170 条  DD
-!       140 条  AdRules DNS Filter
+!       146 条  AdRules DNS Filter
 !         2 条  liwenjie119
 ! ────────────────────────────────────────
 
 ! ==============================================
 ! 📋 规则来源：补充(Who520)
 ! 🔗 原始地址：https://raw.githubusercontent.com/qq5460168/Who520/refs/heads/main/Other%20rules/Replenish.txt#补充
-! 📊 本区规则：8118 条
+! 📊 本区规则：8119 条
 ! ==============================================
 ||-normal-lq.zijieapi.com^
 ||0.r.msn.com^
@@ -1027,6 +1027,7 @@
 ||adslot.uc.cn^
 ||adsmart.yicha.cn^
 ||adsor.openrunner.com^
+||adspecs.yahoo.com^
 ||adsremote.scrippsnetworks.com^
 ||adss.dotdo.net^
 ||adss.yahoo.com^
@@ -16487,7 +16488,7 @@
 ! ==============================================
 ! 📋 规则来源：秋风规则
 ! 🔗 原始地址：https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
-! 📊 本区规则：466 条
+! 📊 本区规则：465 条
 ! ==============================================
 ||1500020991.vodplayer.wxamedia.com^
 ||1500022744.vodplayer.wxamedia.com^
@@ -16538,8 +16539,8 @@
 ||adm.zhangyuyidong.cn^
 ||admarketing.yahoo.net^
 ||ads-img-qc.xhscdn.com^
-||ads-jp.tiktok.com^
 ||ads-video-qc.xhscdn.com^
+||ads-vp5.xhscdn.com^
 ||ads.95516.com^
 ||ads.adfunlink.com^
 ||ads.auctions.yahoo.com^
@@ -16559,16 +16560,12 @@
 ||adsmart.konka.com^
 ||adsmoloco.com^
 ||adsp.xunlei.com^
-||adspecs.yahoo.com^
 ||adstextview.qq.com^
 ||adstore-1252524079.file.myqcloud.com^
 ||adstore-index-1252524079.file.myqcloud.com^
 ||adstudio-assets.scdn.co^
-||adstudio.spotify.com^
 ||adv-api.shenshiads.com^
 ||adv.sec.intl.miui.com^
-||advertising-api-fe.amazon.com^
-||advertising-api.amazon.com^
 ||adview.cn^
 ||adx-ad.smart-tv.cn^
 ||adx-api.jinmo.tech^
@@ -16618,7 +16615,6 @@
 ||bdcdncnc.inter.71edge.com^
 ||bgg.baidu.com^
 ||bianxian.com^
-||bingads.microsoft.com^
 ||bj-td-menta-01-callback.advlion.com^
 ||bj.ad.track.66mobi.com^
 ||boost-cmp.hismarttv.com^
@@ -16636,6 +16632,7 @@
 ||click.chinaliftoff.io^
 ||click.liftoff.io^
 ||click4.chinaliftoff.io^
+||client-upload.cn-shanghai.log.aliyuncs.com^
 ||clog.miguvideo.com^
 ||cloooud.com^
 ||cnlogs.umengcloud.com^
@@ -16643,7 +16640,6 @@
 ||config.chsmarttv.com^
 ||config.inmobi.com^
 ||crash2.zhihu.com^
-||csjplatform.com^
 ||d.applovin.com^
 ||d.applvn.com^
 ||da.anythinktech.com^
@@ -16655,6 +16651,7 @@
 ||doubleclick-cn.net^
 ||download.changhong.upgrade2.huan.tv^
 ||downloadxml.changhong.upgrade2.huan.tv^
+||du-app.cn-hangzhou.log.aliyuncs.com^
 ||dyp2p-ali.douyucdn.cn^
 ||dyp2p-hw.douyucdn.cn^
 ||e.ad.xiaomi.com^
@@ -16734,6 +16731,7 @@
 ||l6.fancyapi.com^
 ||launcher.smart-tv.cn^
 ||launcherimg.smart-tv.cn^
+||lf-event-manager.oceanengine.com^
 ||lftxali.fancyapi.com^
 ||lh3.googleadsserving.cn^
 ||litchiads.com^
@@ -16743,6 +16741,7 @@
 ||livep.l.aiseet.atianqi.com^
 ||lm10111.jtrincc.cn^
 ||loading-cmp.hismarttv.com^
+||log-auth.zztfly.com^
 ||log-report.com^
 ||log-sdk.gifshow.com^
 ||log.ad.xiaomi.com^
@@ -16868,6 +16867,8 @@
 ||service.changhong.upgrade2.huan.tv^
 ||service.vmos.cn^
 ||sf16-static.i18n-pglstatp.com^
+||shihuo-new.log.shihuocdn.cn^
+||shihuo.log.shihuocdn.cn^
 ||slb-p2p.vcloud.ks-live.com^
 ||smartad.10010.com^
 ||sms.ads.oppomobile.com^
@@ -16924,9 +16925,8 @@
 ||umini.shujupie.com^
 ||union-mlog.bigda.com^
 ||union-record.oss-cn-zhangjiakou.aliyuncs.com^
-||union.baidu.cn^
-||union.baidu.com^
 ||unityads.unity3d.com^
+||upc.zztfly.com^
 ||update.lejiao.tv^
 ||v.adintl.cn^
 ||v1-ad.video.yximgs.com^
@@ -17168,7 +17168,6 @@
 ||img.zhangilihew.xyz^
 ||jinritemai.com^
 ||lbs.netease.im^
-||lf-event-manager.oceanengine.com^
 ||line.txwlwwvvimg.com^
 ||luckysf.net^
 ||market-ad.oss-accelerate.aliyuncs.com^
@@ -17229,6 +17228,7 @@
 ||trc-sdk.inmobi.cn^
 ||tu.mt20230625tu.com^
 ||ugditui.cn^
+||union.baidu.com^
 ||union.w.inmobi.cn^
 ||usr-api.yunxish.com^
 ||uu5512uu.com^
@@ -17248,7 +17248,7 @@
 ! ==============================================
 ! 📋 规则来源：AdRules DNS Filter
 ! 🔗 原始地址：https://raw.githubusercontent.com/Cats-Team/dns-filter/main/abp.txt
-! 📊 本区规则：140 条
+! 📊 本区规则：146 条
 ! ==============================================
 ||ad.10010.com^
 ||ad.163.com^
@@ -17275,10 +17275,13 @@
 ||ads360.cn^
 ||adservice.google.cn^
 ||adstatic.zhihu.com^
+||adstudio.spotify.com^
 ||adsunflower.com^
 ||adsunion.com^
 ||adtrack.ucweb.com^
 ||advertiseonbing.azureedge.net^
+||advertising-api-fe.amazon.com^
+||advertising-api.amazon.com^
 ||advmob.cn^
 ||adwangmai.com^
 ||adx-os-req.anythinktech.com^
@@ -17288,11 +17291,13 @@
 ||appcloud2.in.zhihu.com^
 ||applog.ucdns.uc.cn^
 ||bidtoolads.com^
+||bingads.microsoft.com^
 ||bsccdn.net^
 ||clientlog.music.163.com^
 ||cnzz.cn^
 ||cnzz.net^
 ||crashlytics.163.com^
+||csjplatform.com^
 ||cws-cctv.conviva.com^
 ||d.kugou.com^
 ||da.mgtv.com^
@@ -17384,6 +17389,7 @@
 ||tsvrv.com^
 ||udd1i5.zhihu.com^
 ||union.360.cn^
+||union.baidu.cn^
 ||unityads.unitychina.cn^
 ||uyunad.com^
 ||webstat.kuwo.cn^

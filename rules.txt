@@ -1,8 +1,8 @@
 ! Title: 酷安广告规则
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Last Updated: 2026-11-14 12:57:01（北京时间）
-! Total count: 32423
+! Last Updated: 2026-11-15 01:39:49（北京时间）
+! Total count: 32429
 ! ==============================================
 ! 📋 规则来源：5460
 ! 🔗 原始地址：https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt
@@ -8669,8 +8669,8 @@ play.google.com#@#a[href^="intent://"]
 ||adm.zhangyuyidong.cn^
 ||admarketing.yahoo.net^
 ||ads-img-qc.xhscdn.com^
-||ads-jp.tiktok.com^
 ||ads-video-qc.xhscdn.com^
+||ads-vp5.xhscdn.com^
 ||ads.95516.com^
 ||ads.adfunlink.com^
 ||ads.auctions.yahoo.com^
@@ -8690,17 +8690,13 @@ play.google.com#@#a[href^="intent://"]
 ||adsmart.konka.com^
 ||adsmoloco.com^
 ||adsp.xunlei.com^
-||adspecs.yahoo.com^
 ||adstextview.qq.com^
 ||adstore-1252524079.file.myqcloud.com^
 ||adstore-index-1252524079.file.myqcloud.com^
 ||adstudio-assets.scdn.co^
-||adstudio.spotify.com^
 ||adv-api.shenshiads.com^
 ||adv.sec.intl.miui.com^
 ||adv.sec.miui.com^
-||advertising-api-fe.amazon.com^
-||advertising-api.amazon.com^
 ||adview.cn^
 ||adx-ad.smart-tv.cn^
 ||adx-api.jinmo.tech^
@@ -8754,7 +8750,6 @@ play.google.com#@#a[href^="intent://"]
 ||beaconcdn.qq.com^
 ||bgg.baidu.com^
 ||bianxian.com^
-||bingads.microsoft.com^
 ||bj-td-menta-01-callback.advlion.com^
 ||bj.ad.track.66mobi.com^
 ||boost-cmp.hismarttv.com^
@@ -8776,6 +8771,7 @@ play.google.com#@#a[href^="intent://"]
 ||click.chinaliftoff.io^
 ||click.liftoff.io^
 ||click4.chinaliftoff.io^
+||client-upload.cn-shanghai.log.aliyuncs.com^
 ||clog.miguvideo.com^
 ||cloooud.com^
 ||cnlogs.umengcloud.com^
@@ -8783,7 +8779,6 @@ play.google.com#@#a[href^="intent://"]
 ||config.chsmarttv.com^
 ||config.inmobi.com^
 ||crash2.zhihu.com^
-||csjplatform.com^
 ||d.applovin.com^
 ||d.applvn.com^
 ||da.anythinktech.com^
@@ -8796,6 +8791,7 @@ play.google.com#@#a[href^="intent://"]
 ||download.changhong.upgrade2.huan.tv^
 ||downloadxml.changhong.upgrade2.huan.tv^
 ||dsp.fcbox.com^
+||du-app.cn-hangzhou.log.aliyuncs.com^
 ||dyp2p-ali.douyucdn.cn^
 ||dyp2p-hw.douyucdn.cn^
 ||e.ad.xiaomi.com^
@@ -8879,6 +8875,7 @@ play.google.com#@#a[href^="intent://"]
 ||l6.fancyapi.com^
 ||launcher.smart-tv.cn^
 ||launcherimg.smart-tv.cn^
+||lf-event-manager.oceanengine.com^
 ||lftxali.fancyapi.com^
 ||lh3.googleadsserving.cn^
 ||litchiads.com^
@@ -8888,6 +8885,7 @@ play.google.com#@#a[href^="intent://"]
 ||livep.l.aiseet.atianqi.com^
 ||lm10111.jtrincc.cn^
 ||loading-cmp.hismarttv.com^
+||log-auth.zztfly.com^
 ||log-report.com^
 ||log-sdk.gifshow.com^
 ||log-upload.mihoyo.com^
@@ -9019,6 +9017,8 @@ play.google.com#@#a[href^="intent://"]
 ||service.changhong.upgrade2.huan.tv^
 ||service.vmos.cn^
 ||sf16-static.i18n-pglstatp.com^
+||shihuo-new.log.shihuocdn.cn^
+||shihuo.log.shihuocdn.cn^
 ||shouji.sogou.com^
 ||sl.hpplay.cn^
 ||slb-p2p.vcloud.ks-live.com^
@@ -9082,9 +9082,8 @@ play.google.com#@#a[href^="intent://"]
 ||umini.shujupie.com^
 ||union-mlog.bigda.com^
 ||union-record.oss-cn-zhangjiakou.aliyuncs.com^
-||union.baidu.cn^
-||union.baidu.com^
 ||unityads.unity3d.com^
+||upc.zztfly.com^
 ||update.lejiao.tv^
 ||v.110route.cn^
 ||v.adintl.cn^
@@ -16501,7 +16500,6 @@ play.google.com#@#a[href^="intent://"]
 ||sf*-fe-tos.pglstatp-toutiao.com^
 ||sf6-fe-tos.pglstatp-toutiao.com^
 ||lf*-ad-union-sdk.pglstatp-toutiao.com^
-||lf-event-manager.oceanengine.com^
 ||scc.bytedance.com^||apps.bytesfield.com^
 ||www.pangle.cn^
 ||p*-ad-aweme.byteimg.com^
@@ -16576,6 +16574,7 @@ play.google.com#@#a[href^="intent://"]
 ||apps.bytesfield.com^
 ||s01.peplle.cn^
 ||s.peplle.cn^
+||union.baidu.com^
 ||adx-bj.statisticslinks.com^
 ||api-adx.52qumao.com^
 ||api-cfg.52qumao.com^
@@ -16711,6 +16710,7 @@ play.google.com#@#a[href^="intent://"]
 ||advmob.cn^
 ||adwangmai.com^
 ||bidtoolads.com^
+||csjplatform.com^
 ||markmedia.com^
 ||mobileservice.cn^
 ||trackerads.com^
@@ -16726,10 +16726,13 @@ play.google.com#@#a[href^="intent://"]
 ||h-adashx.ut.uc.cn^
 ||ope.tanx.com^
 ||s-adashx.ut.uc.cn^
+||advertising-api-fe.amazon.com^
+||advertising-api.amazon.com^
 ||iadworkbench.apple.com^
 ||searchads.apple.com^
 ||adashx.ut.amap.com^
 ||mime.baidu.com^
+||union.baidu.cn^
 ||advertiseonbing.azureedge.net^
 ||*-ad-sign.byteimg.com^
 ||*-applog.fqnovel.com^
@@ -16832,6 +16835,7 @@ play.google.com#@#a[href^="intent://"]
 ||cnzz.cn^
 ||cnzz.net^
 ||ulog*.*^
+||bingads.microsoft.com^
 ||ad.xiaomi.com^
 ||ad1.xiaomi.com^
 ||sentry.d.xiaomi.net^
@@ -16846,6 +16850,7 @@ play.google.com#@#a[href^="intent://"]
 ||adx-os-req.anythinktech.com^
 ||terms-drcn.platform.dbankcloud.cn^
 ||ad.smaato.net^
+||adstudio.spotify.com^
 ||unityads.unitychina.cn^
 ||ad.zhangyue.com^
 ||analytics.immersivetranslate.com^
@@ -24444,6 +24449,7 @@ play.google.com#@#a[href^="intent://"]
 ||bridgeoos.com^
 ||beacon.sina.com.cn^
 ||adserver.yahoo.com^
+||adspecs.yahoo.com^
 ||acz.youku.com^
 ||rhdc-acs.youku.com^
 ||ranfenghd.com^

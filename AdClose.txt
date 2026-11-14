@@ -1,7 +1,7 @@
 # AdClose 专用广告规则
-# 生成时间: 2026-11-14 12:57:01（北京时间）
+# 生成时间: 2026-11-15 01:39:49（北京时间）
 # 格式：domain, <域名>
-# Total count: 17307
+# Total count: 17313
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -1749,7 +1749,6 @@ domain, ads-drcn.platform.hihonorcloud.com
 domain, ads-img-al.xhscdn.com
 domain, ads-img-bak.xhscdn.com
 domain, ads-img-qc.xhscdn.com
-domain, ads-jp.tiktok.com
 domain, ads-jssdk.vivo.com.cn
 domain, ads-lb.serving-sys.cn
 domain, ads-marketing-vivofs.vivo.com.cn
@@ -1763,6 +1762,7 @@ domain, ads-union.jd.com
 domain, ads-video-1251524319.cos.ap-shanghai.myqcloud.com
 domain, ads-video-al.xhscdn.com
 domain, ads-video-qc.xhscdn.com
+domain, ads-vp5.xhscdn.com
 domain, ads.95516.com
 domain, ads.adadapted.com
 domain, ads.adfox.ru
@@ -4242,6 +4242,7 @@ domain, clicktracks.com
 domain, clickzs.com
 domain, client-api.ele.me
 domain, client-dmp.suishenyun.cn
+domain, client-upload.cn-shanghai.log.aliyuncs.com
 domain, client.88tours.com
 domain, client.show.qq.com
 domain, client.sidesearch.lycos.com
@@ -5493,6 +5494,7 @@ domain, dtrk.slimcdn.com
 domain, dts.akamai.startappexchange.com
 domain, dtscout.com
 domain, dtsxn.cn
+domain, du-app.cn-hangzhou.log.aliyuncs.com
 domain, du.jd.com
 domain, dualstack-logs.amap.com
 domain, duanat.com
@@ -9395,6 +9397,7 @@ domain, log-alibaba-taobao-douyin.cdn.bcebos.com
 domain, log-api-mn.huxiu.com
 domain, log-api.caoliao.net
 domain, log-api.huxiu.com
+domain, log-auth.zztfly.com
 domain, log-dmp.suishenyun.cn
 domain, log-hl.snssdk.com
 domain, log-klink.zijieapi.com
@@ -13307,6 +13310,8 @@ domain, shglegle.com
 domain, shibeiou.com
 domain, shiftrro.com
 domain, shigl.top
+domain, shihuo-new.log.shihuocdn.cn
+domain, shihuo.log.shihuocdn.cn
 domain, shijixinrui.cn
 domain, shili.downxia.com
 domain, shili.wanyx.com
@@ -14946,6 +14951,7 @@ domain, uoyrsd.com
 domain, up-hl.3g.qq.com
 domain, up.hiao.com
 domain, up4.ucweb.com
+domain, upc.zztfly.com
 domain, upd.faronicslabs.com
 domain, update.avlyun.sec.miui.com
 domain, update.baidu.com
