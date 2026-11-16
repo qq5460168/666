@@ -1,9 +1,9 @@
 # Title: Shadowrocket Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Last Updated: 2026-11-16 12:46:46（北京时间）
-# Shadowrocket规则数量: 17314
-! Total count: 17314
+# Last Updated: 2026-11-17 05:38:47（北京时间）
+# Shadowrocket规则数量: 17322
+! Total count: 17322
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -2097,6 +2097,7 @@ DOMAIN-SUFFIX,adx.ads.heytapmobi.com,REJECT
 DOMAIN-SUFFIX,adx.ads.oppomobile.com,REJECT
 DOMAIN-SUFFIX,adx.adwangmai.com,REJECT
 DOMAIN-SUFFIX,adx.adxglobal.com,REJECT
+DOMAIN-SUFFIX,adx.anythinktech.com,REJECT
 DOMAIN-SUFFIX,adx.appsdk.com.cn,REJECT
 DOMAIN-SUFFIX,adx.chip.de,REJECT
 DOMAIN-SUFFIX,adx.dictapis.cn,REJECT
@@ -3372,6 +3373,7 @@ DOMAIN-SUFFIX,bianxianmao.com,REJECT
 DOMAIN-SUFFIX,bid-adx.vlion.cn,REJECT
 DOMAIN-SUFFIX,bid-adx2.vlion.cn,REJECT
 DOMAIN-SUFFIX,bid.adbiding.com,REJECT
+DOMAIN-SUFFIX,bid.shanghailingye.cn,REJECT
 DOMAIN-SUFFIX,bidder.criteo.com,REJECT
 DOMAIN-SUFFIX,biddingos.com,REJECT
 DOMAIN-SUFFIX,biddingx.com,REJECT
@@ -4331,6 +4333,7 @@ DOMAIN-SUFFIX,cmspapp83.com,REJECT
 DOMAIN-SUFFIX,cmspapp84.com,REJECT
 DOMAIN-SUFFIX,cmws.iad.apple.com,REJECT
 DOMAIN-SUFFIX,cmx.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,cn-api-sec.anythinktech.com,REJECT
 DOMAIN-SUFFIX,cn-api.anythinktech.com,REJECT
 DOMAIN-SUFFIX,cn-beijing.log.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,cn-da.anythinktech.com,REJECT
@@ -4824,6 +4827,7 @@ DOMAIN-SUFFIX,da.anythinktech.com,REJECT
 DOMAIN-SUFFIX,da.hunantv.com,REJECT
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
 DOMAIN-SUFFIX,da.qiyukf.com,REJECT
+DOMAIN-SUFFIX,da.statisticslinks.com,REJECT
 DOMAIN-SUFFIX,da5.adfsda005.xyz,REJECT
 DOMAIN-SUFFIX,daa.shuzilm.cn,REJECT
 DOMAIN-SUFFIX,daadr.cn,REJECT
@@ -6008,7 +6012,9 @@ DOMAIN-SUFFIX,erlirscid.com,REJECT
 DOMAIN-SUFFIX,err.ifengcloud.ifeng.com,REJECT
 DOMAIN-SUFFIX,errdom.oss-cn-heyuan.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,errlog.umeng.com,REJECT
+DOMAIN-SUFFIX,errlogos.umeng.com,REJECT
 DOMAIN-SUFFIX,errnewlog.umeng.com,REJECT
+DOMAIN-SUFFIX,errnewlogos.umeng.com,REJECT
 DOMAIN-SUFFIX,errnotice.oss-cn-shenzhen.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,error.baidu.com,REJECT
 DOMAIN-SUFFIX,ers.baidu.com,REJECT
@@ -13625,6 +13631,7 @@ DOMAIN-SUFFIX,ss72269.com,REJECT
 DOMAIN-SUFFIX,ssac.suning.com,REJECT
 DOMAIN-SUFFIX,ssacher.com,REJECT
 DOMAIN-SUFFIX,ssancib.top,REJECT
+DOMAIN-SUFFIX,ssapi.anythinktech.com,REJECT
 DOMAIN-SUFFIX,ssasa.dvclw.cn,REJECT
 DOMAIN-SUFFIX,sscefsol.com,REJECT
 DOMAIN-SUFFIX,sscefsol.com.cn,REJECT
@@ -14356,6 +14363,7 @@ DOMAIN-SUFFIX,tk.anythinktech.com,REJECT
 DOMAIN-SUFFIX,tk.baidu.com,REJECT
 DOMAIN-SUFFIX,tk.d.mi.com,REJECT
 DOMAIN-SUFFIX,tk.optaim.com,REJECT
+DOMAIN-SUFFIX,tk.statisticslinks.com,REJECT
 DOMAIN-SUFFIX,tk029.click,REJECT
 DOMAIN-SUFFIX,tkcloud.iqiyi.com,REJECT
 DOMAIN-SUFFIX,tkd777.cn,REJECT

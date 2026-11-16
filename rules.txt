@@ -1,8 +1,8 @@
 ! Title: 酷安广告规则
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Last Updated: 2026-11-16 12:46:46（北京时间）
-! Total count: 32428
+! Last Updated: 2026-11-17 05:38:48（北京时间）
+! Total count: 32437
 ! ==============================================
 ! 📋 规则来源：5460
 ! 🔗 原始地址：https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt
@@ -8705,6 +8705,7 @@ play.google.com#@#a[href^="intent://"]
 ||adx-os.bridgeoos.com^
 ||adx-saas.advlion.com^
 ||adx-strategy-api-cn.statisticslinks.com^
+||adx.anythinktech.com^
 ||adx.appsdk.com.cn^
 ||adx.sogaha.cn^
 ||adx.tuia.cn^
@@ -8750,6 +8751,7 @@ play.google.com#@#a[href^="intent://"]
 ||beaconcdn.qq.com^
 ||bgg.baidu.com^
 ||bianxian.com^
+||bid.shanghailingye.cn^
 ||bj-td-menta-01-callback.advlion.com^
 ||bj.ad.track.66mobi.com^
 ||boost-cmp.hismarttv.com^
@@ -8774,6 +8776,7 @@ play.google.com#@#a[href^="intent://"]
 ||client-upload.cn-shanghai.log.aliyuncs.com^
 ||clog.miguvideo.com^
 ||cloooud.com^
+||cn-api-sec.anythinktech.com^
 ||cnlogs.umengcloud.com^
 ||commercial.shouji.360.cn^
 ||config.chsmarttv.com^
@@ -8782,6 +8785,7 @@ play.google.com#@#a[href^="intent://"]
 ||d.applovin.com^
 ||d.applvn.com^
 ||da.anythinktech.com^
+||da.statisticslinks.com^
 ||data.chsmarttv.com^
 ||datacollection.uve.weibo.com^
 ||dc.sigmob.cn^
@@ -8798,6 +8802,8 @@ play.google.com#@#a[href^="intent://"]
 ||edge.ads.twitch.tv^
 ||engine.dcad01.com^
 ||entry.baidu.com^
+||errlogos.umeng.com^
+||errnewlogos.umeng.com^
 ||et-eus.w.inmobi.com^
 ||event.tradplusad.com^
 ||events-drcn.op.dbankcloud.cn^
@@ -9024,6 +9030,7 @@ play.google.com#@#a[href^="intent://"]
 ||slb-p2p.vcloud.ks-live.com^
 ||smartad.10010.com^
 ||sms.ads.oppomobile.com^
+||ssapi.anythinktech.com^
 ||ssp.cloooud.com^
 ||staging-notify.sec.miui.com^
 ||stat.dongqiudi.com^
@@ -9052,6 +9059,7 @@ play.google.com#@#a[href^="intent://"]
 ||telemetry.sdk.inmobi.com^
 ||test.ad.xiaomi.com^
 ||test.e.ad.xiaomi.com^
+||tk.statisticslinks.com^
 ||tmfmazu-wangka.m.qq.com^
 ||tmfmazu.m.qq.com^
 ||tmfsdk.m.qq.com^
@@ -14156,6 +14164,7 @@ play.google.com#@#a[href^="intent://"]
 ! 📋 规则来源：茯苓
 ! 🔗 原始地址：https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Develop/FuLingRules/FuLingBlockList.txt
 ! ==============================================
+/(^|[._\/-])(httpdns|http[_-]dns)([._\/-]|$)/
 /(^|[._\/-])ads?([._\/-]|$)/
 ||*-*-*-lrycfv.vip^
 ||*.*-t0613.vip^
